@@ -1,0 +1,33 @@
+{
+  "id": "liderazgo",
+  "titulo": "Diplomado en Liderazgo para Equipos de Pastoral Juvenil",
+  "subtitulo": "21 claves para servir y guiar",
+  "descripcion": "Herramientas prácticas de liderazgo para quienes coordinan comunidades de pastoral juvenil católica: influir sin imponer, organizar un equipo, planificar, conducir reuniones, manejar conflictos y formar el relevo.",
+  "duracion": "120 horas en 15 semanas",
+  "modalidad": "Mixta: estudio en línea y un encuentro-taller semanal",
+  "autor": "",
+  "videollamada": {
+    "plataforma": "Google Meet",
+    "enlace": ""
+  },
+  "sesiones": [
+    { "semana": 1, "tema": "Bienvenida. Claves 1 y 2", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 2, "tema": "Claves 3 y 4", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 3, "tema": "Claves 5 y 6", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 4, "tema": "Claves 7 y 8", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 5, "tema": "Claves 9 y 10", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 6, "tema": "Cuadro de mando del grupo", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 7, "tema": "Claves 11 y 12", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 8, "tema": "Claves 13 y 14", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 9, "tema": "Claves 15 y 16", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 10, "tema": "Jornada de mitad de camino", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 11, "tema": "Claves 17 y 18", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 12, "tema": "Clave 19", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 13, "tema": "Claves 20 y 21", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 14, "tema": "Taller del proyecto final", "fecha": "", "hora": "", "lugar": "", "enlace": "" },
+    { "semana": 15, "tema": "Presentaciones y ceremonia de cierre", "fecha": "", "hora": "", "lugar": "", "enlace": "" }
+  ],
+  "recursos": {
+    "m1-c01": { "video": "", "presentacion": "" }
+  }
+}

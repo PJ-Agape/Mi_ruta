@@ -1,0 +1,232 @@
+{
+  "curso": "liderazgo",
+  "modulos": [
+    {
+      "id": "m1",
+      "numero": 1,
+      "titulo": "Cadena de valor del liderazgo y cuadro de mando",
+      "semanas": "1 a 6",
+      "intro": "Este módulo reúne las 11 clases del Módulo I (semanas 1 a 6): las claves 1 a 10 y el cuadro de mando. Cada clase trae el apunte para el participante, la plantilla de la herramienta, la guía del ejercicio para el relator y la pauta de aplicación.\n\n### Cómo usar este material\n\nCada clase tiene cuatro partes, pensadas para dos lectores distintos:\n\n| Parte | Para quién | Cuándo se usa |\n| --- | --- | --- |\n| Apunte | Participante | Antes del encuentro (lectura de 2 h) |\n| Plantilla | Participante | En el encuentro y en la aplicación |\n| Guía del ejercicio | Relator | Para conducir el encuentro-taller de 2 h |\n| Aplicación y bitácora | Participante | Durante la semana, con su equipo |\n\n**Estructura base del encuentro-taller (120 minutos):** acogida y repaso de la bitácora anterior (15 min), presentación breve de la clave (20 min), ejercicio (55 min), plenario (20 min) y compromiso de aplicación (10 min). Cada guía del relator detalla el ejercicio y el plenario; la acogida y el cierre se mantienen iguales en todas las clases.\n\n**Distribución del módulo:** las claves se trabajan de a dos por semana (semanas 1 a 5) y la semana 6 se dedica al cuadro de mando. En las semanas de dos claves, el encuentro dedica 50 minutos a cada una y la aplicación se elige entre ambas.",
+      "clases": [
+        {
+          "id": "m1-c01",
+          "tipo": "Clase",
+          "numero": 1,
+          "titulo": "El techo del líder",
+          "etiqueta": "Clase 1",
+          "semana": 1
+        },
+        {
+          "id": "m1-c02",
+          "tipo": "Clase",
+          "numero": 2,
+          "titulo": "Influencia, no cargo",
+          "etiqueta": "Clase 2",
+          "semana": 1
+        },
+        {
+          "id": "m1-c03",
+          "tipo": "Clase",
+          "numero": 3,
+          "titulo": "Crecer es un proceso",
+          "etiqueta": "Clase 3",
+          "semana": 2
+        },
+        {
+          "id": "m1-c04",
+          "tipo": "Clase",
+          "numero": 4,
+          "titulo": "Saber navegar",
+          "etiqueta": "Clase 4",
+          "semana": 2
+        },
+        {
+          "id": "m1-c05",
+          "tipo": "Clase",
+          "numero": 5,
+          "titulo": "Sumar valor a cada persona",
+          "etiqueta": "Clase 5",
+          "semana": 3
+        },
+        {
+          "id": "m1-c06",
+          "tipo": "Clase",
+          "numero": 6,
+          "titulo": "La confianza es la base",
+          "etiqueta": "Clase 6",
+          "semana": 3
+        },
+        {
+          "id": "m1-c07",
+          "tipo": "Clase",
+          "numero": 7,
+          "titulo": "Autoridad que se gana",
+          "etiqueta": "Clase 7",
+          "semana": 4
+        },
+        {
+          "id": "m1-c08",
+          "tipo": "Clase",
+          "numero": 8,
+          "titulo": "Leer la realidad antes de decidir",
+          "etiqueta": "Clase 8",
+          "semana": 4
+        },
+        {
+          "id": "m1-c09",
+          "tipo": "Clase",
+          "numero": 9,
+          "titulo": "Atraemos lo que somos",
+          "etiqueta": "Clase 9",
+          "semana": 5
+        },
+        {
+          "id": "m1-c10",
+          "tipo": "Clase",
+          "numero": 10,
+          "titulo": "Conectar antes de pedir",
+          "etiqueta": "Clase 10",
+          "semana": 5
+        },
+        {
+          "id": "m1-c11",
+          "tipo": "Clase",
+          "numero": 11,
+          "titulo": "Cuadro de mando del grupo",
+          "etiqueta": "Clase 11",
+          "semana": 6
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "numero": 2,
+      "titulo": "Preparación del líder",
+      "semanas": "7 a 10",
+      "intro": "Este módulo reúne el Módulo II (semanas 7 a 10): las claves 11 a 16 y la jornada de mitad de camino. Sigue el mismo formato del Módulo I: apunte, plantilla, guía del ejercicio para el relator (50 minutos por clave) y pauta de aplicación. El foco de este módulo es el equipo coordinador.",
+      "clases": [
+        {
+          "id": "m2-c11",
+          "tipo": "Clave",
+          "numero": 11,
+          "titulo": "El círculo cercano",
+          "etiqueta": "Clave 11",
+          "semana": 7
+        },
+        {
+          "id": "m2-c12",
+          "tipo": "Clave",
+          "numero": 12,
+          "titulo": "Delegar es empoderar",
+          "etiqueta": "Clave 12",
+          "semana": 7
+        },
+        {
+          "id": "m2-c13",
+          "tipo": "Clave",
+          "numero": 13,
+          "titulo": "Se enseña con el ejemplo",
+          "etiqueta": "Clave 13",
+          "semana": 8
+        },
+        {
+          "id": "m2-c14",
+          "tipo": "Clave",
+          "numero": 14,
+          "titulo": "Primero creen en ti, después en tu proyecto",
+          "etiqueta": "Clave 14",
+          "semana": 8
+        },
+        {
+          "id": "m2-c15",
+          "tipo": "Clave",
+          "numero": 15,
+          "titulo": "Hacer que las cosas pasen",
+          "etiqueta": "Clave 15",
+          "semana": 9
+        },
+        {
+          "id": "m2-c16",
+          "tipo": "Clave",
+          "numero": 16,
+          "titulo": "Cuidar el impulso",
+          "etiqueta": "Clave 16",
+          "semana": 9
+        },
+        {
+          "id": "m2-s10",
+          "tipo": "Semana",
+          "numero": 10,
+          "titulo": "Jornada de mitad de camino y trabajo del módulo",
+          "etiqueta": "Semana 10",
+          "semana": 10
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "numero": 3,
+      "titulo": "Cómo ganar siendo líder",
+      "semanas": "11 a 15",
+      "intro": "Este módulo reúne el Módulo III (semanas 11 a 15): las claves 17 a 21, el taller del proyecto final y el cierre del diplomado. Sigue el mismo formato de los módulos anteriores. El foco es el enfoque ganar-ganar: que crezcan la persona, el equipo, la parroquia y la comunidad juvenil.",
+      "clases": [
+        {
+          "id": "m3-c17",
+          "tipo": "Clave",
+          "numero": 17,
+          "titulo": "Primero lo primero",
+          "etiqueta": "Clave 17",
+          "semana": 11
+        },
+        {
+          "id": "m3-c18",
+          "tipo": "Clave",
+          "numero": 18,
+          "titulo": "Entrega sin desgaste",
+          "etiqueta": "Clave 18",
+          "semana": 11
+        },
+        {
+          "id": "m3-c19",
+          "tipo": "Clave",
+          "numero": 19,
+          "titulo": "El momento oportuno",
+          "etiqueta": "Clave 19",
+          "semana": 12
+        },
+        {
+          "id": "m3-c20",
+          "tipo": "Clave",
+          "numero": 20,
+          "titulo": "Multiplicar líderes",
+          "etiqueta": "Clave 20",
+          "semana": 13
+        },
+        {
+          "id": "m3-c21",
+          "tipo": "Clave",
+          "numero": 21,
+          "titulo": "Dejar legado",
+          "etiqueta": "Clave 21",
+          "semana": 13
+        },
+        {
+          "id": "m3-s14",
+          "tipo": "Semana",
+          "numero": 14,
+          "titulo": "Taller del proyecto final",
+          "etiqueta": "Semana 14",
+          "semana": 14
+        },
+        {
+          "id": "m3-s15",
+          "tipo": "Semana",
+          "numero": 15,
+          "titulo": "Presentaciones, evaluación y ceremonia de cierre",
+          "etiqueta": "Semana 15",
+          "semana": 15
+        }
+      ]
+    }
+  ]
+}
