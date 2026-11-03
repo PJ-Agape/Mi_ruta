@@ -1,0 +1,53 @@
+{
+ "curso": "discernimiento-y-oracion",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "El silencio y el encuentro interior",
+   "semanas": "",
+   "intro": "Un itinerario de cuatro unidades para quienes quieren profundizar su vida de oración: hacer silencio, orar con la Palabra, reconocer lo que Dios mueve en el corazón y aprender a decidir con Él.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1.1",
+     "titulo": "Entrar en tu habitación secreta",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 1.2",
+     "titulo": "Orar con la Palabra: la lectio divina",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 1.3",
+     "titulo": "Lo que se mueve en el corazón",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 1.4",
+     "titulo": "Decidir con Dios",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Discernimiento de la oración",
+     "tiempo": "6 preguntas"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "m1-eval": {
+  "titulo": "Coordinar desde Cristo",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Un dirigente nuevo prepara una dinámica que no te convence del todo. ¿Qué hace un coordinador que sirve?",
+    "opciones": [
+     "La rehace él mismo para que salga perfecta.",
+     "Le pregunta qué quiere lograr, le sugiere mejoras y lo deja hacerla, acompañándolo.",
+     "Le dice que mejor no la haga."
+    ],
+    "correcta": 1,
+    "explicacion": "Coordinar es ayudar a que cada uno dé lo mejor de sí, no hacerlo todo uno mismo."
+   },
+   {
+    "pregunta": "Tú y tu compañero de dupla no están de acuerdo en una decisión importante. ¿Qué corresponde?",
+    "opciones": [
+     "Que cada uno lo plantee al equipo para ver quién gana.",
+     "Conversarlo en privado, rezar, escuchar al equipo y, si no hay acuerdo, consultar a los asesores.",
+     "Decide el que lleva más tiempo en Ágape."
+    ],
+    "correcta": 1,
+    "explicacion": "Los desacuerdos de la dupla se conversan en privado y se disciernen, con ayuda de los asesores si es necesario."
+   },
+   {
+    "pregunta": "Al armar el calendario del año, ¿qué va primero?",
+    "opciones": [
+     "Las actividades más entretenidas.",
+     "El año litúrgico y la misa dominical, y a partir de ahí las actividades.",
+     "Las fechas libres de los dirigentes."
+    ],
+    "correcta": 1,
+    "explicacion": "La Eucaristía es fuente y culmen de la vida cristiana: el calendario se arma a partir del año litúrgico."
+   },
+   {
+    "pregunta": "¿Cuál es una buena señal de que la coordinación funciona?",
+    "opciones": [
+     "Que todo depende del coordinador.",
+     "Que el equipo funciona bien incluso cuando el coordinador falta un día.",
+     "Que el coordinador hace la mayor parte del trabajo."
+    ],
+    "correcta": 1,
+    "explicacion": "Un buen coordinador forma un equipo que funciona sin depender solo de él."
+   },
+   {
+    "pregunta": "¿Cuál es la diferencia entre autoridad y poder en un coordinador?",
+    "opciones": [
+     "No hay diferencia: ambos vienen del cargo.",
+     "La autoridad se gana sirviendo y buscando el bien del grupo; el poder se impone.",
+     "El poder es mejor porque permite decidir más rápido."
+    ],
+    "correcta": 1,
+    "explicacion": "La autoridad cristiana nace del servicio y la coherencia, como la de Jesús."
+   },
+   {
+    "pregunta": "¿Qué ayuda más a prevenir tensiones en una dupla de coordinación?",
+    "opciones": [
+     "Que uno de los dos tome todas las decisiones.",
+     "Un acuerdo escrito sobre tareas, decisiones, comunicación y cómo resolver desacuerdos.",
+     "Evitar hablar de los problemas para no pelear."
+    ],
+    "correcta": 1,
+    "explicacion": "Poner por escrito las expectativas al comenzar evita malentendidos y cuida la amistad."
+   },
+   {
+    "pregunta": "¿Qué texto es una buena opción para la oración de la reunión de equipo?",
+    "opciones": [
+     "El Evangelio del domingo siguiente, con una pregunta que lo conecte con el servicio.",
+     "Cualquier frase motivacional de internet.",
+     "Ninguno: rezar quita tiempo a la organización."
+    ],
+    "correcta": 0,
+    "explicacion": "El Evangelio del domingo une al equipo con la Iglesia y ofrece luz para el servicio."
+   }
+  ]
+ },
+ "m2-eval": {
+  "titulo": "Planificar con sentido",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es el mejor objetivo para el año?",
+    "opciones": [
+     "Que los jóvenes sean más buenos.",
+     "Que cada familia del grupo tenga un momento de oración en todos sus encuentros, preparado por los propios jóvenes.",
+     "Hacer muchas actividades."
+    ],
+    "correcta": 1,
+    "explicacion": "Un buen objetivo dice qué queremos lograr y cómo nos daremos cuenta de que lo logramos."
+   },
+   {
+    "pregunta": "Para organizar un retiro, el equipo dice «todos ayudamos con todo». ¿Qué falta?",
+    "opciones": [
+     "Más entusiasmo.",
+     "Un responsable con nombre para cada acción, con fecha y recursos.",
+     "Hacer el retiro más corto."
+    ],
+    "correcta": 1,
+    "explicacion": "Una tarea que es de todos suele terminar siendo de nadie: cada acción necesita un responsable y una fecha."
+   },
+   {
+    "pregunta": "¿Qué se hace después de cada reunión del equipo?",
+    "opciones": [
+     "Nada: todos recuerdan lo conversado.",
+     "Se envía el mismo día un acta breve con los acuerdos, responsables y plazos.",
+     "Se espera a la próxima reunión para recordar."
+    ],
+    "correcta": 1,
+    "explicacion": "Sin acta, los acuerdos se olvidan."
+   },
+   {
+    "pregunta": "Una situación personal delicada de un joven, ¿en qué reunión se trata?",
+    "opciones": [
+     "En la quincenal, con todo el equipo.",
+     "En la mensual, con los asesores, cuidando la confidencialidad.",
+     "En el chat del equipo."
+    ],
+    "correcta": 1,
+    "explicacion": "Las situaciones delicadas se tratan con los asesores, con discreción, no frente a todo el equipo."
+   },
+   {
+    "pregunta": "¿Qué conviene revisar antes de agregar actividades propias al calendario del grupo?",
+    "opciones": [
+     "Las preferencias del coordinador.",
+     "El calendario litúrgico, el escolar y lo que propone la parroquia y la diócesis.",
+     "Las actividades de otros grupos para competir con ellas."
+    ],
+    "correcta": 1,
+    "explicacion": "El año pastoral se construye al ritmo de la Iglesia y considerando la vida real de los jóvenes."
+   },
+   {
+    "pregunta": "¿Cuál de estos es un objetivo claro?",
+    "opciones": [
+     "Que el grupo crezca mucho.",
+     "Que al menos ocho jóvenes nuevos participen antes de fin de mayo.",
+     "Hacer más actividades."
+    ],
+    "correcta": 1,
+    "explicacion": "Un objetivo claro dice qué, cuánto y para cuándo, y permite revisar si se cumplió."
+   },
+   {
+    "pregunta": "¿Qué debe tener como mínimo el acta de una reunión?",
+    "opciones": [
+     "Todo lo que dijo cada persona.",
+     "Los acuerdos, con quién se hace cargo y para cuándo.",
+     "Solo la lista de asistentes."
+    ],
+    "correcta": 1,
+    "explicacion": "Un acta breve con qué, quién y cuándo es suficiente para hacer seguimiento."
+   }
+  ]
+ },
+ "m3-eval": {
+  "titulo": "Seguir, administrar y evaluar",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuándo conviene revisar el tablero de compromisos?",
+    "opciones": [
+     "Solo al final del año.",
+     "Al comienzo de cada reunión quincenal, y preguntando antes de cada fecha.",
+     "Cuando algo sale mal."
+    ],
+    "correcta": 1,
+    "explicacion": "El seguimiento se adelanta: se revisa en cada reunión y se pregunta antes de la fecha."
+   },
+   {
+    "pregunta": "Un dirigente no trajo el material que le tocaba por segunda vez. ¿Qué haces?",
+    "opciones": [
+     "Se lo reclamas delante del grupo.",
+     "Le preguntas en privado qué pasó y buscan juntos una solución.",
+     "Lo sacas del equipo."
+    ],
+    "correcta": 1,
+    "explicacion": "Antes de reclamar, se pregunta; nunca se expone a alguien delante del grupo."
+   },
+   {
+    "pregunta": "¿Cuál es una buena práctica con el dinero del grupo?",
+    "opciones": [
+     "Que lo guarde el coordinador en su cuenta personal.",
+     "Registrar cada ingreso y gasto con comprobante, contarlo entre dos y rendir cuenta cada semestre.",
+     "No anotar nada para no complicarse."
+    ],
+    "correcta": 1,
+    "explicacion": "La transparencia protege a la comunidad y a quien administra."
+   },
+   {
+    "pregunta": "Al evaluar una actividad que salió mal, ¿qué corresponde?",
+    "opciones": [
+     "Buscar al culpable.",
+     "Preguntar qué funcionó, qué no y qué aprendimos, evaluando acciones y no personas.",
+     "No hablar más del tema."
+    ],
+    "correcta": 1,
+    "explicacion": "Evaluar es aprender, con caridad, y terminar dando gracias."
+   },
+   {
+    "pregunta": "¿Para qué sirve un tablero de tres columnas en el equipo?",
+    "opciones": [
+     "Para controlar a los dirigentes y castigar a quien no cumple.",
+     "Para ver de forma sencilla qué compromisos están por hacer, en curso y hechos.",
+     "Para reemplazar las reuniones."
+    ],
+    "correcta": 1,
+    "explicacion": "El tablero ayuda a que el seguimiento sea visible y compartido, evitando olvidos y malentendidos."
+   },
+   {
+    "pregunta": "¿Cuál es una buena práctica para manejar el dinero del grupo?",
+    "opciones": [
+     "Que lo guarde quien tenga más tiempo, en su cuenta personal.",
+     "Contarlo entre dos, guardar comprobantes y rendir cuentas periódicamente.",
+     "No anotar los gastos pequeños."
+    ],
+    "correcta": 1,
+    "explicacion": "La transparencia exige registro, comprobantes, dos personas y rendición de cuentas."
+   },
+   {
+    "pregunta": "¿Cómo deben usarse los datos en la evaluación del año?",
+    "opciones": [
+     "Para comparar a los dirigentes entre sí.",
+     "Para ver tendencias, aprender juntos y dar gracias.",
+     "Para medir la fe de los jóvenes."
+    ],
+    "correcta": 1,
+    "explicacion": "Los datos muestran tendencias, no miden la fe ni sirven para culpar."
+   }
+  ]
+ },
+ "m4-eval": {
+  "titulo": "Comunicar y cuidar al equipo",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es una frase asertiva?",
+    "opciones": [
+     "«Tú nunca cumples nada».",
+     "«En las últimas dos reuniones llegaste tarde; me preocupa. Necesito que me avises. ¿Qué te está pasando?».",
+     "No decir nada para evitar problemas."
+    ],
+    "correcta": 1,
+    "explicacion": "La frase asertiva describe sin juzgar, dice cómo me afecta, pide lo que necesito y pregunta."
+   },
+   {
+    "pregunta": "Dos dirigentes están peleados. ¿Cuál es el primer paso?",
+    "opciones": [
+     "Comentarlo en el grupo de WhatsApp del equipo.",
+     "Escuchar a cada uno por separado y luego reunirlos para buscar un acuerdo.",
+     "Esperar a que se les pase."
+    ],
+    "correcta": 1,
+    "explicacion": "Jesús propone empezar en privado; la coordinación puede mediar escuchando a cada uno."
+   },
+   {
+    "pregunta": "¿Qué datos de un joven se pueden publicar en redes del grupo?",
+    "opciones": [
+     "Nombre completo y colegio.",
+     "Solo el nombre y la inicial del apellido, y fotos con autorización de sus apoderados.",
+     "Cualquier dato si el joven está de acuerdo."
+    ],
+    "correcta": 1,
+    "explicacion": "Se cuida la privacidad: nombre e inicial, y fotos solo con autorización."
+   },
+   {
+    "pregunta": "¿Dónde se tiene una conversación difícil con alguien del equipo?",
+    "opciones": [
+     "Por chat, para que quede por escrito.",
+     "En persona y en privado.",
+     "Delante del equipo, para que todos aprendan."
+    ],
+    "correcta": 1,
+    "explicacion": "Las conversaciones difíciles se tienen en persona: por escrito el tono se malinterpreta."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases es un mensaje en primera persona?",
+    "opciones": [
+     "Tú nunca ayudas a ordenar.",
+     "Me siento sobrepasado cuando ordeno solo después del encuentro; te pido que me ayudes este sábado.",
+     "Eres un irresponsable."
+    ],
+    "correcta": 1,
+    "explicacion": "El mensaje en primera persona expresa lo que siento y pido, sin acusar."
+   },
+   {
+    "pregunta": "En una mediación entre dos dirigentes, ¿cuál es el papel del coordinador?",
+    "opciones": [
+     "Decidir quién tiene la razón.",
+     "Ayudar a que ambos se escuchen y encuentren juntos una salida.",
+     "Contarle al grupo lo que pasó."
+    ],
+    "correcta": 1,
+    "explicacion": "Mediar es facilitar el diálogo, no juzgar. Si hay una falta grave o un riesgo, se avisa al asesor y a la parroquia."
+   },
+   {
+    "pregunta": "¿Qué se necesita antes de publicar fotos de jóvenes menores de edad en las redes del grupo?",
+    "opciones": [
+     "Nada, si la foto es bonita.",
+     "Autorización escrita de los apoderados y cuidar que la imagen no los exponga.",
+     "Solo que el dirigente esté de acuerdo."
+    ],
+    "correcta": 1,
+    "explicacion": "La imagen de un menor requiere autorización de sus apoderados y criterios de cuidado al publicar."
+   }
+  ]
+ },
+ "m5-eval": {
+  "titulo": "Cuidar a todos y preparar el relevo",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Un joven te cuenta que alguien abusó de él. ¿Qué haces?",
+    "opciones": [
+     "Le prometes no contarle a nadie.",
+     "Lo escuchas, le crees, no lo interrogas y avisas el mismo día a los asesores y al párroco.",
+     "Confrontas a la persona señalada."
+    ],
+    "correcta": 1,
+    "explicacion": "Se protege a la víctima, no se investiga por cuenta propia y se avisa de inmediato a quien sigue el protocolo."
+   },
+   {
+    "pregunta": "¿Qué se necesita antes de una salida con menores?",
+    "opciones": [
+     "Solo avisar por WhatsApp.",
+     "Autorizaciones firmadas, adultos responsables suficientes, fichas de emergencia y el programa informado.",
+     "Que vayan los que quieran."
+    ],
+    "correcta": 1,
+    "explicacion": "La lista de revisión de salidas protege a todos."
+   },
+   {
+    "pregunta": "Un joven dice que no quiere seguir viviendo. ¿Qué corresponde?",
+    "opciones": [
+     "Pedirle que no exagere.",
+     "No dejarlo solo, avisar de inmediato a su familia y a un asesor, y llamar a emergencias si hay riesgo inmediato.",
+     "Esperar a ver si se le pasa."
+    ],
+    "correcta": 1,
+    "explicacion": "Se toma en serio, se acompaña y se deriva de inmediato, sin reemplazar a los profesionales."
+   },
+   {
+    "pregunta": "¿Cuándo debe empezar a pensar la coordinación en el relevo?",
+    "opciones": [
+     "En el último mes del período.",
+     "Desde el comienzo, formando y confiando responsabilidades a otros.",
+     "Nunca: los asesores eligen."
+    ],
+    "correcta": 1,
+    "explicacion": "Un buen coordinador forma desde el primer día a quienes vendrán después."
+   },
+   {
+    "pregunta": "Faltando una semana para el campamento, faltan autorizaciones y adultos responsables. ¿Qué debe hacer la coordinación?",
+    "opciones": [
+     "Hacerlo igual, porque siempre se ha hecho así.",
+     "Ajustar o postergar la actividad hasta cumplir los criterios de seguridad.",
+     "Pedir a los dirigentes menores de edad que reemplacen a los adultos."
+    ],
+    "correcta": 1,
+    "explicacion": "Si no se cumplen los criterios de seguridad, la actividad se ajusta o se posterga. La seguridad de los jóvenes no se improvisa."
+   },
+   {
+    "pregunta": "Ante una crisis de salud con riesgo de vida durante una actividad, ¿qué se hace primero?",
+    "opciones": [
+     "Avisar a todo el grupo de WhatsApp.",
+     "Asegurar a la persona y llamar al número de emergencia; luego avisar al adulto responsable.",
+     "Esperar a ver si se le pasa."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero la vida: asegurar a la persona y llamar a emergencias. Después, avisar al adulto responsable y a la familia."
+   },
+   {
+    "pregunta": "¿Cuándo conviene armar la carpeta de traspaso?",
+    "opciones": [
+     "La última semana del período.",
+     "Durante todo el período, para entregarla en persona con tiempo.",
+     "No es necesaria si los nuevos son buenos."
+    ],
+    "correcta": 1,
+    "explicacion": "La carpeta se construye durante el servicio y se entrega con tiempo, explicando y respondiendo dudas."
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "unidades": {
+  "3.1": {
+   "comenzar": "Haz una lista de los compromisos que el equipo asumió en el último mes. Marca con un visto los cumplidos, con una cruz los que no y con un signo de pregunta los que nadie sabe cómo van. ¿Qué te dice tu lista?",
+   "logros": ["Hacer seguimiento de compromisos con una herramienta sencilla.", "Preguntar a tiempo sin presionar.", "Actuar con caridad y claridad cuando alguien no cumple."],
+   "profundizar": {
+    "titulo": "Un tablero en tres columnas",
+    "texto": "Una de las herramientas más simples para seguir compromisos es un tablero con tres columnas: **Por hacer**, **Haciendo** y **Hecho**. Cada compromiso se escribe en una tarjeta (de papel o digital) con tres datos: la tarea, el responsable y la fecha.\n\nCómo usarlo:\n\n- Al final de cada reunión, las tareas nuevas van a «Por hacer».\n- Cuando alguien empieza, mueve su tarjeta a «Haciendo».\n- Cuando termina, la mueve a «Hecho» y el equipo lo reconoce.\n- En la siguiente reunión, se revisan primero las tarjetas que siguen en «Haciendo».\n\nPuede hacerse en un papelógrafo en la sala, en una planilla compartida o en una aplicación gratuita de tableros. Lo importante no es la herramienta, sino el hábito de mirarlo juntos. Un tablero a la vista evita el «yo pensé que lo hacías tú»."
+   },
+   "caso": {
+    "titulo": "El que siempre dice que sí",
+    "texto": "Joaquín se ofrece para todo en las reuniones, pero casi nunca cumple. El equipo ya no cuenta con él y lo comentan a sus espaldas. Él no se ha dado cuenta de que los demás están molestos.",
+    "preguntas": ["¿Cómo abordarías la situación desde la coordinación?", "¿Qué podría estar pasando con Joaquín?"]
+   },
+   "claves": [["Compromiso", "Tarea asumida con responsable y fecha."], ["Seguimiento", "Revisar el avance de los compromisos con cercanía, sin presionar."], ["Fidelidad", "Cumplir lo prometido, también en lo pequeño."]],
+   "lectio": {
+    "meditar": "«El que es fiel en lo poco también es fiel en lo mucho». ¿En qué cosas pequeñas te cuesta ser fiel?",
+    "orar": "Presenta a Dios los compromisos de tu equipo y pide fidelidad para ti y para los demás.",
+    "vivir": "Cumple esta semana un compromiso pequeño que tenías olvidado."
+   },
+   "practica": ["Arma un tablero de tres columnas para el equipo.", "Pasa a tarjetas los compromisos actuales.", "Revísalo al inicio de cada reunión durante un mes.", "Evalúen juntos si les sirvió."],
+   "idea": "Lo que no se revisa, se olvida."
+  },
+  "3.2": {
+   "comenzar": "Escribe qué recursos tiene tu grupo: dinero, materiales, espacios, equipos. ¿Sabes exactamente cuánto hay de cada cosa y dónde está? Si no lo sabes, esta unidad es para ti.",
+   "logros": ["Administrar el dinero del grupo con transparencia.", "Llevar un inventario sencillo de materiales.", "Rendir cuentas periódicamente al equipo, al asesor y a la parroquia."],
+   "profundizar": {
+    "titulo": "Reglas de oro para la plata del grupo",
+    "texto": "San Pablo cuidaba tanto la colecta para Jerusalén que pidió que la acompañaran personas de confianza, «para evitar cualquier crítica» (2 Corintios 8,20). Esa prudencia sigue vigente. Algunas reglas de oro:\n\n- **El dinero nunca se mezcla con la plata personal:** no se guarda en tu billetera ni en tu cuenta. Si la parroquia lo permite, se usa una cuenta o una caja de la parroquia.\n- **El dinero se cuenta entre dos personas** y se anota de inmediato.\n- **Todo gasto tiene comprobante:** boleta o factura, pegada en un cuaderno o fotografiada en una carpeta compartida.\n- **Un cuaderno o planilla simple:** fecha, concepto, ingreso, gasto y saldo.\n- **Rendición periódica:** cada trimestre se muestra al equipo y al asesor cuánto entró, cuánto salió y cuánto queda.\n- **Los menores de edad no manejan solos el dinero:** siempre hay un adulto responsable.\n\nLa transparencia protege la confianza del grupo y protege a quien administra."
+   },
+   "caso": {
+    "titulo": "La plata de la rifa",
+    "texto": "Después de una rifa, la plata quedó en la mochila de una dirigente. Dos meses después, nadie sabe cuánto se juntó ni cuánto se gastó en la convivencia. Hay comentarios incómodos en el equipo.",
+    "preguntas": ["¿Qué reglas se rompieron?", "¿Cómo ordenarías la situación sin culpar a nadie?"]
+   },
+   "claves": [["Transparencia", "Que cualquiera del equipo pueda saber cómo se usan los recursos."], ["Rendición de cuentas", "Informar periódicamente de ingresos, gastos y saldo."], ["Inventario", "Lista de materiales con su cantidad, estado y ubicación."]],
+   "lectio": {
+    "meditar": "Pablo dice que procura el bien no solo ante Dios, sino también ante los hombres. ¿Por qué importa que la honradez también se vea?",
+    "orar": "Pide a Dios un corazón honesto y desprendido para administrar lo que es de todos.",
+    "vivir": "Revisa esta semana el estado de la caja o los materiales del grupo."
+   },
+   "practica": ["Abre una planilla simple de ingresos y gastos.", "Haz un inventario de los materiales del grupo.", "Acuerda con el asesor dónde se guarda el dinero.", "Fija una fecha trimestral de rendición de cuentas."],
+   "idea": "La transparencia cuida la confianza del grupo y a quien administra."
+  },
+  "3.3": {
+   "comenzar": "Piensa en la última actividad del grupo. Responde en una línea cada pregunta: ¿qué salió bien?, ¿qué salió mal?, ¿qué cambiaríamos? Si te costó responder porque nadie lo conversó, ya sabes por qué es importante esta unidad.",
+   "logros": ["Evaluar encuentros y actividades con tres preguntas.", "Evaluar el año pastoral con datos sencillos.", "Evaluar con caridad, sin buscar culpables."],
+   "profundizar": {
+    "titulo": "Evaluar con datos sencillos",
+    "texto": "Además de conversar, ayuda tener algunos datos simples para mirar el año con más objetividad:\n\n- **Asistencia:** cuántos jóvenes participaron en promedio cada mes.\n- **Permanencia:** cuántos de los que llegaron en marzo siguen en noviembre.\n- **Participación en la vida de la Iglesia:** cuántos fueron a misa con el grupo, a los retiros o recibieron sacramentos.\n- **Servicio:** cuántos jóvenes asumieron alguna tarea.\n- **Formación de dirigentes:** cuántos dirigentes avanzaron en su formación.\n\nEstos datos no miden la fe de nadie, pero muestran tendencias: si los jóvenes se van a mitad de año, si los dirigentes se agotan o si la misa quedó fuera del grupo. A partir de ellos se pueden hacer mejores preguntas al discernir.\n\nUna advertencia: los números nunca se usan para comparar a dirigentes ni para culpar. Se usan para aprender juntos y para dar gracias por lo que Dios hizo."
+   },
+   "caso": {
+    "titulo": "La evaluación que terminó en pelea",
+    "texto": "En la evaluación de fin de año, la conversación se centró en quién había fallado. Dos dirigentes se fueron molestos y nadie habló de lo que se había logrado.",
+    "preguntas": ["¿Qué faltó en la manera de evaluar?", "¿Cómo conducirías esa evaluación el próximo año?"]
+   },
+   "claves": [["Evaluación", "Mirar lo vivido para aprender y mejorar."], ["Indicador", "Dato sencillo que ayuda a ver una tendencia, como la asistencia."], ["Acción de gracias", "Reconocer lo que Dios hizo a través del servicio."]],
+   "lectio": {
+    "meditar": "Los apóstoles vuelven y le cuentan a Jesús todo lo que hicieron. ¿Qué le contarías tú hoy del año del grupo?",
+    "orar": "Da gracias a Dios por tres frutos concretos del año.",
+    "vivir": "Guarda diez minutos al final de la próxima actividad para evaluarla."
+   },
+   "practica": ["Reúne los datos sencillos del año (asistencia, permanencia, participación).", "Prepara una evaluación en tres momentos: agradecer, revisar y proponer.", "Conduce la conversación sin buscar culpables.", "Escribe tres aprendizajes para el próximo año y compártelos con el asesor."],
+   "idea": "Evaluar es aprender juntos y dar gracias, no buscar culpables."
+  }
+ },
+ "evaluacion": [
+  {"q": "¿Para qué sirve un tablero de tres columnas en el equipo?", "options": ["Para controlar a los dirigentes y castigar a quien no cumple.", "Para ver de forma sencilla qué compromisos están por hacer, en curso y hechos.", "Para reemplazar las reuniones."], "correct": 1, "feedback": "El tablero ayuda a que el seguimiento sea visible y compartido, evitando olvidos y malentendidos."},
+  {"q": "¿Cuál es una buena práctica para manejar el dinero del grupo?", "options": ["Que lo guarde quien tenga más tiempo, en su cuenta personal.", "Contarlo entre dos, guardar comprobantes y rendir cuentas periódicamente.", "No anotar los gastos pequeños."], "correct": 1, "feedback": "La transparencia exige registro, comprobantes, dos personas y rendición de cuentas."},
+  {"q": "¿Cómo deben usarse los datos en la evaluación del año?", "options": ["Para comparar a los dirigentes entre sí.", "Para ver tendencias, aprender juntos y dar gracias.", "Para medir la fe de los jóvenes."], "correct": 1, "feedback": "Los datos muestran tendencias, no miden la fe ni sirven para culpar."}
+ ]
+}

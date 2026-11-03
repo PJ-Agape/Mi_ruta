@@ -1,0 +1,325 @@
+{
+ "curso": "arte-de-encontrarnos",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Fundamentos: identidad del dirigente y mirada de fe",
+   "semanas": "",
+   "intro": "Antes de preparar dinámicas o temas, conviene detenerse en la pregunta de fondo: ¿quién soy yo cuando sirvo a otros jóvenes? En este módulo descubrirás el sentido de tu servicio, la mirada que Jesús tiene sobre cada joven, el arte de escuchar, la riqueza de caminar en equipo y la fuente de donde nace todo: la Eucaristía, la oración y la misericordia de Dios.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1.1",
+     "titulo": "El dirigente: puente y amigo cercano",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 1.2",
+     "titulo": "Mirar al joven con los ojos de Jesús",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 1.3",
+     "titulo": "El arte de escuchar y acompañar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 1.4",
+     "titulo": "Una pastoral en equipo y sinodal",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 1.5",
+     "titulo": "Permanecer en Él: la Eucaristía en el centro",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u06",
+     "tipo": "unidad",
+     "numero": "1.6",
+     "etiqueta": "Unidad 1.6",
+     "titulo": "Orar y dejarse perdonar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Identidad y mirada del dirigente",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "numero": 2,
+   "titulo": "Un hogar acogedor y fraterno",
+   "semanas": "",
+   "intro": "Un grupo juvenil no es una sala de clases ni un club: está llamado a ser un hogar, un lugar donde cada joven se sienta esperado, seguro y parte de algo. En este módulo aprenderás a construir ese ambiente paso a paso: desde los acuerdos de convivencia hasta la mirada que busca a quien está al margen.",
+   "clases": [
+    {
+     "id": "m2-u01",
+     "tipo": "unidad",
+     "numero": "2.1",
+     "etiqueta": "Unidad 2.1",
+     "titulo": "El grupo como espacio de confianza",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-u02",
+     "tipo": "unidad",
+     "numero": "2.2",
+     "etiqueta": "Unidad 2.2",
+     "titulo": "La acogida: los primeros minutos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-u03",
+     "tipo": "unidad",
+     "numero": "2.3",
+     "etiqueta": "Unidad 2.3",
+     "titulo": "Protagonismo y servicio: todos tienen una tarea",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-u04",
+     "tipo": "unidad",
+     "numero": "2.4",
+     "etiqueta": "Unidad 2.4",
+     "titulo": "Incluir a todos: la mirada de Jesús a Zaqueo",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Construir un espacio de confianza",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "numero": 3,
+   "titulo": "El arte de mirar, sentir y escuchar",
+   "semanas": "",
+   "intro": "No todo se dice con palabras. Los jóvenes comunican con sus gestos, sus silencios, su manera de sentarse o de llegar. Este módulo te ayudará a afinar la sensibilidad: a percibir lo que el otro vive, a ayudarlo a poner nombre a sus emociones, a orar con todo el cuerpo y a acompañar cuando llega el dolor.",
+   "clases": [
+    {
+     "id": "m3-u01",
+     "tipo": "unidad",
+     "numero": "3.1",
+     "etiqueta": "Unidad 3.1",
+     "titulo": "La compasión de Jesús y los gestos sencillos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-u02",
+     "tipo": "unidad",
+     "numero": "3.2",
+     "etiqueta": "Unidad 3.2",
+     "titulo": "Poner palabras a lo que sentimos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-u03",
+     "tipo": "unidad",
+     "numero": "3.3",
+     "etiqueta": "Unidad 3.3",
+     "titulo": "El poder de los símbolos: orar con todo el ser",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-u04",
+     "tipo": "unidad",
+     "numero": "3.4",
+     "etiqueta": "Unidad 3.4",
+     "titulo": "Acompañar en el dolor",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Escuchar con el corazón",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "numero": 4,
+   "titulo": "Aprender jugando y viviendo",
+   "semanas": "",
+   "intro": "Los jóvenes no aprenden solo escuchando: aprenden haciendo, jugando, equivocándose y conversando sobre lo vivido. Este módulo te entrega el «cómo» del servicio: el valor pedagógico del juego, las dinámicas cooperativas, un método para preparar encuentros con sentido y la práctica de descubrir a Dios en lo que vivimos.",
+   "clases": [
+    {
+     "id": "m4-u01",
+     "tipo": "unidad",
+     "numero": "4.1",
+     "etiqueta": "Unidad 4.1",
+     "titulo": "La alegría de jugar y celebrar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-u02",
+     "tipo": "unidad",
+     "numero": "4.2",
+     "etiqueta": "Unidad 4.2",
+     "titulo": "Nadie se queda atrás: la cooperación",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-u03",
+     "tipo": "unidad",
+     "numero": "4.3",
+     "etiqueta": "Unidad 4.3",
+     "titulo": "El método: vivir, conversar, iluminar y actuar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-u04",
+     "tipo": "unidad",
+     "numero": "4.4",
+     "etiqueta": "Unidad 4.4",
+     "titulo": "Descubrir a Dios en lo que vivimos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Método y experiencia",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "numero": 5,
+   "titulo": "Cuidado personal, cuidado mutuo y envío",
+   "semanas": "",
+   "intro": "Quien cuida a otros también necesita ser cuidado. Este último módulo aborda algo que muchas veces se descuida en la formación de dirigentes: el propio descanso, el apoyo del equipo, los límites que protegen a todos, cuándo y cómo pedir ayuda profesional, y el envío a vivir lo aprendido.",
+   "clases": [
+    {
+     "id": "m5-u01",
+     "tipo": "unidad",
+     "numero": "5.1",
+     "etiqueta": "Unidad 5.1",
+     "titulo": "El descanso en el Señor",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-u02",
+     "tipo": "unidad",
+     "numero": "5.2",
+     "etiqueta": "Unidad 5.2",
+     "titulo": "Sostenernos como hermanos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-u03",
+     "tipo": "unidad",
+     "numero": "5.3",
+     "etiqueta": "Unidad 5.3",
+     "titulo": "Ambientes sanos y seguros",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-u04",
+     "tipo": "unidad",
+     "numero": "5.4",
+     "etiqueta": "Unidad 5.4",
+     "titulo": "Saber cuándo pedir ayuda",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-u05",
+     "tipo": "unidad",
+     "numero": "5.5",
+     "etiqueta": "Unidad 5.5",
+     "titulo": "Renovación del compromiso y envío",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Aptitud y discernimiento del dirigente Ágape",
+     "tiempo": "9 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "numero": 6,
+   "titulo": "La Eucaristía, corazón de nuestra Pastoral Juvenil",
+   "semanas": "",
+   "intro": "Todo lo que vivimos en Ágape nace de la Eucaristía y conduce a ella. En este módulo vas a mirar cómo acompañar a los jóvenes hacia la misa sin juzgarlos, a entender cada parte de la celebración para vivirla y explicarla, a animar la liturgia con alegría y respeto, a proponer la adoración y a llevar a la vida lo que celebramos. Porque en esta materia nunca será suficiente.",
+   "clases": [
+    {
+     "id": "m6-u01",
+     "tipo": "unidad",
+     "numero": "6.1",
+     "etiqueta": "Unidad 6.1",
+     "titulo": "«¿A quién iremos?»: los jóvenes y la Eucaristía hoy",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m6-u02",
+     "tipo": "unidad",
+     "numero": "6.2",
+     "etiqueta": "Unidad 6.2",
+     "titulo": "La misa, paso a paso",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m6-u03",
+     "tipo": "unidad",
+     "numero": "6.3",
+     "etiqueta": "Unidad 6.3",
+     "titulo": "Jóvenes que celebran: animar la liturgia",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m6-u04",
+     "tipo": "unidad",
+     "numero": "6.4",
+     "etiqueta": "Unidad 6.4",
+     "titulo": "Adorar: quedarse con Él",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m6-u05",
+     "tipo": "unidad",
+     "numero": "6.5",
+     "etiqueta": "Unidad 6.5",
+     "titulo": "Del altar a la vida: la misa nos envía",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m6-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "La Eucaristía, corazón de nuestra pastoral",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

@@ -86,9 +86,21 @@
     return { hechas: n, total: curso.clases.length, pct: curso.clases.length ? Math.round(100 * n / curso.clases.length) : 0 };
   }
 
+  function duracionClase(cl) {
+    return cl.semana ? "Semana " + cl.semana : (cl.tiempo || "");
+  }
+
+  function navegacionClases(c, i) {
+    var ant = c.clases[i - 1], sig = c.clases[i + 1];
+    return '<nav class="navegacion">' +
+      (ant ? '<a href="#/clase/' + esc(c.id) + "/" + esc(ant.id) + '"><small>Anterior</small>' + esc(ant.etiqueta) + ". " + esc(ant.titulo) + "</a>" : "<span></span>") +
+      (sig ? '<a class="siguiente" href="#/clase/' + esc(c.id) + "/" + esc(sig.id) + '"><small>Siguiente</small>' + esc(sig.etiqueta) + ". " + esc(sig.titulo) + "</a>" : "<span></span>") +
+      "</nav>";
+  }
+
   function barraProgreso(p) {
     return '<div class="progreso"><div class="progreso-barra"><span style="width:' + p.pct + '%"></span></div>' +
-      '<div class="progreso-texto">' + p.hechas + " de " + p.total + " clases completadas</div></div>";
+      '<div class="progreso-texto">' + p.hechas + " de " + p.total + " completadas</div></div>";
   }
 
   function pintar(html, titulo) {
@@ -128,8 +140,8 @@
       var html = '<section class="portada"><h1>' + esc(sitio.nombre) + "</h1><p>" + esc(sitio.lema) + "</p></section>";
       html += lista.map(function (c) {
         var p = progreso(c);
-        return '<article class="tarjeta curso-tarjeta"><h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
-          "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + esc(c.duracion) + " · " + esc(c.modalidad) + "</p>" +
+        return '<article class="tarjeta curso-tarjeta">' + (c.institucion ? '<p class="institucion">' + esc(c.institucion) + "</p>" : "") + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
+          "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(esc).join(" · ") + "</p>" +
           barraProgreso(p) + '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Entrar al curso</a></div></article>';
       }).join("");
       pintar(html);
@@ -142,25 +154,26 @@
       var h = hechas(c.id);
       var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0; })[0];
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
-      html += '<section class="portada"><p class="subtitulo">' + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
-        '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li><li>" + c.clases.length + " clases</li></ul>" +
+      html += '<section class="portada"><p class="subtitulo">' + (c.institucion ? esc(c.institucion) + " · " : "") + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
+        '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         barraProgreso(p) +
         '<div class="botones">' +
         (siguiente ? '<a class="boton principal" href="#/clase/' + esc(c.id) + "/" + esc(siguiente.id) + '">' + (p.hechas ? "Continuar" : "Comenzar") + "</a>" : "") +
-        '<a class="boton" href="#/curso/' + esc(c.id) + '/programa">Programa</a>' +
-        '<a class="boton" href="#/curso/' + esc(c.id) + '/sesiones">Sesiones en vivo</a></div></section>';
+        (c.programa ? '<a class="boton" href="#/curso/' + esc(c.id) + '/programa">Programa</a>' : "") +
+        (c.sesiones && c.sesiones.length ? '<a class="boton" href="#/curso/' + esc(c.id) + '/sesiones">Sesiones en vivo</a>' : "") + "</div></section>";
 
       c.modulos.forEach(function (m) {
-        html += '<section class="tarjeta modulo"><h2>Módulo ' + ROMANOS[m.numero] + ". " + esc(m.titulo) + '</h2><p class="semanas">Semanas ' + esc(m.semanas) + "</p>";
+        html += '<section class="tarjeta modulo"><h2>Módulo ' + ROMANOS[m.numero] + ". " + esc(m.titulo) + "</h2>" + (m.semanas ? '<p class="semanas">Semanas ' + esc(m.semanas) + "</p>" : "");
         if (m.intro) html += '<details><summary>Sobre este módulo</summary><div class="texto">' + md(m.intro) + "</div></details>";
         html += '<ol class="lista-clases">' + m.clases.map(function (cl) {
           var hecha = h.indexOf(cl.id) >= 0;
           return '<li class="' + (hecha ? "hecha" : "") + '"><a href="#/clase/' + esc(c.id) + "/" + esc(cl.id) + '">' +
             '<span class="estado" aria-label="' + (hecha ? "Completada" : "Pendiente") + '">' + (hecha ? "&#10003;" : "") + "</span>" +
             '<span><span class="etiqueta-clase">' + esc(cl.etiqueta) + "</span>" + esc(cl.titulo) + "</span>" +
-            '<span class="semana">Semana ' + esc(cl.semana) + "</span></a></li>";
+            '<span class="semana">' + esc(duracionClase(cl)) + "</span></a></li>";
         }).join("") + "</ol></section>";
       });
+      if (c.credito) html += '<p class="credito">' + esc(c.credito) + "</p>";
       pintar(html, c.titulo);
     });
   }
@@ -214,6 +227,12 @@
       c.clases.forEach(function (x, k) { if (x.id === claseId) i = k; });
       if (i < 0) throw new Error("La clase no existe.");
       var cl = c.clases[i];
+      if (cl.tipo === "evaluacion") {
+        return pedir("datos/evaluaciones-" + cursoId + ".json").then(function (ev) {
+          if (!ev[cl.id]) throw new Error("La evaluación no existe.");
+          armarEvaluacion(c, cl, i, ev[cl.id]);
+        });
+      }
       return pedir("contenido/" + cursoId + "/" + claseId + ".md", "texto").then(function (texto) {
         armarClase(c, cl, i, texto);
       });
@@ -238,7 +257,7 @@
 
     var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>";
     html += '<header class="clase-cabecera"><span class="etiqueta-clase">Módulo ' + ROMANOS[cl.modulo.numero] + " · " + esc(cl.etiqueta) + "</span>" +
-      "<h1>" + esc(cl.titulo) + '</h1><p class="meta">Semana ' + esc(cl.semana) + "</p></header>";
+      "<h1>" + esc(cl.titulo) + '</h1><p class="meta">' + esc(duracionClase(cl)) + "</p></header>";
     if (intro) html += '<div class="texto">' + md(intro) + "</div>";
     if (video) html += '<div class="medio"><iframe src="' + esc(video) + '" title="Video de la clase" allowfullscreen loading="lazy"></iframe></div>';
     if (pres) html += '<div class="medio"><iframe src="' + esc(pres) + '" title="Presentación de la clase" allowfullscreen loading="lazy"></iframe></div>';
@@ -272,11 +291,7 @@
     html += '<div class="botones"><button class="boton ' + (hecha ? "hecho" : "principal") + '" id="marcar">' +
       (hecha ? "&#10003; Clase completada" : "Marcar como completada") + "</button></div>";
 
-    var ant = c.clases[i - 1], sig = c.clases[i + 1];
-    html += '<nav class="navegacion">' +
-      (ant ? '<a href="#/clase/' + esc(c.id) + "/" + esc(ant.id) + '"><small>Anterior</small>' + esc(ant.etiqueta) + ". " + esc(ant.titulo) + "</a>" : "<span></span>") +
-      (sig ? '<a class="siguiente" href="#/clase/' + esc(c.id) + "/" + esc(sig.id) + '"><small>Siguiente</small>' + esc(sig.etiqueta) + ". " + esc(sig.titulo) + "</a>" : "<span></span>") +
-      "</nav>";
+    html += navegacionClases(c, i);
 
     pintar(html, cl.titulo);
     activarClase(c, cl);
@@ -358,6 +373,73 @@
       marcar.className = "boton " + (ahora ? "hecho" : "principal");
       marcar.innerHTML = ahora ? "&#10003; Clase completada" : "Marcar como completada";
     });
+  }
+
+  /* ---------- evaluaciones ---------- */
+
+  function armarEvaluacion(c, cl, i, ev) {
+    var clave = "eval:" + c.id + ":" + cl.id;
+    var previo = almacen.leer(clave, null);
+    // Las opciones se barajan en cada intento para que la posición no delate la respuesta.
+    var ordenes = ev.preguntas.map(function (p) {
+      var o = p.opciones.map(function (_, j) { return j; });
+      for (var a = o.length - 1; a > 0; a--) { var b = Math.floor(Math.random() * (a + 1)); var t = o[a]; o[a] = o[b]; o[b] = t; }
+      return o;
+    });
+    var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>";
+    html += '<header class="clase-cabecera"><span class="etiqueta-clase">Módulo ' + ROMANOS[cl.modulo.numero] + " · Evaluación</span>" +
+      "<h1>" + esc(ev.titulo) + '</h1><p class="meta">' + ev.preguntas.length + " preguntas · se aprueba con " + ev.aprobacion + "%</p></header>";
+    html += '<p class="aviso">Responde todas las preguntas y luego revisa tus respuestas. Puedes intentarlo las veces que quieras.' +
+      (previo ? " Tu mejor resultado hasta ahora: " + previo.mejor + "%." : "") + "</p>";
+    html += '<form id="evaluacion" class="evaluacion">' + ev.preguntas.map(function (p, k) {
+      return '<fieldset class="pregunta" data-k="' + k + '"><legend><span class="num">' + (k + 1) + ".</span> " + esc(p.pregunta) + "</legend>" +
+        ordenes[k].map(function (j) {
+          return '<label class="opcion"><input type="radio" name="p' + k + '" value="' + j + '"> <span>' + esc(p.opciones[j]) + "</span></label>";
+        }).join("") + '<p class="retro" hidden></p></fieldset>';
+    }).join("") +
+      '<div class="resultado" aria-live="polite"></div>' +
+      '<div class="botones"><button type="submit" class="boton principal">Revisar respuestas</button>' +
+      '<button type="button" class="boton" id="reintentar" hidden>Intentar de nuevo</button></div></form>';
+    html += navegacionClases(c, i);
+    pintar(html, ev.titulo);
+
+    var form = document.getElementById("evaluacion");
+    var resultado = form.querySelector(".resultado");
+    var reintentar = document.getElementById("reintentar");
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var faltan = 0, buenas = 0;
+      ev.preguntas.forEach(function (p, k) {
+        if (!form.querySelector('input[name="p' + k + '"]:checked')) faltan++;
+      });
+      if (faltan) {
+        resultado.className = "resultado pendiente";
+        resultado.textContent = faltan === 1 ? "Te falta responder 1 pregunta." : "Te faltan " + faltan + " preguntas por responder.";
+        return;
+      }
+      ev.preguntas.forEach(function (p, k) {
+        var fs = form.querySelector('.pregunta[data-k="' + k + '"]');
+        var elegida = Number(form.querySelector('input[name="p' + k + '"]:checked').value);
+        var ok = elegida === p.correcta;
+        if (ok) buenas++;
+        fs.classList.add(ok ? "correcta" : "incorrecta");
+        fs.querySelectorAll("input").forEach(function (inp) { inp.disabled = true; });
+        var retro = fs.querySelector(".retro");
+        retro.hidden = false;
+        retro.innerHTML = "<strong>" + (ok ? "Correcto." : "Respuesta correcta: " + esc(p.opciones[p.correcta]) + ".") + "</strong> " + esc(p.explicacion || "");
+      });
+      var pct = Math.round(100 * buenas / ev.preguntas.length);
+      var aprobado = pct >= ev.aprobacion;
+      previo = { mejor: Math.max(pct, previo ? previo.mejor : 0), ultimo: pct };
+      almacen.guardar(clave, previo);
+      if (aprobado) marcarHecha(c.id, cl.id, true);
+      resultado.className = "resultado " + (aprobado ? "aprobado" : "pendiente");
+      resultado.textContent = buenas + " de " + ev.preguntas.length + " correctas (" + pct + "%). " +
+        (aprobado ? "Evaluación aprobada." : "Necesitas " + ev.aprobacion + "% para aprobar. Repasa las unidades e inténtalo otra vez.");
+      form.querySelector('button[type="submit"]').hidden = true;
+      reintentar.hidden = false;
+    });
+    reintentar.addEventListener("click", function () { armarEvaluacion(c, cl, i, ev); });
   }
 
   /* ---------- enrutador ---------- */

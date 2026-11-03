@@ -1,5 +1,10 @@
 {
   "nombre": "Estudio AGP",
   "lema": "Aula virtual de formación para equipos de pastoral juvenil",
-  "cursos": ["liderazgo"]
+  "cursos": [
+    "liderazgo",
+    "arte-de-encontrarnos",
+    "coordinar-es-servir",
+    "discernimiento-y-oracion"
+  ]
 }

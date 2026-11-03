@@ -229,3 +229,23 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
   .texto td.campo { height: 2.2rem; background: #fff; }
   .texto table { display: table; }
 }
+
+/* Institución y crédito */
+.institucion { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--acento); margin: 0 0 .3rem; font-weight: 600; }
+.credito { font-size: .8rem; color: var(--tinta-suave); text-align: center; margin: 1.5rem 0 0; }
+
+/* Evaluaciones */
+.evaluacion .pregunta { border: 1px solid #ddd6cc; border-radius: 10px; padding: 1rem 1.1rem; margin: 0 0 1rem; background: #fff; }
+.evaluacion legend { font-weight: 600; padding: 0 .3rem; line-height: 1.4; }
+.evaluacion .num { color: var(--tinta-suave); }
+.evaluacion .opcion { display: flex; gap: .6rem; align-items: flex-start; padding: .45rem .3rem; border-radius: 6px; cursor: pointer; }
+.evaluacion .opcion:hover { background: #f6f4f0; }
+.evaluacion .opcion input { margin-top: .3rem; }
+.evaluacion .pregunta.correcta { border-color: #4f7d5a; background: #f2f7f3; }
+.evaluacion .pregunta.incorrecta { border-color: #a5523f; background: #fbf3f1; }
+.evaluacion .retro { margin: .6rem 0 0; font-size: .92rem; }
+.evaluacion .resultado { font-weight: 600; margin: .5rem 0; }
+.evaluacion .resultado.aprobado { color: #3e6b49; }
+.evaluacion .resultado.pendiente { color: #8a4433; }
+
+[hidden] { display: none !important; }

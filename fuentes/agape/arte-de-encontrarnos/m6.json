@@ -1,0 +1,114 @@
+{
+ "unidades": {
+  "6.1": {
+   "comenzar": "Pregunta a tres jóvenes que conozcas (dentro o fuera del grupo) qué les cuesta de la misa y qué les gusta. Anota las respuestas sin discutir. Si no puedes preguntar, escribe lo que tú mismo responderías con total sinceridad.",
+   "logros": ["Comprender por qué a muchos jóvenes les cuesta ir a misa.", "Responder con claridad y sin sermones a las preguntas más comunes.", "Acompañar hacia la Eucaristía con testimonio e invitación."],
+   "profundizar": {
+    "titulo": "Preguntas frecuentes de los jóvenes sobre la misa",
+    "texto": "- **¿Por qué hay que ir el domingo?** Porque es el día de la Resurrección y la comunidad cristiana se reúne desde siempre ese día. La Iglesia pide participar en la misa los domingos y fiestas de precepto (Catecismo 2180-2181). No es un trámite: es el encuentro semanal con Jesús y con los hermanos.\n- **¿Y si no siento nada?** La misa no depende de lo que sientas. Jesús está ahí igual. Hay días de fervor y días de sequedad, como en toda amistad.\n- **¿Puedo comulgar siempre?** Para comulgar hay que estar bautizado, haber hecho la primera comunión y estar en gracia de Dios. Quien tiene conciencia de un pecado grave debe confesarse antes (Catecismo 1385). También se pide un ayuno de una hora antes de comulgar (Catecismo 1387).\n- **¿Y si no puedo comulgar?** Igual vale la pena ir. Puedes hacer una comunión espiritual: decirle a Jesús en tu corazón que deseas recibirlo.\n- **¿Por qué es tan repetitiva?** Porque es un rito, como los cumpleaños o los saludos que se repiten porque significan algo. Al conocer el sentido de cada parte, lo repetido se vuelve familiar y profundo (lo verás en la próxima unidad)."
+   },
+   "caso": {
+    "titulo": "El grupo que se va antes",
+    "texto": "Varios jóvenes del grupo llegan a misa tarde, se sientan atrás y se van antes de la bendición final. Un dirigente quiere decirles frente a todos que eso es una falta de respeto.",
+    "preguntas": ["¿Qué podría estar detrás de esa conducta?", "¿Qué harías en vez de retarlos en público?"]
+   },
+   "claves": [["Precepto dominical", "Mandato de la Iglesia de participar en la misa los domingos y fiestas de precepto."], ["Comunión espiritual", "Deseo de unirse a Jesús cuando no es posible recibirlo sacramentalmente."], ["Estado de gracia", "Amistad con Dios, sin pecado grave que la haya roto."]],
+   "lectio": {
+    "meditar": "Muchos dejan a Jesús porque sus palabras son duras, pero Pedro se queda: «¿A quién iremos?». ¿Por qué te quedas tú? ¿Qué palabras de Jesús te han dado vida?",
+    "orar": "Responde a Jesús la pregunta que hizo a los Doce: «¿También ustedes quieren irse?».",
+    "vivir": "Invita a un joven de tu grupo a la misa del domingo y siéntate con él."
+   },
+   "practica": ["Recoge con el equipo las preguntas que los jóvenes tienen sobre la misa.", "Elijan las tres más repetidas.", "Preparen un encuentro breve para responderlas con calma, con ayuda del asesor o del sacerdote.", "Terminen invitando a participar juntos en una misa."],
+   "idea": "No se invita a la misa con sermones, sino con testimonio y compañía."
+  },
+  "6.2": {
+   "comenzar": "Sin mirar ningún libro, escribe en orden todas las partes de la misa que recuerdes. Después, al terminar la unidad, compara tu lista con la explicación y completa lo que faltó.",
+   "logros": ["Explicar el sentido de las cuatro grandes partes de la misa.", "Conocer los tiempos del año litúrgico y sus colores.", "Explicar la misa de forma sencilla a jóvenes de 13 años."],
+   "profundizar": {
+    "titulo": "El año litúrgico y sus colores",
+    "texto": "La Iglesia no vive todos los domingos igual: recorre cada año la vida de Jesús. A ese recorrido se le llama **año litúrgico**, y los colores que usa el sacerdote ayudan a reconocer cada tiempo:\n\n- **Adviento (morado):** las cuatro semanas antes de Navidad. Tiempo de espera y preparación.\n- **Navidad (blanco):** celebramos que Dios se hizo hombre.\n- **Cuaresma (morado):** cuarenta días de conversión antes de Semana Santa.\n- **Semana Santa y Triduo Pascual:** la pasión, muerte y resurrección de Jesús, el corazón del año.\n- **Pascua (blanco):** cincuenta días de alegría por la Resurrección, hasta Pentecostés.\n- **Pentecostés y fiestas de mártires (rojo):** el fuego del Espíritu y la sangre de los testigos.\n- **Tiempo ordinario (verde):** el resto del año, en que seguimos a Jesús en su vida pública. El verde recuerda la esperanza y el crecimiento.\n\nConocer el año litúrgico ayuda a planificar los temas del grupo en sintonía con la Iglesia, y a que la misa nunca sea igual: cada tiempo tiene su tono, sus lecturas y sus cantos."
+   },
+   "caso": {
+    "titulo": "«¿Por qué nos paramos y nos sentamos tanto?»",
+    "texto": "Una joven de 13 años, que va por primera vez a misa con el grupo, te pregunta al salir: «¿Por qué hay que pararse, sentarse y arrodillarse tantas veces? Me perdí».",
+    "preguntas": ["¿Cómo le explicarías en dos o tres frases el sentido de esas posturas?", "¿Qué podrías hacer la próxima vez para que no se pierda?"]
+   },
+   "claves": [["Liturgia", "Celebración pública de la Iglesia; en ella Cristo actúa y nos santifica."], ["Liturgia de la Palabra", "Parte de la misa en que Dios nos habla en las lecturas y el Evangelio."], ["Plegaria eucarística", "Gran oración de acción de gracias en que se consagran el pan y el vino."]],
+   "lectio": {
+    "meditar": "En la Última Cena, Jesús toma el pan, da gracias, lo parte y lo entrega. Esos cuatro verbos se repiten en cada misa. ¿Cuál de ellos te gustaría vivir en tu vida esta semana?",
+    "orar": "Agradece a Jesús por haberse quedado en la Eucaristía, con tus propias palabras.",
+    "vivir": "En la próxima misa, fíjate especialmente en una parte que antes pasabas por alto."
+   },
+   "practica": ["Prepara una tarjeta con las cuatro partes de la misa explicadas en una frase cada una.", "Antes de una misa con el grupo, explícalas en cinco minutos.", "Durante la misa, siéntate con los que van por primera vez.", "Después, pregunta qué parte les llamó la atención."],
+   "idea": "Cuando entendemos la misa, lo repetido se vuelve encuentro."
+  },
+  "6.3": {
+   "comenzar": "Recuerda una misa en que participaste activamente (leíste, cantaste, ayudaste). ¿Cómo la viviste distinto de cuando solo estabas sentado? Escríbelo en tres líneas.",
+   "logros": ["Explicar qué significa una participación plena, consciente y activa.", "Conocer los servicios litúrgicos que pueden asumir los jóvenes.", "Elegir y preparar cantos y lecturas con criterio."],
+   "profundizar": {
+    "titulo": "Elegir bien los cantos",
+    "texto": "La música es uno de los servicios más valiosos que los jóvenes pueden ofrecer en la misa, pero no cualquier canción sirve para cualquier momento. Algunos criterios:\n\n- **Que corresponda al momento:** el canto de entrada reúne, el de ofertorio acompaña la preparación de los dones, el de comunión une al pueblo que se acerca a Jesús. Un canto de alabanza muy movido no va en el momento de la consagración, por ejemplo.\n- **Que la letra sea fiel a la fe:** algunas canciones bonitas no dicen nada de Dios o dicen cosas confusas. Lee la letra completa antes de elegirla.\n- **Que la asamblea pueda cantar:** la música en la misa no es un concierto. Si solo el coro sabe la canción, la comunidad se vuelve espectadora.\n- **Que respete el tiempo litúrgico:** en Cuaresma, por ejemplo, no se canta el Aleluya.\n- **Que se ensaye:** improvisar en la misa distrae a todos.\n\nEl Concilio Vaticano II pidió que todos los fieles participen de modo pleno, consciente y activo en la liturgia (*Sacrosanctum concilium* 14). Un buen coro juvenil no se luce: ayuda a que todos recen cantando."
+   },
+   "caso": {
+    "titulo": "La canción de moda",
+    "texto": "El coro juvenil quiere cantar en la comunión una canción de amor que está de moda, porque «habla de entregarse y Jesús se entrega». El párroco les dice que no y ellos se molestan.",
+    "preguntas": ["¿Qué criterios no cumple esa elección?", "¿Cómo podrían conversar con el párroco y proponer una alternativa?"]
+   },
+   "claves": [["Participación activa", "Tomar parte en la liturgia con el cuerpo, la voz, la mente y el corazón."], ["Servicios litúrgicos", "Tareas como lector, monitor, cantor, acólito o encargado de la colecta."], ["Asamblea", "El pueblo reunido que celebra; no es público, es protagonista."]],
+   "lectio": {
+    "meditar": "Pablo transmite lo que recibió: «Hagan esto en memoria mía». ¿Qué significa para ti hacer memoria de Jesús en la misa? ¿Qué parte de esa tradición te toca transmitir?",
+    "orar": "Ofrece a Dios tu voz, tus manos o tu servicio en la próxima misa.",
+    "vivir": "Inscríbete en un servicio litúrgico de tu parroquia o propónselo a un joven."
+   },
+   "practica": ["Conversen con el párroco sobre qué servicios pueden asumir los jóvenes.", "Elijan una misa al mes animada por el grupo.", "Preparen con tiempo lecturas, cantos y moniciones, revisándolos con quien coordine la liturgia.", "Después de la misa, evalúen juntos qué ayudó a la comunidad a rezar."],
+   "idea": "En la misa, los jóvenes no son espectadores: son parte del pueblo que celebra."
+  },
+  "6.4": {
+   "comenzar": "Busca un lugar tranquilo y quédate tres minutos en silencio total, sin celular. Después escribe qué pasó: ¿te costó?, ¿qué pensamientos llegaron?, ¿sentiste algo? La adoración empieza justamente aprendiendo a estar.",
+   "logros": ["Explicar qué es la adoración eucarística.", "Preparar una hora santa sencilla para jóvenes.", "Vivir la adoración como un tiempo de mirar y dejarse mirar."],
+   "profundizar": {
+    "titulo": "Una hora santa para jóvenes en cinco momentos",
+    "texto": "Una adoración para jóvenes no tiene que ser larga ni complicada. Puede durar entre 30 y 60 minutos y seguir este esquema:\n\n1. **Acogida (5 min):** explicar brevemente qué vamos a hacer y por qué. Invitar a apagar el celular. Un canto sencillo mientras se expone el Santísimo.\n2. **Silencio guiado (10 min):** una frase para comenzar («Jesús, aquí estoy»), y luego silencio real. Si el grupo es muy joven, puedes alternar silencios cortos con frases breves.\n3. **Palabra (10 min):** un texto breve del Evangelio, leído despacio dos veces, con una pregunta para mirar el corazón.\n4. **Respuesta (10 min):** cada uno escribe una carta a Jesús, enciende una vela o deja una intención en un papel junto al altar.\n5. **Bendición y envío (5 min):** canto final y bendición con el Santísimo, que debe dar un sacerdote o diácono.\n\nPrepara la adoración con el párroco o el asesor: el Santísimo lo expone un ministro. Cuida la luz, el ambiente y el silencio, y deja tiempo para que los jóvenes puedan quedarse más si quieren."
+   },
+   "caso": {
+    "titulo": "«Es muy fome estar callado»",
+    "texto": "Cuando propones una adoración, un joven dice: «Es muy fome estar callado mirando algo». Varios se ríen, pero otros parecen interesados.",
+    "preguntas": ["¿Cómo responderías sin enojarte ni insistir demasiado?", "¿Qué adaptarías para que la primera experiencia sea positiva?"]
+   },
+   "claves": [["Adoración", "Reconocer a Dios como Dios, con amor y humildad."], ["Santísimo Sacramento", "Jesús presente en la Eucaristía, que se guarda en el sagrario y se expone para la adoración."], ["Hora santa", "Tiempo de oración ante el Santísimo, personal o comunitario."]],
+   "lectio": {
+    "meditar": "Los Magos recorren un largo camino, ven al Niño, se postran y le ofrecen regalos. ¿Qué camino has recorrido para llegar a Jesús? ¿Qué regalo le ofreces hoy?",
+    "orar": "Si puedes, visita una capilla con el Santísimo y quédate diez minutos. Si no, imagina que estás ante Él.",
+    "vivir": "Propón al equipo una adoración breve para el grupo este mes."
+   },
+   "practica": ["Conversa con el párroco o asesor para fijar una fecha de adoración.", "Preparen el esquema en cinco momentos.", "Asignen responsables: música, lectura, ambiente y acogida.", "Después, pregunten a los jóvenes qué vivieron."],
+   "idea": "Adorar es mirar a Jesús y dejarse mirar por Él."
+  },
+  "6.5": {
+   "comenzar": "Piensa en una persona de tu barrio, colegio o comunidad que esté sola, enferma o pasando necesidad. Escribe su situación en una línea (sin su nombre si prefieres). Al final de la unidad decidirás un gesto concreto hacia ella.",
+   "logros": ["Explicar la relación entre Eucaristía, caridad y misión.", "Conocer las obras de misericordia.", "Organizar con el grupo una acción de servicio que nazca de la misa."],
+   "profundizar": {
+    "titulo": "Las obras de misericordia",
+    "texto": "La Iglesia resume el amor concreto al prójimo en las **obras de misericordia** (Catecismo 2447). Son catorce, y cada una puede convertirse en una acción del grupo:\n\n**Corporales:** dar de comer al hambriento, dar de beber al sediento, vestir al desnudo, acoger al forastero, asistir a los enfermos, visitar a los presos y enterrar a los muertos.\n\n**Espirituales:** enseñar al que no sabe, dar buen consejo al que lo necesita, corregir al que se equivoca, perdonar las ofensas, consolar al triste, soportar con paciencia los defectos del prójimo y rezar a Dios por vivos y difuntos.\n\nNo hace falta hacerlas todas. Un grupo de jóvenes de 13 años puede visitar un hogar de ancianos, ayudar en una colecta, acompañar a un compañero que está solo o rezar por los enfermos de la parroquia. Lo importante es que la acción nazca de la Eucaristía: de la misa salimos enviados, y a la misa volvemos con lo que vivimos."
+   },
+   "caso": {
+    "titulo": "Una acción solo para la foto",
+    "texto": "Un grupo organiza una visita a un hogar de ancianos. Llegan, se sacan muchas fotos, cantan una canción y se van a los veinte minutos para alcanzar otra actividad. Una de las señoras pregunta si van a volver.",
+    "preguntas": ["¿Qué faltó en esa acción?", "¿Cómo la rediseñarías para que sea un encuentro y no un trámite?"]
+   },
+   "claves": [["Caridad", "Amor que viene de Dios y se hace concreto en el servicio al prójimo."], ["Misión", "Envío a llevar el Evangelio a la vida diaria."], ["Obras de misericordia", "Catorce acciones con que la Iglesia resume el amor al prójimo."]],
+   "lectio": {
+    "meditar": "Juan no cuenta la institución de la Eucaristía, sino el lavatorio de los pies. ¿Por qué crees que lo hace? ¿Qué une el altar con los pies de los demás?",
+    "orar": "Presenta a Jesús a la persona que pensaste al comienzo y pídele luz para servirla.",
+    "vivir": "Haz un gesto concreto de misericordia esta semana."
+   },
+   "practica": ["Elijan como equipo una obra de misericordia posible para el grupo.", "Preparen la acción con una oración o una misa antes.", "Realicen la acción con tiempo para conversar con las personas.", "Vuelvan a la misa siguiente y ofrezcan lo vivido."],
+   "idea": "De la misa salimos enviados; a la misa volvemos con la vida."
+  }
+ },
+ "evaluacion": [
+  {"q": "Un joven pregunta si puede comulgar aunque no se ha confesado de un pecado grave. ¿Qué enseña la Iglesia?", "options": ["Que puede comulgar si se siente bien.", "Que quien tiene conciencia de pecado grave debe confesarse antes de comulgar.", "Que la comunión no tiene requisitos."], "correct": 1, "feedback": "Para comulgar hay que estar en gracia de Dios; quien tiene conciencia de pecado grave se confiesa antes (Catecismo 1385). Mientras tanto, puede participar y hacer una comunión espiritual."},
+  {"q": "¿Qué color litúrgico se usa en el tiempo ordinario?", "options": ["Verde.", "Morado.", "Blanco."], "correct": 0, "feedback": "El verde se usa en el tiempo ordinario y recuerda la esperanza y el crecimiento. El morado es de Adviento y Cuaresma, y el blanco de Navidad y Pascua."},
+  {"q": "¿Cuál es el mejor criterio para elegir un canto de comunión?", "options": ["Que esté de moda entre los jóvenes.", "Que su letra sea fiel a la fe, corresponda al momento y la asamblea pueda cantarlo.", "Que el coro se luzca."], "correct": 1, "feedback": "La música litúrgica ayuda a que todos recen: corresponde al momento, es fiel a la fe y la comunidad puede cantarla."}
+ ]
+}

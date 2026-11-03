@@ -1,0 +1,205 @@
+{
+ "curso": "coordinar-es-servir",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Fundamentos: coordinar desde Cristo",
+   "semanas": "",
+   "intro": "Antes de cualquier herramienta, la pregunta de fondo: ¿desde dónde coordino? En este módulo descubrirás la coordinación como servicio al estilo de Jesús, el sentido de la dupla y la Eucaristía como centro de la vida del equipo.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1.1",
+     "titulo": "Coordinar es servir",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 1.2",
+     "titulo": "Una dupla que camina junta",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 1.3",
+     "titulo": "La Eucaristía, centro del equipo",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Coordinar desde Cristo",
+     "tiempo": "7 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "numero": 2,
+   "titulo": "Planificar con sentido",
+   "semanas": "",
+   "intro": "Planificar es una forma de amar. En este módulo aprenderás a armar el año pastoral desde el año litúrgico, a convertir ideas en acciones con responsables y plazos, y a conducir reuniones que terminan en acuerdos.",
+   "clases": [
+    {
+     "id": "m2-u01",
+     "tipo": "unidad",
+     "numero": "2.1",
+     "etiqueta": "Unidad 2.1",
+     "titulo": "El año pastoral",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-u02",
+     "tipo": "unidad",
+     "numero": "2.2",
+     "etiqueta": "Unidad 2.2",
+     "titulo": "De la idea a la acción",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-u03",
+     "tipo": "unidad",
+     "numero": "2.3",
+     "etiqueta": "Unidad 2.3",
+     "titulo": "Reuniones que sirven",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m2-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Planificar con sentido",
+     "tiempo": "7 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "numero": 3,
+   "titulo": "Seguimiento y administración",
+   "semanas": "",
+   "intro": "Un acuerdo sin seguimiento es una buena intención. En este módulo aprenderás a acompañar los compromisos del equipo, a administrar con transparencia y a evaluar para crecer.",
+   "clases": [
+    {
+     "id": "m3-u01",
+     "tipo": "unidad",
+     "numero": "3.1",
+     "etiqueta": "Unidad 3.1",
+     "titulo": "Compromisos y seguimiento",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-u02",
+     "tipo": "unidad",
+     "numero": "3.2",
+     "etiqueta": "Unidad 3.2",
+     "titulo": "Administrar con transparencia",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-u03",
+     "tipo": "unidad",
+     "numero": "3.3",
+     "etiqueta": "Unidad 3.3",
+     "titulo": "Evaluar para crecer",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m3-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Seguir, administrar y evaluar",
+     "tiempo": "7 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "numero": 4,
+   "titulo": "Comunicar y cuidar al equipo",
+   "semanas": "",
+   "intro": "Coordinar es, en gran parte, comunicar. En este módulo aprenderás a decir la verdad con amor, a enfrentar los conflictos al estilo de Jesús y a comunicar con cuidado hacia los apoderados, la parroquia y las redes.",
+   "clases": [
+    {
+     "id": "m4-u01",
+     "tipo": "unidad",
+     "numero": "4.1",
+     "etiqueta": "Unidad 4.1",
+     "titulo": "Comunicación asertiva",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-u02",
+     "tipo": "unidad",
+     "numero": "4.2",
+     "etiqueta": "Unidad 4.2",
+     "titulo": "Conflictos y corrección fraterna",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-u03",
+     "tipo": "unidad",
+     "numero": "4.3",
+     "etiqueta": "Unidad 4.3",
+     "titulo": "Comunicar hacia afuera",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m4-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Comunicar y cuidar al equipo",
+     "tiempo": "7 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "numero": 5,
+   "titulo": "Prevención, cuidado y relevo",
+   "semanas": "",
+   "intro": "La coordinación tiene una responsabilidad especial en el cuidado de todos. En este módulo revisarás cómo hacer de Ágape un lugar seguro, cómo actuar ante una situación crítica y cómo preparar a quienes vendrán después.",
+   "clases": [
+    {
+     "id": "m5-u01",
+     "tipo": "unidad",
+     "numero": "5.1",
+     "etiqueta": "Unidad 5.1",
+     "titulo": "Ambientes sanos y seguros",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-u02",
+     "tipo": "unidad",
+     "numero": "5.2",
+     "etiqueta": "Unidad 5.2",
+     "titulo": "Ante una situación crítica",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-u03",
+     "tipo": "unidad",
+     "numero": "5.3",
+     "etiqueta": "Unidad 5.3",
+     "titulo": "Formar a quienes vienen",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m5-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Cuidar a todos y preparar el relevo",
+     "tiempo": "7 preguntas"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "unidades": {
+  "3.1": {
+   "comenzar": "Mira a tu alrededor en la micro, en el colegio o en tu casa y fíjate en tres personas: ¿cómo están? Anota qué señales te lo dicen (la postura, la cara, el tono de voz, lo que hacen con las manos). Al final de la unidad volverás a esta lista.",
+   "logros": ["Leer señales no verbales de los jóvenes.", "Distinguir empatía de lástima y de contagio emocional.", "Expresar cercanía con gestos sencillos y respetuosos."],
+   "profundizar": {
+    "titulo": "Cercanía con respeto: el cuidado en los gestos",
+    "texto": "Jesús toca al leproso, abraza a los niños y deja que una mujer le lave los pies. La cercanía física puede comunicar mucho cariño, pero también puede incomodar o herir si no se cuida. Por eso, en Ágape y en toda la Iglesia en Chile, los gestos de afecto se viven con prudencia:\n\n- **Pregunta o lee la señal antes de abrazar:** no a todos les gusta el contacto, y eso se respeta.\n- **Prefiere gestos visibles y breves:** un saludo de mano, una palmada en el hombro, un abrazo en grupo.\n- **Nunca a escondidas:** los gestos de afecto se dan delante de otros, no en lugares apartados.\n- **Las palabras también son gestos:** un «qué bueno verte», recordar algo que te contaron o escribir después de una prueba difícil comunican mucho.\n\nLa empatía, por su parte, no es sentir lástima («pobrecito») ni ponerse a llorar con el otro hasta perder la calma. Es comprender lo que vive y hacérselo saber, quedándote lo bastante sereno para acompañar."
+   },
+   "caso": {
+    "titulo": "La capucha",
+    "texto": "Durante tres encuentros seguidos, Fernanda llega con la capucha puesta, se sienta al fondo y no habla. Antes era de las que más participaban. Un dirigente le dice en voz alta: «¡Ya po, Feña, sácate esa capucha y participa!».",
+    "preguntas": ["¿Qué señales no verbales estaba dando Fernanda?", "¿Qué gesto o palabra podría haber elegido el dirigente?"]
+   },
+   "claves": [["Compasión", "Padecer con el otro: dejarse tocar por su dolor y actuar para aliviarlo."], ["Lenguaje no verbal", "Lo que comunicamos sin palabras: gestos, postura, mirada, tono de voz."], ["Empatía", "Comprender lo que vive otra persona y hacérselo saber, sin perder la calma."]],
+   "lectio": {
+    "meditar": "Jesús «se conmovió», extendió la mano y tocó a quien nadie tocaba. ¿Quién es «intocable» en tu ambiente? ¿Qué gesto de Jesús podrías repetir?",
+    "orar": "Pide a Jesús un corazón que se conmueva y unas manos que se acerquen con respeto.",
+    "vivir": "Esta semana, escribe a alguien que notaste decaído solo para preguntarle cómo está."
+   },
+   "practica": ["En la próxima reunión, observa durante los primeros diez minutos cómo llega cada joven.", "Anota en tu cuaderno a quién viste distinto.", "Busca un momento para acercarte con una pregunta sencilla.", "Comparte con el equipo lo que observaste, cuidando la privacidad."],
+   "idea": "La compasión se nota en los ojos que miran y en las manos que se acercan con respeto."
+  },
+  "3.2": {
+   "comenzar": "Haz una lista de todas las emociones que sentiste ayer, desde que despertaste hasta que te dormiste. ¿Cuántas encontraste? ¿Hubo alguna que no sabías cómo nombrar? Muchas personas solo reconocen «bien» o «mal»: esta unidad te ayudará a ampliar ese vocabulario.",
+   "logros": ["Explicar por qué las emociones no son buenas ni malas.", "Reconocer las emociones básicas y lo que nos dicen.", "Usar herramientas sencillas para que los jóvenes expresen lo que sienten."],
+   "profundizar": {
+    "titulo": "Las emociones básicas y lo que nos dicen",
+    "texto": "Cada emoción es como una luz del tablero de un auto: avisa de algo. No se trata de apagarla, sino de entender qué indica:\n\n- **Alegría:** algo valioso está pasando; invita a compartir y agradecer.\n- **Tristeza:** perdimos algo importante; pide consuelo, tiempo y compañía.\n- **Rabia:** sentimos que se pasó a llevar algo nuestro o de otros; pide poner límites sin dañar.\n- **Miedo:** percibimos un peligro; pide protección o prudencia.\n- **Asco o rechazo:** algo nos parece dañino o inaceptable; pide distancia.\n- **Sorpresa:** algo inesperado ocurrió; pide entender.\n\nJesús vivió todas estas emociones: se alegró en el Espíritu (Lucas 10,21), lloró por su amigo (Juan 11,35), se indignó en el templo (Juan 2,13-17) y sintió angustia en Getsemaní (Marcos 14,33-34). Lo que hacemos con lo que sentimos sí puede ser bueno o malo; sentirlo, no.\n\nUna pregunta útil para acompañar a un joven: «¿Qué crees que te está diciendo esa emoción?»."
+   },
+   "caso": {
+    "titulo": "«No me pasa nada»",
+    "texto": "Al terminar una dinámica, Diego rompe su hoja y se va al baño. Cuando vuelve, le preguntan qué le pasó y responde: «Nada, estoy bien». Otro joven comenta: «Es que es enojón».",
+    "preguntas": ["¿Qué emociones podría estar sintiendo Diego?", "¿Cómo podrías ayudarlo a ponerle nombre a lo que siente sin presionarlo?"]
+   },
+   "claves": [["Emoción", "Reacción interna ante algo que vivimos; nos informa de lo que es importante para nosotros."], ["Educación emocional", "Aprender a reconocer, nombrar y expresar las emociones de forma sana."], ["Validar", "Reconocer que lo que el otro siente tiene sentido para él, aunque no lo compartamos."]],
+   "lectio": {
+    "meditar": "Jesús le pregunta a Bartimeo «¿qué quieres que haga por ti?», aunque era evidente que era ciego. ¿Por qué crees que le pregunta? ¿Qué le responderías tú hoy?",
+    "orar": "Responde la pregunta de Jesús con sinceridad. Ponle nombre a lo que sientes y entrégaselo.",
+    "vivir": "Esta semana, cuando alguien te diga «estoy bien», pregunta una segunda vez con calma."
+   },
+   "practica": ["Prepara un «termómetro de emociones» con cinco caras o colores.", "Al inicio del encuentro, cada joven marca cómo llega, si quiere.", "Comenten en pequeños grupos qué les hizo sentir así, sin obligar a nadie.", "Cierra con una oración que presente a Dios todas las emociones del grupo."],
+   "idea": "Sentir no es pecado: lo importante es qué hacemos con lo que sentimos."
+  },
+  "3.3": {
+   "comenzar": "Busca en tu casa un objeto que tenga un significado especial para ti (una foto, un rosario, una pulsera, una carta). Escribe por qué es importante y qué recuerdo o persona trae a tu memoria. Así funcionan los símbolos: hacen presente algo que no se ve.",
+   "logros": ["Comprender cómo los signos y símbolos ayudan a orar.", "Explicar qué son los sacramentos como signos eficaces.", "Preparar un momento de oración sencillo con la Palabra y un símbolo."],
+   "profundizar": {
+    "titulo": "Los sacramentos: signos que hacen lo que significan",
+    "texto": "Todos los símbolos ayudan a orar, pero los sacramentos son mucho más que símbolos. El Catecismo los define como «signos eficaces de la gracia, instituidos por Cristo y confiados a la Iglesia, por los cuales nos es dispensada la vida divina» (Catecismo 1131). Eso quiere decir que no solo **representan** algo: lo **realizan**.\n\nEl agua del bautismo no solo recuerda la limpieza: nos hace hijos de Dios. El pan consagrado no solo recuerda a Jesús: es Jesús. Las palabras del perdón en la confesión no solo consuelan: perdonan de verdad.\n\nLa Iglesia tiene siete sacramentos: bautismo, confirmación y Eucaristía (de iniciación); reconciliación y unción de los enfermos (de curación); matrimonio y orden sacerdotal (al servicio de la comunidad).\n\nCuando preparas una oración con velas, piedras o agua, estás usando **sacramentales** o simplemente signos que ayudan a orar. Son valiosos, pero nunca reemplazan a los sacramentos: al contrario, deberían llevar a ellos."
+   },
+   "caso": {
+    "titulo": "Una oración que no conectó",
+    "texto": "Un dirigente preparó una oración larguísima con cinco lecturas, tres cantos y una reflexión de diez minutos. Los jóvenes se distrajeron, algunos miraron el celular y al final nadie recordaba de qué se trató.",
+    "preguntas": ["¿Qué cambiarías para que esa oración fuera significativa?", "¿Qué signo sencillo podría haber ayudado?"]
+   },
+   "claves": [["Símbolo", "Realidad visible que remite a otra invisible."], ["Sacramento", "Signo eficaz de la gracia, instituido por Cristo, que realiza lo que significa."], ["Lectio divina", "Lectura orante de la Palabra en pasos: leer, meditar, orar y contemplar o vivir."]],
+   "lectio": {
+    "meditar": "Jesús podía sanar con una palabra, pero aquí usa barro, saliva y agua. ¿Por qué crees que eligió signos tan concretos? ¿Qué signos ha usado Dios en tu vida?",
+    "orar": "Toma el objeto que elegiste al comienzo y ofrécelo a Dios con lo que representa.",
+    "vivir": "Usa un signo sencillo en la oración del próximo encuentro."
+   },
+   "practica": ["Elige un texto breve del Evangelio del domingo.", "Elige un solo signo que se relacione con el texto (una luz, agua, una piedra, pan).", "Prepara una oración de diez minutos: silencio, lectura, una pregunta, gesto con el signo y oración final.", "Después del encuentro, pregunta a dos jóvenes qué les ayudó."],
+   "idea": "Un buen signo dice más que muchas palabras."
+  },
+  "3.4": {
+   "comenzar": "Piensa en una vez en que estuviste triste por una pérdida (una persona, una mascota, una amistad, un cambio de casa). Escribe qué cosas te ayudaron y qué frases o actitudes te hicieron sentir peor. Tu experiencia es la mejor maestra para esta unidad.",
+   "logros": ["Acompañar el dolor con presencia, sin frases hechas.", "Conocer cómo viven el duelo los adolescentes.", "Reconocer señales de alerta y pedir ayuda a tiempo."],
+   "profundizar": {
+    "titulo": "La esperanza cristiana ante la muerte",
+    "texto": "San Pablo escribe a una comunidad que lloraba a sus muertos: «No queremos que vivan en la ignorancia acerca de los que ya han muerto, para que no estén tristes como los otros, que no tienen esperanza» (1 Tesalonicenses 4,13). Fíjate: no les dice que no estén tristes, sino que no lo estén **como quienes no tienen esperanza**.\n\nLa fe cristiana no esconde el dolor: Jesús mismo lloró ante la tumba de Lázaro. Pero proclama que la muerte no tiene la última palabra, porque Cristo resucitó. Esa esperanza no se impone con discursos en el momento del dolor; se ofrece con delicadeza, cuando la persona puede recibirla.\n\nPor eso, frente a un joven en duelo:\n\n- **Primero acompaña,** después, si es oportuno, habla de esperanza.\n- **Evita frases que suenan a reproche:** «Dios se lo llevó porque lo necesitaba» o «tienes que ser fuerte».\n- **Ofrece la oración, no la impongas:** «¿Te gustaría que recemos por él?».\n\nSan Pablo resume la actitud en otra carta: «Alégrense con los que están alegres, y lloren con los que lloran» (Romanos 12,15)."
+   },
+   "caso": {
+    "titulo": "Después del funeral",
+    "texto": "Al papá de Camila (15 años) lo atropellaron hace un mes. El grupo la acompañó al funeral, pero ahora nadie sabe qué decirle y todos evitan el tema. Ella dejó de ir a los encuentros y en redes publica frases muy tristes.",
+    "preguntas": ["¿Qué podrían hacer los dirigentes para acompañarla?", "¿Qué señales te harían pedir ayuda a un adulto de inmediato?"]
+   },
+   "claves": [["Duelo", "Proceso de adaptación ante una pérdida importante; no tiene plazos fijos."], ["Presencia", "Estar con el otro, aunque no haya palabras que solucionen su dolor."], ["Esperanza cristiana", "Confianza en que, por la resurrección de Jesús, la muerte no tiene la última palabra."]],
+   "lectio": {
+    "meditar": "Jesús sabía que iba a resucitar a Lázaro y, aun así, lloró. ¿Qué te dice eso sobre cómo Dios mira tu dolor y el de los jóvenes?",
+    "orar": "Presenta a Jesús a alguien que esté sufriendo una pérdida. Si tú mismo estás en duelo, cuéntale lo que sientes.",
+    "vivir": "Envía un mensaje breve a alguien que esté pasando por un duelo, aunque haya pasado tiempo."
+   },
+   "practica": ["Junto con tu equipo, hagan una lista de frases que no ayudan y otras que sí.", "Acuerden cómo acompañar como grupo a un joven en duelo (visitas, mensajes, una misa).", "Revisen juntos el semáforo de la unidad 5.4 para saber cuándo pedir ayuda.", "Pidan a su asesor que acompañe cualquier caso de duelo en el grupo."],
+   "idea": "En el dolor, la presencia vale más que las palabras."
+  }
+ },
+ "evaluacion": [
+  {"q": "¿Cuál de estos gestos de afecto respeta mejor las orientaciones de cuidado en el grupo?", "options": ["Un abrazo prolongado a solas con un joven para consolarlo.", "Un saludo o abrazo breve, visible para todos y respetando si la otra persona no quiere contacto.", "Evitar todo gesto de cariño para no tener problemas."], "correct": 1, "feedback": "La cercanía es parte del Evangelio, pero se expresa con prudencia: gestos breves, visibles y respetuosos de la otra persona."},
+  {"q": "¿Qué enseña la Iglesia sobre los sacramentos?", "options": ["Que son símbolos que solo recuerdan lo que hizo Jesús.", "Que son signos eficaces de la gracia, instituidos por Cristo, que realizan lo que significan.", "Que tienen el mismo valor que cualquier objeto que nos ayude a rezar."], "correct": 1, "feedback": "Los sacramentos no solo representan: realizan lo que significan (Catecismo 1131)."},
+  {"q": "Un joven en duelo publica en redes que «ya no quiere seguir». ¿Qué haces?", "options": ["Esperar a que se le pase, porque es normal en el duelo.", "Avisar de inmediato a tu asesor o a un adulto responsable y, si hay peligro inminente, a los servicios de emergencia.", "Responderle en público para que sepa que el grupo lo apoya."], "correct": 1, "feedback": "Cualquier mención a no querer vivir es una señal roja: se pide ayuda adulta de inmediato y no se maneja solo."}
+ ]
+}

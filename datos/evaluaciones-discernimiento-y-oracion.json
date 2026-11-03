@@ -1,0 +1,68 @@
+{
+ "m1-eval": {
+  "titulo": "Discernimiento de la oración",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Por qué es necesario el silencio para discernir?",
+    "opciones": [
+     "Porque Dios solo habla cuando no hay nadie alrededor.",
+     "Porque serena el corazón para distinguir la voz de Dios del ruido del mundo.",
+     "Porque es solo una costumbre antigua."
+    ],
+    "correcta": 1,
+    "explicacion": "En la calma interior el Espíritu Santo guía nuestras decisiones."
+   },
+   {
+    "pregunta": "¿Cuál es el orden de los pasos de la lectio divina?",
+    "opciones": [
+     "Orar, leer, actuar y meditar.",
+     "Leer, meditar, orar, contemplar y actuar.",
+     "Actuar, leer y contemplar."
+    ],
+    "correcta": 1,
+    "explicacion": "La lectio avanza de lo que dice el texto a lo que me dice, lo que le respondo a Dios, el silencio ante Él y la acción."
+   },
+   {
+    "pregunta": "Según san Ignacio, ¿qué conviene hacer en tiempo de desolación?",
+    "opciones": [
+     "Tomar decisiones importantes para salir rápido del malestar.",
+     "No hacer cambios importantes, insistir en la oración y contarlo a alguien de confianza.",
+     "Dejar de rezar hasta sentirse mejor."
+    ],
+    "correcta": 1,
+    "explicacion": "En desolación se mantiene lo decidido en paz, se persevera en la oración y se pide compañía."
+   },
+   {
+    "pregunta": "¿Cuál es el criterio de fondo para reconocer la acción de Dios?",
+    "opciones": [
+     "Que me haga sentir bien en el momento.",
+     "Que me lleve a amar más a Dios y a los demás.",
+     "Que coincida con lo que yo ya quería."
+    ],
+    "correcta": 1,
+    "explicacion": "El fruto es la señal: lo que aumenta la fe, la esperanza y el amor viene de Dios."
+   },
+   {
+    "pregunta": "Una tristeza que dura semanas y afecta el sueño, el apetito o las ganas de vivir, ¿qué requiere?",
+    "opciones": [
+     "Solo más oración.",
+     "Acompañamiento espiritual y también ayuda profesional de salud.",
+     "Esperar a que se pase sola."
+    ],
+    "correcta": 1,
+    "explicacion": "La desolación espiritual no es lo mismo que un problema de salud mental. Ante esas señales, hay que buscar ayuda profesional."
+   },
+   {
+    "pregunta": "¿Qué significa estar «indiferente» en el sentido de san Ignacio?",
+    "opciones": [
+     "Que nada te importe.",
+     "No estar atado a una opción antes de tiempo, para poder elegir lo que Dios muestre.",
+     "Dejar que otros decidan por ti."
+    ],
+    "correcta": 1,
+    "explicacion": "La indiferencia ignaciana es libertad interior para elegir lo mejor."
+   }
+  ]
+ }
+}

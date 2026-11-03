@@ -1,0 +1,72 @@
+{
+ "unidades": {
+  "2.1": {
+   "comenzar": "Saca un calendario del próximo año y marca, sin pensarlo mucho, las fechas que crees más importantes para el grupo. Luego compáralas con el calendario litúrgico y el escolar. ¿Coinciden o chocan?",
+   "logros": ["Planificar el año pastoral a partir del año litúrgico.", "Formular un lema, un foco y objetivos para el año.", "Ver el calendario completo en una sola mirada."],
+   "profundizar": {
+    "titulo": "Los tiempos fuertes como columna del año",
+    "texto": "Un buen año pastoral no se arma llenando fechas, sino siguiendo el ritmo de la Iglesia. Algunos hitos que sirven de columna:\n\n- **Inicio del año escolar (marzo):** tiempo de convocatoria, acogida de nuevos y formación de equipos.\n- **Cuaresma y Semana Santa:** retiros, vía crucis, confesiones y la participación en el Triduo Pascual.\n- **Pascua y Pentecostés:** tiempo de alegría, envío y confirmaciones.\n- **Vacaciones de invierno:** misiones, campamentos o jornadas de formación.\n- **Mes de María (noviembre a diciembre en Chile):** oración mariana y cierre del año.\n- **Adviento y Navidad:** preparación, solidaridad y celebración.\n\nAntes de agregar actividades propias, revisa qué propone la parroquia y la diócesis para esas fechas. Así el grupo camina con la Iglesia y no compite con ella. Y deja espacios libres: un calendario sin respiros agota al equipo."
+   },
+   "caso": {
+    "titulo": "El calendario imposible",
+    "texto": "La dupla presenta un calendario con 42 actividades para el año: encuentros semanales, tres retiros, cuatro campañas, dos paseos, una misión y una obra de teatro. El equipo tiene seis dirigentes, la mitad en cuarto medio.",
+    "preguntas": ["¿Qué riesgos tiene este calendario?", "¿Qué criterios usarías para reducirlo?"]
+   },
+   "claves": [["Año pastoral", "Planificación de las actividades del grupo para un año, en sintonía con la Iglesia."], ["Año litúrgico", "Recorrido anual de la Iglesia por la vida de Jesús."], ["Lema", "Frase breve que expresa el foco espiritual del año."]],
+   "lectio": {
+    "meditar": "«Hay un tiempo para todo». ¿Qué tiempo vive hoy tu grupo: de sembrar, de cosechar, de sanar o de construir?",
+    "orar": "Pide luz para descubrir el foco que Dios quiere para tu grupo este año.",
+    "vivir": "Escribe en una frase el lema que propondrías para el próximo año."
+   },
+   "practica": ["Reúne el calendario litúrgico, el escolar y el parroquial.", "Marca los tiempos fuertes como columna.", "Propón un lema y tres objetivos para el año.", "Presenta el borrador al equipo y al asesor para discernirlo juntos."],
+   "idea": "El grupo camina mejor cuando camina al ritmo de la Iglesia."
+  },
+  "2.2": {
+   "comenzar": "Escribe una idea que el grupo tenga pendiente hace tiempo («algún día deberíamos…»). Luego escribe por qué todavía no se ha hecho. Al terminar la unidad tendrás herramientas para convertirla en un plan.",
+   "logros": ["Transformar una idea en un plan con responsables, plazos y recursos.", "Formular objetivos claros y medibles.", "Prever riesgos antes de que aparezcan."],
+   "profundizar": {
+    "titulo": "Objetivos claros: que se puedan cumplir y revisar",
+    "texto": "Un objetivo como «que el grupo crezca» es bueno como deseo, pero difícil de cumplir porque no dice cuánto ni cuándo. Un objetivo claro responde cinco preguntas:\n\n- **¿Qué exactamente?** «Que lleguen jóvenes nuevos al grupo».\n- **¿Cuánto?** «Al menos ocho jóvenes nuevos».\n- **¿Es posible?** Con el equipo y el tiempo que tenemos, sí.\n- **¿Para qué?** Para que más jóvenes conozcan a Jesús en comunidad.\n- **¿Para cuándo?** «Antes de fin de mayo».\n\nResultado: «Que al menos ocho jóvenes nuevos participen en el grupo antes de fin de mayo, para que más jóvenes conozcan a Jesús en comunidad».\n\nUn objetivo así permite saber si se cumplió y aprender de lo que pasó. Pero recuerda: en pastoral no todo se mide. Los números ayudan a organizarse; el fruto profundo lo da Dios."
+   },
+   "caso": {
+    "titulo": "La campaña que no partió",
+    "texto": "El equipo acordó con entusiasmo una campaña solidaria para invierno. Nadie quedó a cargo, no se fijaron fechas y nadie habló con la parroquia. En agosto, todos recuerdan que «íbamos a hacer una campaña».",
+    "preguntas": ["¿Cuál de las cinco preguntas de planificación faltó?", "Reescribe la campaña como un plan con objetivo, responsables y plazos."]
+   },
+   "claves": [["Objetivo", "Resultado concreto que se quiere lograr, con cantidad y plazo."], ["Responsable", "Persona con nombre que se hace cargo de una tarea."], ["Riesgo", "Algo que podría salir mal y que conviene prever."]],
+   "lectio": {
+    "meditar": "Jesús habla de calcular antes de construir. ¿Qué proyectos del grupo se quedaron a medio camino por falta de planificación?",
+    "orar": "Presenta a Dios la idea pendiente del grupo y pídele sabiduría para ordenarla.",
+    "vivir": "Convierte esa idea en un plan de una página."
+   },
+   "practica": ["Toma la idea que escribiste al comienzo.", "Responde las cinco preguntas de planificación.", "Formula un objetivo claro y asigna responsables con nombre.", "Escribe dos riesgos y cómo los prevendrán."],
+   "idea": "Una buena idea sin responsable y sin fecha se queda en idea."
+  },
+  "2.3": {
+   "comenzar": "Recuerda la reunión más larga y menos útil en la que hayas estado. Escribe tres cosas que la hicieron así. Ahora escribe tres cosas que tendría una reunión ideal.",
+   "logros": ["Preparar, conducir y cerrar una reunión de una hora.", "Asignar roles en la reunión.", "Llevar un acta sencilla con acuerdos claros."],
+   "profundizar": {
+    "titulo": "Roles en la reunión y un acta sencilla",
+    "texto": "Una reunión funciona mejor cuando no todo recae en el coordinador. Pueden repartirse cuatro roles:\n\n- **Quien conduce:** presenta la tabla, da la palabra y ayuda a llegar a acuerdos.\n- **Quien cuida el tiempo:** avisa cuando un tema se está alargando.\n- **Quien anota:** escribe el acta.\n- **Quien prepara la oración:** abre la reunión con un momento breve de fe.\n\nEl **acta** no tiene que ser larga. Basta con una tabla de tres columnas: **qué** se acordó, **quién** se hace cargo y **para cuándo**. Se envía al equipo el mismo día y se revisa al comienzo de la siguiente reunión.\n\nLa asamblea de Jerusalén muestra este estilo: se escuchan distintas voces, se discierne a la luz del Espíritu, se toma una decisión y se comunica por escrito a las comunidades (Hechos 15,22-29)."
+   },
+   "caso": {
+    "titulo": "Dos horas y nada claro",
+    "texto": "La reunión quincenal duró dos horas. Se habló de todo: la jornada, un problema con un joven, la plata, el cumpleaños del asesor. Al final, nadie sabía qué se había decidido ni quién hacía qué.",
+    "preguntas": ["¿Qué elementos de una buena reunión faltaron?", "Prepara una tabla de una hora para esa misma reunión."]
+   },
+   "claves": [["Tabla", "Lista de temas de la reunión, con tiempo estimado para cada uno."], ["Acta", "Registro breve de los acuerdos: qué, quién y para cuándo."], ["Discernir en común", "Escuchar, orar y decidir juntos lo que Dios pide."]],
+   "lectio": {
+    "meditar": "En Jerusalén hubo «una larga discusión», pero terminaron escribiendo «El Espíritu Santo, y nosotros mismos, hemos decidido». ¿Qué lugar tiene el Espíritu en las decisiones de tu equipo?",
+    "orar": "Antes de la próxima reunión, pide al Espíritu Santo que guíe las decisiones.",
+    "vivir": "Envía una tabla con tiempos dos días antes de la próxima reunión."
+   },
+   "practica": ["Prepara la tabla de la próxima reunión con tiempos.", "Asigna los cuatro roles.", "Lleva el acta en formato qué, quién y cuándo.", "Envíala el mismo día y revísala al comienzo de la siguiente reunión."],
+   "idea": "Una buena reunión termina en acuerdos claros, no solo en buenas conversaciones."
+  }
+ },
+ "evaluacion": [
+  {"q": "¿Qué conviene revisar antes de agregar actividades propias al calendario del grupo?", "options": ["Las preferencias del coordinador.", "El calendario litúrgico, el escolar y lo que propone la parroquia y la diócesis.", "Las actividades de otros grupos para competir con ellas."], "correct": 1, "feedback": "El año pastoral se construye al ritmo de la Iglesia y considerando la vida real de los jóvenes."},
+  {"q": "¿Cuál de estos es un objetivo claro?", "options": ["Que el grupo crezca mucho.", "Que al menos ocho jóvenes nuevos participen antes de fin de mayo.", "Hacer más actividades."], "correct": 1, "feedback": "Un objetivo claro dice qué, cuánto y para cuándo, y permite revisar si se cumplió."},
+  {"q": "¿Qué debe tener como mínimo el acta de una reunión?", "options": ["Todo lo que dijo cada persona.", "Los acuerdos, con quién se hace cargo y para cuándo.", "Solo la lista de asistentes."], "correct": 1, "feedback": "Un acta breve con qué, quién y cuándo es suficiente para hacer seguimiento."}
+ ]
+}

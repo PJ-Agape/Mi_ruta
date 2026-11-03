@@ -1,0 +1,528 @@
+{
+ "m1-eval": {
+  "titulo": "Identidad y mirada del dirigente",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Un joven nuevo se sienta apartado y mira el celular todo el rato. ¿Qué actitud refleja mejor el modelo de Emaús?",
+    "opciones": [
+     "Pedirle delante de todos que guarde el celular para que participe.",
+     "Acercarte con calma, sentarte a su lado, preguntarle su nombre y cómo llegó, sin presionarlo.",
+     "Dejarlo tranquilo hasta que él decida participar por su cuenta."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Jesús en Emaús, el dirigente se acerca primero y camina al ritmo del otro. La confianza se construye antes de pedir participación."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases describe mejor la identidad del dirigente de Ágape?",
+    "opciones": [
+     "Un joven creyente que, desde su bautismo, se hace puente entre los jóvenes y Jesús.",
+     "Una autoridad que debe mantener la disciplina del grupo.",
+     "Un experto que debe tener respuesta para todas las preguntas de fe."
+    ],
+    "correcta": 0,
+    "explicacion": "El dirigente es testigo y servidor, no jefe ni experto. Su servicio nace del bautismo y apunta a que otros se encuentren con Jesús y con la comunidad."
+   },
+   {
+    "pregunta": "Un joven te cuenta algo que le duele y tú sientes el impulso de darle un consejo inmediato. ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Darle el consejo enseguida para que no siga sufriendo.",
+     "Contarle una experiencia tuya parecida para que vea que lo entiendes.",
+     "Escuchar hasta el final, nombrar lo que siente y preguntarle qué necesita."
+    ],
+    "correcta": 2,
+    "explicacion": "Escuchar es más que oír (EG 171). La escucha activa deja hablar, nombra la emoción y permite que el joven exprese qué necesita."
+   },
+   {
+    "pregunta": "Un compañero dirigente dice: «este curso es puro desorden, no vale la pena prepararles nada». ¿Qué responde mejor a CV 67?",
+    "opciones": [
+     "Darle la razón y preparar actividades más simples.",
+     "Invitarlo a buscar juntos lo positivo de ese curso y a pensar qué necesidades hay detrás del desorden.",
+     "Pedir a los coordinadores que cambien a esos jóvenes de grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "El papa pide descubrir la pequeña llama que sigue ardiendo en cada joven. Preguntar por las necesidades detrás de una conducta desactiva prejuicios."
+   },
+   {
+    "pregunta": "¿Qué significa que la pastoral juvenil sea «sinodal» (CV 206)?",
+    "opciones": [
+     "Que los coordinadores deciden y el resto ejecuta.",
+     "Que se hacen muchas reuniones para todo.",
+     "Que es un caminar juntos, escuchando a todos y valorando los dones de cada uno, en comunión con la Iglesia."
+    ],
+    "correcta": 2,
+    "explicacion": "Sínodo es «caminar juntos». Implica escuchar, reconocer carismas, estar en comunión con la parroquia y evaluar con honestidad."
+   },
+   {
+    "pregunta": "Según el Catecismo, ¿qué funciones de Cristo comparte todo bautizado?",
+    "opciones": [
+     "Solo la de rey, porque gobierna su vida.",
+     "Sacerdote, profeta y rey.",
+     "Ninguna: esas funciones son solo de los sacerdotes."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el pueblo de Dios participa de las funciones sacerdotal, profética y real de Cristo (Catecismo 783-786). Para el dirigente se traducen en orar y ofrecer, anunciar con la vida y servir."
+   },
+   {
+    "pregunta": "Un joven te cuenta que un adulto de su entorno le hace daño y te pide que no se lo digas a nadie. ¿Qué haces?",
+    "opciones": [
+     "Le prometes guardar el secreto para no perder su confianza.",
+     "Le agradeces la confianza, le explicas que para cuidarlo necesitas pedir ayuda y buscas enseguida a tu asesor o a un adulto responsable.",
+     "Investigas por tu cuenta qué pasó antes de contarle a alguien."
+    ],
+    "correcta": 1,
+    "explicacion": "La confidencialidad tiene límites: cuando hay riesgo, se pide ayuda de inmediato a un adulto responsable. El dirigente no investiga ni promete secretos que no puede guardar."
+   },
+   {
+    "pregunta": "¿Qué significa que Jesús está realmente presente en la Eucaristía?",
+    "opciones": [
+     "Que la Eucaristía es un recuerdo simbólico de la Última Cena.",
+     "Que Jesús está verdadera, real y sustancialmente presente bajo las especies del pan y del vino.",
+     "Que Jesús está presente solo si la persona que comulga se siente emocionada."
+    ],
+    "correcta": 1,
+    "explicacion": "La Iglesia cree en la presencia real de Cristo en la Eucaristía (Catecismo 1374). No depende de lo que sintamos, sino de la palabra de Jesús."
+   }
+  ]
+ },
+ "m2-eval": {
+  "titulo": "Construir un espacio de confianza",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Durante una dinámica, un joven comparte algo personal y otro se ríe en voz baja. ¿Qué hace el dirigente?",
+    "opciones": [
+     "Se ríe también para que el ambiente no se ponga tenso.",
+     "Recuerda con calma y firmeza el acuerdo de respeto, cuida a quien compartió y después conversa en privado con quien se rió.",
+     "Detiene la reunión y reta públicamente al que se rió."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero se protege a quien fue herido, luego se recuerda el acuerdo sin humillar a nadie y en privado se ayuda a reparar."
+   },
+   {
+    "pregunta": "Un joven te dice: «Te voy a contar algo, pero prométeme que no le dirás a nadie». ¿Qué respondes?",
+    "opciones": [
+     "«Te lo prometo, confía en mí».",
+     "«No puedo escucharte si es algo delicado».",
+     "«Quiero escucharte. Todo lo guardaré con cuidado, pero si hay algo que ponga en riesgo tu vida o tu seguridad, tendré que pedir ayuda»."
+    ],
+    "correcta": 2,
+    "explicacion": "Nunca se promete un secreto absoluto antes de saber de qué se trata. La confidencialidad tiene un límite cuando hay riesgo para la vida o la integridad."
+   },
+   {
+    "pregunta": "¿Qué significa «primerear» (EG 24) en la acogida del grupo?",
+    "opciones": [
+     "Llegar primero a la reunión para tomar el mejor lugar.",
+     "Tomar la iniciativa de salir al encuentro de cada joven, especialmente de los nuevos y de los que se alejan.",
+     "Empezar la reunión puntualmente, aunque no haya llegado nadie."
+    ],
+    "correcta": 1,
+    "explicacion": "Primerear es adelantarse en el amor, como el Padre bueno que corre al encuentro del hijo."
+   },
+   {
+    "pregunta": "Un dirigente prepara él solo la oración, la dinámica, la música y el tema de cada reunión. ¿Qué le sugerirías?",
+    "opciones": [
+     "Que siga así, porque las reuniones salen mejor.",
+     "Que reparta roles rotativos entre los jóvenes, acompañándolos sin reemplazarlos.",
+     "Que pida a los coordinadores que preparen ellos las reuniones."
+    ],
+    "correcta": 1,
+    "explicacion": "Los jóvenes son protagonistas (CV 203). Delegar con acompañamiento los hace sentirse parte y evita el agotamiento del dirigente."
+   },
+   {
+    "pregunta": "Para una salida del grupo hay que pagar una cuota y notas que un joven siempre dice que «no puede ir». ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Buscar discretamente una forma de apoyo (fondo común, beca) o actividades gratuitas, cuidando su dignidad.",
+     "Respetar su decisión y no preguntar nada más.",
+     "Preguntarle delante del grupo si es por falta de plata."
+    ],
+    "correcta": 0,
+    "explicacion": "La inclusión se planifica. Cuidar las barreras económicas con discreción es una forma concreta de vivir la opción por los más pequeños."
+   },
+   {
+    "pregunta": "En tu grupo aparecen discusiones y bandos después de dos meses de funcionamiento. ¿Cómo interpretarlo?",
+    "opciones": [
+     "Como señal de que el grupo fracasó y hay que disolverlo.",
+     "Como una etapa normal del grupo, que pide escuchar, poner límites con cariño y construir acuerdos.",
+     "Como un problema que se resuelve sacando a los que generan conflicto."
+    ],
+    "correcta": 1,
+    "explicacion": "El conflicto es una etapa esperable en la vida de un grupo. Bien acompañado, lleva a acuerdos más fuertes y a mayor confianza."
+   },
+   {
+    "pregunta": "¿Qué rasgo describe mejor la hospitalidad bíblica?",
+    "opciones": [
+     "Esperar a que el nuevo se acerque y demuestre interés.",
+     "Salir al encuentro, atender necesidades concretas y no pedir nada a cambio.",
+     "Acoger solo a quienes prometen quedarse en el grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Abraham en Mambré, la hospitalidad sale al encuentro, sirve concretamente y es gratuita."
+   },
+   {
+    "pregunta": "Llega al grupo un joven con discapacidad. ¿Cuál es el mejor primer paso?",
+    "opciones": [
+     "Preguntarle a él, y a su familia si es menor, qué le ayuda y qué le cuesta.",
+     "Asignarle siempre tareas fáciles para que no se frustre.",
+     "Explicar su condición al grupo sin consultarle."
+    ],
+    "correcta": 0,
+    "explicacion": "Preguntar antes de suponer respeta su dignidad y permite adaptar las actividades de verdad."
+   }
+  ]
+ },
+ "m3-eval": {
+  "titulo": "Escuchar con el corazón",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Un joven te cuenta con lágrimas que sus padres se están separando. ¿Qué respuesta es más adecuada?",
+    "opciones": [
+     "«No llores, esto pasa rápido y hay gente que está peor».",
+     "«Lo siento mucho. Estoy aquí contigo, ¿quieres contarme cómo estás viviendo esto?».",
+     "Cambiar de tema con una broma para que no piense en cosas tristes."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Jesús ante Lázaro, validamos el dolor y ofrecemos presencia. Las frases hechas y la evasión suelen herir más."
+   },
+   {
+    "pregunta": "Un joven siempre responde «bien» o «normal». ¿Cómo lo ayudas?",
+    "opciones": [
+     "Con preguntas abiertas y herramientas como tarjetas de emociones, respetando que puede decir «paso».",
+     "Insistiendo delante del grupo hasta que diga algo más.",
+     "Dejando de preguntarle para no incomodarlo."
+    ],
+    "correcta": 0,
+    "explicacion": "Como Jesús con Bartimeo, una buena pregunta ayuda a nombrar lo que se siente, siempre respetando la libertad."
+   },
+   {
+    "pregunta": "¿Por qué usamos signos como una vela o una piedra en la oración?",
+    "opciones": [
+     "Porque se ven bien en las fotos para redes sociales.",
+     "Porque somos cuerpo y espíritu, y Dios se comunica a través de realidades visibles que nos ayudan a orar con todo el ser.",
+     "Porque es obligatorio según el reglamento parroquial."
+    ],
+    "correcta": 1,
+    "explicacion": "La liturgia está tejida de signos (CEC 1145-1152). Jesús usó barro, agua y pan para que la gracia se pudiera ver y sentir."
+   },
+   {
+    "pregunta": "¿Cuál es el orden de los pasos de la lectio divina según Verbum Domini 87?",
+    "opciones": [
+     "Oración, lectura, acción, meditación.",
+     "Lectura, meditación, oración, contemplación y acción.",
+     "Meditación, contemplación, lectura, oración."
+    ],
+    "correcta": 1,
+    "explicacion": "Se lee lo que dice el texto, se medita qué me dice, se responde a Dios, se contempla en silencio y se aterriza en un compromiso."
+   },
+   {
+    "pregunta": "Semanas después de la muerte de su abuelo, un joven sigue muy aislado, dejó el colegio y dice que «nada tiene sentido». ¿Qué haces?",
+    "opciones": [
+     "Esperar, porque cada uno vive el duelo a su ritmo.",
+     "Decirle que rece más y que pronto se le pasará.",
+     "Acompañarlo con cariño y avisar a tus coordinadores y asesores para que la familia busque ayuda profesional; si la situación es urgente, pedir ayuda de inmediato."
+    ],
+    "correcta": 2,
+    "explicacion": "Son señales de alerta. El dirigente acompaña, pero no reemplaza la ayuda profesional; ante una urgencia no se espera."
+   },
+   {
+    "pregunta": "¿Cuál de estos gestos de afecto respeta mejor las orientaciones de cuidado en el grupo?",
+    "opciones": [
+     "Un abrazo prolongado a solas con un joven para consolarlo.",
+     "Un saludo o abrazo breve, visible para todos y respetando si la otra persona no quiere contacto.",
+     "Evitar todo gesto de cariño para no tener problemas."
+    ],
+    "correcta": 1,
+    "explicacion": "La cercanía es parte del Evangelio, pero se expresa con prudencia: gestos breves, visibles y respetuosos de la otra persona."
+   },
+   {
+    "pregunta": "¿Qué enseña la Iglesia sobre los sacramentos?",
+    "opciones": [
+     "Que son símbolos que solo recuerdan lo que hizo Jesús.",
+     "Que son signos eficaces de la gracia, instituidos por Cristo, que realizan lo que significan.",
+     "Que tienen el mismo valor que cualquier objeto que nos ayude a rezar."
+    ],
+    "correcta": 1,
+    "explicacion": "Los sacramentos no solo representan: realizan lo que significan (Catecismo 1131)."
+   },
+   {
+    "pregunta": "Un joven en duelo publica en redes que «ya no quiere seguir». ¿Qué haces?",
+    "opciones": [
+     "Esperar a que se le pase, porque es normal en el duelo.",
+     "Avisar de inmediato a tu asesor o a un adulto responsable y, si hay peligro inminente, a los servicios de emergencia.",
+     "Responderle en público para que sepa que el grupo lo apoya."
+    ],
+    "correcta": 1,
+    "explicacion": "Cualquier mención a no querer vivir es una señal roja: se pide ayuda adulta de inmediato y no se maneja solo."
+   }
+  ]
+ },
+ "m4-eval": {
+  "titulo": "Método y experiencia",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es el propósito principal del juego en un encuentro de Ágape?",
+    "opciones": [
+     "Pasar el rato cuando sobra tiempo.",
+     "Romper el hielo, integrar y generar una experiencia común de la cual aprender y conversar.",
+     "Descubrir quiénes son los más hábiles para darles más responsabilidades."
+    ],
+    "correcta": 1,
+    "explicacion": "El juego abre el corazón y crea una vivencia compartida que luego se ilumina con la fe."
+   },
+   {
+    "pregunta": "En un juego cooperativo el equipo pierde porque un joven tropezó. ¿Qué enseñas?",
+    "opciones": [
+     "Que la próxima vez juegue otro para asegurar el resultado.",
+     "Que nos levantamos juntos, sin reproches: el verdadero logro es no dejar a nadie atrás.",
+     "Que perder también es parte del juego y terminar la actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "La cooperación educa en la lógica del Reino: lo que se comparte se multiplica y nadie es descartable."
+   },
+   {
+    "pregunta": "¿Cuál es el orden del método formativo de Ágape?",
+    "opciones": [
+     "Iluminar, vivir, actuar, conversar.",
+     "Charla, juego, oración.",
+     "Vivir, conversar, iluminar y actuar, cerrando con una oración."
+    ],
+    "correcta": 2,
+    "explicacion": "Como en Emaús: se parte de la vida, se conversa, se ilumina con la Palabra y se vuelve a la vida con un compromiso."
+   },
+   {
+    "pregunta": "Al terminar una actividad, ¿qué tres preguntas ayudan a cosechar la experiencia?",
+    "opciones": [
+     "¿Qué pasó? ¿Qué sentí o aprendí? ¿Qué me pide Dios?",
+     "¿Quién ganó? ¿Quién perdió? ¿Quién tuvo la culpa?",
+     "¿Cuánto duró? ¿A qué hora nos vamos? ¿Qué hay para comer?"
+    ],
+    "correcta": 0,
+    "explicacion": "Estas preguntas convierten una actividad en experiencia formativa y en un pequeño ejercicio de discernimiento."
+   },
+   {
+    "pregunta": "Al planificar un encuentro de 60 minutos, ¿cuánto tiempo conviene dedicar a la exposición del dirigente (la «charla»)?",
+    "opciones": [
+     "La mayor parte, porque es lo más importante.",
+     "Poco: unos cinco minutos dentro del momento de iluminar, dejando espacio a la experiencia y la conversación.",
+     "Nada; basta con los juegos."
+    ],
+    "correcta": 1,
+    "explicacion": "El centro del encuentro es la experiencia y el diálogo. La Palabra ilumina brevemente lo vivido y conduce a la acción."
+   },
+   {
+    "pregunta": "¿Cuál de estas actividades NO debería hacerse en un grupo de Ágape?",
+    "opciones": [
+     "Un juego cooperativo en que el grupo cruza un obstáculo junto.",
+     "Un castigo en que el equipo perdedor debe hacer algo humillante frente a todos.",
+     "Una celebración por el cumpleaños de un joven."
+    ],
+    "correcta": 1,
+    "explicacion": "Los juegos que humillan dejan heridas y contradicen el Evangelio. Un buen juego une, enseña y cuida la dignidad de todos."
+   },
+   {
+    "pregunta": "¿Cuál es el aporte del momento «iluminar» en el método?",
+    "opciones": [
+     "Dar datos y estadísticas sobre el tema.",
+     "Mirar la experiencia a la luz de la Palabra de Dios y de la enseñanza de la Iglesia.",
+     "Decidir quién organiza la próxima actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "Iluminar une la vida con la fe: es el paso que evita que el encuentro sea solo una conversación entretenida."
+   },
+   {
+    "pregunta": "Un dirigente atraviesa una semana muy oscura y quiere renunciar. Según san Ignacio, ¿qué le conviene?",
+    "opciones": [
+     "Decidir rápido para no seguir sufriendo.",
+     "No hacer cambios importantes en desolación y buscar compañía y oración hasta que vuelva la calma.",
+     "Renunciar y volver cuando se sienta mejor."
+    ],
+    "correcta": 1,
+    "explicacion": "En desolación no se hacen cambios importantes. Es momento de sostenerse en la oración y en la comunidad."
+   }
+  ]
+ },
+ "m5-eval": {
+  "titulo": "Aptitud y discernimiento del dirigente Ágape",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Un joven te cuenta en privado algo que te hace pensar que su vida o su integridad están en peligro. ¿Qué debes hacer?",
+    "opciones": [
+     "Prometerle que no le contarás a nadie para no perder su confianza.",
+     "Escucharlo con calma, no dejarlo solo, avisar de inmediato a los responsables y a su familia, y buscar ayuda profesional; ante una emergencia, llamar al 131.",
+     "Recomendarle rezar más y esperar a ver cómo evoluciona."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una situación «roja». El mayor acto de amor es no quedarse solo con eso y activar la ayuda profesional de inmediato."
+   },
+   {
+    "pregunta": "Terminada la reunión, un joven de 14 años te pide que lo acompañes a conversar a una sala cerrada de la parroquia. ¿Qué es lo más adecuado según el ISE?",
+    "opciones": [
+     "Aceptar, porque la conversación puede ser importante.",
+     "Negarte a conversar para evitar problemas.",
+     "Conversar con él en un espacio abierto y visible, cerca de otros adultos, y si el tema es delicado, pedir apoyo a los responsables."
+    ],
+    "correcta": 2,
+    "explicacion": "El servicio pastoral se realiza en espacios abiertos y visibles. Eso protege al joven y al dirigente sin negar la escucha."
+   },
+   {
+    "pregunta": "Notas que duermes mal, te irritas con los jóvenes y sientes que todo depende de ti. ¿Qué haces?",
+    "opciones": [
+     "Aumentar tu esfuerzo para demostrar compromiso.",
+     "Conversar con tu equipo, redistribuir tareas, descansar y retomar tu vida de oración.",
+     "Dejar el grupo sin avisar."
+    ],
+    "correcta": 1,
+    "explicacion": "Son señales de agotamiento. Jesús invita a descansar, y Jetró aconsejó a Moisés repartir las cargas."
+   },
+   {
+    "pregunta": "Un compañero dirigente habla mal de ti con otros. ¿Qué camino propone el Evangelio (Mt 18,15)?",
+    "opciones": [
+     "Hablar directamente con él a solas, desde lo que sentiste; si no se resuelve, pedir mediación a coordinadores o asesores.",
+     "Responder de la misma forma con otros dirigentes.",
+     "Ignorarlo y dejar de colaborar con él."
+    ],
+    "correcta": 0,
+    "explicacion": "La corrección fraterna empieza a solas y con honestidad. La reconciliación del equipo también es testimonio."
+   },
+   {
+    "pregunta": "Un joven tiene dudas de fe y cuestiona lo que enseñamos. ¿Cómo reaccionas?",
+    "opciones": [
+     "Diciéndole que dudar es falta de fe.",
+     "Acogiendo sus preguntas con paciencia, conversando con naturalidad y acompañando su búsqueda sin juzgar.",
+     "Evitando el tema para no confundir al resto del grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Jesús acogió las dudas de Tomás mostrándole sus heridas. Las preguntas sinceras son oportunidades para madurar en la fe."
+   },
+   {
+    "pregunta": "¿Qué significa, en síntesis, ser dirigente en la Pastoral Juvenil Ágape?",
+    "opciones": [
+     "Tener un cargo para organizar y dar instrucciones.",
+     "Ser el animador que más destaca en las actividades.",
+     "Ser un hermano mayor y amigo que, enviado por Jesús y en equipo, acompaña a los jóvenes con escucha, cuidado y testimonio."
+    ],
+    "correcta": 2,
+    "explicacion": "Felicitaciones: has recorrido el curso completo. El liderazgo cristiano es servicio humilde que hace crecer a otros."
+   },
+   {
+    "pregunta": "Eres dirigente y tienes 15 años. Un joven del grupo te escribe por privado de noche para contarte algo grave. ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Resolverlo tú por privado para no exponerlo.",
+     "Escucharlo, decirle que vas a pedir ayuda para cuidarlo y avisar de inmediato a tu asesor o a un adulto responsable.",
+     "No responder hasta la próxima reunión."
+    ],
+    "correcta": 1,
+    "explicacion": "Un dirigente menor de edad nunca maneja solo una situación grave. Escucha, no promete secretos y busca de inmediato a un adulto responsable."
+   },
+   {
+    "pregunta": "¿Cuál es la mejor manera de expresar a un compañero de equipo algo que te molesta?",
+    "opciones": [
+     "Comentarlo con otros para ver si piensan lo mismo.",
+     "Decirle a solas el hecho, cómo te afectó y qué le pides concretamente.",
+     "No decir nada para no generar conflicto."
+    ],
+    "correcta": 1,
+    "explicacion": "Hecho, efecto y petición, a solas y con cariño: así se dice la verdad con amor, como pide Efesios 4,15."
+   },
+   {
+    "pregunta": "¿Qué caracteriza a una buena regla de vida?",
+    "opciones": [
+     "Muchas exigencias para crecer rápido.",
+     "Pocas decisiones concretas y posibles, conversadas con quien te acompaña y revisadas cada cierto tiempo.",
+     "Un compromiso que no se puede cambiar nunca."
+    ],
+    "correcta": 1,
+    "explicacion": "La regla de vida ordena la vida en torno a Jesús con decisiones pequeñas y realistas, que se revisan y se retoman."
+   }
+  ]
+ },
+ "m6-eval": {
+  "titulo": "La Eucaristía, corazón de nuestra pastoral",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Un joven de tu grupo te dice: «La misa es aburrida, no voy a ir más». ¿Qué respuesta refleja mejor lo aprendido?",
+    "opciones": [
+     "Decirle que si no va a misa no puede seguir en el grupo.",
+     "Escucharlo, preguntarle qué le cuesta, invitarlo personalmente a ir juntos y ayudarlo a entender lo que se celebra.",
+     "No decir nada: es su decisión y no es tema del dirigente."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Jesús en Juan 6, respetamos la libertad, pero no somos indiferentes: escuchamos, invitamos y acompañamos para que cada joven pueda descubrir el sentido de la Eucaristía."
+   },
+   {
+    "pregunta": "¿Qué significa que la Eucaristía sea «fuente y culmen» de la vida cristiana?",
+    "opciones": [
+     "Que es la actividad más importante del calendario parroquial.",
+     "Que de ella brota la fuerza de toda la vida cristiana y hacia ella se orienta todo, también nuestro servicio.",
+     "Que basta con ir a misa para ser un buen cristiano, aunque no se viva el Evangelio."
+    ],
+    "correcta": 1,
+    "explicacion": "El Catecismo (1324) enseña que los sacramentos y todas las obras de apostolado están unidos a la Eucaristía y se ordenan a ella."
+   },
+   {
+    "pregunta": "Tu grupo va a animar la misa del domingo y alguien propone cambiar el Evangelio del día por un texto más «juvenil». ¿Qué corresponde hacer?",
+    "opciones": [
+     "Aceptarlo, porque lo importante es que los jóvenes se motiven.",
+     "Explicar que las lecturas y los ritos no se cambian, y poner la creatividad en la acogida, los cantos, las moniciones y la preparación, coordinando con el párroco.",
+     "Dejar que cada uno haga lo que quiera durante la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "La liturgia es un tesoro que recibimos de la Iglesia. La participación activa se vive dentro de su forma, con creatividad en lo que sí corresponde."
+   },
+   {
+    "pregunta": "Quieres proponer una primera experiencia de adoración a jóvenes que nunca la han vivido. ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Una hora completa en silencio, sin ninguna explicación.",
+     "Un momento breve y guiado: explicar antes qué se vive, un canto, una frase del Evangelio, silencio y una oración final, coordinado con el párroco.",
+     "Pedirles que cierren los ojos y dejen la mente en blanco."
+    ],
+    "correcta": 1,
+    "explicacion": "La adoración es estar con Jesús presente en la Eucaristía. Para quienes empiezan, conviene que sea breve, acompañada y bien preparada."
+   },
+   {
+    "pregunta": "¿Por qué el Catecismo dice que la Eucaristía «entraña un compromiso en favor de los pobres»?",
+    "opciones": [
+     "Porque en la misa se hace una colecta.",
+     "Porque quien recibe a Cristo en la comunión está llamado a reconocerlo y servirlo en los más pobres, sus hermanos.",
+     "Porque la caridad reemplaza a la misa: si ayudo a otros, no necesito ir."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el mismo Jesús el que se entrega en el altar y el que nos sale al encuentro en el que sufre (CEC 1397). La misa nos envía a servir."
+   },
+   {
+    "pregunta": "Un joven pregunta si puede comulgar aunque no se ha confesado de un pecado grave. ¿Qué enseña la Iglesia?",
+    "opciones": [
+     "Que puede comulgar si se siente bien.",
+     "Que quien tiene conciencia de pecado grave debe confesarse antes de comulgar.",
+     "Que la comunión no tiene requisitos."
+    ],
+    "correcta": 1,
+    "explicacion": "Para comulgar hay que estar en gracia de Dios; quien tiene conciencia de pecado grave se confiesa antes (Catecismo 1385). Mientras tanto, puede participar y hacer una comunión espiritual."
+   },
+   {
+    "pregunta": "¿Qué color litúrgico se usa en el tiempo ordinario?",
+    "opciones": [
+     "Verde.",
+     "Morado.",
+     "Blanco."
+    ],
+    "correcta": 0,
+    "explicacion": "El verde se usa en el tiempo ordinario y recuerda la esperanza y el crecimiento. El morado es de Adviento y Cuaresma, y el blanco de Navidad y Pascua."
+   },
+   {
+    "pregunta": "¿Cuál es el mejor criterio para elegir un canto de comunión?",
+    "opciones": [
+     "Que esté de moda entre los jóvenes.",
+     "Que su letra sea fiel a la fe, corresponda al momento y la asamblea pueda cantarlo.",
+     "Que el coro se luzca."
+    ],
+    "correcta": 1,
+    "explicacion": "La música litúrgica ayuda a que todos recen: corresponde al momento, es fiel a la fe y la comunidad puede cantarla."
+   }
+  ]
+ }
+}

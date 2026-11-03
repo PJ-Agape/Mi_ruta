@@ -1,0 +1,72 @@
+{
+ "unidades": {
+  "4.1": {
+   "comenzar": "Recuerda una conversación reciente en que te quedaste callado aunque algo te molestaba, y otra en que reaccionaste de forma brusca. Escribe qué te habría gustado decir en cada una.",
+   "logros": ["Distinguir los estilos pasivo, agresivo y asertivo.", "Usar el mensaje en primera persona.", "Escuchar como parte esencial de la comunicación."],
+   "profundizar": {
+    "titulo": "El mensaje en primera persona",
+    "texto": "Cuando algo nos molesta, solemos hablar en segunda persona: «tú siempre llegas tarde», «tú nunca ayudas». Esas frases suenan a acusación y el otro se defiende. El **mensaje en primera persona** cambia el foco hacia lo que yo vivo:\n\n**«Yo me siento [emoción] cuando [hecho concreto], porque [necesidad o efecto]. Te pido [algo concreto]».**\n\nEjemplo: «Me siento preocupado cuando la sala queda desordenada después del encuentro, porque el párroco nos llamó la atención. Te pido que este sábado nos quedemos los dos diez minutos para ordenar».\n\nAlgunas claves:\n\n- **Habla del hecho, no de la persona:** «llegaste tarde» y no «eres irresponsable».\n- **Evita «siempre» y «nunca»:** casi nunca son verdad y endurecen la conversación.\n- **Elige el momento:** a solas, con calma, no en medio del grupo.\n- **Termina con una petición posible:** algo que el otro pueda hacer."
+   },
+   "caso": {
+    "titulo": "El audio de cinco minutos",
+    "texto": "Molesta porque nadie la ayudó a preparar la jornada, una coordinadora manda un audio de cinco minutos al grupo de dirigentes con reclamos generales. Algunos se sienten atacados, otros no lo escuchan y nadie responde.",
+    "preguntas": ["¿Qué estilo de comunicación usó?", "Reescribe su mensaje en primera persona, dirigido a quien corresponde."]
+   },
+   "claves": [["Asertividad", "Decir lo que pienso y necesito con claridad y respeto, sin agredir ni callar."], ["Mensaje en primera persona", "Expresar lo que siento y pido, sin acusar al otro."], ["Escucha", "Acoger lo que el otro dice antes de responder."]],
+   "lectio": {
+    "meditar": "Pablo pide decir la verdad y no dejar que el sol se ponga sobre el enojo. ¿Hay algo que llevas tiempo sin decir? ¿Algún enojo guardado?",
+    "orar": "Pide al Espíritu Santo las palabras justas para una conversación pendiente.",
+    "vivir": "Ten esa conversación esta semana usando el mensaje en primera persona."
+   },
+   "practica": ["Escribe un mensaje en primera persona sobre algo que te molesta en el equipo.", "Revísalo con tu dupla o con el asesor.", "Elige un momento a solas para decirlo.", "Después, anota en tu cuaderno cómo resultó."],
+   "idea": "La verdad dicha con amor construye; dicha sin amor, destruye."
+  },
+  "4.2": {
+   "comenzar": "Piensa en un conflicto del equipo que no se resolvió bien. Escribe qué lo empeoró: ¿los comentarios a espaldas, el orgullo, la falta de tiempo para conversar? Guárdalo para el caso de esta unidad.",
+   "logros": ["Seguir los pasos de la corrección fraterna.", "Mediar en un conflicto entre dos dirigentes.", "Promover el perdón y la reconciliación en el equipo."],
+   "profundizar": {
+    "titulo": "Mediar en cinco pasos",
+    "texto": "Cuando el conflicto es entre dos dirigentes, la coordinación puede ayudar a mediar. Mediar no es decidir quién tiene la razón, sino ayudar a que ellos mismos encuentren una salida:\n\n1. **Preparar:** conversa por separado con cada uno, escucha y pregunta si están dispuestos a conversar juntos. Si el tema es grave, invita al asesor.\n2. **Abrir:** en un lugar tranquilo, empieza con una oración breve y acuerden reglas: hablar por turnos, sin insultos, en primera persona.\n3. **Escuchar:** cada uno cuenta su versión sin ser interrumpido. Tú resumes lo que entendiste de cada uno.\n4. **Buscar:** pregunta qué necesita cada uno y qué propone. Ayuda a encontrar algo que ambos puedan aceptar.\n5. **Cerrar:** escriban el acuerdo, ofrezcan el perdón si corresponde y fijen una fecha para ver cómo va.\n\nSi el conflicto involucra una falta grave, un abuso o un riesgo para alguien, no se media: se avisa de inmediato al asesor y a la parroquia."
+   },
+   "caso": {
+    "titulo": "Dos dirigentes que no se hablan",
+    "texto": "Después de una discusión por un juego en la jornada, dos dirigentes dejaron de hablarse. Ahora no quieren estar en el mismo grupo pequeño y el resto del equipo empezó a tomar partido.",
+    "preguntas": ["¿Cómo aplicarías los cinco pasos de la mediación?", "¿Qué harías con el resto del equipo que tomó partido?"]
+   },
+   "claves": [["Corrección fraterna", "Hablar a solas y con amor con un hermano que ha fallado, para ayudarlo a crecer."], ["Mediación", "Ayudar a dos personas en conflicto a encontrar juntas una salida."], ["Reconciliación", "Restablecer la relación después del conflicto, con perdón y nuevos acuerdos."]],
+   "lectio": {
+    "meditar": "Pedro pregunta cuántas veces perdonar y Jesús responde «setenta veces siete». ¿Qué te cuesta perdonar en tu equipo?",
+    "orar": "Presenta a Dios el conflicto que recordaste al comienzo y pide la gracia del perdón.",
+    "vivir": "Da un paso concreto de reconciliación con alguien esta semana."
+   },
+   "practica": ["Revisa con tu dupla si hay conflictos pendientes en el equipo.", "Elige uno que puedan mediar.", "Prepárenlo con los cinco pasos y, si es necesario, con el asesor.", "Después, evalúen cómo resultó y qué aprendieron."],
+   "idea": "Un conflicto bien acompañado puede fortalecer al equipo."
+  },
+  "4.3": {
+   "comenzar": "Revisa las últimas cinco publicaciones del grupo en redes sociales o en el grupo de apoderados. Escribe qué comunican: ¿invitan?, ¿informan?, ¿muestran a los jóvenes con respeto?",
+   "logros": ["Comunicar con claridad a apoderados y a la parroquia.", "Publicar en redes con criterios de cuidado.", "Pedir autorización para usar imágenes de menores."],
+   "profundizar": {
+    "titulo": "Fotos y datos de los jóvenes: cuidar antes de publicar",
+    "texto": "Las imágenes y los datos de los jóvenes, especialmente de los menores de edad, merecen un cuidado especial. Algunas reglas para el grupo:\n\n- **Autorización por escrito:** al inicio del año, pide a los apoderados que autoricen o no el uso de fotos de su hijo o hija en las redes del grupo. Respeta a quienes digan que no.\n- **Nada que exponga:** no publiques fotos en traje de baño, durmiendo, llorando o en situaciones que puedan avergonzar.\n- **Sin datos personales:** no etiquetes ni pongas nombres completos, colegios, direcciones ni horarios exactos de actividades con menores.\n- **Cuentas oficiales:** publica desde las cuentas del grupo administradas por la coordinación y el asesor, no desde cuentas personales.\n- **Pregunta antes:** incluso con autorización, pregunta a los jóvenes si están de acuerdo con una foto antes de subirla.\n- **Revisa los comentarios:** borra los ofensivos y no dejes que la publicación se convierta en burla.\n\nComunicar bien lo que vive el grupo es un modo de anunciar el Evangelio. Hacerlo con cuidado es parte del mismo anuncio."
+   },
+   "caso": {
+    "titulo": "La foto del campamento",
+    "texto": "Un dirigente sube a su cuenta personal una foto de los jóvenes del grupo en el río durante el campamento, etiquetando a todos. Un apoderado reclama porque nunca autorizó que publicaran fotos de su hija.",
+    "preguntas": ["¿Qué criterios no se respetaron?", "¿Qué debe hacer la coordinación ahora y qué cambiar para el futuro?"]
+   },
+   "claves": [["Autorización", "Permiso escrito de los apoderados para usar la imagen de un menor."], ["Datos personales", "Información que permite identificar o ubicar a una persona."], ["Comunicación pastoral", "Dar a conocer la vida del grupo para anunciar el Evangelio y fortalecer la comunidad."]],
+   "lectio": {
+    "meditar": "Juan comunica «lo que hemos visto y oído» para que otros entren en comunión. ¿Qué de lo vivido en tu grupo vale la pena comunicar?",
+    "orar": "Pide a Dios que la comunicación del grupo transmita alegría y cuidado.",
+    "vivir": "Revisa las autorizaciones de imagen de los jóvenes del grupo."
+   },
+   "practica": ["Prepara un formulario de autorización de imagen para los apoderados.", "Acuerda con el asesor quién administra las cuentas del grupo.", "Revisa las publicaciones actuales y borra lo que no cumpla los criterios.", "Propón un calendario mensual de comunicación con apoderados y parroquia."],
+   "idea": "Comunicar bien es anunciar; comunicar con cuidado es amar."
+  }
+ },
+ "evaluacion": [
+  {"q": "¿Cuál de estas frases es un mensaje en primera persona?", "options": ["Tú nunca ayudas a ordenar.", "Me siento sobrepasado cuando ordeno solo después del encuentro; te pido que me ayudes este sábado.", "Eres un irresponsable."], "correct": 1, "feedback": "El mensaje en primera persona expresa lo que siento y pido, sin acusar."},
+  {"q": "En una mediación entre dos dirigentes, ¿cuál es el papel del coordinador?", "options": ["Decidir quién tiene la razón.", "Ayudar a que ambos se escuchen y encuentren juntos una salida.", "Contarle al grupo lo que pasó."], "correct": 1, "feedback": "Mediar es facilitar el diálogo, no juzgar. Si hay una falta grave o un riesgo, se avisa al asesor y a la parroquia."},
+  {"q": "¿Qué se necesita antes de publicar fotos de jóvenes menores de edad en las redes del grupo?", "options": ["Nada, si la foto es bonita.", "Autorización escrita de los apoderados y cuidar que la imagen no los exponga.", "Solo que el dirigente esté de acuerdo."], "correct": 1, "feedback": "La imagen de un menor requiere autorización de sus apoderados y criterios de cuidado al publicar."}
+ ]
+}
