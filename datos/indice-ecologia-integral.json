@@ -1,0 +1,53 @@
+{
+ "curso": "ecologia-integral",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Cuidar la casa común",
+   "semanas": "",
+   "intro": "El papa Francisco escribió en 2015 la encíclica *Laudato si'*, sobre el cuidado de la casa común. En ella invita a todos, y especialmente a los jóvenes, a una conversión ecológica: cambiar la manera de mirar, de vivir y de consumir. Esta formación recorre sus ideas centrales y termina en acción.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "La creación, un regalo",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Todo está conectado",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Conversión ecológica",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Un proyecto por la casa común",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Ecología integral",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

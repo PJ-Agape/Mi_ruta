@@ -1,0 +1,486 @@
+{
+ "id": "misiones-juveniles",
+ "titulo": "Misiones juveniles",
+ "subtitulo": "Preparar, vivir y continuar la misión",
+ "categoria": "Misión y servicio",
+ "publico": "Desde 14 años; los menores de edad, con autorización y acompañamiento adulto",
+ "descripcion": "Para grupos que preparan misiones de verano o de invierno: el sentido de la misión, cómo organizarla con responsabilidad, cómo vivir los días en terreno y cómo continuar la misión al volver. 4 unidades de 90 minutos y una evaluación final.",
+ "modulo": "Enviados de dos en dos",
+ "intro": "Las misiones son para muchos jóvenes una experiencia que marca la vida: salir de la propia comodidad, conocer otras realidades y anunciar a Jesús con la propia vida. Esta formación ayuda a vivirlas bien: con sentido, con organización y con cuidado de todos.",
+ "unidades": [
+  {
+   "title": "Enviados",
+   "objective": "Comprender el sentido cristiano de la misión y la identidad del joven misionero.",
+   "intro": "La misión no es un paseo solidario ni un campamento con actividades religiosas. Es la respuesta a un envío de Jesús: ir al encuentro de otros para compartir lo que hemos recibido. En esta unidad vas a descubrir de dónde nace la misión y qué tipo de misionero quiere Jesús.",
+   "sections": [
+    {
+     "title": "Jesús envía",
+     "body": "Jesús no guarda la Buena Noticia para un grupo cerrado: envía a sus discípulos de dos en dos a anunciar el Reino (Marcos 6,7-13). Después de la resurrección, los envía a todos los pueblos (Mateo 28,19-20).\n\nEl papa Francisco insiste en que la Iglesia es una **Iglesia en salida**: comunidad de discípulos misioneros que toman la iniciativa, se involucran, acompañan y celebran (Evangelii gaudium 24). Todo bautizado es un **discípulo misionero** (n. 120)."
+    },
+    {
+     "title": "Primero discípulo",
+     "body": "Nadie puede dar lo que no tiene. Antes de anunciar a Jesús, el misionero necesita haberlo encontrado: en la oración, en los sacramentos, en la comunidad.\n\nPor eso una misión bien preparada incluye **tiempos de oración** antes, durante y después. No se trata de llevar a Dios a lugares donde no está, sino de **descubrirlo y anunciarlo** donde ya está actuando."
+    },
+    {
+     "title": "Jóvenes misioneros",
+     "body": "En *Christus vivit*, el papa anima a los jóvenes a ser misioneros con valentía: no hace falta esperar a ser adultos ni saberlo todo para anunciar a Jesús (nn. 175-178). Los jóvenes pueden llegar donde otros no llegan, con su alegría y su cercanía.\n\nEn Chile hay una larga tradición de **misiones de verano e invierno** organizadas por parroquias, colegios, movimientos y universidades, que visitan pueblos, campos y poblaciones."
+    },
+    {
+     "title": "El estilo del misionero",
+     "body": "En el envío, Jesús da algunas indicaciones (Lucas 10,1-9):\n\n- **De dos en dos:** nunca solos, siempre en comunidad.\n- **Livianos de equipaje:** confiar más en Dios que en las cosas.\n- **Llevar la paz:** saludar deseando el bien a cada casa.\n- **Quedarse y compartir:** comer lo que les ofrezcan, aceptar la hospitalidad.\n- **Cuidar a los enfermos y anunciar:** obras y palabras van juntas.\n- **Respetar la libertad:** si no los reciben, seguir adelante sin rencor."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 10,1-9 · El envío de los setenta y dos",
+    "comment": "Jesús envía a setenta y dos discípulos de dos en dos, como corderos en medio de lobos, sin bolsa ni sandalias. Les pide llevar la paz, quedarse en las casas que los reciban, sanar a los enfermos y anunciar que el Reino de Dios está cerca."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 24 y 120",
+     "text": "La Iglesia en salida es la comunidad de discípulos misioneros que toman la iniciativa; todo bautizado es un agente de evangelización.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Christus vivit 175-178",
+     "text": "Los jóvenes pueden ser misioneros valientes, sin esperar a saberlo todo, llevando a Jesús a todos los ambientes.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Por qué quieres ir a misiones? Escribe tus razones con honestidad.",
+    "¿Qué significa para ti ser «primero discípulo»?",
+    "¿Cuál de las indicaciones de Jesús en Lucas 10 te cuesta más?",
+    "¿Dónde crees que Dios ya está actuando antes de que lleguen los misioneros?"
+   ],
+   "activity": "Conversen en grupo las motivaciones para ir a misiones. Escriban juntos un «lema de la misión» inspirado en Lucas 10 y una oración breve que rezarán cada mañana en terreno.",
+   "prayer": "Señor Jesús, que enviaste a tus discípulos de dos en dos: aquí estamos, envíanos. Llénanos primero de tu amor para poder compartirlo. Que lleguemos a cada casa con tu paz, que escuchemos más de lo que hablemos y que descubramos que Tú ya estabas allí antes que nosotros. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium (Francisco, 2013)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Capítulo 1: la transformación misionera de la Iglesia."
+    }
+   ],
+   "comenzar": "Si ya has ido a misiones, escribe el recuerdo más fuerte que tengas. Si nunca has ido, escribe qué te imaginas y qué te da curiosidad o temor.",
+   "logros": [
+    "Explicar el sentido cristiano de la misión.",
+    "Reconocer que el misionero es primero discípulo.",
+    "Describir el estilo misionero que propone Jesús."
+   ],
+   "profundizar": {
+    "titulo": "Misión no es turismo solidario",
+    "texto": "Algunos riesgos de las misiones que conviene evitar:\n\n- **Ir a «salvar»:** creer que los misioneros traen todo y la comunidad no tiene nada que dar. En realidad, el misionero recibe muchísimo.\n- **Hacer de la misión una vitrina:** fotos para redes sociales que exponen la pobreza ajena o a niños sin permiso.\n- **Olvidar la continuidad:** llegar, hacer muchas cosas e irse sin coordinar con la parroquia local.\n- **Dejar de lado lo espiritual:** convertir la misión solo en trabajos o actividades recreativas.\n\nLa misión es **un encuentro**: se da y se recibe, se anuncia y se aprende."
+   },
+   "caso": {
+    "titulo": "Las fotos",
+    "texto": "En la misión del año pasado, varios jóvenes publicaron fotos con niños de la localidad y comentarios como «tan pobres pero tan felices». Algunas familias se molestaron al verlas.",
+    "preguntas": [
+     "¿Qué problema hay en esas publicaciones?",
+     "¿Qué criterios debería acordar el grupo para este año?"
+    ]
+   },
+   "claves": [
+    [
+     "Misión",
+     "Envío de Jesús a anunciar el Evangelio con palabras y obras."
+    ],
+    [
+     "Discípulo misionero",
+     "Todo bautizado que sigue a Jesús y lo anuncia."
+    ],
+    [
+     "Iglesia en salida",
+     "Comunidad que va al encuentro de los demás, especialmente de los alejados."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús envía «sin bolsa ni sandalias». ¿Qué cosas te sobran para ser más libre en la misión?",
+    "orar": "Pide a Jesús un corazón disponible y humilde para la misión.",
+    "vivir": "Esta semana, saluda deseando la paz a alguien con quien casi no hablas."
+   },
+   "practica": [
+    "Compartan sus motivaciones en el grupo.",
+    "Escriban el lema de la misión.",
+    "Escriban la oración de la mañana.",
+    "Acuerden criterios para el uso de fotos y redes sociales."
+   ],
+   "idea": "El misionero lleva a Jesús y descubre que Él ya estaba allí."
+  },
+  {
+   "title": "Preparar la misión",
+   "objective": "Organizar una misión con responsabilidad: lugar, equipo, formación, logística, documentos y cuidados.",
+   "intro": "Una buena misión empieza meses antes. La improvisación puede poner en riesgo a los misioneros y molestar a la comunidad que los recibe. En esta unidad vas a recorrer todo lo que hay que preparar para que la misión sea segura, ordenada y fecunda.",
+   "sections": [
+    {
+     "title": "El lugar y la comunidad",
+     "body": "- **En comunión con la Iglesia local:** la misión se coordina siempre con el párroco del lugar y su comunidad. No se llega por cuenta propia.\n- **Visita previa:** algunos responsables visitan el lugar antes, conocen a los referentes, ven el alojamiento y conversan qué necesita la comunidad.\n- **Escuchar las necesidades:** la comunidad local sabe mejor que nadie qué conviene hacer.\n- **Conocer la realidad:** historia, costumbres, religiosidad popular, fiestas y desafíos del lugar."
+    },
+    {
+     "title": "El equipo",
+     "body": "- **Jefes de misión adultos y responsables**, con experiencia.\n- **Encargados por área:** liturgia, visitas, actividades con niños, trabajos, cocina, salud, finanzas, comunicación.\n- **Grupos pequeños** para las visitas, de dos o tres personas.\n- **Encuentros de preparación:** al menos tres o cuatro antes de partir, con formación, oración y organización."
+    },
+    {
+     "title": "Logística y documentos",
+     "body": "- **Transporte:** seguro, con conductores autorizados.\n- **Alojamiento:** con espacios separados por sexo, baños y condiciones básicas de higiene.\n- **Alimentación:** minuta planificada, con atención a alergias y dietas especiales.\n- **Presupuesto:** cuánto cuesta y cómo se financia (aportes, actividades, donaciones), con rendición de cuentas.\n- **Documentos:** autorización firmada por padres o apoderados para cada menor de edad, ficha de salud con contactos de emergencia, alergias y medicamentos, y datos de previsión de salud.\n- **Seguro** si es posible, y **protocolo de emergencias** con el centro de salud más cercano."
+    },
+    {
+     "title": "Formación y cuidado",
+     "body": "Antes de partir, todos los misioneros conocen:\n\n- **Las normas de convivencia:** horarios, respeto, prohibición de alcohol y drogas, uso del celular.\n- **Las reglas de cuidado:** nunca andar solo; los menores siempre con un adulto responsable cerca; ningún misionero queda a solas con un niño de la localidad; si algo incomoda, se avisa de inmediato al jefe de misión.\n- **El protocolo ante situaciones graves:** si un niño o un adulto de la comunidad revela una situación de abuso o riesgo, el misionero escucha, no investiga, no promete secreto y avisa de inmediato al jefe de misión, que activa el protocolo de la diócesis y las vías legales.\n- **Primeros auxilios básicos** y quién es el encargado de salud."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 14,28-30 · Calcular antes de construir",
+    "comment": "Jesús pregunta quién, queriendo construir una torre, no se sienta primero a calcular los gastos para ver si tiene con qué terminarla. La fe no está peleada con la planificación: preparar bien es una forma de amar a quienes vamos a encontrar."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 33",
+     "text": "La pastoral en clave misionera pide abandonar el «siempre se ha hecho así» y ser audaces y creativos, sin caminar solos, en comunión con los pastores.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile, 2020)",
+     "text": "Orientaciones de buen trato y prevención que deben conocer todos los que sirven en la Iglesia, incluidas las actividades con menores fuera de la parroquia.",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/"
+    }
+   ],
+   "questions": [
+    "¿Qué parte de la preparación te parece más importante? ¿Cuál se suele descuidar?",
+    "¿Por qué es importante coordinar con el párroco del lugar?",
+    "¿Qué norma de convivencia te costaría más cumplir?",
+    "¿Qué harías si un niño de la comunidad te cuenta algo grave?"
+   ],
+   "activity": "Hagan una lista de verificación de la misión con todos los puntos de esta unidad. Repartan responsables y fechas límite para cada uno.",
+   "prayer": "Señor, que nos llamas a construir tu Reino: danos sabiduría para preparar bien esta misión. Que cada detalle que organizamos sea un acto de amor por quienes vamos a encontrar. Cuida a cada misionero y a cada familia que nos recibirá. Amén.",
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/",
+     "note": "Orientaciones de la Conferencia Episcopal de Chile."
+    }
+   ],
+   "comenzar": "Imagina que mañana parten de misiones y no han preparado nada. Escribe todo lo que podría salir mal. Esa lista será el punto de partida de esta unidad.",
+   "logros": [
+    "Coordinar la misión con la comunidad local.",
+    "Organizar el equipo, la logística y los documentos.",
+    "Conocer las normas de convivencia, las reglas de cuidado y el protocolo ante situaciones graves."
+   ],
+   "profundizar": {
+    "titulo": "La mochila del misionero",
+    "texto": "Una lista básica (ajústala al lugar y la estación):\n\n- Saco de dormir, colchoneta y ropa de cama si se pide.\n- Ropa cómoda y sencilla, para trabajar y para la liturgia.\n- Zapatos cómodos, jockey o gorro, bloqueador solar y protector labial.\n- Botella de agua reutilizable.\n- Útiles de aseo personales.\n- Medicamentos personales con receta, entregados también al encargado de salud.\n- Biblia, cuaderno y lápiz.\n- Linterna.\n- Cédula de identidad.\n\nNo se recomienda llevar objetos de valor. El celular se usa con moderación y según los acuerdos del grupo."
+   },
+   "caso": {
+    "titulo": "La autorización que faltó",
+    "texto": "A dos días de partir, el jefe de misión se da cuenta de que tres menores de edad no han entregado la autorización firmada de sus padres. Uno de ellos insiste: «Mi mamá me dio permiso por WhatsApp, da lo mismo».",
+    "preguntas": [
+     "¿Por qué no da lo mismo?",
+     "¿Qué debería hacer el jefe de misión?"
+    ]
+   },
+   "claves": [
+    [
+     "Visita previa",
+     "Viaje de los responsables al lugar antes de la misión para conocerlo y coordinar."
+    ],
+    [
+     "Ficha de salud",
+     "Documento con datos médicos y contactos de emergencia de cada misionero."
+    ],
+    [
+     "Protocolo",
+     "Pasos acordados para actuar ante emergencias o situaciones graves."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús invita a calcular antes de construir. ¿Qué tendrías que preparar en tu propia vida antes de partir?",
+    "orar": "Presenta a Dios a cada persona de tu equipo de misión.",
+    "vivir": "Cumple a tiempo la tarea de preparación que te toque."
+   },
+   "practica": [
+    "Armen la lista de verificación.",
+    "Repartan responsables y fechas.",
+    "Revisen juntos las normas de convivencia y las reglas de cuidado.",
+    "Fijen la fecha de la visita previa."
+   ],
+   "idea": "Preparar bien es una forma de amar."
+  },
+  {
+   "title": "En terreno",
+   "objective": "Vivir los días de misión con un orden sano, visitar con respeto y cuidar la vida comunitaria y espiritual del grupo.",
+   "intro": "Llegó el momento: la misión está en marcha. Los días son intensos, llenos de encuentros, cansancio y alegría. En esta unidad vas a conocer cómo organizar un día de misión, cómo hacer una visita y cómo cuidar al grupo en terreno.",
+   "sections": [
+    {
+     "title": "Un día de misión",
+     "body": "Un esquema posible:\n\n- **Mañana:** oración del grupo, desayuno, organización del día.\n- **Media mañana y tarde:** visitas a las casas, actividades con niños o jóvenes, trabajos acordados con la comunidad.\n- **Almuerzo y descanso:** tiempo real de descanso, especialmente con calor.\n- **Tarde:** celebración, liturgia o misa con la comunidad.\n- **Noche:** comida, evaluación breve del día, oración y descanso.\n\nDormir lo suficiente es parte del cuidado: un misionero agotado se enferma o se irrita."
+    },
+    {
+     "title": "Cómo visitar una casa",
+     "body": "- **Siempre en dupla o trío,** nunca solo. Los menores de edad van siempre con un misionero mayor.\n- **Presentarse:** quiénes son, de dónde vienen, con quién están coordinados.\n- **Escuchar más que hablar:** preguntar por la familia, su historia, sus alegrías y dificultades.\n- **Respetar:** si no quieren recibirlos o no son católicos, agradecer y despedirse con amabilidad.\n- **Ofrecer la oración:** si la familia lo acepta, rezar juntos brevemente.\n- **Invitar:** a las actividades y celebraciones de la misión.\n- **No prometer** lo que no se puede cumplir.\n- **Anotar** con discreción necesidades que luego se comparten con el párroco, como enfermos que desean los sacramentos."
+    },
+    {
+     "title": "Respetar la cultura local",
+     "body": "Cada lugar tiene su historia, sus costumbres y su manera de vivir la fe. La **religiosidad popular**, como las fiestas patronales, los bailes religiosos, las animitas o las devociones a la Virgen y los santos, es una expresión valiosa de la fe del pueblo (Evangelii gaudium 122-126).\n\nEl misionero no llega a corregir, sino a **aprender, valorar y acompañar**."
+    },
+    {
+     "title": "Cuidar al grupo",
+     "body": "- **Hidratación y sol:** agua siempre a mano, bloqueador y gorro.\n- **Salud:** cualquier malestar se avisa al encargado de salud.\n- **Convivencia:** los roces se conversan en el momento oportuno, con caridad.\n- **Ánimo:** la evaluación de la noche permite compartir lo vivido, también lo difícil.\n- **Reglas de cuidado:** se cumplen siempre, incluso cuando hay confianza."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 19,1-10 · Jesús en casa de Zaqueo",
+    "comment": "Jesús se detiene, mira a Zaqueo y le dice que hoy quiere quedarse en su casa. No le da un discurso: entra, comparte la mesa y escucha. Y en esa casa llega la salvación. Así son las visitas misioneras: encuentros que cambian vidas, empezando por la del misionero."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 122-126",
+     "text": "La piedad popular es una manifestación de la vida teologal animada por el Espíritu Santo y un lugar teológico que merece atención.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Evangelii gaudium 169-173",
+     "text": "El acompañamiento personal requiere el arte de escuchar y la paciencia de caminar al ritmo del otro.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te da más nervios de las visitas a las casas?",
+    "¿Cómo reaccionarías si una familia no quiere recibirte?",
+    "¿Qué expresiones de religiosidad popular conoces? ¿Qué te enseñan?",
+    "¿Cómo cuidas tu ánimo cuando estás muy cansado?"
+   ],
+   "activity": "Hagan un juego de roles: en tríos, uno es la familia y dos son misioneros. Practiquen distintas visitas: una familia acogedora, una apurada, una de otra religión y una que cuenta una dificultad seria. Después conversen qué aprendieron.",
+   "prayer": "Señor Jesús, que entraste en la casa de Zaqueo y le cambiaste la vida: entra conmigo en cada casa que visite. Dame oídos para escuchar, palabras sencillas para anunciar y un corazón agradecido por todo lo que voy a recibir. Cuida a mi equipo y a las familias que nos abren sus puertas. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium (Francisco, 2013)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Números 122-126 sobre la piedad popular."
+    }
+   ],
+   "comenzar": "Piensa en una visita que te haya hecho sentir bien recibido (de un pariente, un amigo, un vecino). ¿Qué hizo esa persona para que te sintieras así? Anota tres cosas.",
+   "logros": [
+    "Organizar un día de misión equilibrado.",
+    "Hacer una visita misionera respetuosa.",
+    "Valorar la cultura y la religiosidad local, y cuidar al grupo en terreno."
+   ],
+   "profundizar": {
+    "titulo": "Actividades con niños en misión",
+    "texto": "Las actividades con niños son muy valiosas, y también requieren especial cuidado:\n\n- **Siempre en espacios abiertos o visibles** y con varios misioneros presentes.\n- **Con conocimiento de los padres** o adultos responsables.\n- **Juegos inclusivos,** sin humillaciones ni competencias excesivas.\n- **Contacto físico respetuoso:** saludos cordiales, sin juegos que impliquen tomar en brazos o tocar de forma innecesaria.\n- **No subir fotos de niños** sin autorización de sus familias.\n- **Al terminar,** cada niño se va con un adulto responsable o de la forma acordada con su familia."
+   },
+   "caso": {
+    "titulo": "La señora que no quería rezar",
+    "texto": "En una visita, una señora mayor les dice a Florencia y Andrés que está enojada con Dios porque su hijo murió el año pasado. No quiere rezar ni ir a la misa de la misión.",
+    "preguntas": [
+     "¿Qué deberían hacer Florencia y Andrés?",
+     "¿Qué no deberían decir?"
+    ]
+   },
+   "claves": [
+    [
+     "Visita misionera",
+     "Encuentro en las casas para escuchar, compartir la fe e invitar."
+    ],
+    [
+     "Religiosidad popular",
+     "Expresiones de fe propias de un pueblo: fiestas, devociones, bailes religiosos."
+    ],
+    [
+     "Evaluación diaria",
+     "Momento de la noche para compartir lo vivido y ajustar lo necesario."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús le dice a Zaqueo: «hoy tengo que alojarme en tu casa». ¿En qué «casa» de tu vida quiere entrar Jesús hoy?",
+    "orar": "Pide a Jesús que te enseñe a escuchar como Él.",
+    "vivir": "Visita esta semana a algún familiar o vecino solo para escucharlo."
+   },
+   "practica": [
+    "Formen tríos para el juego de roles.",
+    "Practiquen los cuatro tipos de visita.",
+    "Conversen qué funcionó y qué no.",
+    "Acuerden juntos el esquema del día de misión."
+   ],
+   "idea": "En cada casa, primero escuchar."
+  },
+  {
+   "title": "Volver y continuar",
+   "objective": "Evaluar la misión, agradecer, sostener los vínculos con la comunidad visitada y vivir la misión en la vida cotidiana.",
+   "intro": "Cuando la misión termina, empieza otra: la de volver a casa transformado. Muchas misiones se viven con mucha intensidad y luego se olvidan. En esta unidad vas a aprender a cerrar bien la misión y a continuarla en tu barrio, tu colegio y tu familia.",
+   "sections": [
+    {
+     "title": "Evaluar",
+     "body": "Pocos días después de volver, el equipo se reúne para evaluar:\n\n- **Lo que funcionó** y vale la pena repetir.\n- **Lo que no funcionó** y cómo mejorarlo.\n- **Lo que vivimos:** qué aprendimos, qué nos cambió.\n- **Los compromisos** con la comunidad visitada.\n- **Las cuentas:** rendición del presupuesto.\n\nConviene dejarlo todo por escrito para la misión del próximo año."
+    },
+    {
+     "title": "Agradecer y sostener el vínculo",
+     "body": "- **Agradecer** al párroco y a la comunidad del lugar, a las familias, a quienes apoyaron la misión.\n- **Cumplir lo prometido:** si se comprometieron a enviar algo o a volver, háganlo.\n- **Mantener el contacto** a través de la parroquia, con respeto y sin invadir.\n- **Volver** cuando sea posible: la continuidad es lo que más valoran las comunidades."
+    },
+    {
+     "title": "La misión continúa en casa",
+     "body": "La misión no es solo ir lejos: también está en el propio barrio, el colegio y la familia. El papa Francisco dice que la misión en el corazón del pueblo no es una parte de la vida, sino algo que no se puede arrancar del propio ser: **«Yo soy una misión en esta tierra»** (Evangelii gaudium 273).\n\nAlgunas formas de continuar: visitar a un enfermo de la parroquia, acompañar a alguien solo, invitar a un amigo al grupo, servir en la catequesis o en una obra solidaria."
+    },
+    {
+     "title": "Compartir el testimonio",
+     "body": "Contar lo vivido en misión ayuda a otros a animarse. Se puede compartir en la misa de envío o de regreso, en el grupo, en el colegio o en redes sociales, siempre cuidando la dignidad y la privacidad de las personas visitadas.\n\nUn buen testimonio habla más de lo que **recibimos** que de lo que **hicimos**."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 10,17-20 · El regreso de los setenta y dos",
+    "comment": "Los discípulos vuelven llenos de alegría a contarle a Jesús todo lo que hicieron. Jesús se alegra con ellos, pero les recuerda que la mayor alegría no es el éxito, sino que sus nombres están escritos en el cielo. Volver de misión es volver a Jesús a contarle lo vivido."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 273",
+     "text": "La misión en el corazón del pueblo no es un adorno: cada uno puede decir «yo soy una misión en esta tierra».",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Christus vivit 177-178",
+     "text": "El papa anima a los jóvenes a llevar a Jesús a todos los ambientes, también a los más cercanos.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué recibiste de la misión que no esperabas?",
+    "¿Qué te gustaría mejorar para la próxima misión?",
+    "¿Dónde está tu «misión» en la vida de todos los días?",
+    "¿Cómo contarías tu experiencia sin exponer a las personas que visitaste?"
+   ],
+   "activity": "Hagan la evaluación de la misión con las cinco preguntas de esta unidad. Después, cada misionero escribe un compromiso concreto para continuar la misión en su barrio, colegio o familia.",
+   "prayer": "Señor, volvemos a Ti con el corazón lleno. Gracias por cada persona que encontramos, por cada casa que se abrió y por todo lo que aprendimos. Que esta misión no termine aquí: que sigamos siendo misioneros en nuestra casa, en nuestro colegio y en nuestro barrio. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium (Francisco, 2013)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Capítulo 5: evangelizadores con Espíritu."
+    }
+   ],
+   "comenzar": "Escribe en tres palabras cómo te sentiste al volver de tu última misión o de una experiencia fuerte. ¿Qué pasó con esa experiencia las semanas siguientes?",
+   "logros": [
+    "Evaluar la misión de manera ordenada.",
+    "Sostener el vínculo con la comunidad visitada.",
+    "Continuar la misión en la vida cotidiana."
+   ],
+   "profundizar": {
+    "titulo": "La misa de envío y la de regreso",
+    "texto": "Dos celebraciones ayudan a enmarcar la misión:\n\n- **Misa de envío:** antes de partir, la comunidad reza por los misioneros y el sacerdote los bendice y los envía. Puede entregarse una cruz o un signo.\n- **Misa o encuentro de regreso:** al volver, se agradece a Dios, se comparte un testimonio breve con la comunidad y se presentan los frutos.\n\nAsí toda la parroquia se siente parte de la misión, aunque no haya ido."
+   },
+   "caso": {
+    "titulo": "El bajón",
+    "texto": "Después de una misión muy intensa, Vicente vuelve a su casa y siente un vacío enorme. Extraña al grupo y la sensación de hacer algo importante. En su casa y en el colegio todo le parece aburrido.",
+    "preguntas": [
+     "¿Es normal lo que siente Vicente?",
+     "¿Qué podría ayudarle a continuar la misión en su vida diaria?"
+    ]
+   },
+   "claves": [
+    [
+     "Evaluación",
+     "Revisión ordenada de lo vivido para aprender y mejorar."
+    ],
+    [
+     "Continuidad",
+     "Mantener el vínculo y los compromisos con la comunidad visitada."
+    ],
+    [
+     "Misa de envío",
+     "Celebración en que la comunidad bendice y envía a los misioneros."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús dice que la mayor alegría es que nuestros nombres estén escritos en el cielo. ¿Dónde pones tu alegría: en lo que haces o en ser amado por Dios?",
+    "orar": "Cuéntale a Jesús lo mejor y lo más difícil de tu última misión o experiencia de servicio.",
+    "vivir": "Cumple durante un mes el compromiso que escribiste para continuar la misión."
+   },
+   "practica": [
+    "Hagan la evaluación con las cinco preguntas.",
+    "Escriban la carta de agradecimiento a la comunidad.",
+    "Cada uno escribe su compromiso de continuidad.",
+    "Preparen un testimonio breve para la misa de regreso."
+   ],
+   "idea": "La misión no termina al volver: continúa donde vives."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Cómo envía Jesús a sus discípulos en Lucas 10?",
+   "options": [
+    "Solos, cada uno a un pueblo.",
+    "De dos en dos.",
+    "En grandes grupos."
+   ],
+   "correct": 1,
+   "feedback": "La misión siempre es comunitaria."
+  },
+  {
+   "q": "¿Qué significa ser «discípulo misionero»?",
+   "options": [
+    "Un título para los que van a misiones.",
+    "Todo bautizado que sigue a Jesús y lo anuncia.",
+    "Un sacerdote enviado a otro país."
+   ],
+   "correct": 1,
+   "feedback": "Evangelii gaudium 120: todo bautizado es agente de evangelización."
+  },
+  {
+   "q": "¿Con quién se coordina siempre una misión?",
+   "options": [
+    "Con el párroco y la comunidad del lugar.",
+    "Solo con los misioneros.",
+    "Con la municipalidad."
+   ],
+   "correct": 0,
+   "feedback": "La misión se vive en comunión con la Iglesia local."
+  },
+  {
+   "q": "¿Qué documento es indispensable para cada misionero menor de edad?",
+   "options": [
+    "Una carta de recomendación.",
+    "La autorización firmada por sus padres o apoderados y su ficha de salud.",
+    "Un certificado de notas."
+   ],
+   "correct": 1,
+   "feedback": "Un permiso por mensaje no reemplaza la autorización firmada."
+  },
+  {
+   "q": "En una visita, si la familia no quiere recibir a los misioneros, ¿qué hacer?",
+   "options": [
+    "Insistir hasta convencerla.",
+    "Agradecer y despedirse con amabilidad.",
+    "Dejar folletos por debajo de la puerta."
+   ],
+   "correct": 1,
+   "feedback": "Respetar la libertad es parte del estilo de Jesús."
+  },
+  {
+   "q": "Si un niño de la comunidad revela una situación de abuso o riesgo, ¿qué hace el misionero?",
+   "options": [
+    "Investiga para confirmar si es verdad.",
+    "Escucha, no promete secreto y avisa de inmediato al jefe de misión.",
+    "Lo guarda en secreto para no causar problemas."
+   ],
+   "correct": 1,
+   "feedback": "El jefe de misión activa el protocolo de la diócesis y las vías legales."
+  },
+  {
+   "q": "¿Cómo se mira la religiosidad popular en la misión?",
+   "options": [
+    "Como algo que hay que corregir.",
+    "Como una expresión valiosa de la fe del pueblo, que se aprende y se acompaña.",
+    "Como una costumbre sin importancia."
+   ],
+   "correct": 1,
+   "feedback": "Evangelii gaudium 122-126 la valora como lugar donde actúa el Espíritu."
+  },
+  {
+   "q": "¿Qué dice un buen testimonio de misión?",
+   "options": [
+    "Más de lo que hicimos que de lo que recibimos.",
+    "Más de lo que recibimos que de lo que hicimos, cuidando la dignidad de las personas.",
+    "Todo lo que vimos, con fotos de las casas."
+   ],
+   "correct": 1,
+   "feedback": "La misión es un encuentro: se da y se recibe."
+  }
+ ]
+}

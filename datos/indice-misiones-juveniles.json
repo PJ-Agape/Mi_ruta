@@ -1,0 +1,53 @@
+{
+ "curso": "misiones-juveniles",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Enviados de dos en dos",
+   "semanas": "",
+   "intro": "Las misiones son para muchos jóvenes una experiencia que marca la vida: salir de la propia comodidad, conocer otras realidades y anunciar a Jesús con la propia vida. Esta formación ayuda a vivirlas bien: con sentido, con organización y con cuidado de todos.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Enviados",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Preparar la misión",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "En terreno",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Volver y continuar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Misiones juveniles",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

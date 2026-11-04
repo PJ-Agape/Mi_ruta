@@ -13,27 +13,97 @@
    "objective": "Comprender el sentido de la Palabra de Dios en la liturgia y el lugar del lector dentro de la celebración.",
    "intro": "Leer en misa no es lo mismo que leer en voz alta en clases. En la liturgia, la lectura es un acontecimiento: Dios habla hoy a la comunidad reunida. En esta unidad vas a descubrir qué significa ser lector y cómo está organizada la Liturgia de la Palabra.",
    "sections": [
-    {"title": "Dios habla hoy", "body": "El Concilio Vaticano II enseña que Cristo está presente en su Palabra, porque cuando se lee la Sagrada Escritura en la Iglesia, es Él quien habla (Sacrosanctum concilium 7). Y la Ordenación General del Misal Romano dice que, cuando se leen las Escrituras en la Iglesia, **Dios mismo habla a su pueblo** (n. 29).\n\nPor eso, el lector no lee «un texto antiguo»: presta su voz para que Dios hable hoy. Su tarea es desaparecer un poco para que se escuche la Palabra."},
-    {"title": "El ministerio del lector", "body": "En la Iglesia existe el **lector instituido**, un ministerio que confiere el obispo. Desde 2021, con el documento *Spiritus Domini* del papa Francisco, puede recibirlo cualquier fiel laico, varón o mujer.\n\nCuando no hay lector instituido, otros fieles laicos pueden proclamar las lecturas, siempre que sean **verdaderamente aptos y estén bien preparados** (Ordenación General del Misal Romano 101). El lector proclama las lecturas anteriores al Evangelio; **el Evangelio lo proclama el diácono o el sacerdote**."},
-    {"title": "La Liturgia de la Palabra", "body": "En la misa del domingo, la Liturgia de la Palabra tiene este orden:\n\n- **Primera lectura:** normalmente del Antiguo Testamento; en el tiempo pascual, de los Hechos de los Apóstoles.\n- **Salmo responsorial:** la respuesta orante de la comunidad.\n- **Segunda lectura:** de las cartas de los apóstoles o del Apocalipsis.\n- **Aclamación antes del Evangelio:** el Aleluya, que en Cuaresma se reemplaza por otra aclamación.\n- **Evangelio**, **homilía**, **profesión de fe** y **oración universal**.\n\nEn los días de semana hay una sola lectura antes del salmo."},
-    {"title": "El Leccionario", "body": "Las lecturas están en el **Leccionario**, organizado en ciclos para que en unos años se lea gran parte de la Biblia:\n\n- **Domingos:** tres ciclos. En el **año A** se lee sobre todo el Evangelio de Mateo; en el **año B**, Marcos (con partes de Juan); en el **año C**, Lucas.\n- **Días de semana:** dos ciclos para la primera lectura, **años pares e impares**, y un solo ciclo para el Evangelio.\n\nAntes de cada celebración, el lector debe confirmar cuál es la lectura del día y ubicarla en el Leccionario."}
+    {
+     "title": "Dios habla hoy",
+     "body": "El Concilio Vaticano II enseña que Cristo está presente en su Palabra, porque cuando se lee la Sagrada Escritura en la Iglesia, es Él quien habla (Sacrosanctum concilium 7). Y la Ordenación General del Misal Romano dice que, cuando se leen las Escrituras en la Iglesia, **Dios mismo habla a su pueblo** (n. 29).\n\nPor eso, el lector no lee «un texto antiguo»: presta su voz para que Dios hable hoy. Su tarea es desaparecer un poco para que se escuche la Palabra."
+    },
+    {
+     "title": "El ministerio del lector",
+     "body": "En la Iglesia existe el **lector instituido**, un ministerio que confiere el obispo. Desde 2021, con el documento *Spiritus Domini* del papa Francisco, puede recibirlo cualquier fiel laico, varón o mujer.\n\nCuando no hay lector instituido, otros fieles laicos pueden proclamar las lecturas, siempre que sean **verdaderamente aptos y estén bien preparados** (Ordenación General del Misal Romano 101). El lector proclama las lecturas anteriores al Evangelio; **el Evangelio lo proclama el diácono o el sacerdote**."
+    },
+    {
+     "title": "La Liturgia de la Palabra",
+     "body": "En la misa del domingo, la Liturgia de la Palabra tiene este orden:\n\n- **Primera lectura:** normalmente del Antiguo Testamento; en el tiempo pascual, de los Hechos de los Apóstoles.\n- **Salmo responsorial:** la respuesta orante de la comunidad.\n- **Segunda lectura:** de las cartas de los apóstoles o del Apocalipsis.\n- **Aclamación antes del Evangelio:** el Aleluya, que en Cuaresma se reemplaza por otra aclamación.\n- **Evangelio**, **homilía**, **profesión de fe** y **oración universal**.\n\nEn los días de semana hay una sola lectura antes del salmo."
+    },
+    {
+     "title": "El Leccionario",
+     "body": "Las lecturas están en el **Leccionario**, organizado en ciclos para que en unos años se lea gran parte de la Biblia:\n\n- **Domingos:** tres ciclos. En el **año A** se lee sobre todo el Evangelio de Mateo; en el **año B**, Marcos (con partes de Juan); en el **año C**, Lucas.\n- **Días de semana:** dos ciclos para la primera lectura, **años pares e impares**, y un solo ciclo para el Evangelio.\n\nAntes de cada celebración, el lector debe confirmar cuál es la lectura del día y ubicarla en el Leccionario."
+    }
    ],
-   "bible": {"ref": "Nehemías 8,1-10 · Esdras lee la Ley al pueblo", "comment": "Después del destierro, el pueblo se reúne y Esdras lee el libro de la Ley desde una tribuna, desde la mañana hasta el mediodía. Todos escuchan atentos, se ponen de pie, responden «Amén» y lloran de emoción. Los levitas explican lo leído para que todos lo entiendan. Es una imagen de la Liturgia de la Palabra."},
+   "bible": {
+    "ref": "Nehemías 8,1-10 · Esdras lee la Ley al pueblo",
+    "comment": "Después del destierro, el pueblo se reúne y Esdras lee el libro de la Ley desde una tribuna, desde la mañana hasta el mediodía. Todos escuchan atentos, se ponen de pie, responden «Amén» y lloran de emoción. Los levitas explican lo leído para que todos lo entiendan. Es una imagen de la Liturgia de la Palabra."
+   },
    "church": [
-    {"source": "Sacrosanctum concilium 7", "text": "Cristo está presente en su Palabra, pues cuando se lee en la Iglesia la Sagrada Escritura, es Él quien habla.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html"},
-    {"source": "Ordenación General del Misal Romano 29 y 101", "text": "Cuando se leen las Escrituras, Dios mismo habla a su pueblo. A falta de lector instituido, otros laicos aptos y bien preparados pueden proclamar las lecturas.", "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"}
+    {
+     "source": "Sacrosanctum concilium 7",
+     "text": "Cristo está presente en su Palabra, pues cuando se lee en la Iglesia la Sagrada Escritura, es Él quien habla.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html"
+    },
+    {
+     "source": "Ordenación General del Misal Romano 29 y 101",
+     "text": "Cuando se leen las Escrituras, Dios mismo habla a su pueblo. A falta de lector instituido, otros laicos aptos y bien preparados pueden proclamar las lecturas.",
+     "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"
+    }
    ],
-   "questions": ["¿Qué cambia en ti saber que, cuando lees en misa, Dios habla a través de tu voz?", "¿Recuerdas alguna lectura que te haya tocado especialmente al escucharla? ¿Por qué?", "¿Por qué crees que el Evangelio lo proclama el diácono o el sacerdote?", "¿En qué ciclo dominical estamos este año? Averígualo."],
+   "questions": [
+    "¿Qué cambia en ti saber que, cuando lees en misa, Dios habla a través de tu voz?",
+    "¿Recuerdas alguna lectura que te haya tocado especialmente al escucharla? ¿Por qué?",
+    "¿Por qué crees que el Evangelio lo proclama el diácono o el sacerdote?",
+    "¿En qué ciclo dominical estamos este año? Averígualo."
+   ],
    "activity": "Busquen juntos en el Leccionario las lecturas del próximo domingo. Identifiquen el ciclo, la primera lectura, el salmo, la segunda lectura y el Evangelio, y marquen el lugar con las cintas.",
    "prayer": "Señor, que hablaste por medio de los profetas y en estos tiempos nos hablas por tu Hijo: aquí está mi voz. Que cuando lea tu Palabra no me escuchen a mí, sino a Ti. Prepara mi corazón para recibirla antes de proclamarla, y ayúdame a vivirla después. Amén.",
-   "resources": [{"title": "Spiritus Domini (Francisco, 2021)", "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/papa-francesco-motu-proprio-20210110_spiritus-domini.html", "note": "Documento que abre los ministerios instituidos de lector y acólito a todos los fieles laicos."}],
+   "resources": [
+    {
+     "title": "Spiritus Domini (Francisco, 2021)",
+     "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/papa-francesco-motu-proprio-20210110_spiritus-domini.html",
+     "note": "Documento que abre los ministerios instituidos de lector y acólito a todos los fieles laicos."
+    }
+   ],
    "comenzar": "Piensa en la última vez que escuchaste una lectura en misa. ¿Recuerdas qué decía? ¿Recuerdas cómo la leyó el lector? Escribe qué ayuda y qué dificulta escuchar bien una lectura.",
-   "logros": ["Explicar por qué en la liturgia es Dios quien habla.", "Describir el orden de la Liturgia de la Palabra.", "Ubicar las lecturas del día en el Leccionario."],
-   "profundizar": {"titulo": "Palabra viva", "texto": "La Iglesia siempre ha venerado las Escrituras de una manera parecida a como venera el Cuerpo del Señor (Dei Verbum 21). Por eso en la misa hay dos mesas: **la mesa de la Palabra**, en el ambón, y **la mesa de la Eucaristía**, en el altar.\n\nAlgunos signos de respeto por la Palabra:\n\n- El Evangeliario puede llevarse en procesión y dejarse sobre el altar.\n- Se escucha el Evangelio de pie.\n- El ambón se usa solo para proclamar la Palabra, el salmo, la homilía y la oración universal; no para avisos parroquiales.\n- Al terminar la lectura, se responde a la Palabra: «Te alabamos, Señor»."},
-   "caso": {"titulo": "«Me pidieron leer recién»", "texto": "Faltan dos minutos para empezar la misa y la encargada le pide a Camila que lea la segunda lectura porque el lector no llegó. Camila nunca la ha leído y no sabe dónde está en el libro.", "preguntas": ["¿Qué podría hacer Camila en esos dos minutos?", "¿Cómo podría organizarse mejor la comunidad para que esto no pase seguido?"]},
-   "claves": [["Leccionario", "Libro litúrgico que contiene las lecturas de la misa, organizadas por ciclos."], ["Ambón", "Lugar desde donde se proclama la Palabra de Dios."], ["Lector instituido", "Fiel laico al que el obispo confía de manera estable el ministerio de proclamar la Palabra."]],
-   "lectio": {"meditar": "El pueblo escucha de pie, responde «Amén» y llora de emoción. ¿Cuándo fue la última vez que la Palabra de Dios te emocionó así?", "orar": "Pide al Espíritu Santo un oído atento a su Palabra.", "vivir": "Lee el Evangelio del próximo domingo durante la semana, antes de escucharlo en misa."},
-   "practica": ["Busquen las lecturas del próximo domingo en el Leccionario.", "Identifiquen el ciclo y el tiempo litúrgico.", "Marquen las lecturas con las cintas.", "Lean juntos el Evangelio del domingo y conversen qué les dice."],
+   "logros": [
+    "Explicar por qué en la liturgia es Dios quien habla.",
+    "Describir el orden de la Liturgia de la Palabra.",
+    "Ubicar las lecturas del día en el Leccionario."
+   ],
+   "profundizar": {
+    "titulo": "Palabra viva",
+    "texto": "La Iglesia siempre ha venerado las Escrituras de una manera parecida a como venera el Cuerpo del Señor (Dei Verbum 21). Por eso en la misa hay dos mesas: **la mesa de la Palabra**, en el ambón, y **la mesa de la Eucaristía**, en el altar.\n\nAlgunos signos de respeto por la Palabra:\n\n- El Evangeliario puede llevarse en procesión y dejarse sobre el altar.\n- Se escucha el Evangelio de pie.\n- El ambón se usa solo para proclamar la Palabra, el salmo, la homilía y la oración universal; no para avisos parroquiales.\n- Al terminar la lectura, se responde a la Palabra: «Te alabamos, Señor»."
+   },
+   "caso": {
+    "titulo": "«Me pidieron leer recién»",
+    "texto": "Faltan dos minutos para empezar la misa y la encargada le pide a Camila que lea la segunda lectura porque el lector no llegó. Camila nunca la ha leído y no sabe dónde está en el libro.",
+    "preguntas": [
+     "¿Qué podría hacer Camila en esos dos minutos?",
+     "¿Cómo podría organizarse mejor la comunidad para que esto no pase seguido?"
+    ]
+   },
+   "claves": [
+    [
+     "Leccionario",
+     "Libro litúrgico que contiene las lecturas de la misa, organizadas por ciclos."
+    ],
+    [
+     "Ambón",
+     "Lugar desde donde se proclama la Palabra de Dios."
+    ],
+    [
+     "Lector instituido",
+     "Fiel laico al que el obispo confía de manera estable el ministerio de proclamar la Palabra."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El pueblo escucha de pie, responde «Amén» y llora de emoción. ¿Cuándo fue la última vez que la Palabra de Dios te emocionó así?",
+    "orar": "Pide al Espíritu Santo un oído atento a su Palabra.",
+    "vivir": "Lee el Evangelio del próximo domingo durante la semana, antes de escucharlo en misa."
+   },
+   "practica": [
+    "Busquen las lecturas del próximo domingo en el Leccionario.",
+    "Identifiquen el ciclo y el tiempo litúrgico.",
+    "Marquen las lecturas con las cintas.",
+    "Lean juntos el Evangelio del domingo y conversen qué les dice."
+   ],
    "idea": "El lector presta su voz para que Dios hable."
   },
   {
@@ -41,27 +111,97 @@
    "objective": "Aprender un método sencillo para preparar una lectura: rezarla, comprenderla y ensayarla antes de proclamarla.",
    "intro": "Nadie puede transmitir bien lo que no ha entendido. La mayoría de las lecturas que se escuchan mal no fallan por la voz, sino porque el lector no las preparó. En esta unidad vas a aprender a preparar una lectura en tres momentos: rezarla, comprenderla y ensayarla.",
    "sections": [
-    {"title": "Primero, rezarla", "body": "Antes de pensar en cómo leer, lee la lectura **para ti**, despacio, como en la lectio divina. Pregúntate qué te dice Dios con ese texto. Una lectura rezada se proclama distinto: se nota que el lector cree lo que lee."},
-    {"title": "Después, comprenderla", "body": "Hazte algunas preguntas sobre el texto:\n\n- **¿Qué tipo de texto es?** Una narración (cuenta una historia), una profecía (Dios habla por medio de un profeta), una carta (un apóstol escribe a una comunidad), un texto de sabiduría (consejos para vivir) o un himno.\n- **¿Quién habla y a quién?** ¿Dios, un profeta, Pablo, el narrador? ¿Hay diálogos?\n- **¿Cuál es la idea central?** Resúmela en una frase.\n- **¿Hay palabras o nombres difíciles?** Busca cómo se pronuncian y qué significan.\n\nPuedes apoyarte en las notas de tu Biblia o preguntarle a tu asesor o al sacerdote."},
-    {"title": "Por último, ensayarla", "body": "- **Lee en voz alta** al menos tres veces, de preferencia en el mismo lugar donde vas a leer.\n- **Marca las pausas** en una copia: una línea corta para una pausa breve, dos para una larga.\n- **Destaca las palabras importantes**, sin exagerar.\n- **Mide el ritmo:** más lento de lo que te parece natural. Lo que para ti es lento, para la asamblea es justo.\n- **Ensaya el final:** pausa, mira a la asamblea y di «Palabra de Dios»."},
-    {"title": "El día de la celebración", "body": "- **Llega con tiempo** y confirma con el responsable qué lectura te toca.\n- **Revisa el Leccionario:** que esté abierto en la página correcta o con la cinta en su lugar.\n- **Ubica tu lugar** y fíjate cuándo te toca subir al ambón.\n- **Al acercarte,** camina sin prisa y haz inclinación al altar si pasas frente a él.\n- **Al leer:** anuncia «Lectura del libro del profeta Isaías» (o lo que corresponda). **No leas** el título en rojo, el resumen ni la cita con números.\n- **Al terminar:** pausa breve, «Palabra de Dios», espera la respuesta y vuelve a tu lugar con calma."}
+    {
+     "title": "Primero, rezarla",
+     "body": "Antes de pensar en cómo leer, lee la lectura **para ti**, despacio, como en la lectio divina. Pregúntate qué te dice Dios con ese texto. Una lectura rezada se proclama distinto: se nota que el lector cree lo que lee."
+    },
+    {
+     "title": "Después, comprenderla",
+     "body": "Hazte algunas preguntas sobre el texto:\n\n- **¿Qué tipo de texto es?** Una narración (cuenta una historia), una profecía (Dios habla por medio de un profeta), una carta (un apóstol escribe a una comunidad), un texto de sabiduría (consejos para vivir) o un himno.\n- **¿Quién habla y a quién?** ¿Dios, un profeta, Pablo, el narrador? ¿Hay diálogos?\n- **¿Cuál es la idea central?** Resúmela en una frase.\n- **¿Hay palabras o nombres difíciles?** Busca cómo se pronuncian y qué significan.\n\nPuedes apoyarte en las notas de tu Biblia o preguntarle a tu asesor o al sacerdote."
+    },
+    {
+     "title": "Por último, ensayarla",
+     "body": "- **Lee en voz alta** al menos tres veces, de preferencia en el mismo lugar donde vas a leer.\n- **Marca las pausas** en una copia: una línea corta para una pausa breve, dos para una larga.\n- **Destaca las palabras importantes**, sin exagerar.\n- **Mide el ritmo:** más lento de lo que te parece natural. Lo que para ti es lento, para la asamblea es justo.\n- **Ensaya el final:** pausa, mira a la asamblea y di «Palabra de Dios»."
+    },
+    {
+     "title": "El día de la celebración",
+     "body": "- **Llega con tiempo** y confirma con el responsable qué lectura te toca.\n- **Revisa el Leccionario:** que esté abierto en la página correcta o con la cinta en su lugar.\n- **Ubica tu lugar** y fíjate cuándo te toca subir al ambón.\n- **Al acercarte,** camina sin prisa y haz inclinación al altar si pasas frente a él.\n- **Al leer:** anuncia «Lectura del libro del profeta Isaías» (o lo que corresponda). **No leas** el título en rojo, el resumen ni la cita con números.\n- **Al terminar:** pausa breve, «Palabra de Dios», espera la respuesta y vuelve a tu lugar con calma."
+    }
    ],
-   "bible": {"ref": "Lucas 4,16-21 · Jesús lee en la sinagoga de Nazaret", "comment": "Jesús se pone de pie, recibe el libro del profeta Isaías, busca el pasaje, lo lee, enrolla el libro y se sienta. Todos tienen los ojos fijos en Él. Jesús mismo fue lector: con gestos sencillos y atentos, dejó que la Palabra se cumpliera ese día."},
+   "bible": {
+    "ref": "Lucas 4,16-21 · Jesús lee en la sinagoga de Nazaret",
+    "comment": "Jesús se pone de pie, recibe el libro del profeta Isaías, busca el pasaje, lo lee, enrolla el libro y se sienta. Todos tienen los ojos fijos en Él. Jesús mismo fue lector: con gestos sencillos y atentos, dejó que la Palabra se cumpliera ese día."
+   },
    "church": [
-    {"source": "Verbum Domini 58", "text": "Benedicto XVI pide que los lectores estén verdaderamente preparados, con una formación bíblica, litúrgica y técnica, para que la proclamación sea digna.", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"},
-    {"source": "Ordenación General del Misal Romano 194-198", "text": "Describe lo que hace el lector en la misa: la procesión, la proclamación de las lecturas y, si no hay salmista, el salmo.", "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"}
+    {
+     "source": "Verbum Domini 58",
+     "text": "Benedicto XVI pide que los lectores estén verdaderamente preparados, con una formación bíblica, litúrgica y técnica, para que la proclamación sea digna.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    },
+    {
+     "source": "Ordenación General del Misal Romano 194-198",
+     "text": "Describe lo que hace el lector en la misa: la procesión, la proclamación de las lecturas y, si no hay salmista, el salmo.",
+     "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"
+    }
    ],
-   "questions": ["¿Qué paso de la preparación sueles saltarte? ¿Por qué?", "¿Qué tipo de texto te resulta más difícil de leer: narración, profecía, carta o sabiduría?", "¿Qué te dice el modo en que Jesús leyó en la sinagoga?", "¿Qué harás distinto la próxima vez que te toque leer?"],
+   "questions": [
+    "¿Qué paso de la preparación sueles saltarte? ¿Por qué?",
+    "¿Qué tipo de texto te resulta más difícil de leer: narración, profecía, carta o sabiduría?",
+    "¿Qué te dice el modo en que Jesús leyó en la sinagoga?",
+    "¿Qué harás distinto la próxima vez que te toque leer?"
+   ],
    "activity": "Cada participante prepara una lectura del próximo domingo con los tres momentos (rezar, comprender, ensayar) y la lee frente al grupo. El grupo le da dos comentarios positivos y una sugerencia.",
    "prayer": "Señor Jesús, que en Nazaret leíste la Palabra y dijiste «hoy se ha cumplido»: enséñame a prepararme con cuidado para proclamarla. Que la rece antes de leerla, que la entienda antes de transmitirla y que la viva después de proclamarla. Amén.",
-   "resources": [{"title": "Verbum Domini (Benedicto XVI, 2010)", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html", "note": "Números 52-58, sobre la Palabra en la liturgia."}],
+   "resources": [
+    {
+     "title": "Verbum Domini (Benedicto XVI, 2010)",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html",
+     "note": "Números 52-58, sobre la Palabra en la liturgia."
+    }
+   ],
    "comenzar": "Lee en voz alta, sin preparación, un párrafo de cualquier carta de san Pablo. Después responde: ¿entendiste lo que leíste? ¿Te trabaste en alguna palabra? Guarda este ejercicio para compararlo al final.",
-   "logros": ["Rezar la lectura antes de proclamarla.", "Identificar el tipo de texto, quién habla y la idea central.", "Ensayar marcando pausas, ritmo y énfasis."],
-   "profundizar": {"titulo": "Cada texto se lee distinto", "texto": "- **Narración:** como quien cuenta una historia que vale la pena. Distingue la voz del narrador de las palabras de los personajes, sin actuarlas.\n- **Profecía:** con fuerza y convicción. Muchas veces Dios habla en primera persona: «Yo te formé…».\n- **Carta:** como un mensaje personal a la comunidad. Las frases largas de Pablo necesitan pausas bien puestas.\n- **Sabiduría:** con serenidad, como un consejo.\n- **Listas de nombres o genealogías:** con ritmo parejo y pronunciación clara.\n\nEn todos los casos, el lector **no actúa ni dramatiza**: proclama con claridad y deja que la Palabra haga su trabajo."},
-   "caso": {"titulo": "Los nombres imposibles", "texto": "A Diego le toca una lectura con nombres como Nabucodonosor, Sedecías y Nebuzaradán. Prefiere no prepararla y «ver qué pasa». En la misa se traba varias veces y la gente se ríe.", "preguntas": ["¿Qué pasos de la preparación le habrían ayudado?", "¿Dónde podría haber averiguado cómo se pronuncian esos nombres?"]},
-   "claves": [["Proclamar", "Leer en voz alta de manera clara y convencida, para que la Palabra llegue a todos."], ["Género literario", "Tipo de texto: narración, profecía, carta, sabiduría o himno."], ["Pausa", "Silencio breve que ayuda a comprender y a respirar."]],
-   "lectio": {"meditar": "Todos tienen los ojos fijos en Jesús mientras lee. ¿Qué siente quien escucha a alguien que cree lo que lee?", "orar": "Pide a Jesús que tu manera de leer ayude a otros a escucharlo a Él.", "vivir": "Prepara con los tres momentos la próxima lectura que te toque."},
-   "practica": ["Elige una lectura del próximo domingo.", "Rézala con calma.", "Responde las cuatro preguntas para comprenderla.", "Márcala y ensáyala tres veces en voz alta antes de leerla al grupo."],
+   "logros": [
+    "Rezar la lectura antes de proclamarla.",
+    "Identificar el tipo de texto, quién habla y la idea central.",
+    "Ensayar marcando pausas, ritmo y énfasis."
+   ],
+   "profundizar": {
+    "titulo": "Cada texto se lee distinto",
+    "texto": "- **Narración:** como quien cuenta una historia que vale la pena. Distingue la voz del narrador de las palabras de los personajes, sin actuarlas.\n- **Profecía:** con fuerza y convicción. Muchas veces Dios habla en primera persona: «Yo te formé…».\n- **Carta:** como un mensaje personal a la comunidad. Las frases largas de Pablo necesitan pausas bien puestas.\n- **Sabiduría:** con serenidad, como un consejo.\n- **Listas de nombres o genealogías:** con ritmo parejo y pronunciación clara.\n\nEn todos los casos, el lector **no actúa ni dramatiza**: proclama con claridad y deja que la Palabra haga su trabajo."
+   },
+   "caso": {
+    "titulo": "Los nombres imposibles",
+    "texto": "A Diego le toca una lectura con nombres como Nabucodonosor, Sedecías y Nebuzaradán. Prefiere no prepararla y «ver qué pasa». En la misa se traba varias veces y la gente se ríe.",
+    "preguntas": [
+     "¿Qué pasos de la preparación le habrían ayudado?",
+     "¿Dónde podría haber averiguado cómo se pronuncian esos nombres?"
+    ]
+   },
+   "claves": [
+    [
+     "Proclamar",
+     "Leer en voz alta de manera clara y convencida, para que la Palabra llegue a todos."
+    ],
+    [
+     "Género literario",
+     "Tipo de texto: narración, profecía, carta, sabiduría o himno."
+    ],
+    [
+     "Pausa",
+     "Silencio breve que ayuda a comprender y a respirar."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Todos tienen los ojos fijos en Jesús mientras lee. ¿Qué siente quien escucha a alguien que cree lo que lee?",
+    "orar": "Pide a Jesús que tu manera de leer ayude a otros a escucharlo a Él.",
+    "vivir": "Prepara con los tres momentos la próxima lectura que te toque."
+   },
+   "practica": [
+    "Elige una lectura del próximo domingo.",
+    "Rézala con calma.",
+    "Responde las cuatro preguntas para comprenderla.",
+    "Márcala y ensáyala tres veces en voz alta antes de leerla al grupo."
+   ],
    "idea": "Una lectura bien preparada se nota: el lector cree lo que lee."
   },
   {
@@ -69,27 +209,97 @@
    "objective": "Desarrollar recursos prácticos de respiración, voz, postura y uso del micrófono para proclamar con claridad y serenidad.",
    "intro": "Una buena preparación necesita una buena voz para llegar a todos. No hace falta tener una voz «bonita»: hace falta respirar bien, hablar claro, ir despacio y saber usar el micrófono. En esta unidad vas a practicar ejercicios sencillos que puedes repetir en tu casa.",
    "sections": [
-    {"title": "Respirar bien", "body": "La voz nace de la respiración. Muchos lectores se quedan sin aire porque respiran solo con el pecho.\n\n- **Respiración abdominal:** pon una mano sobre el abdomen. Al inspirar por la nariz, el abdomen se expande; al hablar, se contrae despacio.\n- **Aprovecha las pausas** para tomar aire, sin apuro.\n- **Antes de subir al ambón,** respira hondo tres veces: calma los nervios y prepara la voz."},
-    {"title": "Volumen, ritmo y claridad", "body": "- **Volumen:** imagina que le hablas a la persona de la última fila.\n- **Ritmo:** lento y parejo. El error más común es leer rápido.\n- **Dicción:** pronuncia el final de las palabras, sobre todo las «s» y las «d».\n- **Entonación:** sin cantar ni leer como robot. Que se note el sentido de la frase.\n- **Mirada:** levanta la vista de vez en cuando, en las pausas, sin perder la línea."},
-    {"title": "Postura y gestos", "body": "- **De pie y estable,** con el peso repartido en los dos pies.\n- **Manos tranquilas,** a los lados del libro o apoyadas en el ambón; no se juega con la hoja ni con el micrófono.\n- **Vestimenta sencilla y digna,** que no llame la atención.\n- **Rostro sereno.** Si te equivocas, repite la palabra con calma y sigue."},
-    {"title": "El micrófono", "body": "- **Distancia:** a un palmo de la boca, más o menos 15 a 20 centímetros.\n- **Altura:** ajústalo antes de empezar, con calma, sin golpearlo.\n- **Dirección:** habla hacia el micrófono; si giras la cabeza, la voz se pierde.\n- **No soples ni golpees** para probarlo.\n- **Si no funciona,** sube un poco la voz y sigue; alguien se encargará de arreglarlo."}
+    {
+     "title": "Respirar bien",
+     "body": "La voz nace de la respiración. Muchos lectores se quedan sin aire porque respiran solo con el pecho.\n\n- **Respiración abdominal:** pon una mano sobre el abdomen. Al inspirar por la nariz, el abdomen se expande; al hablar, se contrae despacio.\n- **Aprovecha las pausas** para tomar aire, sin apuro.\n- **Antes de subir al ambón,** respira hondo tres veces: calma los nervios y prepara la voz."
+    },
+    {
+     "title": "Volumen, ritmo y claridad",
+     "body": "- **Volumen:** imagina que le hablas a la persona de la última fila.\n- **Ritmo:** lento y parejo. El error más común es leer rápido.\n- **Dicción:** pronuncia el final de las palabras, sobre todo las «s» y las «d».\n- **Entonación:** sin cantar ni leer como robot. Que se note el sentido de la frase.\n- **Mirada:** levanta la vista de vez en cuando, en las pausas, sin perder la línea."
+    },
+    {
+     "title": "Postura y gestos",
+     "body": "- **De pie y estable,** con el peso repartido en los dos pies.\n- **Manos tranquilas,** a los lados del libro o apoyadas en el ambón; no se juega con la hoja ni con el micrófono.\n- **Vestimenta sencilla y digna,** que no llame la atención.\n- **Rostro sereno.** Si te equivocas, repite la palabra con calma y sigue."
+    },
+    {
+     "title": "El micrófono",
+     "body": "- **Distancia:** a un palmo de la boca, más o menos 15 a 20 centímetros.\n- **Altura:** ajústalo antes de empezar, con calma, sin golpearlo.\n- **Dirección:** habla hacia el micrófono; si giras la cabeza, la voz se pierde.\n- **No soples ni golpees** para probarlo.\n- **Si no funciona,** sube un poco la voz y sigue; alguien se encargará de arreglarlo."
+    }
    ],
-   "bible": {"ref": "Isaías 50,4-5 · Una lengua de discípulo", "comment": "El profeta dice que Dios le dio una lengua de discípulo para saber reconfortar al cansado, y que cada mañana le despierta el oído para escuchar. Antes de hablar, el profeta escucha. Así es el lector: primero discípulo que escucha, después voz que proclama."},
+   "bible": {
+    "ref": "Isaías 50,4-5 · Una lengua de discípulo",
+    "comment": "El profeta dice que Dios le dio una lengua de discípulo para saber reconfortar al cansado, y que cada mañana le despierta el oído para escuchar. Antes de hablar, el profeta escucha. Así es el lector: primero discípulo que escucha, después voz que proclama."
+   },
    "church": [
-    {"source": "Sacrosanctum concilium 29", "text": "Los lectores desempeñan un auténtico ministerio litúrgico; por eso deben formarse para cumplir su función con orden y dignidad.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html"},
-    {"source": "Verbum Domini 58", "text": "La proclamación de la Palabra pide lectores preparados también en lo técnico, para que se escuche y se entienda bien.", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"}
+    {
+     "source": "Sacrosanctum concilium 29",
+     "text": "Los lectores desempeñan un auténtico ministerio litúrgico; por eso deben formarse para cumplir su función con orden y dignidad.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html"
+    },
+    {
+     "source": "Verbum Domini 58",
+     "text": "La proclamación de la Palabra pide lectores preparados también en lo técnico, para que se escuche y se entienda bien.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
    ],
-   "questions": ["¿Qué te pasa con los nervios cuando lees en público? ¿Qué te ayuda a calmarte?", "¿Cuál de los recursos de voz necesitas mejorar más?", "¿Qué significa para ti tener «lengua de discípulo»?", "Después de grabarte, ¿qué descubriste de tu manera de leer?"],
+   "questions": [
+    "¿Qué te pasa con los nervios cuando lees en público? ¿Qué te ayuda a calmarte?",
+    "¿Cuál de los recursos de voz necesitas mejorar más?",
+    "¿Qué significa para ti tener «lengua de discípulo»?",
+    "Después de grabarte, ¿qué descubriste de tu manera de leer?"
+   ],
    "activity": "Hagan juntos los ejercicios de respiración y dicción. Luego cada uno lee una lectura breve con el micrófono del templo, y el grupo comenta volumen, ritmo y claridad.",
    "prayer": "Señor, Tú me diste la voz: que la use para anunciarte. Calma mis nervios, ordena mi respiración y abre mis labios para proclamar tu Palabra con claridad. Que nunca busque lucirme, sino que todos te escuchen a Ti. Amén.",
-   "resources": [{"title": "Sacrosanctum concilium", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html", "note": "Números 24 y 29, sobre la Escritura en la liturgia y los ministerios."}],
+   "resources": [
+    {
+     "title": "Sacrosanctum concilium",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html",
+     "note": "Números 24 y 29, sobre la Escritura en la liturgia y los ministerios."
+    }
+   ],
    "comenzar": "Lee en voz alta esta frase de tres maneras: muy rápido, muy lento y a un ritmo natural: «Dichosos los que escuchan la Palabra de Dios y la cumplen». ¿Cuál se entiende mejor? ¿Cuál transmite más?",
-   "logros": ["Respirar con el abdomen y usar las pausas para tomar aire.", "Cuidar el volumen, el ritmo y la dicción.", "Usar el micrófono con naturalidad."],
-   "profundizar": {"titulo": "Ejercicios para la casa", "texto": "Cinco minutos al día durante una semana hacen una gran diferencia:\n\n- **Respiración:** inspira en cuatro tiempos, retén en cuatro y suelta en ocho, diciendo «sss». Repite cinco veces.\n- **Relajación:** mueve los hombros, el cuello y la mandíbula. Bosteza con ganas.\n- **Resonancia:** con la boca cerrada, di «mmm» sintiendo la vibración en los labios.\n- **Dicción:** repite trabalenguas despacio y luego más rápido: «Tres tristes tigres tragaban trigo en un trigal».\n- **Lectura con lápiz:** lee una lectura con un lápiz atravesado entre los dientes, y después sin él. Notarás cómo mejora la articulación.\n- **Grabarte:** graba con el celular una lectura y escúchala. Es la mejor manera de mejorar."},
-   "caso": {"titulo": "El lector apurado", "texto": "Matías lee muy bien en su casa, pero en misa se pone nervioso, lee rápido para terminar luego y nadie entiende la mitad de la lectura.", "preguntas": ["¿Qué ejercicios le recomendarías a Matías?", "¿Qué podría hacer en los segundos antes de empezar?"]},
-   "claves": [["Respiración abdominal", "Respirar llenando el abdomen, lo que da más aire y una voz más firme."], ["Dicción", "Pronunciación clara de cada palabra."], ["Proyección", "Capacidad de que la voz llegue lejos sin gritar."]],
-   "lectio": {"meditar": "Cada mañana Dios despierta el oído del profeta. ¿Cómo puedes tú escuchar más antes de hablar?", "orar": "Pide a Dios una lengua de discípulo, que sepa animar al cansado.", "vivir": "Haz los ejercicios de la casa durante cinco minutos al día por una semana."},
-   "practica": ["Hagan juntos los ejercicios de respiración y relajación.", "Repitan los trabalenguas.", "Cada uno lee con el micrófono del templo.", "Den y reciban comentarios sobre volumen, ritmo y claridad."],
+   "logros": [
+    "Respirar con el abdomen y usar las pausas para tomar aire.",
+    "Cuidar el volumen, el ritmo y la dicción.",
+    "Usar el micrófono con naturalidad."
+   ],
+   "profundizar": {
+    "titulo": "Ejercicios para la casa",
+    "texto": "Cinco minutos al día durante una semana hacen una gran diferencia:\n\n- **Respiración:** inspira en cuatro tiempos, retén en cuatro y suelta en ocho, diciendo «sss». Repite cinco veces.\n- **Relajación:** mueve los hombros, el cuello y la mandíbula. Bosteza con ganas.\n- **Resonancia:** con la boca cerrada, di «mmm» sintiendo la vibración en los labios.\n- **Dicción:** repite trabalenguas despacio y luego más rápido: «Tres tristes tigres tragaban trigo en un trigal».\n- **Lectura con lápiz:** lee una lectura con un lápiz atravesado entre los dientes, y después sin él. Notarás cómo mejora la articulación.\n- **Grabarte:** graba con el celular una lectura y escúchala. Es la mejor manera de mejorar."
+   },
+   "caso": {
+    "titulo": "El lector apurado",
+    "texto": "Matías lee muy bien en su casa, pero en misa se pone nervioso, lee rápido para terminar luego y nadie entiende la mitad de la lectura.",
+    "preguntas": [
+     "¿Qué ejercicios le recomendarías a Matías?",
+     "¿Qué podría hacer en los segundos antes de empezar?"
+    ]
+   },
+   "claves": [
+    [
+     "Respiración abdominal",
+     "Respirar llenando el abdomen, lo que da más aire y una voz más firme."
+    ],
+    [
+     "Dicción",
+     "Pronunciación clara de cada palabra."
+    ],
+    [
+     "Proyección",
+     "Capacidad de que la voz llegue lejos sin gritar."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Cada mañana Dios despierta el oído del profeta. ¿Cómo puedes tú escuchar más antes de hablar?",
+    "orar": "Pide a Dios una lengua de discípulo, que sepa animar al cansado.",
+    "vivir": "Haz los ejercicios de la casa durante cinco minutos al día por una semana."
+   },
+   "practica": [
+    "Hagan juntos los ejercicios de respiración y relajación.",
+    "Repitan los trabalenguas.",
+    "Cada uno lee con el micrófono del templo.",
+    "Den y reciban comentarios sobre volumen, ritmo y claridad."
+   ],
    "idea": "Despacio, claro y sereno: así se proclama."
   },
   {
@@ -97,38 +307,180 @@
    "objective": "Comprender el sentido del salmo responsorial y de la oración universal, y aprender a proclamarlos y a redactar intenciones.",
    "intro": "Después de la primera lectura, la comunidad responde a Dios con un salmo. Y al final de la Liturgia de la Palabra, presenta a Dios las necesidades del mundo en la oración universal. Ambos momentos los puede conducir un lector o un salmista. En esta unidad aprenderás a hacerlo bien.",
    "sections": [
-    {"title": "El salmo responsorial", "body": "El salmo responsorial es parte de la Liturgia de la Palabra y tiene gran importancia: favorece la meditación de la Palabra (Ordenación General del Misal Romano 61). Es la **respuesta orante** de la comunidad a la lectura que acaba de escuchar.\n\n- Se proclama desde el **ambón**.\n- Conviene que sea **cantado**, al menos la respuesta.\n- Quien lo dirige es el **salmista**; si no lo hay, el lector.\n- Primero se dice o canta la **respuesta**, la asamblea la repite, y luego se van alternando las estrofas con la respuesta de todos."},
-    {"title": "Cómo proclamar el salmo", "body": "- **No se anuncia** «Salmo responsorial» ni el número del salmo: se comienza directamente con la respuesta.\n- **Di la respuesta con claridad** y haz un gesto sencillo con la mano o la mirada para invitar a la asamblea a repetirla.\n- **Lee cada estrofa** como una oración, no como una lectura más.\n- **Deja un espacio** para que la asamblea responda antes de seguir.\n- **No se termina** con «Palabra de Dios»."},
-    {"title": "La oración universal", "body": "En la oración universal, o de los fieles, el pueblo ejerce su sacerdocio bautismal y ruega por todos (Ordenación General del Misal Romano 69). El orden habitual de las intenciones es (n. 70):\n\n1. Por las necesidades de la **Iglesia**.\n2. Por los **gobernantes** y la **salvación del mundo**.\n3. Por los que **sufren** cualquier dificultad.\n4. Por la **comunidad local**.\n\nEl sacerdote la introduce y la concluye. Las intenciones las propone el diácono, un cantor, un lector u otro fiel laico, desde el ambón o desde otro lugar adecuado (n. 71)."},
-    {"title": "Redactar buenas intenciones", "body": "- **Breves:** una o dos líneas.\n- **Por otros:** se ruega por necesidades reales, no se dan avisos ni pequeñas homilías.\n- **Concretas:** «Por las familias de nuestra población que se quedaron sin trabajo» es mejor que «por todos los que sufren».\n- **Sin opiniones políticas ni críticas** a personas.\n- **Con una fórmula común:** «Por…, para que…. Roguemos al Señor», y la asamblea responde, por ejemplo, «Te lo pedimos, Señor».\n- **Unidas a la Palabra del día** cuando sea posible."}
+    {
+     "title": "El salmo responsorial",
+     "body": "El salmo responsorial es parte de la Liturgia de la Palabra y tiene gran importancia: favorece la meditación de la Palabra (Ordenación General del Misal Romano 61). Es la **respuesta orante** de la comunidad a la lectura que acaba de escuchar.\n\n- Se proclama desde el **ambón**.\n- Conviene que sea **cantado**, al menos la respuesta.\n- Quien lo dirige es el **salmista**; si no lo hay, el lector.\n- Primero se dice o canta la **respuesta**, la asamblea la repite, y luego se van alternando las estrofas con la respuesta de todos."
+    },
+    {
+     "title": "Cómo proclamar el salmo",
+     "body": "- **No se anuncia** «Salmo responsorial» ni el número del salmo: se comienza directamente con la respuesta.\n- **Di la respuesta con claridad** y haz un gesto sencillo con la mano o la mirada para invitar a la asamblea a repetirla.\n- **Lee cada estrofa** como una oración, no como una lectura más.\n- **Deja un espacio** para que la asamblea responda antes de seguir.\n- **No se termina** con «Palabra de Dios»."
+    },
+    {
+     "title": "La oración universal",
+     "body": "En la oración universal, o de los fieles, el pueblo ejerce su sacerdocio bautismal y ruega por todos (Ordenación General del Misal Romano 69). El orden habitual de las intenciones es (n. 70):\n\n1. Por las necesidades de la **Iglesia**.\n2. Por los **gobernantes** y la **salvación del mundo**.\n3. Por los que **sufren** cualquier dificultad.\n4. Por la **comunidad local**.\n\nEl sacerdote la introduce y la concluye. Las intenciones las propone el diácono, un cantor, un lector u otro fiel laico, desde el ambón o desde otro lugar adecuado (n. 71)."
+    },
+    {
+     "title": "Redactar buenas intenciones",
+     "body": "- **Breves:** una o dos líneas.\n- **Por otros:** se ruega por necesidades reales, no se dan avisos ni pequeñas homilías.\n- **Concretas:** «Por las familias de nuestra población que se quedaron sin trabajo» es mejor que «por todos los que sufren».\n- **Sin opiniones políticas ni críticas** a personas.\n- **Con una fórmula común:** «Por…, para que…. Roguemos al Señor», y la asamblea responde, por ejemplo, «Te lo pedimos, Señor».\n- **Unidas a la Palabra del día** cuando sea posible."
+    }
    ],
-   "bible": {"ref": "Salmo 150 · «Todo lo que respira alabe al Señor»", "comment": "El último salmo del libro es una explosión de alabanza: trompetas, arpas, tambores, danzas y todo lo que respira. Los salmos son la oración de Jesús y de la Iglesia: en ellos cabe la alegría, el dolor, la súplica y la acción de gracias."},
+   "bible": {
+    "ref": "Salmo 150 · «Todo lo que respira alabe al Señor»",
+    "comment": "El último salmo del libro es una explosión de alabanza: trompetas, arpas, tambores, danzas y todo lo que respira. Los salmos son la oración de Jesús y de la Iglesia: en ellos cabe la alegría, el dolor, la súplica y la acción de gracias."
+   },
    "church": [
-    {"source": "Ordenación General del Misal Romano 61", "text": "El salmo responsorial es parte integral de la Liturgia de la Palabra, favorece la meditación y conviene que sea cantado.", "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"},
-    {"source": "Ordenación General del Misal Romano 69-71", "text": "Explica el sentido de la oración universal, el orden de sus intenciones y quién las propone.", "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"}
+    {
+     "source": "Ordenación General del Misal Romano 61",
+     "text": "El salmo responsorial es parte integral de la Liturgia de la Palabra, favorece la meditación y conviene que sea cantado.",
+     "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"
+    },
+    {
+     "source": "Ordenación General del Misal Romano 69-71",
+     "text": "Explica el sentido de la oración universal, el orden de sus intenciones y quién las propone.",
+     "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"
+    }
    ],
-   "questions": ["¿Qué salmo o respuesta de salmo te sabes de memoria? ¿Qué te dice?", "¿Por qué crees que el salmo es una respuesta y no una lectura más?", "¿Qué necesidades de tu comunidad deberían estar más presentes en la oración universal?", "Escribe una intención por cada uno de los cuatro grupos."],
+   "questions": [
+    "¿Qué salmo o respuesta de salmo te sabes de memoria? ¿Qué te dice?",
+    "¿Por qué crees que el salmo es una respuesta y no una lectura más?",
+    "¿Qué necesidades de tu comunidad deberían estar más presentes en la oración universal?",
+    "Escribe una intención por cada uno de los cuatro grupos."
+   ],
    "activity": "Preparen juntos la oración universal del próximo domingo a partir de las lecturas y de las necesidades de su comunidad. Muéstrenla al sacerdote o al equipo de liturgia y ofrézcanse para proclamarla.",
    "prayer": "Señor, que pusiste en boca de tu pueblo los salmos para alabarte: enséñame a orar con ellos. Que cuando proclame el salmo, toda la comunidad responda con el corazón, y que cuando presente las intenciones, lleve ante Ti el dolor y la esperanza de mi gente. Amén.",
-   "resources": [{"title": "Ordenación General del Misal Romano", "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html", "note": "Números 55-71, sobre la Liturgia de la Palabra."}],
+   "resources": [
+    {
+     "title": "Ordenación General del Misal Romano",
+     "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html",
+     "note": "Números 55-71, sobre la Liturgia de la Palabra."
+    }
+   ],
    "comenzar": "Lee el Salmo 23 (22), «El Señor es mi pastor». Subraya la frase que más te gusta y escribe por qué. Después piensa: si tuvieras que invitar a toda la comunidad a repetirla, ¿cómo lo harías?",
-   "logros": ["Proclamar el salmo responsorial invitando a la asamblea a responder.", "Explicar el orden de las intenciones de la oración universal.", "Redactar intenciones breves, concretas y unidas a la Palabra."],
-   "profundizar": {"titulo": "El salmista", "texto": "El salmista tiene un ministerio propio: cantar o proclamar el salmo (Ordenación General del Misal Romano 102). Para eso necesita:\n\n- **Conocer el salmo:** su sentido y la lectura a la que responde.\n- **Ensayar la melodía** con el coro o el organista, si se canta.\n- **Cuidar la voz:** los ejercicios de la unidad anterior sirven igual.\n- **Ayudar a la asamblea:** enseñar la respuesta antes de la misa si es nueva.\n\nSi en tu comunidad nadie canta el salmo, puedes empezar con algo sencillo: cantar solo la respuesta, con una melodía fácil, y leer las estrofas."},
-   "caso": {"titulo": "La intención larguísima", "texto": "En la misa de jóvenes, Antonia escribe las intenciones. Una de ellas ocupa media hoja: explica un problema del colegio, critica al alcalde y termina con una reflexión personal. La comunidad se pierde y nadie sabe cuándo responder.", "preguntas": ["¿Qué criterios de una buena intención no se cumplieron?", "¿Cómo reescribirías esa intención en dos líneas?"]},
-   "claves": [["Salmo responsorial", "Salmo que responde a la primera lectura y en el que la asamblea repite una respuesta."], ["Salmista", "Quien canta o proclama el salmo responsorial."], ["Oración universal", "Oración de los fieles en que se ruega por la Iglesia, el mundo, los que sufren y la comunidad."]],
-   "lectio": {"meditar": "Todo lo que respira alaba al Señor. ¿Qué tiene tu vida hoy para alabar a Dios?", "orar": "Escribe tu propio verso de alabanza, como si agregaras una línea al Salmo 150.", "vivir": "Reza cada día de esta semana un salmo distinto."},
-   "practica": ["Lean las lecturas del próximo domingo.", "Escriban juntos las cuatro intenciones.", "Revísenlas con los criterios de esta unidad.", "Entréguenlas al sacerdote o al equipo de liturgia."],
+   "logros": [
+    "Proclamar el salmo responsorial invitando a la asamblea a responder.",
+    "Explicar el orden de las intenciones de la oración universal.",
+    "Redactar intenciones breves, concretas y unidas a la Palabra."
+   ],
+   "profundizar": {
+    "titulo": "El salmista",
+    "texto": "El salmista tiene un ministerio propio: cantar o proclamar el salmo (Ordenación General del Misal Romano 102). Para eso necesita:\n\n- **Conocer el salmo:** su sentido y la lectura a la que responde.\n- **Ensayar la melodía** con el coro o el organista, si se canta.\n- **Cuidar la voz:** los ejercicios de la unidad anterior sirven igual.\n- **Ayudar a la asamblea:** enseñar la respuesta antes de la misa si es nueva.\n\nSi en tu comunidad nadie canta el salmo, puedes empezar con algo sencillo: cantar solo la respuesta, con una melodía fácil, y leer las estrofas."
+   },
+   "caso": {
+    "titulo": "La intención larguísima",
+    "texto": "En la misa de jóvenes, Antonia escribe las intenciones. Una de ellas ocupa media hoja: explica un problema del colegio, critica al alcalde y termina con una reflexión personal. La comunidad se pierde y nadie sabe cuándo responder.",
+    "preguntas": [
+     "¿Qué criterios de una buena intención no se cumplieron?",
+     "¿Cómo reescribirías esa intención en dos líneas?"
+    ]
+   },
+   "claves": [
+    [
+     "Salmo responsorial",
+     "Salmo que responde a la primera lectura y en el que la asamblea repite una respuesta."
+    ],
+    [
+     "Salmista",
+     "Quien canta o proclama el salmo responsorial."
+    ],
+    [
+     "Oración universal",
+     "Oración de los fieles en que se ruega por la Iglesia, el mundo, los que sufren y la comunidad."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Todo lo que respira alaba al Señor. ¿Qué tiene tu vida hoy para alabar a Dios?",
+    "orar": "Escribe tu propio verso de alabanza, como si agregaras una línea al Salmo 150.",
+    "vivir": "Reza cada día de esta semana un salmo distinto."
+   },
+   "practica": [
+    "Lean las lecturas del próximo domingo.",
+    "Escriban juntos las cuatro intenciones.",
+    "Revísenlas con los criterios de esta unidad.",
+    "Entréguenlas al sacerdote o al equipo de liturgia."
+   ],
    "idea": "En el salmo, la comunidad responde a Dios; en las intenciones, presenta el mundo a Dios."
   }
  ],
  "evaluacion": [
-  {"q": "¿Qué enseña la Iglesia sobre la lectura de la Escritura en la liturgia?", "options": ["Es un momento para informarse sobre la historia de Israel.", "Cuando se leen las Escrituras, Dios mismo habla a su pueblo.", "Es una preparación opcional para la Eucaristía."], "correct": 1, "feedback": "Así lo enseñan Sacrosanctum concilium 7 y la Ordenación General del Misal Romano 29."},
-  {"q": "En la misa, ¿quién proclama el Evangelio?", "options": ["El lector más preparado.", "El diácono o el sacerdote.", "Cualquier fiel de la asamblea."], "correct": 1, "feedback": "El lector proclama las lecturas anteriores al Evangelio."},
-  {"q": "En el ciclo dominical, ¿qué Evangelio se lee principalmente en el año C?", "options": ["Mateo.", "Marcos.", "Lucas."], "correct": 2, "feedback": "Año A: Mateo; año B: Marcos; año C: Lucas."},
-  {"q": "¿Qué no se lee en voz alta al proclamar una lectura?", "options": ["«Lectura del libro del profeta Isaías».", "El título en rojo y la cita con números.", "«Palabra de Dios» al final."], "correct": 1, "feedback": "Se anuncia el libro, se proclama el texto y se termina con «Palabra de Dios»."},
-  {"q": "¿Cuál es el error más común de los lectores?", "options": ["Leer demasiado lento.", "Leer demasiado rápido.", "Mirar a la asamblea."], "correct": 1, "feedback": "Lo que al lector le parece lento suele ser el ritmo justo para la asamblea."},
-  {"q": "¿Cómo comienza la proclamación del salmo responsorial?", "options": ["Anunciando «Salmo responsorial» y el número del salmo.", "Directamente con la respuesta, que la asamblea repite.", "Con «Palabra de Dios»."], "correct": 1, "feedback": "Se comienza con la respuesta y se invita a la asamblea a repetirla."},
-  {"q": "¿Cuál es el orden habitual de las intenciones de la oración universal?", "options": ["Comunidad local, Iglesia, mundo y enfermos.", "Iglesia, gobernantes y salvación del mundo, los que sufren y la comunidad local.", "Cualquier orden, según lo que surja."], "correct": 1, "feedback": "Es el orden que propone la Ordenación General del Misal Romano 70."},
-  {"q": "¿Cuál de estas es una buena intención?", "options": ["«Para que el gobierno deje de hacer las cosas mal. Roguemos al Señor».", "«Por los enfermos de nuestra comunidad, para que sientan la cercanía de Dios y de sus hermanos. Roguemos al Señor».", "«Les recordamos que el sábado hay convivencia. Roguemos al Señor»."], "correct": 1, "feedback": "Es breve, concreta, ruega por otros y no tiene opiniones ni avisos."}
+  {
+   "q": "¿Qué enseña la Iglesia sobre la lectura de la Escritura en la liturgia?",
+   "options": [
+    "Es un momento para informarse sobre la historia de Israel.",
+    "Cuando se leen las Escrituras, Dios mismo habla a su pueblo.",
+    "Es una preparación opcional para la Eucaristía."
+   ],
+   "correct": 1,
+   "feedback": "Así lo enseñan Sacrosanctum concilium 7 y la Ordenación General del Misal Romano 29."
+  },
+  {
+   "q": "En la misa, ¿quién proclama el Evangelio?",
+   "options": [
+    "El lector más preparado.",
+    "El diácono o el sacerdote.",
+    "Cualquier fiel de la asamblea."
+   ],
+   "correct": 1,
+   "feedback": "El lector proclama las lecturas anteriores al Evangelio."
+  },
+  {
+   "q": "En el ciclo dominical, ¿qué Evangelio se lee principalmente en el año C?",
+   "options": [
+    "Mateo.",
+    "Marcos.",
+    "Lucas."
+   ],
+   "correct": 2,
+   "feedback": "Año A: Mateo; año B: Marcos; año C: Lucas."
+  },
+  {
+   "q": "¿Qué no se lee en voz alta al proclamar una lectura?",
+   "options": [
+    "«Lectura del libro del profeta Isaías».",
+    "El título en rojo y la cita con números.",
+    "«Palabra de Dios» al final."
+   ],
+   "correct": 1,
+   "feedback": "Se anuncia el libro, se proclama el texto y se termina con «Palabra de Dios»."
+  },
+  {
+   "q": "¿Cuál es el error más común de los lectores?",
+   "options": [
+    "Leer demasiado lento.",
+    "Leer demasiado rápido.",
+    "Mirar a la asamblea."
+   ],
+   "correct": 1,
+   "feedback": "Lo que al lector le parece lento suele ser el ritmo justo para la asamblea."
+  },
+  {
+   "q": "¿Cómo comienza la proclamación del salmo responsorial?",
+   "options": [
+    "Anunciando «Salmo responsorial» y el número del salmo.",
+    "Directamente con la respuesta, que la asamblea repite.",
+    "Con «Palabra de Dios»."
+   ],
+   "correct": 1,
+   "feedback": "Se comienza con la respuesta y se invita a la asamblea a repetirla."
+  },
+  {
+   "q": "¿Cuál es el orden habitual de las intenciones de la oración universal?",
+   "options": [
+    "Comunidad local, Iglesia, mundo y enfermos.",
+    "Iglesia, gobernantes y salvación del mundo, los que sufren y la comunidad local.",
+    "Cualquier orden, según lo que surja."
+   ],
+   "correct": 1,
+   "feedback": "Es el orden que propone la Ordenación General del Misal Romano 70."
+  },
+  {
+   "q": "¿Cuál de estas es una buena intención?",
+   "options": [
+    "«Para que el gobierno deje de hacer las cosas mal. Roguemos al Señor».",
+    "«Por los enfermos de nuestra comunidad, para que sientan la cercanía de Dios y de sus hermanos. Roguemos al Señor».",
+    "«Les recordamos que el sábado hay convivencia. Roguemos al Señor»."
+   ],
+   "correct": 1,
+   "feedback": "Es breve, concreta, ruega por otros y no tiene opiniones ni avisos."
+  }
  ]
 }

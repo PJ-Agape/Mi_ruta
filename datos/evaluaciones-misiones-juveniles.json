@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Misiones juveniles",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo envía Jesús a sus discípulos en Lucas 10?",
+    "opciones": [
+     "Solos, cada uno a un pueblo.",
+     "De dos en dos.",
+     "En grandes grupos."
+    ],
+    "correcta": 1,
+    "explicacion": "La misión siempre es comunitaria."
+   },
+   {
+    "pregunta": "¿Qué significa ser «discípulo misionero»?",
+    "opciones": [
+     "Un título para los que van a misiones.",
+     "Todo bautizado que sigue a Jesús y lo anuncia.",
+     "Un sacerdote enviado a otro país."
+    ],
+    "correcta": 1,
+    "explicacion": "Evangelii gaudium 120: todo bautizado es agente de evangelización."
+   },
+   {
+    "pregunta": "¿Con quién se coordina siempre una misión?",
+    "opciones": [
+     "Con el párroco y la comunidad del lugar.",
+     "Solo con los misioneros.",
+     "Con la municipalidad."
+    ],
+    "correcta": 0,
+    "explicacion": "La misión se vive en comunión con la Iglesia local."
+   },
+   {
+    "pregunta": "¿Qué documento es indispensable para cada misionero menor de edad?",
+    "opciones": [
+     "Una carta de recomendación.",
+     "La autorización firmada por sus padres o apoderados y su ficha de salud.",
+     "Un certificado de notas."
+    ],
+    "correcta": 1,
+    "explicacion": "Un permiso por mensaje no reemplaza la autorización firmada."
+   },
+   {
+    "pregunta": "En una visita, si la familia no quiere recibir a los misioneros, ¿qué hacer?",
+    "opciones": [
+     "Insistir hasta convencerla.",
+     "Agradecer y despedirse con amabilidad.",
+     "Dejar folletos por debajo de la puerta."
+    ],
+    "correcta": 1,
+    "explicacion": "Respetar la libertad es parte del estilo de Jesús."
+   },
+   {
+    "pregunta": "Si un niño de la comunidad revela una situación de abuso o riesgo, ¿qué hace el misionero?",
+    "opciones": [
+     "Investiga para confirmar si es verdad.",
+     "Escucha, no promete secreto y avisa de inmediato al jefe de misión.",
+     "Lo guarda en secreto para no causar problemas."
+    ],
+    "correcta": 1,
+    "explicacion": "El jefe de misión activa el protocolo de la diócesis y las vías legales."
+   },
+   {
+    "pregunta": "¿Cómo se mira la religiosidad popular en la misión?",
+    "opciones": [
+     "Como algo que hay que corregir.",
+     "Como una expresión valiosa de la fe del pueblo, que se aprende y se acompaña.",
+     "Como una costumbre sin importancia."
+    ],
+    "correcta": 1,
+    "explicacion": "Evangelii gaudium 122-126 la valora como lugar donde actúa el Espíritu."
+   },
+   {
+    "pregunta": "¿Qué dice un buen testimonio de misión?",
+    "opciones": [
+     "Más de lo que hicimos que de lo que recibimos.",
+     "Más de lo que recibimos que de lo que hicimos, cuidando la dignidad de las personas.",
+     "Todo lo que vimos, con fotos de las casas."
+    ],
+    "correcta": 1,
+    "explicacion": "La misión es un encuentro: se da y se recibe."
+   }
+  ]
+ }
+}

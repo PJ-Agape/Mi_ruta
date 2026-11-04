@@ -13,27 +13,97 @@
    "objective": "Conocer cómo está organizada la Biblia, sus partes y sus libros, y aprender a buscar cualquier cita con rapidez.",
    "intro": "La Biblia no es un solo libro: es una biblioteca de 73 libros escritos durante muchos siglos, por distintos autores y en distintos estilos. Pero todos cuentan una misma historia: el amor de Dios que busca a la humanidad hasta entregarle a su Hijo. En esta unidad vas a recorrer esa biblioteca y a aprender a moverte en ella.",
    "sections": [
-    {"title": "Dos grandes partes", "body": "La Biblia católica tiene **73 libros**:\n\n- **Antiguo Testamento (46 libros):** la historia de Dios con el pueblo de Israel, desde la creación hasta poco antes de Jesús.\n- **Nuevo Testamento (27 libros):** la vida, muerte y resurrección de Jesús, y los primeros pasos de la Iglesia.\n\nLa palabra «testamento» significa alianza: el pacto de amor entre Dios y su pueblo."},
-    {"title": "Los grupos de libros", "body": "**Antiguo Testamento:**\n\n- **Pentateuco:** los cinco primeros libros, de Génesis a Deuteronomio.\n- **Libros históricos:** como Josué, Samuel, Reyes, Rut, Tobías y Macabeos.\n- **Libros sapienciales y poéticos:** Job, Salmos, Proverbios, Eclesiastés, Cantar de los Cantares, Sabiduría y Eclesiástico.\n- **Profetas:** como Isaías, Jeremías, Ezequiel, Daniel, Amós y Jonás.\n\n**Nuevo Testamento:**\n\n- **Evangelios:** Mateo, Marcos, Lucas y Juan.\n- **Hechos de los Apóstoles.**\n- **Cartas:** de Pablo y de otros apóstoles.\n- **Apocalipsis.**"},
-    {"title": "Cómo buscar una cita", "body": "Una cita bíblica tiene tres partes: **libro, capítulo y versículo**.\n\n- **Juan 3,16** significa: Evangelio de Juan, capítulo 3, versículo 16.\n- **Mt 5,1-12** significa: Mateo, capítulo 5, versículos del 1 al 12.\n- **Lc 15,1-3.11-32** significa: Lucas 15, versículos 1 a 3 y después del 11 al 32.\n\nEn español, la coma separa el capítulo del versículo, el guion indica un tramo y el punto une tramos distintos. Al comienzo de cada Biblia hay un **índice con las abreviaturas** de los libros."},
-    {"title": "¿Por qué las Biblias son distintas?", "body": "La Biblia se escribió en **hebreo, arameo y griego**, y se traduce a nuestra lengua. Por eso hay distintas traducciones, todas válidas si son aprobadas por la Iglesia. Algunas muy usadas en Chile y Latinoamérica son *El Libro del Pueblo de Dios*, la *Biblia de América*, la *Biblia de Jerusalén* y la *Biblia Latinoamericana*.\n\nLas **Biblias protestantes** tienen 66 libros: no incluyen siete libros del Antiguo Testamento (Tobías, Judit, 1 y 2 Macabeos, Sabiduría, Eclesiástico y Baruc) ni algunas partes de Ester y Daniel, que la Iglesia católica reconoce como inspirados."}
+    {
+     "title": "Dos grandes partes",
+     "body": "La Biblia católica tiene **73 libros**:\n\n- **Antiguo Testamento (46 libros):** la historia de Dios con el pueblo de Israel, desde la creación hasta poco antes de Jesús.\n- **Nuevo Testamento (27 libros):** la vida, muerte y resurrección de Jesús, y los primeros pasos de la Iglesia.\n\nLa palabra «testamento» significa alianza: el pacto de amor entre Dios y su pueblo."
+    },
+    {
+     "title": "Los grupos de libros",
+     "body": "**Antiguo Testamento:**\n\n- **Pentateuco:** los cinco primeros libros, de Génesis a Deuteronomio.\n- **Libros históricos:** como Josué, Samuel, Reyes, Rut, Tobías y Macabeos.\n- **Libros sapienciales y poéticos:** Job, Salmos, Proverbios, Eclesiastés, Cantar de los Cantares, Sabiduría y Eclesiástico.\n- **Profetas:** como Isaías, Jeremías, Ezequiel, Daniel, Amós y Jonás.\n\n**Nuevo Testamento:**\n\n- **Evangelios:** Mateo, Marcos, Lucas y Juan.\n- **Hechos de los Apóstoles.**\n- **Cartas:** de Pablo y de otros apóstoles.\n- **Apocalipsis.**"
+    },
+    {
+     "title": "Cómo buscar una cita",
+     "body": "Una cita bíblica tiene tres partes: **libro, capítulo y versículo**.\n\n- **Juan 3,16** significa: Evangelio de Juan, capítulo 3, versículo 16.\n- **Mt 5,1-12** significa: Mateo, capítulo 5, versículos del 1 al 12.\n- **Lc 15,1-3.11-32** significa: Lucas 15, versículos 1 a 3 y después del 11 al 32.\n\nEn español, la coma separa el capítulo del versículo, el guion indica un tramo y el punto une tramos distintos. Al comienzo de cada Biblia hay un **índice con las abreviaturas** de los libros."
+    },
+    {
+     "title": "¿Por qué las Biblias son distintas?",
+     "body": "La Biblia se escribió en **hebreo, arameo y griego**, y se traduce a nuestra lengua. Por eso hay distintas traducciones, todas válidas si son aprobadas por la Iglesia. Algunas muy usadas en Chile y Latinoamérica son *El Libro del Pueblo de Dios*, la *Biblia de América*, la *Biblia de Jerusalén* y la *Biblia Latinoamericana*.\n\nLas **Biblias protestantes** tienen 66 libros: no incluyen siete libros del Antiguo Testamento (Tobías, Judit, 1 y 2 Macabeos, Sabiduría, Eclesiástico y Baruc) ni algunas partes de Ester y Daniel, que la Iglesia católica reconoce como inspirados."
+    }
    ],
-   "bible": {"ref": "2 Timoteo 3,14-17 · Toda Escritura es inspirada por Dios", "comment": "Pablo le recuerda a Timoteo que conoce las Escrituras desde niño, y que ellas pueden darle la sabiduría que conduce a la salvación. Toda la Escritura es inspirada por Dios y sirve para enseñar, corregir y formar en la justicia."},
+   "bible": {
+    "ref": "2 Timoteo 3,14-17 · Toda Escritura es inspirada por Dios",
+    "comment": "Pablo le recuerda a Timoteo que conoce las Escrituras desde niño, y que ellas pueden darle la sabiduría que conduce a la salvación. Toda la Escritura es inspirada por Dios y sirve para enseñar, corregir y formar en la justicia."
+   },
    "church": [
-    {"source": "Dei Verbum 11", "text": "Los libros de la Escritura tienen a Dios como autor, porque fueron escritos bajo la inspiración del Espíritu Santo, y enseñan con fidelidad la verdad que Dios quiso comunicar para nuestra salvación.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"},
-    {"source": "Catecismo de la Iglesia Católica 120", "text": "La Tradición apostólica discernió qué escritos forman la lista de los libros santos: 46 del Antiguo Testamento y 27 del Nuevo.", "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html"}
+    {
+     "source": "Dei Verbum 11",
+     "text": "Los libros de la Escritura tienen a Dios como autor, porque fueron escritos bajo la inspiración del Espíritu Santo, y enseñan con fidelidad la verdad que Dios quiso comunicar para nuestra salvación.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 120",
+     "text": "La Tradición apostólica discernió qué escritos forman la lista de los libros santos: 46 del Antiguo Testamento y 27 del Nuevo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html"
+    }
    ],
-   "questions": ["¿Qué relación has tenido hasta ahora con la Biblia?", "¿Qué libro de la Biblia te gustaría conocer más? ¿Por qué?", "¿Qué te sorprende de que la Biblia sea una biblioteca escrita durante siglos?", "Busca Juan 3,16 y cópialo. ¿Qué te dice?"],
+   "questions": [
+    "¿Qué relación has tenido hasta ahora con la Biblia?",
+    "¿Qué libro de la Biblia te gustaría conocer más? ¿Por qué?",
+    "¿Qué te sorprende de que la Biblia sea una biblioteca escrita durante siglos?",
+    "Busca Juan 3,16 y cópialo. ¿Qué te dice?"
+   ],
    "activity": "Hagan una competencia de búsqueda de citas en parejas: una persona dice una cita y gana quien la encuentra primero y la lee en voz alta. Empiecen por los Evangelios y luego pasen a libros menos conocidos.",
    "prayer": "Señor, que durante siglos hablaste a tu pueblo y en Jesús nos dijiste tu Palabra definitiva: gracias por la Biblia. Que no sea para mí un libro guardado en un estante, sino una carta que abro cada día. Enséñame a buscarte en sus páginas y a encontrarte en mi vida. Amén.",
-   "resources": [{"title": "Dei Verbum", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html", "note": "Constitución del Concilio Vaticano II sobre la divina revelación."}],
+   "resources": [
+    {
+     "title": "Dei Verbum",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Constitución del Concilio Vaticano II sobre la divina revelación."
+    }
+   ],
    "comenzar": "Toma una Biblia y, sin buscar en el índice, intenta encontrar el Evangelio de Marcos, el libro de los Salmos y la carta a los Romanos. Mide cuánto te demoras. Repetirás el ejercicio al final de la unidad.",
-   "logros": ["Distinguir el Antiguo y el Nuevo Testamento y sus grupos de libros.", "Buscar una cita bíblica con rapidez.", "Explicar por qué existen distintas traducciones y por qué las Biblias católicas tienen 73 libros."],
-   "profundizar": {"titulo": "La gran historia en una página", "texto": "La Biblia puede leerse como una sola historia en siete grandes momentos:\n\n1. **Creación:** Dios crea todo por amor y crea al ser humano a su imagen.\n2. **Ruptura:** el pecado rompe la relación con Dios, con los demás y con la creación.\n3. **Promesa:** Dios llama a Abraham y le promete una descendencia y una bendición para todos los pueblos.\n4. **Liberación y alianza:** Dios libera a Israel de Egipto y hace con él una alianza en el Sinaí.\n5. **Profetas:** cuando el pueblo se aleja, Dios envía profetas que anuncian un Mesías.\n6. **Jesús:** el Hijo de Dios se hace hombre, muere y resucita para salvarnos.\n7. **Iglesia y plenitud:** el Espíritu Santo impulsa a la Iglesia, que espera la venida definitiva del Señor."},
-   "caso": {"titulo": "La Biblia del velador", "texto": "Felipe recibió una Biblia en su primera comunión. Está en su velador desde hace años, casi sin abrir. Dice que le gustaría leerla, pero que «es muy larga y no sé por dónde empezar».", "preguntas": ["¿Qué le recomendarías a Felipe para empezar?", "¿Qué libro no le recomendarías como primera lectura? ¿Por qué?"]},
-   "claves": [["Testamento", "Alianza entre Dios y su pueblo; nombre de las dos partes de la Biblia."], ["Canon", "Lista de libros que la Iglesia reconoce como inspirados por Dios."], ["Cita bíblica", "Forma de indicar un pasaje: libro, capítulo y versículo."]],
-   "lectio": {"meditar": "Timoteo conocía las Escrituras desde niño. ¿Quién te acercó a ti la Palabra de Dios? ¿Qué te gustaría saber de ella?", "orar": "Agradece a Dios por las personas que te enseñaron a rezar y a conocerlo.", "vivir": "Elige un lugar visible para tu Biblia y ábrela cada día durante esta semana."},
-   "practica": ["Revisen juntos el índice de la Biblia.", "Hagan la competencia de búsqueda de citas.", "Repitan el ejercicio de «Para comenzar» y comparen los tiempos.", "Cada uno elige un Evangelio para empezar a leer."],
+   "logros": [
+    "Distinguir el Antiguo y el Nuevo Testamento y sus grupos de libros.",
+    "Buscar una cita bíblica con rapidez.",
+    "Explicar por qué existen distintas traducciones y por qué las Biblias católicas tienen 73 libros."
+   ],
+   "profundizar": {
+    "titulo": "La gran historia en una página",
+    "texto": "La Biblia puede leerse como una sola historia en siete grandes momentos:\n\n1. **Creación:** Dios crea todo por amor y crea al ser humano a su imagen.\n2. **Ruptura:** el pecado rompe la relación con Dios, con los demás y con la creación.\n3. **Promesa:** Dios llama a Abraham y le promete una descendencia y una bendición para todos los pueblos.\n4. **Liberación y alianza:** Dios libera a Israel de Egipto y hace con él una alianza en el Sinaí.\n5. **Profetas:** cuando el pueblo se aleja, Dios envía profetas que anuncian un Mesías.\n6. **Jesús:** el Hijo de Dios se hace hombre, muere y resucita para salvarnos.\n7. **Iglesia y plenitud:** el Espíritu Santo impulsa a la Iglesia, que espera la venida definitiva del Señor."
+   },
+   "caso": {
+    "titulo": "La Biblia del velador",
+    "texto": "Felipe recibió una Biblia en su primera comunión. Está en su velador desde hace años, casi sin abrir. Dice que le gustaría leerla, pero que «es muy larga y no sé por dónde empezar».",
+    "preguntas": [
+     "¿Qué le recomendarías a Felipe para empezar?",
+     "¿Qué libro no le recomendarías como primera lectura? ¿Por qué?"
+    ]
+   },
+   "claves": [
+    [
+     "Testamento",
+     "Alianza entre Dios y su pueblo; nombre de las dos partes de la Biblia."
+    ],
+    [
+     "Canon",
+     "Lista de libros que la Iglesia reconoce como inspirados por Dios."
+    ],
+    [
+     "Cita bíblica",
+     "Forma de indicar un pasaje: libro, capítulo y versículo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Timoteo conocía las Escrituras desde niño. ¿Quién te acercó a ti la Palabra de Dios? ¿Qué te gustaría saber de ella?",
+    "orar": "Agradece a Dios por las personas que te enseñaron a rezar y a conocerlo.",
+    "vivir": "Elige un lugar visible para tu Biblia y ábrela cada día durante esta semana."
+   },
+   "practica": [
+    "Revisen juntos el índice de la Biblia.",
+    "Hagan la competencia de búsqueda de citas.",
+    "Repitan el ejercicio de «Para comenzar» y comparen los tiempos.",
+    "Cada uno elige un Evangelio para empezar a leer."
+   ],
    "idea": "La Biblia es una biblioteca que cuenta una sola historia de amor."
   },
   {
@@ -41,27 +111,97 @@
    "objective": "Comprender qué significa que la Biblia sea Palabra de Dios escrita por autores humanos, y cómo se relaciona con la Tradición y el Magisterio de la Iglesia.",
    "intro": "Si la Biblia la escribieron personas, ¿por qué decimos que es Palabra de Dios? Y si es Palabra de Dios, ¿por qué tiene estilos tan distintos? En esta unidad vas a descubrir cómo Dios se comunica a través de palabras humanas, y por qué la Iglesia lee la Biblia en comunidad y no cada uno por su cuenta.",
    "sections": [
-    {"title": "Dios se revela", "body": "Dios quiso darse a conocer y comunicarnos su amor. A eso se le llama **revelación**. Dios se reveló a través de hechos y palabras a lo largo de la historia de Israel, y de manera plena en **Jesucristo**, que es la Palabra de Dios hecha carne (Dei Verbum 2-4).\n\nPor eso, para los cristianos, el centro de la Biblia es una persona: **Jesús**. Todo el Antiguo Testamento prepara su venida, y el Nuevo nos lo anuncia."},
-    {"title": "La inspiración", "body": "La Iglesia enseña que la Biblia tiene **dos autores**: Dios y los escritores humanos. Dios eligió a personas concretas que, con sus capacidades, su lengua y su cultura, escribieron todo y solo lo que Él quería (Dei Verbum 11).\n\nPor eso cada libro tiene el estilo de su autor: Marcos escribe breve y directo; Lucas, con cuidado de historiador; Pablo, con pasión de misionero. Y al mismo tiempo, todos transmiten la verdad que Dios quiso comunicar para nuestra salvación."},
-    {"title": "Escritura, Tradición y Magisterio", "body": "La Palabra de Dios nos llega por dos caminos unidos: la **Sagrada Escritura** y la **Tradición**, es decir, la fe que los apóstoles transmitieron y la Iglesia ha vivido y enseñado desde entonces. Ambas brotan de la misma fuente (Dei Verbum 9).\n\nEl **Magisterio**, que son el papa y los obispos en comunión con él, no está por encima de la Palabra, sino a su servicio: la escucha, la custodia y la explica fielmente (Dei Verbum 10).\n\nPor eso un católico no lee la Biblia solo: la lee **en la Iglesia**, junto a toda la comunidad que la ha leído durante siglos."},
-    {"title": "La Biblia y la ciencia", "body": "La Biblia no es un libro de ciencias ni de historia en el sentido moderno. Por ejemplo, los relatos de la creación no buscan explicar cómo se formó el universo, sino **quién** lo creó y **para qué**: Dios creó todo por amor y el ser humano es su imagen.\n\nLa fe y la ciencia no se oponen: buscan responder preguntas distintas, y ambas vienen del mismo Dios que es la Verdad."}
+    {
+     "title": "Dios se revela",
+     "body": "Dios quiso darse a conocer y comunicarnos su amor. A eso se le llama **revelación**. Dios se reveló a través de hechos y palabras a lo largo de la historia de Israel, y de manera plena en **Jesucristo**, que es la Palabra de Dios hecha carne (Dei Verbum 2-4).\n\nPor eso, para los cristianos, el centro de la Biblia es una persona: **Jesús**. Todo el Antiguo Testamento prepara su venida, y el Nuevo nos lo anuncia."
+    },
+    {
+     "title": "La inspiración",
+     "body": "La Iglesia enseña que la Biblia tiene **dos autores**: Dios y los escritores humanos. Dios eligió a personas concretas que, con sus capacidades, su lengua y su cultura, escribieron todo y solo lo que Él quería (Dei Verbum 11).\n\nPor eso cada libro tiene el estilo de su autor: Marcos escribe breve y directo; Lucas, con cuidado de historiador; Pablo, con pasión de misionero. Y al mismo tiempo, todos transmiten la verdad que Dios quiso comunicar para nuestra salvación."
+    },
+    {
+     "title": "Escritura, Tradición y Magisterio",
+     "body": "La Palabra de Dios nos llega por dos caminos unidos: la **Sagrada Escritura** y la **Tradición**, es decir, la fe que los apóstoles transmitieron y la Iglesia ha vivido y enseñado desde entonces. Ambas brotan de la misma fuente (Dei Verbum 9).\n\nEl **Magisterio**, que son el papa y los obispos en comunión con él, no está por encima de la Palabra, sino a su servicio: la escucha, la custodia y la explica fielmente (Dei Verbum 10).\n\nPor eso un católico no lee la Biblia solo: la lee **en la Iglesia**, junto a toda la comunidad que la ha leído durante siglos."
+    },
+    {
+     "title": "La Biblia y la ciencia",
+     "body": "La Biblia no es un libro de ciencias ni de historia en el sentido moderno. Por ejemplo, los relatos de la creación no buscan explicar cómo se formó el universo, sino **quién** lo creó y **para qué**: Dios creó todo por amor y el ser humano es su imagen.\n\nLa fe y la ciencia no se oponen: buscan responder preguntas distintas, y ambas vienen del mismo Dios que es la Verdad."
+    }
    ],
-   "bible": {"ref": "Juan 1,1-14 · La Palabra se hizo carne", "comment": "El Evangelio de Juan comienza diciendo que en el principio existía la Palabra, que estaba junto a Dios y era Dios. Y esa Palabra se hizo carne y habitó entre nosotros. La Biblia nos lleva a esa Palabra viva: Jesús."},
+   "bible": {
+    "ref": "Juan 1,1-14 · La Palabra se hizo carne",
+    "comment": "El Evangelio de Juan comienza diciendo que en el principio existía la Palabra, que estaba junto a Dios y era Dios. Y esa Palabra se hizo carne y habitó entre nosotros. La Biblia nos lleva a esa Palabra viva: Jesús."
+   },
    "church": [
-    {"source": "Dei Verbum 9-11", "text": "La Tradición y la Escritura están unidas y brotan de la misma fuente; el Magisterio está al servicio de la Palabra; Dios es autor de la Escritura a través de autores humanos.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"},
-    {"source": "Catecismo de la Iglesia Católica 101-108", "text": "Cristo es la Palabra única de la Sagrada Escritura; Dios inspiró a los autores humanos de los libros sagrados.", "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html"}
+    {
+     "source": "Dei Verbum 9-11",
+     "text": "La Tradición y la Escritura están unidas y brotan de la misma fuente; el Magisterio está al servicio de la Palabra; Dios es autor de la Escritura a través de autores humanos.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 101-108",
+     "text": "Cristo es la Palabra única de la Sagrada Escritura; Dios inspiró a los autores humanos de los libros sagrados.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html"
+    }
    ],
-   "questions": ["¿Qué significa para ti que Jesús sea el centro de la Biblia?", "¿Te ha pasado alguna vez que un texto bíblico te pareció difícil de entender o incluso chocante? ¿Cuál?", "¿Por qué crees que es importante leer la Biblia en la Iglesia y no solo por cuenta propia?", "¿Has escuchado a alguien decir que la fe y la ciencia se oponen? ¿Qué le responderías?"],
+   "questions": [
+    "¿Qué significa para ti que Jesús sea el centro de la Biblia?",
+    "¿Te ha pasado alguna vez que un texto bíblico te pareció difícil de entender o incluso chocante? ¿Cuál?",
+    "¿Por qué crees que es importante leer la Biblia en la Iglesia y no solo por cuenta propia?",
+    "¿Has escuchado a alguien decir que la fe y la ciencia se oponen? ¿Qué le responderías?"
+   ],
    "activity": "Lean juntos los dos relatos de la creación (Génesis 1,1-2,4a y Génesis 2,4b-25). Comparen cómo se cuenta en cada uno y conversen: ¿qué quiere enseñar cada relato sobre Dios y sobre el ser humano?",
    "prayer": "Jesús, Palabra eterna del Padre, que te hiciste carne y viniste a vivir entre nosotros: quiero conocerte en las Escrituras. Dame humildad para leerlas con la Iglesia y no a mi manera, y un corazón abierto para dejarme transformar por lo que leo. Amén.",
-   "resources": [{"title": "Catecismo de la Iglesia Católica: la Sagrada Escritura", "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html", "note": "Números 101-141."}],
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica: la Sagrada Escritura",
+     "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html",
+     "note": "Números 101-141."
+    }
+   ],
    "comenzar": "Escribe en tu cuaderno qué responderías si un compañero te dice: «La Biblia la escribieron personas, así que es un libro como cualquier otro». Vuelve a tu respuesta al final de la unidad.",
-   "logros": ["Explicar qué es la revelación y por qué Jesús es su plenitud.", "Comprender la inspiración: Dios y autores humanos.", "Relacionar Escritura, Tradición y Magisterio."],
-   "profundizar": {"titulo": "Una regla de oro", "texto": "Para interpretar bien un texto, la Iglesia propone tres criterios (Catecismo 112-114, siguiendo Dei Verbum 12):\n\n1. **Mirar toda la Biblia:** un versículo no se entiende aislado, sino dentro de toda la Escritura, cuyo centro es Cristo.\n2. **Leerla en la Tradición viva de la Iglesia:** la comunidad creyente la ha leído y vivido durante siglos.\n3. **Respetar la armonía de la fe:** las verdades de la fe se iluminan unas a otras.\n\nUn ejemplo de lo que pasa cuando no se aplican: sacar un versículo de contexto para justificar algo que contradice el amor de Dios."},
-   "caso": {"titulo": "El versículo suelto", "texto": "Un compañero de curso le muestra a Tomás un versículo del Antiguo Testamento, sacado de contexto, y le dice: «¿Ves? Tu Dios es violento». Tomás no sabe qué responder.", "preguntas": ["¿Qué criterio de interpretación le ayudaría a Tomás?", "¿Cómo podría responder con respeto y sin pelear?"]},
-   "claves": [["Revelación", "Dios que se da a conocer y comunica su amor; culmina en Jesucristo."], ["Inspiración", "Acción del Espíritu Santo en los autores humanos de la Biblia."], ["Tradición", "La fe transmitida por los apóstoles y vivida por la Iglesia."]],
-   "lectio": {"meditar": "La Palabra se hizo carne y habitó entre nosotros. ¿Dónde has sentido a Jesús cerca, «habitando» en tu vida?", "orar": "Repite durante el día: «La Palabra se hizo carne y habitó entre nosotros».", "vivir": "Cuando leas un texto bíblico esta semana, busca la nota al pie de tu Biblia para entenderlo mejor."},
-   "practica": ["Lean los dos relatos de la creación.", "Anoten las diferencias entre ellos.", "Conversen qué enseña cada uno sobre Dios y el ser humano.", "Vuelvan a la pregunta de «Para comenzar» y mejoren su respuesta."],
+   "logros": [
+    "Explicar qué es la revelación y por qué Jesús es su plenitud.",
+    "Comprender la inspiración: Dios y autores humanos.",
+    "Relacionar Escritura, Tradición y Magisterio."
+   ],
+   "profundizar": {
+    "titulo": "Una regla de oro",
+    "texto": "Para interpretar bien un texto, la Iglesia propone tres criterios (Catecismo 112-114, siguiendo Dei Verbum 12):\n\n1. **Mirar toda la Biblia:** un versículo no se entiende aislado, sino dentro de toda la Escritura, cuyo centro es Cristo.\n2. **Leerla en la Tradición viva de la Iglesia:** la comunidad creyente la ha leído y vivido durante siglos.\n3. **Respetar la armonía de la fe:** las verdades de la fe se iluminan unas a otras.\n\nUn ejemplo de lo que pasa cuando no se aplican: sacar un versículo de contexto para justificar algo que contradice el amor de Dios."
+   },
+   "caso": {
+    "titulo": "El versículo suelto",
+    "texto": "Un compañero de curso le muestra a Tomás un versículo del Antiguo Testamento, sacado de contexto, y le dice: «¿Ves? Tu Dios es violento». Tomás no sabe qué responder.",
+    "preguntas": [
+     "¿Qué criterio de interpretación le ayudaría a Tomás?",
+     "¿Cómo podría responder con respeto y sin pelear?"
+    ]
+   },
+   "claves": [
+    [
+     "Revelación",
+     "Dios que se da a conocer y comunica su amor; culmina en Jesucristo."
+    ],
+    [
+     "Inspiración",
+     "Acción del Espíritu Santo en los autores humanos de la Biblia."
+    ],
+    [
+     "Tradición",
+     "La fe transmitida por los apóstoles y vivida por la Iglesia."
+    ]
+   ],
+   "lectio": {
+    "meditar": "La Palabra se hizo carne y habitó entre nosotros. ¿Dónde has sentido a Jesús cerca, «habitando» en tu vida?",
+    "orar": "Repite durante el día: «La Palabra se hizo carne y habitó entre nosotros».",
+    "vivir": "Cuando leas un texto bíblico esta semana, busca la nota al pie de tu Biblia para entenderlo mejor."
+   },
+   "practica": [
+    "Lean los dos relatos de la creación.",
+    "Anoten las diferencias entre ellos.",
+    "Conversen qué enseña cada uno sobre Dios y el ser humano.",
+    "Vuelvan a la pregunta de «Para comenzar» y mejoren su respuesta."
+   ],
    "idea": "Dios habla con palabras humanas, y su Palabra definitiva es Jesús."
   },
   {
@@ -69,27 +209,97 @@
    "objective": "Aprender a identificar los géneros literarios de la Biblia y a considerar el contexto de un texto para comprenderlo correctamente.",
    "intro": "No se lee igual una poesía que una noticia, ni un chiste que una ley. En la Biblia pasa lo mismo: hay historias, leyes, poemas, profecías, cartas, parábolas y visiones. Saber qué tipo de texto tienes delante es la mitad del trabajo para entenderlo. En esta unidad vas a aprender a leer con más profundidad.",
    "sections": [
-    {"title": "Los géneros literarios", "body": "La Iglesia pide atender a los **géneros literarios** para descubrir lo que el autor quiso decir (Dei Verbum 12). Algunos de la Biblia:\n\n- **Narración:** cuenta acontecimientos (Génesis, Éxodo, Hechos).\n- **Ley:** normas para vivir la alianza (Levítico, Deuteronomio).\n- **Poesía y oración:** expresa sentimientos ante Dios (Salmos, Cantar de los Cantares).\n- **Sabiduría:** consejos para vivir (Proverbios, Eclesiástico).\n- **Profecía:** Dios habla por medio de un profeta para llamar a la conversión y dar esperanza (Isaías, Amós).\n- **Evangelio:** anuncio de la Buena Noticia de Jesús, con hechos y palabras.\n- **Parábola:** relato breve con una enseñanza (el hijo pródigo, el buen samaritano).\n- **Carta:** mensaje a una comunidad o persona (Romanos, Corintios).\n- **Apocalíptica:** lenguaje simbólico de visiones para sostener la esperanza en tiempos difíciles (Daniel, Apocalipsis)."},
-    {"title": "El contexto", "body": "Para entender un texto conviene preguntarse:\n\n- **¿Qué viene antes y después?** Un versículo aislado puede decir algo muy distinto de lo que dice en su lugar.\n- **¿A quién se dirige?** No es lo mismo una carta a una comunidad con problemas que un himno de alabanza.\n- **¿Cuándo y dónde se escribió?** Las costumbres y la historia ayudan a comprender.\n\nLas **notas y las introducciones** de tu Biblia son una ayuda enorme para esto."},
-    {"title": "Los cuatro sentidos", "body": "La tradición de la Iglesia habla de distintos sentidos de la Escritura (Catecismo 115-119):\n\n- **Sentido literal:** lo que el texto dice, bien entendido según su género.\n- **Sentido espiritual**, que se apoya en el literal, y tiene tres dimensiones:\n  - **Alegórico:** cómo el texto se relaciona con Cristo. Por ejemplo, el paso del Mar Rojo anuncia el bautismo.\n  - **Moral:** qué nos enseña para actuar bien.\n  - **Anagógico:** hacia dónde nos lleva, es decir, la vida eterna."},
-    {"title": "Herramientas para leer mejor", "body": "- **Notas al pie** y **referencias cruzadas** de tu Biblia.\n- **Introducciones** a cada libro.\n- **Mapas** del mundo bíblico, que suelen estar al final.\n- **Comentarios bíblicos** sencillos.\n- **Preguntar** a tu asesor, catequista o sacerdote.\n- **Leer en grupo:** otros ven lo que tú no ves."}
+    {
+     "title": "Los géneros literarios",
+     "body": "La Iglesia pide atender a los **géneros literarios** para descubrir lo que el autor quiso decir (Dei Verbum 12). Algunos de la Biblia:\n\n- **Narración:** cuenta acontecimientos (Génesis, Éxodo, Hechos).\n- **Ley:** normas para vivir la alianza (Levítico, Deuteronomio).\n- **Poesía y oración:** expresa sentimientos ante Dios (Salmos, Cantar de los Cantares).\n- **Sabiduría:** consejos para vivir (Proverbios, Eclesiástico).\n- **Profecía:** Dios habla por medio de un profeta para llamar a la conversión y dar esperanza (Isaías, Amós).\n- **Evangelio:** anuncio de la Buena Noticia de Jesús, con hechos y palabras.\n- **Parábola:** relato breve con una enseñanza (el hijo pródigo, el buen samaritano).\n- **Carta:** mensaje a una comunidad o persona (Romanos, Corintios).\n- **Apocalíptica:** lenguaje simbólico de visiones para sostener la esperanza en tiempos difíciles (Daniel, Apocalipsis)."
+    },
+    {
+     "title": "El contexto",
+     "body": "Para entender un texto conviene preguntarse:\n\n- **¿Qué viene antes y después?** Un versículo aislado puede decir algo muy distinto de lo que dice en su lugar.\n- **¿A quién se dirige?** No es lo mismo una carta a una comunidad con problemas que un himno de alabanza.\n- **¿Cuándo y dónde se escribió?** Las costumbres y la historia ayudan a comprender.\n\nLas **notas y las introducciones** de tu Biblia son una ayuda enorme para esto."
+    },
+    {
+     "title": "Los cuatro sentidos",
+     "body": "La tradición de la Iglesia habla de distintos sentidos de la Escritura (Catecismo 115-119):\n\n- **Sentido literal:** lo que el texto dice, bien entendido según su género.\n- **Sentido espiritual**, que se apoya en el literal, y tiene tres dimensiones:\n  - **Alegórico:** cómo el texto se relaciona con Cristo. Por ejemplo, el paso del Mar Rojo anuncia el bautismo.\n  - **Moral:** qué nos enseña para actuar bien.\n  - **Anagógico:** hacia dónde nos lleva, es decir, la vida eterna."
+    },
+    {
+     "title": "Herramientas para leer mejor",
+     "body": "- **Notas al pie** y **referencias cruzadas** de tu Biblia.\n- **Introducciones** a cada libro.\n- **Mapas** del mundo bíblico, que suelen estar al final.\n- **Comentarios bíblicos** sencillos.\n- **Preguntar** a tu asesor, catequista o sacerdote.\n- **Leer en grupo:** otros ven lo que tú no ves."
+    }
    ],
-   "bible": {"ref": "Lucas 24,13-32 · «¿No ardía nuestro corazón?»", "comment": "Jesús resucitado camina con dos discípulos tristes y, comenzando por Moisés y los profetas, les explica lo que las Escrituras decían de Él. Al partir el pan lo reconocen. Jesús mismo es el mejor intérprete de la Escritura: con Él, los textos difíciles se vuelven luz."},
+   "bible": {
+    "ref": "Lucas 24,13-32 · «¿No ardía nuestro corazón?»",
+    "comment": "Jesús resucitado camina con dos discípulos tristes y, comenzando por Moisés y los profetas, les explica lo que las Escrituras decían de Él. Al partir el pan lo reconocen. Jesús mismo es el mejor intérprete de la Escritura: con Él, los textos difíciles se vuelven luz."
+   },
    "church": [
-    {"source": "Dei Verbum 12", "text": "Para descubrir la intención de los autores sagrados hay que atender a los géneros literarios, y leer la Escritura con el mismo Espíritu con que fue escrita.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"},
-    {"source": "Catecismo de la Iglesia Católica 115-119", "text": "Explica los sentidos literal y espiritual de la Escritura.", "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html"}
+    {
+     "source": "Dei Verbum 12",
+     "text": "Para descubrir la intención de los autores sagrados hay que atender a los géneros literarios, y leer la Escritura con el mismo Espíritu con que fue escrita.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 115-119",
+     "text": "Explica los sentidos literal y espiritual de la Escritura.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p1s1c2a3_sp.html"
+    }
    ],
-   "questions": ["¿Qué género literario te resulta más fácil de leer? ¿Cuál más difícil?", "¿Alguna vez entendiste mal un texto por leerlo fuera de contexto?", "Elige una parábola y escribe su sentido literal y su enseñanza para tu vida.", "¿Qué herramienta para leer mejor vas a empezar a usar?"],
+   "questions": [
+    "¿Qué género literario te resulta más fácil de leer? ¿Cuál más difícil?",
+    "¿Alguna vez entendiste mal un texto por leerlo fuera de contexto?",
+    "Elige una parábola y escribe su sentido literal y su enseñanza para tu vida.",
+    "¿Qué herramienta para leer mejor vas a empezar a usar?"
+   ],
    "activity": "Repartan entre parejas seis textos de géneros distintos (por ejemplo: Génesis 12,1-4; Salmo 23; Proverbios 3,1-8; Amós 5,21-24; Lucas 10,25-37; Filipenses 2,1-11). Cada pareja identifica el género, el contexto y el mensaje, y lo presenta al grupo en dos minutos.",
    "prayer": "Señor Jesús, que caminaste con los discípulos de Emaús y les abriste el sentido de las Escrituras: camina también conmigo. Cuando no entienda, explícame; cuando me canse, anímame; y que mi corazón arda cada vez que me hablas en tu Palabra. Amén.",
-   "resources": [{"title": "Verbum Domini (Benedicto XVI, 2010)", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html", "note": "Números 29-49, sobre la interpretación de la Escritura en la Iglesia."}],
+   "resources": [
+    {
+     "title": "Verbum Domini (Benedicto XVI, 2010)",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html",
+     "note": "Números 29-49, sobre la interpretación de la Escritura en la Iglesia."
+    }
+   ],
    "comenzar": "Lee en voz alta Mateo 5,29-30, donde Jesús dice que si tu ojo te hace caer, te lo arranques. ¿Hay que tomarlo literalmente? ¿Qué crees que quiere decir? Anota tu respuesta.",
-   "logros": ["Identificar los principales géneros literarios de la Biblia.", "Considerar el contexto de un texto antes de interpretarlo.", "Distinguir el sentido literal y el espiritual."],
-   "profundizar": {"titulo": "Leer los Evangelios", "texto": "Los cuatro Evangelios cuentan la misma Buena Noticia, pero cada uno con su acento:\n\n- **Marcos:** el más breve y antiguo. Jesús actúa con rapidez; el gran tema es descubrir quién es Él.\n- **Mateo:** escrito para cristianos que venían del judaísmo. Jesús es el nuevo Moisés que enseña; tiene cinco grandes discursos, como el Sermón de la Montaña.\n- **Lucas:** el Evangelio de la misericordia, de los pobres, de las mujeres y de la oración. Continúa en los Hechos.\n- **Juan:** el más contemplativo. Jesús es la Palabra, el pan de vida, la luz, el buen pastor.\n\nMateo, Marcos y Lucas se llaman **sinópticos** porque tienen muchos relatos parecidos y se pueden leer en columnas paralelas."},
-   "caso": {"titulo": "El Apocalipsis y el fin del mundo", "texto": "Sofía vio en internet un video que interpreta el Apocalipsis como un calendario exacto del fin del mundo, con fechas y personajes actuales. Quedó asustada.", "preguntas": ["¿Qué género literario es el Apocalipsis y cómo se lee?", "¿Qué le dirías a Sofía para tranquilizarla con fundamento?"]},
-   "claves": [["Género literario", "Tipo de texto que determina cómo debe leerse."], ["Contexto", "Lo que rodea a un texto: lo que viene antes y después, a quién se dirige y cuándo se escribió."], ["Sinópticos", "Los Evangelios de Mateo, Marcos y Lucas, por sus muchos relatos parecidos."]],
-   "lectio": {"meditar": "Jesús explica las Escrituras a los discípulos que caminan tristes. ¿Qué parte de tu vida necesita que Jesús te la explique?", "orar": "Pide a Jesús que camine contigo como con los de Emaús.", "vivir": "Lee esta semana un capítulo diario del Evangelio de Marcos, usando las notas de tu Biblia."},
-   "practica": ["Repartan los seis textos.", "Cada pareja identifica género, contexto y mensaje.", "Presenten al grupo en dos minutos.", "Conversen qué texto les resultó más sorprendente."],
+   "logros": [
+    "Identificar los principales géneros literarios de la Biblia.",
+    "Considerar el contexto de un texto antes de interpretarlo.",
+    "Distinguir el sentido literal y el espiritual."
+   ],
+   "profundizar": {
+    "titulo": "Leer los Evangelios",
+    "texto": "Los cuatro Evangelios cuentan la misma Buena Noticia, pero cada uno con su acento:\n\n- **Marcos:** el más breve y antiguo. Jesús actúa con rapidez; el gran tema es descubrir quién es Él.\n- **Mateo:** escrito para cristianos que venían del judaísmo. Jesús es el nuevo Moisés que enseña; tiene cinco grandes discursos, como el Sermón de la Montaña.\n- **Lucas:** el Evangelio de la misericordia, de los pobres, de las mujeres y de la oración. Continúa en los Hechos.\n- **Juan:** el más contemplativo. Jesús es la Palabra, el pan de vida, la luz, el buen pastor.\n\nMateo, Marcos y Lucas se llaman **sinópticos** porque tienen muchos relatos parecidos y se pueden leer en columnas paralelas."
+   },
+   "caso": {
+    "titulo": "El Apocalipsis y el fin del mundo",
+    "texto": "Sofía vio en internet un video que interpreta el Apocalipsis como un calendario exacto del fin del mundo, con fechas y personajes actuales. Quedó asustada.",
+    "preguntas": [
+     "¿Qué género literario es el Apocalipsis y cómo se lee?",
+     "¿Qué le dirías a Sofía para tranquilizarla con fundamento?"
+    ]
+   },
+   "claves": [
+    [
+     "Género literario",
+     "Tipo de texto que determina cómo debe leerse."
+    ],
+    [
+     "Contexto",
+     "Lo que rodea a un texto: lo que viene antes y después, a quién se dirige y cuándo se escribió."
+    ],
+    [
+     "Sinópticos",
+     "Los Evangelios de Mateo, Marcos y Lucas, por sus muchos relatos parecidos."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús explica las Escrituras a los discípulos que caminan tristes. ¿Qué parte de tu vida necesita que Jesús te la explique?",
+    "orar": "Pide a Jesús que camine contigo como con los de Emaús.",
+    "vivir": "Lee esta semana un capítulo diario del Evangelio de Marcos, usando las notas de tu Biblia."
+   },
+   "practica": [
+    "Repartan los seis textos.",
+    "Cada pareja identifica género, contexto y mensaje.",
+    "Presenten al grupo en dos minutos.",
+    "Conversen qué texto les resultó más sorprendente."
+   ],
    "idea": "Antes de interpretar un texto, pregúntate qué tipo de texto es y dónde está."
   },
   {
@@ -97,38 +307,180 @@
    "objective": "Incorporar la Biblia a la vida personal y del grupo con un plan de lectura realista y formas sencillas de compartirla.",
    "intro": "Conocer la Biblia no sirve de mucho si se queda en la cabeza. La Palabra de Dios quiere bajar al corazón y a la vida. En esta unidad vas a armar tu plan de lectura, aprender formas de compartir la Palabra en grupo y descubrir cómo la Biblia ilumina las decisiones de cada día.",
    "sections": [
-    {"title": "Un plan de lectura realista", "body": "- **Empieza por un Evangelio:** Marcos es ideal; después, Lucas y Juan.\n- **Poco y diario:** diez minutos al día valen más que dos horas una vez al mes.\n- **Una hora y un lugar fijos.**\n- **Con lápiz:** subraya, anota preguntas y frases que te toquen.\n- **El Evangelio del día:** una forma sencilla de leer en sintonía con toda la Iglesia.\n- **Si te saltas un día,** no te rindas: retoma al siguiente."},
-    {"title": "Leer, meditar, orar, actuar", "body": "La forma más antigua de orar con la Biblia es la **lectio divina**: leer el texto, meditar qué me dice, responderle a Dios en oración, contemplarlo en silencio y llevar algo a la vida (Verbum Domini 87).\n\nNo se trata de leer mucho, sino de dejar que una palabra te acompañe todo el día."},
-    {"title": "Compartir la Palabra en grupo", "body": "Algunas formas sencillas para un grupo juvenil:\n\n- **Eco de la Palabra:** se lee un texto y cada uno repite en voz alta la frase que más le tocó, sin comentarla.\n- **Tres preguntas:** ¿qué dice el texto?, ¿qué me dice a mí?, ¿qué me pide hoy?\n- **Ponerse en la escena:** imaginar el relato y elegir un personaje.\n- **Del texto a la vida:** cada uno comparte una situación de la semana iluminada por el texto.\n\nLa regla: escuchar con respeto, sin discutir ni corregir lo que comparte el otro."},
-    {"title": "La Biblia y las decisiones", "body": "La Biblia no es un recetario donde se abre una página al azar para encontrar respuesta. Pero quien la lee con frecuencia va formando **un criterio**: aprende a mirar como Jesús mira, a valorar lo que Él valora y a preguntarse ante cada decisión «¿qué haría Jesús en mi lugar?».\n\nEsa pregunta, que san Alberto Hurtado repetía a menudo, es una buena síntesis de lo que significa dejar que la Palabra guíe la vida."}
+    {
+     "title": "Un plan de lectura realista",
+     "body": "- **Empieza por un Evangelio:** Marcos es ideal; después, Lucas y Juan.\n- **Poco y diario:** diez minutos al día valen más que dos horas una vez al mes.\n- **Una hora y un lugar fijos.**\n- **Con lápiz:** subraya, anota preguntas y frases que te toquen.\n- **El Evangelio del día:** una forma sencilla de leer en sintonía con toda la Iglesia.\n- **Si te saltas un día,** no te rindas: retoma al siguiente."
+    },
+    {
+     "title": "Leer, meditar, orar, actuar",
+     "body": "La forma más antigua de orar con la Biblia es la **lectio divina**: leer el texto, meditar qué me dice, responderle a Dios en oración, contemplarlo en silencio y llevar algo a la vida (Verbum Domini 87).\n\nNo se trata de leer mucho, sino de dejar que una palabra te acompañe todo el día."
+    },
+    {
+     "title": "Compartir la Palabra en grupo",
+     "body": "Algunas formas sencillas para un grupo juvenil:\n\n- **Eco de la Palabra:** se lee un texto y cada uno repite en voz alta la frase que más le tocó, sin comentarla.\n- **Tres preguntas:** ¿qué dice el texto?, ¿qué me dice a mí?, ¿qué me pide hoy?\n- **Ponerse en la escena:** imaginar el relato y elegir un personaje.\n- **Del texto a la vida:** cada uno comparte una situación de la semana iluminada por el texto.\n\nLa regla: escuchar con respeto, sin discutir ni corregir lo que comparte el otro."
+    },
+    {
+     "title": "La Biblia y las decisiones",
+     "body": "La Biblia no es un recetario donde se abre una página al azar para encontrar respuesta. Pero quien la lee con frecuencia va formando **un criterio**: aprende a mirar como Jesús mira, a valorar lo que Él valora y a preguntarse ante cada decisión «¿qué haría Jesús en mi lugar?».\n\nEsa pregunta, que san Alberto Hurtado repetía a menudo, es una buena síntesis de lo que significa dejar que la Palabra guíe la vida."
+    }
    ],
-   "bible": {"ref": "Salmo 119,105 y Mateo 7,24-27 · Lámpara para mis pasos", "comment": "El salmista dice que la Palabra de Dios es lámpara para sus pasos y luz en su camino. Y Jesús compara a quien escucha su Palabra y la pone en práctica con quien construye su casa sobre roca. No basta con escuchar: la Palabra es para vivirla."},
+   "bible": {
+    "ref": "Salmo 119,105 y Mateo 7,24-27 · Lámpara para mis pasos",
+    "comment": "El salmista dice que la Palabra de Dios es lámpara para sus pasos y luz en su camino. Y Jesús compara a quien escucha su Palabra y la pone en práctica con quien construye su casa sobre roca. No basta con escuchar: la Palabra es para vivirla."
+   },
    "church": [
-    {"source": "Dei Verbum 25", "text": "El Concilio exhorta a todos los fieles a leer con frecuencia las Escrituras, porque desconocer las Escrituras es desconocer a Cristo, como enseña san Jerónimo.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"},
-    {"source": "Verbum Domini 86-87", "text": "Benedicto XVI recomienda la lectio divina y describe sus pasos.", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"}
+    {
+     "source": "Dei Verbum 25",
+     "text": "El Concilio exhorta a todos los fieles a leer con frecuencia las Escrituras, porque desconocer las Escrituras es desconocer a Cristo, como enseña san Jerónimo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Verbum Domini 86-87",
+     "text": "Benedicto XVI recomienda la lectio divina y describe sus pasos.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
    ],
-   "questions": ["¿Qué te ha impedido hasta ahora leer la Biblia con frecuencia?", "¿Qué hora y lugar podrías dedicar a la Palabra cada día?", "¿Qué forma de compartir la Palabra en grupo te gustaría probar?", "¿Recuerdas alguna decisión en que un texto de la Biblia te haya ayudado?"],
+   "questions": [
+    "¿Qué te ha impedido hasta ahora leer la Biblia con frecuencia?",
+    "¿Qué hora y lugar podrías dedicar a la Palabra cada día?",
+    "¿Qué forma de compartir la Palabra en grupo te gustaría probar?",
+    "¿Recuerdas alguna decisión en que un texto de la Biblia te haya ayudado?"
+   ],
    "activity": "Cada participante escribe su plan de lectura para el próximo mes (qué libro, cuándo, dónde, cuánto tiempo) y lo comparte con un compañero que será su apoyo. Terminen haciendo juntos un «eco de la Palabra» con Mateo 7,24-27.",
    "prayer": "Señor, tu Palabra es lámpara para mis pasos. Que no la deje en el estante ni en la cabeza, sino que construya mi vida sobre ella como sobre roca firme. Dame constancia para leerla cada día y valentía para ponerla en práctica. Amén.",
-   "resources": [{"title": "Dei Verbum, capítulo VI", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html", "note": "La Sagrada Escritura en la vida de la Iglesia, números 21-26."}],
+   "resources": [
+    {
+     "title": "Dei Verbum, capítulo VI",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "La Sagrada Escritura en la vida de la Iglesia, números 21-26."
+    }
+   ],
    "comenzar": "Escribe en tu cuaderno un versículo de la Biblia que te sepas de memoria (aunque sea uno). ¿Dónde lo aprendiste? ¿Qué significa para ti? Si no te sabes ninguno, elige hoy uno para aprender.",
-   "logros": ["Diseñar un plan personal de lectura de la Biblia.", "Conducir formas sencillas de compartir la Palabra en grupo.", "Usar la Palabra como criterio para las decisiones."],
-   "profundizar": {"titulo": "Aprender de memoria", "texto": "Antes de que existieran los libros impresos, muchos cristianos sabían de memoria grandes partes de la Biblia. Memorizar algunos textos sigue siendo un tesoro: vuelven a la mente justo cuando se necesitan.\n\nAlgunos para empezar:\n\n- **Salmo 23,1:** «El Señor es mi pastor, nada me falta».\n- **Jeremías 29,11:** los planes de Dios son de paz y no de desgracia.\n- **Mateo 11,28:** Jesús invita a los cansados y agobiados a ir a Él.\n- **Juan 15,5:** Él es la vid y nosotros los sarmientos.\n- **Filipenses 4,13:** todo lo puedo en Aquel que me fortalece.\n- **1 Corintios 13,4-7:** el himno del amor."},
-   "caso": {"titulo": "La racha perdida", "texto": "Javiera empezó a leer un capítulo de la Biblia cada noche. Llevaba doce días seguidos cuando se enfermó y dejó de leer una semana. Ahora siente que «perdió la racha» y no ha vuelto a empezar.", "preguntas": ["¿Qué le dirías a Javiera?", "¿Qué podría ayudarle a retomar?"]},
-   "claves": [["Lectio divina", "Lectura orante de la Biblia en pasos: leer, meditar, orar, contemplar y actuar."], ["Eco de la Palabra", "Forma de compartir en grupo repitiendo la frase que más tocó, sin comentarla."], ["Criterio", "Manera de mirar y decidir que se forma con la Palabra de Dios."]],
-   "lectio": {"meditar": "La casa sobre roca resiste la tormenta. ¿Qué tormentas has vivido o estás viviendo? ¿Sobre qué está construida tu vida?", "orar": "Pide a Jesús que su Palabra sea la roca de tu vida.", "vivir": "Cumple tu plan de lectura durante el próximo mes, con tu compañero de apoyo."},
-   "practica": ["Cada uno escribe su plan de lectura.", "Formen parejas de apoyo.", "Hagan un eco de la Palabra con Mateo 7,24-27.", "Acuerden revisar juntos su plan en un mes."],
+   "logros": [
+    "Diseñar un plan personal de lectura de la Biblia.",
+    "Conducir formas sencillas de compartir la Palabra en grupo.",
+    "Usar la Palabra como criterio para las decisiones."
+   ],
+   "profundizar": {
+    "titulo": "Aprender de memoria",
+    "texto": "Antes de que existieran los libros impresos, muchos cristianos sabían de memoria grandes partes de la Biblia. Memorizar algunos textos sigue siendo un tesoro: vuelven a la mente justo cuando se necesitan.\n\nAlgunos para empezar:\n\n- **Salmo 23,1:** «El Señor es mi pastor, nada me falta».\n- **Jeremías 29,11:** los planes de Dios son de paz y no de desgracia.\n- **Mateo 11,28:** Jesús invita a los cansados y agobiados a ir a Él.\n- **Juan 15,5:** Él es la vid y nosotros los sarmientos.\n- **Filipenses 4,13:** todo lo puedo en Aquel que me fortalece.\n- **1 Corintios 13,4-7:** el himno del amor."
+   },
+   "caso": {
+    "titulo": "La racha perdida",
+    "texto": "Javiera empezó a leer un capítulo de la Biblia cada noche. Llevaba doce días seguidos cuando se enfermó y dejó de leer una semana. Ahora siente que «perdió la racha» y no ha vuelto a empezar.",
+    "preguntas": [
+     "¿Qué le dirías a Javiera?",
+     "¿Qué podría ayudarle a retomar?"
+    ]
+   },
+   "claves": [
+    [
+     "Lectio divina",
+     "Lectura orante de la Biblia en pasos: leer, meditar, orar, contemplar y actuar."
+    ],
+    [
+     "Eco de la Palabra",
+     "Forma de compartir en grupo repitiendo la frase que más tocó, sin comentarla."
+    ],
+    [
+     "Criterio",
+     "Manera de mirar y decidir que se forma con la Palabra de Dios."
+    ]
+   ],
+   "lectio": {
+    "meditar": "La casa sobre roca resiste la tormenta. ¿Qué tormentas has vivido o estás viviendo? ¿Sobre qué está construida tu vida?",
+    "orar": "Pide a Jesús que su Palabra sea la roca de tu vida.",
+    "vivir": "Cumple tu plan de lectura durante el próximo mes, con tu compañero de apoyo."
+   },
+   "practica": [
+    "Cada uno escribe su plan de lectura.",
+    "Formen parejas de apoyo.",
+    "Hagan un eco de la Palabra con Mateo 7,24-27.",
+    "Acuerden revisar juntos su plan en un mes."
+   ],
    "idea": "La Palabra no se termina de leer: se empieza a vivir."
   }
  ],
  "evaluacion": [
-  {"q": "¿Cuántos libros tiene la Biblia católica?", "options": ["66", "73", "77"], "correct": 1, "feedback": "46 del Antiguo Testamento y 27 del Nuevo."},
-  {"q": "¿Qué significa la cita Lucas 15,11-32?", "options": ["Lucas, versículo 15, capítulos 11 al 32.", "Lucas, capítulo 15, versículos 11 al 32.", "Libro 15 de Lucas, página 11."], "correct": 1, "feedback": "Primero el libro, luego el capítulo y después los versículos."},
-  {"q": "¿Qué enseña la Iglesia sobre los autores de la Biblia?", "options": ["Dios la dictó palabra por palabra sin intervención humana.", "Dios es su autor a través de autores humanos inspirados por el Espíritu Santo.", "Es solo una obra humana sobre Dios."], "correct": 1, "feedback": "Dei Verbum 11: Dios y los autores humanos, que escribieron con sus propias capacidades."},
-  {"q": "¿Quién es el centro de toda la Escritura?", "options": ["Moisés.", "Jesucristo.", "El pueblo de Israel."], "correct": 1, "feedback": "Todo el Antiguo Testamento prepara su venida y el Nuevo lo anuncia."},
-  {"q": "¿Qué relación hay entre la Escritura y la Tradición?", "options": ["Están unidas y brotan de la misma fuente.", "La Tradición es más importante que la Escritura.", "No tienen relación."], "correct": 0, "feedback": "Dei Verbum 9 enseña que ambas brotan de la misma fuente divina."},
-  {"q": "¿Por qué es importante conocer el género literario de un texto?", "options": ["Para saber cuánto demora en leerse.", "Para descubrir lo que el autor quiso decir.", "No es importante."], "correct": 1, "feedback": "Dei Verbum 12 pide atender a los géneros literarios."},
-  {"q": "¿Qué tipo de lenguaje usa el Apocalipsis?", "options": ["Un calendario exacto del fin del mundo.", "Un lenguaje simbólico de visiones para sostener la esperanza.", "Un relato histórico literal."], "correct": 1, "feedback": "Es un libro apocalíptico: usa símbolos para animar a los cristianos perseguidos."},
-  {"q": "¿Cuál es una buena forma de empezar a leer la Biblia?", "options": ["Leer desde el Génesis hasta el Apocalipsis sin parar.", "Abrir una página al azar cada día.", "Empezar por un Evangelio, poco a poco y cada día."], "correct": 2, "feedback": "Marcos es una excelente puerta de entrada."}
+  {
+   "q": "¿Cuántos libros tiene la Biblia católica?",
+   "options": [
+    "66",
+    "73",
+    "77"
+   ],
+   "correct": 1,
+   "feedback": "46 del Antiguo Testamento y 27 del Nuevo."
+  },
+  {
+   "q": "¿Qué significa la cita Lucas 15,11-32?",
+   "options": [
+    "Lucas, versículo 15, capítulos 11 al 32.",
+    "Lucas, capítulo 15, versículos 11 al 32.",
+    "Libro 15 de Lucas, página 11."
+   ],
+   "correct": 1,
+   "feedback": "Primero el libro, luego el capítulo y después los versículos."
+  },
+  {
+   "q": "¿Qué enseña la Iglesia sobre los autores de la Biblia?",
+   "options": [
+    "Dios la dictó palabra por palabra sin intervención humana.",
+    "Dios es su autor a través de autores humanos inspirados por el Espíritu Santo.",
+    "Es solo una obra humana sobre Dios."
+   ],
+   "correct": 1,
+   "feedback": "Dei Verbum 11: Dios y los autores humanos, que escribieron con sus propias capacidades."
+  },
+  {
+   "q": "¿Quién es el centro de toda la Escritura?",
+   "options": [
+    "Moisés.",
+    "Jesucristo.",
+    "El pueblo de Israel."
+   ],
+   "correct": 1,
+   "feedback": "Todo el Antiguo Testamento prepara su venida y el Nuevo lo anuncia."
+  },
+  {
+   "q": "¿Qué relación hay entre la Escritura y la Tradición?",
+   "options": [
+    "Están unidas y brotan de la misma fuente.",
+    "La Tradición es más importante que la Escritura.",
+    "No tienen relación."
+   ],
+   "correct": 0,
+   "feedback": "Dei Verbum 9 enseña que ambas brotan de la misma fuente divina."
+  },
+  {
+   "q": "¿Por qué es importante conocer el género literario de un texto?",
+   "options": [
+    "Para saber cuánto demora en leerse.",
+    "Para descubrir lo que el autor quiso decir.",
+    "No es importante."
+   ],
+   "correct": 1,
+   "feedback": "Dei Verbum 12 pide atender a los géneros literarios."
+  },
+  {
+   "q": "¿Qué tipo de lenguaje usa el Apocalipsis?",
+   "options": [
+    "Un calendario exacto del fin del mundo.",
+    "Un lenguaje simbólico de visiones para sostener la esperanza.",
+    "Un relato histórico literal."
+   ],
+   "correct": 1,
+   "feedback": "Es un libro apocalíptico: usa símbolos para animar a los cristianos perseguidos."
+  },
+  {
+   "q": "¿Cuál es una buena forma de empezar a leer la Biblia?",
+   "options": [
+    "Leer desde el Génesis hasta el Apocalipsis sin parar.",
+    "Abrir una página al azar cada día.",
+    "Empezar por un Evangelio, poco a poco y cada día."
+   ],
+   "correct": 2,
+   "feedback": "Marcos es una excelente puerta de entrada."
+  }
  ]
 }

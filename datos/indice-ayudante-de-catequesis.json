@@ -1,0 +1,53 @@
+{
+ "curso": "ayudante-de-catequesis",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Acompañar en la fe",
+   "semanas": "",
+   "intro": "Muchas parroquias invitan a jóvenes a ayudar en la catequesis. Es un servicio precioso: los niños y adolescentes ven en ellos a alguien cercano que vive la fe con alegría. Esta formación te prepara para colaborar con el catequista adulto, sin reemplazarlo, y para hacerlo con cariño y responsabilidad.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "¿Qué es la catequesis?",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Conocer a quienes acompañamos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Preparar y animar un encuentro",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Cuidar y crecer como ayudante",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Ayudante de catequesis",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

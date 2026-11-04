@@ -1,0 +1,53 @@
+{
+ "curso": "voluntariado-y-doctrina-social",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Amar con obras",
+   "semanas": "",
+   "intro": "La fe cristiana no se queda en el templo: se hace servicio, solidaridad y compromiso con un mundo más justo. Esta formación une el corazón y la cabeza: el amor concreto por los demás y los criterios que la Iglesia ofrece para servir bien.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "La fe que se hace caridad",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Los principios de la doctrina social",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Servir bien",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Un proyecto solidario",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Voluntariado y doctrina social",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

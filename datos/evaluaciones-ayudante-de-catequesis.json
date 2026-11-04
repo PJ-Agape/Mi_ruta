@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Ayudante de catequesis",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué significa la palabra «catequesis»?",
+    "opciones": [
+     "Enseñar de memoria.",
+     "Hacer resonar.",
+     "Preparar un examen."
+    ],
+    "correcta": 1,
+    "explicacion": "El catequista hace resonar la Palabra de Dios en la vida."
+   },
+   {
+    "pregunta": "¿Qué es el kerigma?",
+    "opciones": [
+     "Un libro de catequesis.",
+     "El primer anuncio: Dios te ama, Cristo te salva, Él vive.",
+     "Una oración de la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "Toda la catequesis vuelve a este anuncio."
+   },
+   {
+    "pregunta": "¿Cuál es el lugar del ayudante de catequesis?",
+    "opciones": [
+     "Reemplaza al catequista cuando no puede venir.",
+     "Colabora con el catequista, sin quedar a cargo del grupo solo.",
+     "Tiene las conversaciones importantes con los padres."
+    ],
+    "correcta": 1,
+    "explicacion": "El ayudante colabora; el catequista adulto es el responsable."
+   },
+   {
+    "pregunta": "¿Cómo aprenden mejor los niños de 8 a 10 años?",
+    "opciones": [
+     "Escuchando charlas largas.",
+     "Haciendo: con juegos, historias, dibujos y canciones.",
+     "Leyendo solos el manual."
+    ],
+    "correcta": 1,
+    "explicacion": "Conviene cambiar de actividad cada 10 o 15 minutos."
+   },
+   {
+    "pregunta": "¿Qué modelo bíblico propone el papa para acompañar a los jóvenes?",
+    "opciones": [
+     "El camino de Emaús.",
+     "La torre de Babel.",
+     "El arca de Noé."
+    ],
+    "correcta": 0,
+    "explicacion": "Christus vivit 237: acercarse, caminar, preguntar, escuchar, explicar y acompañar."
+   },
+   {
+    "pregunta": "Si un adolescente te hace una pregunta difícil que no sabes responder, ¿qué haces?",
+    "opciones": [
+     "Inventas una respuesta para no quedar mal.",
+     "Reconoces que es una buena pregunta y la ven con el catequista.",
+     "Le dices que no se pregunta eso."
+    ],
+    "correcta": 1,
+    "explicacion": "La honestidad genera confianza."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una regla de cuidado en la catequesis?",
+    "opciones": [
+     "Tener chats privados con los niños para conocerlos mejor.",
+     "No quedar a solas con un niño en un lugar apartado.",
+     "Subir fotos del grupo sin preguntar."
+    ],
+    "correcta": 1,
+    "explicacion": "Las conversaciones se tienen en lugares visibles, y la comunicación digital es con las familias."
+   },
+   {
+    "pregunta": "Si un niño revela que alguien le hace daño, ¿qué haces?",
+    "opciones": [
+     "Le prometes guardar el secreto.",
+     "Escuchas, le crees, no prometes secreto y avisas de inmediato al catequista o al párroco.",
+     "Hablas con la persona señalada para aclarar."
+    ],
+    "correcta": 1,
+    "explicacion": "No te toca investigar ni resolver solo: escuchar y avisar."
+   }
+  ]
+ }
+}

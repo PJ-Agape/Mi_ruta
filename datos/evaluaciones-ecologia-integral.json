@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Ecología integral",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Con qué palabras comienza Laudato si'?",
+    "opciones": [
+     "«Alabado seas, mi Señor», del Cántico de las criaturas.",
+     "«Padre nuestro».",
+     "«En el principio»."
+    ],
+    "correcta": 0,
+    "explicacion": "Son palabras de san Francisco de Asís."
+   },
+   {
+    "pregunta": "Según Génesis 2,15, ¿para qué pone Dios al ser humano en el jardín?",
+    "opciones": [
+     "Para dominarlo sin límites.",
+     "Para cultivarlo y cuidarlo.",
+     "Para descansar."
+    ],
+    "correcta": 1,
+    "explicacion": "El ser humano es administrador responsable, no dueño absoluto."
+   },
+   {
+    "pregunta": "¿Qué dos clamores hay que escuchar según Laudato si' 49?",
+    "opciones": [
+     "El de los científicos y el de los políticos.",
+     "El de la tierra y el de los pobres.",
+     "El de los jóvenes y el de los adultos."
+    ],
+    "correcta": 1,
+    "explicacion": "Un planteamiento ecológico es siempre también social."
+   },
+   {
+    "pregunta": "¿Qué es la ecología integral?",
+    "opciones": [
+     "Cuidar solo los animales y las plantas.",
+     "Una mirada que une el cuidado del ambiente, la justicia social y la dignidad humana.",
+     "Una ciencia para especialistas."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo está conectado."
+   },
+   {
+    "pregunta": "¿Qué es la cultura del descarte?",
+    "opciones": [
+     "Reciclar correctamente.",
+     "Usar y botar cosas, y terminar tratando así también a las personas.",
+     "Ordenar la casa."
+    ],
+    "correcta": 1,
+    "explicacion": "El papa la denuncia en Laudato si' 20-22."
+   },
+   {
+    "pregunta": "¿Cuál de estos es un gesto que propone Laudato si' 211?",
+    "opciones": [
+     "Comprar siempre lo más nuevo.",
+     "Apagar las luces innecesarias y separar los residuos.",
+     "Usar más plástico desechable."
+    ],
+    "correcta": 1,
+    "explicacion": "Los pequeños gestos derraman un bien en la sociedad."
+   },
+   {
+    "pregunta": "¿Cuándo se celebra el Tiempo de la Creación?",
+    "opciones": [
+     "Del 1 de septiembre al 4 de octubre.",
+     "En Cuaresma.",
+     "En Navidad."
+    ],
+    "correcta": 0,
+    "explicacion": "Termina en la fiesta de san Francisco de Asís."
+   },
+   {
+    "pregunta": "En una limpieza de playa, si encuentras una jeringa o un vidrio roto, ¿qué haces?",
+    "opciones": [
+     "Lo recoges con la mano para terminar rápido.",
+     "No lo tocas, lo señalas y avisas a un adulto.",
+     "Lo dejas sin decir nada."
+    ],
+    "correcta": 1,
+    "explicacion": "Los residuos peligrosos los manejan adultos con protección."
+   }
+  ]
+ }
+}

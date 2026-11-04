@@ -1,0 +1,483 @@
+{
+ "id": "ayudante-de-catequesis",
+ "titulo": "Ayudante de catequesis",
+ "subtitulo": "Acompañar a quienes se preparan para los sacramentos",
+ "categoria": "Misión y servicio",
+ "publico": "Desde 14 años",
+ "descripcion": "Para jóvenes que colaboran con catequistas de primera comunión o confirmación: qué es la catequesis, cómo son los niños y adolescentes que acompañamos, cómo preparar y animar un encuentro, y cómo cuidar a todos. 4 unidades de 90 minutos y una evaluación final.",
+ "modulo": "Acompañar en la fe",
+ "intro": "Muchas parroquias invitan a jóvenes a ayudar en la catequesis. Es un servicio precioso: los niños y adolescentes ven en ellos a alguien cercano que vive la fe con alegría. Esta formación te prepara para colaborar con el catequista adulto, sin reemplazarlo, y para hacerlo con cariño y responsabilidad.",
+ "unidades": [
+  {
+   "title": "¿Qué es la catequesis?",
+   "objective": "Comprender qué es la catequesis, a qué apunta y cuál es el lugar del ayudante dentro de ella.",
+   "intro": "Catequesis no es lo mismo que una clase de religión. No se trata solo de aprender contenidos, sino de acompañar a alguien a encontrarse con Jesús y a vivir como cristiano en la comunidad. En esta unidad vas a descubrir el sentido de la catequesis y tu papel como ayudante.",
+   "sections": [
+    {
+     "title": "Hacer resonar la Palabra",
+     "body": "La palabra **catequesis** viene del griego y significa «hacer resonar». El catequista hace que la Palabra de Dios resuene en la vida de las personas.\n\nEl Catecismo la define como la educación en la fe de niños, jóvenes y adultos, que comprende la enseñanza de la doctrina cristiana de modo orgánico y sistemático, para iniciarlos en la plenitud de la vida cristiana (Catecismo 5)."
+    },
+    {
+     "title": "Primero el encuentro",
+     "body": "El *Directorio para la Catequesis* de 2020 insiste en que la catequesis parte del **kerigma**, el primer anuncio: Jesucristo te ama, dio su vida para salvarte, y ahora está vivo a tu lado cada día.\n\nPor eso el centro de la catequesis no es un libro ni una lista de oraciones, sino **una persona: Jesús**. Los contenidos son importantes, pero están al servicio de ese encuentro."
+    },
+    {
+     "title": "Iniciación cristiana",
+     "body": "La catequesis acompaña la **iniciación cristiana**: el camino por el que una persona se incorpora a la vida de la Iglesia por los sacramentos del bautismo, la confirmación y la Eucaristía.\n\nEn Chile, la catequesis más común en las parroquias es la de **primera comunión** (niños de 8 a 10 años, aproximadamente) y la de **confirmación** (adolescentes y jóvenes). En ambas, la **familia** es protagonista: los padres son los primeros educadores en la fe."
+    },
+    {
+     "title": "El lugar del ayudante",
+     "body": "En 2021, el papa Francisco instituyó el **ministerio de catequista** (Antiquum ministerium), reconociendo la importancia de este servicio. El catequista es un adulto formado y enviado por la comunidad.\n\nEl **ayudante de catequesis** colabora con él:\n\n- Ayuda a preparar materiales y el espacio.\n- Acoge a los niños o jóvenes y anima dinámicas y cantos.\n- Acompaña a grupos pequeños bajo la guía del catequista.\n- Da testimonio de que la fe se puede vivir siendo joven.\n\nEl ayudante **no reemplaza al catequista** ni queda a cargo del grupo solo."
+    }
+   ],
+   "bible": {
+    "ref": "Hechos 8,26-40 · Felipe y el funcionario etíope",
+    "comment": "Felipe se acerca a un hombre que lee al profeta Isaías y le pregunta si entiende lo que lee. El hombre responde: «¿Cómo lo voy a entender si nadie me lo explica?». Felipe sube a su carro, le anuncia a Jesús a partir del texto, y el hombre pide el bautismo. Es una imagen preciosa de la catequesis: acercarse, preguntar, explicar y acompañar."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 4-6",
+     "text": "La catequesis es la educación en la fe que busca iniciar a las personas en la plenitud de la vida cristiana.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Antiquum ministerium (Francisco, 2021)",
+     "text": "El papa instituye el ministerio laical de catequista, reconociendo la vocación de quienes sirven a la transmisión de la fe.",
+     "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/papa-francesco-motu-proprio-20210510_antiquum-ministerium.html"
+    }
+   ],
+   "questions": [
+    "¿Quién fue tu catequista? ¿Qué recuerdas de esa etapa?",
+    "¿Qué diferencia hay entre una clase de religión y la catequesis?",
+    "¿Por qué crees que el centro de la catequesis es una persona y no un libro?",
+    "¿Qué te motiva a ayudar en la catequesis?"
+   ],
+   "activity": "Entrevisten a un catequista de la parroquia: cómo empezó, qué es lo que más le gusta, qué le cuesta y qué espera de un ayudante. Compartan las respuestas en el grupo.",
+   "prayer": "Señor Jesús, que te acercaste a tantas personas para anunciarles el amor del Padre: hazme instrumento de tu Palabra. Que, como Felipe, sepa acercarme, preguntar y acompañar. Que los niños y jóvenes que conozca en la catequesis te encuentren a Ti, y no se queden en mí. Amén.",
+   "resources": [
+    {
+     "title": "Antiquum ministerium (Francisco, 2021)",
+     "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/papa-francesco-motu-proprio-20210510_antiquum-ministerium.html",
+     "note": "Carta que instituye el ministerio de catequista."
+    }
+   ],
+   "comenzar": "Escribe tres cosas que recuerdes de tu propia catequesis: una que te ayudó, una que no te gustó y una persona que te marcó.",
+   "logros": [
+    "Explicar qué es la catequesis y su relación con el kerigma.",
+    "Comprender la iniciación cristiana y el papel de la familia.",
+    "Reconocer el lugar y los límites del ayudante."
+   ],
+   "profundizar": {
+    "titulo": "El kerigma en palabras simples",
+    "texto": "El papa Francisco resume el primer anuncio así: **Jesucristo te ama, dio su vida para salvarte, y ahora está vivo a tu lado cada día, para iluminarte, para fortalecerte, para liberarte** (Evangelii gaudium 164; Christus vivit 111-133).\n\nEn *Christus vivit* lo desarrolla en tres verdades para todo joven:\n\n1. **Dios te ama.**\n2. **Cristo te salva.**\n3. **¡Él vive!**\n\nToda la catequesis vuelve una y otra vez a este anuncio."
+   },
+   "caso": {
+    "titulo": "La catequesis como colegio",
+    "texto": "En el grupo de confirmación donde ayuda Benjamín, cada encuentro es igual: el catequista dicta un tema, los jóvenes copian y al final hay una prueba. Varios ya están faltando.",
+    "preguntas": [
+     "¿Qué le falta a esta catequesis?",
+     "¿Qué podría proponer Benjamín, con respeto, al catequista?"
+    ]
+   },
+   "claves": [
+    [
+     "Catequesis",
+     "Educación en la fe que busca el encuentro con Jesús y la vida en la comunidad."
+    ],
+    [
+     "Kerigma",
+     "Primer anuncio del Evangelio: Dios te ama, Cristo te salva, Él vive."
+    ],
+    [
+     "Iniciación cristiana",
+     "Camino de incorporación a la Iglesia por el bautismo, la confirmación y la Eucaristía."
+    ]
+   ],
+   "lectio": {
+    "meditar": "«¿Cómo lo voy a entender si nadie me lo explica?». ¿Quién te explicó a ti la fe? ¿A quién podrías acompañar tú?",
+    "orar": "Agradece a Dios por tus catequistas y por quienes te transmitieron la fe.",
+    "vivir": "Escríbele un mensaje de agradecimiento a alguien que te enseñó la fe."
+   },
+   "practica": [
+    "Preparen las preguntas de la entrevista.",
+    "Entrevisten a un catequista.",
+    "Compartan las respuestas en el grupo.",
+    "Escriban qué esperan aprender como ayudantes."
+   ],
+   "idea": "La catequesis no es una clase: es acompañar un encuentro con Jesús."
+  },
+  {
+   "title": "Conocer a quienes acompañamos",
+   "objective": "Conocer las características de los niños y adolescentes de catequesis y adaptar la manera de acompañarlos a su edad y realidad.",
+   "intro": "Un niño de 9 años y un adolescente de 15 no aprenden ni viven la fe de la misma manera. Para acompañar bien, hay que conocer a quienes tenemos delante: cómo piensan, qué les interesa, qué necesitan. En esta unidad vas a mirar con atención a los niños y jóvenes de la catequesis.",
+   "sections": [
+    {
+     "title": "Niños de primera comunión",
+     "body": "Entre los 8 y los 10 años, aproximadamente, los niños:\n\n- **Aprenden haciendo:** con juegos, dibujos, canciones, historias y experiencias concretas.\n- **Necesitan rutinas** y normas claras.\n- **Tienen poca atención sostenida:** conviene cambiar de actividad cada 10 o 15 minutos.\n- **Viven la fe con mucha confianza** y se asombran con facilidad.\n- **Imitan** a los adultos y jóvenes que admiran.\n\nPara ellos, el ayudante es muchas veces un hermano mayor: alguien a quien mirar."
+    },
+    {
+     "title": "Adolescentes de confirmación",
+     "body": "Entre los 13 y los 17 años, aproximadamente, los adolescentes:\n\n- **Se preguntan** por todo, también por la fe. Sus dudas no son rebeldía, sino búsqueda.\n- **Valoran mucho a sus pares** y temen quedar en ridículo.\n- **Necesitan ser escuchados** más que recibir respuestas hechas.\n- **Buscan autenticidad:** detectan rápido cuando alguien no cree lo que dice.\n- **Viven cambios intensos** en su cuerpo, sus emociones y sus relaciones.\n\nCon ellos, el ayudante puede ser un puente valioso: está cerca de su edad."
+    },
+    {
+     "title": "Cada uno es distinto",
+     "body": "Además de la edad, cada persona trae su historia: familias muy creyentes y otras alejadas de la fe; niños con necesidades educativas especiales; jóvenes que llegan obligados; otros que pasan por momentos difíciles.\n\nAlgunas claves de inclusión:\n\n- **Aprender los nombres** de todos.\n- **Adaptar las actividades** para que todos puedan participar.\n- **No comparar** ni avergonzar a nadie.\n- **Avisar al catequista** si notas que alguien necesita una atención especial."
+    },
+    {
+     "title": "Las familias",
+     "body": "Los padres son los primeros responsables de la educación en la fe de sus hijos. La catequesis los acompaña y los invita a participar.\n\nEl ayudante saluda con cordialidad a las familias, pero **las conversaciones importantes con los padres las tiene el catequista**. Si un padre o una madre te cuenta algo delicado, escúchalo con respeto y transmítelo al catequista."
+    }
+   ],
+   "bible": {
+    "ref": "Marcos 10,13-16 · Jesús y los niños",
+    "comment": "Los discípulos quieren alejar a los niños, pero Jesús se indigna: «Dejen que los niños vengan a mí y no se lo impidan». Los abraza y los bendice. Jesús mira a cada niño como alguien valioso, no como un estorbo. Así deberíamos mirar a quienes acompañamos."
+   },
+   "church": [
+    {
+     "source": "Directorio para la Catequesis (2020), números 236-256",
+     "text": "Presenta la catequesis con niños, adolescentes y jóvenes, atendiendo a las características de cada edad."
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2221-2226",
+     "text": "Los padres son los primeros responsables de la educación de sus hijos, también en la fe.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a4_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo eras tú a la edad de quienes acompañas en la catequesis?",
+    "¿Qué te cuesta más de trabajar con niños o con adolescentes?",
+    "¿Cómo podrías ayudar a que un niño o joven que llega obligado se sienta acogido?",
+    "¿Qué te enseña la actitud de Jesús con los niños?"
+   ],
+   "activity": "Preparen en parejas una ficha de su grupo de catequesis (sin datos personales sensibles): edades, cuántos son, qué les gusta, qué les cuesta. Conversen con el catequista qué actividades funcionarían mejor con ellos.",
+   "prayer": "Jesús, que abrazaste a los niños y los bendijiste: dame tu mirada para conocer a cada niño y joven que acompaño. Que aprenda sus nombres, respete su ritmo y descubra lo que Tú ya estás haciendo en ellos. Amén.",
+   "resources": [
+    {
+     "title": "Antiquum ministerium (Francisco, 2021)",
+     "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/papa-francesco-motu-proprio-20210510_antiquum-ministerium.html",
+     "note": "Carta que instituye el ministerio de catequista."
+    }
+   ],
+   "comenzar": "Escribe cómo eras a los 9 años y a los 15: qué te gustaba, qué te aburría, qué te daba miedo. ¿Qué habrías necesitado de un catequista a esas edades?",
+   "logros": [
+    "Reconocer las características de niños y adolescentes de catequesis.",
+    "Adaptar la manera de acompañar a cada edad.",
+    "Incluir a todos y tratar con respeto a las familias."
+   ],
+   "profundizar": {
+    "titulo": "Manejar el grupo con cariño",
+    "texto": "Algunas claves de disciplina positiva:\n\n- **Normas pocas y claras**, acordadas al comienzo del año.\n- **Anticipar:** explicar qué viene antes de cambiar de actividad.\n- **Reconocer lo positivo** en voz alta.\n- **Corregir en privado**, con calma y sin humillar.\n- **Nunca castigos físicos, gritos ni burlas.**\n- **Si un niño o joven desordena mucho**, conversarlo con el catequista para buscar juntos la causa y una solución."
+   },
+   "caso": {
+    "titulo": "El que no quiere estar",
+    "texto": "Martín, de 15 años, llega a la catequesis de confirmación porque su mamá lo obliga. Se sienta atrás, mira el celular y responde con monosílabos. El catequista le pide a la ayudante, Josefa, que intente acercarse a él.",
+    "preguntas": [
+     "¿Qué podría hacer Josefa para acercarse a Martín?",
+     "¿Qué no debería hacer?"
+    ]
+   },
+   "claves": [
+    [
+     "Etapa evolutiva",
+     "Momento del desarrollo de una persona, con características propias."
+    ],
+    [
+     "Inclusión",
+     "Lograr que todos puedan participar y sentirse parte del grupo."
+    ],
+    [
+     "Disciplina positiva",
+     "Manera de orientar la conducta con respeto, normas claras y reconocimiento."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús se indigna cuando alejan a los niños. ¿Hay alguien en tu grupo de catequesis a quien, sin querer, estás dejando de lado?",
+    "orar": "Reza por cada niño o joven de tu grupo, uno por uno, por su nombre.",
+    "vivir": "En el próximo encuentro, saluda por su nombre a cada uno al llegar."
+   },
+   "practica": [
+    "Preparen la ficha del grupo.",
+    "Conversen con el catequista.",
+    "Propongan una actividad adecuada a la edad.",
+    "Acuerden con el catequista cómo apoyar la disciplina del grupo."
+   ],
+   "idea": "Para acompañar bien, primero hay que conocer."
+  },
+  {
+   "title": "Preparar y animar un encuentro",
+   "objective": "Conocer la estructura de un encuentro de catequesis y aprender a preparar y animar sus distintos momentos junto al catequista.",
+   "intro": "Un buen encuentro de catequesis no se improvisa. Tiene un objetivo, un orden y momentos variados que ayudan a que la fe llegue a la cabeza, al corazón y a las manos. En esta unidad vas a aprender a preparar y animar un encuentro, siempre en equipo con el catequista.",
+   "sections": [
+    {
+     "title": "Los momentos de un encuentro",
+     "body": "Una estructura que funciona muy bien:\n\n1. **Acogida (5-10 min):** saludo, nombres, cómo llegan, un juego breve.\n2. **Experiencia de vida (10-15 min):** una dinámica, historia o pregunta que conecta el tema con su vida.\n3. **Palabra de Dios (10-15 min):** lectura de un texto bíblico, contado o dramatizado según la edad.\n4. **Profundización (10-15 min):** qué enseña la Iglesia, explicado de forma sencilla.\n5. **Expresión (10-15 min):** dibujo, carta, representación, canción o compromiso escrito.\n6. **Oración (5-10 min):** un momento orante, sencillo y participativo.\n7. **Compromiso y despedida (5 min):** algo concreto para la semana."
+    },
+    {
+     "title": "Preparar con el catequista",
+     "body": "- **Leer el tema** del manual o itinerario y el texto bíblico.\n- **Definir un objetivo** en una frase: qué queremos que vivan o comprendan.\n- **Repartir los momentos:** qué anima el catequista y qué el ayudante.\n- **Preparar materiales:** hojas, lápices, música, imágenes, Biblia, vela.\n- **Ordenar el espacio** antes de que lleguen: sillas en círculo, un rincón de oración."
+    },
+    {
+     "title": "Animar sin perder el rumbo",
+     "body": "- **Hablar poco y claro:** instrucciones breves, de a una.\n- **Mirar a todos** y hacer participar a los más tímidos sin obligarlos.\n- **Cuidar los tiempos:** si una actividad se alarga, avisar al catequista.\n- **Ser testigo:** contar brevemente cómo vives tú la fe, cuando sea oportuno.\n- **No responder lo que no sabes:** decir «buena pregunta, lo vemos con el catequista» es honesto y está bien."
+    },
+    {
+     "title": "La oración con niños y jóvenes",
+     "body": "- **Rincón de oración:** una Biblia abierta, una vela, una imagen, un mantel del color litúrgico.\n- **Oraciones breves y espontáneas:** cada uno agradece o pide algo.\n- **Oraciones de la Iglesia:** el Padre Nuestro, el Ave María, el Gloria, que se van aprendiendo.\n- **Silencio:** aunque sea un minuto, con música suave.\n- **Gestos:** tomarse de las manos, la señal de la cruz, una bendición."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 24,13-35 · El camino de Emaús",
+    "comment": "Jesús se acerca a dos discípulos, les pregunta qué les pasa, escucha, les explica las Escrituras, se queda con ellos, parte el pan y los envía. Es el mejor modelo de un encuentro de catequesis: partir de la vida, iluminarla con la Palabra, celebrar y enviar."
+   },
+   "church": [
+    {
+     "source": "Directorio para la Catequesis (2020)",
+     "text": "Propone una catequesis que integre el conocimiento de la fe, la celebración, la vida cristiana y la oración."
+    },
+    {
+     "source": "Christus vivit 237",
+     "text": "El papa propone el relato de Emaús como modelo para la pastoral con jóvenes: acercarse, caminar, preguntar, escuchar, explicar y acompañar.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué momento del encuentro te sientes más capaz de animar?",
+    "¿Cuál te cuesta más? ¿Por qué?",
+    "¿Qué te enseña el camino de Emaús sobre cómo acompañar?",
+    "¿Cómo podrías dar testimonio de tu fe sin sermonear?"
+   ],
+   "activity": "Preparen junto al catequista un encuentro completo siguiendo los siete momentos. El ayudante anima al menos dos de ellos. Al terminar, evalúen juntos qué funcionó y qué mejorar.",
+   "prayer": "Señor Jesús, que caminaste con los discípulos de Emaús y les hiciste arder el corazón: camina con nosotros en cada encuentro de catequesis. Danos creatividad para preparar, paciencia para animar y humildad para reconocer que eres Tú quien toca los corazones. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, capítulo 7",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "La pastoral de los jóvenes."
+    }
+   ],
+   "comenzar": "Recuerda un encuentro de catequesis, grupo o retiro que te haya gustado mucho. ¿Qué tenía? ¿Cómo estaba organizado? Anota los momentos que recuerdas.",
+   "logros": [
+    "Conocer los siete momentos de un encuentro de catequesis.",
+    "Preparar un encuentro en equipo con el catequista.",
+    "Animar momentos de oración adecuados a la edad."
+   ],
+   "profundizar": {
+    "titulo": "Recursos según la edad",
+    "texto": "**Con niños de primera comunión:**\n\n- Contar la historia bíblica con títeres, dibujos o dramatizaciones.\n- Canciones con gestos.\n- Colorear, recortar, armar murales.\n- Juegos de preguntas con premios simbólicos.\n\n**Con adolescentes de confirmación:**\n\n- Videos breves o canciones actuales que abran una conversación.\n- Casos o dilemas para discutir en grupos pequeños.\n- Testimonios de jóvenes.\n- Preguntas abiertas y espacio para las dudas.\n- Momentos de silencio y oración personal."
+   },
+   "caso": {
+    "titulo": "El juego que se alargó",
+    "texto": "El ayudante, Tomás, anima el juego de acogida. Los niños están tan entretenidos que pasan 30 minutos y ya no queda tiempo para la Palabra ni para la oración.",
+    "preguntas": [
+     "¿Qué debió hacer Tomás para cuidar el tiempo?",
+     "¿Cómo podría acordar mejor con la catequista la próxima vez?"
+    ]
+   },
+   "claves": [
+    [
+     "Objetivo del encuentro",
+     "Lo que se quiere que los participantes vivan o comprendan, en una frase."
+    ],
+    [
+     "Rincón de oración",
+     "Espacio preparado con signos para orar en el encuentro."
+    ],
+    [
+     "Testimonio",
+     "Compartir brevemente cómo uno vive la fe."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús primero pregunta y escucha, y después explica. ¿Cuánto escuchas tú antes de hablar?",
+    "orar": "Pide a Jesús que haga arder el corazón de los niños y jóvenes de tu grupo.",
+    "vivir": "Prepara con el catequista el próximo encuentro con los siete momentos."
+   },
+   "practica": [
+    "Lean el tema del próximo encuentro.",
+    "Definan juntos el objetivo.",
+    "Repartan los momentos entre catequista y ayudante.",
+    "Evalúen el encuentro después de realizarlo."
+   ],
+   "idea": "De la vida a la Palabra, y de la Palabra a la vida."
+  },
+  {
+   "title": "Cuidar y crecer como ayudante",
+   "objective": "Conocer las reglas de cuidado en la catequesis y cultivar la propia vida de fe y formación como ayudante.",
+   "intro": "Quien acompaña a niños y adolescentes tiene una gran responsabilidad: cuidarlos. Y para dar, también necesita cuidarse y seguir creciendo. En esta última unidad vas a conocer las reglas de buen trato en la catequesis y a pensar tu propio camino como ayudante.",
+   "sections": [
+    {
+     "title": "Reglas de cuidado",
+     "body": "- **Nunca a solas:** el ayudante no queda solo con un niño o joven en una sala cerrada, en un vehículo ni en ningún lugar apartado. Si alguien necesita conversar, se hace en un lugar visible.\n- **Siempre con el catequista:** el grupo no queda a cargo solo del ayudante.\n- **Contacto físico respetuoso:** saludos cordiales; nada de juegos con contacto innecesario.\n- **Comunicación digital:** no hay chats privados con niños o adolescentes del grupo. La comunicación es con los padres o en grupos donde están el catequista y los apoderados.\n- **Fotos:** solo con autorización de las familias y según las normas de la parroquia.\n- **Salida:** cada niño se retira con su adulto responsable o como lo indique su familia."
+    },
+    {
+     "title": "Si alguien te cuenta algo grave",
+     "body": "Si un niño o joven te cuenta que alguien le hace daño o que está en riesgo:\n\n- **Escucha con calma**, sin mostrar alarma ni hacer preguntas detalladas.\n- **Créele** y dile que hizo bien en contarlo.\n- **No prometas guardar el secreto:** dile que vas a pedir ayuda a un adulto para cuidarlo.\n- **No investigues** ni hables con la persona señalada.\n- **Avisa de inmediato al catequista o al párroco**, que activarán el protocolo de la diócesis y las vías legales.\n\nNo te toca resolverlo solo: te toca escuchar y avisar."
+    },
+    {
+     "title": "Tu propia fe",
+     "body": "Nadie da lo que no tiene. Para acompañar a otros en la fe, el ayudante necesita cuidar la suya:\n\n- **Oración personal** diaria, aunque sea breve.\n- **Misa del domingo** y confesión periódica.\n- **Formación:** leer, preguntar, participar de encuentros de catequistas.\n- **Comunidad:** pertenecer a un grupo donde también lo acompañen a él."
+    },
+    {
+     "title": "Crecer en el servicio",
+     "body": "Ser ayudante puede ser el comienzo de un camino más largo. Muchos catequistas empezaron así. Con el tiempo, el ayudante puede asumir más responsabilidades, formarse como catequista y, por qué no, descubrir otros llamados.\n\nAl terminar el año, conviene **evaluar con el catequista**: qué aprendiste, qué te costó, qué quieres seguir haciendo."
+    }
+   ],
+   "bible": {
+    "ref": "Mateo 18,1-6.10 · Cuidar a los pequeños",
+    "comment": "Jesús pone a un niño en medio de los discípulos y dice que quien recibe a uno de estos pequeños lo recibe a Él. Y advierte con fuerza contra quien haga caer a uno de ellos. Cuidar a los niños es cuidar a Jesús."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile, 2020)",
+     "text": "Orientaciones de buen trato y prevención para todos los que sirven en la Iglesia, incluidos catequistas y ayudantes.",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/"
+    },
+    {
+     "source": "Directorio para la Catequesis (2020)",
+     "text": "Pide que la comunidad acompañe y forme a los catequistas en su vida espiritual, su conocimiento de la fe y sus habilidades pedagógicas."
+    }
+   ],
+   "questions": [
+    "¿Cuál de las reglas de cuidado te parecía innecesaria antes de esta unidad? ¿Qué piensas ahora?",
+    "¿Sabes cuál es el protocolo de tu parroquia ante una situación grave?",
+    "¿Cómo está hoy tu propia vida de fe?",
+    "¿Qué te gustaría aprender para seguir creciendo como ayudante?"
+   ],
+   "activity": "Revisen junto al catequista o al párroco las reglas de cuidado de la catequesis y el protocolo de la parroquia. Escriban en una hoja quién es la persona a quien avisar ante una situación grave y cómo contactarla.",
+   "prayer": "Jesús, que pusiste a un niño en medio de tus discípulos: hazme cuidadoso con los pequeños que me confías. Que nunca use mi lugar para mi beneficio, que respete a cada uno y que sepa pedir ayuda cuando algo me supere. Cuida también mi fe, para que pueda dar lo que recibo de Ti. Amén.",
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/",
+     "note": "Orientaciones de la Conferencia Episcopal de Chile."
+    }
+   ],
+   "comenzar": "Escribe qué harías si, al terminar un encuentro, un niño te pide que lo acompañes a solas a buscar algo a otra sala. Guarda tu respuesta y revísala al final de la unidad.",
+   "logros": [
+    "Aplicar las reglas de cuidado en la catequesis.",
+    "Actuar correctamente si alguien revela una situación grave.",
+    "Cuidar la propia fe y formación como ayudante."
+   ],
+   "profundizar": {
+    "titulo": "Cuidarse uno mismo",
+    "texto": "El servicio también cansa. Algunas señales de que necesitas cuidarte:\n\n- Sientes que todo depende de ti.\n- Te cuesta dormir pensando en el grupo.\n- Ya no disfrutas los encuentros.\n- Tus estudios o tu familia se están resintiendo.\n\nCuando aparezcan, **conversa con el catequista o con tu asesor**. Está bien pedir ayuda, tomarse un descanso o reducir responsabilidades. Servir bien también es saber reconocer los propios límites."
+   },
+   "caso": {
+    "titulo": "El chat privado",
+    "texto": "Una niña de la catequesis le pide a Antonia, la ayudante, su número de teléfono para «hablarle de cosas que no se atreve a contar en el grupo». Antonia quiere ayudarla y no sabe qué hacer.",
+    "preguntas": [
+     "¿Por qué Antonia no debería abrir un chat privado con la niña?",
+     "¿Qué podría hacer para ayudarla de manera segura?"
+    ]
+   },
+   "claves": [
+    [
+     "Buen trato",
+     "Manera de relacionarse que respeta la dignidad y los límites de cada persona."
+    ],
+    [
+     "Protocolo",
+     "Pasos definidos para actuar ante situaciones graves."
+    ],
+    [
+     "Revelación",
+     "Cuando un niño o joven cuenta que está siendo dañado o está en riesgo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Quien recibe a un niño recibe a Jesús. ¿Cómo cambia tu servicio si miras así a cada niño o joven?",
+    "orar": "Reza por la seguridad y la alegría de todos los niños de tu parroquia.",
+    "vivir": "Averigua esta semana cuál es el protocolo de tu parroquia y quién es la persona encargada."
+   },
+   "practica": [
+    "Revisen las reglas de cuidado con el catequista.",
+    "Conozcan el protocolo de la parroquia.",
+    "Anoten a quién avisar y cómo.",
+    "Agenden la evaluación de fin de año con el catequista."
+   ],
+   "idea": "Cuidar a los pequeños es cuidar a Jesús."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué significa la palabra «catequesis»?",
+   "options": [
+    "Enseñar de memoria.",
+    "Hacer resonar.",
+    "Preparar un examen."
+   ],
+   "correct": 1,
+   "feedback": "El catequista hace resonar la Palabra de Dios en la vida."
+  },
+  {
+   "q": "¿Qué es el kerigma?",
+   "options": [
+    "Un libro de catequesis.",
+    "El primer anuncio: Dios te ama, Cristo te salva, Él vive.",
+    "Una oración de la misa."
+   ],
+   "correct": 1,
+   "feedback": "Toda la catequesis vuelve a este anuncio."
+  },
+  {
+   "q": "¿Cuál es el lugar del ayudante de catequesis?",
+   "options": [
+    "Reemplaza al catequista cuando no puede venir.",
+    "Colabora con el catequista, sin quedar a cargo del grupo solo.",
+    "Tiene las conversaciones importantes con los padres."
+   ],
+   "correct": 1,
+   "feedback": "El ayudante colabora; el catequista adulto es el responsable."
+  },
+  {
+   "q": "¿Cómo aprenden mejor los niños de 8 a 10 años?",
+   "options": [
+    "Escuchando charlas largas.",
+    "Haciendo: con juegos, historias, dibujos y canciones.",
+    "Leyendo solos el manual."
+   ],
+   "correct": 1,
+   "feedback": "Conviene cambiar de actividad cada 10 o 15 minutos."
+  },
+  {
+   "q": "¿Qué modelo bíblico propone el papa para acompañar a los jóvenes?",
+   "options": [
+    "El camino de Emaús.",
+    "La torre de Babel.",
+    "El arca de Noé."
+   ],
+   "correct": 0,
+   "feedback": "Christus vivit 237: acercarse, caminar, preguntar, escuchar, explicar y acompañar."
+  },
+  {
+   "q": "Si un adolescente te hace una pregunta difícil que no sabes responder, ¿qué haces?",
+   "options": [
+    "Inventas una respuesta para no quedar mal.",
+    "Reconoces que es una buena pregunta y la ven con el catequista.",
+    "Le dices que no se pregunta eso."
+   ],
+   "correct": 1,
+   "feedback": "La honestidad genera confianza."
+  },
+  {
+   "q": "¿Cuál de estas es una regla de cuidado en la catequesis?",
+   "options": [
+    "Tener chats privados con los niños para conocerlos mejor.",
+    "No quedar a solas con un niño en un lugar apartado.",
+    "Subir fotos del grupo sin preguntar."
+   ],
+   "correct": 1,
+   "feedback": "Las conversaciones se tienen en lugares visibles, y la comunicación digital es con las familias."
+  },
+  {
+   "q": "Si un niño revela que alguien le hace daño, ¿qué haces?",
+   "options": [
+    "Le prometes guardar el secreto.",
+    "Escuchas, le crees, no prometes secreto y avisas de inmediato al catequista o al párroco.",
+    "Hablas con la persona señalada para aclarar."
+   ],
+   "correct": 1,
+   "feedback": "No te toca investigar ni resolver solo: escuchar y avisar."
+  }
+ ]
+}
