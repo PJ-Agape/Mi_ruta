@@ -1,0 +1,481 @@
+{
+ "id": "primeros-auxilios-psicologicos",
+ "titulo": "Primeros auxilios psicológicos",
+ "subtitulo": "Acompañar a alguien en un momento de crisis",
+ "categoria": "Cuidado",
+ "publico": "Desde 16 años",
+ "descripcion": "Herramientas básicas para acompañar a alguien que vive un momento emocional difícil: qué es una crisis, el protocolo ABCD de primera ayuda psicológica, cómo actuar ante la angustia, el duelo y el riesgo de suicidio, y cómo cuidarse uno mismo. No reemplaza la atención profesional. 4 unidades de 90 minutos y una evaluación final.",
+ "modulo": "Acompañar en la crisis",
+ "intro": "En los grupos juveniles, a veces alguien se quiebra: por una pérdida, un problema en la casa, una crisis de angustia o un momento de mucha tristeza. Esta formación enseña a acompañar en esos primeros momentos con calma y respeto, y a conectar a la persona con la ayuda que necesita. No convierte a nadie en terapeuta: ayuda a no dejar solo a quien sufre y a saber a quién avisar.",
+ "unidades": [
+  {
+   "title": "¿Qué son los primeros auxilios psicológicos?",
+   "objective": "Comprender qué es una crisis emocional, qué son los primeros auxilios psicológicos y cuáles son los límites de quien los entrega.",
+   "intro": "Así como hay primeros auxilios para el cuerpo, también los hay para las emociones. No buscan resolver el problema ni hacer terapia, sino acompañar a una persona en un momento de crisis, ayudarla a calmarse y conectarla con la ayuda adecuada. En esta unidad vas a descubrir qué son y qué no son.",
+   "sections": [
+    {
+     "title": "¿Qué es una crisis?",
+     "body": "Una **crisis** es un momento en que una persona se siente sobrepasada por algo que le ocurre: una pérdida, un accidente, una mala noticia, un conflicto fuerte, un hecho violento. Sus recursos habituales para enfrentar las cosas no le alcanzan.\n\nEn una crisis son normales reacciones como **llanto, angustia, rabia, confusión, bloqueo, temblor o dificultad para respirar**. Son reacciones normales ante situaciones anormales, y en la mayoría de los casos van disminuyendo con apoyo y tiempo."
+    },
+    {
+     "title": "Qué son los primeros auxilios psicológicos",
+     "body": "Los **primeros auxilios psicológicos** son una ayuda breve e inmediata que busca:\n\n- **Aliviar** el malestar del momento.\n- **Proteger** a la persona de daños mayores.\n- **Conectar** con sus redes de apoyo y con ayuda profesional si la necesita.\n\nPueden darlos personas sin formación clínica, siempre que estén preparadas y conozcan sus límites."
+    },
+    {
+     "title": "Lo que no son",
+     "body": "- **No son terapia.** No buscan analizar la historia de la persona ni resolver sus problemas de fondo.\n- **No son un diagnóstico.** No se ponen etiquetas como «tienes depresión» o «tienes ansiedad».\n- **No reemplazan** a los profesionales de salud mental.\n- **No son una conversación para dar consejos** ni para contar las propias experiencias.\n- **No obligan** a hablar: se respeta lo que la persona quiere compartir."
+    },
+    {
+     "title": "Los límites de un joven que acompaña",
+     "body": "Si eres joven y estás en un grupo pastoral, tu papel es importante, pero tiene límites claros:\n\n- **Acompañas, escuchas y avisas.** No cargas solo con la situación.\n- **Siempre informas a un adulto responsable** (asesor, coordinador, familia) cuando la situación es seria.\n- **No guardas secretos** que pongan en riesgo la vida o la seguridad de alguien.\n- **Si la situación te supera,** es correcto pedir ayuda de inmediato. Eso también es cuidar."
+    }
+   ],
+   "bible": {
+    "ref": "2 Corintios 1,3-4 · El Dios de todo consuelo",
+    "comment": "Pablo bendice al Padre de las misericordias y Dios de todo consuelo, que nos consuela en todas nuestras tribulaciones, para que podamos consolar a los que están en cualquier tribulación con el mismo consuelo que recibimos. El consuelo que damos nace del consuelo que hemos recibido."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 169-171",
+     "text": "El acompañamiento requiere el arte de escuchar, que es más que oír, y la prudencia de no juzgar.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Christus vivit 291-298",
+     "text": "El papa describe la escucha que acompaña: dedicar tiempo, atención y respeto a la persona, sin ofenderse ni escandalizarse.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Has acompañado alguna vez a alguien en un momento muy difícil? ¿Qué hiciste?",
+    "¿Qué te cuesta más: escuchar sin dar consejos o no cargar solo con la situación?",
+    "¿Por qué es importante no poner etiquetas ni diagnósticos?",
+    "¿Quién te ha consolado a ti en un momento difícil? ¿Qué hizo?"
+   ],
+   "activity": "En parejas, conversen sobre una persona que los haya ayudado en un momento difícil. Identifiquen qué hizo y qué no hizo esa persona. Hagan juntos una lista de actitudes que ayudan y que no ayudan.",
+   "prayer": "Padre de las misericordias y Dios de todo consuelo: consuélanos en nuestras tribulaciones, para que podamos consolar a otros. Danos un corazón atento, oídos que escuchen y la humildad de reconocer cuando necesitamos pedir ayuda. Amén.",
+   "resources": [
+    {
+     "title": "Salud Responde",
+     "url": "https://saludresponde.minsal.cl/",
+     "note": "Orientación en salud del Ministerio de Salud, también en salud mental: 600 360 7777."
+    }
+   ],
+   "comenzar": "Piensa en un momento en que te sentiste sobrepasado. Sin escribir detalles, anota qué necesitabas en ese momento: ¿que te dieran consejos, que te escucharan, que te dejaran solo, que alguien se quedara contigo?",
+   "logros": [
+    "Explicar qué es una crisis emocional y cuáles son sus reacciones normales.",
+    "Distinguir lo que son y lo que no son los primeros auxilios psicológicos.",
+    "Reconocer los límites de un joven que acompaña."
+   ],
+   "profundizar": {
+    "titulo": "Cuándo no basta con acompañar",
+    "texto": "Hay situaciones en que, además de acompañar, **se debe pedir ayuda de inmediato**:\n\n- La persona habla de **quitarse la vida** o de hacerse daño.\n- Hay **violencia** o la persona está en peligro.\n- La persona está **desorientada**, no sabe dónde está o dice cosas sin sentido.\n- Hay **consumo de alcohol o drogas** que la pone en riesgo.\n- Una **crisis no disminuye** después de un buen rato de acompañamiento.\n\nEn esos casos: no dejes sola a la persona, avisa a un adulto responsable y, si hay riesgo inmediato, **llama al 131**."
+   },
+   "caso": {
+    "titulo": "El que siempre da consejos",
+    "texto": "Después de un encuentro, una joven del grupo se pone a llorar porque sus padres se están separando. Un dirigente se sienta a su lado y, durante media hora, le cuenta cómo él vivió la separación de sus padres y le da diez consejos.",
+    "preguntas": [
+     "¿Qué tenía de bueno la intención del dirigente?",
+     "¿Qué habría sido más útil para la joven?"
+    ]
+   },
+   "claves": [
+    [
+     "Crisis",
+     "Momento en que una persona se siente sobrepasada por lo que le ocurre."
+    ],
+    [
+     "Primeros auxilios psicológicos",
+     "Ayuda breve e inmediata para aliviar, proteger y conectar con apoyo."
+    ],
+    [
+     "Derivación",
+     "Conectar a la persona con la ayuda adecuada: familia, adultos responsables o profesionales."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Consolamos con el consuelo que hemos recibido. ¿Cómo te ha consolado Dios a ti?",
+    "orar": "Reza por las personas de tu grupo que están pasando por un momento difícil.",
+    "vivir": "Esta semana, cuando alguien te cuente un problema, escúchalo sin dar consejos a menos que te los pida."
+   },
+   "practica": [
+    "Conversen en parejas sobre quién los ayudó.",
+    "Hagan la lista de actitudes que ayudan y que no.",
+    "Compartan la lista con el grupo.",
+    "Identifiquen a los adultos responsables a quienes avisar."
+   ],
+   "idea": "Acompañar, escuchar y avisar: no estás solo y no cargas solo."
+  },
+  {
+   "title": "El protocolo ABCD",
+   "objective": "Conocer y practicar el protocolo ABCD de primera ayuda psicológica: escucha activa, reentrenamiento de la respiración, categorización de necesidades y derivación a redes.",
+   "intro": "En Chile se usa un modelo sencillo y ordenado de primera ayuda psicológica, conocido como protocolo ABCD. Sus cuatro letras ayudan a recordar qué hacer cuando alguien está en crisis. En esta unidad vas a conocer cada paso y practicarlo.",
+   "sections": [
+    {
+     "title": "A: escucha activa",
+     "body": "- **Preséntate** y pregunta si puedes acompañar: «Soy Camila, ¿te puedo acompañar un rato?».\n- **Busca un lugar tranquilo**, pero visible para otros.\n- **Escucha** sin interrumpir, sin juzgar y sin minimizar.\n- **Valida las emociones:** «Es comprensible que te sientas así».\n- **Parafrasea:** repite con tus palabras lo que entendiste para que la persona se sienta comprendida.\n- **Tolera el silencio** y el llanto. No hace falta llenar todo con palabras.\n- **Evita frases como** «no llores», «no es para tanto», «yo sé lo que sientes» o «todo pasa por algo»."
+    },
+    {
+     "title": "B: reentrenamiento de la respiración",
+     "body": "En una crisis, la respiración se acelera y eso aumenta la angustia. Ayudar a respirar más lento calma el cuerpo:\n\n- Invita a la persona a respirar contigo: «¿Probamos respirar más lento juntos?».\n- **Inspirar por la nariz** contando hasta 4, de manera suave.\n- **Exhalar por la boca** lentamente, contando hasta 6 u 8.\n- Repetir varias veces, a un ritmo cómodo.\n- Puede ayudar poner una mano sobre el abdomen y sentir cómo sube y baja.\n\nSi a la persona no le acomoda, no se insiste."
+    },
+    {
+     "title": "C: categorización de necesidades",
+     "body": "Cuando la persona está un poco más tranquila, se la ayuda a ordenar qué necesita **ahora**:\n\n- **Necesidades básicas:** agua, abrigo, comer algo, ir al baño, cargar el teléfono.\n- **Seguridad:** ¿está en un lugar seguro? ¿hay alguien que la ponga en riesgo?\n- **Información:** ¿qué necesita saber?\n- **Contacto:** ¿a quién quiere avisar?\n\nSe ayuda a **priorizar**: ¿qué es lo más urgente? ¿qué puede esperar?"
+    },
+    {
+     "title": "D: derivación a redes",
+     "body": "El último paso es **conectar** a la persona con su red de apoyo y, si hace falta, con ayuda profesional:\n\n- **Su familia** o un adulto de confianza.\n- **Los responsables del grupo:** asesor, coordinador.\n- **Servicios de salud:** su centro de salud, un psicólogo, Salud Responde (600 360 7777).\n- **En riesgo inmediato:** SAMU (131).\n\nNo se deja a la persona sola hasta que esté acompañada por alguien de su red."
+    }
+   ],
+   "bible": {
+    "ref": "1 Reyes 19,3-8 · El ángel y Elías en el desierto",
+    "comment": "El profeta Elías, agotado y con miedo, se tira bajo un árbol y pide morirse. Un ángel lo toca, le dice «levántate y come» y le deja pan y agua. Elías come, duerme y el ángel vuelve a cuidarlo, porque el camino es largo. Dios no le da un sermón: primero atiende sus necesidades básicas y lo acompaña."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 292-293",
+     "text": "La escucha que acompaña presta atención a la persona, sin apurarse, sin condiciones, sin ofenderse ni escandalizarse.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Fratelli tutti 48",
+     "text": "Saber escuchar es un don: ponerse en el lugar del otro y dejarlo hablar sin prisa.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+    }
+   ],
+   "questions": [
+    "¿Cuál de los cuatro pasos te resulta más natural? ¿Cuál más difícil?",
+    "¿Qué frases sueles decir cuando alguien llora? ¿Ayudan?",
+    "¿Qué te enseña la manera en que el ángel cuida a Elías?",
+    "¿Cuál sería la red de apoyo en tu grupo?"
+   ],
+   "activity": "En tríos, practiquen el protocolo ABCD con una situación ficticia y no personal (por ejemplo: un participante recibe la noticia de que su abuelo fue hospitalizado). Uno acompaña, otro está en crisis y el tercero observa con una pauta de los cuatro pasos. Roten los roles.",
+   "prayer": "Señor, que enviaste a tu ángel a cuidar a Elías cuando estaba agotado: haznos ángeles para quienes sufren. Que sepamos escuchar sin juzgar, calmar sin apurar, cuidar lo básico y conectar con la ayuda necesaria. Que nadie de nuestro grupo pase solo por el desierto. Amén.",
+   "resources": [
+    {
+     "title": "Salud Responde",
+     "url": "https://saludresponde.minsal.cl/",
+     "note": "600 360 7777, disponible las 24 horas."
+    }
+   ],
+   "comenzar": "Observa tu respiración ahora. Cuenta cuántas veces respiras en un minuto. Luego intenta respirar inspirando en 4 tiempos y exhalando en 6 durante dos minutos. ¿Qué cambió?",
+   "logros": [
+    "Escuchar activamente y validar emociones.",
+    "Guiar un ejercicio de respiración lenta.",
+    "Ordenar necesidades y conectar con la red de apoyo."
+   ],
+   "profundizar": {
+    "titulo": "Frases que ayudan",
+    "texto": "**Ayudan:**\n\n- «Estoy aquí contigo».\n- «Tómate tu tiempo».\n- «Es comprensible que te sientas así».\n- «¿Qué necesitas ahora?».\n- «¿A quién te gustaría avisar?».\n\n**No ayudan:**\n\n- «No llores».\n- «Hay gente que está peor».\n- «Sé fuerte».\n- «Yo sé exactamente lo que sientes».\n- «Dios sabe por qué hace las cosas», dicho como explicación del dolor."
+   },
+   "caso": {
+    "titulo": "La noticia",
+    "texto": "En medio de una jornada, Ignacio recibe un mensaje: su abuela fue trasladada de urgencia al hospital. Se pone pálido, empieza a respirar muy rápido y no sabe qué hacer. Tú estás a su lado.",
+    "preguntas": [
+     "¿Cómo aplicarías cada letra del protocolo ABCD?",
+     "¿A quién avisarías y en qué momento?"
+    ]
+   },
+   "claves": [
+    [
+     "Escucha activa",
+     "Escuchar con atención, sin interrumpir ni juzgar, devolviendo lo entendido."
+    ],
+    [
+     "Validar",
+     "Reconocer que las emociones de la otra persona son comprensibles."
+    ],
+    [
+     "Red de apoyo",
+     "Personas e instituciones que pueden ayudar: familia, amigos, comunidad, servicios de salud."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El ángel le dice a Elías: «levántate y come, porque el camino es largo». ¿Qué necesidad básica descuidas cuando estás mal?",
+    "orar": "Pide a Dios que te haga presencia de cuidado para otros.",
+    "vivir": "Practica la respiración lenta dos minutos al día durante esta semana."
+   },
+   "practica": [
+    "Formen tríos.",
+    "Practiquen el protocolo ABCD rotando roles.",
+    "Usen la pauta de observación.",
+    "Conversen qué aprendieron."
+   ],
+   "idea": "Escuchar, respirar, ordenar y conectar."
+  },
+  {
+   "title": "Situaciones difíciles",
+   "objective": "Saber acompañar en situaciones frecuentes de crisis: crisis de angustia, duelo, conflictos graves en la familia y riesgo de suicidio.",
+   "intro": "Hay situaciones que se repiten en los grupos juveniles y que conviene saber acompañar: una crisis de angustia, la muerte de un ser querido, un problema grave en la casa, o una persona que expresa que no quiere vivir. En esta unidad vas a aprender qué hacer en cada caso, siempre recordando que no estás solo.",
+   "sections": [
+    {
+     "title": "Crisis de angustia",
+     "body": "Una crisis de angustia o de pánico puede incluir corazón acelerado, falta de aire, temblor, mareo, sensación de perder el control. Es muy desagradable, pero suele pasar en minutos.\n\n- **Mantén la calma** y habla suave.\n- **Ayuda a respirar lento** (paso B).\n- **Ayuda a enfocarse en el presente:** que nombre cinco cosas que ve, cuatro que puede tocar, tres que escucha, dos que huele y una que saborea.\n- **No la dejes sola.**\n- Si es la primera vez, hay dolor en el pecho o no mejora, **busca atención médica**."
+    },
+    {
+     "title": "Duelo",
+     "body": "Cuando alguien pierde a un ser querido:\n\n- **Acompaña con tu presencia** más que con palabras.\n- **Permite** que llore, que se enoje, que no quiera hablar.\n- **Evita** frases como «está en un lugar mejor», «Dios lo quiso así» o «ya vas a estar bien». Aunque se digan con cariño, pueden doler.\n- **Ofrece ayuda concreta:** acompañar al funeral, llevar algo, estar disponible.\n- **No desaparezcas** después del funeral: el duelo dura mucho más."
+    },
+    {
+     "title": "Riesgo de suicidio",
+     "body": "Si alguien dice que no quiere vivir, que quisiera desaparecer o que piensa en quitarse la vida, **siempre hay que tomarlo en serio**.\n\n- **No la dejes sola.**\n- **Escucha** sin juzgar, sin discutir y sin sermonear.\n- **Puedes preguntar directamente** si está pensando en quitarse la vida. Preguntarlo no aumenta el riesgo, y muchas veces alivia a la persona poder decirlo.\n- **No prometas guardar el secreto.** Explícale que te importa demasiado como para callar.\n- **Avisa de inmediato** a un adulto responsable y a su familia.\n- **Llama a ayuda especializada:** la línea de prevención del suicidio del Ministerio de Salud, **\\*4141**, gratuita y disponible las 24 horas, o **Salud Responde, 600 360 7777**.\n- **Si hay riesgo inmediato,** llama al **131**."
+    },
+    {
+     "title": "Problemas graves en la familia",
+     "body": "A veces un joven cuenta que en su casa hay violencia, abandono o situaciones que lo ponen en riesgo.\n\n- **Escucha y créele.**\n- **No investigues** ni confrontes a nadie.\n- **No prometas secreto.**\n- **Avisa de inmediato** al asesor o al encargado de prevención, que activará el protocolo correspondiente.\n- Si hay **peligro inmediato**, llama al **133** (Carabineros) o al **147** (Fono Niños de Carabineros)."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 11,32-36 · Jesús llora",
+    "comment": "Ante la tumba de su amigo Lázaro, viendo llorar a María y a los que la acompañaban, Jesús se conmueve profundamente y llora. No da explicaciones ni discursos: comparte el dolor. Antes de cualquier palabra, la presencia y la compasión."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2282-2283",
+     "text": "La Iglesia mira con compasión a quienes atentan contra su vida, reconoce que el sufrimiento grave puede disminuir la responsabilidad y pide rezar por ellos.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"
+    },
+    {
+     "source": "Gaudete et exsultate 75-76",
+     "text": "Feliz quien sabe llorar con los demás: quien no esconde la mirada ante el dolor ajeno y se deja tocar por él.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html"
+    }
+   ],
+   "questions": [
+    "¿Qué situación de esta unidad te parece más difícil de acompañar? ¿Por qué?",
+    "¿Qué frases has escuchado en funerales que no ayudan?",
+    "¿Te sentirías capaz de preguntar directamente a alguien si piensa en quitarse la vida? ¿Qué te ayudaría?",
+    "¿Qué te dice que Jesús llorara ante la tumba de su amigo?"
+   ],
+   "activity": "Con la guía del asesor, armen una tarjeta de bolsillo con los números de ayuda (131, 133, 147, \\*4141 y 600 360 7777), el nombre y teléfono del asesor y del encargado de prevención, y los cuatro pasos del protocolo ABCD. Cada participante guarda una.",
+   "prayer": "Jesús, que lloraste ante la tumba de tu amigo: enséñanos a acompañar el dolor de los demás sin huir y sin dar respuestas fáciles. Cuida a quienes hoy piensan que no vale la pena vivir. Que encuentren a alguien que los escuche y los lleve a la ayuda que necesitan. Amén.",
+   "resources": [
+    {
+     "title": "Línea de prevención del suicidio del Ministerio de Salud",
+     "url": "https://www.minsal.cl/linea-de-atencion-4141-no-estas-solo-no-estas-sola/",
+     "note": "Llama al *4141, gratuito, las 24 horas."
+    }
+   ],
+   "comenzar": "Anota en tu cuaderno tres personas a las que acudirías si alguien de tu grupo estuviera en una situación muy grave. ¿Tienes sus números?",
+   "logros": [
+    "Acompañar una crisis de angustia y un duelo.",
+    "Actuar ante el riesgo de suicidio: no dejar solo, preguntar, no prometer secreto y avisar.",
+    "Actuar ante problemas graves en la familia."
+   ],
+   "profundizar": {
+    "titulo": "Señales de que alguien puede necesitar ayuda",
+    "texto": "Algunas señales que conviene tomar en serio y conversar con un adulto responsable:\n\n- Habla de **no querer vivir**, de ser una carga o de que nada tiene sentido.\n- Se **aísla** de sus amigos y actividades.\n- Cambia mucho su **sueño, su apetito o su ánimo**.\n- **Regala** sus cosas o se despide de manera extraña.\n- Aumenta el **consumo de alcohol o drogas**.\n- Muestra **lesiones** que intenta ocultar.\n\nAnte cualquiera de estas señales: acércate, pregunta cómo está y avisa a un adulto. No hace falta estar seguro para pedir ayuda."
+   },
+   "caso": {
+    "titulo": "El mensaje de noche",
+    "texto": "A las once de la noche, un compañero del grupo te escribe: «Ya no aguanto más, creo que lo mejor sería desaparecer». Después no responde más.",
+    "preguntas": [
+     "¿Qué haces en ese momento?",
+     "¿A quién llamas y en qué orden?"
+    ]
+   },
+   "claves": [
+    [
+     "Crisis de angustia",
+     "Episodio de miedo intenso con síntomas físicos que suele pasar en minutos."
+    ],
+    [
+     "Duelo",
+     "Proceso de dolor después de una pérdida importante."
+    ],
+    [
+     "Riesgo suicida",
+     "Situación en que una persona piensa en quitarse la vida; siempre se toma en serio."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús llora. ¿Qué te dice un Dios que llora con nosotros?",
+    "orar": "Reza por quienes están de duelo y por quienes sienten que no pueden más.",
+    "vivir": "Guarda en tu teléfono los números de ayuda de esta unidad."
+   },
+   "practica": [
+    "Armen la tarjeta de bolsillo.",
+    "Revisen juntos los pasos ante riesgo de suicidio.",
+    "Guarden los números en sus teléfonos.",
+    "Confirmen con el asesor a quién avisar de noche o en fin de semana."
+   ],
+   "idea": "Ante el riesgo, nunca solo y nunca en secreto."
+  },
+  {
+   "title": "Cuidar al que cuida",
+   "objective": "Reconocer el impacto emocional de acompañar a otros, cuidarse a uno mismo y sostener un equipo que se cuida.",
+   "intro": "Acompañar a alguien en una crisis deja huella. Es normal quedar cansado, triste, preocupado o con rabia. Quien cuida también necesita ser cuidado. En esta última unidad vas a aprender a cuidarte y a construir un equipo que se sostiene mutuamente.",
+   "sections": [
+    {
+     "title": "Lo que queda después",
+     "body": "Después de acompañar a alguien en una crisis, puedes sentir:\n\n- **Cansancio** físico y emocional.\n- **Preocupación** constante por la persona.\n- **Culpa:** «¿hice lo suficiente?».\n- **Tristeza o rabia** por lo que le pasó al otro.\n- **Dificultad para dormir** o para concentrarte.\n\nEs normal. No significa que seas débil, sino que te importa."
+    },
+    {
+     "title": "Autocuidado",
+     "body": "- **Habla de lo que viviste** con un adulto de confianza o con tu asesor, cuidando la privacidad de la persona acompañada.\n- **Descansa,** come bien, haz algo que te guste.\n- **Reza:** pon en manos de Dios a la persona y tu propia preocupación.\n- **Recuerda tus límites:** no eres responsable de salvar a nadie. Tu tarea fue acompañar y avisar.\n- **Pide ayuda profesional** si el malestar dura muchos días o es muy intenso."
+    },
+    {
+     "title": "Confidencialidad con límites",
+     "body": "Lo que alguien comparte en un momento de crisis se trata con **discreción**: no se comenta en el grupo, ni en chats, ni con amigos.\n\nPero la confidencialidad **tiene límites**: si hay riesgo para la vida o la seguridad de alguien, se informa a quien corresponde. Comunicar a un adulto responsable no es traicionar la confianza: es cuidar."
+    },
+    {
+     "title": "Un equipo que se cuida",
+     "body": "- **Nadie acompaña solo:** las situaciones serias siempre se comparten con el asesor.\n- **Espacios para conversar** cómo está el equipo, no solo las tareas.\n- **Formación periódica** en acompañamiento y salud mental.\n- **Contactos claros:** todos saben a quién llamar en una urgencia.\n- **Oración** por quienes sufren y por quienes acompañan."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 10,33-35 · El samaritano confía al herido al posadero",
+    "comment": "El samaritano cuida al herido, lo lleva a la posada y, al día siguiente, se lo confía al posadero: «Cuídalo, y lo que gastes de más te lo pagaré a mi vuelta». No lo abandona, pero tampoco lo hace todo solo. Saber confiar a otros es parte del buen cuidado."
+   },
+   "church": [
+    {
+     "source": "Gaudete et exsultate 147-149",
+     "text": "La santidad también incluye el descanso, la alegría y saber reconocer los propios límites.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo te sientes después de acompañar a alguien en un momento difícil?",
+    "¿Qué haces para descansar y recuperarte?",
+    "¿Con quién puedes hablar cuando algo te deja preocupado?",
+    "¿Qué necesita tu equipo para cuidarse mejor?"
+   ],
+   "activity": "Cada participante escribe su «plan de autocuidado»: tres cosas que lo ayudan a descansar, dos personas con quienes puede hablar y un momento semanal de oración. Como equipo, acuerden un espacio periódico para conversar cómo están.",
+   "prayer": "Señor Jesús, que nos invitas a ir a Ti cuando estamos cansados y agobiados: aquí estamos. Toma nuestras preocupaciones por quienes sufren y las nuestras. Enséñanos a cuidar sin olvidarnos de nosotros mismos, y a confiar a otros lo que no podemos cargar solos. Amén.",
+   "resources": [
+    {
+     "title": "Salud Responde",
+     "url": "https://saludresponde.minsal.cl/",
+     "note": "600 360 7777, también para orientación en salud mental."
+    }
+   ],
+   "comenzar": "Del 1 al 10, ¿qué tan cansado te sientes hoy, física y emocionalmente? ¿Qué te tiene así? ¿Qué te ayudaría a recuperar energía?",
+   "logros": [
+    "Reconocer el impacto emocional de acompañar.",
+    "Practicar el autocuidado y la confidencialidad con límites.",
+    "Construir un equipo que se cuida."
+   ],
+   "profundizar": {
+    "titulo": "Señales de desgaste",
+    "texto": "Conviene pedir ayuda o tomar distancia si notas:\n\n- Que estás **siempre cansado**, aunque duermas.\n- Que te **irritas** con facilidad.\n- Que **evitas** al grupo o las actividades.\n- Que sientes que **todo depende de ti**.\n- Que dejaste de lado tus estudios, tu familia o tus amigos.\n\nNo es fracasar: es reconocer que necesitas recuperar fuerzas para seguir sirviendo bien."
+   },
+   "caso": {
+    "titulo": "La dirigente que no duerme",
+    "texto": "Fernanda acompañó a una compañera del grupo durante una crisis muy fuerte. Ya pasaron dos semanas y la compañera está con ayuda profesional, pero Fernanda no puede dejar de pensar en eso, duerme mal y siente que debió hacer más.",
+    "preguntas": [
+     "¿Qué le está pasando a Fernanda?",
+     "¿Qué le recomendarías?"
+    ]
+   },
+   "claves": [
+    [
+     "Autocuidado",
+     "Acciones para cuidar la propia salud física, emocional y espiritual."
+    ],
+    [
+     "Desgaste",
+     "Cansancio profundo por la carga de cuidar a otros."
+    ],
+    [
+     "Confidencialidad con límites",
+     "Discreción que se rompe solo cuando hay riesgo para la vida o la seguridad."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El samaritano confía al herido al posadero. ¿Qué te cuesta confiar a otros?",
+    "orar": "Entrega a Jesús a las personas que te preocupan y tu propio cansancio.",
+    "vivir": "Cumple esta semana tu plan de autocuidado."
+   },
+   "practica": [
+    "Cada uno escribe su plan de autocuidado.",
+    "Compártanlo en parejas.",
+    "Acuerden un espacio periódico del equipo para conversar cómo están.",
+    "Recen unos por otros."
+   ],
+   "idea": "Quien cuida también necesita ser cuidado."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué son los primeros auxilios psicológicos?",
+   "options": [
+    "Una terapia breve.",
+    "Una ayuda breve e inmediata para aliviar, proteger y conectar con apoyo.",
+    "Un diagnóstico de salud mental."
+   ],
+   "correct": 1,
+   "feedback": "No reemplazan la atención profesional."
+  },
+  {
+   "q": "¿Qué significan las letras del protocolo ABCD?",
+   "options": [
+    "Atender, buscar, curar, despedir.",
+    "Escucha activa, reentrenamiento de la respiración, categorización de necesidades y derivación a redes.",
+    "Avisar, buscar, calmar, dormir."
+   ],
+   "correct": 1,
+   "feedback": "Es el protocolo de primera ayuda psicológica usado en Chile."
+  },
+  {
+   "q": "¿Cuál de estas frases ayuda a alguien en crisis?",
+   "options": [
+    "«No llores».",
+    "«Hay gente que está peor».",
+    "«Estoy aquí contigo, tómate tu tiempo»."
+   ],
+   "correct": 2,
+   "feedback": "Validar y acompañar ayuda más que minimizar."
+  },
+  {
+   "q": "En el ejercicio de respiración, ¿cómo se exhala?",
+   "options": [
+    "Más rápido que la inspiración.",
+    "Lentamente, más largo que la inspiración.",
+    "Reteniendo el aire un minuto."
+   ],
+   "correct": 1,
+   "feedback": "Inspirar en 4 y exhalar en 6 u 8 ayuda a calmar el cuerpo."
+  },
+  {
+   "q": "Si alguien dice que piensa en quitarse la vida, ¿qué haces?",
+   "options": [
+    "Le cambias el tema para que no piense en eso.",
+    "No lo dejas solo, escuchas, no prometes secreto y avisas de inmediato.",
+    "Esperas a ver si lo vuelve a decir."
+   ],
+   "correct": 1,
+   "feedback": "Siempre se toma en serio y se busca ayuda de inmediato."
+  },
+  {
+   "q": "¿Cuál es el número de la línea de prevención del suicidio del Ministerio de Salud?",
+   "options": [
+    "*4141",
+    "147",
+    "132"
+   ],
+   "correct": 0,
+   "feedback": "Es gratuita y funciona las 24 horas. Ante riesgo inmediato, 131."
+  },
+  {
+   "q": "¿Preguntar directamente a alguien si piensa en quitarse la vida aumenta el riesgo?",
+   "options": [
+    "Sí, siempre.",
+    "No; muchas veces alivia poder decirlo.",
+    "Solo si es menor de edad."
+   ],
+   "correct": 1,
+   "feedback": "Preguntar con respeto abre la puerta a pedir ayuda."
+  },
+  {
+   "q": "¿Cuándo se rompe la confidencialidad?",
+   "options": [
+    "Nunca.",
+    "Cuando hay riesgo para la vida o la seguridad de alguien.",
+    "Cuando el grupo quiere saber."
+   ],
+   "correct": 1,
+   "feedback": "Informar a un adulto responsable en esos casos es cuidar, no traicionar."
+  }
+ ]
+}

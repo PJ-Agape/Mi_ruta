@@ -1,0 +1,53 @@
+{
+ "curso": "buen-trato-y-prevencion",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Una Iglesia que cuida",
+   "semanas": "",
+   "intro": "Cuidar a cada persona, especialmente a los niños y jóvenes, es parte esencial del Evangelio. La Iglesia en Chile ha aprendido con dolor que la prevención no es opcional. Esta formación entrega criterios claros, reglas prácticas y pasos concretos para que nuestros grupos sean lugares sanos y seguros. Se recomienda que la hagan todos los que sirven, cualquiera sea su edad o función.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Una cultura del buen trato",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Ambientes seguros",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Escuchar y actuar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Cuidarnos entre todos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Buen trato y prevención",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

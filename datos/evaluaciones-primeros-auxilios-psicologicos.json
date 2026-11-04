@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Primeros auxilios psicológicos",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué son los primeros auxilios psicológicos?",
+    "opciones": [
+     "Una terapia breve.",
+     "Una ayuda breve e inmediata para aliviar, proteger y conectar con apoyo.",
+     "Un diagnóstico de salud mental."
+    ],
+    "correcta": 1,
+    "explicacion": "No reemplazan la atención profesional."
+   },
+   {
+    "pregunta": "¿Qué significan las letras del protocolo ABCD?",
+    "opciones": [
+     "Atender, buscar, curar, despedir.",
+     "Escucha activa, reentrenamiento de la respiración, categorización de necesidades y derivación a redes.",
+     "Avisar, buscar, calmar, dormir."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el protocolo de primera ayuda psicológica usado en Chile."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases ayuda a alguien en crisis?",
+    "opciones": [
+     "«No llores».",
+     "«Hay gente que está peor».",
+     "«Estoy aquí contigo, tómate tu tiempo»."
+    ],
+    "correcta": 2,
+    "explicacion": "Validar y acompañar ayuda más que minimizar."
+   },
+   {
+    "pregunta": "En el ejercicio de respiración, ¿cómo se exhala?",
+    "opciones": [
+     "Más rápido que la inspiración.",
+     "Lentamente, más largo que la inspiración.",
+     "Reteniendo el aire un minuto."
+    ],
+    "correcta": 1,
+    "explicacion": "Inspirar en 4 y exhalar en 6 u 8 ayuda a calmar el cuerpo."
+   },
+   {
+    "pregunta": "Si alguien dice que piensa en quitarse la vida, ¿qué haces?",
+    "opciones": [
+     "Le cambias el tema para que no piense en eso.",
+     "No lo dejas solo, escuchas, no prometes secreto y avisas de inmediato.",
+     "Esperas a ver si lo vuelve a decir."
+    ],
+    "correcta": 1,
+    "explicacion": "Siempre se toma en serio y se busca ayuda de inmediato."
+   },
+   {
+    "pregunta": "¿Cuál es el número de la línea de prevención del suicidio del Ministerio de Salud?",
+    "opciones": [
+     "*4141",
+     "147",
+     "132"
+    ],
+    "correcta": 0,
+    "explicacion": "Es gratuita y funciona las 24 horas. Ante riesgo inmediato, 131."
+   },
+   {
+    "pregunta": "¿Preguntar directamente a alguien si piensa en quitarse la vida aumenta el riesgo?",
+    "opciones": [
+     "Sí, siempre.",
+     "No; muchas veces alivia poder decirlo.",
+     "Solo si es menor de edad."
+    ],
+    "correcta": 1,
+    "explicacion": "Preguntar con respeto abre la puerta a pedir ayuda."
+   },
+   {
+    "pregunta": "¿Cuándo se rompe la confidencialidad?",
+    "opciones": [
+     "Nunca.",
+     "Cuando hay riesgo para la vida o la seguridad de alguien.",
+     "Cuando el grupo quiere saber."
+    ],
+    "correcta": 1,
+    "explicacion": "Informar a un adulto responsable en esos casos es cuidar, no traicionar."
+   }
+  ]
+ }
+}

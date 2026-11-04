@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Primeros auxilios",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es el orden correcto ante una emergencia?",
+    "opciones": [
+     "Socorrer, avisar, proteger.",
+     "Proteger, avisar, socorrer.",
+     "Avisar, socorrer, proteger."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero asegurar el lugar, luego pedir ayuda y después socorrer."
+   },
+   {
+    "pregunta": "¿Qué número llamas para una ambulancia en Chile?",
+    "opciones": [
+     "131",
+     "132",
+     "133"
+    ],
+    "correcta": 0,
+    "explicacion": "131 es SAMU; 132 Bomberos; 133 Carabineros."
+   },
+   {
+    "pregunta": "Si una persona no responde y no respira con normalidad, ¿qué haces?",
+    "opciones": [
+     "Le das agua.",
+     "Llamas al 131 e inicias compresiones en el centro del pecho.",
+     "Esperas a que despierte."
+    ],
+    "correcta": 1,
+    "explicacion": "Es un paro cardiorrespiratorio: cada minuto cuenta."
+   },
+   {
+    "pregunta": "¿A qué ritmo se hacen las compresiones torácicas?",
+    "opciones": [
+     "30 por minuto.",
+     "100 a 120 por minuto.",
+     "200 por minuto."
+    ],
+    "correcta": 1,
+    "explicacion": "Fuerte y rápido, dejando que el pecho vuelva a su posición."
+   },
+   {
+    "pregunta": "¿Qué se hace ante una quemadura?",
+    "opciones": [
+     "Poner pasta de dientes.",
+     "Enfriar con agua corriente fría durante 10 a 20 minutos.",
+     "Poner hielo directamente."
+    ],
+    "correcta": 1,
+    "explicacion": "No se usan hielo, pasta de dientes ni remedios caseros."
+   },
+   {
+    "pregunta": "Ante un sangrado de nariz, ¿cómo se pone la cabeza?",
+    "opciones": [
+     "Hacia atrás.",
+     "Hacia adelante, apretando la parte blanda de la nariz.",
+     "Acostado boca arriba."
+    ],
+    "correcta": 1,
+    "explicacion": "Hacia atrás la sangre puede tragarse o ir a la vía respiratoria."
+   },
+   {
+    "pregunta": "Durante una convulsión, ¿qué NO se debe hacer?",
+    "opciones": [
+     "Proteger la cabeza.",
+     "Poner algo en la boca de la persona o sujetarla.",
+     "Medir el tiempo."
+    ],
+    "correcta": 1,
+    "explicacion": "Se protege de golpes y, al terminar, se pone en posición lateral de seguridad."
+   },
+   {
+    "pregunta": "¿Esta formación reemplaza un curso práctico certificado?",
+    "opciones": [
+     "Sí, es suficiente.",
+     "No, lo complementa: los primeros auxilios se aprenden practicando.",
+     "Solo para mayores de 18 años."
+    ],
+    "correcta": 1,
+    "explicacion": "Inscríbanse en un curso con instructor y práctica en maniquí."
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Buen trato y prevención",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es el buen trato?",
+    "opciones": [
+     "No pegarle a nadie.",
+     "Una manera de relacionarse que reconoce la dignidad, respeta los límites y busca el bien del otro.",
+     "Ser simpático con todos."
+    ],
+    "correcta": 1,
+    "explicacion": "No es solo no hacer daño: es cuidar activamente."
+   },
+   {
+    "pregunta": "¿Qué tres formas de abuso nombra el papa Francisco?",
+    "opciones": [
+     "De poder, de conciencia y sexual.",
+     "Físico, verbal y económico.",
+     "Público, privado y digital."
+    ],
+    "correcta": 0,
+    "explicacion": "Suelen ir unidas: el abuso de poder y de conciencia abre la puerta a otros."
+   },
+   {
+    "pregunta": "¿Qué dice la regla de los dos adultos?",
+    "opciones": [
+     "Que cada joven debe venir con dos adultos.",
+     "Que en las actividades con menores hay al menos dos adultos responsables.",
+     "Que dos adultos deciden todo en el grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una de las reglas básicas de un ambiente seguro."
+   },
+   {
+    "pregunta": "¿Cómo debe ser la comunicación digital entre dirigentes y menores del grupo?",
+    "opciones": [
+     "Por chat privado para más confianza.",
+     "Grupal y transparente, con adultos responsables incluidos y en horarios razonables.",
+     "Solo de noche, cuando todos están libres."
+    ],
+    "correcta": 1,
+    "explicacion": "No hay chats privados entre adultos o dirigentes y menores."
+   },
+   {
+    "pregunta": "Si un joven te revela que alguien le hace daño, ¿qué NO debes hacer?",
+    "opciones": [
+     "Escuchar con calma y creerle.",
+     "Prometer guardar el secreto.",
+     "Avisar de inmediato al asesor o encargado."
+    ],
+    "correcta": 1,
+    "explicacion": "Para cuidarlo hay que pedir ayuda; por eso no se promete secreto."
+   },
+   {
+    "pregunta": "¿Quién puede denunciar un delito contra un menor en Chile?",
+    "opciones": [
+     "Solo los padres.",
+     "Cualquier persona; algunas, como directores y profesores, están obligadas por ley.",
+     "Solo la policía."
+    ],
+    "correcta": 1,
+    "explicacion": "Artículos 175 y 176 del Código Procesal Penal."
+   },
+   {
+    "pregunta": "¿Qué número es el Fono Niños de Carabineros?",
+    "opciones": [
+     "131",
+     "133",
+     "147"
+    ],
+    "correcta": 2,
+    "explicacion": "131 es SAMU y 133 es Carabineros."
+   },
+   {
+    "pregunta": "Si alguien te presiona para enviar fotos íntimas, ¿qué es lo correcto?",
+    "opciones": [
+     "Enviarlas para no perder la amistad.",
+     "No enviarlas y contarlo a un adulto de confianza; no es tu culpa.",
+     "Guardar silencio para no meterte en problemas."
+    ],
+    "correcta": 1,
+    "explicacion": "Producir o compartir imágenes sexuales de menores es un delito."
+   }
+  ]
+ }
+}
