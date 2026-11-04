@@ -1,4 +1,4 @@
-# Estudio AGP
+# Mi Ruta
 
 Aula virtual de formación para equipos de pastoral juvenil. Es un sitio estático (HTML, CSS y JavaScript) pensado para publicarse en GitHub Pages. No usa cuentas de usuario: los avances, las plantillas completadas y la bitácora de cada participante se guardan en su propio navegador.
 

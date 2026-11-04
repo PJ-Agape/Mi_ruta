@@ -1,4 +1,4 @@
-/* Estudio AGP: aula virtual estática.
+/* Mi Ruta: aula virtual estática.
    Rutas (hash):
      #/                         inicio
      #/curso/<id>               página del curso
@@ -105,7 +105,7 @@
 
   function pintar(html, titulo) {
     app.innerHTML = html;
-    document.title = titulo ? titulo + " · " + (sitio ? sitio.nombre : "Estudio AGP") : (sitio ? sitio.nombre : "Estudio AGP");
+    document.title = titulo ? titulo + " · " + (sitio ? sitio.nombre : "Mi Ruta") : (sitio ? sitio.nombre : "Mi Ruta");
     window.scrollTo(0, 0);
   }
 
