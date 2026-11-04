@@ -5,15 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mi Ruta</title>
   <meta name="description" content="Aula virtual de formación para equipos de pastoral juvenil.">
-  <meta name="theme-color" content="#1f3a4d">
+  <meta name="theme-color" content="#0b2566">
+  <link rel="icon" href="assets/icono.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icono-64.png" sizes="64x64" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icono-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="assets/fuentes/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fuentes/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/estilos.css">
 </head>
 <body>
   <header class="cabecera">
     <div class="cabecera-interior">
       <a class="marca" href="#/">
-        <span class="marca-sello" aria-hidden="true">M</span>
-        <span class="marca-nombre" id="marca-nombre">Mi Ruta</span>
+        <svg class="marca-sello" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11.5" fill="#ef591c"/><path d="M9 37 V14 L19 28 L29 14 V31" fill="none" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="37" cy="34" r="4.2" fill="#ffba03"/></svg>
+        <span class="marca-nombre" id="marca-nombre">Mi <em>Ruta</em></span>
       </a>
       <label class="interruptor" title="Muestra las guías para conducir cada encuentro">
         <input type="checkbox" id="modo-relator">
@@ -27,7 +33,7 @@
   </main>
 
   <footer class="pie">
-    <p class="pie-iniciativa">Una iniciativa de <a href="https://pj-agape.github.io/" target="_blank" rel="noopener">agAPPe</a></p>
+    <p class="pie-iniciativa">Una iniciativa de <a href="https://pj-agape.github.io/" target="_blank" rel="noopener" aria-label="agAPPe"><span class="ag-app" aria-hidden="true">ag<b>APP</b>e</span></a></p>
     <p>Tus avances, plantillas y bitácora se guardan solo en este dispositivo.</p>
   </footer>
 

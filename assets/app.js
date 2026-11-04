@@ -46,13 +46,20 @@
     return window.marked ? window.marked.parse(texto, { gfm: true, breaks: false }) : "<pre>" + esc(texto) + "</pre>";
   }
 
+  // «Mi Ruta» → «Mi <em>Ruta</em>»: la última palabra va en cursiva, como en el logo.
+  function nombreConEstilo(nombre) {
+    return esc(nombre).replace(/(\S+)$/, "<em>$1</em>");
+  }
+
+  var FIRMA = '<p class="firma">by <span class="ag-app" role="img" aria-label="agAPPe">ag<b>APP</b>e</span></p>';
+
   function modoRelator() { return almacen.leer("modoRelator", false); }
 
   function cargarSitio() {
     if (sitio) return Promise.resolve(sitio);
     return pedir("datos/sitio.json").then(function (s) {
       sitio = s;
-      document.getElementById("marca-nombre").textContent = s.nombre;
+      document.getElementById("marca-nombre").innerHTML = nombreConEstilo(s.nombre);
       return s;
     });
   }
@@ -137,7 +144,7 @@
 
   function vistaInicio() {
     return Promise.all(sitio.cursos.map(cargarCurso)).then(function (lista) {
-      var html = '<section class="portada"><h1>' + esc(sitio.nombre) + "</h1><p>" + esc(sitio.lema) + "</p></section>";
+      var html = '<section class="portada"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA + "<p>" + esc(sitio.lema) + "</p></section>";
       html += lista.map(function (c) {
         var p = progreso(c);
         return '<article class="tarjeta curso-tarjeta">' + (c.institucion ? '<p class="institucion">' + esc(c.institucion) + "</p>" : "") + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
