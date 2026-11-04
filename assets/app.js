@@ -303,7 +303,7 @@
       var tipoAcceso = acceso(c);
       if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
       var vistoOpt = false;
-      if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Se cursan en orden: cada uno se habilita al completar el anterior.</p>';
+      if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Algunos módulos se habilitan al completar otros; lo verás indicado en cada uno.</p>';
       c.modulos.forEach(function (m) {
         var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
         if (m.tipo === "optativo" && !vistoOpt) {
@@ -749,7 +749,7 @@
       d.tipo = "certificado";
       d.eyebrow = "CURSO · " + c.titulo.toUpperCase();
       d.titulo = c.titulo;
-      d.detalle = "por haber aprobado el curso " + c.titulo + ": " + obl.length + " módulos obligatorios y " + (c.elige || 0) + (c.elige === 1 ? " optativo" : " optativos") + ", con un total de " + c.horas + " horas de formación.";
+      d.detalle = "por haber aprobado el curso " + c.titulo + ": " + obl.length + " módulos" + (c.elige ? " obligatorios y " + c.elige + (c.elige === 1 ? " optativo" : " optativos") : "") + ", con un total de " + c.horas + " horas de formación.";
       d.contenidos = obl.concat(opt).map(function (m) { return m.titulo; });
       return d;
     }

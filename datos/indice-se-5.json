@@ -1,0 +1,61 @@
+{
+ "curso": "se-5",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura V: Exégesis A.T. II: Profetas",
+   "semanas": "",
+   "intro": "Los profetas fueron la conciencia de Israel: denunciaron la injusticia y la idolatría, consolaron en el exilio y mantuvieron viva la esperanza. En este módulo vas a conocer su mensaje en su contexto y su vigencia para hoy.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "¿Qué es un profeta?",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Los profetas del siglo VIII",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Jeremías y la caída de Jerusalén",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Profetas del exilio: Ezequiel y el Segundo Isaías",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Profetas después del exilio y la esperanza mesiánica",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura V: Exégesis A.T. II: Profetas",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

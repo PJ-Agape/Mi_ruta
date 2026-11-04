@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura V: Exégesis A.T. II: Profetas",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es principalmente un profeta bíblico?",
+    "opciones": [
+     "Un adivino del futuro",
+     "Alguien llamado a hablar en nombre de Dios al presente de su pueblo",
+     "Un sacerdote del Templo"
+    ],
+    "correcta": 1,
+    "explicacion": "Interpreta la historia desde Dios."
+   },
+   {
+    "pregunta": "¿Por qué se llaman «mayores» algunos profetas?",
+    "opciones": [
+     "Por su importancia",
+     "Por la extensión de sus libros",
+     "Por su edad"
+    ],
+    "correcta": 1,
+    "explicacion": "Isaías, Jeremías, Ezequiel y Daniel."
+   },
+   {
+    "pregunta": "¿Qué profeta dijo «que fluya el derecho como agua»?",
+    "opciones": [
+     "Oseas",
+     "Amós",
+     "Malaquías"
+    ],
+    "correcta": 1,
+    "explicacion": "Amós 5,24."
+   },
+   {
+    "pregunta": "¿Qué resume Miqueas 6,8?",
+    "opciones": [
+     "Practicar la justicia, amar la fidelidad y caminar humildemente con Dios",
+     "Ofrecer muchos sacrificios",
+     "Construir el Templo"
+    ],
+    "correcta": 0,
+    "explicacion": "Lo que Dios pide."
+   },
+   {
+    "pregunta": "¿Qué anuncia Jeremías 31,31-34?",
+    "opciones": [
+     "La destrucción del mundo",
+     "Una nueva alianza escrita en el corazón",
+     "El regreso de Elías"
+    ],
+    "correcta": 1,
+    "explicacion": "Jesús la retoma en la Última Cena."
+   },
+   {
+    "pregunta": "¿Qué imagen usa Ezequiel 37?",
+    "opciones": [
+     "Una escalera",
+     "Un valle de huesos secos que reviven",
+     "Una zarza ardiente"
+    ],
+    "correcta": 1,
+    "explicacion": "Dios devuelve la vida a su pueblo."
+   },
+   {
+    "pregunta": "¿Dónde están los cantos del Siervo?",
+    "opciones": [
+     "Isaías 40–55",
+     "Jeremías 1–10",
+     "Daniel 7"
+    ],
+    "correcta": 0,
+    "explicacion": "Isaías 42; 49; 50; 52–53."
+   },
+   {
+    "pregunta": "¿En qué contexto se escribió la forma final del libro de Daniel?",
+    "opciones": [
+     "El exilio",
+     "La crisis de los macabeos",
+     "El tiempo de David"
+    ],
+    "correcta": 1,
+    "explicacion": "Siglo II antes de Cristo."
+   }
+  ]
+ }
+}

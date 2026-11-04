@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Para qué escribió Juan su evangelio, según 20,31?",
+    "opciones": [
+     "Para contar la historia de Israel",
+     "Para que crean que Jesús es el Mesías y tengan vida",
+     "Para criticar a los sinópticos"
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el evangelio invita a creer."
+   },
+   {
+    "pregunta": "¿Cómo se llama a los milagros en Juan?",
+    "opciones": [
+     "Prodigios",
+     "Signos",
+     "Parábolas"
+    ],
+    "correcta": 1,
+    "explicacion": "Remiten a la identidad de Jesús."
+   },
+   {
+    "pregunta": "¿Cuál es el primer signo de Jesús en Juan?",
+    "opciones": [
+     "La multiplicación de los panes",
+     "El agua convertida en vino en Caná",
+     "La resurrección de Lázaro"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 2,1-11."
+   },
+   {
+    "pregunta": "¿Qué evoca el «Yo soy» absoluto de Jesús?",
+    "opciones": [
+     "El nombre de Dios revelado a Moisés",
+     "Un título político",
+     "Una parábola"
+    ],
+    "correcta": 0,
+    "explicacion": "Éxodo 3,14."
+   },
+   {
+    "pregunta": "¿Qué gesto narra Juan en la Última Cena en lugar de la institución de la Eucaristía?",
+    "opciones": [
+     "La unción en Betania",
+     "El lavatorio de los pies",
+     "La traición de Judas"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 13."
+   },
+   {
+    "pregunta": "¿Cuáles son las últimas palabras de Jesús en Juan?",
+    "opciones": [
+     "Padre, perdónalos",
+     "Todo está cumplido",
+     "En tus manos encomiendo mi espíritu"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 19,30."
+   },
+   {
+    "pregunta": "¿Qué confiesa Tomás ante Jesús resucitado?",
+    "opciones": [
+     "Tú eres el Mesías",
+     "Señor mío y Dios mío",
+     "Rabbuní"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 20,28."
+   },
+   {
+    "pregunta": "¿Qué afirma 1 Juan 4,8?",
+    "opciones": [
+     "Dios es luz",
+     "Dios es amor",
+     "Dios es juez"
+    ],
+    "correcta": 1,
+    "explicacion": "La definición más breve de Dios en la Biblia."
+   }
+  ]
+ }
+}

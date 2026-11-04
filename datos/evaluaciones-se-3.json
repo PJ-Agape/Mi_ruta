@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué son los evangelios sinópticos?",
+    "opciones": [
+     "Mateo, Marcos y Lucas, que se pueden leer en paralelo",
+     "Los cuatro evangelios",
+     "Los evangelios apócrifos"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinóptico significa que se puede ver en conjunto."
+   },
+   {
+    "pregunta": "Según la teoría de las dos fuentes, ¿qué evangelio se escribió primero?",
+    "opciones": [
+     "Mateo",
+     "Marcos",
+     "Lucas"
+    ],
+    "correcta": 1,
+    "explicacion": "Mateo y Lucas habrían usado a Marcos."
+   },
+   {
+    "pregunta": "¿Cuál es la bisagra del evangelio de Marcos?",
+    "opciones": [
+     "El sermón de la montaña",
+     "La confesión de Pedro en Cesarea de Filipo",
+     "El nacimiento de Jesús"
+    ],
+    "correcta": 1,
+    "explicacion": "Marcos 8,27-30."
+   },
+   {
+    "pregunta": "¿Quién confiesa primero plenamente a Jesús como Hijo de Dios en Marcos?",
+    "opciones": [
+     "Pedro",
+     "El centurión al pie de la cruz",
+     "María Magdalena"
+    ],
+    "correcta": 1,
+    "explicacion": "Marcos 15,39."
+   },
+   {
+    "pregunta": "¿Cuántos grandes discursos organiza Mateo?",
+    "opciones": [
+     "Tres",
+     "Cinco",
+     "Siete"
+    ],
+    "correcta": 1,
+    "explicacion": "Evocan los cinco libros de Moisés."
+   },
+   {
+    "pregunta": "¿Qué evangelio usa la palabra «iglesia»?",
+    "opciones": [
+     "Marcos",
+     "Mateo",
+     "Lucas"
+    ],
+    "correcta": 1,
+    "explicacion": "Mateo 16,18 y 18,17."
+   },
+   {
+    "pregunta": "¿Qué parábola es propia de Lucas?",
+    "opciones": [
+     "El sembrador",
+     "El hijo pródigo",
+     "El grano de mostaza"
+    ],
+    "correcta": 1,
+    "explicacion": "Lucas 15."
+   },
+   {
+    "pregunta": "¿Qué versículo funciona como índice de los Hechos de los Apóstoles?",
+    "opciones": [
+     "Hechos 1,8",
+     "Hechos 2,42",
+     "Hechos 28,31"
+    ],
+    "correcta": 0,
+    "explicacion": "Jerusalén, Judea y Samaria, y los confines de la tierra."
+   }
+  ]
+ }
+}

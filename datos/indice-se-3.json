@@ -1,0 +1,61 @@
+{
+ "curso": "se-3",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+   "semanas": "",
+   "intro": "Marcos, Mateo y Lucas cuentan la historia de Jesús de forma muy parecida, por eso se llaman sinópticos (se pueden «ver juntos»). Pero cada uno tiene su mirada. En este módulo vas a aprender a leer cada evangelio con su propio acento, y a seguir con Lucas la misión de la Iglesia en los Hechos.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "La cuestión sinóptica",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Marcos: el evangelio del discípulo",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Mateo: Jesús, el Maestro y el Mesías de Israel",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Lucas: el evangelio de la misericordia",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Hechos de los Apóstoles: el Espíritu impulsa la misión",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

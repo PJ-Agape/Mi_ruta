@@ -1,0 +1,585 @@
+{
+ "id": "se-8",
+ "titulo": "Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+ "subtitulo": "El cuarto evangelio y las cartas de Juan",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio del evangelio de Juan y sus cartas: autor y comunidad, el prólogo y los signos, los discursos y los «Yo soy», la hora de la gloria y el mensaje de que Dios es amor. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+ "intro": "El evangelio de Juan es distinto de los sinópticos: más contemplativo, con largos diálogos y símbolos profundos. Lo llamaron el evangelio espiritual. En este módulo vas a aprender a leerlo para creer y tener vida.",
+ "taller": "Cada participante prepara una lectio divina guiada de 20 minutos sobre un encuentro de Jesús en Juan (Nicodemo, la samaritana, el ciego de nacimiento, Marta y María, María Magdalena), con lectura, preguntas de meditación, momento de oración y compromiso. La guía con un grupo pequeño y recibe retroalimentación.",
+ "unidades": [
+  {
+   "title": "El cuarto evangelio: autor, comunidad y propósito",
+   "objective": "Conocer el origen, la estructura y el propósito del evangelio de Juan, y sus diferencias con los sinópticos.",
+   "intro": "Juan dice claramente para qué escribió: «para que crean que Jesús es el Mesías, el Hijo de Dios, y creyendo tengan vida en su nombre» (20,31). En esta unidad vas a conocer su origen y su forma.",
+   "sections": [
+    {
+     "title": "El discípulo amado",
+     "body": "El evangelio se atribuye a un testigo llamado «**el discípulo que Jesús amaba**», que aparece en la Última Cena, al pie de la cruz y en el sepulcro. La tradición lo identificó con el apóstol Juan. Muchos estudiosos piensan que el evangelio es fruto de una comunidad que se formó en torno a ese testigo y que recibió su forma final hacia fines del siglo I."
+    },
+    {
+     "title": "Diferencias con los sinópticos",
+     "body": "- Jesús va varias veces a **Jerusalén**; su ministerio parece durar unos tres años (tres Pascuas).\n- En lugar de parábolas breves hay **largos discursos** y diálogos.\n- Los milagros se llaman **signos**.\n- Faltan episodios como la institución de la Eucaristía, que se reemplaza por el **lavatorio de los pies**.\n- Destaca la identidad divina de Jesús desde el comienzo."
+    },
+    {
+     "title": "Estructura",
+     "body": "- **Prólogo** (1,1-18).\n- **Libro de los signos** (1,19–12,50): Jesús se revela con signos y discursos.\n- **Libro de la gloria** (13–20): la hora de Jesús, su pasión, muerte y resurrección.\n- **Epílogo** (21): aparición junto al lago y misión de Pedro."
+    },
+    {
+     "title": "Un lenguaje simbólico",
+     "body": "Juan usa símbolos con dos niveles de sentido: agua, luz, pan, vida, noche, ver, creer. Los personajes muchas veces entienden mal a Jesús (Nicodemo piensa que debe volver al vientre de su madre). El lector está invitado a pasar del sentido material al espiritual."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 20,30-31 · Para que crean y tengan vida",
+    "comment": "Juan reconoce que Jesús hizo muchos otros signos que no están escritos. Estos fueron escritos para que crean que Jesús es el Mesías, el Hijo de Dios, y creyendo tengan vida en su nombre. Todo el evangelio es una invitación a creer."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 19",
+     "text": "Los evangelistas escribieron los cuatro evangelios con la intención de que conozcamos la verdad de lo que nos han enseñado.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 514-515",
+     "text": "Los evangelios fueron escritos por hombres que se contaron entre los primeros que tuvieron fe y quisieron compartirla.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué diferencias notas entre Juan y los sinópticos?",
+    "¿Qué te dice que el autor se llame a sí mismo «el discípulo amado»?",
+    "¿Qué símbolo de Juan te atrae más?",
+    "¿Qué significa «creer y tener vida»?"
+   ],
+   "activity": "Comparen la expulsión de los vendedores del Templo en Juan 2,13-22 y en Marcos 11,15-19: ubicación en el evangelio, detalles y significado. Conversen por qué Juan lo pone al comienzo.",
+   "prayer": "Señor Jesús, que llamaste discípulo amado a quien reclinó la cabeza en tu pecho: quiero ser también tu discípulo amado. Que al leer el evangelio de Juan crea más en ti y tenga vida en tu nombre. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 19",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe qué significa para ti «tener vida en abundancia».",
+   "logros": [
+    "Conocer el origen y el propósito del evangelio de Juan.",
+    "Distinguirlo de los sinópticos.",
+    "Reconocer su estructura y su lenguaje simbólico."
+   ],
+   "profundizar": {
+    "titulo": "El evangelio espiritual",
+    "texto": "Clemente de Alejandría, en el siglo II, llamó a Juan el «evangelio espiritual», porque, conociendo los otros, profundizó en el sentido interior de los hechos de Jesús."
+   },
+   "caso": {
+    "titulo": "«Juan inventó cosas»",
+    "texto": "Un participante dice que Juan no es confiable porque cuenta cosas distintas que los otros.",
+    "preguntas": [
+     "¿Cómo explicarías el estilo de Juan?",
+     "¿Qué aporta su mirada?"
+    ]
+   },
+   "claves": [
+    [
+     "Discípulo amado",
+     "Testigo al que se atribuye el cuarto evangelio."
+    ],
+    [
+     "Signos",
+     "Nombre de los milagros en Juan."
+    ],
+    [
+     "Libro de la gloria",
+     "Juan 13–20, la hora de Jesús."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Para que crean y tengan vida. ¿Qué te falta para creer más?",
+    "orar": "Pide la fe del discípulo amado.",
+    "vivir": "Lee esta semana Juan 1–4."
+   },
+   "practica": [
+    "Lean los dos textos.",
+    "Comparen.",
+    "Interpreten.",
+    "Compartan."
+   ],
+   "idea": "Juan escribió para que creamos y tengamos vida."
+  },
+  {
+   "title": "El prólogo y los signos",
+   "objective": "Comprender el prólogo de Juan y el sentido de los siete signos del libro de los signos.",
+   "intro": "El evangelio de Juan comienza como el Génesis: «En el principio». El prólogo es un himno que presenta a Jesús como la Palabra eterna de Dios hecha carne. Luego, siete signos van revelando quién es.",
+   "sections": [
+    {
+     "title": "En el principio era la Palabra",
+     "body": "El prólogo (1,1-18) afirma que la **Palabra** (en griego, Logos) existía desde el principio junto a Dios y era Dios; que por ella todo fue hecho; que es vida y luz; que vino a los suyos y no la recibieron; y que **«la Palabra se hizo carne y habitó entre nosotros»** (1,14). A los que la reciben les da poder de ser hijos de Dios."
+    },
+    {
+     "title": "Los siete signos",
+     "body": "Juan narra siete signos en la primera parte:\n\n1. Agua convertida en vino en Caná (2).\n2. Curación del hijo de un funcionario (4).\n3. Curación del paralítico en Betesda (5).\n4. Multiplicación de los panes (6).\n5. Jesús camina sobre el agua (6).\n6. Curación del ciego de nacimiento (9).\n7. Resurrección de Lázaro (11)."
+    },
+    {
+     "title": "Qué es un signo",
+     "body": "Un **signo** no es solo un hecho extraordinario: es una señal que remite a algo más profundo, a la identidad de Jesús. El agua convertida en vino revela que llega la alegría de la alianza nueva; el pan, que Jesús es el pan de vida; la curación del ciego, que es la luz del mundo; Lázaro, que es la resurrección."
+    },
+    {
+     "title": "Encuentros que transforman",
+     "body": "Juan presenta encuentros personales con Jesús: **Nicodemo** (3), que viene de noche; la **samaritana** (4), que se convierte en misionera; el **ciego de nacimiento** (9), que pasa de no ver a creer. Cada uno es un camino de fe que el lector puede recorrer."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 2,1-11 · Las bodas de Caná",
+    "comment": "En una boda falta el vino. María le dice a Jesús y luego a los sirvientes: «Hagan todo lo que él les diga». Jesús convierte el agua en vino abundante y bueno. Es el primero de sus signos: manifestó su gloria y sus discípulos creyeron en él."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 456-460",
+     "text": "El Verbo se encarnó para salvarnos, para que conociésemos el amor de Dios, para ser nuestro modelo y para hacernos partícipes de la naturaleza divina.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 547-549",
+     "text": "Jesús acompaña sus palabras con signos que manifiestan que el Reino está presente en él y atestiguan que es el Mesías.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te dice que la Palabra se haya hecho carne?",
+    "¿Qué «vino» falta hoy en tu vida o comunidad?",
+    "¿Qué signo de Juan te habla más?",
+    "¿Con cuál de los personajes que se encuentran con Jesús te identificas?"
+   ],
+   "activity": "En grupos, cada uno toma un signo, lo lee y responde: ¿qué hace Jesús?, ¿qué revela de él?, ¿cómo reaccionan los personajes?, ¿qué invita a creer? Presentan en cinco minutos.",
+   "prayer": "Palabra eterna del Padre, que te hiciste carne y habitaste entre nosotros: quiero recibirte. Transforma el agua de mi vida en vino de alegría, abre mis ojos como al ciego y llámame a la vida como a Lázaro. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 456-460",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe un momento en que sentiste que Jesús «convirtió el agua en vino» en tu vida.",
+   "logros": [
+    "Explicar el prólogo de Juan.",
+    "Conocer los siete signos.",
+    "Comprender el sentido de signo en Juan."
+   ],
+   "profundizar": {
+    "titulo": "La Navidad y el prólogo",
+    "texto": "El prólogo de Juan se lee en la misa del día de Navidad. Mientras Lucas cuenta el nacimiento en Belén, Juan contempla su sentido: la Palabra eterna se hizo carne."
+   },
+   "caso": {
+    "titulo": "«¿Por qué Jesús no hace milagros hoy?»",
+    "texto": "Un adolescente pregunta en la catequesis por qué Jesús no hace hoy milagros como en el evangelio.",
+    "preguntas": [
+     "¿Qué enseña el concepto de signo?",
+     "¿Dónde podemos ver hoy signos de Dios?"
+    ]
+   },
+   "claves": [
+    [
+     "Logos",
+     "Palabra; nombre de Jesús en el prólogo."
+    ],
+    [
+     "Encarnación",
+     "La Palabra se hizo carne."
+    ],
+    [
+     "Signo",
+     "Hecho que revela la identidad de Jesús."
+    ]
+   ],
+   "lectio": {
+    "meditar": "La Palabra se hizo carne. ¿Dónde se hace carne hoy?",
+    "orar": "Reza el prólogo de Juan lentamente.",
+    "vivir": "Haz lo que Jesús te diga, como pidió María."
+   },
+   "practica": [
+    "Elijan un signo.",
+    "Respondan las preguntas.",
+    "Preparen la presentación.",
+    "Presenten."
+   ],
+   "idea": "Los signos revelan quién es Jesús para que creamos."
+  },
+  {
+   "title": "Los discursos y los «Yo soy»",
+   "objective": "Conocer los grandes discursos de Jesús en Juan y las afirmaciones «Yo soy».",
+   "intro": "En Juan, Jesús habla mucho de sí mismo. Usa la expresión «Yo soy», que evoca el nombre de Dios revelado a Moisés. Sus discursos invitan a una relación personal con él.",
+   "sections": [
+    {
+     "title": "Los «Yo soy» con imagen",
+     "body": "Jesús dice:\n\n- «Yo soy el **pan de vida**» (6,35).\n- «Yo soy la **luz del mundo**» (8,12).\n- «Yo soy la **puerta**» (10,9).\n- «Yo soy el **buen pastor**» (10,11).\n- «Yo soy la **resurrección y la vida**» (11,25).\n- «Yo soy el **camino, la verdad y la vida**» (14,6).\n- «Yo soy la **vid verdadera**» (15,1)."
+    },
+    {
+     "title": "El «Yo soy» absoluto",
+     "body": "En algunos pasajes Jesús dice simplemente «Yo soy», sin complemento: «Antes que Abraham existiera, Yo soy» (8,58). Evoca el nombre de Dios en Éxodo 3,14. Por eso sus oyentes quieren apedrearlo: entienden que se atribuye la identidad divina."
+    },
+    {
+     "title": "El discurso del pan de vida",
+     "body": "En el capítulo 6, después de multiplicar los panes, Jesús se presenta como el pan bajado del cielo: «El que come mi carne y bebe mi sangre tiene vida eterna». Muchos discípulos se van. Pedro dice: «Señor, ¿a quién iremos? Tú tienes palabras de vida eterna». La Iglesia lee este discurso en relación con la Eucaristía."
+    },
+    {
+     "title": "El discurso de despedida",
+     "body": "En la Última Cena (13–17), Jesús se despide: lava los pies, da el **mandamiento nuevo** («ámense como yo los he amado»), promete el **Espíritu Santo** Paráclito, se presenta como la vid y reza por la unidad de sus discípulos (capítulo 17)."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 15,1-11 · Yo soy la vid",
+    "comment": "Jesús es la vid verdadera y los discípulos, los sarmientos. El que permanece en él da mucho fruto, porque sin él no pueden hacer nada. Les dice esto para que su alegría esté en ellos y sea plena. Permanecer en Jesús es el secreto de toda vida cristiana y de todo servicio pastoral."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 589-590",
+     "text": "Jesús se atribuye prerrogativas divinas, como perdonar pecados, y al decir «Yo soy» revela su identidad divina.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1336 y 1406",
+     "text": "El discurso del pan de vida anuncia la Eucaristía: el que come este pan vivirá para siempre.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué «Yo soy» necesitas escuchar hoy?",
+    "¿Qué significa para ti «permanecer» en Jesús?",
+    "¿Te has sentido alguna vez como los discípulos que se iban?",
+    "¿Cómo vives el mandamiento nuevo en tu servicio?"
+   ],
+   "activity": "Cada participante elige un «Yo soy» y prepara una imagen o símbolo para presentarlo en una oración comunitaria: lectura del texto, el símbolo y una frase personal.",
+   "prayer": "Señor Jesús, tú eres el pan, la luz, la puerta, el pastor, la resurrección, el camino y la vid. ¿A quién iremos? Solo tú tienes palabras de vida eterna. Quiero permanecer en ti y dar fruto. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 589-590",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Completa: «Jesús, para mí tú eres…».",
+   "logros": [
+    "Conocer los «Yo soy» de Juan.",
+    "Comprender el discurso del pan de vida.",
+    "Conocer los temas del discurso de despedida."
+   ],
+   "profundizar": {
+    "titulo": "El Paráclito",
+    "texto": "Jesús llama al Espíritu Santo «Paráclito»: abogado, defensor, consolador, el que está al lado. Promete que estará siempre con los discípulos y les enseñará todo (14,16.26)."
+   },
+   "caso": {
+    "titulo": "El grupo que se queda sin gente",
+    "texto": "Después de un retiro exigente, varios jóvenes dejan el grupo. Los dirigentes se preguntan si fueron demasiado exigentes.",
+    "preguntas": [
+     "¿Qué enseña Juan 6,60-69?",
+     "¿Cómo discernir entre exigencia evangélica y dureza?"
+    ]
+   },
+   "claves": [
+    [
+     "Yo soy",
+     "Expresión con que Jesús revela su identidad."
+    ],
+    [
+     "Paráclito",
+     "Nombre del Espíritu Santo en Juan."
+    ],
+    [
+     "Mandamiento nuevo",
+     "Ámense como yo los he amado."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Permanezcan en mi amor. ¿Qué te aleja de Jesús?",
+    "orar": "Reza el capítulo 17 de Juan.",
+    "vivir": "Ama a alguien esta semana como Jesús te ama."
+   },
+   "practica": [
+    "Elijan un «Yo soy».",
+    "Preparen el símbolo.",
+    "Organicen la oración.",
+    "Recen juntos."
+   ],
+   "idea": "Sin Jesús no podemos hacer nada; con él damos fruto."
+  },
+  {
+   "title": "El libro de la gloria: pasión y resurrección",
+   "objective": "Comprender cómo presenta Juan la pasión, la muerte y la resurrección de Jesús como la hora de su glorificación.",
+   "intro": "En Juan, la cruz no es solo sufrimiento: es la hora en que Jesús es glorificado, el momento en que muestra hasta dónde llega el amor. Su relato de la pasión tiene un tono distinto: Jesús es rey incluso en la cruz.",
+   "sections": [
+    {
+     "title": "La hora",
+     "body": "Durante todo el evangelio se dice que «no había llegado su hora». En la Última Cena llega: «Sabiendo Jesús que había llegado su hora de pasar de este mundo al Padre, habiendo amado a los suyos, los amó hasta el extremo» (13,1). La hora es la cruz y la resurrección."
+    },
+    {
+     "title": "Un rey en la cruz",
+     "body": "En Juan, Jesús domina la escena: los soldados caen al suelo cuando dice «Yo soy» (18,6); ante Pilato habla de su reino que no es de este mundo; el letrero de la cruz está en tres lenguas. Jesús carga su cruz solo y muere diciendo «**Todo está cumplido**» (19,30)."
+    },
+    {
+     "title": "Al pie de la cruz",
+     "body": "Junto a la cruz están **María** y el **discípulo amado**. Jesús les dice: «Mujer, ahí tienes a tu hijo… ahí tienes a tu madre» (19,26-27). La tradición ve aquí a María como madre de la Iglesia. Del costado traspasado brotan **sangre y agua**, que los Padres leyeron como signo de la Eucaristía y el bautismo."
+    },
+    {
+     "title": "La resurrección",
+     "body": "**María Magdalena** va al sepulcro de madrugada y lo encuentra vacío. Pedro y el discípulo amado corren; el discípulo «vio y creyó». Jesús se aparece a María, que lo reconoce cuando la llama por su nombre, y la envía a anunciar. Luego se aparece a los discípulos, les da el Espíritu y la paz. **Tomás** pasa de la duda a la confesión: «¡Señor mío y Dios mío!» (20,28)."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 20,11-18 · «¡María!»",
+    "comment": "María Magdalena llora junto al sepulcro. Jesús le pregunta por qué llora; ella cree que es el jardinero. Cuando Jesús la llama por su nombre, lo reconoce: «¡Rabbuní!». Jesús la envía a anunciar a los discípulos. La tradición la llama «apóstol de los apóstoles»."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 640-644",
+     "text": "El sepulcro vacío y las apariciones del Resucitado a las mujeres y a los discípulos fundan la fe pascual.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 964",
+     "text": "La unión de María con su Hijo se manifiesta al pie de la cruz, donde Jesús la dio como madre al discípulo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te dice que Juan vea la cruz como gloria?",
+    "¿Qué significa para ti que Jesús te dé a María como madre?",
+    "¿Cuándo sentiste que Jesús te llamaba por tu nombre?",
+    "¿Te identificas con Tomás?"
+   ],
+   "activity": "Lean en voz alta, con distintos lectores, la pasión según Juan (18–19), como se hace el Viernes Santo. Después, en silencio, cada uno escribe la frase que más lo tocó y la comparte.",
+   "prayer": "Señor Jesús, que nos amaste hasta el extremo y en la cruz dijiste «todo está cumplido»: gracias por tu amor. Llámame por mi nombre como a María Magdalena y hazme testigo de tu resurrección. Señor mío y Dios mío. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 640-644",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe qué significa para ti «amar hasta el extremo».",
+   "logros": [
+    "Comprender la «hora» en Juan.",
+    "Reconocer los rasgos propios de la pasión según Juan.",
+    "Conocer los relatos de resurrección de Juan."
+   ],
+   "profundizar": {
+    "titulo": "Viernes Santo",
+    "texto": "La liturgia del Viernes Santo lee siempre la pasión según Juan, porque presenta la cruz como trono del Rey y fuente de vida."
+   },
+   "caso": {
+    "titulo": "La duda de Tomás",
+    "texto": "Un joven confirmado dice que tiene muchas dudas de fe y que se siente mal por eso.",
+    "preguntas": [
+     "¿Qué aporta el relato de Tomás?",
+     "¿Cómo lo acompañarías?"
+    ]
+   },
+   "claves": [
+    [
+     "La hora",
+     "Momento de la glorificación de Jesús en la cruz y la resurrección."
+    ],
+    [
+     "Todo está cumplido",
+     "Últimas palabras de Jesús en Juan."
+    ],
+    [
+     "Apóstol de los apóstoles",
+     "Título tradicional de María Magdalena."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Los amó hasta el extremo. ¿Hasta dónde amas tú?",
+    "orar": "Contempla un crucifijo en silencio.",
+    "vivir": "Anuncia esta semana la alegría de la resurrección a alguien."
+   },
+   "practica": [
+    "Repartan los roles.",
+    "Lean la pasión.",
+    "Escriban la frase.",
+    "Compartan."
+   ],
+   "idea": "La cruz es la hora en que el amor llega al extremo."
+  },
+  {
+   "title": "Las cartas de Juan: Dios es amor",
+   "objective": "Conocer el mensaje de las tres cartas de Juan, especialmente la primera, y su enseñanza sobre el amor.",
+   "intro": "Las tres cartas de Juan nacen de la misma tradición que el evangelio. La primera contiene la definición más breve y profunda de Dios en toda la Biblia: «Dios es amor».",
+   "sections": [
+    {
+     "title": "Una comunidad en crisis",
+     "body": "Las cartas reflejan una comunidad dividida: algunos se separaron y negaban que Jesús hubiera venido verdaderamente en la carne. El autor insiste en la fe en la encarnación y en el amor fraterno como señales de la verdadera comunión con Dios."
+    },
+    {
+     "title": "Dios es luz y Dios es amor",
+     "body": "La primera carta dice que «Dios es luz» (1,5) y que «**Dios es amor**» (4,8.16). Por eso, el que ama ha nacido de Dios y conoce a Dios; el que no ama no ha conocido a Dios. El amor no empieza en nosotros: «Él nos amó primero» (4,19)."
+    },
+    {
+     "title": "Amor concreto",
+     "body": "Juan es muy concreto: «Si alguien dice: amo a Dios, y no ama a su hermano, es un mentiroso» (4,20). «No amemos solo con palabras, sino con obras y de verdad» (3,18). Y si alguien tiene bienes y ve a su hermano necesitado y no lo ayuda, ¿cómo permanece en él el amor de Dios? (3,17)."
+    },
+    {
+     "title": "Las cartas breves",
+     "body": "La **segunda** y la **tercera** carta son muy breves, como notas personales. Hablan de caminar en la verdad, de la hospitalidad con los misioneros y de un líder, Diótrefes, que buscaba el primer lugar y no recibía a los hermanos."
+    }
+   ],
+   "bible": {
+    "ref": "1 Juan 4,7-12 · Dios es amor",
+    "comment": "Amémonos unos a otros, porque el amor viene de Dios. El que no ama no ha conocido a Dios, porque Dios es amor. En esto consiste el amor: no en que nosotros hayamos amado a Dios, sino en que él nos amó y envió a su Hijo. Si nos amamos, Dios permanece en nosotros."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 221",
+     "text": "San Juan afirma que Dios es amor; el ser mismo de Dios es amor, y al enviar a su Hijo y al Espíritu revela su secreto más íntimo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2822-2827",
+     "text": "La voluntad del Padre es que nos amemos unos a otros como Él nos ha amado.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué cambia saber que Dios te amó primero?",
+    "¿Dónde amas solo con palabras?",
+    "¿Qué necesidad de un hermano estás viendo y no ayudas?",
+    "¿Qué te dice la figura de Diótrefes sobre el liderazgo?"
+   ],
+   "activity": "Cada participante escribe una carta breve, al estilo de 2 o 3 Juan, a alguien de su comunidad, agradeciendo su amor concreto o animándolo. Al final, se proponen un gesto de amor con obras para la semana.",
+   "prayer": "Dios, que eres amor y nos amaste primero: gracias por enviar a tu Hijo. Que no ame solo con palabras, sino con obras y de verdad. Que tu amor permanezca en mí y se note en cómo trato a mis hermanos. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 221",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una forma concreta en que puedes amar con obras esta semana.",
+   "logros": [
+    "Conocer el contexto de las cartas de Juan.",
+    "Comprender la afirmación «Dios es amor».",
+    "Relacionar fe y amor concreto."
+   ],
+   "profundizar": {
+    "titulo": "Deus caritas est",
+    "texto": "La primera encíclica de Benedicto XVI (2005) toma su título de 1 Juan 4,16: Dios es amor. Reflexiona sobre el amor de Dios y sobre la caridad de la Iglesia."
+   },
+   "caso": {
+    "titulo": "El servicio sin amor",
+    "texto": "Un dirigente organiza todo perfectamente, pero trata mal a los jóvenes y a sus compañeros.",
+    "preguntas": [
+     "¿Qué diría la primera carta de Juan?",
+     "¿Cómo se lo dirías tú?"
+    ]
+   },
+   "claves": [
+    [
+     "Dios es amor",
+     "Afirmación central de 1 Juan 4,8.16."
+    ],
+    [
+     "Amor fraterno",
+     "Amor entre los miembros de la comunidad."
+    ],
+    [
+     "Encarnación",
+     "Jesús vino verdaderamente en la carne."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Él nos amó primero. ¿Cómo has experimentado ese amor?",
+    "orar": "Reza 1 Juan 4,7-12 cada noche.",
+    "vivir": "Ama con obras a alguien que lo necesita."
+   },
+   "practica": [
+    "Escriban la carta.",
+    "Compártanla.",
+    "Propongan un gesto.",
+    "Recen juntos."
+   ],
+   "idea": "Dios es amor, y quien ama permanece en Dios."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Para qué escribió Juan su evangelio, según 20,31?",
+   "options": [
+    "Para contar la historia de Israel",
+    "Para que crean que Jesús es el Mesías y tengan vida",
+    "Para criticar a los sinópticos"
+   ],
+   "correct": 1,
+   "feedback": "Todo el evangelio invita a creer."
+  },
+  {
+   "q": "¿Cómo se llama a los milagros en Juan?",
+   "options": [
+    "Prodigios",
+    "Signos",
+    "Parábolas"
+   ],
+   "correct": 1,
+   "feedback": "Remiten a la identidad de Jesús."
+  },
+  {
+   "q": "¿Cuál es el primer signo de Jesús en Juan?",
+   "options": [
+    "La multiplicación de los panes",
+    "El agua convertida en vino en Caná",
+    "La resurrección de Lázaro"
+   ],
+   "correct": 1,
+   "feedback": "Juan 2,1-11."
+  },
+  {
+   "q": "¿Qué evoca el «Yo soy» absoluto de Jesús?",
+   "options": [
+    "El nombre de Dios revelado a Moisés",
+    "Un título político",
+    "Una parábola"
+   ],
+   "correct": 0,
+   "feedback": "Éxodo 3,14."
+  },
+  {
+   "q": "¿Qué gesto narra Juan en la Última Cena en lugar de la institución de la Eucaristía?",
+   "options": [
+    "La unción en Betania",
+    "El lavatorio de los pies",
+    "La traición de Judas"
+   ],
+   "correct": 1,
+   "feedback": "Juan 13."
+  },
+  {
+   "q": "¿Cuáles son las últimas palabras de Jesús en Juan?",
+   "options": [
+    "Padre, perdónalos",
+    "Todo está cumplido",
+    "En tus manos encomiendo mi espíritu"
+   ],
+   "correct": 1,
+   "feedback": "Juan 19,30."
+  },
+  {
+   "q": "¿Qué confiesa Tomás ante Jesús resucitado?",
+   "options": [
+    "Tú eres el Mesías",
+    "Señor mío y Dios mío",
+    "Rabbuní"
+   ],
+   "correct": 1,
+   "feedback": "Juan 20,28."
+  },
+  {
+   "q": "¿Qué afirma 1 Juan 4,8?",
+   "options": [
+    "Dios es luz",
+    "Dios es amor",
+    "Dios es juez"
+   ],
+   "correct": 1,
+   "feedback": "La definición más breve de Dios en la Biblia."
+  }
+ ]
+}

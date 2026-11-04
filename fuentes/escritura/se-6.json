@@ -1,0 +1,585 @@
+{
+ "id": "se-6",
+ "titulo": "Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+ "subtitulo": "La vida de Pablo y sus cartas",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio de san Pablo: su vida y misión, el género y la cronología de sus cartas, y los grandes temas de Gálatas, Romanos, Corintios, Filipenses y Tesalonicenses. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+ "intro": "Pablo es el gran misionero de la Iglesia naciente y el primer escritor cristiano. Sus cartas, escritas a comunidades concretas, siguen iluminando la fe y la vida de la Iglesia. En este módulo vas a conocerlo y a leer sus textos más importantes.",
+ "taller": "Cada participante escribe una carta al estilo de Pablo dirigida a su propia comunidad o grupo: saludo, acción de gracias, cuerpo (un problema real y una enseñanza desde la fe), exhortación y despedida. Debe incluir al menos tres citas de cartas paulinas bien usadas. Se leen en grupos y se comentan.",
+ "unidades": [
+  {
+   "title": "Pablo: vida y misión",
+   "objective": "Conocer la vida de Pablo, su conversión y sus viajes misioneros.",
+   "intro": "Pablo pasó de perseguir a los cristianos a ser el gran apóstol de los paganos. Conocer su vida ayuda a entender sus cartas, escritas en medio de viajes, prisiones y conflictos.",
+   "sections": [
+    {
+     "title": "Saulo de Tarso",
+     "body": "Nació en **Tarso de Cilicia** (actual Turquía), en una familia judía de la diáspora con ciudadanía romana. Se formó como **fariseo**, celoso de la Ley. Hablaba griego y conocía la cultura de su tiempo. Persiguió a los primeros cristianos."
+    },
+    {
+     "title": "El encuentro en Damasco",
+     "body": "Camino a Damasco, hacia el año 33-36, se encuentra con Cristo resucitado (Hechos 9; Gálatas 1,15-16). Pablo no lo describe como un cambio de religión, sino como un **llamado**: Dios le revela a su Hijo para que lo anuncie a los paganos. Desde entonces, todo lo considera pérdida frente a conocer a Cristo."
+    },
+    {
+     "title": "Los viajes misioneros",
+     "body": "Hechos narra tres grandes viajes misioneros por Asia Menor y Grecia, fundando comunidades en ciudades como Filipos, Tesalónica, Corinto y Éfeso. Pablo trabaja con sus manos (fabricante de tiendas) para no ser una carga, y trabaja en equipo: Bernabé, Silas, Timoteo, Tito, Priscila y Áquila."
+    },
+    {
+     "title": "Prisión y muerte",
+     "body": "Arrestado en Jerusalén, apela al César y es llevado a Roma. Según la tradición, murió mártir en Roma bajo Nerón, hacia el año 64-67, decapitado como ciudadano romano. Su tumba se venera en la basílica de San Pablo Extramuros."
+    }
+   ],
+   "bible": {
+    "ref": "Gálatas 1,11-17 · Me reveló a su Hijo",
+    "comment": "Pablo cuenta su vocación: era un perseguidor celoso, pero Dios, que lo eligió desde el seno materno, le reveló a su Hijo para que lo anunciara a los paganos. Pablo insiste en que su Evangelio no viene de hombres, sino de una revelación de Jesucristo."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 442 y 659",
+     "text": "La aparición de Cristo resucitado a Pablo en el camino de Damasco lo constituyó apóstol; su conversión es el encuentro con el Hijo de Dios.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Verbum Domini 48",
+     "text": "Los santos, como Pablo, muestran que la Palabra de Dios transforma la vida de quien la acoge.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te impresiona de la vida de Pablo?",
+    "¿Has tenido algún «Damasco», un encuentro que cambió tu vida?",
+    "¿Qué te enseña Pablo sobre el trabajo en equipo?",
+    "¿Qué lugar tuvieron las mujeres en sus comunidades?"
+   ],
+   "activity": "Sigan en un mapa los tres viajes misioneros y el viaje a Roma. En cada ciudad anoten qué pasó según Hechos y qué carta se relaciona. Calculen distancias aproximadas.",
+   "prayer": "Señor Jesús, que te revelaste a Pablo en el camino de Damasco: revélate también a mí. Que, como él, considere todo como pérdida frente a conocerte, y que anuncie tu Evangelio con pasión y en equipo. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 442 y 659",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe en tres frases tu propio encuentro con Cristo.",
+   "logros": [
+    "Conocer la biografía de Pablo.",
+    "Comprender su conversión como llamado.",
+    "Ubicar sus viajes y comunidades."
+   ],
+   "profundizar": {
+    "titulo": "Pablo y las mujeres",
+    "texto": "En sus cartas Pablo nombra a muchas colaboradoras: Febe, diaconisa de Céncreas; Prisca, colaboradora; Junia, «ilustre entre los apóstoles»; Evodia y Síntique, que lucharon con él por el Evangelio (Romanos 16; Filipenses 4,2-3)."
+   },
+   "caso": {
+    "titulo": "El perseguidor",
+    "texto": "Un joven del grupo se burlaba antes de los que iban a la parroquia y ahora quiere ser dirigente. Algunos desconfían de él.",
+    "preguntas": [
+     "¿Qué enseña la historia de Pablo?",
+     "¿Cómo acompañarlo?"
+    ]
+   },
+   "claves": [
+    [
+     "Damasco",
+     "Lugar del encuentro de Pablo con Cristo."
+    ],
+    [
+     "Apóstol de los gentiles",
+     "Título de Pablo como enviado a los paganos."
+    ],
+    [
+     "Viajes misioneros",
+     "Recorridos de Pablo fundando comunidades."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Me reveló a su Hijo. ¿Cómo se te ha revelado Jesús?",
+    "orar": "Reza por los misioneros.",
+    "vivir": "Lee Filipenses completo esta semana."
+   },
+   "practica": [
+    "Abran el mapa.",
+    "Sigan los viajes.",
+    "Relacionen las cartas.",
+    "Presenten."
+   ],
+   "idea": "Pablo no cambió de religión: fue alcanzado por Cristo."
+  },
+  {
+   "title": "Las cartas de Pablo: género, cronología y autoría",
+   "objective": "Conocer la estructura de las cartas paulinas, su orden aproximado y la distinción entre cartas auténticas y de la tradición paulina.",
+   "intro": "Las cartas de Pablo no son tratados teológicos: son respuestas a problemas reales de comunidades concretas. Para entenderlas hay que saber cómo se escribía una carta en su época y en qué momento escribió cada una.",
+   "sections": [
+    {
+     "title": "La forma de una carta",
+     "body": "Las cartas de Pablo siguen el modelo de su tiempo, con su sello propio:\n\n1. **Encabezado:** remitente, destinatarios y saludo («gracia y paz»).\n2. **Acción de gracias** por la comunidad.\n3. **Cuerpo:** enseñanza y respuesta a problemas.\n4. **Exhortación:** consecuencias para la vida.\n5. **Despedida:** saludos y bendición.\n\nPablo solía dictar y añadía un saludo de su puño y letra."
+    },
+    {
+     "title": "Cronología aproximada",
+     "body": "Las cartas se escribieron entre los años **50 y 60** aproximadamente. Un orden probable de las indiscutidas:\n\n- 1 Tesalonicenses (hacia el 50).\n- 1 y 2 Corintios, Gálatas, Filipenses y Filemón (mediados de los 50).\n- Romanos (hacia el 56-57).\n\nNo están ordenadas así en la Biblia, sino por extensión, de la más larga a la más breve."
+    },
+    {
+     "title": "Cartas auténticas y tradición paulina",
+     "body": "Los estudiosos coinciden en que Pablo escribió personalmente siete cartas: **Romanos, 1 y 2 Corintios, Gálatas, Filipenses, 1 Tesalonicenses y Filemón**. Sobre Efesios, Colosenses y 2 Tesalonicenses hay discusión. Las **pastorales** (1 y 2 Timoteo, Tito) se consideran en general de discípulos posteriores que escribieron en su nombre, práctica común en la Antigüedad."
+    },
+    {
+     "title": "Lo que no cambia",
+     "body": "La discusión sobre autoría no afecta la inspiración: todas las cartas forman parte del canon y son Palabra de Dios. Distinguir ayuda a ver cómo la tradición paulina se desarrolló en las comunidades después de Pablo."
+    }
+   ],
+   "bible": {
+    "ref": "1 Tesalonicenses 1,1-10 · El escrito cristiano más antiguo",
+    "comment": "Pablo saluda a la comunidad de Tesalónica y da gracias por su fe activa, su amor esforzado y su esperanza constante. Recuerda cómo recibieron la Palabra en medio de tribulaciones. Es probablemente el escrito más antiguo del Nuevo Testamento, hacia el año 50."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 20",
+     "text": "El canon del Nuevo Testamento contiene, además de los evangelios, las cartas de Pablo y otros escritos apostólicos, que confirman lo que se refiere a Cristo y explican su doctrina.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1813",
+     "text": "Las virtudes teologales, fe, esperanza y caridad, que Pablo nombra desde su primera carta, fundan y animan el obrar del cristiano.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te dice que las cartas respondan a problemas concretos?",
+    "¿Te cambia algo saber que algunas cartas son de discípulos de Pablo?",
+    "¿Qué problemas de tu comunidad abordaría Pablo?",
+    "¿Por qué crees que la fe, la esperanza y el amor aparecen desde el principio?"
+   ],
+   "activity": "Analicen la estructura de la carta a Filemón (es breve): identifiquen encabezado, acción de gracias, cuerpo, exhortación y despedida. Luego conversen qué problema concreto aborda y qué enseñanza deja sobre la dignidad.",
+   "prayer": "Señor, que inspiraste a Pablo a escribir a comunidades concretas: que sus palabras lleguen hoy a mi comunidad y me ayuden a vivir la fe activa, el amor esforzado y la esperanza constante. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 20",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe a quién te gustaría escribirle una carta de ánimo en la fe.",
+   "logros": [
+    "Reconocer la estructura de una carta paulina.",
+    "Ubicar las cartas en una cronología aproximada.",
+    "Distinguir cartas auténticas y de la tradición paulina."
+   ],
+   "profundizar": {
+    "titulo": "Pseudonimia",
+    "texto": "En la Antigüedad era aceptado que un discípulo escribiera en nombre de su maestro para actualizar su enseñanza. No se consideraba un engaño, sino una forma de fidelidad a la tradición del maestro."
+   },
+   "caso": {
+    "titulo": "Filemón y Onésimo",
+    "texto": "Un participante pregunta por qué Pablo no condenó directamente la esclavitud en la carta a Filemón.",
+    "preguntas": [
+     "¿Qué dice realmente la carta?",
+     "¿Qué semilla deja para el futuro?"
+    ]
+   },
+   "claves": [
+    [
+     "Carta auténtica",
+     "Escrita por el mismo Pablo."
+    ],
+    [
+     "Cartas pastorales",
+     "1 y 2 Timoteo y Tito."
+    ],
+    [
+     "Pseudonimia",
+     "Escribir en nombre de un maestro."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Fe activa, amor esforzado, esperanza constante. ¿Cuál necesitas hoy?",
+    "orar": "Agradece por tu comunidad, como Pablo.",
+    "vivir": "Escribe una carta de ánimo a alguien."
+   },
+   "practica": [
+    "Lean Filemón.",
+    "Identifiquen las partes.",
+    "Conversen el problema.",
+    "Compartan."
+   ],
+   "idea": "Las cartas de Pablo son Palabra de Dios para comunidades reales."
+  },
+  {
+   "title": "Gálatas y Romanos: justificados por la fe",
+   "objective": "Comprender el tema de la justificación por la fe en Cristo y la libertad cristiana en Gálatas y Romanos.",
+   "intro": "Gálatas y Romanos tratan una pregunta decisiva: ¿cómo nos salva Dios? ¿Por cumplir la Ley o por la fe en Cristo? Pablo responde con fuerza: somos justificados por la gracia, mediante la fe, y esa fe se expresa en el amor.",
+   "sections": [
+    {
+     "title": "El conflicto de Galacia",
+     "body": "Algunos predicadores decían a los gálatas, de origen pagano, que para ser cristianos debían circuncidarse y cumplir la Ley de Moisés. Pablo reacciona con pasión: eso sería negar que Cristo basta. «Si la justificación viniera por la Ley, Cristo habría muerto inútilmente» (Gálatas 2,21)."
+    },
+    {
+     "title": "Justificados por la fe",
+     "body": "Ser **justificado** significa ser hecho justo, puesto en relación correcta con Dios. Pablo afirma que esto es **don gratuito** de Dios, recibido por la **fe en Cristo**, no un premio por nuestras obras. Abraham es el ejemplo: creyó y le fue tenido en cuenta como justicia."
+    },
+    {
+     "title": "La fe que actúa por el amor",
+     "body": "Esto no significa que las obras no importen. Pablo habla de «la fe que actúa por medio del amor» (Gálatas 5,6). La libertad cristiana no es para hacer lo que uno quiere, sino para servirse por amor. El Espíritu produce frutos: amor, alegría, paz, paciencia, bondad (5,22-23)."
+    },
+    {
+     "title": "Romanos: el Evangelio para todos",
+     "body": "Romanos es la carta más extensa y sistemática. Pablo la escribe a una comunidad que no fundó, antes de ir a Roma. Muestra que todos, judíos y paganos, necesitan la gracia (1–3), que somos justificados por la fe (3–5), que vivimos según el Espíritu como hijos de Dios (8) y que nada puede separarnos del amor de Dios en Cristo (8,38-39). Los capítulos 9–11 reflexionan sobre Israel, y 12–15 sobre la vida cristiana."
+    }
+   ],
+   "bible": {
+    "ref": "Romanos 8,14-17.31-39 · Nada podrá separarnos",
+    "comment": "Los que se dejan guiar por el Espíritu son hijos de Dios y pueden llamarlo «Abbá, Padre». Si Dios está con nosotros, ¿quién contra nosotros? Ni la muerte ni la vida ni ninguna criatura podrá separarnos del amor de Dios manifestado en Cristo Jesús."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1987-1995",
+     "text": "La gracia del Espíritu Santo tiene el poder de justificarnos; la justificación es obra de la misericordia de Dios y se concede por el bautismo, sacramento de la fe.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1832",
+     "text": "Los frutos del Espíritu son perfecciones que forma en nosotros el Espíritu Santo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Sientes a veces que tienes que «ganarte» el amor de Dios?",
+    "¿Qué significa para ti la libertad cristiana?",
+    "¿Qué fruto del Espíritu ves en tu vida y cuál te falta?",
+    "¿Qué te dice Romanos 8,38-39?"
+   ],
+   "activity": "En grupos, lean Gálatas 5,1.13-26 y elaboren dos columnas: «obras de la carne» y «frutos del Espíritu». Luego, cada uno elige un fruto para cultivar en el próximo mes y escribe cómo.",
+   "prayer": "Padre, gracias por justificarme gratuitamente en Cristo. No tengo que ganarme tu amor: ya me amas. Que tu Espíritu me haga libre para servir por amor y dé en mí sus frutos. Nada me separará de tu amor. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1987-1995",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Completa: «Siento que tengo que ganarme el amor de Dios cuando…».",
+   "logros": [
+    "Explicar la justificación por la fe.",
+    "Relacionar fe, libertad y amor.",
+    "Conocer la estructura de Romanos."
+   ],
+   "profundizar": {
+    "titulo": "Católicos y luteranos",
+    "texto": "En 1999, la Iglesia católica y la Federación Luterana Mundial firmaron la Declaración conjunta sobre la doctrina de la justificación, reconociendo un consenso en las verdades básicas: somos aceptados por Dios por gracia, mediante la fe en Cristo, no por nuestros méritos."
+   },
+   "caso": {
+    "titulo": "La competencia espiritual",
+    "texto": "En un grupo, algunos jóvenes comparan cuántas misas o retiros han hecho y miran en menos a los que hacen menos.",
+    "preguntas": [
+     "¿Qué diría Pablo?",
+     "¿Cómo orientarías al grupo?"
+    ]
+   },
+   "claves": [
+    [
+     "Justificación",
+     "Ser hecho justo por gracia, mediante la fe."
+    ],
+    [
+     "Gracia",
+     "Don gratuito de Dios."
+    ],
+    [
+     "Frutos del Espíritu",
+     "Amor, alegría, paz y demás (Gálatas 5,22-23)."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Nada podrá separarnos del amor de Dios. ¿Qué miedo te separa?",
+    "orar": "Reza llamando a Dios «Abbá».",
+    "vivir": "Sirve a alguien gratuitamente esta semana."
+   },
+   "practica": [
+    "Lean Gálatas 5.",
+    "Hagan las columnas.",
+    "Elijan un fruto.",
+    "Escriban cómo cultivarlo."
+   ],
+   "idea": "No nos ganamos el amor de Dios: lo recibimos y respondemos amando."
+  },
+  {
+   "title": "Corintios: comunidad, carismas y amor",
+   "objective": "Conocer los problemas de la comunidad de Corinto y las respuestas de Pablo sobre la unidad, la Eucaristía, los carismas, el amor y la resurrección.",
+   "intro": "Corinto era una ciudad portuaria, rica, diversa y conflictiva. Su comunidad cristiana tenía divisiones, escándalos y preguntas. Las cartas de Pablo a los corintios muestran cómo se acompaña a una comunidad real.",
+   "sections": [
+    {
+     "title": "Divisiones",
+     "body": "Los corintios se dividían en bandos: «Yo soy de Pablo», «yo de Apolo», «yo de Pedro». Pablo responde: ¿acaso Cristo está dividido? Anuncia la **sabiduría de la cruz**, que parece locura al mundo pero es fuerza de Dios (1 Corintios 1,18-25)."
+    },
+    {
+     "title": "La Eucaristía y los pobres",
+     "body": "En la cena del Señor, los ricos comían y bebían mientras los pobres pasaban hambre. Pablo les recuerda la tradición de la Última Cena (11,23-26), el texto más antiguo sobre la institución de la Eucaristía, y les dice que comer el pan sin discernir el Cuerpo, que es también la comunidad, es comer indignamente."
+    },
+    {
+     "title": "Carismas y amor",
+     "body": "Pablo compara a la comunidad con un **cuerpo**: muchos miembros con distintos dones, todos necesarios (capítulo 12). Pero el camino más excelente es el **amor**: «El amor es paciente, es servicial; el amor no es envidioso…» (capítulo 13). Sin amor, los dones no sirven de nada."
+    },
+    {
+     "title": "La resurrección",
+     "body": "Algunos negaban la resurrección de los muertos. En el capítulo 15, Pablo transmite el credo más antiguo: Cristo murió, fue sepultado, resucitó al tercer día y se apareció a Pedro, a los Doce y a muchos más. «Si Cristo no resucitó, vana es nuestra fe». La segunda carta muestra a un Pablo frágil: «Mi fuerza se manifiesta en la debilidad» (2 Corintios 12,9)."
+    }
+   ],
+   "bible": {
+    "ref": "1 Corintios 13,1-13 · El himno al amor",
+    "comment": "Aunque hablara las lenguas de los ángeles, si no tengo amor, no soy nada. El amor es paciente y servicial, no busca su propio interés, todo lo excusa, todo lo cree, todo lo espera, todo lo soporta. Ahora permanecen la fe, la esperanza y el amor, pero el más grande es el amor."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1822-1829",
+     "text": "La caridad es la virtud teologal por la que amamos a Dios sobre todas las cosas y al prójimo por amor de Dios; es el vínculo de la perfección.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1396-1398",
+     "text": "La Eucaristía hace la Iglesia y compromete en favor de los pobres.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué divisiones hay en tu comunidad?",
+    "¿Cómo se relacionan Eucaristía y pobres?",
+    "¿Qué don tienes para la comunidad?",
+    "¿Qué frase de 1 Corintios 13 te interpela más?"
+   ],
+   "activity": "Hagan una dinámica del cuerpo: cada participante escribe en una tarjeta el don que reconoce en otro compañero y se la entrega. Luego lean juntos 1 Corintios 12,12-27 y conversen qué miembros de su comunidad suelen ser olvidados.",
+   "prayer": "Señor, que nos haces un solo cuerpo con muchos miembros: líbranos de las divisiones. Que nuestros dones sirvan a todos, que no olvidemos a los pobres en la mesa de la Eucaristía y que el amor sea siempre nuestro camino. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1822-1829",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe un don que reconoces en ti y otro que reconoces en alguien de tu comunidad.",
+   "logros": [
+    "Conocer la situación de la comunidad de Corinto.",
+    "Comprender la enseñanza de Pablo sobre unidad, Eucaristía y carismas.",
+    "Reconocer el credo de 1 Corintios 15."
+   ],
+   "profundizar": {
+    "titulo": "El credo más antiguo",
+    "texto": "1 Corintios 15,3-5 es probablemente la fórmula de fe cristiana más antigua que conservamos. Pablo dice que la recibió y la transmite, lo que indica que circulaba pocos años después de la Pascua."
+   },
+   "caso": {
+    "titulo": "Los fans del dirigente",
+    "texto": "En una parroquia, los jóvenes se dividen entre los que siguen a un dirigente carismático y los que siguen a otro.",
+    "preguntas": [
+     "¿Qué diría Pablo en 1 Corintios 1–3?",
+     "¿Qué podrían hacer los dirigentes?"
+    ]
+   },
+   "claves": [
+    [
+     "Carisma",
+     "Don del Espíritu para el bien común."
+    ],
+    [
+     "Cuerpo de Cristo",
+     "La comunidad unida en la diversidad."
+    ],
+    [
+     "Sabiduría de la cruz",
+     "La lógica de Dios que parece locura al mundo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El más grande es el amor. ¿Dónde te falta amor?",
+    "orar": "Reza 1 Corintios 13 poniendo tu nombre en lugar de «el amor».",
+    "vivir": "Reconcíliate con alguien de tu comunidad."
+   },
+   "practica": [
+    "Escriban los dones.",
+    "Entréguenlos.",
+    "Lean 1 Corintios 12.",
+    "Conversen."
+   ],
+   "idea": "Sin amor, los dones no sirven de nada."
+  },
+  {
+   "title": "Filipenses, Tesalonicenses y la esperanza",
+   "objective": "Conocer el mensaje de Filipenses y 1 Tesalonicenses, y tener una visión general de las cartas de la cautividad y las pastorales.",
+   "intro": "Algunas cartas de Pablo muestran su lado más afectuoso: Filipenses, escrita desde la prisión, está llena de alegría; 1 Tesalonicenses consuela ante la muerte. En esta unidad cerramos el recorrido por Pablo y miramos las cartas de su tradición.",
+   "sections": [
+    {
+     "title": "Filipenses: la alegría",
+     "body": "Escrita desde la cárcel, Filipenses repite la palabra **alegría**: «Alégrense siempre en el Señor, se lo repito: alégrense» (4,4). En el capítulo 2 está el himno de Cristo que se despojó de sí mismo (2,6-11). Pablo invita a tener los mismos sentimientos de Cristo y agradece la ayuda de una comunidad que lo quiere."
+    },
+    {
+     "title": "1 Tesalonicenses: la esperanza",
+     "body": "Los tesalonicenses estaban angustiados porque algunos habían muerto antes de la venida del Señor. Pablo les dice: «No se entristezcan como los que no tienen esperanza» (4,13). Los que murieron en Cristo resucitarán, y estaremos siempre con el Señor."
+    },
+    {
+     "title": "Colosenses y Efesios",
+     "body": "Llamadas, junto con Filemón, **cartas de la cautividad**. Contemplan a Cristo como cabeza de la Iglesia y de toda la creación (Colosenses 1,15-20) y la Iglesia como cuerpo y esposa de Cristo, donde judíos y paganos son un solo pueblo (Efesios 2). Efesios 4 habla de la unidad y de los ministerios."
+    },
+    {
+     "title": "Las cartas pastorales",
+     "body": "1 y 2 Timoteo y Tito se dirigen a responsables de comunidades. Tratan de la organización de la Iglesia, la sana doctrina y el cuidado de los ministros. Son útiles para pensar el servicio de los agentes pastorales: «Que nadie te menosprecie por ser joven; sé ejemplo para los creyentes» (1 Timoteo 4,12)."
+    }
+   ],
+   "bible": {
+    "ref": "Filipenses 2,1-11 · Los sentimientos de Cristo",
+    "comment": "Pablo pide a los filipenses tener un mismo sentir y no hacer nada por rivalidad, sino con humildad. Luego canta a Cristo, que siendo de condición divina se despojó, tomó la condición de siervo y se humilló hasta la cruz; por eso Dios lo exaltó. La vida cristiana es tener los sentimientos de Cristo."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1005-1014",
+     "text": "Para resucitar con Cristo es necesario morir con Cristo; la muerte cristiana es participación en la muerte del Señor y paso a la vida.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Evangelii gaudium 1-2",
+     "text": "La alegría del Evangelio llena el corazón y la vida entera de los que se encuentran con Jesús.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo puede Pablo hablar de alegría desde la cárcel?",
+    "¿Qué sentimientos de Cristo te cuesta tener?",
+    "¿Cómo acompañarías a alguien que perdió a un ser querido, según 1 Tesalonicenses 4?",
+    "¿Qué te dicen las pastorales sobre tu servicio?"
+   ],
+   "activity": "Cada participante elige una carta breve (Filipenses, 1 Tesalonicenses, Colosenses, Tito o Filemón), la lee completa y comparte con el grupo una frase que llevaría a su servicio pastoral.",
+   "prayer": "Señor Jesús, que te despojaste de ti mismo por amor: dame tus sentimientos. Que viva con alegría aun en la dificultad, con esperanza ante la muerte y con humildad en el servicio. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1005-1014",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una razón para alegrarte hoy, aunque estés pasando por algo difícil.",
+   "logros": [
+    "Conocer el mensaje de Filipenses y 1 Tesalonicenses.",
+    "Tener una visión de las cartas de la cautividad y las pastorales.",
+    "Aplicar la enseñanza paulina al servicio pastoral."
+   ],
+   "profundizar": {
+    "titulo": "Alegría y sufrimiento",
+    "texto": "La alegría cristiana no es ausencia de problemas. Pablo escribe Filipenses encarcelado, sin saber si lo matarán. Su alegría nace de saberse unido a Cristo: «Para mí la vida es Cristo y la muerte, una ganancia» (1,21)."
+   },
+   "caso": {
+    "titulo": "El dirigente joven",
+    "texto": "Una dirigente de 17 años siente que los adultos de la parroquia no la toman en serio.",
+    "preguntas": [
+     "¿Qué le dice 1 Timoteo 4,12?",
+     "¿Qué le pide a ella el mismo texto?"
+    ]
+   },
+   "claves": [
+    [
+     "Cartas de la cautividad",
+     "Filipenses, Colosenses, Efesios y Filemón."
+    ],
+    [
+     "Cartas pastorales",
+     "1 y 2 Timoteo y Tito."
+    ],
+    [
+     "Kénosis",
+     "Despojo de Cristo (Filipenses 2,7)."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Alégrense siempre en el Señor. ¿Qué te quita la alegría?",
+    "orar": "Reza el himno de Filipenses 2.",
+    "vivir": "Visita o llama a alguien que esté pasando por un duelo."
+   },
+   "practica": [
+    "Elijan una carta.",
+    "Léanla completa.",
+    "Elijan una frase.",
+    "Compartan."
+   ],
+   "idea": "Tener los sentimientos de Cristo es el corazón de la vida cristiana."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Dónde nació Pablo?",
+   "options": [
+    "Jerusalén",
+    "Tarso de Cilicia",
+    "Damasco"
+   ],
+   "correct": 1,
+   "feedback": "Era judío de la diáspora con ciudadanía romana."
+  },
+  {
+   "q": "¿Cómo describe Pablo su experiencia de Damasco en Gálatas?",
+   "options": [
+    "Como un cambio de religión",
+    "Como una revelación del Hijo y un llamado a anunciarlo",
+    "Como un sueño"
+   ],
+   "correct": 1,
+   "feedback": "Gálatas 1,15-16."
+  },
+  {
+   "q": "¿Cuál es probablemente el escrito más antiguo del Nuevo Testamento?",
+   "options": [
+    "Romanos",
+    "1 Tesalonicenses",
+    "Hebreos"
+   ],
+   "correct": 1,
+   "feedback": "Hacia el año 50."
+  },
+  {
+   "q": "¿Cuántas cartas se consideran escritas personalmente por Pablo?",
+   "options": [
+    "Siete",
+    "Trece",
+    "Catorce"
+   ],
+   "correct": 0,
+   "feedback": "Romanos, 1 y 2 Corintios, Gálatas, Filipenses, 1 Tesalonicenses y Filemón."
+  },
+  {
+   "q": "¿Qué significa ser justificado por la fe?",
+   "options": [
+    "Ganarse a Dios con obras",
+    "Ser hecho justo por gracia, mediante la fe en Cristo",
+    "No tener que hacer el bien"
+   ],
+   "correct": 1,
+   "feedback": "La fe actúa por el amor."
+  },
+  {
+   "q": "¿Qué texto de Pablo es el relato más antiguo de la institución de la Eucaristía?",
+   "options": [
+    "1 Corintios 11,23-26",
+    "Romanos 8",
+    "Filipenses 2"
+   ],
+   "correct": 0,
+   "feedback": "Anterior a los evangelios."
+  },
+  {
+   "q": "¿Qué es lo más grande según 1 Corintios 13?",
+   "options": [
+    "La fe",
+    "La esperanza",
+    "El amor"
+   ],
+   "correct": 2,
+   "feedback": "El amor permanece."
+  },
+  {
+   "q": "¿Qué virtud se repite en Filipenses?",
+   "options": [
+    "La alegría",
+    "La obediencia",
+    "El ayuno"
+   ],
+   "correct": 0,
+   "feedback": "Escrita desde la cárcel."
+  }
+ ]
+}

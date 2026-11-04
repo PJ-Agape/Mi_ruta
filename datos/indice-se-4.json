@@ -1,0 +1,61 @@
+{
+ "curso": "se-4",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+   "semanas": "",
+   "intro": "El Pentateuco es la Torá, el corazón de la Biblia de Israel. Allí están la creación, las promesas a los patriarcas, la liberación de Egipto, la alianza del Sinaí y la Ley. En este módulo vas a leerlo con herramientas de estudio y con fe.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "El Pentateuco: estructura y formación",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Génesis 1–11: los orígenes",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Génesis 12–50: los patriarcas",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Éxodo: liberación y alianza",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Levítico, Números y Deuteronomio",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

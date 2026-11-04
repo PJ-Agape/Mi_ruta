@@ -1,0 +1,613 @@
+{
+ "curso": "diplomado-escritura",
+ "modulos": [
+  {
+   "id": "se-1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura I: Introducción al Antiguo Testamento",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "El Antiguo Testamento ocupa más de tres cuartas partes de la Biblia y fue la Escritura de Jesús. Sin él, el Nuevo Testamento no se entiende. En este módulo vas a recorrer su mapa general para luego profundizar en cada parte.",
+   "clases": [
+    {
+     "id": "se-1-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Libros, canon y versiones",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-1/s1.md"
+    },
+    {
+     "id": "se-1-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "La historia de Israel: de los patriarcas al exilio",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-1/s2.md"
+    },
+    {
+     "id": "se-1-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Del exilio a Jesús",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-1/s3.md"
+    },
+    {
+     "id": "se-1-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Cómo se formó el Antiguo Testamento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-1/s4.md"
+    },
+    {
+     "id": "se-1-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Leer el Antiguo Testamento como cristianos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-1/s5.md"
+    },
+    {
+     "id": "se-1-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-2",
+   "numero": 2,
+   "titulo": "Sagrada Escritura II: Introducción al Nuevo Testamento",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "El Nuevo Testamento es el testimonio de las primeras comunidades sobre Jesús. En este módulo vas a conocer su contexto, cómo se formaron sus libros y cómo leerlo con fidelidad.",
+   "clases": [
+    {
+     "id": "se-2-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El mundo de Jesús",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-2/s1.md"
+    },
+    {
+     "id": "se-2-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "De Jesús a los evangelios",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-2/s2.md"
+    },
+    {
+     "id": "se-2-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Los libros del Nuevo Testamento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-2/s3.md"
+    },
+    {
+     "id": "se-2-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Las primeras comunidades",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-2/s4.md"
+    },
+    {
+     "id": "se-2-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cómo leer el Nuevo Testamento hoy",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-2/s5.md"
+    },
+    {
+     "id": "se-2-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-3",
+   "numero": 3,
+   "titulo": "Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-2"
+   ],
+   "intro": "Marcos, Mateo y Lucas cuentan la historia de Jesús de forma muy parecida, por eso se llaman sinópticos (se pueden «ver juntos»). Pero cada uno tiene su mirada. En este módulo vas a aprender a leer cada evangelio con su propio acento, y a seguir con Lucas la misión de la Iglesia en los Hechos.",
+   "clases": [
+    {
+     "id": "se-3-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La cuestión sinóptica",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-3/s1.md"
+    },
+    {
+     "id": "se-3-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Marcos: el evangelio del discípulo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-3/s2.md"
+    },
+    {
+     "id": "se-3-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Mateo: Jesús, el Maestro y el Mesías de Israel",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-3/s3.md"
+    },
+    {
+     "id": "se-3-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Lucas: el evangelio de la misericordia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-3/s4.md"
+    },
+    {
+     "id": "se-3-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Hechos de los Apóstoles: el Espíritu impulsa la misión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-3/s5.md"
+    },
+    {
+     "id": "se-3-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-4",
+   "numero": 4,
+   "titulo": "Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 4",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-1"
+   ],
+   "intro": "El Pentateuco es la Torá, el corazón de la Biblia de Israel. Allí están la creación, las promesas a los patriarcas, la liberación de Egipto, la alianza del Sinaí y la Ley. En este módulo vas a leerlo con herramientas de estudio y con fe.",
+   "clases": [
+    {
+     "id": "se-4-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El Pentateuco: estructura y formación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-4/s1.md"
+    },
+    {
+     "id": "se-4-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Génesis 1–11: los orígenes",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-4/s2.md"
+    },
+    {
+     "id": "se-4-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Génesis 12–50: los patriarcas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-4/s3.md"
+    },
+    {
+     "id": "se-4-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Éxodo: liberación y alianza",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-4/s4.md"
+    },
+    {
+     "id": "se-4-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Levítico, Números y Deuteronomio",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-4/s5.md"
+    },
+    {
+     "id": "se-4-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-5",
+   "numero": 5,
+   "titulo": "Sagrada Escritura V: Exégesis A.T. II: Profetas",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 5",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-1"
+   ],
+   "intro": "Los profetas fueron la conciencia de Israel: denunciaron la injusticia y la idolatría, consolaron en el exilio y mantuvieron viva la esperanza. En este módulo vas a conocer su mensaje en su contexto y su vigencia para hoy.",
+   "clases": [
+    {
+     "id": "se-5-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Qué es un profeta?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-5/s1.md"
+    },
+    {
+     "id": "se-5-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Los profetas del siglo VIII",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-5/s2.md"
+    },
+    {
+     "id": "se-5-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Jeremías y la caída de Jerusalén",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-5/s3.md"
+    },
+    {
+     "id": "se-5-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Profetas del exilio: Ezequiel y el Segundo Isaías",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-5/s4.md"
+    },
+    {
+     "id": "se-5-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Profetas después del exilio y la esperanza mesiánica",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-5/s5.md"
+    },
+    {
+     "id": "se-5-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-6",
+   "numero": 6,
+   "titulo": "Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 6",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-2"
+   ],
+   "intro": "Pablo es el gran misionero de la Iglesia naciente y el primer escritor cristiano. Sus cartas, escritas a comunidades concretas, siguen iluminando la fe y la vida de la Iglesia. En este módulo vas a conocerlo y a leer sus textos más importantes.",
+   "clases": [
+    {
+     "id": "se-6-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Pablo: vida y misión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-6/s1.md"
+    },
+    {
+     "id": "se-6-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Las cartas de Pablo: género, cronología y autoría",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-6/s2.md"
+    },
+    {
+     "id": "se-6-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Gálatas y Romanos: justificados por la fe",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-6/s3.md"
+    },
+    {
+     "id": "se-6-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Corintios: comunidad, carismas y amor",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-6/s4.md"
+    },
+    {
+     "id": "se-6-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Filipenses, Tesalonicenses y la esperanza",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-6/s5.md"
+    },
+    {
+     "id": "se-6-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-7",
+   "numero": 7,
+   "titulo": "Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 7",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-1"
+   ],
+   "intro": "Los libros sapienciales hablan de la vida cotidiana: el trabajo, la familia, el amor, el sufrimiento, la muerte. Y lo hacen con poesía. Son una escuela para aprender a vivir con sabiduría y a rezar con todo el corazón.",
+   "clases": [
+    {
+     "id": "se-7-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La sabiduría en Israel",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-7/s1.md"
+    },
+    {
+     "id": "se-7-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Los Salmos: la oración de Israel y de la Iglesia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-7/s2.md"
+    },
+    {
+     "id": "se-7-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Proverbios y Eclesiástico: sabiduría para la vida cotidiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-7/s3.md"
+    },
+    {
+     "id": "se-7-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Job y Eclesiastés: las preguntas difíciles",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-7/s4.md"
+    },
+    {
+     "id": "se-7-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cantar de los Cantares y Sabiduría: el amor y la vida inmortal",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-7/s5.md"
+    },
+    {
+     "id": "se-7-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-8",
+   "numero": 8,
+   "titulo": "Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 8",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-2"
+   ],
+   "intro": "El evangelio de Juan es distinto de los sinópticos: más contemplativo, con largos diálogos y símbolos profundos. Lo llamaron el evangelio espiritual. En este módulo vas a aprender a leerlo para creer y tener vida.",
+   "clases": [
+    {
+     "id": "se-8-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El cuarto evangelio: autor, comunidad y propósito",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-8/s1.md"
+    },
+    {
+     "id": "se-8-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El prólogo y los signos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-8/s2.md"
+    },
+    {
+     "id": "se-8-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Los discursos y los «Yo soy»",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-8/s3.md"
+    },
+    {
+     "id": "se-8-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "El libro de la gloria: pasión y resurrección",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-8/s4.md"
+    },
+    {
+     "id": "se-8-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Las cartas de Juan: Dios es amor",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-8/s5.md"
+    },
+    {
+     "id": "se-8-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "se-9",
+   "numero": 9,
+   "titulo": "Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 9",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "se-2"
+   ],
+   "intro": "Hebreos y el Apocalipsis cierran el Nuevo Testamento. Son libros difíciles y muchas veces mal entendidos. En este módulo vas a aprender a leerlos con sus claves propias y a descubrir su mensaje de esperanza para comunidades cansadas o perseguidas.",
+   "clases": [
+    {
+     "id": "se-9-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La Carta a los Hebreos: Cristo, sumo sacerdote",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-9/s1.md"
+    },
+    {
+     "id": "se-9-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Hebreos: la nueva alianza y la fe que persevera",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-9/s2.md"
+    },
+    {
+     "id": "se-9-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "El Apocalipsis: género y claves de lectura",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-9/s3.md"
+    },
+    {
+     "id": "se-9-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Apocalipsis: el Cordero y la Iglesia perseguida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-9/s4.md"
+    },
+    {
+     "id": "se-9-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Apocalipsis: cielo nuevo y tierra nueva",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/se-9/s5.md"
+    },
+    {
+     "id": "se-9-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  }
+ ]
+}

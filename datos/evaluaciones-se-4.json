@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué significa Torá?",
+    "opciones": [
+     "Libro",
+     "Instrucción o enseñanza",
+     "Historia"
+    ],
+    "correcta": 1,
+    "explicacion": "Es el nombre judío del Pentateuco."
+   },
+   {
+    "pregunta": "¿Cuál es la triple promesa a Abraham?",
+    "opciones": [
+     "Riqueza, poder y fama",
+     "Descendencia, tierra y bendición",
+     "Templo, rey y ley"
+    ],
+    "correcta": 1,
+    "explicacion": "Génesis 12,1-3."
+   },
+   {
+    "pregunta": "¿Cómo se explican hoy las repeticiones del Pentateuco?",
+    "opciones": [
+     "Por errores de copistas",
+     "Por un largo proceso de formación con varias tradiciones",
+     "Porque Moisés se olvidaba"
+    ],
+    "correcta": 1,
+    "explicacion": "Es un tema de estudio abierto."
+   },
+   {
+    "pregunta": "¿Qué enseñan los relatos de Génesis 1–11?",
+    "opciones": [
+     "Datos científicos sobre el origen del universo",
+     "Verdades fundamentales en lenguaje simbólico",
+     "Leyendas sin valor"
+    ],
+    "correcta": 1,
+    "explicacion": "Catecismo 337 y 390."
+   },
+   {
+    "pregunta": "¿Qué nombre recibe Jacob después de luchar con Dios?",
+    "opciones": [
+     "Israel",
+     "Abraham",
+     "Judá"
+    ],
+    "correcta": 0,
+    "explicacion": "Génesis 32."
+   },
+   {
+    "pregunta": "¿Qué revela Dios a Moisés en la zarza ardiente?",
+    "opciones": [
+     "Su nombre y su decisión de liberar al pueblo",
+     "Las plagas",
+     "El templo"
+    ],
+    "correcta": 0,
+    "explicacion": "Éxodo 3."
+   },
+   {
+    "pregunta": "¿Dónde está el mandamiento «amarás a tu prójimo como a ti mismo»?",
+    "opciones": [
+     "Levítico 19,18",
+     "Génesis 1,27",
+     "Éxodo 3,14"
+    ],
+    "correcta": 0,
+    "explicacion": "Jesús lo une al Shemá."
+   },
+   {
+    "pregunta": "¿Qué es el Shemá?",
+    "opciones": [
+     "Un sacrificio",
+     "La oración «Escucha, Israel» de Deuteronomio 6,4-9",
+     "Una fiesta judía"
+    ],
+    "correcta": 1,
+    "explicacion": "Jesús lo cita como primer mandamiento."
+   }
+  ]
+ }
+}

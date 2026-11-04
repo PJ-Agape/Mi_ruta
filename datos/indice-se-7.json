@@ -1,0 +1,61 @@
+{
+ "curso": "se-7",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+   "semanas": "",
+   "intro": "Los libros sapienciales hablan de la vida cotidiana: el trabajo, la familia, el amor, el sufrimiento, la muerte. Y lo hacen con poesía. Son una escuela para aprender a vivir con sabiduría y a rezar con todo el corazón.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "La sabiduría en Israel",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Los Salmos: la oración de Israel y de la Iglesia",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Proverbios y Eclesiástico: sabiduría para la vida cotidiana",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Job y Eclesiastés: las preguntas difíciles",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Cantar de los Cantares y Sabiduría: el amor y la vida inmortal",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

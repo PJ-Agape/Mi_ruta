@@ -1,0 +1,585 @@
+{
+ "id": "se-1",
+ "titulo": "Sagrada Escritura I: Introducción al Antiguo Testamento",
+ "subtitulo": "Libros, historia y formación del Antiguo Testamento",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Una visión de conjunto del Antiguo Testamento: sus libros y su canon, la historia de Israel que lo enmarca, cómo se fue formando y cómo lo leemos los cristianos. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura I: Introducción al Antiguo Testamento",
+ "intro": "El Antiguo Testamento ocupa más de tres cuartas partes de la Biblia y fue la Escritura de Jesús. Sin él, el Nuevo Testamento no se entiende. En este módulo vas a recorrer su mapa general para luego profundizar en cada parte.",
+ "taller": "En grupos, construyan una línea de tiempo mural de la historia de Israel desde Abraham hasta la llegada de los romanos, ubicando en ella los principales libros del Antiguo Testamento según el momento que narran o en que se escribieron. Cada grupo presenta un tramo y el relator corrige y completa.",
+ "unidades": [
+  {
+   "title": "Libros, canon y versiones",
+   "objective": "Conocer la organización del Antiguo Testamento, la noción de canon y las diferencias entre la Biblia católica, la hebrea y las ediciones protestantes.",
+   "intro": "Antes de leer un libro conviene conocer su biblioteca. El Antiguo Testamento es una colección de libros escritos a lo largo de muchos siglos. En esta unidad vas a conocer cómo está organizado y por qué no todas las Biblias tienen los mismos libros.",
+   "sections": [
+    {
+     "title": "Una biblioteca de 46 libros",
+     "body": "La Biblia católica tiene **46 libros** en el Antiguo Testamento, que suelen agruparse en:\n\n- **Pentateuco:** Génesis, Éxodo, Levítico, Números y Deuteronomio.\n- **Libros históricos:** de Josué a Macabeos.\n- **Libros poéticos y sapienciales:** Job, Salmos, Proverbios, Eclesiastés, Cantar de los Cantares, Sabiduría y Eclesiástico.\n- **Libros proféticos:** Isaías, Jeremías, Lamentaciones, Baruc, Ezequiel, Daniel y los doce profetas menores."
+    },
+    {
+     "title": "El canon",
+     "body": "**Canon** significa «regla» o «medida». Es la lista de libros que la Iglesia reconoce como inspirados por Dios. No fue decidido de un día para otro: es fruto de un largo discernimiento de la comunidad creyente, que reconoció en estos libros la Palabra de Dios."
+    },
+    {
+     "title": "Biblia hebrea y Biblia griega",
+     "body": "Los judíos organizan su Biblia en tres partes: **Torá** (Ley), **Nebiím** (Profetas) y **Ketubim** (Escritos), de donde viene el nombre **TaNaK**.\n\nEntre los siglos III y I antes de Cristo, la Escritura se tradujo al griego en Alejandría: es la versión de los **Setenta** (Septuaginta). Incluía algunos libros que no están en la Biblia hebrea."
+    },
+    {
+     "title": "Los deuterocanónicos",
+     "body": "Siete libros del Antiguo Testamento católico no están en la Biblia hebrea: **Tobías, Judit, 1 y 2 Macabeos, Sabiduría, Eclesiástico y Baruc**, además de partes griegas de Ester y Daniel. La Iglesia los llama **deuterocanónicos** y los reconoce como inspirados. Muchas Biblias protestantes no los incluyen o los ponen aparte como «apócrifos»."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 24,44-45 · «La Ley de Moisés, los Profetas y los Salmos»",
+    "comment": "Jesús resucitado explica a los discípulos que todo lo escrito sobre él en la Ley de Moisés, los Profetas y los Salmos debía cumplirse, y les abre la inteligencia para comprender las Escrituras. Jesús mismo nombra las partes de la Biblia de Israel y se presenta como su cumplimiento."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 14",
+     "text": "Dios eligió un pueblo y se le reveló; la economía de la salvación anunciada, narrada y explicada por los autores sagrados aparece como verdadera palabra de Dios en los libros del Antiguo Testamento.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 120-121",
+     "text": "La Tradición apostólica discernió qué escritos constituyen la lista de los libros santos; el Antiguo Testamento es parte inalienable de la Sagrada Escritura.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Cuántos libros del Antiguo Testamento has leído completos?",
+    "¿Por qué crees que la Iglesia necesitó definir un canon?",
+    "¿Qué responderías a alguien que dice que los católicos «agregaron libros» a la Biblia?",
+    "¿Qué parte del Antiguo Testamento conoces menos?"
+   ],
+   "activity": "Con una Biblia en la mano, cada participante ubica un libro de cada grupo (Pentateuco, históricos, sapienciales, proféticos) y lee su primer versículo en voz alta. Luego comparen el índice de una Biblia católica con el de una Biblia protestante, si tienen una.",
+   "prayer": "Señor, que hablaste a tu pueblo por medio de muchos libros y muchas voces: abre mi inteligencia para comprender las Escrituras, como abriste la de tus discípulos. Que conozca y ame toda tu Palabra. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 14",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe de memoria los nombres de todos los libros del Antiguo Testamento que recuerdes. Luego compara con el índice de tu Biblia.",
+   "logros": [
+    "Describir la organización del Antiguo Testamento.",
+    "Explicar qué es el canon.",
+    "Distinguir la Biblia hebrea, la griega y los deuterocanónicos."
+   ],
+   "profundizar": {
+    "titulo": "Traducciones en español",
+    "texto": "Algunas traducciones católicas confiables: la Biblia de Jerusalén, la Biblia de la Conferencia Episcopal Española, El Libro del Pueblo de Dios y la Biblia de América. Para estudiar, conviene usar una con buenas notas e introducciones."
+   },
+   "caso": {
+    "titulo": "La Biblia del vecino",
+    "texto": "Un joven de tu grupo trae la Biblia de un vecino evangélico y nota que le faltan libros. Pregunta, preocupado, cuál es la verdadera.",
+    "preguntas": [
+     "¿Cómo le explicarías la diferencia?",
+     "¿Cómo hacerlo con respeto hacia los hermanos evangélicos?"
+    ]
+   },
+   "claves": [
+    [
+     "Canon",
+     "Lista de libros reconocidos como inspirados."
+    ],
+    [
+     "Septuaginta",
+     "Traducción griega del Antiguo Testamento hecha en Alejandría."
+    ],
+    [
+     "Deuterocanónicos",
+     "Siete libros del canon católico que no están en la Biblia hebrea."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús abre la inteligencia de sus discípulos. ¿Qué te cuesta entender de la Biblia?",
+    "orar": "Pide el don de entendimiento.",
+    "vivir": "Lee esta semana el primer capítulo de un libro del Antiguo Testamento que no conozcas."
+   },
+   "practica": [
+    "Ubiquen un libro de cada grupo.",
+    "Lean su primer versículo.",
+    "Comparen índices.",
+    "Anoten dudas."
+   ],
+   "idea": "El Antiguo Testamento es la Biblia que leyó y rezó Jesús."
+  },
+  {
+   "title": "La historia de Israel: de los patriarcas al exilio",
+   "objective": "Conocer las grandes etapas de la historia de Israel hasta el exilio en Babilonia, como marco para leer el Antiguo Testamento.",
+   "intro": "La Biblia no cae del cielo como un libro terminado: nace en la historia de un pueblo. Conocer esa historia ayuda a entender por qué se escribió cada texto. En esta unidad vas a recorrer la primera gran parte: desde los patriarcas hasta el exilio.",
+   "sections": [
+    {
+     "title": "Los patriarcas y el éxodo",
+     "body": "Los relatos de **Abraham, Isaac y Jacob** recogen la memoria de los antepasados de Israel, pastores seminómadas. Son difíciles de fechar con precisión; la tradición los sitúa en el segundo milenio antes de Cristo.\n\nEl **éxodo** de Egipto bajo Moisés es la experiencia fundante de Israel: Dios libera a un pueblo esclavo y hace alianza con él en el Sinaí. Muchos estudiosos lo sitúan hacia el siglo XIII antes de Cristo."
+    },
+    {
+     "title": "La tierra y los jueces",
+     "body": "Después del desierto, las tribus se establecen en Canaán. Los libros de **Josué** y **Jueces** narran ese proceso, con líderes carismáticos (los jueces) que surgen en momentos de crisis. Es una etapa de tribus sin rey ni gobierno central."
+    },
+    {
+     "title": "La monarquía",
+     "body": "Hacia el año 1000 antes de Cristo, Israel se organiza como reino con **Saúl**, **David** y **Salomón**. David conquista Jerusalén y la hace capital; Salomón construye el Templo.\n\nA la muerte de Salomón el reino se divide: **Israel** al norte, con capital en Samaria, y **Judá** al sur, con capital en Jerusalén. En esta época actúan grandes profetas como Elías, Amós, Oseas e Isaías."
+    },
+    {
+     "title": "La caída y el exilio",
+     "body": "- En el **722 antes de Cristo**, Asiria destruye el reino del norte.\n- En el **587 o 586 antes de Cristo**, Babilonia conquista Jerusalén, destruye el Templo y deporta a gran parte de la población.\n\nEl **exilio** fue una crisis tremenda: sin tierra, sin rey y sin Templo. Pero fue también un tiempo fecundo: allí se recopilaron y escribieron muchas tradiciones, y la fe de Israel se purificó."
+    }
+   ],
+   "bible": {
+    "ref": "Deuteronomio 26,5-9 · «Mi padre era un arameo errante»",
+    "comment": "Al ofrecer las primicias, el israelita recitaba un breve credo histórico: un antepasado errante, la esclavitud en Egipto, el clamor al Señor, la liberación y el don de la tierra. La fe de Israel se expresa contando una historia: lo que Dios hizo con su pueblo."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 14",
+     "text": "Dios, al elegir a Abraham, a Moisés y a los profetas, fue preparando a su pueblo; la historia de Israel es historia de salvación.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 54-64",
+     "text": "Dios se reveló progresivamente: a los primeros padres, en la alianza con Noé, en la elección de Abraham y en la formación del pueblo de Israel.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Por qué crees que la fe de Israel se expresa contando una historia?",
+    "¿Qué etapa de esta historia conocías menos?",
+    "¿Qué significó para Israel perder el Templo y la tierra?",
+    "¿Has vivido alguna crisis que, mirada después, fue fecunda?"
+   ],
+   "activity": "En parejas, cada uno cuenta en tres minutos una etapa de la historia de Israel como si fuera un noticiero, con titular, lugar y fecha aproximada. El grupo ordena las noticias en la línea del tiempo.",
+   "prayer": "Dios de Abraham, de Moisés y de David: tú caminaste con tu pueblo en la libertad y en el exilio. Camina también con nosotros en nuestra historia, y ayúdanos a reconocer tu paso en lo que vivimos. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 14",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe tu propio «credo histórico» en cinco frases: momentos de tu vida en que Dios estuvo presente.",
+   "logros": [
+    "Ubicar las grandes etapas de la historia de Israel hasta el exilio.",
+    "Relacionar libros bíblicos con su contexto histórico.",
+    "Comprender el exilio como crisis y renovación."
+   ],
+   "profundizar": {
+    "titulo": "Las fechas en la historia antigua",
+    "texto": "Muchas fechas antiguas son aproximadas y los estudiosos discuten algunas. Lo importante para un agente pastoral es conocer el orden de las etapas y el sentido teológico que la Biblia les da, sin presentar como seguro lo que es hipotético."
+   },
+   "caso": {
+    "titulo": "«¿Esto pasó de verdad?»",
+    "texto": "Un catequizando pregunta si las historias de Abraham y Moisés son reales o «cuentos».",
+    "preguntas": [
+     "¿Cómo le explicarías la relación entre historia y fe en estos relatos?",
+     "¿Qué no deberías decirle?"
+    ]
+   },
+   "claves": [
+    [
+     "Patriarcas",
+     "Abraham, Isaac y Jacob, antepasados de Israel."
+    ],
+    [
+     "Monarquía",
+     "Etapa de los reyes, desde Saúl hasta el exilio."
+    ],
+    [
+     "Exilio",
+     "Deportación a Babilonia en el siglo VI antes de Cristo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Mi padre era un arameo errante. ¿Qué historia de fe te precede?",
+    "orar": "Agradece por quienes te transmitieron la fe.",
+    "vivir": "Pregunta a un familiar mayor por la historia de fe de tu familia."
+   },
+   "practica": [
+    "Preparen las noticias.",
+    "Ordénenlas en el tiempo.",
+    "Ubiquen libros bíblicos.",
+    "Corrijan con el relator."
+   ],
+   "idea": "La fe de Israel nace de una historia con Dios."
+  },
+  {
+   "title": "Del exilio a Jesús",
+   "objective": "Conocer la historia de Israel desde el regreso del exilio hasta el tiempo de Jesús: persas, griegos, macabeos y romanos.",
+   "intro": "Entre el regreso del exilio y el nacimiento de Jesús pasan más de cinco siglos. En ese tiempo se formó el judaísmo que conoció Jesús: el Templo reconstruido, la Ley en el centro, las sinagogas y la esperanza del Mesías.",
+   "sections": [
+    {
+     "title": "El regreso y la reconstrucción",
+     "body": "En el **538 antes de Cristo**, el rey persa **Ciro** permite a los judíos volver. Se reconstruye el **Templo** (terminado hacia el 515) y, más tarde, las murallas de Jerusalén, con **Esdras y Nehemías**. La comunidad se reorganiza en torno a la **Ley** de Moisés."
+    },
+    {
+     "title": "Los griegos",
+     "body": "En el **333 antes de Cristo**, **Alejandro Magno** conquista la región y se extiende la cultura griega (helenismo). Muchos judíos viven fuera de Palestina (la **diáspora**), sobre todo en Alejandría, donde se traduce la Escritura al griego."
+    },
+    {
+     "title": "Los macabeos",
+     "body": "Hacia el **167 antes de Cristo**, el rey seléucida **Antíoco IV** intenta imponer la religión griega y profana el Templo. La familia de los **Macabeos** encabeza una rebelión, purifica el Templo (origen de la fiesta de Janucá) y logra un período de independencia. Los libros de los Macabeos y Daniel reflejan esta crisis."
+    },
+    {
+     "title": "Los romanos",
+     "body": "En el **63 antes de Cristo**, el general romano **Pompeyo** toma Jerusalén. Palestina queda bajo control de Roma, con reyes vasallos como **Herodes el Grande**, que amplía el Templo. En este mundo, con fuertes esperanzas mesiánicas y diversos grupos religiosos, nacerá Jesús."
+    }
+   ],
+   "bible": {
+    "ref": "Nehemías 8,1-12 · Esdras lee la Ley al pueblo",
+    "comment": "Al volver del exilio, el pueblo se reúne y Esdras lee la Ley desde la mañana hasta el mediodía; los levitas la explican y el pueblo llora al escucharla. Nehemías dice: «No estén tristes: la alegría del Señor es su fortaleza». La Palabra reconstruye a un pueblo herido."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 15",
+     "text": "La economía del Antiguo Testamento estaba ordenada a preparar la venida de Cristo, redentor universal, y del Reino mesiánico.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Verbum Domini 40-41",
+     "text": "El Antiguo Testamento prepara y anuncia a Cristo; el Nuevo está escondido en el Antiguo y el Antiguo se manifiesta en el Nuevo.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te llama la atención del regreso del exilio?",
+    "¿Cómo vivirías tu fe en una cultura que la desprecia, como en tiempo de los macabeos?",
+    "¿Qué esperanzas había en Israel cuando nació Jesús?",
+    "¿Qué relación ves entre la lectura de Esdras y la liturgia de la Palabra?"
+   ],
+   "activity": "Completen la línea de tiempo desde el 538 antes de Cristo hasta el nacimiento de Jesús, con imperios, personajes y libros bíblicos de cada período.",
+   "prayer": "Señor, que reconstruiste a tu pueblo con tu Palabra: reconstruye también lo que está herido en nuestra vida y en nuestra comunidad. Que tu alegría sea nuestra fortaleza. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 15",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en algo de tu vida o tu comunidad que necesite ser reconstruido.",
+   "logros": [
+    "Ubicar la historia de Israel después del exilio.",
+    "Conocer los imperios que dominaron Palestina.",
+    "Comprender el contexto en que nace Jesús."
+   ],
+   "profundizar": {
+    "titulo": "La diáspora",
+    "texto": "En tiempos de Jesús había más judíos fuera de Palestina que dentro. Las sinagogas de la diáspora fueron después los primeros lugares donde Pablo anunció el Evangelio."
+   },
+   "caso": {
+    "titulo": "La fiesta de Janucá",
+    "texto": "Un joven ve en una serie una celebración judía con un candelabro de nueve brazos y pregunta si tiene algo que ver con la Biblia.",
+    "preguntas": [
+     "¿Qué le contarías?",
+     "¿Dónde aparece esta historia en la Biblia católica?"
+    ]
+   },
+   "claves": [
+    [
+     "Diáspora",
+     "Judíos que viven fuera de la tierra de Israel."
+    ],
+    [
+     "Helenismo",
+     "Cultura griega extendida por Alejandro y sus sucesores."
+    ],
+    [
+     "Macabeos",
+     "Familia que lideró la rebelión judía del siglo II antes de Cristo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "La alegría del Señor es su fortaleza. ¿Dónde está hoy tu alegría?",
+    "orar": "Reza por las comunidades que viven su fe en minoría.",
+    "vivir": "Participa con atención en la liturgia de la Palabra del domingo."
+   },
+   "practica": [
+    "Completen la línea de tiempo.",
+    "Ubiquen los libros.",
+    "Presenten.",
+    "Revisen con el relator."
+   ],
+   "idea": "La espera de Israel prepara la venida de Jesús."
+  },
+  {
+   "title": "Cómo se formó el Antiguo Testamento",
+   "objective": "Comprender el proceso de formación de los libros del Antiguo Testamento: tradición oral, escritura, relectura y géneros literarios.",
+   "intro": "Los libros del Antiguo Testamento no fueron escritos de una sola vez ni por un solo autor. Pasaron por un largo camino de memoria, escritura y relectura. Conocer este proceso no debilita la fe: ayuda a leer mejor.",
+   "sections": [
+    {
+     "title": "De la memoria al texto",
+     "body": "Muchas tradiciones se transmitieron primero de forma **oral**: relatos de los antepasados, cantos, leyes, oráculos proféticos. Con el tiempo se pusieron por escrito, se reunieron y se ordenaron. Varios libros recibieron su forma final después del exilio."
+    },
+    {
+     "title": "Autores y comunidades",
+     "body": "En la Antigüedad era común atribuir un libro a una gran figura (Moisés, David, Salomón) para indicar su autoridad o la tradición a la que pertenece. Hoy sabemos que muchos libros son fruto del trabajo de varias generaciones. Dios inspiró todo ese proceso: los autores son verdaderos autores, y Dios es el autor principal."
+    },
+    {
+     "title": "Géneros literarios",
+     "body": "La Biblia contiene muchos tipos de textos: relatos, leyes, poemas, oraciones, proverbios, oráculos, genealogías, cartas, visiones. Cada género se lee según sus reglas. Un poema no se lee como una crónica, ni una parábola como un informe policial. Por eso la Iglesia pide atender a los géneros literarios."
+    },
+    {
+     "title": "Relectura constante",
+     "body": "Israel volvió una y otra vez sobre sus tradiciones a la luz de nuevas experiencias. Por ejemplo, el relato del éxodo fue releído en el exilio como promesa de un nuevo éxodo (Isaías 43). Esta relectura continúa en el Nuevo Testamento, que lee todo a la luz de Cristo."
+    }
+   ],
+   "bible": {
+    "ref": "Jeremías 36,1-4.27-28 · Baruc escribe las palabras de Jeremías",
+    "comment": "Dios manda a Jeremías escribir sus oráculos, y él los dicta a su secretario Baruc. Cuando el rey quema el rollo, Jeremías vuelve a dictarlo y se le añaden más palabras. Este episodio muestra cómo la Palabra de Dios se fue poniendo por escrito, se transmitió y creció."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 11",
+     "text": "En la composición de los libros sagrados, Dios se valió de hombres elegidos que usaron sus propias facultades, como verdaderos autores, para poner por escrito todo y solo lo que Él quería.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Dei Verbum 12",
+     "text": "Para descubrir la intención de los autores sagrados hay que atender, entre otras cosas, a los géneros literarios.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Te cambia algo saber que un libro tuvo varios autores?",
+    "¿Qué géneros literarios reconoces en la Biblia?",
+    "¿Por qué es importante leer cada texto según su género?",
+    "¿Cómo explicarías la inspiración bíblica a un joven?"
+   ],
+   "activity": "Por grupos, lean un fragmento de distintos géneros: Génesis 2,4-9 (relato), Éxodo 20,1-17 (ley), Salmo 23 (oración), Proverbios 15,1-4 (proverbio) e Isaías 40,1-5 (oráculo). Identifiquen rasgos de cada género y cómo cambia la manera de leerlo.",
+   "prayer": "Espíritu Santo, que inspiraste a los autores sagrados a lo largo de los siglos: ayúdame a leer la Escritura con inteligencia y con fe, atento a lo que cada texto quiere decir, para escuchar en él tu voz. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 11",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en tres tipos de textos que lees en una semana (un mensaje, una noticia, un poema). ¿Los lees igual?",
+   "logros": [
+    "Explicar el proceso de formación del Antiguo Testamento.",
+    "Comprender la inspiración con autores humanos verdaderos.",
+    "Reconocer y leer distintos géneros literarios."
+   ],
+   "profundizar": {
+    "titulo": "Inspiración e inerrancia",
+    "texto": "La Iglesia enseña que los libros sagrados enseñan firmemente, con fidelidad y sin error, la verdad que Dios quiso consignar para nuestra salvación (Dei Verbum 11). Esto no significa que sean manuales de ciencia o de historia moderna."
+   },
+   "caso": {
+    "titulo": "El mundo en seis días",
+    "texto": "Un joven dice que no puede creer en la Biblia porque dice que el mundo se hizo en seis días y la ciencia habla de miles de millones de años.",
+    "preguntas": [
+     "¿Qué tiene que ver el género literario con esta pregunta?",
+     "¿Cómo responderías?"
+    ]
+   },
+   "claves": [
+    [
+     "Inspiración",
+     "Acción de Dios en los autores sagrados."
+    ],
+    [
+     "Género literario",
+     "Tipo de texto con sus propias reglas de lectura."
+    ],
+    [
+     "Relectura",
+     "Volver a leer una tradición a la luz de nuevas experiencias."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jeremías vuelve a dictar el rollo quemado. ¿Qué palabra de Dios no se pudo quemar en tu vida?",
+    "orar": "Agradece por quienes transmitieron la Escritura.",
+    "vivir": "Lee un salmo cada día esta semana."
+   },
+   "practica": [
+    "Lean los cinco textos.",
+    "Identifiquen el género.",
+    "Comparen cómo se leen.",
+    "Compartan conclusiones."
+   ],
+   "idea": "Dios habla con palabras humanas, en muchos géneros."
+  },
+  {
+   "title": "Leer el Antiguo Testamento como cristianos",
+   "objective": "Comprender la relación entre ambos testamentos y aprender criterios para leer los textos difíciles del Antiguo Testamento.",
+   "intro": "Algunos cristianos piensan que el Antiguo Testamento está superado o que muestra un Dios distinto. La Iglesia enseña lo contrario: ambos testamentos forman una unidad. En esta unidad vas a ver cómo leerlo y qué hacer con sus textos más difíciles.",
+   "sections": [
+    {
+     "title": "Una sola historia de salvación",
+     "body": "El Antiguo y el Nuevo Testamento narran una sola historia: la del amor de Dios que prepara, promete y cumple. San Agustín lo resumió así: el Nuevo está escondido en el Antiguo, y el Antiguo se hace claro en el Nuevo."
+    },
+    {
+     "title": "Valor propio",
+     "body": "El Antiguo Testamento no es solo un anuncio de Cristo: tiene un valor permanente. Sus oraciones (los Salmos), su sabiduría, su exigencia de justicia y su experiencia de Dios siguen alimentando la fe. Por eso se lee en la liturgia y la Iglesia rechazó a quienes querían eliminarlo (como Marción en el siglo II)."
+    },
+    {
+     "title": "Textos difíciles",
+     "body": "Hay textos que nos chocan: guerras, venganzas, leyes duras. Algunos criterios:\n\n- **Pedagogía divina:** Dios educa a su pueblo poco a poco, desde su realidad.\n- **Contexto:** muchos textos reflejan la cultura de su tiempo.\n- **Leer el conjunto:** la Biblia misma corrige y profundiza (los profetas critican la violencia y la injusticia).\n- **Leer desde Cristo:** en Jesús se revela plenamente el rostro de Dios."
+    },
+    {
+     "title": "El pueblo judío",
+     "body": "Los cristianos tenemos un vínculo único con el pueblo judío: la alianza de Dios con Israel no ha sido revocada. Leer el Antiguo Testamento con respeto por quienes lo leen hoy como su Escritura es parte de nuestra fe."
+    }
+   ],
+   "bible": {
+    "ref": "Mateo 5,17-19 · «No vine a abolir, sino a dar cumplimiento»",
+    "comment": "Jesús afirma que no viene a abolir la Ley y los Profetas, sino a llevarlos a plenitud. Luego, en las antítesis («Ustedes han oído que se dijo… pero yo les digo»), muestra hacia dónde apuntaba la Ley: un amor que llega incluso a los enemigos."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 15-16",
+     "text": "Los libros del Antiguo Testamento, aunque contienen cosas imperfectas y pasajeras, muestran la verdadera pedagogía divina; Dios dispuso que el Nuevo estuviera latente en el Antiguo y el Antiguo patente en el Nuevo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Verbum Domini 42",
+     "text": "Ante las páginas oscuras de la Biblia, hay que leerlas en su contexto histórico y a la luz de Cristo, como parte de una revelación progresiva.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Has escuchado decir que el Dios del Antiguo Testamento es distinto del de Jesús?",
+    "¿Qué texto del Antiguo Testamento te cuesta?",
+    "¿Qué valor permanente encuentras en los Salmos?",
+    "¿Qué sabes del vínculo entre cristianos y judíos?"
+   ],
+   "activity": "En grupos, tomen un texto difícil (por ejemplo, Josué 6 o el Salmo 137) y analícenlo con los criterios de la unidad: contexto, pedagogía, conjunto de la Biblia y luz de Cristo. Preparen cómo lo explicarían a un grupo de catequesis.",
+   "prayer": "Señor Jesús, que diste plenitud a la Ley y los Profetas: enséñame a leer todo el Antiguo Testamento a tu luz, a valorar su riqueza y a no escandalizarme de sus páginas difíciles, sino a dejarme educar por tu pedagogía paciente. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 15-16",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una pregunta difícil que tengas sobre el Antiguo Testamento.",
+   "logros": [
+    "Explicar la unidad de los dos testamentos.",
+    "Aplicar criterios para leer textos difíciles.",
+    "Valorar el vínculo con el pueblo judío."
+   ],
+   "profundizar": {
+    "titulo": "Tipología",
+    "texto": "Los Padres de la Iglesia leían en el Antiguo Testamento «figuras» que anuncian a Cristo: el paso del mar Rojo y el bautismo, el maná y la Eucaristía, Isaac y Jesús. Es la lectura tipológica, que la liturgia sigue usando, por ejemplo, en la Vigilia Pascual."
+   },
+   "caso": {
+    "titulo": "«Ese Dios no me gusta»",
+    "texto": "En un grupo de estudio bíblico, una joven dice que después de leer Josué prefiere no leer más el Antiguo Testamento porque Dios parece violento.",
+    "preguntas": [
+     "¿Qué criterios le ofrecerías?",
+     "¿Qué textos del Antiguo Testamento le recomendarías para equilibrar su mirada?"
+    ]
+   },
+   "claves": [
+    [
+     "Pedagogía divina",
+     "Modo gradual en que Dios educa a su pueblo."
+    ],
+    [
+     "Tipología",
+     "Lectura de figuras del Antiguo Testamento cumplidas en Cristo."
+    ],
+    [
+     "Marción",
+     "Hereje del siglo II que rechazaba el Antiguo Testamento."
+    ]
+   ],
+   "lectio": {
+    "meditar": "No vine a abolir, sino a cumplir. ¿Qué quiere llevar Jesús a plenitud en ti?",
+    "orar": "Reza un salmo pensando en Jesús que también lo rezó.",
+    "vivir": "Lee esta semana una lectura del Antiguo Testamento de la misa y busca su relación con el evangelio."
+   },
+   "practica": [
+    "Elijan un texto difícil.",
+    "Apliquen los criterios.",
+    "Preparen la explicación.",
+    "Preséntenla."
+   ],
+   "idea": "El Nuevo está escondido en el Antiguo, y el Antiguo se aclara en el Nuevo."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Cuántos libros tiene el Antiguo Testamento católico?",
+   "options": [
+    "39",
+    "46",
+    "27"
+   ],
+   "correct": 1,
+   "feedback": "La Biblia católica incluye los deuterocanónicos."
+  },
+  {
+   "q": "¿Qué significa «canon»?",
+   "options": [
+    "Regla o lista de libros reconocidos como inspirados",
+    "Un tipo de canto",
+    "Una traducción antigua"
+   ],
+   "correct": 0,
+   "feedback": "Es la lista de libros inspirados."
+  },
+  {
+   "q": "¿Qué es la Septuaginta?",
+   "options": [
+    "Un libro profético",
+    "La traducción griega del Antiguo Testamento",
+    "Un concilio"
+   ],
+   "correct": 1,
+   "feedback": "Se hizo en Alejandría entre los siglos III y I antes de Cristo."
+  },
+  {
+   "q": "¿Cuál de estos libros es deuterocanónico?",
+   "options": [
+    "Isaías",
+    "Tobías",
+    "Génesis"
+   ],
+   "correct": 1,
+   "feedback": "Tobías no está en la Biblia hebrea."
+  },
+  {
+   "q": "¿En qué siglo fue el exilio en Babilonia?",
+   "options": [
+    "Siglo VI antes de Cristo",
+    "Siglo I después de Cristo",
+    "Siglo X antes de Cristo"
+   ],
+   "correct": 0,
+   "feedback": "Jerusalén cayó en el 587 o 586 antes de Cristo."
+  },
+  {
+   "q": "¿Qué rey persa permitió el regreso de los exiliados?",
+   "options": [
+    "Antíoco IV",
+    "Ciro",
+    "Herodes"
+   ],
+   "correct": 1,
+   "feedback": "Ciro, en el 538 antes de Cristo."
+  },
+  {
+   "q": "¿Por qué es importante el género literario?",
+   "options": [
+    "Porque cada tipo de texto se lee según sus reglas",
+    "Porque indica el autor",
+    "Porque define la fecha"
+   ],
+   "correct": 0,
+   "feedback": "Un poema no se lee como una crónica."
+  },
+  {
+   "q": "¿Cómo se relacionan los dos testamentos según Dei Verbum?",
+   "options": [
+    "El Nuevo reemplaza al Antiguo",
+    "El Nuevo está latente en el Antiguo y el Antiguo patente en el Nuevo",
+    "No tienen relación"
+   ],
+   "correct": 1,
+   "feedback": "Forman una unidad."
+  }
+ ]
+}

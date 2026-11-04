@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Dónde nació Pablo?",
+    "opciones": [
+     "Jerusalén",
+     "Tarso de Cilicia",
+     "Damasco"
+    ],
+    "correcta": 1,
+    "explicacion": "Era judío de la diáspora con ciudadanía romana."
+   },
+   {
+    "pregunta": "¿Cómo describe Pablo su experiencia de Damasco en Gálatas?",
+    "opciones": [
+     "Como un cambio de religión",
+     "Como una revelación del Hijo y un llamado a anunciarlo",
+     "Como un sueño"
+    ],
+    "correcta": 1,
+    "explicacion": "Gálatas 1,15-16."
+   },
+   {
+    "pregunta": "¿Cuál es probablemente el escrito más antiguo del Nuevo Testamento?",
+    "opciones": [
+     "Romanos",
+     "1 Tesalonicenses",
+     "Hebreos"
+    ],
+    "correcta": 1,
+    "explicacion": "Hacia el año 50."
+   },
+   {
+    "pregunta": "¿Cuántas cartas se consideran escritas personalmente por Pablo?",
+    "opciones": [
+     "Siete",
+     "Trece",
+     "Catorce"
+    ],
+    "correcta": 0,
+    "explicacion": "Romanos, 1 y 2 Corintios, Gálatas, Filipenses, 1 Tesalonicenses y Filemón."
+   },
+   {
+    "pregunta": "¿Qué significa ser justificado por la fe?",
+    "opciones": [
+     "Ganarse a Dios con obras",
+     "Ser hecho justo por gracia, mediante la fe en Cristo",
+     "No tener que hacer el bien"
+    ],
+    "correcta": 1,
+    "explicacion": "La fe actúa por el amor."
+   },
+   {
+    "pregunta": "¿Qué texto de Pablo es el relato más antiguo de la institución de la Eucaristía?",
+    "opciones": [
+     "1 Corintios 11,23-26",
+     "Romanos 8",
+     "Filipenses 2"
+    ],
+    "correcta": 0,
+    "explicacion": "Anterior a los evangelios."
+   },
+   {
+    "pregunta": "¿Qué es lo más grande según 1 Corintios 13?",
+    "opciones": [
+     "La fe",
+     "La esperanza",
+     "El amor"
+    ],
+    "correcta": 2,
+    "explicacion": "El amor permanece."
+   },
+   {
+    "pregunta": "¿Qué virtud se repite en Filipenses?",
+    "opciones": [
+     "La alegría",
+     "La obediencia",
+     "El ayuno"
+    ],
+    "correcta": 0,
+    "explicacion": "Escrita desde la cárcel."
+   }
+  ]
+ }
+}

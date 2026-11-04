@@ -1,0 +1,61 @@
+{
+ "curso": "se-9",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+   "semanas": "",
+   "intro": "Hebreos y el Apocalipsis cierran el Nuevo Testamento. Son libros difíciles y muchas veces mal entendidos. En este módulo vas a aprender a leerlos con sus claves propias y a descubrir su mensaje de esperanza para comunidades cansadas o perseguidas.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "La Carta a los Hebreos: Cristo, sumo sacerdote",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Hebreos: la nueva alianza y la fe que persevera",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "El Apocalipsis: género y claves de lectura",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Apocalipsis: el Cordero y la Iglesia perseguida",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Apocalipsis: cielo nuevo y tierra nueva",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

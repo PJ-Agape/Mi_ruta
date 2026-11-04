@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es el principio de la sabiduría según Proverbios?",
+    "opciones": [
+     "El conocimiento científico",
+     "El temor del Señor",
+     "La riqueza"
+    ],
+    "correcta": 1,
+    "explicacion": "Proverbios 1,7."
+   },
+   {
+    "pregunta": "¿En qué se basa la poesía hebrea?",
+    "opciones": [
+     "En la rima",
+     "En el paralelismo",
+     "En la métrica griega"
+    ],
+    "correcta": 1,
+    "explicacion": "Un verso repite, contrasta o completa al anterior."
+   },
+   {
+    "pregunta": "¿Qué salmo rezó Jesús en la cruz?",
+    "opciones": [
+     "Salmo 23",
+     "Salmo 22",
+     "Salmo 51"
+    ],
+    "correcta": 1,
+    "explicacion": "«Dios mío, Dios mío, ¿por qué me has abandonado?»."
+   },
+   {
+    "pregunta": "¿Quién escribió el Eclesiástico?",
+    "opciones": [
+     "Salomón",
+     "Jesús ben Sira",
+     "Moisés"
+    ],
+    "correcta": 1,
+    "explicacion": "Hacia el 180 antes de Cristo."
+   },
+   {
+    "pregunta": "¿Qué rechaza el libro de Job?",
+    "opciones": [
+     "Que Dios exista",
+     "Que todo sufrimiento sea castigo por el pecado",
+     "Que se pueda rezar"
+    ],
+    "correcta": 1,
+    "explicacion": "Dios da la razón a Job frente a sus amigos."
+   },
+   {
+    "pregunta": "¿Qué significa «vanidad» en Eclesiastés?",
+    "opciones": [
+     "Orgullo",
+     "Vapor, soplo, lo pasajero",
+     "Belleza"
+    ],
+    "correcta": 1,
+    "explicacion": "La palabra hebrea es hebel."
+   },
+   {
+    "pregunta": "¿Qué celebra el Cantar de los Cantares?",
+    "opciones": [
+     "Las victorias de Israel",
+     "El amor humano entre un hombre y una mujer",
+     "La Ley de Moisés"
+    ],
+    "correcta": 1,
+    "explicacion": "Leído también como imagen del amor de Dios."
+   },
+   {
+    "pregunta": "¿Qué afirma Sabiduría 3,1?",
+    "opciones": [
+     "Que los justos desaparecen",
+     "Que las almas de los justos están en las manos de Dios",
+     "Que la muerte es el fin"
+    ],
+    "correcta": 1,
+    "explicacion": "Prepara la fe en la resurrección."
+   }
+  ]
+ }
+}

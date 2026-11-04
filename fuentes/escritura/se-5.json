@@ -1,0 +1,580 @@
+{
+ "id": "se-5",
+ "titulo": "Sagrada Escritura V: Exégesis A.T. II: Profetas",
+ "subtitulo": "La palabra profética de Amós a Malaquías",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio de los profetas de Israel: qué es un profeta, los profetas del siglo VIII, Jeremías, los profetas del exilio y los del posexilio, y la esperanza mesiánica. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura V: Exégesis A.T. II: Profetas",
+ "intro": "Los profetas fueron la conciencia de Israel: denunciaron la injusticia y la idolatría, consolaron en el exilio y mantuvieron viva la esperanza. En este módulo vas a conocer su mensaje en su contexto y su vigencia para hoy.",
+ "taller": "Cada participante elige un profeta y prepara una «carta profética» actual: un texto breve que, inspirado en el estilo y los temas de ese profeta, denuncie una injusticia de hoy y anuncie esperanza, con al menos dos citas del libro. Se leen en el grupo y se comenta su fidelidad al profeta y a la doctrina social de la Iglesia.",
+ "unidades": [
+  {
+   "title": "¿Qué es un profeta?",
+   "objective": "Comprender la figura del profeta en Israel, su vocación y su misión, y la organización de los libros proféticos.",
+   "intro": "Para mucha gente, un profeta es alguien que adivina el futuro. En la Biblia, un profeta es otra cosa: alguien que habla en nombre de Dios al presente de su pueblo. En esta unidad vas a conocer quiénes eran y cómo se organizan sus libros.",
+   "sections": [
+    {
+     "title": "El que habla en nombre de Dios",
+     "body": "La palabra hebrea **nabí** se relaciona con «llamar» o «ser llamado». El profeta es llamado por Dios y enviado a hablar en su nombre. Sus oráculos suelen empezar con «Así dice el Señor». Más que predecir, interpreta la historia desde Dios y llama a la conversión."
+    },
+    {
+     "title": "La vocación",
+     "body": "Los relatos de vocación (Isaías 6, Jeremías 1, Ezequiel 1–3) muestran que el profeta no elige su misión: Dios lo llama, muchas veces a pesar de su resistencia. Jeremías dice: «No sé hablar, soy un muchacho»; Dios responde: «No digas que eres un muchacho: irás adonde yo te envíe»."
+    },
+    {
+     "title": "Profetas anteriores y posteriores",
+     "body": "En la Biblia hebrea, los **Profetas anteriores** son los libros de Josué, Jueces, Samuel y Reyes, donde actúan profetas como Natán, Elías y Eliseo. Los **Profetas posteriores** son los libros que llevan nombre de profeta: Isaías, Jeremías, Ezequiel y los Doce. La Biblia cristiana suma Lamentaciones, Baruc y Daniel."
+    },
+    {
+     "title": "Mayores y menores",
+     "body": "Isaías, Jeremías, Ezequiel y Daniel se llaman **profetas mayores** por la extensión de sus libros, no por su importancia. Los **doce profetas menores** (de Oseas a Malaquías) son libros más breves."
+    }
+   ],
+   "bible": {
+    "ref": "Jeremías 1,4-10 · La vocación de Jeremías",
+    "comment": "Dios le dice a Jeremías que lo conocía antes de formarlo en el vientre y que lo constituyó profeta de las naciones. Jeremías se resiste por su juventud. Dios toca su boca y le dice: «Pongo mis palabras en tu boca». La vocación profética es iniciativa de Dios y no depende de la edad."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 15",
+     "text": "La economía del Antiguo Testamento estaba ordenada a preparar y anunciar proféticamente la venida de Cristo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 64 y 2581-2584",
+     "text": "Por los profetas, Dios forma a su pueblo en la esperanza de la salvación; los profetas son hombres de oración que interceden y llaman a la conversión.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué imagen tenías de los profetas?",
+    "¿Quiénes son voces proféticas hoy?",
+    "¿Te identificas con la resistencia de Jeremías?",
+    "¿Qué te dice que Dios llame a un joven?"
+   ],
+   "activity": "Lean en grupos los relatos de vocación de Isaías 6,1-8 y Jeremías 1,4-10. Comparen: lugar, reacción del profeta, signo de Dios y misión. Relacionen con la propia vocación de servicio.",
+   "prayer": "Señor, que llamaste a los profetas aunque se sentían pequeños: pon tus palabras en mi boca. Que no tenga miedo de anunciar tu verdad ni de denunciar lo que daña a tu pueblo. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 15",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en una persona que haya sido «profeta» en tu vida: alguien que te dijo una verdad que necesitabas.",
+   "logros": [
+    "Explicar qué es un profeta bíblico.",
+    "Conocer los relatos de vocación.",
+    "Organizar los libros proféticos."
+   ],
+   "profundizar": {
+    "titulo": "Profetas y adivinos",
+    "texto": "La Biblia prohíbe la adivinación (Deuteronomio 18,9-14) y distingue al verdadero profeta del falso: el verdadero habla en nombre del Señor, su palabra se cumple y lleva a la fidelidad a Dios."
+   },
+   "caso": {
+    "titulo": "El profeta incómodo",
+    "texto": "En la parroquia, una joven denuncia que una actividad excluye a los jóvenes con menos recursos. Algunos la acusan de ser conflictiva.",
+    "preguntas": [
+     "¿Qué rasgos proféticos ves en ella?",
+     "¿Cómo discernir una crítica profética de una simple queja?"
+    ]
+   },
+   "claves": [
+    [
+     "Nabí",
+     "Profeta: llamado y enviado a hablar en nombre de Dios."
+    ],
+    [
+     "Oráculo",
+     "Mensaje del profeta en nombre de Dios."
+    ],
+    [
+     "Profetas menores",
+     "Doce libros proféticos breves."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Pongo mis palabras en tu boca. ¿Qué palabra te pide Dios decir?",
+    "orar": "Reza por quienes denuncian injusticias.",
+    "vivir": "Escucha esta semana una crítica sin defenderte enseguida."
+   },
+   "practica": [
+    "Lean los relatos.",
+    "Comparen.",
+    "Relacionen con su vocación.",
+    "Compartan."
+   ],
+   "idea": "El profeta habla al presente en nombre de Dios."
+  },
+  {
+   "title": "Los profetas del siglo VIII",
+   "objective": "Conocer el mensaje de Amós, Oseas, Isaías y Miqueas: justicia social, amor fiel y confianza en Dios.",
+   "intro": "En el siglo VIII antes de Cristo, Israel y Judá vivían prosperidad para unos pocos y miseria para muchos, mientras el culto era abundante. Cuatro profetas alzaron la voz: Amós, Oseas, Isaías y Miqueas.",
+   "sections": [
+    {
+     "title": "Amós: la justicia",
+     "body": "Pastor de Técoa, en Judá, enviado al reino del norte. Denuncia con dureza a los que «venden al justo por dinero y al pobre por un par de sandalias» (2,6) y a quienes celebran fiestas mientras oprimen. Su gran frase: «Que fluya el derecho como agua y la justicia como un torrente inagotable» (5,24)."
+    },
+    {
+     "title": "Oseas: el amor fiel",
+     "body": "Oseas vive un drama personal: su esposa le es infiel y él la sigue amando. En su experiencia descubre el amor de Dios por un pueblo infiel: «La seduciré, la llevaré al desierto y le hablaré al corazón» (2,16). Dios dice: «Quiero amor y no sacrificios» (6,6), frase que Jesús citará."
+    },
+    {
+     "title": "Isaías de Jerusalén",
+     "body": "Isaías (capítulos 1–39 en su mayor parte) recibe su vocación en el Templo ante la santidad de Dios (capítulo 6). Llama al rey a confiar en Dios y no en alianzas políticas. Anuncia el signo del **Emmanuel** (7,14) y un rey justo sobre quien reposará el Espíritu (11,1-9)."
+    },
+    {
+     "title": "Miqueas: lo que Dios pide",
+     "body": "Campesino de Moréset, denuncia a los que acaparan casas y campos. Resume la religión verdadera: «Se te ha indicado, hombre, qué es lo bueno y qué exige de ti el Señor: practicar la justicia, amar la fidelidad y caminar humildemente con tu Dios» (6,8). Anuncia que de Belén saldrá el pastor de Israel (5,1)."
+    }
+   ],
+   "bible": {
+    "ref": "Amós 5,21-24 · Que fluya la justicia",
+    "comment": "Dios dice que detesta las fiestas y los sacrificios de un pueblo que oprime al pobre, y que no quiere oír el ruido de sus cantos. Lo que pide es que fluya el derecho como agua y la justicia como un torrente. El culto sin justicia está vacío."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2443-2449",
+     "text": "Dios bendice a los que ayudan a los pobres; los profetas denuncian a quienes oprimen al pobre, y la caridad con ellos es una exigencia de la justicia.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Evangelii gaudium 187-188",
+     "text": "Cada cristiano y cada comunidad están llamados a ser instrumentos de Dios para la liberación y promoción de los pobres; escuchar su clamor nace de la obra liberadora de la gracia.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Qué denunciaría Amós hoy en Chile?",
+    "¿Qué te dice el amor de Dios según Oseas?",
+    "¿Dónde confiamos más en las estrategias que en Dios?",
+    "¿Cómo vives Miqueas 6,8?"
+   ],
+   "activity": "En grupos, lean un capítulo de cada profeta (Amós 5, Oseas 11, Isaías 11, Miqueas 6) y elijan un versículo clave. Escríbanlo en un afiche junto a una situación actual a la que ilumine.",
+   "prayer": "Señor, que quieres amor y no sacrificios, justicia y no solo ritos: haz que nuestra fe se note en la manera de tratar a los pobres. Que practiquemos la justicia, amemos la fidelidad y caminemos humildemente contigo. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 2443-2449",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una injusticia que ves en tu barrio, colegio o ciudad.",
+   "logros": [
+    "Conocer el contexto del siglo VIII.",
+    "Distinguir el mensaje de cada profeta.",
+    "Relacionar profecía, justicia y culto."
+   ],
+   "profundizar": {
+    "titulo": "Isaías en tres partes",
+    "texto": "Los estudiosos distinguen en el libro de Isaías tres grandes secciones: la del profeta del siglo VIII (1–39), la del exilio (40–55) y la del posexilio (56–66). La tradición las reunió bajo el nombre de Isaías."
+   },
+   "caso": {
+    "titulo": "Misa y justicia",
+    "texto": "Un joven dice que en su parroquia hay muchas misas, pero nadie hace nada por las familias del campamento cercano.",
+    "preguntas": [
+     "¿Qué diría Amós?",
+     "¿Qué paso concreto podría dar el grupo?"
+    ]
+   },
+   "claves": [
+    [
+     "Justicia",
+     "Relaciones rectas con Dios y con el prójimo, sobre todo el pobre."
+    ],
+    [
+     "Emmanuel",
+     "Dios con nosotros (Isaías 7,14)."
+    ],
+    [
+     "Amor fiel",
+     "Hesed: amor leal de Dios a su alianza."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Que fluya la justicia. ¿Dónde está seca en tu entorno?",
+    "orar": "Reza por los pobres de tu ciudad.",
+    "vivir": "Haz un gesto concreto de justicia."
+   },
+   "practica": [
+    "Lean los capítulos.",
+    "Elijan versículos.",
+    "Hagan los afiches.",
+    "Presenten."
+   ],
+   "idea": "El culto verdadero va unido a la justicia."
+  },
+  {
+   "title": "Jeremías y la caída de Jerusalén",
+   "objective": "Conocer la vida y el mensaje de Jeremías, profeta de la crisis y de la nueva alianza.",
+   "intro": "Jeremías vivió los años más dramáticos de Judá: la caída de Jerusalén y el exilio. Su libro deja ver su sufrimiento personal como pocos. Y en medio de la catástrofe anuncia algo inesperado: una nueva alianza.",
+   "sections": [
+    {
+     "title": "Un profeta en tiempos de crisis",
+     "body": "Jeremías actuó desde fines del siglo VII hasta después de la caída de Jerusalén en el **587 o 586 antes de Cristo**. Anunció que confiar en el Templo como garantía mágica era un engaño (capítulo 7) y que Babilonia sería instrumento del castigo. Por eso lo trataron de traidor."
+    },
+    {
+     "title": "Las confesiones",
+     "body": "En varios pasajes (por ejemplo 15,10-21 y 20,7-18) Jeremías se queja ante Dios de su sufrimiento: «Me sedujiste, Señor, y me dejé seducir». Son llamadas sus **confesiones**. Muestran a un profeta humano, que sufre su misión y que, aun así, no puede dejar de anunciar: la palabra es como un fuego en sus huesos."
+    },
+    {
+     "title": "Acciones simbólicas",
+     "body": "Jeremías comunica también con gestos: un cinturón podrido, una vasija rota, un yugo sobre el cuello. Al final compra un campo cuando Jerusalén está sitiada (capítulo 32), como signo de esperanza: «Todavía se comprarán casas y campos en esta tierra»."
+    },
+    {
+     "title": "La nueva alianza",
+     "body": "En el corazón de la crisis anuncia: «Llegarán días en que haré una alianza nueva… pondré mi ley en su interior y la escribiré en su corazón» (31,31-34). Jesús retoma estas palabras en la Última Cena: «Esta copa es la nueva alianza en mi sangre»."
+    }
+   ],
+   "bible": {
+    "ref": "Jeremías 31,31-34 · La nueva alianza",
+    "comment": "Dios promete una alianza distinta a la del Sinaí, que el pueblo rompió: escribirá su ley en el corazón, todos lo conocerán y perdonará sus culpas. La Carta a los Hebreos cita este texto completo para hablar de la obra de Cristo."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 64 y 715",
+     "text": "Los profetas anuncian una redención radical del pueblo y una nueva alianza destinada a todas las naciones, escrita en los corazones.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2584",
+     "text": "Los profetas, en su soledad con Dios, sacan luz y fuerza para su misión; su oración es un combate de la fe.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te dicen las quejas de Jeremías sobre tu oración?",
+    "¿En qué «templos» ponemos falsas seguridades?",
+    "¿Qué gesto de esperanza podrías hacer en una crisis?",
+    "¿Qué significa que la ley esté escrita en el corazón?"
+   ],
+   "activity": "Lean Jeremías 20,7-9 y 32,6-15. Cada participante escribe su propia «confesión» a Dios sobre una dificultad en su servicio, y un gesto concreto de esperanza que hará.",
+   "prayer": "Señor, que sedujiste a Jeremías y le diste tu palabra como fuego: cuando el servicio me cuesta, déjame quejarme contigo sin dejar de seguirte. Escribe tu ley en mi corazón. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 64 y 715",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una frase de queja sincera a Dios sobre algo que te cuesta.",
+   "logros": [
+    "Conocer el contexto de Jeremías.",
+    "Comprender sus confesiones y acciones simbólicas.",
+    "Relacionar la nueva alianza con la Eucaristía."
+   ],
+   "profundizar": {
+    "titulo": "Lamentaciones",
+    "texto": "El libro de las Lamentaciones, atribuido por la tradición a Jeremías, llora la destrucción de Jerusalén con cinco poemas. Se lee en la liturgia de Semana Santa."
+   },
+   "caso": {
+    "titulo": "Dirigente cansado",
+    "texto": "Un dirigente con años de servicio confiesa que ya no siente nada y que sigue solo por obligación.",
+    "preguntas": [
+     "¿Qué le diría Jeremías?",
+     "¿Qué acompañamiento necesita?"
+    ]
+   },
+   "claves": [
+    [
+     "Confesiones",
+     "Quejas personales de Jeremías ante Dios."
+    ],
+    [
+     "Acción simbólica",
+     "Gesto profético que comunica un mensaje."
+    ],
+    [
+     "Nueva alianza",
+     "Alianza escrita en el corazón (Jeremías 31)."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Me sedujiste, Señor. ¿Cómo te sedujo Dios a ti?",
+    "orar": "Reza la oración de Jeremías 20,7-9.",
+    "vivir": "Haz un gesto de esperanza en una situación difícil."
+   },
+   "practica": [
+    "Lean los textos.",
+    "Escriban su confesión.",
+    "Definan un gesto.",
+    "Compartan."
+   ],
+   "idea": "En medio de la crisis, Dios promete una alianza nueva."
+  },
+  {
+   "title": "Profetas del exilio: Ezequiel y el Segundo Isaías",
+   "objective": "Conocer el mensaje de consuelo y esperanza de Ezequiel y de Isaías 40–55, incluidos los cantos del Siervo.",
+   "intro": "En el exilio de Babilonia, cuando todo parecía perdido, Dios suscitó profetas de consuelo. Ezequiel anunció un corazón nuevo y huesos que reviven. Un profeta anónimo, cuyo mensaje está en Isaías 40–55, anunció un nuevo éxodo y presentó la misteriosa figura del Siervo sufriente.",
+   "sections": [
+    {
+     "title": "Ezequiel: corazón nuevo",
+     "body": "Sacerdote deportado a Babilonia en el 597. Tiene visiones impresionantes de la gloria de Dios. Anuncia: «Les daré un corazón nuevo y pondré en ustedes un espíritu nuevo; quitaré su corazón de piedra y les daré un corazón de carne» (36,26). Ve un valle de **huesos secos** que reviven por el espíritu de Dios (37): Israel volverá a vivir."
+    },
+    {
+     "title": "Ezequiel: el buen pastor",
+     "body": "En el capítulo 34 denuncia a los malos pastores que se aprovechan del rebaño y anuncia que Dios mismo pastoreará a sus ovejas: buscará a la perdida, vendará a la herida. Jesús se presentará como el buen pastor (Juan 10)."
+    },
+    {
+     "title": "Segundo Isaías: consuelo",
+     "body": "Isaías 40 comienza: «Consuelen, consuelen a mi pueblo». El profeta anuncia el fin del exilio como un **nuevo éxodo**, a través del desierto. Insiste en que hay un solo Dios, creador y señor de la historia, frente a los ídolos de Babilonia. Ciro aparece como instrumento de Dios."
+    },
+    {
+     "title": "Los cantos del Siervo",
+     "body": "Cuatro poemas (42,1-9; 49,1-6; 50,4-11; 52,13–53,12) presentan a un **Siervo del Señor** que trae justicia a las naciones con mansedumbre y que sufre por los pecados de otros: «Él fue traspasado por nuestras rebeldías… por sus heridas fuimos sanados». Los primeros cristianos vieron en él a Jesús, y la liturgia lo lee el Viernes Santo."
+    }
+   ],
+   "bible": {
+    "ref": "Ezequiel 37,1-14 · Los huesos secos",
+    "comment": "El profeta es llevado a un valle lleno de huesos secos. Dios le pregunta si pueden revivir y le manda profetizar. Los huesos se juntan, se cubren de carne y el espíritu entra en ellos. Dios dice: «Abriré sus tumbas… pondré mi espíritu en ustedes y vivirán». Ninguna situación está tan muerta que Dios no pueda resucitarla."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 601 y 713",
+     "text": "Los cantos del Siervo anuncian el sentido de la pasión de Jesús; el Mesías es presentado como el Siervo sobre quien reposa el Espíritu.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué «huesos secos» ves en tu comunidad?",
+    "¿Qué te consuela de Isaías 40?",
+    "¿Cómo te ayuda Isaías 53 a entender la pasión de Jesús?",
+    "¿Qué malos pastoreos denunciaría hoy Ezequiel?"
+   ],
+   "activity": "Lean en voz alta el cuarto canto del Siervo (Isaías 52,13–53,12) y después el relato de la pasión de Marcos 15. Anoten las coincidencias y conversen cómo la Iglesia leyó este texto.",
+   "prayer": "Señor, que conviertes los huesos secos en un pueblo vivo y das un corazón nuevo: sopla tu Espíritu sobre lo que está muerto en mí y en mi comunidad. Gracias por Jesús, el Siervo que cargó con nuestros dolores. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 601 y 713",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe algo de tu vida o tu comunidad que sientes «seco» o sin vida.",
+   "logros": [
+    "Conocer el mensaje de Ezequiel.",
+    "Comprender el consuelo del Segundo Isaías.",
+    "Relacionar los cantos del Siervo con la pasión de Jesús."
+   ],
+   "profundizar": {
+    "titulo": "¿Quién es el Siervo?",
+    "texto": "En su contexto, el Siervo puede representar a Israel o a una figura individual; los estudiosos discuten. Los cristianos, desde Hechos 8, lo leen a la luz de Jesús, en quien la figura alcanza su sentido pleno."
+   },
+   "caso": {
+    "titulo": "La comunidad que se apaga",
+    "texto": "Un grupo juvenil quedó con tres miembros y el ánimo por el suelo. Los dirigentes piensan cerrarlo.",
+    "preguntas": [
+     "¿Qué diría Ezequiel 37?",
+     "¿Qué pasos concretos podrían dar?"
+    ]
+   },
+   "claves": [
+    [
+     "Corazón nuevo",
+     "Promesa de transformación interior (Ezequiel 36)."
+    ],
+    [
+     "Segundo Isaías",
+     "Isaías 40–55, profeta del exilio."
+    ],
+    [
+     "Siervo del Señor",
+     "Figura de los cuatro cantos de Isaías."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Huesos secos, escuchen la palabra del Señor. ¿Qué necesita escuchar tu corazón?",
+    "orar": "Reza Isaías 40,1-11.",
+    "vivir": "Consuela esta semana a alguien que está desanimado."
+   },
+   "practica": [
+    "Lean el canto del Siervo.",
+    "Lean la pasión.",
+    "Anoten coincidencias.",
+    "Conversen."
+   ],
+   "idea": "Ninguna situación está tan muerta que Dios no pueda devolverle la vida."
+  },
+  {
+   "title": "Profetas después del exilio y la esperanza mesiánica",
+   "objective": "Conocer a los profetas del posexilio, la apocalíptica de Daniel y la esperanza mesiánica que prepara el Nuevo Testamento.",
+   "intro": "Después del regreso, la realidad fue más pobre de lo esperado. Los profetas de este tiempo animaron la reconstrucción, criticaron la tibieza y mantuvieron viva la esperanza de un tiempo nuevo. Así preparan el Nuevo Testamento.",
+   "sections": [
+    {
+     "title": "Ageo, Zacarías y Malaquías",
+     "body": "- **Ageo** y **Zacarías** animan la reconstrucción del Templo hacia el 520 antes de Cristo. Zacarías anuncia un rey humilde montado en un asno (9,9), texto que los evangelios relacionan con la entrada de Jesús en Jerusalén.\n- **Malaquías** critica un culto rutinario y anuncia que Dios enviará a su mensajero, a Elías, antes del día del Señor (3,1.23). Los evangelios lo relacionan con Juan Bautista."
+    },
+    {
+     "title": "Tercer Isaías y Joel",
+     "body": "Isaías 56–66 abre el Templo a los extranjeros (56,7: «casa de oración para todos los pueblos») y anuncia cielos nuevos y tierra nueva. **Joel** anuncia que Dios derramará su Espíritu sobre todos: hijos e hijas profetizarán (3,1-2). Pedro cita este texto en Pentecostés."
+    },
+    {
+     "title": "Jonás",
+     "body": "El libro de Jonás es un relato didáctico sobre un profeta que huye de su misión porque no quiere que Dios perdone a Nínive, ciudad enemiga. Termina con una pregunta de Dios sobre su compasión. Es una crítica al nacionalismo estrecho y un anuncio de la misericordia universal."
+    },
+    {
+     "title": "Daniel y la apocalíptica",
+     "body": "El libro de Daniel, en su forma final, se escribió en la crisis de los macabeos (siglo II antes de Cristo). Sus visiones usan un lenguaje simbólico, **apocalíptico**, para afirmar que Dios vencerá a los imperios opresores. Allí aparece la figura del **Hijo del hombre** (7,13-14), título que Jesús usó para sí mismo."
+    }
+   ],
+   "bible": {
+    "ref": "Daniel 7,13-14 · El Hijo del hombre",
+    "comment": "En una visión nocturna, Daniel ve venir sobre las nubes del cielo a uno como un hijo de hombre, que recibe del Anciano poder, honor y un reino que no será destruido. Jesús usó este título en los evangelios, especialmente ante el Sanedrín (Marcos 14,62)."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 711-716",
+     "text": "Los profetas anuncian la venida del Mesías y la efusión del Espíritu sobre todos en los tiempos mesiánicos.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Dei Verbum 16",
+     "text": "Dios dispuso sabiamente que el Nuevo Testamento estuviera escondido en el Antiguo y el Antiguo manifiesto en el Nuevo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te dice la entrada de Jesús en un asno, según Zacarías?",
+    "¿Por qué Jonás no quería que Nínive se salvara?",
+    "¿Qué esperanza necesita hoy tu comunidad?",
+    "¿Cómo leerías Daniel sin convertirlo en un calendario del fin del mundo?"
+   ],
+   "activity": "Hagan una tabla con cinco textos proféticos citados en el Nuevo Testamento (Isaías 7,14; Miqueas 5,1; Zacarías 9,9; Malaquías 3,1; Joel 3,1-2), indicando dónde se citan y qué dicen de Jesús o de la Iglesia.",
+   "prayer": "Dios fiel, que mantuviste viva la esperanza de tu pueblo: derrama tu Espíritu sobre nosotros, abre nuestra comunidad a todos los pueblos y prepara nuestros corazones para recibir a tu Hijo, el Mesías humilde. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 711-716",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una esperanza que tienes para tu comunidad en los próximos años.",
+   "logros": [
+    "Conocer a los profetas del posexilio.",
+    "Comprender el género apocalíptico de Daniel.",
+    "Relacionar textos proféticos con el Nuevo Testamento."
+   ],
+   "profundizar": {
+    "titulo": "El cierre de los profetas",
+    "texto": "En la Biblia cristiana, el Antiguo Testamento termina con Malaquías y el anuncio de Elías. El Nuevo comienza con los evangelios y Juan Bautista. Así el orden mismo de los libros expresa la continuidad entre ambos testamentos."
+   },
+   "caso": {
+    "titulo": "El Jonás de hoy",
+    "texto": "En el grupo, algunos no quieren invitar a jóvenes de un colegio rival porque «son pesados».",
+    "preguntas": [
+     "¿Qué enseñanza tiene el libro de Jonás?",
+     "¿Cómo lo aplicarías?"
+    ]
+   },
+   "claves": [
+    [
+     "Posexilio",
+     "Período después del regreso de Babilonia."
+    ],
+    [
+     "Apocalíptica",
+     "Género simbólico que revela la victoria final de Dios."
+    ],
+    [
+     "Hijo del hombre",
+     "Figura de Daniel 7 que Jesús aplicó a sí mismo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Derramaré mi Espíritu sobre todos. ¿Qué don te da el Espíritu?",
+    "orar": "Reza por la paz entre los pueblos.",
+    "vivir": "Invita esta semana a alguien que no suele ser invitado."
+   },
+   "practica": [
+    "Busquen los textos.",
+    "Ubiquen las citas.",
+    "Completen la tabla.",
+    "Compartan."
+   ],
+   "idea": "Los profetas mantienen viva la esperanza que se cumple en Jesús."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué es principalmente un profeta bíblico?",
+   "options": [
+    "Un adivino del futuro",
+    "Alguien llamado a hablar en nombre de Dios al presente de su pueblo",
+    "Un sacerdote del Templo"
+   ],
+   "correct": 1,
+   "feedback": "Interpreta la historia desde Dios."
+  },
+  {
+   "q": "¿Por qué se llaman «mayores» algunos profetas?",
+   "options": [
+    "Por su importancia",
+    "Por la extensión de sus libros",
+    "Por su edad"
+   ],
+   "correct": 1,
+   "feedback": "Isaías, Jeremías, Ezequiel y Daniel."
+  },
+  {
+   "q": "¿Qué profeta dijo «que fluya el derecho como agua»?",
+   "options": [
+    "Oseas",
+    "Amós",
+    "Malaquías"
+   ],
+   "correct": 1,
+   "feedback": "Amós 5,24."
+  },
+  {
+   "q": "¿Qué resume Miqueas 6,8?",
+   "options": [
+    "Practicar la justicia, amar la fidelidad y caminar humildemente con Dios",
+    "Ofrecer muchos sacrificios",
+    "Construir el Templo"
+   ],
+   "correct": 0,
+   "feedback": "Lo que Dios pide."
+  },
+  {
+   "q": "¿Qué anuncia Jeremías 31,31-34?",
+   "options": [
+    "La destrucción del mundo",
+    "Una nueva alianza escrita en el corazón",
+    "El regreso de Elías"
+   ],
+   "correct": 1,
+   "feedback": "Jesús la retoma en la Última Cena."
+  },
+  {
+   "q": "¿Qué imagen usa Ezequiel 37?",
+   "options": [
+    "Una escalera",
+    "Un valle de huesos secos que reviven",
+    "Una zarza ardiente"
+   ],
+   "correct": 1,
+   "feedback": "Dios devuelve la vida a su pueblo."
+  },
+  {
+   "q": "¿Dónde están los cantos del Siervo?",
+   "options": [
+    "Isaías 40–55",
+    "Jeremías 1–10",
+    "Daniel 7"
+   ],
+   "correct": 0,
+   "feedback": "Isaías 42; 49; 50; 52–53."
+  },
+  {
+   "q": "¿En qué contexto se escribió la forma final del libro de Daniel?",
+   "options": [
+    "El exilio",
+    "La crisis de los macabeos",
+    "El tiempo de David"
+   ],
+   "correct": 1,
+   "feedback": "Siglo II antes de Cristo."
+  }
+ ]
+}

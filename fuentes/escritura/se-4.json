@@ -1,0 +1,585 @@
+{
+ "id": "se-4",
+ "titulo": "Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+ "subtitulo": "Génesis, Éxodo, Levítico, Números y Deuteronomio",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio del Pentateuco: su estructura y formación, los relatos de los orígenes, los patriarcas, el éxodo y la alianza, y la Ley como camino de vida. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+ "intro": "El Pentateuco es la Torá, el corazón de la Biblia de Israel. Allí están la creación, las promesas a los patriarcas, la liberación de Egipto, la alianza del Sinaí y la Ley. En este módulo vas a leerlo con herramientas de estudio y con fe.",
+ "taller": "Cada participante prepara una catequesis de 15 minutos sobre un relato del Pentateuco para la edad que acompaña (por ejemplo, la creación, Abraham, José, la zarza ardiente o el maná). Debe explicar el género del texto, su mensaje teológico y su relación con Jesús, evitando lecturas literalistas. Se presentan en grupos pequeños con retroalimentación.",
+ "unidades": [
+  {
+   "title": "El Pentateuco: estructura y formación",
+   "objective": "Conocer los cinco libros del Pentateuco, su hilo conductor y las principales explicaciones sobre su formación.",
+   "intro": "Los cinco primeros libros de la Biblia forman una unidad: cuentan la historia desde la creación del mundo hasta la muerte de Moisés a las puertas de la tierra prometida. Los judíos la llaman Torá, que significa enseñanza o instrucción.",
+   "sections": [
+    {
+     "title": "Cinco libros, una historia",
+     "body": "- **Génesis:** orígenes del mundo y de la humanidad (1–11) y patriarcas (12–50).\n- **Éxodo:** esclavitud en Egipto, liberación, alianza en el Sinaí.\n- **Levítico:** leyes sobre el culto y la santidad.\n- **Números:** marcha por el desierto.\n- **Deuteronomio:** discursos de despedida de Moisés en Moab.\n\nEl hilo conductor es la **promesa** de Dios: una descendencia, una tierra y una bendición para todos los pueblos."
+    },
+    {
+     "title": "¿Lo escribió Moisés?",
+     "body": "La tradición judía y cristiana atribuyó el Pentateuco a Moisés, por su papel central. Pero el propio texto narra su muerte (Deuteronomio 34) y muestra repeticiones, estilos distintos y relatos duplicados (por ejemplo, dos relatos de la creación). Por eso los estudiosos piensan que es fruto de un largo proceso."
+    },
+    {
+     "title": "Hipótesis sobre su formación",
+     "body": "Durante mucho tiempo se habló de cuatro fuentes o documentos (la llamada hipótesis documentaria). Hoy muchos estudiosos prefieren hablar de **tradiciones y bloques** que se fueron reuniendo y que recibieron su forma final en torno al **exilio y el posexilio**. Es un debate abierto entre especialistas."
+    },
+    {
+     "title": "Lo que importa para la fe",
+     "body": "La Iglesia no impone una teoría sobre la composición. Lo que afirma es que el Pentateuco es Palabra de Dios inspirada y que Moisés está en el origen de la tradición de la Ley. Conocer su formación ayuda a entender por qué hay distintas voces y a leer cada texto en su contexto."
+    }
+   ],
+   "bible": {
+    "ref": "Génesis 12,1-3 · La promesa a Abraham",
+    "comment": "Dios llama a Abraham y le promete hacer de él un gran pueblo, darle una tierra y que en él sean bendecidas todas las familias de la tierra. Esta triple promesa recorre todo el Pentateuco y, para los cristianos, se cumple en Cristo, por quien la bendición llega a todos los pueblos."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 14",
+     "text": "Dios, buscando y preparando la salvación de todo el género humano, eligió un pueblo al que confiar sus promesas; hizo alianza con Abraham y, por medio de Moisés, con el pueblo de Israel.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Verbum Domini 34",
+     "text": "La interpretación de la Escritura requiere el uso de los métodos históricos, unido a la lectura en la fe de la Iglesia.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Qué libros del Pentateuco has leído?",
+    "¿Te sorprende que no haya sido escrito por una sola persona?",
+    "¿Cómo explicarías los dos relatos de la creación?",
+    "¿Qué significa para ti la promesa de bendición a todos los pueblos?"
+   ],
+   "activity": "Comparen Génesis 1,1–2,4a y Génesis 2,4b-25. Hagan una tabla con el orden de la creación, el nombre de Dios, el estilo y el mensaje central de cada relato.",
+   "prayer": "Dios de Abraham, que prometiste bendecir a todos los pueblos: gracias por tu fidelidad a lo largo de la historia. Que al estudiar tu Ley descubra tu enseñanza para la vida. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 14",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe qué recuerdas de cada uno de los cinco libros del Pentateuco.",
+   "logros": [
+    "Describir la estructura y el hilo del Pentateuco.",
+    "Conocer las explicaciones sobre su formación.",
+    "Distinguir lo que es debate académico de lo que es fe."
+   ],
+   "profundizar": {
+    "titulo": "Nombres de Dios",
+    "texto": "En el Pentateuco Dios aparece con distintos nombres: Elohim (Dios) y el nombre propio revelado a Moisés, YHWH, que los judíos no pronuncian y leen como Adonai (el Señor). Las traducciones católicas suelen escribir «el Señor»."
+   },
+   "caso": {
+    "titulo": "Los dos relatos",
+    "texto": "Un catequizando nota que en Génesis 1 el ser humano es creado al final y en Génesis 2, antes que los animales. Pregunta cuál es el verdadero.",
+    "preguntas": [
+     "¿Cómo responderías?",
+     "¿Qué enseña cada relato?"
+    ]
+   },
+   "claves": [
+    [
+     "Torá",
+     "Instrucción o enseñanza; nombre judío del Pentateuco."
+    ],
+    [
+     "Promesa",
+     "Descendencia, tierra y bendición prometidas a Abraham."
+    ],
+    [
+     "YHWH",
+     "Nombre propio de Dios revelado a Moisés."
+    ]
+   ],
+   "lectio": {
+    "meditar": "En ti serán bendecidas todas las familias. ¿Para quién eres bendición?",
+    "orar": "Agradece por las promesas de Dios en tu vida.",
+    "vivir": "Lee Génesis 12–15 esta semana."
+   },
+   "practica": [
+    "Lean los dos relatos.",
+    "Hagan la tabla.",
+    "Comparen mensajes.",
+    "Compartan."
+   ],
+   "idea": "El Pentateuco es la historia de una promesa."
+  },
+  {
+   "title": "Génesis 1–11: los orígenes",
+   "objective": "Comprender el género y el mensaje de los relatos de los orígenes: creación, pecado, diluvio y Babel.",
+   "intro": "Los once primeros capítulos del Génesis no son un informe científico ni una crónica, sino relatos que responden a las grandes preguntas: ¿de dónde venimos?, ¿por qué existe el mal?, ¿qué lugar tenemos en el mundo?",
+   "sections": [
+    {
+     "title": "El género de estos relatos",
+     "body": "Son relatos con lenguaje simbólico, que dialogan con mitos de otros pueblos del antiguo Oriente (por ejemplo, de Mesopotamia) pero los transforman profundamente. La Iglesia enseña que expresan verdades fundamentales en un lenguaje adaptado a la mentalidad de la época."
+    },
+    {
+     "title": "La creación",
+     "body": "- Dios crea todo con su palabra; la creación es **buena**.\n- El ser humano es **imagen de Dios**, varón y mujer, con dignidad única.\n- El sábado muestra que la creación culmina en el descanso y la relación con Dios.\n- Frente a los mitos que divinizaban el sol o la luna, Génesis los presenta como simples lámparas creadas."
+    },
+    {
+     "title": "El pecado y sus consecuencias",
+     "body": "Génesis 3 narra la ruptura de la confianza con Dios: el ser humano quiere ser como Dios sin Dios. Las consecuencias se extienden: vergüenza, culpa, ruptura con el otro, con la creación. Caín y Abel, el diluvio y Babel muestran cómo el mal crece. La Iglesia ve aquí el **pecado original**."
+    },
+    {
+     "title": "La fidelidad de Dios",
+     "body": "Junto al pecado, aparece siempre la gracia: Dios viste a Adán y Eva, protege a Caín, salva a Noé y hace alianza con toda la creación (el arco iris). Después de Babel, Dios llama a Abraham: comienza la historia de la salvación."
+    }
+   ],
+   "bible": {
+    "ref": "Génesis 1,26-31 · A imagen de Dios",
+    "comment": "Dios crea al ser humano a su imagen, varón y mujer, lo bendice y le confía la creación. Al final ve que todo es «muy bueno». Este texto funda la dignidad de toda persona y la responsabilidad de cuidar el mundo."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 337 y 390",
+     "text": "Dios mismo presenta la obra de la creación en un lenguaje simbólico; el relato de la caída utiliza un lenguaje de imágenes, pero afirma un acontecimiento primordial.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Dei Verbum 12",
+     "text": "Para entender lo que el autor quiso afirmar hay que atender a los modos de pensar, de expresarse y de narrar de su tiempo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo explicarías que estos relatos son verdaderos sin ser crónicas?",
+    "¿Qué te dice que el ser humano sea imagen de Dios?",
+    "¿Dónde ves hoy la lógica de Babel?",
+    "¿Cómo presentarías el pecado original a jóvenes?"
+   ],
+   "activity": "En grupos, cada uno toma un relato (creación, caída, Caín y Abel, diluvio, Babel) y responde: ¿qué pregunta humana responde?, ¿qué dice de Dios?, ¿qué dice del ser humano?, ¿dónde aparece la gracia?",
+   "prayer": "Dios creador, que viste que todo era muy bueno: gracias por mi vida y por la de cada persona, hecha a tu imagen. Cuando el pecado rompe la armonía, recuérdame que tu gracia es más fuerte. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 337 y 390",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe tres preguntas grandes que te haces sobre el origen del mundo o del mal.",
+   "logros": [
+    "Reconocer el género de los relatos de los orígenes.",
+    "Explicar su mensaje teológico.",
+    "Relacionar pecado y gracia en Génesis 1–11."
+   ],
+   "profundizar": {
+    "titulo": "Evolución y creación",
+    "texto": "La Iglesia no se opone a la teoría de la evolución como explicación científica del desarrollo de la vida, siempre que no se pretenda negar la acción creadora de Dios ni la dignidad espiritual del ser humano."
+   },
+   "caso": {
+    "titulo": "La manzana",
+    "texto": "Un niño pregunta en la catequesis por qué Dios castigó a Adán por comerse una manzana.",
+    "preguntas": [
+     "¿Qué hay que aclarar del texto?",
+     "¿Cómo explicarías el sentido del relato?"
+    ]
+   },
+   "claves": [
+    [
+     "Imagen de Dios",
+     "Dignidad propia del ser humano."
+    ],
+    [
+     "Pecado original",
+     "Ruptura primera con Dios que afecta a toda la humanidad."
+    ],
+    [
+     "Alianza con Noé",
+     "Alianza de Dios con toda la creación."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Vio Dios que era muy bueno. ¿Qué bien de la creación has olvidado mirar?",
+    "orar": "Reza el Salmo 8.",
+    "vivir": "Cuida esta semana algo de la creación."
+   },
+   "practica": [
+    "Elijan un relato.",
+    "Respondan las cuatro preguntas.",
+    "Comparen.",
+    "Presenten."
+   ],
+   "idea": "Antes que el pecado está la bondad de la creación, y después del pecado, la gracia."
+  },
+  {
+   "title": "Génesis 12–50: los patriarcas",
+   "objective": "Conocer los ciclos de Abraham, Isaac, Jacob y José, y su mensaje sobre la fe, la promesa y la reconciliación.",
+   "intro": "Con Abraham comienza la historia de un pueblo. Los relatos de los patriarcas son historias familiares llenas de fe, dudas, conflictos y reconciliaciones. En ellas Dios camina con personas imperfectas.",
+   "sections": [
+    {
+     "title": "Abraham, padre de los creyentes",
+     "body": "Abraham deja su tierra confiando en una promesa. Su fe es puesta a prueba: la espera del hijo, la tentación de buscar atajos (Agar), y el sacrificio de Isaac (Génesis 22), donde Dios no quiere la muerte del hijo y provee. Pablo lo presenta como modelo de la fe que justifica."
+    },
+    {
+     "title": "Isaac y Jacob",
+     "body": "**Isaac** es el hijo de la promesa. **Jacob**, su hijo, es astuto y engaña a su hermano Esaú para quedarse con la bendición. Aun así, Dios lo elige: en Betel sueña con una escalera al cielo y en el río Yaboc lucha con Dios y recibe un nombre nuevo: **Israel**."
+    },
+    {
+     "title": "José y sus hermanos",
+     "body": "José, el hijo preferido, es vendido por sus hermanos y llega a Egipto, donde se convierte en gobernador. Cuando sus hermanos llegan por el hambre, José los pone a prueba y finalmente se reconcilia con ellos: «Ustedes quisieron hacerme mal, pero Dios lo convirtió en bien» (Génesis 50,20)."
+    },
+    {
+     "title": "Un Dios que camina con familias imperfectas",
+     "body": "Los patriarcas mienten, se pelean, tienen favoritos. La Biblia no los idealiza. Muestra que Dios cumple su promesa a través de personas frágiles y que las heridas familiares pueden sanar."
+    }
+   ],
+   "bible": {
+    "ref": "Génesis 15,1-6 · Abraham creyó",
+    "comment": "Abraham, ya anciano y sin hijos, se queja ante Dios. Dios lo saca afuera y le dice: «Mira el cielo y cuenta las estrellas: así será tu descendencia». Abraham creyó al Señor, y eso le fue tenido en cuenta como justicia. La fe es confiar en la promesa cuando todavía no se ve."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 144-146",
+     "text": "Abraham es el modelo de la obediencia de la fe; por su fe es llamado padre de todos los creyentes.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Dei Verbum 14",
+     "text": "Dios, al elegir a Abraham, comenzó a preparar un pueblo para sí.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué promesa de Dios te cuesta creer?",
+    "¿Qué te dice que Dios elija a Jacob, que fue tramposo?",
+    "¿Qué heridas familiares necesitan reconciliación?",
+    "¿Cómo presentarías a los patriarcas a niños sin idealizarlos?"
+   ],
+   "activity": "Lean en grupos la historia de José (Génesis 37; 39–45; 50,15-21) y armen una línea de los momentos de caída y de reconciliación. Conversen qué enseña sobre el perdón en la familia y la comunidad.",
+   "prayer": "Dios de Abraham, de Isaac y de Jacob: tú caminas con familias imperfectas y cumples tus promesas. Dame la fe de Abraham para confiar, y el corazón de José para perdonar. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 144-146",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en una persona de tu familia con la que necesitas reconciliarte.",
+   "logros": [
+    "Conocer los ciclos patriarcales.",
+    "Reconocer la fe de Abraham como modelo.",
+    "Relacionar la historia de José con el perdón."
+   ],
+   "profundizar": {
+    "titulo": "Las madres de Israel",
+    "texto": "Sara, Rebeca, Raquel y Lía también son protagonistas. Varias son estériles y Dios les concede un hijo: la promesa depende de Dios, no de la fuerza humana."
+   },
+   "caso": {
+    "titulo": "El favorito",
+    "texto": "En una familia de tu grupo, los padres tienen un hijo preferido y los hermanos lo resienten.",
+    "preguntas": [
+     "¿Qué enseña la historia de José?",
+     "¿Cómo acompañarías a esa familia?"
+    ]
+   },
+   "claves": [
+    [
+     "Patriarcas",
+     "Abraham, Isaac y Jacob."
+    ],
+    [
+     "Israel",
+     "Nombre nuevo de Jacob y de su pueblo."
+    ],
+    [
+     "Providencia",
+     "Dios guía la historia, incluso a través del mal."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Abraham creyó. ¿En qué te pide Dios confiar?",
+    "orar": "Mira el cielo de noche y reza por tus descendientes en la fe.",
+    "vivir": "Da un paso de reconciliación esta semana."
+   },
+   "practica": [
+    "Lean la historia de José.",
+    "Armen la línea.",
+    "Conversen sobre el perdón.",
+    "Recen juntos."
+   ],
+   "idea": "Dios cumple sus promesas a través de personas frágiles."
+  },
+  {
+   "title": "Éxodo: liberación y alianza",
+   "objective": "Comprender el mensaje del libro del Éxodo: la liberación de la esclavitud, la Pascua, la alianza del Sinaí y el Decálogo.",
+   "intro": "El éxodo es la experiencia fundante de Israel: Dios escucha el clamor de un pueblo esclavo, lo libera y hace alianza con él. Para los cristianos, es figura de la Pascua de Jesús y del bautismo.",
+   "sections": [
+    {
+     "title": "Dios que ve y escucha",
+     "body": "En la zarza ardiente (Éxodo 3), Dios se revela a Moisés: «He visto la aflicción de mi pueblo, he oído su clamor, conozco sus sufrimientos y he bajado a liberarlo». Y revela su nombre: **YHWH**, «Yo soy», el Dios presente y fiel."
+    },
+    {
+     "title": "La Pascua",
+     "body": "Las plagas muestran el enfrentamiento entre Dios y el faraón. La noche de **Pascua** (Éxodo 12), con el cordero y el pan sin levadura, se convierte en el memorial de la liberación que Israel celebra cada año. Jesús celebró su última cena en el marco de la Pascua."
+    },
+    {
+     "title": "El paso del mar y el desierto",
+     "body": "El paso del mar Rojo es el gran signo de la liberación. En el desierto el pueblo murmura, y Dios lo alimenta con el **maná** y le da agua de la roca. Los Padres de la Iglesia vieron aquí figuras del bautismo y de la Eucaristía."
+    },
+    {
+     "title": "La alianza del Sinaí",
+     "body": "En el Sinaí, Dios propone una **alianza**: «Ustedes serán mi pueblo y yo seré su Dios». Le da el **Decálogo** (Éxodo 20), las diez palabras, no como una carga, sino como el camino para vivir en libertad. El pueblo pronto rompe la alianza con el becerro de oro, y Dios, por la intercesión de Moisés, perdona."
+    }
+   ],
+   "bible": {
+    "ref": "Éxodo 3,1-15 · La zarza ardiente",
+    "comment": "Moisés ve una zarza que arde sin consumirse. Dios lo llama, le dice que se quite las sandalias y le revela que ha visto el sufrimiento de su pueblo. Lo envía al faraón y le revela su nombre. Es el texto de la vocación de Moisés y de la revelación del Dios liberador."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 204-213 y 2056-2063",
+     "text": "Dios revela su nombre a Moisés y se muestra como el Dios fiel; el Decálogo se comprende en el contexto del éxodo y de la alianza.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1221",
+     "text": "El paso del mar Rojo es figura del bautismo, que libera de la esclavitud del pecado.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué esclavitudes viven hoy los jóvenes?",
+    "¿Qué significa que Dios «ve y escucha»?",
+    "¿Cómo presentarías los Diez Mandamientos como camino de libertad?",
+    "¿Dónde se parece tu vida al pueblo que murmura en el desierto?"
+   ],
+   "activity": "Por grupos, relacionen escenas del Éxodo con sacramentos y momentos de la vida de Jesús: Pascua y Última Cena, mar Rojo y bautismo, maná y Eucaristía, Sinaí y sermón de la montaña. Presenten un esquema.",
+   "prayer": "Dios liberador, que ves la aflicción de tu pueblo y escuchas su clamor: libéranos de todo lo que nos esclaviza. Que vivamos tu alianza como camino de libertad y seamos signos de tu liberación para otros. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 204-213 y 2056-2063",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una «esclavitud» de la que te gustaría ser liberado.",
+   "logros": [
+    "Explicar el sentido del éxodo y la Pascua.",
+    "Comprender la alianza y el Decálogo.",
+    "Relacionar el Éxodo con los sacramentos."
+   ],
+   "profundizar": {
+    "titulo": "La historicidad del éxodo",
+    "texto": "No hay documentos egipcios que mencionen el éxodo, y su fecha se discute. Muchos estudiosos piensan que el relato conserva la memoria de un grupo que salió de Egipto y que esa experiencia se convirtió en la memoria de todo Israel, narrada con rasgos épicos."
+   },
+   "caso": {
+    "titulo": "Los mandamientos como prohibiciones",
+    "texto": "Un joven dice que la religión es «puros no». Cita los mandamientos como ejemplo.",
+    "preguntas": [
+     "¿Cómo le presentarías el Decálogo desde Éxodo 20,2?",
+     "¿Qué dijo Jesús sobre la Ley?"
+    ]
+   },
+   "claves": [
+    [
+     "Pascua",
+     "Paso; memorial de la liberación de Egipto."
+    ],
+    [
+     "Alianza",
+     "Pacto de amor entre Dios y su pueblo."
+    ],
+    [
+     "Decálogo",
+     "Las diez palabras del Sinaí."
+    ]
+   ],
+   "lectio": {
+    "meditar": "He visto la aflicción de mi pueblo. ¿Qué aflicción ves tú?",
+    "orar": "Reza por quienes viven esclavitudes hoy.",
+    "vivir": "Haz algo concreto por alguien que sufre."
+   },
+   "practica": [
+    "Relacionen escenas.",
+    "Hagan el esquema.",
+    "Presenten.",
+    "Recen."
+   ],
+   "idea": "Dios ve, escucha y libera."
+  },
+  {
+   "title": "Levítico, Números y Deuteronomio",
+   "objective": "Conocer el mensaje de los tres últimos libros del Pentateuco: la santidad, la marcha por el desierto y la memoria de la alianza.",
+   "intro": "Estos libros parecen menos atractivos: leyes, censos, discursos. Pero contienen textos fundamentales, como el mandamiento del amor al prójimo y el Shemá Israel, que Jesús citó como el primer mandamiento.",
+   "sections": [
+    {
+     "title": "Levítico: sean santos",
+     "body": "El Levítico regula el culto, los sacrificios y la pureza. Su centro es: «Sean santos, porque yo, el Señor su Dios, soy santo» (19,2). En el mismo capítulo aparece: «**Amarás a tu prójimo como a ti mismo**» (19,18), y también el cuidado del extranjero y del pobre. El **Día de la Expiación** (capítulo 16) prepara la comprensión de la obra de Cristo en Hebreos."
+    },
+    {
+     "title": "Números: el desierto",
+     "body": "Números narra la marcha del pueblo por el desierto: censos, quejas, rebeliones, el miedo a entrar en la tierra. Por la falta de confianza, esa generación anda cuarenta años en el desierto. Es un libro sobre la fidelidad de Dios ante la infidelidad del pueblo. Contiene la bendición sacerdotal (6,24-26)."
+    },
+    {
+     "title": "Deuteronomio: recuerda",
+     "body": "El Deuteronomio son los discursos de Moisés antes de morir. Repite la Ley y llama a **recordar**: «Acuérdate del camino que el Señor te hizo recorrer». Su corazón es el **Shemá**: «Escucha, Israel: el Señor es nuestro Dios, el Señor es uno. Amarás al Señor tu Dios con todo tu corazón» (6,4-5)."
+    },
+    {
+     "title": "La muerte de Moisés",
+     "body": "El Pentateuco termina con Moisés que mira la tierra prometida desde el monte Nebo y muere sin entrar (Deuteronomio 34). La promesa sigue abierta: el pueblo deberá vivirla. Para los cristianos, Jesús es el profeta como Moisés que Dios prometió suscitar (Deuteronomio 18,15)."
+    }
+   ],
+   "bible": {
+    "ref": "Deuteronomio 6,4-9 · Shemá Israel",
+    "comment": "«Escucha, Israel: el Señor es nuestro Dios, el Señor es uno. Amarás al Señor tu Dios con todo tu corazón, con toda tu alma y con todas tus fuerzas». Los judíos lo rezan cada día. Jesús lo cita como el primer mandamiento y lo une al amor al prójimo de Levítico 19,18 (Marcos 12,29-31)."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2083 y 2196",
+     "text": "Jesús resumió los deberes del hombre para con Dios con el Shemá, y unió el amor a Dios y el amor al prójimo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Verbum Domini 41",
+     "text": "Jesús se presenta como cumplimiento de la Ley; la unidad de ambos testamentos se ve en el doble mandamiento del amor.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Sabías que el mandamiento del amor al prójimo está en el Levítico?",
+    "¿Qué desiertos has atravesado y cómo te sostuvo Dios?",
+    "¿Qué necesitas recordar de lo que Dios hizo en tu vida?",
+    "¿Qué te dice que Moisés no entrara a la tierra?"
+   ],
+   "activity": "Memoricen juntos el Shemá (Deuteronomio 6,4-5) y la bendición de Números 6,24-26. Luego, cada uno escribe su propio «Deuteronomio»: un breve discurso a sí mismo recordando lo que Dios ha hecho en su vida.",
+   "prayer": "Escucha, Israel: el Señor es nuestro Dios, el Señor es uno. Señor, quiero amarte con todo mi corazón, con toda mi alma y con todas mis fuerzas, y amar a mi prójimo como a mí mismo. Que el Señor me bendiga y me proteja. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 2083 y 2196",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe tres cosas que Dios hizo en tu vida que no quieres olvidar.",
+   "logros": [
+    "Reconocer textos clave de Levítico, Números y Deuteronomio.",
+    "Comprender la santidad, el desierto y la memoria como temas teológicos.",
+    "Relacionar el Shemá con el mandamiento de Jesús."
+   ],
+   "profundizar": {
+    "titulo": "La bendición de Aarón",
+    "texto": "«Que el Señor te bendiga y te proteja; que el Señor haga brillar su rostro sobre ti y te muestre su gracia; que el Señor te descubra su rostro y te conceda la paz» (Números 6,24-26). Se usa en la liturgia del 1 de enero y puede rezarse sobre los jóvenes."
+   },
+   "caso": {
+    "titulo": "«Libros aburridos»",
+    "texto": "En un grupo de estudio bíblico, varios dicen que el Levítico y los Números son aburridos e inútiles.",
+    "preguntas": [
+     "¿Qué textos de estos libros les mostrarías?",
+     "¿Cómo ayudarles a valorar la Ley?"
+    ]
+   },
+   "claves": [
+    [
+     "Santidad",
+     "Pertenencia a Dios que transforma la vida."
+    ],
+    [
+     "Shemá",
+     "Oración central de Israel (Deuteronomio 6,4-9)."
+    ],
+    [
+     "Memoria",
+     "Recordar las obras de Dios para vivir la alianza."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Escucha, Israel. ¿Qué te cuesta escuchar?",
+    "orar": "Reza el Shemá al levantarte y al acostarte.",
+    "vivir": "Bendice a alguien esta semana con Números 6,24-26."
+   },
+   "practica": [
+    "Memoricen los textos.",
+    "Escriban su discurso.",
+    "Compártanlo.",
+    "Bendíganse."
+   ],
+   "idea": "Escucha, recuerda y ama."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué significa Torá?",
+   "options": [
+    "Libro",
+    "Instrucción o enseñanza",
+    "Historia"
+   ],
+   "correct": 1,
+   "feedback": "Es el nombre judío del Pentateuco."
+  },
+  {
+   "q": "¿Cuál es la triple promesa a Abraham?",
+   "options": [
+    "Riqueza, poder y fama",
+    "Descendencia, tierra y bendición",
+    "Templo, rey y ley"
+   ],
+   "correct": 1,
+   "feedback": "Génesis 12,1-3."
+  },
+  {
+   "q": "¿Cómo se explican hoy las repeticiones del Pentateuco?",
+   "options": [
+    "Por errores de copistas",
+    "Por un largo proceso de formación con varias tradiciones",
+    "Porque Moisés se olvidaba"
+   ],
+   "correct": 1,
+   "feedback": "Es un tema de estudio abierto."
+  },
+  {
+   "q": "¿Qué enseñan los relatos de Génesis 1–11?",
+   "options": [
+    "Datos científicos sobre el origen del universo",
+    "Verdades fundamentales en lenguaje simbólico",
+    "Leyendas sin valor"
+   ],
+   "correct": 1,
+   "feedback": "Catecismo 337 y 390."
+  },
+  {
+   "q": "¿Qué nombre recibe Jacob después de luchar con Dios?",
+   "options": [
+    "Israel",
+    "Abraham",
+    "Judá"
+   ],
+   "correct": 0,
+   "feedback": "Génesis 32."
+  },
+  {
+   "q": "¿Qué revela Dios a Moisés en la zarza ardiente?",
+   "options": [
+    "Su nombre y su decisión de liberar al pueblo",
+    "Las plagas",
+    "El templo"
+   ],
+   "correct": 0,
+   "feedback": "Éxodo 3."
+  },
+  {
+   "q": "¿Dónde está el mandamiento «amarás a tu prójimo como a ti mismo»?",
+   "options": [
+    "Levítico 19,18",
+    "Génesis 1,27",
+    "Éxodo 3,14"
+   ],
+   "correct": 0,
+   "feedback": "Jesús lo une al Shemá."
+  },
+  {
+   "q": "¿Qué es el Shemá?",
+   "options": [
+    "Un sacrificio",
+    "La oración «Escucha, Israel» de Deuteronomio 6,4-9",
+    "Una fiesta judía"
+   ],
+   "correct": 1,
+   "feedback": "Jesús lo cita como primer mandamiento."
+  }
+ ]
+}

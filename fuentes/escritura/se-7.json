@@ -1,0 +1,585 @@
+{
+ "id": "se-7",
+ "titulo": "Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+ "subtitulo": "Salmos, Proverbios, Job, Eclesiastés, Cantar, Sabiduría y Eclesiástico",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio de los libros sapienciales y poéticos: la sabiduría en Israel, los Salmos como oración, Proverbios y Eclesiástico, las preguntas de Job y Eclesiastés, y el Cantar de los Cantares y Sabiduría. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+ "intro": "Los libros sapienciales hablan de la vida cotidiana: el trabajo, la familia, el amor, el sufrimiento, la muerte. Y lo hacen con poesía. Son una escuela para aprender a vivir con sabiduría y a rezar con todo el corazón.",
+ "taller": "Cada participante compone un salmo propio siguiendo un modelo bíblico (alabanza, súplica o acción de gracias), usando el paralelismo hebreo, y elige un proverbio bíblico para explicar a jóvenes con un ejemplo actual. Se comparten en un momento de oración final.",
+ "unidades": [
+  {
+   "title": "La sabiduría en Israel",
+   "objective": "Conocer qué es la literatura sapiencial, sus libros y sus rasgos principales.",
+   "intro": "Además de la Ley y los Profetas, Israel cultivó la sabiduría: la reflexión sobre la vida a partir de la experiencia, en diálogo con otros pueblos. Los libros sapienciales son la parte más universal y cotidiana de la Biblia.",
+   "sections": [
+    {
+     "title": "Los libros",
+     "body": "Se consideran sapienciales **Job, Proverbios, Eclesiastés (Qohélet), Sabiduría y Eclesiástico (Sirácida)**. Suelen agruparse con ellos los **Salmos** y el **Cantar de los Cantares**, por su carácter poético. Sabiduría y Eclesiástico son deuterocanónicos."
+    },
+    {
+     "title": "Una sabiduría práctica",
+     "body": "La sabiduría bíblica no es acumular conocimientos: es **saber vivir bien** ante Dios y ante los demás. Observa la naturaleza, la familia, el trabajo, el uso de la lengua, el dinero, y saca enseñanzas. Su principio es: «El temor del Señor es el principio de la sabiduría» (Proverbios 1,7), es decir, el respeto confiado a Dios."
+    },
+    {
+     "title": "Diálogo con otros pueblos",
+     "body": "Egipto y Mesopotamia también tenían literatura sapiencial, y algunos proverbios bíblicos se parecen a textos egipcios. Israel asumió esa sabiduría humana y la integró en su fe en el Dios único. La Biblia muestra que la verdad humana tiene lugar en la revelación."
+    },
+    {
+     "title": "La Sabiduría personificada",
+     "body": "En Proverbios 8 y en Sabiduría 7–9, la Sabiduría aparece como una figura que estaba junto a Dios en la creación y que invita a los seres humanos a su mesa. El Nuevo Testamento usará este lenguaje para hablar de Cristo, Palabra y Sabiduría de Dios (Juan 1; 1 Corintios 1,24; Colosenses 1,15-17)."
+    }
+   ],
+   "bible": {
+    "ref": "Proverbios 8,22-31 · La Sabiduría junto a Dios",
+    "comment": "La Sabiduría dice que el Señor la creó al principio, antes que la tierra; estaba a su lado como arquitecto, jugando ante él todo el tiempo y deleitándose con los hijos de los hombres. Este texto prepara la fe cristiana en el Verbo, por quien todo fue hecho."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 216 y 295",
+     "text": "Dios creó el mundo según su sabiduría; la creación no es fruto de una necesidad ni del azar, sino de la libre voluntad de Dios.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Dei Verbum 15",
+     "text": "Los libros del Antiguo Testamento contienen una viva conciencia de Dios, sabia doctrina sobre la vida humana y tesoros admirables de oración.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿A quién consideras una persona sabia? ¿Por qué?",
+    "¿Qué diferencia hay entre saber mucho y ser sabio?",
+    "¿Qué te dice que la Biblia integre sabiduría de otros pueblos?",
+    "¿Cómo relacionas la Sabiduría personificada con Jesús?"
+   ],
+   "activity": "Cada participante trae un consejo de vida que haya recibido de un mayor. En grupos, busquen en Proverbios un texto que diga algo parecido y comparen.",
+   "prayer": "Señor, fuente de toda sabiduría: dame un corazón sabio y dócil, que aprenda de la vida, de los mayores y de tu Palabra. Que el respeto confiado a ti sea el principio de todas mis decisiones. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 216 y 295",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe el mejor consejo de vida que te han dado.",
+   "logros": [
+    "Nombrar los libros sapienciales.",
+    "Comprender el carácter práctico de la sabiduría bíblica.",
+    "Relacionar la Sabiduría personificada con Cristo."
+   ],
+   "profundizar": {
+    "titulo": "El temor de Dios",
+    "texto": "En la Biblia, el «temor de Dios» no es miedo, sino reverencia y confianza: reconocer que Dios es Dios. Es también uno de los dones del Espíritu Santo."
+   },
+   "caso": {
+    "titulo": "Sabiduría de abuela",
+    "texto": "En la catequesis, un niño dice que su abuela siempre dice refranes. El catequista quiere aprovecharlo.",
+    "preguntas": [
+     "¿Cómo podría conectar los refranes con Proverbios?",
+     "¿Qué actividad propondrías?"
+    ]
+   },
+   "claves": [
+    [
+     "Sapiencial",
+     "Relativo a la sabiduría práctica para la vida."
+    ],
+    [
+     "Temor de Dios",
+     "Reverencia confiada ante Dios."
+    ],
+    [
+     "Sabiduría personificada",
+     "La Sabiduría presentada como figura junto a Dios."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El temor del Señor es el principio de la sabiduría. ¿Dónde necesitas sabiduría?",
+    "orar": "Pide el don de sabiduría.",
+    "vivir": "Lee un capítulo de Proverbios cada día esta semana."
+   },
+   "practica": [
+    "Traigan los consejos.",
+    "Busquen en Proverbios.",
+    "Comparen.",
+    "Compartan."
+   ],
+   "idea": "La sabiduría bíblica es saber vivir bien ante Dios."
+  },
+  {
+   "title": "Los Salmos: la oración de Israel y de la Iglesia",
+   "objective": "Conocer la estructura, los géneros y el uso de los Salmos, y aprender a rezar con ellos.",
+   "intro": "Los Salmos son 150 oraciones que Israel rezó durante siglos y que Jesús rezó, incluso en la cruz. La Iglesia los reza cada día en la Liturgia de las Horas. En ellos cabe toda la vida humana: alegría, angustia, gratitud, rabia, confianza.",
+   "sections": [
+    {
+     "title": "Un libro de oraciones",
+     "body": "El Salterio tiene **150 salmos** divididos en cinco libros, cada uno terminado con una alabanza (doxología). Muchos se atribuyen a David, como patrono de la oración de Israel, aunque fueron compuestos a lo largo de siglos. La numeración varía: la tradición griega y latina suele ir un número atrás desde el Salmo 10 hasta el 147."
+    },
+    {
+     "title": "Géneros",
+     "body": "- **Himnos de alabanza:** cantan la grandeza de Dios (Salmos 8, 104, 148).\n- **Súplicas:** personales o colectivas, en momentos de angustia (Salmos 22, 51, 130).\n- **Acción de gracias:** por una salvación recibida (Salmos 30, 116).\n- **Salmos reales y mesiánicos:** sobre el rey de Israel (Salmos 2, 110).\n- **Salmos de confianza:** (Salmos 23, 91).\n- **Salmos sapienciales:** (Salmos 1, 119)."
+    },
+    {
+     "title": "La poesía hebrea",
+     "body": "La poesía hebrea no se basa en la rima, sino en el **paralelismo**: un verso repite, contrasta o completa al anterior. Por ejemplo: «Los cielos cuentan la gloria de Dios, / el firmamento anuncia la obra de sus manos» (Salmo 19,2). Conocerlo ayuda a leer y a rezar."
+    },
+    {
+     "title": "Rezar con los Salmos",
+     "body": "Los Salmos nos enseñan a decirle todo a Dios, incluso la queja y la rabia. Algunos salmos piden venganza: la Iglesia los lee como expresión del dolor de las víctimas que confían su causa a Dios. Rezarlos con Jesús, que los rezó, les da su sentido pleno."
+    }
+   ],
+   "bible": {
+    "ref": "Salmo 22,2-12.23-25 · «Dios mío, Dios mío, ¿por qué me has abandonado?»",
+    "comment": "Jesús reza en la cruz el comienzo de este salmo. Es la súplica de alguien que se siente abandonado, rodeado de enemigos, pero que termina alabando a Dios que escuchó su clamor. Rezar con los Salmos es aprender a llevar a Dios el dolor sin dejar de confiar."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2585-2589",
+     "text": "Los Salmos son la obra maestra de la oración en el Antiguo Testamento; alimentan y expresan la oración del pueblo de Dios.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Verbum Domini 62",
+     "text": "La Liturgia de las Horas, con los Salmos, es una forma privilegiada de escucha de la Palabra de Dios.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Qué salmo conoces de memoria o te gusta especialmente?",
+    "¿Te atreves a decirle a Dios tu queja?",
+    "¿Qué te dice que Jesús rezara un salmo en la cruz?",
+    "¿Cómo usarías los Salmos en la pastoral juvenil?"
+   ],
+   "activity": "En parejas, elijan un salmo de cada género (alabanza, súplica, acción de gracias). Identifiquen ejemplos de paralelismo y la estructura de cada uno. Luego récenlos juntos en voz alta.",
+   "prayer": "Señor, que pusiste en los Salmos todas las palabras del corazón humano: enséñame a rezar con ellos. Que te alabe en la alegría, te suplique en la angustia, te agradezca tus beneficios y confíe en ti como Jesús. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 2585-2589",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en tu estado de ánimo de hoy. ¿Qué tipo de salmo necesitarías rezar?",
+   "logros": [
+    "Conocer la estructura del Salterio.",
+    "Distinguir los géneros de los Salmos.",
+    "Reconocer el paralelismo y rezar con los Salmos."
+   ],
+   "profundizar": {
+    "titulo": "La numeración de los Salmos",
+    "texto": "Las Biblias hebreas y la mayoría de las traducciones modernas usan una numeración; la liturgia latina antigua usaba otra, un número atrás en la mayoría de los salmos. Por eso algunas Biblias indican dos números (por ejemplo, Salmo 51 (50))."
+   },
+   "caso": {
+    "titulo": "El salmo de la venganza",
+    "texto": "En un retiro, una joven que sufrió acoso lee el Salmo 58 y dice que siente que expresa lo que ella siente.",
+    "preguntas": [
+     "¿Cómo acompañarías ese momento?",
+     "¿Qué enseña la Iglesia sobre estos salmos?"
+    ]
+   },
+   "claves": [
+    [
+     "Salterio",
+     "Libro de los Salmos."
+    ],
+    [
+     "Paralelismo",
+     "Repetición o contraste entre versos de la poesía hebrea."
+    ],
+    [
+     "Liturgia de las Horas",
+     "Oración de la Iglesia a lo largo del día, basada en los Salmos."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Dios mío, ¿por qué me has abandonado? ¿Qué dolor le llevas a Dios?",
+    "orar": "Reza un salmo cada día esta semana.",
+    "vivir": "Ofrece rezar un salmo con alguien que sufre."
+   },
+   "practica": [
+    "Elijan los salmos.",
+    "Identifiquen el paralelismo.",
+    "Analicen la estructura.",
+    "Récenlos."
+   ],
+   "idea": "En los Salmos cabe toda la vida humana."
+  },
+  {
+   "title": "Proverbios y Eclesiástico: sabiduría para la vida cotidiana",
+   "objective": "Conocer el mensaje de Proverbios y Eclesiástico sobre la vida diaria: la palabra, el trabajo, la familia, la amistad y el dinero.",
+   "intro": "Proverbios y Eclesiástico son colecciones de consejos para la vida diaria. Parecen sencillos, pero condensan siglos de experiencia. Son un tesoro para la formación de jóvenes.",
+   "sections": [
+    {
+     "title": "Proverbios",
+     "body": "Reúne colecciones de dichos atribuidas a Salomón y a otros sabios. Comienza con una invitación a escuchar la sabiduría (1–9) y sigue con cientos de sentencias breves. Termina con el elogio de la mujer fuerte (31,10-31), sabia, trabajadora y generosa."
+    },
+    {
+     "title": "Eclesiástico",
+     "body": "Escrito por **Jesús ben Sira** en Jerusalén, hacia el año 180 antes de Cristo, en hebreo, y traducido al griego por su nieto. Une la sabiduría práctica con la fidelidad a la Ley y al Templo, en un tiempo de influencia griega. Incluye un elogio de los antepasados de Israel (44–50)."
+    },
+    {
+     "title": "Temas para la vida",
+     "body": "- **La lengua:** «La respuesta suave calma el enojo» (Proverbios 15,1).\n- **El trabajo:** contra la pereza (Proverbios 6,6-11, la hormiga).\n- **La amistad:** «Un amigo fiel es un refugio seguro» (Eclesiástico 6,14).\n- **La familia:** respeto a los padres (Eclesiástico 3).\n- **El dinero:** compartir con el pobre (Proverbios 19,17)."
+    },
+    {
+     "title": "La sabiduría que se pide",
+     "body": "Los sabios no solo enseñan técnicas: invitan a **pedir** sabiduría a Dios y a aprender con humildad, aceptando la corrección. «El que ama la corrección ama el saber» (Proverbios 12,1)."
+    }
+   ],
+   "bible": {
+    "ref": "Eclesiástico 6,5-17 · El amigo fiel",
+    "comment": "Ben Sira aconseja ser prudente al elegir amigos: hay amigos de ocasión que desaparecen en la desgracia. Pero «un amigo fiel es un refugio seguro: el que lo encuentra ha encontrado un tesoro». Y concluye que quien teme al Señor encontrará amigos como él."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2214-2218",
+     "text": "El respeto a los padres, que la sabiduría bíblica enseña, nace de la gratitud hacia quienes nos dieron la vida.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Verbum Domini 86-87",
+     "text": "La lectura orante de la Escritura forma la sabiduría del creyente para la vida diaria.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Qué proverbio te gustaría aplicar esta semana?",
+    "¿Qué dice Ben Sira de tus amistades?",
+    "¿Cómo recibes la corrección?",
+    "¿Qué temas de Proverbios son urgentes para los jóvenes?"
+   ],
+   "activity": "En grupos, armen un «manual de sabiduría para jóvenes» con diez proverbios bíblicos sobre temas actuales (redes sociales, amistad, estudio, dinero, familia), cada uno con un ejemplo concreto.",
+   "prayer": "Señor, que inspiraste a los sabios de Israel: dame una lengua que calme, manos que trabajen, amigos fieles y un corazón que acepte la corrección. Que mi vida diaria sea sabia ante ti. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 2214-2218",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Elige un tema de tu vida diaria donde necesitas más sabiduría.",
+   "logros": [
+    "Conocer el contenido de Proverbios y Eclesiástico.",
+    "Relacionar sus enseñanzas con la vida diaria.",
+    "Usar los proverbios en la pastoral juvenil."
+   ],
+   "profundizar": {
+    "titulo": "La mujer fuerte",
+    "texto": "Proverbios 31 presenta a una mujer que administra, comercia, cuida, enseña y ayuda al pobre. Es una figura de la sabiduría encarnada en la vida cotidiana, lejos de la imagen de una mujer pasiva."
+   },
+   "caso": {
+    "titulo": "El grupo de WhatsApp",
+    "texto": "En el grupo juvenil, un comentario en el chat genera una pelea que dura días.",
+    "preguntas": [
+     "¿Qué proverbios sobre la lengua podrían ayudar?",
+     "¿Cómo los usarías sin moralizar?"
+    ]
+   },
+   "claves": [
+    [
+     "Ben Sira",
+     "Autor del Eclesiástico."
+    ],
+    [
+     "Sentencia",
+     "Dicho breve de sabiduría."
+    ],
+    [
+     "Corrección",
+     "Enseñanza que ayuda a crecer."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Un amigo fiel es un tesoro. ¿Para quién eres amigo fiel?",
+    "orar": "Agradece por tus amigos.",
+    "vivir": "Cuida tus palabras esta semana."
+   },
+   "practica": [
+    "Elijan los temas.",
+    "Busquen proverbios.",
+    "Escriban ejemplos.",
+    "Armen el manual."
+   ],
+   "idea": "La sabiduría se juega en lo cotidiano."
+  },
+  {
+   "title": "Job y Eclesiastés: las preguntas difíciles",
+   "objective": "Comprender cómo Job y Eclesiastés enfrentan el sufrimiento del justo y el sentido de la vida.",
+   "intro": "No toda la Biblia da respuestas simples. Job y Eclesiastés se atreven a preguntar: ¿por qué sufre el inocente?, ¿qué sentido tiene todo si al final morimos? Son libros valientes que acompañan a quien atraviesa la duda.",
+   "sections": [
+    {
+     "title": "Job: el sufrimiento del justo",
+     "body": "Job es un hombre justo que lo pierde todo: bienes, hijos y salud. Sus amigos le dicen que sufre por sus pecados, como pensaba la sabiduría tradicional. Job lo niega y discute con Dios. El libro rechaza la idea de que todo sufrimiento es castigo."
+    },
+    {
+     "title": "La respuesta de Dios",
+     "body": "Al final, Dios habla desde la tormenta (38–41), no con una explicación, sino mostrando la grandeza y el misterio de la creación. Job responde: «Te conocía solo de oídas, pero ahora te han visto mis ojos» (42,5). Dios le da la razón a Job frente a sus amigos: es mejor discutir con Dios con honestidad que defenderlo con mentiras."
+    },
+    {
+     "title": "Eclesiastés: todo es vanidad",
+     "body": "Qohélet observa la vida y concluye: «Vanidad de vanidades, todo es vanidad» (1,2). La palabra hebrea hebel significa vapor, soplo: todo es pasajero. Ni la riqueza ni el saber ni el placer dan sentido último. Hay «un tiempo para cada cosa» (3,1-8)."
+    },
+    {
+     "title": "Disfrutar con sencillez",
+     "body": "Eclesiastés no es un libro desesperado. Invita a disfrutar los dones sencillos de Dios: comer el pan con alegría, trabajar, amar, mientras se vive con humildad ante el misterio. Prepara la pregunta que el Nuevo Testamento responderá con la resurrección."
+    }
+   ],
+   "bible": {
+    "ref": "Job 42,1-6 · Ahora te han visto mis ojos",
+    "comment": "Después de escuchar a Dios, Job reconoce que habló de cosas que no comprendía. Dice: «Te conocía solo de oídas, pero ahora te han visto mis ojos». El sufrimiento no tuvo una explicación, pero sí un encuentro que transformó su fe."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 309-314",
+     "text": "No hay un rasgo del mensaje cristiano que no sea en parte una respuesta a la cuestión del mal; Dios permite el mal para sacar de él un bien mayor, aunque solo en el cielo lo conoceremos plenamente.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1500-1502",
+     "text": "La enfermedad y el sufrimiento han estado siempre entre los problemas más graves de la vida; en el Antiguo Testamento el ser humano vive su enfermedad en presencia de Dios, con quien se lamenta.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Has escuchado decir que alguien sufre porque Dios lo castiga?",
+    "¿Qué te dice que Dios le dé la razón a Job y no a sus amigos?",
+    "¿Qué cosas de tu vida son «vapor»?",
+    "¿Cómo acompañar a alguien que sufre sin dar respuestas fáciles?"
+   ],
+   "activity": "Hagan un juego de roles: un participante es Job y otros son sus amigos. Luego otros participantes muestran cómo acompañarían a Job de una manera mejor. Conversen qué aprendieron.",
+   "prayer": "Señor, cuando el sufrimiento no tiene explicación, dame la honestidad de Job para hablarte. Cuando todo me parece vacío, dame la humildad de Qohélet para disfrutar tus dones sencillos. Y que un día pueda decir: ahora te han visto mis ojos. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 309-314",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una pregunta difícil que le harías a Dios.",
+   "logros": [
+    "Comprender el mensaje del libro de Job.",
+    "Conocer la reflexión de Eclesiastés.",
+    "Acompañar el sufrimiento sin respuestas fáciles."
+   ],
+   "profundizar": {
+    "titulo": "Los amigos de Job",
+    "texto": "Los amigos de Job hacen algo bueno al comienzo: se sientan siete días en silencio junto a él (2,13). Lo malo empieza cuando quieren explicarle su dolor. A veces la mejor compañía es el silencio."
+   },
+   "caso": {
+    "titulo": "La explicación que duele",
+    "texto": "En el funeral de un joven, alguien dice a la madre que «Dios necesitaba otro ángel».",
+    "preguntas": [
+     "¿Qué diría el libro de Job?",
+     "¿Qué podrías decir o hacer tú?"
+    ]
+   },
+   "claves": [
+    [
+     "Teología de la retribución",
+     "Idea de que el bueno prospera y el malo sufre."
+    ],
+    [
+     "Hebel",
+     "Vapor, soplo: lo pasajero."
+    ],
+    [
+     "Qohélet",
+     "Nombre hebreo del Eclesiastés."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Te conocía de oídas. ¿Conoces a Dios de oídas o por experiencia?",
+    "orar": "Reza por quienes sufren sin explicación.",
+    "vivir": "Acompaña en silencio a alguien que lo está pasando mal."
+   },
+   "practica": [
+    "Preparen los roles.",
+    "Representen.",
+    "Muestren otra forma.",
+    "Conversen."
+   ],
+   "idea": "Es mejor hablar honestamente con Dios que defenderlo con mentiras."
+  },
+  {
+   "title": "Cantar de los Cantares y Sabiduría: el amor y la vida inmortal",
+   "objective": "Conocer el Cantar de los Cantares como poema del amor humano y el libro de la Sabiduría como puente hacia la esperanza en la vida eterna.",
+   "intro": "El Cantar de los Cantares es un poema de amor entre un hombre y una mujer. El libro de la Sabiduría, el último del Antiguo Testamento en escribirse, habla de la inmortalidad. Ambos muestran lo más alto de la sabiduría bíblica: el amor y la vida que no termina.",
+   "sections": [
+    {
+     "title": "El Cantar: el amor humano",
+     "body": "El Cantar es una colección de poemas donde dos enamorados se buscan, se alaban y se desean. Celebra el **amor humano** y la belleza del cuerpo como don de Dios. Dice: «El amor es fuerte como la muerte… las aguas torrenciales no pueden apagarlo» (8,6-7)."
+    },
+    {
+     "title": "El Cantar: lecturas espirituales",
+     "body": "La tradición judía lo leyó como imagen del amor entre Dios e Israel; los cristianos, como imagen del amor entre Cristo y la Iglesia o el alma. San Juan de la Cruz se inspiró en él. Ambas lecturas, la humana y la espiritual, son legítimas y se enriquecen."
+    },
+    {
+     "title": "Sabiduría: los justos están en manos de Dios",
+     "body": "Escrito en griego, probablemente en Alejandría en el siglo I antes de Cristo. Afirma: «Las almas de los justos están en las manos de Dios y ningún tormento los alcanzará» (3,1). Es uno de los textos del Antiguo Testamento que expresa con más claridad la esperanza en la vida después de la muerte."
+    },
+    {
+     "title": "Sabiduría: Dios ama la vida",
+     "body": "El libro dice que Dios no hizo la muerte ni se alegra con la perdición de los vivientes (1,13), y que ama todo lo que existe: «Tú amas a todos los seres y no aborreces nada de lo que hiciste… Señor que amas la vida» (11,24-26). Prepara la fe en la resurrección."
+    }
+   ],
+   "bible": {
+    "ref": "Cantar de los Cantares 8,6-7 · El amor es fuerte como la muerte",
+    "comment": "«Grábame como un sello sobre tu corazón… porque el amor es fuerte como la muerte». Las aguas no pueden apagarlo y no se compra con riquezas. Este texto se usa a menudo en los matrimonios y expresa la fuerza del amor que Dios puso en el corazón humano."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1604 y 1611",
+     "text": "Dios, que creó al hombre por amor, lo llamó también al amor; los profetas y el Cantar expresan la alianza como un amor conyugal fiel.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 992",
+     "text": "La resurrección de los muertos fue revelada progresivamente; la esperanza en la vida eterna se expresa en los últimos libros del Antiguo Testamento.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Te sorprende que haya un poema de amor en la Biblia?",
+    "¿Cómo hablarías del amor humano a jóvenes desde el Cantar?",
+    "¿Qué te dice que «las almas de los justos están en las manos de Dios»?",
+    "¿Cómo se relacionan el amor y la esperanza en la vida eterna?"
+   ],
+   "activity": "En grupos, lean Cantar 2,8-17 y Sabiduría 3,1-9. Conversen cómo hablar del amor humano y de la muerte a jóvenes con lenguaje respetuoso, sin vergüenza y sin superficialidad. Preparen una catequesis breve.",
+   "prayer": "Dios que amas la vida y pusiste el amor en el corazón humano: gracias por el don del amor. Que ame con un amor fuerte como la muerte, y que confíe en que mi vida y la de los que amo está en tus manos para siempre. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1604 y 1611",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe qué significa para ti un amor verdadero.",
+   "logros": [
+    "Comprender el Cantar como poema del amor humano y su lectura espiritual.",
+    "Conocer la esperanza en la vida eterna del libro de la Sabiduría.",
+    "Relacionar amor y esperanza en la pastoral juvenil."
+   ],
+   "profundizar": {
+    "titulo": "La teología del cuerpo",
+    "texto": "San Juan Pablo II dedicó muchas catequesis al amor humano y al cuerpo, comentando también el Cantar de los Cantares. Mostró que el cuerpo y la sexualidad son lenguaje del amor y del don de sí."
+   },
+   "caso": {
+    "titulo": "La risa nerviosa",
+    "texto": "Al leer un texto del Cantar en el grupo, varios jóvenes se ríen nerviosos y otros se incomodan.",
+    "preguntas": [
+     "¿Cómo manejarías ese momento?",
+     "¿Qué te ayudaría a presentar el texto con naturalidad?"
+    ]
+   },
+   "claves": [
+    [
+     "Cantar de los Cantares",
+     "Poema del amor entre un hombre y una mujer."
+    ],
+    [
+     "Lectura espiritual",
+     "Lectura del Cantar como amor entre Dios y su pueblo."
+    ],
+    [
+     "Inmortalidad",
+     "Esperanza en la vida más allá de la muerte."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El amor es fuerte como la muerte. ¿A quién amas así?",
+    "orar": "Reza por las parejas y los matrimonios que conoces.",
+    "vivir": "Expresa tu cariño a alguien de tu familia esta semana."
+   },
+   "practica": [
+    "Lean los textos.",
+    "Conversen.",
+    "Preparen la catequesis.",
+    "Presenten."
+   ],
+   "idea": "Dios ama la vida y el amor es más fuerte que la muerte."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Cuál es el principio de la sabiduría según Proverbios?",
+   "options": [
+    "El conocimiento científico",
+    "El temor del Señor",
+    "La riqueza"
+   ],
+   "correct": 1,
+   "feedback": "Proverbios 1,7."
+  },
+  {
+   "q": "¿En qué se basa la poesía hebrea?",
+   "options": [
+    "En la rima",
+    "En el paralelismo",
+    "En la métrica griega"
+   ],
+   "correct": 1,
+   "feedback": "Un verso repite, contrasta o completa al anterior."
+  },
+  {
+   "q": "¿Qué salmo rezó Jesús en la cruz?",
+   "options": [
+    "Salmo 23",
+    "Salmo 22",
+    "Salmo 51"
+   ],
+   "correct": 1,
+   "feedback": "«Dios mío, Dios mío, ¿por qué me has abandonado?»."
+  },
+  {
+   "q": "¿Quién escribió el Eclesiástico?",
+   "options": [
+    "Salomón",
+    "Jesús ben Sira",
+    "Moisés"
+   ],
+   "correct": 1,
+   "feedback": "Hacia el 180 antes de Cristo."
+  },
+  {
+   "q": "¿Qué rechaza el libro de Job?",
+   "options": [
+    "Que Dios exista",
+    "Que todo sufrimiento sea castigo por el pecado",
+    "Que se pueda rezar"
+   ],
+   "correct": 1,
+   "feedback": "Dios da la razón a Job frente a sus amigos."
+  },
+  {
+   "q": "¿Qué significa «vanidad» en Eclesiastés?",
+   "options": [
+    "Orgullo",
+    "Vapor, soplo, lo pasajero",
+    "Belleza"
+   ],
+   "correct": 1,
+   "feedback": "La palabra hebrea es hebel."
+  },
+  {
+   "q": "¿Qué celebra el Cantar de los Cantares?",
+   "options": [
+    "Las victorias de Israel",
+    "El amor humano entre un hombre y una mujer",
+    "La Ley de Moisés"
+   ],
+   "correct": 1,
+   "feedback": "Leído también como imagen del amor de Dios."
+  },
+  {
+   "q": "¿Qué afirma Sabiduría 3,1?",
+   "options": [
+    "Que los justos desaparecen",
+    "Que las almas de los justos están en las manos de Dios",
+    "Que la muerte es el fin"
+   ],
+   "correct": 1,
+   "feedback": "Prepara la fe en la resurrección."
+  }
+ ]
+}

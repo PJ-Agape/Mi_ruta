@@ -62,8 +62,9 @@ def generar(archivo):
 
 
 def main():
-    for archivo in sorted((RAIZ / "fuentes" / "complementarias").glob("*.json")):
-        generar(archivo)
+    for carpeta in ("complementarias", "escritura"):
+        for archivo in sorted((RAIZ / "fuentes" / carpeta).glob("*.json")):
+            generar(archivo)
 
 
 if __name__ == "__main__":

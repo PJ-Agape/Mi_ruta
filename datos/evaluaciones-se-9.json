@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué dijo Orígenes sobre el autor de Hebreos?",
+    "opciones": [
+     "Que era Pablo",
+     "Que solo Dios sabe quién la escribió",
+     "Que era Juan"
+    ],
+    "correcta": 1,
+    "explicacion": "Su autor es desconocido."
+   },
+   {
+    "pregunta": "¿Cómo presenta Hebreos a Cristo?",
+    "opciones": [
+     "Como un ángel",
+     "Como sumo sacerdote misericordioso",
+     "Como un profeta más"
+    ],
+    "correcta": 1,
+    "explicacion": "Hebreos 4,14-16."
+   },
+   {
+    "pregunta": "¿Qué define Hebreos 11,1?",
+    "opciones": [
+     "La caridad",
+     "La fe",
+     "La esperanza"
+    ],
+    "correcta": 1,
+    "explicacion": "La fe es garantía de lo que se espera."
+   },
+   {
+    "pregunta": "¿Qué significa «apocalipsis»?",
+    "opciones": [
+     "Catástrofe",
+     "Revelación",
+     "Fin del mundo"
+    ],
+    "correcta": 1,
+    "explicacion": "Quitar el velo."
+   },
+   {
+    "pregunta": "¿Qué representa Babilonia en el Apocalipsis?",
+    "opciones": [
+     "Una ciudad del futuro",
+     "La Roma imperial y todo poder opresor",
+     "El cielo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es un símbolo."
+   },
+   {
+    "pregunta": "¿Quién es el centro del Apocalipsis?",
+    "opciones": [
+     "La bestia",
+     "El Cordero, Cristo muerto y resucitado",
+     "El dragón"
+    ],
+    "correcta": 1,
+    "explicacion": "Apocalipsis 5."
+   },
+   {
+    "pregunta": "¿Qué error se debe evitar al leer el Apocalipsis?",
+    "opciones": [
+     "Leerlo con esperanza",
+     "Calcular fechas del fin del mundo",
+     "Relacionarlo con el Antiguo Testamento"
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie conoce el día ni la hora."
+   },
+   {
+    "pregunta": "¿Con qué palabras termina la Biblia?",
+    "opciones": [
+     "Amén. Ven, Señor Jesús",
+     "En el principio",
+     "Todo está cumplido"
+    ],
+    "correcta": 0,
+    "explicacion": "Apocalipsis 22,20."
+   }
+  ]
+ }
+}

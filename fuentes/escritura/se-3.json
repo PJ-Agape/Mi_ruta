@@ -1,0 +1,585 @@
+{
+ "id": "se-3",
+ "titulo": "Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+ "subtitulo": "Marcos, Mateo, Lucas y los Hechos de los Apóstoles",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio de los evangelios sinópticos y los Hechos de los Apóstoles: la cuestión sinóptica, la teología propia de Marcos, Mateo y Lucas, y la misión de la Iglesia naciente. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+ "intro": "Marcos, Mateo y Lucas cuentan la historia de Jesús de forma muy parecida, por eso se llaman sinópticos (se pueden «ver juntos»). Pero cada uno tiene su mirada. En este módulo vas a aprender a leer cada evangelio con su propio acento, y a seguir con Lucas la misión de la Iglesia en los Hechos.",
+ "taller": "Taller de sinopsis: en grupos, comparen un mismo episodio en los tres sinópticos (por ejemplo, el bautismo de Jesús o la confesión de Pedro) usando una tabla de tres columnas. Identifiquen lo común, lo propio de cada uno y qué revela de la teología de cada evangelista. Luego preparen una catequesis breve sobre el episodio con el acento de uno de ellos.",
+ "unidades": [
+  {
+   "title": "La cuestión sinóptica",
+   "objective": "Comprender qué son los evangelios sinópticos y las principales explicaciones de sus semejanzas y diferencias.",
+   "intro": "Si pones en tres columnas a Marcos, Mateo y Lucas, verás que muchas veces usan las mismas palabras y el mismo orden. Otras veces difieren. ¿Cómo se explica? Es la llamada cuestión sinóptica.",
+   "sections": [
+    {
+     "title": "¿Qué es una sinopsis?",
+     "body": "Una **sinopsis** es un libro que presenta los evangelios en columnas paralelas para compararlos. Permite ver lo que tienen en común, lo que es propio de cada uno y cómo cada evangelista modifica el material."
+    },
+    {
+     "title": "Semejanzas y diferencias",
+     "body": "- **Triple tradición:** episodios que aparecen en los tres.\n- **Doble tradición:** material común a Mateo y Lucas que no está en Marcos (sobre todo dichos de Jesús, como el Padre Nuestro o las bienaventuranzas).\n- **Material propio:** por ejemplo, la parábola del hijo pródigo solo está en Lucas; la visita de los magos, solo en Mateo."
+    },
+    {
+     "title": "La teoría de las dos fuentes",
+     "body": "La explicación más aceptada hoy es que:\n\n- **Marcos** se escribió primero.\n- **Mateo y Lucas** usaron a Marcos como base.\n- Además, usaron una colección de dichos de Jesús que los estudiosos llaman **Q** (del alemán Quelle, fuente), hoy perdida.\n- Cada uno tuvo también **fuentes propias**.\n\nEs una hipótesis, no un dogma, y hay otras propuestas. Lo importante es que ayuda a ver la intención de cada evangelista."
+    },
+    {
+     "title": "Para qué sirve",
+     "body": "Comparar los evangelios no es un ejercicio frío: permite descubrir qué quiso destacar cada uno. Por ejemplo, Lucas añade que Jesús estaba orando en su bautismo; Mateo explica por qué Jesús se bautiza. Esos detalles revelan su teología y su comunidad."
+    }
+   ],
+   "bible": {
+    "ref": "Marcos 1,9-11; Mateo 3,13-17; Lucas 3,21-22 · El bautismo de Jesús",
+    "comment": "Los tres narran el bautismo, pero con matices: Marcos es breve y directo; Mateo incluye el diálogo con Juan, que no quiere bautizarlo; Lucas menciona que Jesús estaba orando cuando se abrió el cielo. Un mismo hecho, tres miradas complementarias."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 19",
+     "text": "Los autores sagrados escribieron los evangelios escogiendo algunas cosas, reduciendo otras a síntesis y explicándolas atendiendo a la situación de las Iglesias.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 125-127",
+     "text": "Los evangelios son el corazón de todas las Escrituras por ser el testimonio principal de la vida y doctrina del Verbo encarnado.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Habías notado que los evangelios cuentan las cosas de manera distinta?",
+    "¿Qué ventaja tiene tener cuatro evangelios?",
+    "¿Qué te parece la teoría de las dos fuentes?",
+    "¿Cómo usarías una sinopsis en la catequesis?"
+   ],
+   "activity": "Con una sinopsis o tres Biblias abiertas, comparen la tempestad calmada en Marcos 4,35-41, Mateo 8,23-27 y Lucas 8,22-25. Anoten cómo llaman los discípulos a Jesús y cómo reacciona él en cada uno.",
+   "prayer": "Señor Jesús, que te dejas mirar desde distintos ángulos: ayúdame a conocerte en la riqueza de los cuatro evangelios, sin reducirte a una sola mirada. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 19",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en un hecho que tres amigos te contaron de forma distinta. ¿Alguno mentía?",
+   "logros": [
+    "Explicar qué son los sinópticos.",
+    "Conocer la teoría de las dos fuentes.",
+    "Usar una sinopsis para comparar textos."
+   ],
+   "profundizar": {
+    "titulo": "Herramientas",
+    "texto": "Existen sinopsis en español y también en línea. Una sinopsis con colores (rojo para lo común, azul para lo propio) ayuda mucho a ver las diferencias."
+   },
+   "caso": {
+    "titulo": "«¿Cuál es el correcto?»",
+    "texto": "Al comparar los relatos de la tempestad, un participante pregunta cuál de los tres relatos es «el correcto».",
+    "preguntas": [
+     "¿Cómo responderías?",
+     "¿Qué aprendemos de las diferencias?"
+    ]
+   },
+   "claves": [
+    [
+     "Sinópticos",
+     "Mateo, Marcos y Lucas, que se pueden leer en paralelo."
+    ],
+    [
+     "Q",
+     "Hipotética colección de dichos usada por Mateo y Lucas."
+    ],
+    [
+     "Sinopsis",
+     "Edición de los evangelios en columnas paralelas."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Un hecho, tres miradas. ¿Cómo miras tú a Jesús?",
+    "orar": "Reza con el relato del bautismo.",
+    "vivir": "Lee en paralelo un episodio esta semana."
+   },
+   "practica": [
+    "Abran las tres Biblias.",
+    "Comparen.",
+    "Anoten diferencias.",
+    "Interpreten."
+   ],
+   "idea": "Tres miradas que se enriquecen mutuamente."
+  },
+  {
+   "title": "Marcos: el evangelio del discípulo",
+   "objective": "Conocer la estructura y la teología del evangelio de Marcos, centrado en la pregunta por la identidad de Jesús y el seguimiento.",
+   "intro": "Marcos es el evangelio más breve y, según la mayoría de los estudiosos, el más antiguo. Es directo, rápido y a veces desconcertante. Su gran pregunta es: ¿quién es Jesús y qué significa seguirlo?",
+   "sections": [
+    {
+     "title": "Autor, fecha y destinatarios",
+     "body": "La tradición lo atribuye a **Juan Marcos**, compañero de Pablo y de Pedro. Se suele fechar hacia el **65-70**, quizás en Roma, en un tiempo de persecución. Explica costumbres judías, lo que sugiere lectores no judíos."
+    },
+    {
+     "title": "Estructura",
+     "body": "El evangelio gira en torno a **Marcos 8,27-30**, la confesión de Pedro en Cesarea de Filipo:\n\n- **Primera parte (1–8):** Jesús en Galilea, con milagros y enseñanzas; todos se preguntan quién es.\n- **Bisagra (8,27-30):** «Tú eres el Mesías».\n- **Segunda parte (8–16):** camino a Jerusalén, tres anuncios de la pasión, muerte y resurrección."
+    },
+    {
+     "title": "El secreto mesiánico",
+     "body": "Jesús pide muchas veces que no digan quién es. Marcos quiere enseñar que no se puede entender a Jesús sin la cruz. El primer ser humano que lo confiesa plenamente es un centurión pagano al pie de la cruz: «Verdaderamente este hombre era Hijo de Dios» (15,39)."
+    },
+    {
+     "title": "Los discípulos y el final abierto",
+     "body": "En Marcos los discípulos no entienden, tienen miedo y huyen. Es un espejo para el lector: seguir a Jesús es un camino de aprendizaje. El final más antiguo (16,8) termina con las mujeres huyendo del sepulcro con temor. Los versículos 16,9-20 se añadieron después, aunque la Iglesia los reconoce como canónicos."
+    }
+   ],
+   "bible": {
+    "ref": "Marcos 8,27-35 · «¿Quién dicen que soy yo?»",
+    "comment": "Jesús pregunta a los discípulos quién dice la gente que es él, y luego: «Y ustedes, ¿quién dicen que soy yo?». Pedro lo confiesa Mesías, pero no acepta la cruz. Jesús responde: «El que quiera seguirme, que renuncie a sí mismo, cargue con su cruz y me siga». Es el corazón del evangelio de Marcos."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 18",
+     "text": "Los evangelios tienen origen apostólico; lo que los apóstoles predicaron, ellos y sus discípulos lo transmitieron por escrito.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Verbum Domini 72-73",
+     "text": "La Palabra de Dios se encuentra con la vida de cada persona y la invita a una respuesta de fe y seguimiento.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
+   ],
+   "questions": [
+    "¿Quién dices tú que es Jesús?",
+    "¿Por qué crees que Jesús pedía silencio sobre su identidad?",
+    "¿Te identificas con los discípulos de Marcos, que no entienden?",
+    "¿Qué te provoca el final abierto del evangelio?"
+   ],
+   "activity": "Lean en voz alta el evangelio de Marcos completo en una jornada (dura cerca de dos horas), repartiendo los capítulos entre los participantes. Al final, cada uno comparte la escena que más lo tocó.",
+   "prayer": "Señor Jesús, me preguntas quién eres para mí. Quiero confesarte como Mesías e Hijo de Dios, y aceptar el camino de la cruz que lleva a la vida. Ayúdame a seguirte aunque no siempre entienda. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 18",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Responde en una frase: ¿quién es Jesús para ti hoy?",
+   "logros": [
+    "Conocer el contexto y la estructura de Marcos.",
+    "Comprender el secreto mesiánico.",
+    "Relacionar la cristología de Marcos con el seguimiento."
+   ],
+   "profundizar": {
+    "titulo": "Leer Marcos de una vez",
+    "texto": "Marcos se puede leer completo en una sola sentada. Así se percibe su ritmo rápido, la palabra «enseguida» que se repite y el contraste entre la primera y la segunda parte."
+   },
+   "caso": {
+    "titulo": "El catequista que no sabe",
+    "texto": "Un catequista confiesa que muchas veces no entiende los evangelios y siente que no debería enseñar.",
+    "preguntas": [
+     "¿Qué le diría el evangelio de Marcos?",
+     "¿Cómo podría seguir formándose?"
+    ]
+   },
+   "claves": [
+    [
+     "Secreto mesiánico",
+     "Pedido de silencio sobre la identidad de Jesús."
+    ],
+    [
+     "Cesarea de Filipo",
+     "Lugar de la confesión de Pedro."
+    ],
+    [
+     "Final breve",
+     "Marcos 16,8, final más antiguo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "¿Quién dicen que soy yo? Responde en oración.",
+    "orar": "Pide la gracia de seguir a Jesús.",
+    "vivir": "Lee esta semana el evangelio de Marcos completo."
+   },
+   "practica": [
+    "Repartan los capítulos.",
+    "Lean en voz alta.",
+    "Compartan una escena.",
+    "Recen juntos."
+   ],
+   "idea": "No se entiende a Jesús sin la cruz."
+  },
+  {
+   "title": "Mateo: Jesús, el Maestro y el Mesías de Israel",
+   "objective": "Conocer la estructura y la teología del evangelio de Mateo, con su acento en el cumplimiento de las Escrituras y en la Iglesia.",
+   "intro": "Mateo es el evangelio más usado en la liturgia y la catequesis de la Iglesia antigua. Escrito para una comunidad de origen judío, presenta a Jesús como el Mesías que cumple las Escrituras y como el nuevo Maestro de la Ley.",
+   "sections": [
+    {
+     "title": "Autor, fecha y comunidad",
+     "body": "La tradición lo atribuye al apóstol **Mateo**. Los estudios lo sitúan hacia el **80-90**, en una comunidad judeocristiana, quizás en Siria, que vive tensiones con la sinagoga después de la destrucción del Templo."
+    },
+    {
+     "title": "Cinco grandes discursos",
+     "body": "Mateo organiza las enseñanzas de Jesús en cinco discursos, como evocando los cinco libros de Moisés:\n\n1. **Sermón de la montaña** (5–7).\n2. **Discurso misionero** (10).\n3. **Discurso en parábolas** (13).\n4. **Discurso sobre la comunidad** (18).\n5. **Discurso escatológico** (24–25)."
+    },
+    {
+     "title": "Cumplimiento",
+     "body": "Mateo repite: «Esto sucedió para que se cumpliera lo dicho por el profeta». Muestra que Jesús es el Mesías esperado, hijo de David y de Abraham (1,1). Es también **Emmanuel**, Dios con nosotros (1,23), y al final promete: «Yo estoy con ustedes todos los días» (28,20)."
+    },
+    {
+     "title": "La Iglesia",
+     "body": "Mateo es el único evangelio que usa la palabra **iglesia** (16,18; 18,17). Se preocupa por la vida de la comunidad: el perdón, la corrección fraterna, el cuidado de los pequeños. Termina con el envío misionero a todas las naciones (28,19-20)."
+    }
+   ],
+   "bible": {
+    "ref": "Mateo 5,1-12 · Las bienaventuranzas",
+    "comment": "Jesús sube a la montaña, como Moisés en el Sinaí, y proclama las bienaventuranzas. Son el corazón de la nueva justicia del Reino: felices los pobres de espíritu, los mansos, los que lloran, los que tienen hambre de justicia, los misericordiosos, los limpios de corazón, los que trabajan por la paz y los perseguidos."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1716-1717",
+     "text": "Las bienaventuranzas están en el centro de la predicación de Jesús; dibujan el rostro de Jesucristo y describen su caridad.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Evangelii gaudium 24",
+     "text": "La Iglesia en salida es la comunidad de discípulos misioneros que primerean, se involucran, acompañan, fructifican y festejan.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Qué bienaventuranza te cuesta más?",
+    "¿Qué significa que Jesús sea el Emmanuel?",
+    "¿Qué enseña Mateo 18 sobre la vida de comunidad?",
+    "¿Cómo vives el envío de Mateo 28?"
+   ],
+   "activity": "Por grupos, cada uno toma uno de los cinco discursos, lo lee completo y prepara una síntesis de cinco minutos: tema, destinatarios, frase central y aplicación para la pastoral juvenil.",
+   "prayer": "Jesús, Emmanuel, Dios con nosotros: enséñame la justicia del Reino que proclamaste en la montaña. Que viva las bienaventuranzas y anuncie tu Evangelio a todos, sabiendo que estás conmigo todos los días. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1716-1717",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Lee las bienaventuranzas y marca la que más necesitas vivir.",
+   "logros": [
+    "Conocer el contexto y la estructura de Mateo.",
+    "Reconocer el tema del cumplimiento.",
+    "Comprender la eclesiología de Mateo."
+   ],
+   "profundizar": {
+    "titulo": "Mateo y Moisés",
+    "texto": "Mateo presenta a Jesús con rasgos de Moisés: un rey que mata niños, la huida a Egipto, el monte desde donde enseña la Ley. Jesús es el nuevo Moisés, pero más que Moisés: dice «Yo les digo»."
+   },
+   "caso": {
+    "titulo": "La corrección fraterna",
+    "texto": "En un equipo de catequistas, uno llega siempre tarde y nadie le dice nada, pero todos lo critican a sus espaldas.",
+    "preguntas": [
+     "¿Qué propone Mateo 18,15-17?",
+     "¿Cómo aplicarlo con caridad?"
+    ]
+   },
+   "claves": [
+    [
+     "Emmanuel",
+     "Dios con nosotros."
+    ],
+    [
+     "Cinco discursos",
+     "Grandes bloques de enseñanza en Mateo."
+    ],
+    [
+     "Fórmulas de cumplimiento",
+     "«Para que se cumpliera lo dicho por el profeta»."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Felices los misericordiosos. ¿Con quién necesitas ser misericordioso?",
+    "orar": "Reza las bienaventuranzas lentamente.",
+    "vivir": "Vive esta semana una bienaventuranza concreta."
+   },
+   "practica": [
+    "Elijan un discurso.",
+    "Léanlo completo.",
+    "Preparen la síntesis.",
+    "Presenten."
+   ],
+   "idea": "Jesús es Dios con nosotros, todos los días."
+  },
+  {
+   "title": "Lucas: el evangelio de la misericordia",
+   "objective": "Conocer la estructura y la teología del evangelio de Lucas: la misericordia, los pobres, las mujeres, la oración y el Espíritu.",
+   "intro": "Dante llamó a Lucas «el escriba de la mansedumbre de Cristo». Su evangelio está lleno de misericordia, de alegría y de atención a los últimos. Es la primera parte de una obra en dos volúmenes que continúa en los Hechos.",
+   "sections": [
+    {
+     "title": "Autor y propósito",
+     "body": "La tradición lo atribuye a **Lucas**, médico y compañero de Pablo. Se fecha hacia el **80-90**. Escribe para Teófilo y para comunidades de origen mayoritariamente pagano, con un griego cuidado y un relato ordenado (1,1-4)."
+    },
+    {
+     "title": "El camino a Jerusalén",
+     "body": "Lucas organiza gran parte del evangelio como un **viaje de Jesús a Jerusalén** (9,51–19,27). En ese camino se concentran muchas enseñanzas y parábolas propias: el buen samaritano, el hijo pródigo, el rico y Lázaro, el fariseo y el publicano."
+    },
+    {
+     "title": "Misericordia y alegría",
+     "body": "Lucas destaca a Jesús que busca a los perdidos (capítulo 15: la oveja, la moneda y el hijo). Hay **alegría** en el cielo por un pecador que se convierte. Los **pobres** y los **marginados** reciben la buena noticia; los ricos son llamados a compartir."
+    },
+    {
+     "title": "Mujeres, oración y Espíritu",
+     "body": "- **Mujeres:** María, Isabel, Ana, las mujeres que siguen a Jesús y lo sostienen (8,1-3), Marta y María.\n- **Oración:** Jesús ora en los momentos decisivos: el bautismo, la elección de los Doce, la transfiguración, la cruz.\n- **Espíritu Santo:** guía a Jesús desde el comienzo y será protagonista de los Hechos."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 15,11-32 · El padre misericordioso",
+    "comment": "El hijo menor despilfarra la herencia y vuelve; el padre corre a abrazarlo y hace una fiesta. El hijo mayor no quiere entrar. La parábola queda abierta: ¿entrará a la fiesta? Lucas pinta el rostro de un Dios cuya alegría es perdonar."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 3",
+     "text": "Nadie queda excluido de la alegría reportada por el Señor; Dios no se cansa nunca de perdonar.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2599-2606",
+     "text": "Jesús ora en los momentos decisivos de su misión, como lo destaca especialmente el evangelio de Lucas.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Con cuál de los dos hijos te identificas más?",
+    "¿Qué lugar tienen los pobres en tu comunidad?",
+    "¿Qué te dice que Jesús ore antes de las decisiones importantes?",
+    "¿Qué mujeres de Lucas te inspiran?"
+   ],
+   "activity": "Por parejas, elijan una parábola propia de Lucas, léanla con atención y preparen una dramatización breve con una pregunta final para el grupo.",
+   "prayer": "Padre misericordioso, que corres a abrazar al hijo que vuelve: gracias por tu perdón. Dame un corazón que se alegre con la conversión de los demás, que ore como Jesús y que sirva a los pobres. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium 3",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Recuerda una vez en que fuiste recibido sin reproches. ¿Cómo te sentiste?",
+   "logros": [
+    "Conocer el contexto y la estructura de Lucas.",
+    "Reconocer sus grandes temas.",
+    "Relacionar Lucas con la pastoral de la misericordia."
+   ],
+   "profundizar": {
+    "titulo": "El Magníficat",
+    "texto": "El canto de María (1,46-55) resume la teología de Lucas: Dios mira la humildad de su sierva, derriba a los poderosos y enaltece a los humildes, colma de bienes a los hambrientos. La Iglesia lo reza cada tarde en las Vísperas."
+   },
+   "caso": {
+    "titulo": "La fiesta del hermano mayor",
+    "texto": "En el grupo juvenil vuelve un joven que se había alejado y tuvo problemas. Algunos dirigentes reclaman que «no es justo» recibirlo como si nada.",
+    "preguntas": [
+     "¿Qué dice Lucas 15 a esos dirigentes?",
+     "¿Cómo acogerlo bien sin ignorar lo que pasó?"
+    ]
+   },
+   "claves": [
+    [
+     "Viaje a Jerusalén",
+     "Sección central de Lucas (9,51–19,27)."
+    ],
+    [
+     "Misericordia",
+     "Amor que se inclina sobre la miseria."
+    ],
+    [
+     "Teófilo",
+     "Destinatario de Lucas y Hechos."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El padre corre a su encuentro. ¿Hacia dónde necesitas volver?",
+    "orar": "Reza el Magníficat.",
+    "vivir": "Haz una obra de misericordia esta semana."
+   },
+   "practica": [
+    "Elijan una parábola.",
+    "Prepárenla.",
+    "Dramatícenla.",
+    "Pregunten al grupo."
+   ],
+   "idea": "La alegría de Dios es perdonar."
+  },
+  {
+   "title": "Hechos de los Apóstoles: el Espíritu impulsa la misión",
+   "objective": "Conocer la estructura y la teología de los Hechos de los Apóstoles como relato de la expansión del Evangelio guiada por el Espíritu.",
+   "intro": "Los Hechos de los Apóstoles son la segunda parte de la obra de Lucas. Si el evangelio va de Galilea a Jerusalén, los Hechos van de Jerusalén a Roma. El verdadero protagonista no es Pedro ni Pablo: es el Espíritu Santo.",
+   "sections": [
+    {
+     "title": "El programa: Hechos 1,8",
+     "body": "«Recibirán la fuerza del Espíritu Santo y serán mis testigos en Jerusalén, en toda Judea y Samaria, y hasta los confines de la tierra». Este versículo es el índice del libro:\n\n- **Jerusalén** (1–7).\n- **Judea y Samaria** (8–12).\n- **Hasta los confines** (13–28), con los viajes de Pablo hasta Roma."
+    },
+    {
+     "title": "Pedro y Pablo",
+     "body": "La primera parte gira en torno a **Pedro**: Pentecostés, los primeros discursos, la apertura a los paganos con Cornelio (capítulo 10). La segunda, en torno a **Pablo**: su conversión (9), sus viajes misioneros, su arresto y su viaje a Roma."
+    },
+    {
+     "title": "Los discursos",
+     "body": "Hechos contiene muchos discursos (de Pedro, Esteban, Pablo) que resumen el **kerigma**: Jesús, a quien ustedes crucificaron, Dios lo resucitó; conviértanse y bautícense. Muestran cómo predicaban los primeros cristianos."
+    },
+    {
+     "title": "Un final abierto",
+     "body": "El libro termina con Pablo en Roma, anunciando el Reino «con toda libertad y sin impedimento» (28,31). No cuenta su muerte. El final abierto invita al lector a continuar la misión: los Hechos se siguen escribiendo en la vida de la Iglesia."
+    }
+   ],
+   "bible": {
+    "ref": "Hechos 2,1-13 · Pentecostés",
+    "comment": "El Espíritu desciende sobre los discípulos como viento y lenguas de fuego, y todos los que estaban en Jerusalén, de muchas naciones, los oyen hablar en su propia lengua. Es lo contrario de Babel: el Espíritu une en la diversidad y hace nacer una Iglesia misionera."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 259-261",
+     "text": "Evangelizadores con Espíritu son los que se abren sin temor a su acción; Pentecostés hace salir a los apóstoles de sí mismos.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 731-732",
+     "text": "El día de Pentecostés la Pascua de Cristo se consuma con la efusión del Espíritu Santo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Dónde ves hoy la acción del Espíritu en la Iglesia?",
+    "¿Qué te enseña la apertura de Pedro a Cornelio?",
+    "¿Qué te desafía de la valentía de los primeros misioneros?",
+    "¿Cómo continuarías tú los Hechos?"
+   ],
+   "activity": "En grupos, sigan en un mapa los viajes misioneros de Pablo (Hechos 13–28) y anoten en cada ciudad qué pasó y qué carta del Nuevo Testamento se relaciona con ella.",
+   "prayer": "Espíritu Santo, protagonista de la misión: sopla sobre nosotros como en Pentecostés. Danos valentía para anunciar a Jesús con libertad, y haz que nuestra vida sea un capítulo más de los Hechos de los Apóstoles. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium 259-261",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en una persona que, para ti, fue «apóstol»: alguien que te anunció a Jesús.",
+   "logros": [
+    "Conocer la estructura de Hechos según 1,8.",
+    "Reconocer el papel del Espíritu y de Pedro y Pablo.",
+    "Comprender el kerigma en los discursos."
+   ],
+   "profundizar": {
+    "titulo": "Las secciones «nosotros»",
+    "texto": "En algunos pasajes de Hechos el narrador pasa a la primera persona plural («nosotros», por ejemplo 16,10-17). La tradición lo interpreta como señal de que el autor acompañó a Pablo en esos viajes."
+   },
+   "caso": {
+    "titulo": "La misión que da miedo",
+    "texto": "Un grupo juvenil quiere hacer misión en un barrio difícil de su ciudad, pero varios dirigentes tienen miedo.",
+    "preguntas": [
+     "¿Qué dirían los Hechos?",
+     "¿Qué cuidados prudentes habría que tomar?"
+    ]
+   },
+   "claves": [
+    [
+     "Pentecostés",
+     "Venida del Espíritu Santo sobre los discípulos."
+    ],
+    [
+     "Kerigma",
+     "Primer anuncio de Jesús muerto y resucitado."
+    ],
+    [
+     "Cornelio",
+     "Centurión pagano bautizado por Pedro."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Serán mis testigos. ¿Dónde te envía Jesús?",
+    "orar": "Reza el «Ven, Espíritu Santo».",
+    "vivir": "Comparte tu fe con alguien esta semana."
+   },
+   "practica": [
+    "Abran el mapa.",
+    "Sigan los viajes.",
+    "Relacionen las cartas.",
+    "Presenten."
+   ],
+   "idea": "El Espíritu Santo es el protagonista de la misión."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué son los evangelios sinópticos?",
+   "options": [
+    "Mateo, Marcos y Lucas, que se pueden leer en paralelo",
+    "Los cuatro evangelios",
+    "Los evangelios apócrifos"
+   ],
+   "correct": 0,
+   "feedback": "Sinóptico significa que se puede ver en conjunto."
+  },
+  {
+   "q": "Según la teoría de las dos fuentes, ¿qué evangelio se escribió primero?",
+   "options": [
+    "Mateo",
+    "Marcos",
+    "Lucas"
+   ],
+   "correct": 1,
+   "feedback": "Mateo y Lucas habrían usado a Marcos."
+  },
+  {
+   "q": "¿Cuál es la bisagra del evangelio de Marcos?",
+   "options": [
+    "El sermón de la montaña",
+    "La confesión de Pedro en Cesarea de Filipo",
+    "El nacimiento de Jesús"
+   ],
+   "correct": 1,
+   "feedback": "Marcos 8,27-30."
+  },
+  {
+   "q": "¿Quién confiesa primero plenamente a Jesús como Hijo de Dios en Marcos?",
+   "options": [
+    "Pedro",
+    "El centurión al pie de la cruz",
+    "María Magdalena"
+   ],
+   "correct": 1,
+   "feedback": "Marcos 15,39."
+  },
+  {
+   "q": "¿Cuántos grandes discursos organiza Mateo?",
+   "options": [
+    "Tres",
+    "Cinco",
+    "Siete"
+   ],
+   "correct": 1,
+   "feedback": "Evocan los cinco libros de Moisés."
+  },
+  {
+   "q": "¿Qué evangelio usa la palabra «iglesia»?",
+   "options": [
+    "Marcos",
+    "Mateo",
+    "Lucas"
+   ],
+   "correct": 1,
+   "feedback": "Mateo 16,18 y 18,17."
+  },
+  {
+   "q": "¿Qué parábola es propia de Lucas?",
+   "options": [
+    "El sembrador",
+    "El hijo pródigo",
+    "El grano de mostaza"
+   ],
+   "correct": 1,
+   "feedback": "Lucas 15."
+  },
+  {
+   "q": "¿Qué versículo funciona como índice de los Hechos de los Apóstoles?",
+   "options": [
+    "Hechos 1,8",
+    "Hechos 2,42",
+    "Hechos 28,31"
+   ],
+   "correct": 0,
+   "feedback": "Jerusalén, Judea y Samaria, y los confines de la tierra."
+  }
+ ]
+}

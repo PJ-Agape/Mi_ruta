@@ -1,0 +1,61 @@
+{
+ "curso": "se-2",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura II: Introducción al Nuevo Testamento",
+   "semanas": "",
+   "intro": "El Nuevo Testamento es el testimonio de las primeras comunidades sobre Jesús. En este módulo vas a conocer su contexto, cómo se formaron sus libros y cómo leerlo con fidelidad.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "El mundo de Jesús",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "De Jesús a los evangelios",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Los libros del Nuevo Testamento",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Las primeras comunidades",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Cómo leer el Nuevo Testamento hoy",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura II: Introducción al Nuevo Testamento",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

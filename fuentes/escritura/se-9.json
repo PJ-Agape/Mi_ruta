@@ -1,0 +1,585 @@
+{
+ "id": "se-9",
+ "titulo": "Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+ "subtitulo": "Cristo sumo sacerdote y el Cordero vencedor",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Estudio de la Carta a los Hebreos y del Apocalipsis: Cristo sumo sacerdote de la nueva alianza, la fe que persevera, el género apocalíptico, el Cordero y la Iglesia perseguida, y la esperanza de un cielo nuevo y una tierra nueva. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+ "intro": "Hebreos y el Apocalipsis cierran el Nuevo Testamento. Son libros difíciles y muchas veces mal entendidos. En este módulo vas a aprender a leerlos con sus claves propias y a descubrir su mensaje de esperanza para comunidades cansadas o perseguidas.",
+ "taller": "Cada participante elige un símbolo del Apocalipsis o una imagen de Hebreos (el sumo sacerdote, la nube de testigos, el Cordero, la mujer vestida de sol, la Jerusalén celestial) y prepara una explicación de cinco minutos para jóvenes: qué significa en su contexto, qué errores de interpretación hay que evitar y qué esperanza transmite hoy. Se presentan y se comentan.",
+ "unidades": [
+  {
+   "title": "La Carta a los Hebreos: Cristo, sumo sacerdote",
+   "objective": "Conocer el origen y el mensaje central de la Carta a los Hebreos: Cristo, sumo sacerdote misericordioso.",
+   "intro": "Hebreos no parece una carta: es una gran homilía escrita para cristianos cansados, que extrañaban el culto del Templo o pensaban abandonar la fe. Su respuesta es mostrar a Cristo como el sumo sacerdote definitivo.",
+   "sections": [
+    {
+     "title": "Autor y destinatarios",
+     "body": "La tradición la incluyó entre las cartas de Pablo, pero su estilo y su vocabulario son distintos. Ya en la Antigüedad se dudaba de su autor; Orígenes dijo: «Quién la escribió, solo Dios lo sabe». Probablemente se dirige a cristianos de origen judío, desanimados, en la segunda mitad del siglo I."
+    },
+    {
+     "title": "Una homilía",
+     "body": "El autor la llama «palabra de exhortación» (13,22). Alterna exposición y exhortación: explica quién es Cristo y luego invita a perseverar. Usa mucho el Antiguo Testamento, sobre todo los Salmos y el culto del Levítico."
+    },
+    {
+     "title": "Cristo, superior a todo",
+     "body": "Hebreos comienza: «Muchas veces y de muchos modos habló Dios antiguamente a nuestros padres por medio de los profetas; en estos últimos tiempos nos ha hablado por medio del Hijo» (1,1-2). Cristo es superior a los ángeles y a Moisés: es el Hijo."
+    },
+    {
+     "title": "Un sumo sacerdote que nos comprende",
+     "body": "Cristo es el **sumo sacerdote** de la nueva alianza, no por linaje sino por su entrega. Es sacerdote «según el orden de Melquisedec» (Salmo 110). Y es misericordioso: «No tenemos un sumo sacerdote incapaz de compadecerse de nuestras debilidades, sino que fue probado en todo como nosotros, excepto en el pecado» (4,15)."
+    }
+   ],
+   "bible": {
+    "ref": "Hebreos 4,14-16 · Acerquémonos con confianza",
+    "comment": "Tenemos un gran sumo sacerdote, Jesús, el Hijo de Dios, que comprende nuestras debilidades porque fue probado en todo como nosotros, menos en el pecado. Por eso podemos acercarnos con confianza al trono de la gracia para recibir misericordia en el momento oportuno."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1544-1545",
+     "text": "Cristo es el único sacerdote; todo lo que prefiguraba el sacerdocio de la antigua alianza encuentra su cumplimiento en él.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 662",
+     "text": "Cristo, sumo sacerdote de los bienes futuros, entró en el santuario del cielo para interceder siempre por nosotros.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Te has sentido alguna vez como los destinatarios de Hebreos, cansado en la fe?",
+    "¿Qué te dice que Jesús fue probado en todo como nosotros?",
+    "¿Qué significa para ti acercarte con confianza al trono de la gracia?",
+    "¿Cómo acompañarías a un joven desanimado en la fe?"
+   ],
+   "activity": "Lean Hebreos 1,1-4 y 4,14–5,10. Hagan una lista de los títulos y rasgos de Cristo que aparecen y conversen cuáles ayudarían a un joven desanimado.",
+   "prayer": "Jesús, sumo sacerdote misericordioso, que fuiste probado en todo como nosotros: me acerco con confianza a ti. Dame tu misericordia y tu fuerza cuando me canso en la fe. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1544-1545",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe algo que te cansa en tu vida de fe o en tu servicio.",
+   "logros": [
+    "Conocer el origen y género de Hebreos.",
+    "Comprender a Cristo como sumo sacerdote.",
+    "Aplicar el mensaje de Hebreos al acompañamiento."
+   ],
+   "profundizar": {
+    "titulo": "Melquisedec",
+    "texto": "Melquisedec es un misterioso rey y sacerdote que bendice a Abraham con pan y vino (Génesis 14,18-20). Hebreos lo presenta como figura de Cristo, sacerdote para siempre. La plegaria eucarística I lo menciona."
+   },
+   "caso": {
+    "titulo": "El joven que quiere dejar todo",
+    "texto": "Un dirigente de 19 años dice que está cansado y quiere dejar el grupo y la Iglesia.",
+    "preguntas": [
+     "¿Qué le diría la Carta a los Hebreos?",
+     "¿Cómo lo acompañarías?"
+    ]
+   },
+   "claves": [
+    [
+     "Sumo sacerdote",
+     "Título de Cristo en Hebreos."
+    ],
+    [
+     "Melquisedec",
+     "Rey y sacerdote figura de Cristo."
+    ],
+    [
+     "Palabra de exhortación",
+     "Nombre que Hebreos se da a sí misma."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Acerquémonos con confianza. ¿Qué te impide acercarte?",
+    "orar": "Reza por los que están cansados en la fe.",
+    "vivir": "Escribe a alguien que se ha alejado del grupo."
+   },
+   "practica": [
+    "Lean los textos.",
+    "Hagan la lista.",
+    "Conversen.",
+    "Compartan."
+   ],
+   "idea": "Tenemos un sumo sacerdote que nos comprende."
+  },
+  {
+   "title": "Hebreos: la nueva alianza y la fe que persevera",
+   "objective": "Comprender la enseñanza de Hebreos sobre la nueva alianza y la fe perseverante, con la «nube de testigos».",
+   "intro": "Hebreos muestra que el sacrificio de Cristo, ofrecido una vez para siempre, inaugura la nueva alianza anunciada por Jeremías. Y termina con una galería de testigos de la fe que nos animan a correr con perseverancia.",
+   "sections": [
+    {
+     "title": "Una vez para siempre",
+     "body": "Los sacrificios antiguos se repetían cada año. Cristo, en cambio, entró una sola vez en el santuario con su propia sangre, obteniendo una redención eterna (9,11-14). Su ofrenda es definitiva. La Eucaristía no repite su sacrificio: lo hace presente."
+    },
+    {
+     "title": "La nueva alianza",
+     "body": "Hebreos cita completo Jeremías 31,31-34 (8,8-12): Cristo es mediador de una alianza nueva, escrita en los corazones. La primera alianza era sombra de los bienes futuros; en Cristo llega la realidad."
+    },
+    {
+     "title": "La fe",
+     "body": "El capítulo 11 define: «La fe es la garantía de los bienes que se esperan y la plena certeza de las realidades que no se ven» (11,1). Luego recorre la fe de Abel, Noé, Abraham, Sara, Moisés, Rahab y tantos otros que vivieron confiando en promesas que no vieron cumplidas."
+    },
+    {
+     "title": "Correr con perseverancia",
+     "body": "«Rodeados de una nube tan grande de testigos, corramos con perseverancia la carrera que se nos propone, fijos los ojos en Jesús, el que inicia y completa nuestra fe» (12,1-2). Las dificultades se presentan como corrección de un Padre que ama. La carta termina con exhortaciones prácticas: hospitalidad, cuidado de los presos, fidelidad, desprendimiento."
+    }
+   ],
+   "bible": {
+    "ref": "Hebreos 12,1-3 · La nube de testigos",
+    "comment": "Rodeados de tantos testigos de la fe, dejemos todo lo que nos estorba y corramos con perseverancia, con los ojos fijos en Jesús, que soportó la cruz. Piensen en él para no desanimarse. La fe es una carrera de resistencia, y no corremos solos."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1366-1367",
+     "text": "La Eucaristía es sacrificio porque representa, hace presente, el sacrificio de la cruz; es un único y mismo sacrificio.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 146 y 165",
+     "text": "Hebreos 11 hace el elogio de la fe de los antepasados; el ejemplo de los testigos de la fe nos ayuda a perseverar.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué testigos de la fe forman tu «nube»?",
+    "¿Qué te estorba en la carrera de la fe?",
+    "¿Cómo explicarías que la misa no repite el sacrificio de Cristo?",
+    "¿Qué exhortación práctica del capítulo 13 te desafía?"
+   ],
+   "activity": "Cada participante escribe su propio «Hebreos 11»: una lista de cinco personas (de la Biblia, santos o de su vida) que fueron testigos de fe para él o ella, con una frase de cada uno. Lo comparten en una oración final.",
+   "prayer": "Jesús, que inicias y completas nuestra fe: rodeado de tantos testigos, quiero correr con perseverancia mirándote a ti. Quita de mí lo que me estorba y dame fuerza para no desanimarme. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1366-1367",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe el nombre de una persona que fue testigo de fe para ti.",
+   "logros": [
+    "Comprender el sacrificio único de Cristo y la nueva alianza.",
+    "Conocer la definición de fe de Hebreos 11.",
+    "Relacionar la nube de testigos con la perseverancia."
+   ],
+   "profundizar": {
+    "titulo": "Sombra y realidad",
+    "texto": "Hebreos usa la imagen de la sombra y la realidad: el culto antiguo era sombra de lo que vendría; Cristo es la realidad. Esta lectura influyó mucho en la comprensión cristiana del Antiguo Testamento."
+   },
+   "caso": {
+    "titulo": "La carrera",
+    "texto": "Un grupo de dirigentes está desanimado porque trabajan mucho y no ven frutos.",
+    "preguntas": [
+     "¿Qué les diría Hebreos 11–12?",
+     "¿Qué testigos podrían recordarles?"
+    ]
+   },
+   "claves": [
+    [
+     "Nueva alianza",
+     "Alianza en Cristo, escrita en los corazones."
+    ],
+    [
+     "Una vez para siempre",
+     "Carácter único del sacrificio de Cristo."
+    ],
+    [
+     "Nube de testigos",
+     "Los creyentes que nos preceden."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Fijos los ojos en Jesús. ¿Dónde están puestos tus ojos?",
+    "orar": "Reza por tus testigos de fe.",
+    "vivir": "Agradece a alguien que fue testigo de fe para ti."
+   },
+   "practica": [
+    "Escriban su lista.",
+    "Elijan frases.",
+    "Compártanla.",
+    "Recen."
+   ],
+   "idea": "No corremos solos: una nube de testigos nos acompaña."
+  },
+  {
+   "title": "El Apocalipsis: género y claves de lectura",
+   "objective": "Conocer el género apocalíptico y las claves para leer el Apocalipsis sin caer en interpretaciones sensacionalistas.",
+   "intro": "El Apocalipsis es probablemente el libro más malinterpretado de la Biblia. Muchos lo leen como un calendario del fin del mundo. En realidad es un mensaje de esperanza para comunidades perseguidas, escrito en un lenguaje simbólico propio de su época.",
+   "sections": [
+    {
+     "title": "Revelación, no catástrofe",
+     "body": "**Apocalipsis** significa «revelación»: quitar el velo. No significa catástrofe. El libro revela el sentido de la historia desde Dios: aunque el mal parezca vencer, Cristo resucitado es el Señor de la historia."
+    },
+    {
+     "title": "Autor y contexto",
+     "body": "El autor se presenta como **Juan**, desterrado en la isla de Patmos por anunciar la Palabra (1,9). Se suele fechar hacia fines del siglo I, en tiempos del emperador Domiciano, cuando las comunidades de Asia Menor sufrían presiones para rendir culto al emperador."
+    },
+    {
+     "title": "Un lenguaje simbólico",
+     "body": "El Apocalipsis usa símbolos que sus lectores entendían:\n\n- **Números:** 7, plenitud; 12, el pueblo de Dios; 1.000, una gran cantidad; 3 y medio, un tiempo limitado.\n- **Colores:** blanco, victoria; rojo, violencia.\n- **Animales:** el Cordero, Cristo; las bestias, los poderes opresores.\n- **Babilonia:** la Roma imperial y todo poder que oprime.\n\nNo son códigos para adivinar el futuro, sino imágenes para interpretar el presente."
+    },
+    {
+     "title": "Errores frecuentes",
+     "body": "- **Calcular fechas** del fin del mundo: Jesús dijo que nadie conoce el día ni la hora.\n- **Identificar** a personajes actuales con las bestias.\n- **Leerlo con miedo:** es un libro de esperanza.\n- **Leerlo aislado:** está lleno de citas del Antiguo Testamento (Daniel, Ezequiel, Isaías, Éxodo)."
+    }
+   ],
+   "bible": {
+    "ref": "Apocalipsis 1,9-18 · «No temas: yo soy el Primero y el Último»",
+    "comment": "Juan, desterrado en Patmos, ve a Cristo resucitado en medio de siete candelabros, con rasgos simbólicos de gloria. Cae como muerto, pero Cristo le pone la mano encima y le dice: «No temas. Yo soy el Primero y el Último, el que vive. Estuve muerto, y ahora vivo para siempre». Así comienza el libro: con un no temas."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 673-674",
+     "text": "Desde la Ascensión, la venida de Cristo en la gloria es inminente, aunque no nos toca conocer el tiempo ni el momento.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2853",
+     "text": "La victoria sobre el príncipe de este mundo se adquirió de una vez para siempre en la hora en que Jesús se entregó libremente a la muerte.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te enseñaron o qué escuchaste sobre el Apocalipsis?",
+    "¿Por qué crees que da miedo a mucha gente?",
+    "¿Qué te dice que empiece con «no temas»?",
+    "¿Cómo responderías a quien anuncia fechas del fin del mundo?"
+   ],
+   "activity": "Hagan un glosario de símbolos del Apocalipsis: busquen en grupos diez símbolos (números, colores, animales, ciudades) y su significado, con la cita donde aparecen y el texto del Antiguo Testamento que los inspira.",
+   "prayer": "Señor Jesús, Primero y Último, el que vive: cuando el mal parece vencer, recuérdame que tú eres el Señor de la historia. Quita mis miedos y dame la esperanza de tu victoria. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 673-674",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe una imagen o idea que asociabas al Apocalipsis antes de este módulo.",
+   "logros": [
+    "Explicar qué significa apocalipsis.",
+    "Conocer el contexto del libro.",
+    "Interpretar sus símbolos y evitar errores frecuentes."
+   ],
+   "profundizar": {
+    "titulo": "El 666",
+    "texto": "El número de la bestia (13,18) probablemente es un juego numérico de la época: en hebreo y griego las letras tenían valor numérico. Muchos estudiosos lo relacionan con el nombre del emperador Nerón. En cualquier caso, 6 es lo que no llega a 7, la imperfección: el poder que se cree divino y no lo es."
+   },
+   "caso": {
+    "titulo": "El video del fin del mundo",
+    "texto": "Un joven comparte un video que asegura que los acontecimientos actuales cumplen el Apocalipsis y que el fin llegará pronto. Varios del grupo están asustados.",
+    "preguntas": [
+     "¿Qué claves de lectura les darías?",
+     "¿Cómo transmitir la esperanza del libro?"
+    ]
+   },
+   "claves": [
+    [
+     "Apocalipsis",
+     "Revelación."
+    ],
+    [
+     "Patmos",
+     "Isla donde Juan recibió las visiones."
+    ],
+    [
+     "Babilonia",
+     "Símbolo de la Roma imperial y de todo poder opresor."
+    ]
+   ],
+   "lectio": {
+    "meditar": "No temas. ¿Qué miedo necesitas entregar?",
+    "orar": "Reza por los cristianos perseguidos hoy.",
+    "vivir": "Responde con esperanza a una noticia que da miedo."
+   },
+   "practica": [
+    "Elijan los símbolos.",
+    "Busquen su significado.",
+    "Ubiquen las citas.",
+    "Armen el glosario."
+   ],
+   "idea": "El Apocalipsis no es un calendario del miedo, sino una revelación de esperanza."
+  },
+  {
+   "title": "Apocalipsis: el Cordero y la Iglesia perseguida",
+   "objective": "Conocer las cartas a las siete iglesias, la visión del trono y del Cordero, y el mensaje para la Iglesia en la prueba.",
+   "intro": "El centro del Apocalipsis no es la bestia ni las catástrofes: es el Cordero, Cristo muerto y resucitado, que es el único capaz de abrir el libro de la historia. Y la Iglesia, aunque perseguida, es la comunidad que lo sigue.",
+   "sections": [
+    {
+     "title": "Las cartas a las siete iglesias",
+     "body": "Los capítulos 2 y 3 contienen mensajes a siete comunidades de Asia Menor: Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadelfia y Laodicea. Reconocen lo bueno, denuncian lo que falla y animan a la fidelidad. A Éfeso: «Has abandonado tu primer amor». A Laodicea: «No eres ni frío ni caliente». Siete es número de plenitud: son mensajes para toda la Iglesia."
+    },
+    {
+     "title": "El trono y el Cordero",
+     "body": "En los capítulos 4 y 5, Juan ve el trono de Dios y un libro sellado que nadie puede abrir. Llora. Le anuncian que el León de Judá ha vencido, y aparece un **Cordero como degollado**, de pie. El vencedor es el que se entregó: muerto y resucitado. Toda la creación lo adora."
+    },
+    {
+     "title": "Sellos, trompetas y copas",
+     "body": "Las series de siete sellos, siete trompetas y siete copas presentan, con imágenes de la tradición profética, las fuerzas del mal en la historia: guerra, hambre, muerte, persecución. No son un calendario sucesivo, sino distintas maneras de decir que el mal tiene sus días contados y que Dios cuida a los suyos (los sellados)."
+    },
+    {
+     "title": "La mujer y el dragón",
+     "body": "En el capítulo 12, una mujer vestida de sol da a luz un hijo, y un dragón quiere devorarlo. La mujer representa al pueblo de Dios, y la tradición la ve también como María. El dragón es vencido. Las bestias del capítulo 13 representan los poderes que exigen adoración. La Iglesia está llamada a resistir con fidelidad, sin violencia, como el Cordero."
+    }
+   ],
+   "bible": {
+    "ref": "Apocalipsis 5,6-14 · El Cordero degollado",
+    "comment": "Juan ve un Cordero de pie, como degollado. Toma el libro y todos cantan un cántico nuevo: «Eres digno de tomar el libro y abrir sus sellos, porque fuiste degollado y con tu sangre compraste para Dios hombres de toda raza, lengua, pueblo y nación». La victoria de Dios pasa por la entrega del Cordero."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1137-1139",
+     "text": "El Apocalipsis muestra la liturgia celestial: el Cordero inmolado y de pie, y la asamblea de toda la creación que lo celebra; nuestra liturgia participa de ella.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2853",
+     "text": "Cristo venció al maligno; la Iglesia, como la mujer perseguida por el dragón, es protegida por Dios.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué carta de las siete iglesias le escribirías a tu comunidad?",
+    "¿Qué te dice que el vencedor sea un Cordero degollado?",
+    "¿Qué poderes exigen hoy «adoración»?",
+    "¿Qué relación ves entre el Apocalipsis y la misa?"
+   ],
+   "activity": "En grupos, escriban una «carta a la iglesia de…» dirigida a su propia comunidad, con la estructura de Apocalipsis 2–3: presentación de Cristo, lo que se reconoce, lo que se reprocha, la exhortación y la promesa al vencedor.",
+   "prayer": "Cordero de Dios, que fuiste degollado y estás de pie: eres digno de toda alabanza. Danos fidelidad en la prueba, recupera nuestro primer amor y haz que resistamos el mal sin violencia, como tú. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1137-1139",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe algo que admiras de tu comunidad y algo que debería cambiar.",
+   "logros": [
+    "Conocer las cartas a las siete iglesias.",
+    "Comprender la centralidad del Cordero.",
+    "Interpretar las series de siete y los capítulos 12 y 13."
+   ],
+   "profundizar": {
+    "titulo": "El Cordero en la misa",
+    "texto": "En la misa cantamos «Cordero de Dios, que quitas el pecado del mundo» y el sacerdote dice «Dichosos los invitados a la cena del Cordero», frase tomada de Apocalipsis 19,9. Cada Eucaristía es participación en la liturgia del cielo."
+   },
+   "caso": {
+    "titulo": "La comunidad tibia",
+    "texto": "En una parroquia todo funciona, pero nadie se entusiasma: «ni frío ni caliente».",
+    "preguntas": [
+     "¿Qué dice la carta a Laodicea?",
+     "¿Qué podría reavivar el primer amor?"
+    ]
+   },
+   "claves": [
+    [
+     "Cordero",
+     "Cristo muerto y resucitado, centro del Apocalipsis."
+    ],
+    [
+     "Siete iglesias",
+     "Comunidades de Asia Menor que representan a toda la Iglesia."
+    ],
+    [
+     "Dragón",
+     "Símbolo del mal vencido por Dios."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Has abandonado tu primer amor. ¿Cómo está tu primer amor?",
+    "orar": "Canta o reza el «Cordero de Dios» con atención en la próxima misa.",
+    "vivir": "Haz un gesto que reavive tu entusiasmo en el servicio."
+   },
+   "practica": [
+    "Elijan la estructura.",
+    "Escriban la carta.",
+    "Léanla.",
+    "Comenten."
+   ],
+   "idea": "El vencedor de la historia es el Cordero que se entregó."
+  },
+  {
+   "title": "Apocalipsis: cielo nuevo y tierra nueva",
+   "objective": "Comprender la visión final del Apocalipsis: la caída de Babilonia, la Jerusalén celestial y la esperanza cristiana.",
+   "intro": "El Apocalipsis no termina en destrucción, sino en una boda y una ciudad nueva. La última palabra de la Biblia es una invitación: «Ven, Señor Jesús». En esta unidad cerramos el diplomado con la gran esperanza cristiana.",
+   "sections": [
+    {
+     "title": "La caída de Babilonia",
+     "body": "Los capítulos 17 y 18 describen la caída de Babilonia, la gran ciudad que se emborrachó con la sangre de los santos y se enriqueció con el comercio injusto. Es el fin de todo poder que oprime. El cielo canta: ¡Aleluya!"
+    },
+    {
+     "title": "Las bodas del Cordero",
+     "body": "En el capítulo 19 se anuncian las **bodas del Cordero** con su esposa, la Iglesia, vestida de lino blanco, que son las buenas obras de los santos. «Dichosos los invitados al banquete de bodas del Cordero» (19,9). El final de la historia es una fiesta de amor."
+    },
+    {
+     "title": "La Jerusalén nueva",
+     "body": "«Vi un cielo nuevo y una tierra nueva» (21,1). La ciudad santa baja del cielo, y Dios habita con los seres humanos: «Secará todas las lágrimas de sus ojos, y no habrá más muerte, ni llanto, ni gritos, ni dolor» (21,4). La ciudad no tiene templo, porque Dios y el Cordero son su templo. Junto a ella corre el río de agua de vida y crece el árbol de la vida, cuyas hojas sanan a las naciones."
+    },
+    {
+     "title": "«Ven, Señor Jesús»",
+     "body": "El libro termina con el Espíritu y la esposa que dicen: «Ven». Y Jesús responde: «Sí, vengo pronto». La Iglesia responde: «**Amén. Ven, Señor Jesús**» (22,20). La esperanza cristiana no es evasión: compromete a trabajar ya por un mundo según Dios, mientras esperamos su plenitud."
+    }
+   ],
+   "bible": {
+    "ref": "Apocalipsis 21,1-7 · Todo lo hago nuevo",
+    "comment": "Juan ve un cielo nuevo y una tierra nueva, y la ciudad santa que baja de Dios como una novia. Una voz dice que Dios habitará con su pueblo y secará sus lágrimas. El que está sentado en el trono dice: «Yo hago nuevas todas las cosas». Es la promesa final de la Biblia."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 1042-1050",
+     "text": "Al fin de los tiempos, el Reino de Dios llegará a su plenitud; el universo será renovado; la esperanza de cielos nuevos y tierra nueva no debe debilitar, sino avivar la preocupación por perfeccionar esta tierra.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2817",
+     "text": "La petición «venga tu Reino» se hace eco del «Ven, Señor Jesús» con que termina la Escritura.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué lágrimas esperas que Dios seque?",
+    "¿Qué «Babilonias» ves hoy?",
+    "¿Cómo trabajar ya por un mundo nuevo mientras esperamos?",
+    "¿Qué te deja este diplomado para tu servicio pastoral?"
+   ],
+   "activity": "Para cerrar el diplomado, cada participante escribe una oración final con tres partes: lo que agradece de lo aprendido en la Escritura, lo que pide para su servicio y su «Ven, Señor Jesús». Se reza en una celebración de la Palabra con la lectura de Apocalipsis 21,1-7.",
+   "prayer": "Señor Jesús, que haces nuevas todas las cosas: gracias por tu Palabra, que me acompañó en este camino. Seca nuestras lágrimas, derriba toda Babilonia y haz que trabajemos por tu Reino mientras esperamos tu venida. Amén. Ven, Señor Jesús.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica 1042-1050",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe algo que te gustaría ver «hecho nuevo» en tu vida o en el mundo.",
+   "logros": [
+    "Comprender la visión final del Apocalipsis.",
+    "Relacionar la esperanza cristiana con el compromiso.",
+    "Integrar el recorrido del diplomado."
+   ],
+   "profundizar": {
+    "titulo": "De Génesis a Apocalipsis",
+    "texto": "La Biblia empieza en un jardín con un árbol de la vida (Génesis 2) y termina en una ciudad con el árbol de la vida (Apocalipsis 22). Toda la historia de la salvación va del jardín perdido a la ciudad nueva donde Dios habita con su pueblo."
+   },
+   "caso": {
+    "titulo": "«El cielo es aburrido»",
+    "texto": "Un joven dice que no le interesa el cielo porque se lo imagina como estar sentado en una nube cantando para siempre.",
+    "preguntas": [
+     "¿Qué imágenes del Apocalipsis ofrecerías?",
+     "¿Cómo explicarías la vida eterna como plenitud?"
+    ]
+   },
+   "claves": [
+    [
+     "Jerusalén celestial",
+     "Imagen de la comunión plena con Dios."
+    ],
+    [
+     "Bodas del Cordero",
+     "Unión definitiva de Cristo y su Iglesia."
+    ],
+    [
+     "Maranatha",
+     "Ven, Señor (en arameo)."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Yo hago nuevas todas las cosas. ¿Qué quieres que Dios renueve?",
+    "orar": "Termina cada día de esta semana diciendo «Ven, Señor Jesús».",
+    "vivir": "Haz algo concreto por un mundo más justo."
+   },
+   "practica": [
+    "Escriban la oración final.",
+    "Preparen la celebración.",
+    "Lean Apocalipsis 21.",
+    "Recen juntos."
+   ],
+   "idea": "La Biblia termina con una promesa: todo será hecho nuevo."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué dijo Orígenes sobre el autor de Hebreos?",
+   "options": [
+    "Que era Pablo",
+    "Que solo Dios sabe quién la escribió",
+    "Que era Juan"
+   ],
+   "correct": 1,
+   "feedback": "Su autor es desconocido."
+  },
+  {
+   "q": "¿Cómo presenta Hebreos a Cristo?",
+   "options": [
+    "Como un ángel",
+    "Como sumo sacerdote misericordioso",
+    "Como un profeta más"
+   ],
+   "correct": 1,
+   "feedback": "Hebreos 4,14-16."
+  },
+  {
+   "q": "¿Qué define Hebreos 11,1?",
+   "options": [
+    "La caridad",
+    "La fe",
+    "La esperanza"
+   ],
+   "correct": 1,
+   "feedback": "La fe es garantía de lo que se espera."
+  },
+  {
+   "q": "¿Qué significa «apocalipsis»?",
+   "options": [
+    "Catástrofe",
+    "Revelación",
+    "Fin del mundo"
+   ],
+   "correct": 1,
+   "feedback": "Quitar el velo."
+  },
+  {
+   "q": "¿Qué representa Babilonia en el Apocalipsis?",
+   "options": [
+    "Una ciudad del futuro",
+    "La Roma imperial y todo poder opresor",
+    "El cielo"
+   ],
+   "correct": 1,
+   "feedback": "Es un símbolo."
+  },
+  {
+   "q": "¿Quién es el centro del Apocalipsis?",
+   "options": [
+    "La bestia",
+    "El Cordero, Cristo muerto y resucitado",
+    "El dragón"
+   ],
+   "correct": 1,
+   "feedback": "Apocalipsis 5."
+  },
+  {
+   "q": "¿Qué error se debe evitar al leer el Apocalipsis?",
+   "options": [
+    "Leerlo con esperanza",
+    "Calcular fechas del fin del mundo",
+    "Relacionarlo con el Antiguo Testamento"
+   ],
+   "correct": 1,
+   "feedback": "Nadie conoce el día ni la hora."
+  },
+  {
+   "q": "¿Con qué palabras termina la Biblia?",
+   "options": [
+    "Amén. Ven, Señor Jesús",
+    "En el principio",
+    "Todo está cumplido"
+   ],
+   "correct": 0,
+   "feedback": "Apocalipsis 22,20."
+  }
+ ]
+}

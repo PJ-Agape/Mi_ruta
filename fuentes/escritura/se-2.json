@@ -1,0 +1,585 @@
+{
+ "id": "se-2",
+ "titulo": "Sagrada Escritura II: Introducción al Nuevo Testamento",
+ "subtitulo": "El mundo de Jesús, la formación de los evangelios y los libros del Nuevo Testamento",
+ "categoria": "Sagrada Escritura",
+ "publico": "Desde 17 años; agentes de pastoral",
+ "descripcion": "Una introducción al Nuevo Testamento: el mundo de Jesús, el paso de Jesús a los evangelios, los 27 libros y su canon, las primeras comunidades y los criterios para leerlo hoy. 5 unidades de 90 minutos, un taller de cierre y una evaluación.",
+ "modulo": "Sagrada Escritura II: Introducción al Nuevo Testamento",
+ "intro": "El Nuevo Testamento es el testimonio de las primeras comunidades sobre Jesús. En este módulo vas a conocer su contexto, cómo se formaron sus libros y cómo leerlo con fidelidad.",
+ "taller": "Cada participante elige un libro del Nuevo Testamento y prepara una ficha de una página: autor (según la tradición y según los estudios actuales), fecha aproximada, destinatarios, ocasión, estructura, tema central y un texto clave. Presentan las fichas en tríos y arman entre todos un mapa del Nuevo Testamento.",
+ "unidades": [
+  {
+   "title": "El mundo de Jesús",
+   "objective": "Conocer el contexto político, social y religioso de Palestina en el siglo I.",
+   "intro": "Jesús fue un judío de Galilea del siglo I. Para entender sus palabras y sus gestos necesitamos conocer su mundo: quién gobernaba, cómo vivía la gente, qué grupos religiosos existían y qué esperaban.",
+   "sections": [
+    {
+     "title": "Bajo el poder de Roma",
+     "body": "Palestina estaba bajo dominio romano. Tras la muerte de Herodes el Grande (4 antes de Cristo), su reino se dividió entre sus hijos: **Herodes Antipas** gobernó Galilea. Judea pasó a ser administrada por prefectos romanos, como **Poncio Pilato** (26-36 después de Cristo). Los impuestos eran altos y la tensión con Roma, constante."
+    },
+    {
+     "title": "Galilea y Jerusalén",
+     "body": "**Galilea**, al norte, era una región agrícola y pesquera, con aldeas pequeñas como Nazaret y Cafarnaún. **Jerusalén**, en Judea, era el centro religioso, con el **Templo**, sus sacerdotes y sus grandes fiestas de peregrinación (Pascua, Pentecostés, Tiendas)."
+    },
+    {
+     "title": "Grupos religiosos",
+     "body": "- **Fariseos:** laicos piadosos, cercanos al pueblo, dedicados a cumplir la Ley en la vida diaria. Creían en la resurrección.\n- **Saduceos:** aristocracia sacerdotal ligada al Templo; no creían en la resurrección.\n- **Esenios:** comunidades apartadas que buscaban pureza; se les asocia con los manuscritos de Qumrán.\n- **Zelotes:** grupos que promovían la resistencia contra Roma (como movimiento organizado aparecen hacia la guerra del 66-70).\n- **Escribas:** expertos en la Ley."
+    },
+    {
+     "title": "La esperanza del Mesías",
+     "body": "Muchos esperaban un **Mesías**, un ungido de Dios que restauraría a Israel. Las ideas eran diversas: un rey davídico, un sacerdote, un profeta. Jesús asumió esta esperanza, pero la transformó: su mesianismo pasa por el servicio y la cruz."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 4,16-21 · Jesús en la sinagoga de Nazaret",
+    "comment": "Jesús, como buen judío, va el sábado a la sinagoga, lee al profeta Isaías y dice: «Hoy se ha cumplido esta Escritura». Este texto muestra su mundo: la sinagoga, la lectura de la Escritura, la esperanza de liberación; y muestra su novedad: en él se cumplen las promesas."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 17",
+     "text": "La Palabra de Dios se presenta y manifiesta su poder de modo eminente en los escritos del Nuevo Testamento: cuando llegó la plenitud de los tiempos, el Verbo se hizo carne.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 574-576",
+     "text": "Desde el comienzo de su ministerio, algunos fariseos, partidarios de Herodes, sacerdotes y escribas se opusieron a Jesús; su relación con las instituciones de Israel fue compleja.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te sorprende del mundo de Jesús?",
+    "¿Qué grupo religioso de su tiempo se parece a actitudes de hoy?",
+    "¿Por qué era tan complejo hablar de un Mesías?",
+    "¿Qué cambia en tu lectura del evangelio conocer este contexto?"
+   ],
+   "activity": "En grupos, cada uno representa a un grupo del tiempo de Jesús (fariseos, saduceos, esenios, zelotes, pescadores galileos). Preparen qué pensarían de Jesús al escucharlo decir «el Reino de Dios está cerca» y compártanlo en una conversación simulada.",
+   "prayer": "Señor Jesús, que naciste en un pueblo concreto, con su historia y sus esperanzas: ayúdame a conocer tu mundo para entender mejor tus palabras, y a reconocer que hoy sigues encarnándote en nuestra realidad. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 17",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe tres cosas que sabes del lugar y la época en que vivió Jesús.",
+   "logros": [
+    "Describir el contexto político de Palestina en el siglo I.",
+    "Distinguir los principales grupos religiosos.",
+    "Comprender la esperanza mesiánica."
+   ],
+   "profundizar": {
+    "titulo": "Qumrán",
+    "texto": "En 1947 se descubrieron en cuevas junto al mar Muerto miles de fragmentos de manuscritos, incluidos los textos bíblicos hebreos más antiguos conocidos. Ayudan a conocer el judaísmo de la época de Jesús."
+   },
+   "caso": {
+    "titulo": "Los fariseos malos",
+    "texto": "En la catequesis, un niño dice que los fariseos eran «los malos» del evangelio.",
+    "preguntas": [
+     "¿Qué hay de cierto y qué de injusto en esa idea?",
+     "¿Cómo presentar a los fariseos con justicia?"
+    ]
+   },
+   "claves": [
+    [
+     "Herodes Antipas",
+     "Gobernante de Galilea en tiempos de Jesús."
+    ],
+    [
+     "Fariseos",
+     "Grupo de laicos dedicados a vivir la Ley."
+    ],
+    [
+     "Mesías",
+     "Ungido; en griego, Cristo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Hoy se cumple esta Escritura. ¿Qué promesa quiere cumplir Jesús hoy en tu vida?",
+    "orar": "Reza por el pueblo judío.",
+    "vivir": "Busca en un mapa los lugares de la vida de Jesús."
+   },
+   "practica": [
+    "Elijan un grupo.",
+    "Preparen su opinión.",
+    "Simulen la conversación.",
+    "Comenten."
+   ],
+   "idea": "Jesús fue un judío de su tiempo, y su mensaje cambió la historia."
+  },
+  {
+   "title": "De Jesús a los evangelios",
+   "objective": "Comprender las tres etapas de formación de los evangelios y la historicidad que la Iglesia afirma.",
+   "intro": "Los evangelios no son biografías modernas ni cuentos inventados. Son el testimonio de fe de comunidades que conocieron a Jesús y transmitieron su memoria. En esta unidad vas a conocer cómo se pasó de la vida de Jesús a los textos escritos.",
+   "sections": [
+    {
+     "title": "Tres etapas",
+     "body": "La Iglesia distingue tres etapas en la formación de los evangelios:\n\n1. **La vida y enseñanza de Jesús** (hacia los años 27-30).\n2. **La predicación de los apóstoles** después de la Pascua, que transmitieron lo que Jesús dijo e hizo, con la comprensión más plena que les dio la resurrección y el Espíritu.\n3. **La redacción de los evangelios** por los evangelistas (aproximadamente entre los años 65 y 100), que seleccionaron, sintetizaron y adaptaron ese material para sus comunidades."
+    },
+    {
+     "title": "Historia y fe",
+     "body": "La Iglesia afirma que los evangelios transmiten fielmente lo que Jesús hizo y enseñó para nuestra salvación. Al mismo tiempo, los evangelistas no escribieron como cronistas: ordenaron y presentaron el material con intención teológica. Por eso hay diferencias entre los evangelios, que no niegan su verdad, sino que la enriquecen."
+    },
+    {
+     "title": "La tradición oral",
+     "body": "En la cultura de Jesús, la memoria oral era muy cuidada. Los discípulos repetían las palabras del Maestro, sus parábolas, sus gestos. Las comunidades conservaron estos recuerdos en la catequesis, la liturgia y la misión."
+    },
+    {
+     "title": "Los primeros escritos",
+     "body": "Los escritos más antiguos del Nuevo Testamento no son los evangelios, sino las **cartas de Pablo**: la primera carta a los Tesalonicenses se escribió hacia el año 50. Marcos, el evangelio más antiguo según la mayoría de los estudiosos, se escribió hacia el 65-70."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 1,1-4 · Investigar cuidadosamente desde el principio",
+    "comment": "Lucas dice que muchos habían intentado narrar los hechos, tal como los transmitieron los testigos oculares, y que él, después de investigar todo cuidadosamente, decidió escribirlo ordenadamente para que Teófilo conozca la solidez de lo que le enseñaron. Aquí están las tres etapas: hechos, testigos y redacción."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 19",
+     "text": "La Iglesia afirma sin vacilar la historicidad de los cuatro evangelios, que transmiten fielmente lo que Jesús hizo y enseñó, aunque los autores eligieron, sintetizaron y adaptaron el material.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 126",
+     "text": "En la formación de los evangelios se distinguen tres etapas: la vida y enseñanza de Jesús, la tradición oral y los evangelios escritos.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué diferencia hay entre una biografía moderna y un evangelio?",
+    "¿Por qué crees que hay cuatro evangelios y no uno solo?",
+    "¿Qué te dice que las cartas de Pablo sean anteriores a los evangelios?",
+    "¿Cómo explicarías la historicidad de los evangelios a un escéptico?"
+   ],
+   "activity": "Comparen el relato de la multiplicación de los panes en Marcos 6,30-44 y Juan 6,1-15. Anoten coincidencias y diferencias, y conversen qué quiere destacar cada evangelista.",
+   "prayer": "Señor Jesús, gracias por los testigos que conservaron tu memoria y por los evangelistas que la escribieron. Que yo también sea testigo fiel de lo que he recibido. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 19",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Recuerda una historia familiar que se cuenta de generación en generación. ¿Cambia algo al contarla? ¿Qué se conserva siempre?",
+   "logros": [
+    "Explicar las tres etapas de formación de los evangelios.",
+    "Relacionar historia y fe en los evangelios.",
+    "Ubicar cronológicamente los primeros escritos cristianos."
+   ],
+   "profundizar": {
+    "titulo": "La instrucción de 1964",
+    "texto": "La Pontificia Comisión Bíblica publicó en 1964 la instrucción Sancta Mater Ecclesia sobre la verdad histórica de los evangelios, que describió las tres etapas. El Concilio Vaticano II la recogió en Dei Verbum 19."
+   },
+   "caso": {
+    "titulo": "«Los evangelios se contradicen»",
+    "texto": "Un joven universitario dice que los evangelios no son confiables porque cuentan las cosas de forma distinta.",
+    "preguntas": [
+     "¿Qué le responderías?",
+     "¿Qué ejemplo usarías?"
+    ]
+   },
+   "claves": [
+    [
+     "Tradición oral",
+     "Transmisión de palabra antes de la escritura."
+    ],
+    [
+     "Redacción",
+     "Trabajo de los evangelistas al escribir."
+    ],
+    [
+     "Historicidad",
+     "Fidelidad de los evangelios a lo que Jesús hizo y enseñó."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Investigar todo cuidadosamente. ¿Qué te gustaría conocer mejor de Jesús?",
+    "orar": "Agradece por los testigos de la fe.",
+    "vivir": "Lee esta semana el evangelio de Marcos completo, en varios días."
+   },
+   "practica": [
+    "Lean los dos relatos.",
+    "Comparen.",
+    "Identifiquen intenciones.",
+    "Compartan."
+   ],
+   "idea": "Los evangelios son memoria fiel y testimonio de fe."
+  },
+  {
+   "title": "Los libros del Nuevo Testamento",
+   "objective": "Conocer los 27 libros del Nuevo Testamento, su organización y la formación de su canon.",
+   "intro": "El Nuevo Testamento reúne 27 libros muy distintos: relatos, cartas, una historia de la Iglesia naciente y una revelación profética. En esta unidad vas a conocer su mapa y cómo la Iglesia reconoció su canon.",
+   "sections": [
+    {
+     "title": "Cuatro grupos",
+     "body": "- **Evangelios:** Mateo, Marcos, Lucas y Juan.\n- **Hechos de los Apóstoles:** continuación de Lucas.\n- **Cartas:** 13 atribuidas a Pablo, la carta a los Hebreos y 7 cartas «católicas» (Santiago, 1 y 2 Pedro, 1, 2 y 3 Juan, Judas).\n- **Apocalipsis.**"
+    },
+    {
+     "title": "Las cartas",
+     "body": "Las cartas responden a situaciones concretas de comunidades: conflictos, dudas, persecuciones. Por eso hay que leerlas preguntando a quién se escribieron y por qué. Las **cartas católicas** se llaman así porque se dirigen a la Iglesia en general, no a una comunidad concreta."
+    },
+    {
+     "title": "Autoría",
+     "body": "La tradición atribuye cada libro a un apóstol o a un discípulo cercano. Los estudios actuales distinguen, por ejemplo, entre las cartas que con seguridad escribió Pablo y otras escritas por sus discípulos en su nombre. Esto no afecta su inspiración ni su autoridad: todas pertenecen al canon."
+    },
+    {
+     "title": "El canon del Nuevo Testamento",
+     "body": "Ya en el siglo II la Iglesia reconocía los cuatro evangelios y las cartas de Pablo. Otros libros (Hebreos, Santiago, 2 Pedro, Apocalipsis) tardaron más en ser aceptados en todas partes. Hacia fines del siglo IV la lista de 27 libros estaba asentada. Los criterios fueron: origen apostólico, uso en la liturgia y conformidad con la fe recibida."
+    }
+   ],
+   "bible": {
+    "ref": "2 Timoteo 3,14-17 · Toda Escritura es inspirada",
+    "comment": "Pablo anima a Timoteo a permanecer en lo que aprendió desde niño en las Sagradas Escrituras, que pueden darle la sabiduría que lleva a la salvación por la fe en Cristo. Toda Escritura inspirada es útil para enseñar, corregir y educar en la justicia."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 18 y 20",
+     "text": "Los evangelios ocupan el lugar preeminente; además, el canon del Nuevo Testamento contiene las cartas de Pablo y otros escritos apostólicos, que confirman lo que se refiere a Cristo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 120 y 125",
+     "text": "La Iglesia reconoce 27 libros del Nuevo Testamento; los evangelios son el corazón de todas las Escrituras.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué libros del Nuevo Testamento has leído completos?",
+    "¿Por qué crees que algunas cartas tardaron en ser aceptadas?",
+    "¿Qué te dice que los criterios del canon incluyeran el uso litúrgico?",
+    "¿Qué libro te gustaría estudiar a fondo?"
+   ],
+   "activity": "Hagan un mapa del Nuevo Testamento en un papelógrafo: cada libro como una tarjeta con su grupo, fecha aproximada y destinatarios. Ubiquen en un mapa del Mediterráneo las ciudades a las que se dirigen las cartas.",
+   "prayer": "Señor, que inspiraste las Escrituras para nuestra salvación: haz que tu Palabra me enseñe, me corrija y me eduque en la justicia, para estar preparado para toda obra buena. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 18 y 20",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe de memoria los libros del Nuevo Testamento que recuerdes, en orden.",
+   "logros": [
+    "Nombrar y agrupar los 27 libros.",
+    "Comprender la ocasión de las cartas.",
+    "Explicar los criterios del canon."
+   ],
+   "profundizar": {
+    "titulo": "Los evangelios apócrifos",
+    "texto": "Además de los cuatro evangelios, circularon otros escritos (como el evangelio de Tomás o el de Pedro) que la Iglesia no reconoció como inspirados. Algunos tienen datos interesantes, pero muchos reflejan ideas ajenas a la fe apostólica."
+   },
+   "caso": {
+    "titulo": "El evangelio secreto",
+    "texto": "Un joven vio un documental sobre un «evangelio secreto» que, según el programa, la Iglesia escondió.",
+    "preguntas": [
+     "¿Qué sabes de los apócrifos?",
+     "¿Cómo responderías sin descalificar su curiosidad?"
+    ]
+   },
+   "claves": [
+    [
+     "Cartas católicas",
+     "Cartas dirigidas a la Iglesia en general."
+    ],
+    [
+     "Apócrifos",
+     "Escritos no reconocidos en el canon."
+    ],
+    [
+     "Criterios del canon",
+     "Origen apostólico, uso litúrgico y conformidad con la fe."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Toda Escritura es útil para enseñar. ¿Qué te está enseñando hoy?",
+    "orar": "Agradece por la Iglesia que discernió el canon.",
+    "vivir": "Lee esta semana una carta breve completa (Filemón o 2 Juan)."
+   },
+   "practica": [
+    "Armen las tarjetas.",
+    "Ordénenlas.",
+    "Ubiquen las ciudades.",
+    "Presenten."
+   ],
+   "idea": "Veintisiete libros, un solo testimonio sobre Cristo."
+  },
+  {
+   "title": "Las primeras comunidades",
+   "objective": "Conocer la vida y la expansión de las primeras comunidades cristianas, donde nació el Nuevo Testamento.",
+   "intro": "El Nuevo Testamento nació en comunidades concretas: Jerusalén, Antioquía, Corinto, Roma. Conocerlas ayuda a entender por qué se escribió lo que se escribió y a descubrir qué nos enseñan hoy.",
+   "sections": [
+    {
+     "title": "Jerusalén",
+     "body": "Después de Pentecostés, la primera comunidad se reúne en Jerusalén en torno a los apóstoles. Según Hechos 2,42-47, perseveran en la enseñanza de los apóstoles, la comunión fraterna, la fracción del pan y la oración. Son judíos que creen que Jesús es el Mesías."
+    },
+    {
+     "title": "Antioquía y los paganos",
+     "body": "La persecución dispersa a los discípulos. En **Antioquía de Siria** se anuncia el Evangelio también a los no judíos, y allí, por primera vez, los llaman **cristianos** (Hechos 11,26). Surge una gran pregunta: ¿deben los paganos cumplir la Ley de Moisés para ser cristianos?"
+    },
+    {
+     "title": "El concilio de Jerusalén",
+     "body": "Hacia el año 49, apóstoles y presbíteros se reúnen en Jerusalén (Hechos 15) y deciden no imponer a los paganos la circuncisión ni toda la Ley, pidiendo solo algunas normas. Es un momento clave: el Evangelio se abre a todos los pueblos."
+    },
+    {
+     "title": "Persecución y crecimiento",
+     "body": "Las comunidades enfrentaron persecuciones: de autoridades judías al comienzo y, después, del Imperio romano (por ejemplo, bajo Nerón, hacia el año 64, cuando murieron Pedro y Pablo según la tradición). En el año 70, los romanos destruyeron el Templo de Jerusalén. Muchos textos del Nuevo Testamento se escriben en este contexto de prueba."
+    }
+   ],
+   "bible": {
+    "ref": "Hechos 2,42-47 · La primera comunidad",
+    "comment": "Los creyentes perseveran en la enseñanza de los apóstoles, la comunión, la fracción del pan y la oración; comparten sus bienes y el Señor agrega cada día nuevos miembros. Es una imagen ideal que sigue inspirando a la Iglesia: una comunidad que atrae por su manera de vivir."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 14-15",
+     "text": "La Iglesia crece no por proselitismo, sino por atracción; la acción misionera es el paradigma de toda obra de la Iglesia.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 949-953",
+     "text": "En la comunidad primitiva todo se tenía en común: la fe, los sacramentos, los carismas y los bienes.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué rasgo de la primera comunidad falta en tu comunidad?",
+    "¿Qué conflicto de las primeras comunidades se parece a conflictos de hoy?",
+    "¿Por qué fue tan importante el concilio de Jerusalén?",
+    "¿Qué significa que la Iglesia crezca por atracción?"
+   ],
+   "activity": "En grupos, comparen Hechos 2,42-47 con la vida de su parroquia o grupo: qué se parece, qué falta y qué paso concreto podrían dar. Presenten sus conclusiones.",
+   "prayer": "Espíritu Santo, que hiciste nacer la primera comunidad: haz de nuestras parroquias y grupos comunidades que perseveran en la Palabra, la comunión, la Eucaristía y la oración, y que atraen por su manera de amar. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium 14-15",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Piensa en una comunidad cristiana que te haya atraído. ¿Qué tenía?",
+   "logros": [
+    "Conocer la vida de las primeras comunidades.",
+    "Comprender la apertura del Evangelio a los paganos.",
+    "Relacionar el contexto de persecución con los escritos del Nuevo Testamento."
+   ],
+   "profundizar": {
+    "titulo": "El año 70",
+    "texto": "La destrucción del Templo de Jerusalén cambió profundamente al judaísmo y al cristianismo. Varios evangelios se escribieron después y reflejan esta experiencia, por ejemplo en los discursos sobre el fin de Jerusalén."
+   },
+   "caso": {
+    "titulo": "La comunidad dividida",
+    "texto": "En una parroquia, un grupo antiguo y un grupo nuevo discuten sobre cómo deben hacerse las cosas. Cada uno se siente el verdadero.",
+    "preguntas": [
+     "¿Qué enseña el concilio de Jerusalén para esta situación?",
+     "¿Qué pasos podrían dar?"
+    ]
+   },
+   "claves": [
+    [
+     "Antioquía",
+     "Ciudad donde los discípulos fueron llamados cristianos."
+    ],
+    [
+     "Concilio de Jerusalén",
+     "Reunión que abrió el Evangelio a los paganos sin imponer la Ley."
+    ],
+    [
+     "Fracción del pan",
+     "Nombre primitivo de la Eucaristía."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Perseveraban en la oración. ¿En qué necesitas perseverar?",
+    "orar": "Reza por tu comunidad parroquial.",
+    "vivir": "Haz un gesto concreto de comunión con alguien de tu comunidad."
+   },
+   "practica": [
+    "Lean Hechos 2.",
+    "Comparen con su comunidad.",
+    "Definan un paso.",
+    "Presenten."
+   ],
+   "idea": "El Nuevo Testamento nació en comunidades vivas."
+  },
+  {
+   "title": "Cómo leer el Nuevo Testamento hoy",
+   "objective": "Aprender los criterios de la Iglesia para interpretar la Escritura y aplicarlos a la lectura del Nuevo Testamento.",
+   "intro": "Leer bien la Biblia exige método y fe. La Iglesia ofrece criterios que ayudan a no hacer decir al texto lo que no dice, y a no quedarse solo en el pasado. En esta unidad vas a conocerlos y practicarlos.",
+   "sections": [
+    {
+     "title": "El sentido literal",
+     "body": "Lo primero es entender qué quiso decir el autor en su tiempo: el **sentido literal**, que no es una lectura «al pie de la letra», sino la que respeta el lenguaje, el género y el contexto. Para eso ayudan los métodos de estudio (históricos, literarios) y las notas de una buena Biblia."
+    },
+    {
+     "title": "Tres criterios de fe",
+     "body": "Dei Verbum pide además leer la Escritura con el mismo Espíritu con que fue escrita, atendiendo a:\n\n1. **El contenido y la unidad de toda la Escritura.**\n2. **La Tradición viva de toda la Iglesia.**\n3. **La analogía de la fe:** la coherencia de las verdades de fe entre sí."
+    },
+    {
+     "title": "Sentidos espirituales",
+     "body": "La tradición habla también de sentidos espirituales:\n\n- **Alegórico:** cómo el texto se relaciona con Cristo.\n- **Moral:** qué nos pide para actuar.\n- **Anagógico:** hacia qué meta eterna nos orienta.\n\nSe apoyan siempre en el sentido literal."
+    },
+    {
+     "title": "Errores frecuentes",
+     "body": "- **Fundamentalismo:** leer todo al pie de la letra, sin atender a géneros ni contextos.\n- **Lectura aislada:** sacar un versículo de su contexto para justificar algo.\n- **Lectura solo académica:** estudiar el texto sin dejarse interpelar.\n- **Lectura individualista:** interpretar sin la comunidad ni la Tradición."
+    }
+   ],
+   "bible": {
+    "ref": "Hechos 8,26-39 · Felipe y el eunuco etíope",
+    "comment": "El eunuco lee al profeta Isaías y Felipe le pregunta: «¿Entiendes lo que estás leyendo?». Él responde: «¿Cómo voy a entender si nadie me lo explica?». Felipe le anuncia a Jesús a partir de ese texto. La lectura de la Escritura necesita acompañamiento y lleva al encuentro con Cristo."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 12",
+     "text": "La Escritura se ha de leer con el mismo Espíritu con que fue escrita, atendiendo al contenido y unidad de toda la Escritura, a la Tradición viva de la Iglesia y a la analogía de la fe.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 115-119",
+     "text": "Se distinguen dos sentidos de la Escritura: el literal y el espiritual, este último dividido en alegórico, moral y anagógico.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Has escuchado interpretaciones de la Biblia que te parecieron forzadas?",
+    "¿Qué te ayuda a entender un texto difícil?",
+    "¿Por qué la lectura bíblica necesita la comunidad?",
+    "¿Cómo acompañarías a alguien que lee la Biblia solo?"
+   ],
+   "activity": "En grupos, apliquen los pasos a Lucas 10,25-37 (el buen samaritano): sentido literal (contexto, personajes, género), relación con toda la Escritura, lectura de la Tradición y aplicación a la vida. Presenten en cinco minutos.",
+   "prayer": "Señor, como el eunuco, a veces no entiendo lo que leo. Envíame quien me ayude, y haz que yo también sepa acompañar a otros a descubrirte en las Escrituras. Amén.",
+   "resources": [
+    {
+     "title": "Dei Verbum 12",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Documento citado en esta unidad."
+    }
+   ],
+   "comenzar": "Escribe un versículo que conozcas de memoria y averigua su contexto: ¿qué dice lo que viene antes y después?",
+   "logros": [
+    "Distinguir el sentido literal y los sentidos espirituales.",
+    "Aplicar los tres criterios de Dei Verbum 12.",
+    "Evitar los errores frecuentes de interpretación."
+   ],
+   "profundizar": {
+    "titulo": "La interpretación de la Biblia en la Iglesia",
+    "texto": "En 1993, la Pontificia Comisión Bíblica publicó un documento que presenta los métodos de estudio de la Biblia y advierte especialmente sobre la lectura fundamentalista. Es una buena lectura para quien quiere profundizar."
+   },
+   "caso": {
+    "titulo": "El versículo de WhatsApp",
+    "texto": "En el chat familiar circula un versículo del Apocalipsis usado para anunciar que el fin del mundo será el próximo mes.",
+    "preguntas": [
+     "¿Qué errores de interpretación hay?",
+     "¿Cómo responderías con caridad?"
+    ]
+   },
+   "claves": [
+    [
+     "Sentido literal",
+     "Lo que quiso decir el autor en su contexto."
+    ],
+    [
+     "Analogía de la fe",
+     "Coherencia de las verdades de fe entre sí."
+    ],
+    [
+     "Fundamentalismo",
+     "Lectura literalista que ignora géneros y contextos."
+    ]
+   ],
+   "lectio": {
+    "meditar": "¿Entiendes lo que lees? ¿Quién te ayuda a entender?",
+    "orar": "Pide al Espíritu Santo que te guíe al leer.",
+    "vivir": "Ofrécete a leer la Biblia con alguien esta semana."
+   },
+   "practica": [
+    "Elijan el texto.",
+    "Apliquen los pasos.",
+    "Preparen la presentación.",
+    "Compartan."
+   ],
+   "idea": "La Escritura se lee con el mismo Espíritu con que fue escrita."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Quién gobernaba Galilea en tiempos de Jesús?",
+   "options": [
+    "Herodes Antipas",
+    "Poncio Pilato",
+    "Herodes el Grande"
+   ],
+   "correct": 0,
+   "feedback": "Pilato era prefecto de Judea."
+  },
+  {
+   "q": "¿Qué grupo no creía en la resurrección?",
+   "options": [
+    "Fariseos",
+    "Saduceos",
+    "Esenios"
+   ],
+   "correct": 1,
+   "feedback": "Los saduceos eran la aristocracia sacerdotal."
+  },
+  {
+   "q": "¿Cuáles son las tres etapas de formación de los evangelios?",
+   "options": [
+    "Vida de Jesús, predicación apostólica y redacción",
+    "Antiguo Testamento, Nuevo Testamento y Tradición",
+    "Infancia, ministerio y pasión"
+   ],
+   "correct": 0,
+   "feedback": "Dei Verbum 19 y Catecismo 126."
+  },
+  {
+   "q": "¿Cuál es el escrito más antiguo del Nuevo Testamento?",
+   "options": [
+    "El evangelio de Mateo",
+    "La primera carta a los Tesalonicenses",
+    "El Apocalipsis"
+   ],
+   "correct": 1,
+   "feedback": "Se escribió hacia el año 50."
+  },
+  {
+   "q": "¿Cuántos libros tiene el Nuevo Testamento?",
+   "options": [
+    "27",
+    "46",
+    "73"
+   ],
+   "correct": 0,
+   "feedback": "Cuatro evangelios, Hechos, 21 cartas y Apocalipsis."
+  },
+  {
+   "q": "¿Dónde fueron llamados cristianos por primera vez los discípulos?",
+   "options": [
+    "Jerusalén",
+    "Antioquía",
+    "Roma"
+   ],
+   "correct": 1,
+   "feedback": "Hechos 11,26."
+  },
+  {
+   "q": "¿Qué decidió el concilio de Jerusalén?",
+   "options": [
+    "Que los paganos debían circuncidarse",
+    "No imponer a los paganos toda la Ley de Moisés",
+    "Cerrar la Iglesia a los paganos"
+   ],
+   "correct": 1,
+   "feedback": "Hechos 15."
+  },
+  {
+   "q": "¿Qué es el fundamentalismo bíblico?",
+   "options": [
+    "Estudiar los fundamentos de la fe",
+    "Leer todo al pie de la letra sin atender a géneros ni contextos",
+    "Leer la Biblia en comunidad"
+   ],
+   "correct": 1,
+   "feedback": "La Iglesia advierte contra esta lectura."
+  }
+ ]
+}

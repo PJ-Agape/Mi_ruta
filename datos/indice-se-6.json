@@ -1,0 +1,61 @@
+{
+ "curso": "se-6",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+   "semanas": "",
+   "intro": "Pablo es el gran misionero de la Iglesia naciente y el primer escritor cristiano. Sus cartas, escritas a comunidades concretas, siguen iluminando la fe y la vida de la Iglesia. En este módulo vas a conocerlo y a leer sus textos más importantes.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Pablo: vida y misión",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Las cartas de Pablo: género, cronología y autoría",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Gálatas y Romanos: justificados por la fe",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Corintios: comunidad, carismas y amor",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Filipenses, Tesalonicenses y la esperanza",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

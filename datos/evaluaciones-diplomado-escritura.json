@@ -1,0 +1,785 @@
+{
+ "se-1-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura I: Introducción al Antiguo Testamento",
+  "aprobacion": 70,
+  "taller": "En grupos, construyan una línea de tiempo mural de la historia de Israel desde Abraham hasta la llegada de los romanos, ubicando en ella los principales libros del Antiguo Testamento según el momento que narran o en que se escribieron. Cada grupo presenta un tramo y el relator corrige y completa.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuántos libros tiene el Antiguo Testamento católico?",
+    "opciones": [
+     "39",
+     "46",
+     "27"
+    ],
+    "correcta": 1,
+    "explicacion": "La Biblia católica incluye los deuterocanónicos."
+   },
+   {
+    "pregunta": "¿Qué significa «canon»?",
+    "opciones": [
+     "Regla o lista de libros reconocidos como inspirados",
+     "Un tipo de canto",
+     "Una traducción antigua"
+    ],
+    "correcta": 0,
+    "explicacion": "Es la lista de libros inspirados."
+   },
+   {
+    "pregunta": "¿Qué es la Septuaginta?",
+    "opciones": [
+     "Un libro profético",
+     "La traducción griega del Antiguo Testamento",
+     "Un concilio"
+    ],
+    "correcta": 1,
+    "explicacion": "Se hizo en Alejandría entre los siglos III y I antes de Cristo."
+   },
+   {
+    "pregunta": "¿Cuál de estos libros es deuterocanónico?",
+    "opciones": [
+     "Isaías",
+     "Tobías",
+     "Génesis"
+    ],
+    "correcta": 1,
+    "explicacion": "Tobías no está en la Biblia hebrea."
+   },
+   {
+    "pregunta": "¿En qué siglo fue el exilio en Babilonia?",
+    "opciones": [
+     "Siglo VI antes de Cristo",
+     "Siglo I después de Cristo",
+     "Siglo X antes de Cristo"
+    ],
+    "correcta": 0,
+    "explicacion": "Jerusalén cayó en el 587 o 586 antes de Cristo."
+   },
+   {
+    "pregunta": "¿Qué rey persa permitió el regreso de los exiliados?",
+    "opciones": [
+     "Antíoco IV",
+     "Ciro",
+     "Herodes"
+    ],
+    "correcta": 1,
+    "explicacion": "Ciro, en el 538 antes de Cristo."
+   },
+   {
+    "pregunta": "¿Por qué es importante el género literario?",
+    "opciones": [
+     "Porque cada tipo de texto se lee según sus reglas",
+     "Porque indica el autor",
+     "Porque define la fecha"
+    ],
+    "correcta": 0,
+    "explicacion": "Un poema no se lee como una crónica."
+   },
+   {
+    "pregunta": "¿Cómo se relacionan los dos testamentos según Dei Verbum?",
+    "opciones": [
+     "El Nuevo reemplaza al Antiguo",
+     "El Nuevo está latente en el Antiguo y el Antiguo patente en el Nuevo",
+     "No tienen relación"
+    ],
+    "correcta": 1,
+    "explicacion": "Forman una unidad."
+   }
+  ]
+ },
+ "se-2-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura II: Introducción al Nuevo Testamento",
+  "aprobacion": 70,
+  "taller": "Cada participante elige un libro del Nuevo Testamento y prepara una ficha de una página: autor (según la tradición y según los estudios actuales), fecha aproximada, destinatarios, ocasión, estructura, tema central y un texto clave. Presentan las fichas en tríos y arman entre todos un mapa del Nuevo Testamento.",
+  "preguntas": [
+   {
+    "pregunta": "¿Quién gobernaba Galilea en tiempos de Jesús?",
+    "opciones": [
+     "Herodes Antipas",
+     "Poncio Pilato",
+     "Herodes el Grande"
+    ],
+    "correcta": 0,
+    "explicacion": "Pilato era prefecto de Judea."
+   },
+   {
+    "pregunta": "¿Qué grupo no creía en la resurrección?",
+    "opciones": [
+     "Fariseos",
+     "Saduceos",
+     "Esenios"
+    ],
+    "correcta": 1,
+    "explicacion": "Los saduceos eran la aristocracia sacerdotal."
+   },
+   {
+    "pregunta": "¿Cuáles son las tres etapas de formación de los evangelios?",
+    "opciones": [
+     "Vida de Jesús, predicación apostólica y redacción",
+     "Antiguo Testamento, Nuevo Testamento y Tradición",
+     "Infancia, ministerio y pasión"
+    ],
+    "correcta": 0,
+    "explicacion": "Dei Verbum 19 y Catecismo 126."
+   },
+   {
+    "pregunta": "¿Cuál es el escrito más antiguo del Nuevo Testamento?",
+    "opciones": [
+     "El evangelio de Mateo",
+     "La primera carta a los Tesalonicenses",
+     "El Apocalipsis"
+    ],
+    "correcta": 1,
+    "explicacion": "Se escribió hacia el año 50."
+   },
+   {
+    "pregunta": "¿Cuántos libros tiene el Nuevo Testamento?",
+    "opciones": [
+     "27",
+     "46",
+     "73"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuatro evangelios, Hechos, 21 cartas y Apocalipsis."
+   },
+   {
+    "pregunta": "¿Dónde fueron llamados cristianos por primera vez los discípulos?",
+    "opciones": [
+     "Jerusalén",
+     "Antioquía",
+     "Roma"
+    ],
+    "correcta": 1,
+    "explicacion": "Hechos 11,26."
+   },
+   {
+    "pregunta": "¿Qué decidió el concilio de Jerusalén?",
+    "opciones": [
+     "Que los paganos debían circuncidarse",
+     "No imponer a los paganos toda la Ley de Moisés",
+     "Cerrar la Iglesia a los paganos"
+    ],
+    "correcta": 1,
+    "explicacion": "Hechos 15."
+   },
+   {
+    "pregunta": "¿Qué es el fundamentalismo bíblico?",
+    "opciones": [
+     "Estudiar los fundamentos de la fe",
+     "Leer todo al pie de la letra sin atender a géneros ni contextos",
+     "Leer la Biblia en comunidad"
+    ],
+    "correcta": 1,
+    "explicacion": "La Iglesia advierte contra esta lectura."
+   }
+  ]
+ },
+ "se-3-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+  "aprobacion": 70,
+  "taller": "Taller de sinopsis: en grupos, comparen un mismo episodio en los tres sinópticos (por ejemplo, el bautismo de Jesús o la confesión de Pedro) usando una tabla de tres columnas. Identifiquen lo común, lo propio de cada uno y qué revela de la teología de cada evangelista. Luego preparen una catequesis breve sobre el episodio con el acento de uno de ellos.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué son los evangelios sinópticos?",
+    "opciones": [
+     "Mateo, Marcos y Lucas, que se pueden leer en paralelo",
+     "Los cuatro evangelios",
+     "Los evangelios apócrifos"
+    ],
+    "correcta": 0,
+    "explicacion": "Sinóptico significa que se puede ver en conjunto."
+   },
+   {
+    "pregunta": "Según la teoría de las dos fuentes, ¿qué evangelio se escribió primero?",
+    "opciones": [
+     "Mateo",
+     "Marcos",
+     "Lucas"
+    ],
+    "correcta": 1,
+    "explicacion": "Mateo y Lucas habrían usado a Marcos."
+   },
+   {
+    "pregunta": "¿Cuál es la bisagra del evangelio de Marcos?",
+    "opciones": [
+     "El sermón de la montaña",
+     "La confesión de Pedro en Cesarea de Filipo",
+     "El nacimiento de Jesús"
+    ],
+    "correcta": 1,
+    "explicacion": "Marcos 8,27-30."
+   },
+   {
+    "pregunta": "¿Quién confiesa primero plenamente a Jesús como Hijo de Dios en Marcos?",
+    "opciones": [
+     "Pedro",
+     "El centurión al pie de la cruz",
+     "María Magdalena"
+    ],
+    "correcta": 1,
+    "explicacion": "Marcos 15,39."
+   },
+   {
+    "pregunta": "¿Cuántos grandes discursos organiza Mateo?",
+    "opciones": [
+     "Tres",
+     "Cinco",
+     "Siete"
+    ],
+    "correcta": 1,
+    "explicacion": "Evocan los cinco libros de Moisés."
+   },
+   {
+    "pregunta": "¿Qué evangelio usa la palabra «iglesia»?",
+    "opciones": [
+     "Marcos",
+     "Mateo",
+     "Lucas"
+    ],
+    "correcta": 1,
+    "explicacion": "Mateo 16,18 y 18,17."
+   },
+   {
+    "pregunta": "¿Qué parábola es propia de Lucas?",
+    "opciones": [
+     "El sembrador",
+     "El hijo pródigo",
+     "El grano de mostaza"
+    ],
+    "correcta": 1,
+    "explicacion": "Lucas 15."
+   },
+   {
+    "pregunta": "¿Qué versículo funciona como índice de los Hechos de los Apóstoles?",
+    "opciones": [
+     "Hechos 1,8",
+     "Hechos 2,42",
+     "Hechos 28,31"
+    ],
+    "correcta": 0,
+    "explicacion": "Jerusalén, Judea y Samaria, y los confines de la tierra."
+   }
+  ]
+ },
+ "se-4-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+  "aprobacion": 70,
+  "taller": "Cada participante prepara una catequesis de 15 minutos sobre un relato del Pentateuco para la edad que acompaña (por ejemplo, la creación, Abraham, José, la zarza ardiente o el maná). Debe explicar el género del texto, su mensaje teológico y su relación con Jesús, evitando lecturas literalistas. Se presentan en grupos pequeños con retroalimentación.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué significa Torá?",
+    "opciones": [
+     "Libro",
+     "Instrucción o enseñanza",
+     "Historia"
+    ],
+    "correcta": 1,
+    "explicacion": "Es el nombre judío del Pentateuco."
+   },
+   {
+    "pregunta": "¿Cuál es la triple promesa a Abraham?",
+    "opciones": [
+     "Riqueza, poder y fama",
+     "Descendencia, tierra y bendición",
+     "Templo, rey y ley"
+    ],
+    "correcta": 1,
+    "explicacion": "Génesis 12,1-3."
+   },
+   {
+    "pregunta": "¿Cómo se explican hoy las repeticiones del Pentateuco?",
+    "opciones": [
+     "Por errores de copistas",
+     "Por un largo proceso de formación con varias tradiciones",
+     "Porque Moisés se olvidaba"
+    ],
+    "correcta": 1,
+    "explicacion": "Es un tema de estudio abierto."
+   },
+   {
+    "pregunta": "¿Qué enseñan los relatos de Génesis 1–11?",
+    "opciones": [
+     "Datos científicos sobre el origen del universo",
+     "Verdades fundamentales en lenguaje simbólico",
+     "Leyendas sin valor"
+    ],
+    "correcta": 1,
+    "explicacion": "Catecismo 337 y 390."
+   },
+   {
+    "pregunta": "¿Qué nombre recibe Jacob después de luchar con Dios?",
+    "opciones": [
+     "Israel",
+     "Abraham",
+     "Judá"
+    ],
+    "correcta": 0,
+    "explicacion": "Génesis 32."
+   },
+   {
+    "pregunta": "¿Qué revela Dios a Moisés en la zarza ardiente?",
+    "opciones": [
+     "Su nombre y su decisión de liberar al pueblo",
+     "Las plagas",
+     "El templo"
+    ],
+    "correcta": 0,
+    "explicacion": "Éxodo 3."
+   },
+   {
+    "pregunta": "¿Dónde está el mandamiento «amarás a tu prójimo como a ti mismo»?",
+    "opciones": [
+     "Levítico 19,18",
+     "Génesis 1,27",
+     "Éxodo 3,14"
+    ],
+    "correcta": 0,
+    "explicacion": "Jesús lo une al Shemá."
+   },
+   {
+    "pregunta": "¿Qué es el Shemá?",
+    "opciones": [
+     "Un sacrificio",
+     "La oración «Escucha, Israel» de Deuteronomio 6,4-9",
+     "Una fiesta judía"
+    ],
+    "correcta": 1,
+    "explicacion": "Jesús lo cita como primer mandamiento."
+   }
+  ]
+ },
+ "se-5-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura V: Exégesis A.T. II: Profetas",
+  "aprobacion": 70,
+  "taller": "Cada participante elige un profeta y prepara una «carta profética» actual: un texto breve que, inspirado en el estilo y los temas de ese profeta, denuncie una injusticia de hoy y anuncie esperanza, con al menos dos citas del libro. Se leen en el grupo y se comenta su fidelidad al profeta y a la doctrina social de la Iglesia.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es principalmente un profeta bíblico?",
+    "opciones": [
+     "Un adivino del futuro",
+     "Alguien llamado a hablar en nombre de Dios al presente de su pueblo",
+     "Un sacerdote del Templo"
+    ],
+    "correcta": 1,
+    "explicacion": "Interpreta la historia desde Dios."
+   },
+   {
+    "pregunta": "¿Por qué se llaman «mayores» algunos profetas?",
+    "opciones": [
+     "Por su importancia",
+     "Por la extensión de sus libros",
+     "Por su edad"
+    ],
+    "correcta": 1,
+    "explicacion": "Isaías, Jeremías, Ezequiel y Daniel."
+   },
+   {
+    "pregunta": "¿Qué profeta dijo «que fluya el derecho como agua»?",
+    "opciones": [
+     "Oseas",
+     "Amós",
+     "Malaquías"
+    ],
+    "correcta": 1,
+    "explicacion": "Amós 5,24."
+   },
+   {
+    "pregunta": "¿Qué resume Miqueas 6,8?",
+    "opciones": [
+     "Practicar la justicia, amar la fidelidad y caminar humildemente con Dios",
+     "Ofrecer muchos sacrificios",
+     "Construir el Templo"
+    ],
+    "correcta": 0,
+    "explicacion": "Lo que Dios pide."
+   },
+   {
+    "pregunta": "¿Qué anuncia Jeremías 31,31-34?",
+    "opciones": [
+     "La destrucción del mundo",
+     "Una nueva alianza escrita en el corazón",
+     "El regreso de Elías"
+    ],
+    "correcta": 1,
+    "explicacion": "Jesús la retoma en la Última Cena."
+   },
+   {
+    "pregunta": "¿Qué imagen usa Ezequiel 37?",
+    "opciones": [
+     "Una escalera",
+     "Un valle de huesos secos que reviven",
+     "Una zarza ardiente"
+    ],
+    "correcta": 1,
+    "explicacion": "Dios devuelve la vida a su pueblo."
+   },
+   {
+    "pregunta": "¿Dónde están los cantos del Siervo?",
+    "opciones": [
+     "Isaías 40–55",
+     "Jeremías 1–10",
+     "Daniel 7"
+    ],
+    "correcta": 0,
+    "explicacion": "Isaías 42; 49; 50; 52–53."
+   },
+   {
+    "pregunta": "¿En qué contexto se escribió la forma final del libro de Daniel?",
+    "opciones": [
+     "El exilio",
+     "La crisis de los macabeos",
+     "El tiempo de David"
+    ],
+    "correcta": 1,
+    "explicacion": "Siglo II antes de Cristo."
+   }
+  ]
+ },
+ "se-6-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+  "aprobacion": 70,
+  "taller": "Cada participante escribe una carta al estilo de Pablo dirigida a su propia comunidad o grupo: saludo, acción de gracias, cuerpo (un problema real y una enseñanza desde la fe), exhortación y despedida. Debe incluir al menos tres citas de cartas paulinas bien usadas. Se leen en grupos y se comentan.",
+  "preguntas": [
+   {
+    "pregunta": "¿Dónde nació Pablo?",
+    "opciones": [
+     "Jerusalén",
+     "Tarso de Cilicia",
+     "Damasco"
+    ],
+    "correcta": 1,
+    "explicacion": "Era judío de la diáspora con ciudadanía romana."
+   },
+   {
+    "pregunta": "¿Cómo describe Pablo su experiencia de Damasco en Gálatas?",
+    "opciones": [
+     "Como un cambio de religión",
+     "Como una revelación del Hijo y un llamado a anunciarlo",
+     "Como un sueño"
+    ],
+    "correcta": 1,
+    "explicacion": "Gálatas 1,15-16."
+   },
+   {
+    "pregunta": "¿Cuál es probablemente el escrito más antiguo del Nuevo Testamento?",
+    "opciones": [
+     "Romanos",
+     "1 Tesalonicenses",
+     "Hebreos"
+    ],
+    "correcta": 1,
+    "explicacion": "Hacia el año 50."
+   },
+   {
+    "pregunta": "¿Cuántas cartas se consideran escritas personalmente por Pablo?",
+    "opciones": [
+     "Siete",
+     "Trece",
+     "Catorce"
+    ],
+    "correcta": 0,
+    "explicacion": "Romanos, 1 y 2 Corintios, Gálatas, Filipenses, 1 Tesalonicenses y Filemón."
+   },
+   {
+    "pregunta": "¿Qué significa ser justificado por la fe?",
+    "opciones": [
+     "Ganarse a Dios con obras",
+     "Ser hecho justo por gracia, mediante la fe en Cristo",
+     "No tener que hacer el bien"
+    ],
+    "correcta": 1,
+    "explicacion": "La fe actúa por el amor."
+   },
+   {
+    "pregunta": "¿Qué texto de Pablo es el relato más antiguo de la institución de la Eucaristía?",
+    "opciones": [
+     "1 Corintios 11,23-26",
+     "Romanos 8",
+     "Filipenses 2"
+    ],
+    "correcta": 0,
+    "explicacion": "Anterior a los evangelios."
+   },
+   {
+    "pregunta": "¿Qué es lo más grande según 1 Corintios 13?",
+    "opciones": [
+     "La fe",
+     "La esperanza",
+     "El amor"
+    ],
+    "correcta": 2,
+    "explicacion": "El amor permanece."
+   },
+   {
+    "pregunta": "¿Qué virtud se repite en Filipenses?",
+    "opciones": [
+     "La alegría",
+     "La obediencia",
+     "El ayuno"
+    ],
+    "correcta": 0,
+    "explicacion": "Escrita desde la cárcel."
+   }
+  ]
+ },
+ "se-7-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+  "aprobacion": 70,
+  "taller": "Cada participante compone un salmo propio siguiendo un modelo bíblico (alabanza, súplica o acción de gracias), usando el paralelismo hebreo, y elige un proverbio bíblico para explicar a jóvenes con un ejemplo actual. Se comparten en un momento de oración final.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es el principio de la sabiduría según Proverbios?",
+    "opciones": [
+     "El conocimiento científico",
+     "El temor del Señor",
+     "La riqueza"
+    ],
+    "correcta": 1,
+    "explicacion": "Proverbios 1,7."
+   },
+   {
+    "pregunta": "¿En qué se basa la poesía hebrea?",
+    "opciones": [
+     "En la rima",
+     "En el paralelismo",
+     "En la métrica griega"
+    ],
+    "correcta": 1,
+    "explicacion": "Un verso repite, contrasta o completa al anterior."
+   },
+   {
+    "pregunta": "¿Qué salmo rezó Jesús en la cruz?",
+    "opciones": [
+     "Salmo 23",
+     "Salmo 22",
+     "Salmo 51"
+    ],
+    "correcta": 1,
+    "explicacion": "«Dios mío, Dios mío, ¿por qué me has abandonado?»."
+   },
+   {
+    "pregunta": "¿Quién escribió el Eclesiástico?",
+    "opciones": [
+     "Salomón",
+     "Jesús ben Sira",
+     "Moisés"
+    ],
+    "correcta": 1,
+    "explicacion": "Hacia el 180 antes de Cristo."
+   },
+   {
+    "pregunta": "¿Qué rechaza el libro de Job?",
+    "opciones": [
+     "Que Dios exista",
+     "Que todo sufrimiento sea castigo por el pecado",
+     "Que se pueda rezar"
+    ],
+    "correcta": 1,
+    "explicacion": "Dios da la razón a Job frente a sus amigos."
+   },
+   {
+    "pregunta": "¿Qué significa «vanidad» en Eclesiastés?",
+    "opciones": [
+     "Orgullo",
+     "Vapor, soplo, lo pasajero",
+     "Belleza"
+    ],
+    "correcta": 1,
+    "explicacion": "La palabra hebrea es hebel."
+   },
+   {
+    "pregunta": "¿Qué celebra el Cantar de los Cantares?",
+    "opciones": [
+     "Las victorias de Israel",
+     "El amor humano entre un hombre y una mujer",
+     "La Ley de Moisés"
+    ],
+    "correcta": 1,
+    "explicacion": "Leído también como imagen del amor de Dios."
+   },
+   {
+    "pregunta": "¿Qué afirma Sabiduría 3,1?",
+    "opciones": [
+     "Que los justos desaparecen",
+     "Que las almas de los justos están en las manos de Dios",
+     "Que la muerte es el fin"
+    ],
+    "correcta": 1,
+    "explicacion": "Prepara la fe en la resurrección."
+   }
+  ]
+ },
+ "se-8-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+  "aprobacion": 70,
+  "taller": "Cada participante prepara una lectio divina guiada de 20 minutos sobre un encuentro de Jesús en Juan (Nicodemo, la samaritana, el ciego de nacimiento, Marta y María, María Magdalena), con lectura, preguntas de meditación, momento de oración y compromiso. La guía con un grupo pequeño y recibe retroalimentación.",
+  "preguntas": [
+   {
+    "pregunta": "¿Para qué escribió Juan su evangelio, según 20,31?",
+    "opciones": [
+     "Para contar la historia de Israel",
+     "Para que crean que Jesús es el Mesías y tengan vida",
+     "Para criticar a los sinópticos"
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el evangelio invita a creer."
+   },
+   {
+    "pregunta": "¿Cómo se llama a los milagros en Juan?",
+    "opciones": [
+     "Prodigios",
+     "Signos",
+     "Parábolas"
+    ],
+    "correcta": 1,
+    "explicacion": "Remiten a la identidad de Jesús."
+   },
+   {
+    "pregunta": "¿Cuál es el primer signo de Jesús en Juan?",
+    "opciones": [
+     "La multiplicación de los panes",
+     "El agua convertida en vino en Caná",
+     "La resurrección de Lázaro"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 2,1-11."
+   },
+   {
+    "pregunta": "¿Qué evoca el «Yo soy» absoluto de Jesús?",
+    "opciones": [
+     "El nombre de Dios revelado a Moisés",
+     "Un título político",
+     "Una parábola"
+    ],
+    "correcta": 0,
+    "explicacion": "Éxodo 3,14."
+   },
+   {
+    "pregunta": "¿Qué gesto narra Juan en la Última Cena en lugar de la institución de la Eucaristía?",
+    "opciones": [
+     "La unción en Betania",
+     "El lavatorio de los pies",
+     "La traición de Judas"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 13."
+   },
+   {
+    "pregunta": "¿Cuáles son las últimas palabras de Jesús en Juan?",
+    "opciones": [
+     "Padre, perdónalos",
+     "Todo está cumplido",
+     "En tus manos encomiendo mi espíritu"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 19,30."
+   },
+   {
+    "pregunta": "¿Qué confiesa Tomás ante Jesús resucitado?",
+    "opciones": [
+     "Tú eres el Mesías",
+     "Señor mío y Dios mío",
+     "Rabbuní"
+    ],
+    "correcta": 1,
+    "explicacion": "Juan 20,28."
+   },
+   {
+    "pregunta": "¿Qué afirma 1 Juan 4,8?",
+    "opciones": [
+     "Dios es luz",
+     "Dios es amor",
+     "Dios es juez"
+    ],
+    "correcta": 1,
+    "explicacion": "La definición más breve de Dios en la Biblia."
+   }
+  ]
+ },
+ "se-9-cierre": {
+  "titulo": "Cierre del módulo: Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+  "aprobacion": 70,
+  "taller": "Cada participante elige un símbolo del Apocalipsis o una imagen de Hebreos (el sumo sacerdote, la nube de testigos, el Cordero, la mujer vestida de sol, la Jerusalén celestial) y prepara una explicación de cinco minutos para jóvenes: qué significa en su contexto, qué errores de interpretación hay que evitar y qué esperanza transmite hoy. Se presentan y se comentan.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué dijo Orígenes sobre el autor de Hebreos?",
+    "opciones": [
+     "Que era Pablo",
+     "Que solo Dios sabe quién la escribió",
+     "Que era Juan"
+    ],
+    "correcta": 1,
+    "explicacion": "Su autor es desconocido."
+   },
+   {
+    "pregunta": "¿Cómo presenta Hebreos a Cristo?",
+    "opciones": [
+     "Como un ángel",
+     "Como sumo sacerdote misericordioso",
+     "Como un profeta más"
+    ],
+    "correcta": 1,
+    "explicacion": "Hebreos 4,14-16."
+   },
+   {
+    "pregunta": "¿Qué define Hebreos 11,1?",
+    "opciones": [
+     "La caridad",
+     "La fe",
+     "La esperanza"
+    ],
+    "correcta": 1,
+    "explicacion": "La fe es garantía de lo que se espera."
+   },
+   {
+    "pregunta": "¿Qué significa «apocalipsis»?",
+    "opciones": [
+     "Catástrofe",
+     "Revelación",
+     "Fin del mundo"
+    ],
+    "correcta": 1,
+    "explicacion": "Quitar el velo."
+   },
+   {
+    "pregunta": "¿Qué representa Babilonia en el Apocalipsis?",
+    "opciones": [
+     "Una ciudad del futuro",
+     "La Roma imperial y todo poder opresor",
+     "El cielo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es un símbolo."
+   },
+   {
+    "pregunta": "¿Quién es el centro del Apocalipsis?",
+    "opciones": [
+     "La bestia",
+     "El Cordero, Cristo muerto y resucitado",
+     "El dragón"
+    ],
+    "correcta": 1,
+    "explicacion": "Apocalipsis 5."
+   },
+   {
+    "pregunta": "¿Qué error se debe evitar al leer el Apocalipsis?",
+    "opciones": [
+     "Leerlo con esperanza",
+     "Calcular fechas del fin del mundo",
+     "Relacionarlo con el Antiguo Testamento"
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie conoce el día ni la hora."
+   },
+   {
+    "pregunta": "¿Con qué palabras termina la Biblia?",
+    "opciones": [
+     "Amén. Ven, Señor Jesús",
+     "En el principio",
+     "Todo está cumplido"
+    ],
+    "correcta": 0,
+    "explicacion": "Apocalipsis 22,20."
+   }
+  ]
+ }
+}

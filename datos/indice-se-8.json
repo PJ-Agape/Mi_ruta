@@ -1,0 +1,61 @@
+{
+ "curso": "se-8",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+   "semanas": "",
+   "intro": "El evangelio de Juan es distinto de los sinópticos: más contemplativo, con largos diálogos y símbolos profundos. Lo llamaron el evangelio espiritual. En este módulo vas a aprender a leerlo para creer y tener vida.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "El cuarto evangelio: autor, comunidad y propósito",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "El prólogo y los signos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Los discursos y los «Yo soy»",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "El libro de la gloria: pasión y resurrección",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Las cartas de Juan: Dios es amor",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}

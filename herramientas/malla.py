@@ -127,7 +127,7 @@ def N(archivo, titulo, tipo="clase"):
 
 
 def complementaria(cid):
-    f = leer_json(R / "fuentes" / "complementarias" / f"{cid}.json")
+    f = leer_json(R / "fuentes" / ("escritura" if cid.startswith("se-") else "complementarias") / f"{cid}.json")
     ses = [{"tipo": "unidad", "titulo": md(u["title"]), "tiempo": "90 min",
             "texto": (CONT / cid / f"m1-u{i:02d}.md").read_text(encoding="utf-8")} for i, u in enumerate(f["unidades"], 1)]
     assert len(ses) == 5, (cid, len(ses))
@@ -157,8 +157,11 @@ COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-litur
                    "comunicacion-y-redes", "dinamicas-y-juegos", "logistica"]
 
 
+ESCRITURA = [f"se-{i}" for i in range(1, 10)]
+
+
 def modulos():
-    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS}
+    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA}
     M["dj-discernimiento"] = dj("Oración y discernimiento vocacional", [U(D, f"m1-u0{i}") for i in range(1, 6)], "dj-discernimiento")
     M["dj-identidad"] = dj("Identidad y espiritualidad del agente pastoral", [U(A, "m1-u01"), U(A, "m1-u02"), U(A, "m1-u05"), U(A, "m1-u06"), U(A, "m5-u01")], "dj-identidad")
     M["dj-acogida"] = dj("Acogida y vida de grupo", [U(A, "m2-u01"), U(A, "m2-u02"), U(A, "m2-u03"), U(A, "m2-u04"), U(A, "m1-u04")], "dj-acogida")
@@ -211,6 +214,11 @@ CURSOS = [
   "publico": "Desde 14 años", "elige": 1,
   "obligatorios": ["voluntariado-y-doctrina-social", "ecologia-integral", "misiones-juveniles", "logistica", "buen-trato-y-prevencion"],
   "optativos": ["primeros-auxilios", "dinamicas-y-juegos"]},
+ {"id": "diplomado-escritura", "titulo": "Diplomado en Sagrada Escritura", "subtitulo": "Antiguo y Nuevo Testamento para agentes de pastoral",
+  "descripcion": "Nueve módulos para conocer, estudiar y rezar la Biblia: introducciones al Antiguo y al Nuevo Testamento, y exégesis del Pentateuco, los Profetas, los Sapienciales, los Sinópticos y Hechos, San Pablo, San Juan, y Hebreos y Apocalipsis. Cada módulo entrega su propia constancia y al completar los nueve se otorga el certificado del diplomado.",
+  "publico": "Desde 17 años; agentes de pastoral, catequistas y animadores bíblicos", "elige": 0,
+  "obligatorios": ESCRITURA, "optativos": [],
+  "requiere": {"se-3": ["se-2"], "se-4": ["se-1"], "se-5": ["se-1"], "se-6": ["se-2"], "se-7": ["se-1"], "se-8": ["se-2"], "se-9": ["se-2"]}},
  {"id": "catequista", "titulo": "Catequista y agente de pastoral", "subtitulo": "Transmitir la fe y servir en la comunidad",
   "descripcion": "Forma catequistas con mirada de agente de pastoral: conocen la fe y los sacramentos, preparan y animan la catequesis, acompañan personas, animan grupos y coordinan con la comunidad.",
   "publico": "Desde 16 años", "elige": 2,
@@ -279,7 +287,7 @@ def main():
                              "intro": m.get("intro", ""), "clases": m["clases"]})
                 evals.update(m["evals"])
         ficha = {"id": c["id"], "titulo": c["titulo"], "subtitulo": c["subtitulo"], "descripcion": c["descripcion"],
-                 "duracion": f"{horas_txt(horas_obl + horas_opt)} · {len(c['obligatorios'])} módulos obligatorios y {c['elige']} optativo{'s' if c['elige'] > 1 else ''}",
+                 "duracion": f"{horas_txt(horas_obl + horas_opt)} · {len(c['obligatorios'])} módulos" + (f" obligatorios y {c['elige']} optativo{'s' if c['elige'] > 1 else ''}" if c["elige"] else ""),
                  "modalidad": c.get("modalidad", "En línea, a tu ritmo"), "publico": c["publico"], "tipo": "curso", "orden": orden,
                  "elige": c["elige"], "horas": horas_obl + horas_opt, "recursos": {}}
         escribir(c["id"], ficha, mods, evals)

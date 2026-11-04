@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura I: Introducción al Antiguo Testamento",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuántos libros tiene el Antiguo Testamento católico?",
+    "opciones": [
+     "39",
+     "46",
+     "27"
+    ],
+    "correcta": 1,
+    "explicacion": "La Biblia católica incluye los deuterocanónicos."
+   },
+   {
+    "pregunta": "¿Qué significa «canon»?",
+    "opciones": [
+     "Regla o lista de libros reconocidos como inspirados",
+     "Un tipo de canto",
+     "Una traducción antigua"
+    ],
+    "correcta": 0,
+    "explicacion": "Es la lista de libros inspirados."
+   },
+   {
+    "pregunta": "¿Qué es la Septuaginta?",
+    "opciones": [
+     "Un libro profético",
+     "La traducción griega del Antiguo Testamento",
+     "Un concilio"
+    ],
+    "correcta": 1,
+    "explicacion": "Se hizo en Alejandría entre los siglos III y I antes de Cristo."
+   },
+   {
+    "pregunta": "¿Cuál de estos libros es deuterocanónico?",
+    "opciones": [
+     "Isaías",
+     "Tobías",
+     "Génesis"
+    ],
+    "correcta": 1,
+    "explicacion": "Tobías no está en la Biblia hebrea."
+   },
+   {
+    "pregunta": "¿En qué siglo fue el exilio en Babilonia?",
+    "opciones": [
+     "Siglo VI antes de Cristo",
+     "Siglo I después de Cristo",
+     "Siglo X antes de Cristo"
+    ],
+    "correcta": 0,
+    "explicacion": "Jerusalén cayó en el 587 o 586 antes de Cristo."
+   },
+   {
+    "pregunta": "¿Qué rey persa permitió el regreso de los exiliados?",
+    "opciones": [
+     "Antíoco IV",
+     "Ciro",
+     "Herodes"
+    ],
+    "correcta": 1,
+    "explicacion": "Ciro, en el 538 antes de Cristo."
+   },
+   {
+    "pregunta": "¿Por qué es importante el género literario?",
+    "opciones": [
+     "Porque cada tipo de texto se lee según sus reglas",
+     "Porque indica el autor",
+     "Porque define la fecha"
+    ],
+    "correcta": 0,
+    "explicacion": "Un poema no se lee como una crónica."
+   },
+   {
+    "pregunta": "¿Cómo se relacionan los dos testamentos según Dei Verbum?",
+    "opciones": [
+     "El Nuevo reemplaza al Antiguo",
+     "El Nuevo está latente en el Antiguo y el Antiguo patente en el Nuevo",
+     "No tienen relación"
+    ],
+    "correcta": 1,
+    "explicacion": "Forman una unidad."
+   }
+  ]
+ }
+}

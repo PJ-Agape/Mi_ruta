@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Sagrada Escritura II: Introducción al Nuevo Testamento",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Quién gobernaba Galilea en tiempos de Jesús?",
+    "opciones": [
+     "Herodes Antipas",
+     "Poncio Pilato",
+     "Herodes el Grande"
+    ],
+    "correcta": 0,
+    "explicacion": "Pilato era prefecto de Judea."
+   },
+   {
+    "pregunta": "¿Qué grupo no creía en la resurrección?",
+    "opciones": [
+     "Fariseos",
+     "Saduceos",
+     "Esenios"
+    ],
+    "correcta": 1,
+    "explicacion": "Los saduceos eran la aristocracia sacerdotal."
+   },
+   {
+    "pregunta": "¿Cuáles son las tres etapas de formación de los evangelios?",
+    "opciones": [
+     "Vida de Jesús, predicación apostólica y redacción",
+     "Antiguo Testamento, Nuevo Testamento y Tradición",
+     "Infancia, ministerio y pasión"
+    ],
+    "correcta": 0,
+    "explicacion": "Dei Verbum 19 y Catecismo 126."
+   },
+   {
+    "pregunta": "¿Cuál es el escrito más antiguo del Nuevo Testamento?",
+    "opciones": [
+     "El evangelio de Mateo",
+     "La primera carta a los Tesalonicenses",
+     "El Apocalipsis"
+    ],
+    "correcta": 1,
+    "explicacion": "Se escribió hacia el año 50."
+   },
+   {
+    "pregunta": "¿Cuántos libros tiene el Nuevo Testamento?",
+    "opciones": [
+     "27",
+     "46",
+     "73"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuatro evangelios, Hechos, 21 cartas y Apocalipsis."
+   },
+   {
+    "pregunta": "¿Dónde fueron llamados cristianos por primera vez los discípulos?",
+    "opciones": [
+     "Jerusalén",
+     "Antioquía",
+     "Roma"
+    ],
+    "correcta": 1,
+    "explicacion": "Hechos 11,26."
+   },
+   {
+    "pregunta": "¿Qué decidió el concilio de Jerusalén?",
+    "opciones": [
+     "Que los paganos debían circuncidarse",
+     "No imponer a los paganos toda la Ley de Moisés",
+     "Cerrar la Iglesia a los paganos"
+    ],
+    "correcta": 1,
+    "explicacion": "Hechos 15."
+   },
+   {
+    "pregunta": "¿Qué es el fundamentalismo bíblico?",
+    "opciones": [
+     "Estudiar los fundamentos de la fe",
+     "Leer todo al pie de la letra sin atender a géneros ni contextos",
+     "Leer la Biblia en comunidad"
+    ],
+    "correcta": 1,
+    "explicacion": "La Iglesia advierte contra esta lectura."
+   }
+  ]
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "curso": "se-1",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Sagrada Escritura I: Introducción al Antiguo Testamento",
+   "semanas": "",
+   "intro": "El Antiguo Testamento ocupa más de tres cuartas partes de la Biblia y fue la Escritura de Jesús. Sin él, el Nuevo Testamento no se entiende. En este módulo vas a recorrer su mapa general para luego profundizar en cada parte.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Libros, canon y versiones",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "La historia de Israel: de los patriarcas al exilio",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Del exilio a Jesús",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Cómo se formó el Antiguo Testamento",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Leer el Antiguo Testamento como cristianos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Sagrada Escritura I: Introducción al Antiguo Testamento",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}
