@@ -83,6 +83,19 @@
 
   function hechas(cursoId) { return almacen.leer("hechas:" + cursoId, []); }
 
+  // Un módulo con requisitos queda bloqueado para el participante hasta completar
+  // todas las clases de los módulos requeridos. En vista relator se ve todo.
+  function moduloBloqueado(curso, m) {
+    if (!m.requiere || !m.requiere.length || modoRelator()) return null;
+    var h = hechas(curso.id);
+    var faltan = m.requiere.map(function (id) {
+      return curso.modulos.filter(function (x) { return x.id === id; })[0];
+    }).filter(function (req) {
+      return req && req.clases.some(function (cl) { return h.indexOf(cl.id) < 0; });
+    });
+    return faltan.length ? faltan : null;
+  }
+
   function marcarHecha(cursoId, claseId, valor) {
     var lista = hechas(cursoId).filter(function (x) { return x !== claseId; });
     if (valor) lista.push(claseId);
@@ -198,7 +211,11 @@
           (m.duracion || m.constancia ? '<p class="semanas">' + [m.duracion ? esc(m.duracion) : "", m.constancia ? '<span class="chip-constancia">Constancia propia</span>' : ""].filter(Boolean).join(" · ") +
             (m.constancia ? " · " + hm + " de " + m.clases.length + " completadas" : "") + "</p>" : "");
         if (m.intro) html += '<details><summary>Sobre este módulo</summary><div class="texto">' + md(m.intro) + "</div></details>";
-        html += '<ol class="lista-clases">' + m.clases.map(function (cl) {
+        var bloqueo = moduloBloqueado(c, m);
+        if (bloqueo) {
+          html += '<p class="aviso bloqueo">Se habilita al completar ' + bloqueo.map(function (r) { return esc(etiquetaModulo(r)); }).join(" y ") + ".</p>";
+        }
+        html += '<ol class="lista-clases' + (bloqueo ? " bloqueada" : "") + '">' + m.clases.map(function (cl) {
           var hecha = h.indexOf(cl.id) >= 0;
           return '<li class="' + (hecha ? "hecha" : "") + '"><a href="#/clase/' + esc(c.id) + "/" + esc(cl.id) + '">' +
             '<span class="estado" aria-label="' + (hecha ? "Completada" : "Pendiente") + '">' + (hecha ? "&#10003;" : "") + "</span>" +
@@ -265,6 +282,14 @@
       c.clases.forEach(function (x, k) { if (x.id === claseId) i = k; });
       if (i < 0) throw new Error("La clase no existe.");
       var cl = c.clases[i];
+      var bloqueo = moduloBloqueado(c, cl.modulo);
+      if (bloqueo) {
+        pintar('<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>" +
+          '<section class="tarjeta"><h1>' + esc(etiquetaModulo(cl.modulo)) + " todavía no está disponible</h1><p>Para cursar este módulo primero debes completar " +
+          bloqueo.map(function (r) { return esc(etiquetaModulo(r)) + ". " + esc(r.titulo); }).join(" y ") +
+          '.</p><div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Volver al curso</a></div></section>', cl.titulo);
+        return;
+      }
       if (cl.tipo === "evaluacion") {
         return pedir("datos/evaluaciones-" + cursoId + ".json").then(function (ev) {
           if (!ev[cl.id]) throw new Error("La evaluación no existe.");

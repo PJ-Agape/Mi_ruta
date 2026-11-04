@@ -12,7 +12,7 @@
 
 ## Un diplomado por módulos
 
-Cada módulo es una formación completa en sí misma: se puede cursar solo el que se necesita y recibir su constancia. Quien completa los seis módulos y el proyecto integrador recibe el certificado del diplomado.
+Cada módulo es una formación completa en sí misma: después del Módulo I, que es obligatorio, se puede cursar solo el que se necesita y recibir su constancia. Quien completa los seis módulos y el proyecto integrador recibe el certificado del diplomado.
 
 | Módulo | Tema | Duración | Trabajo del módulo |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Cada módulo es una formación completa en sí misma: se puede cursar solo el qu
 | VI | Liderazgo que acompaña personas | 4 semanas · 32 h | Plan de acompañamiento del equipo |
 | Cierre | Proyecto integrador | 2 semanas · 16 h | Proyecto aplicado a la propia comunidad |
 
-**Orden recomendado.** Los módulos se pueden tomar en cualquier orden. Para quien hace el diplomado completo se recomienda comenzar por el Módulo I, que entrega la base común, y terminar con el Módulo III, que mira al relevo y al legado.
+**Requisito.** El Módulo I es obligatorio y se cursa primero: entrega la base común y las herramientas que usan todos los demás módulos. Una vez aprobado, los módulos II a VI se pueden tomar en cualquier orden. Para quien hace el diplomado completo se recomienda terminar con el Módulo III, que mira al relevo y al legado.
 
 ## Objetivo general
 

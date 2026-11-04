@@ -9,6 +9,7 @@
       "semanas": "",
       "duracion": "6 semanas · 48 horas",
       "constancia": true,
+      "requiere": [],
       "intro": "Este módulo reúne las 11 clases del Módulo I (semanas 1 a 6): las claves 1 a 10 y el cuadro de mando. Cada clase trae el apunte para el participante, la plantilla de la herramienta, la guía del ejercicio para el relator y la pauta de aplicación.",
       "clases": [
         {
@@ -109,6 +110,9 @@
       "semanas": "",
       "duracion": "4 semanas · 32 horas",
       "constancia": true,
+      "requiere": [
+        "m1"
+      ],
       "intro": "Este módulo reúne el Módulo II (cuatro semanas): las claves 11 a 16 y la jornada de cierre del módulo. Sigue el mismo formato del Módulo I: apunte, plantilla, guía del ejercicio para el relator (50 minutos por clave) y pauta de aplicación. El foco de este módulo es el equipo coordinador.",
       "clases": [
         {
@@ -177,6 +181,9 @@
       "semanas": "",
       "duracion": "3 semanas · 24 horas",
       "constancia": true,
+      "requiere": [
+        "m1"
+      ],
       "intro": "Este módulo reúne el Módulo III (tres semanas): las claves 17 a 21. El taller del proyecto integrador y el cierre del diplomado forman una etapa aparte, para quienes cursan el diplomado completo. Sigue el mismo formato de los módulos anteriores. El foco es el enfoque ganar-ganar: que crezcan la persona, el equipo, la parroquia y la comunidad juvenil.",
       "clases": [
         {
@@ -229,6 +236,9 @@
       "semanas": "",
       "duracion": "4 semanas · 32 horas",
       "constancia": true,
+      "requiere": [
+        "m1"
+      ],
       "intro": "Este módulo reúne seis clases y un taller final para aprender a comunicar con claridad, escuchar de verdad, decir lo difícil con respeto, entender los conflictos y mediar entre otros. Son herramientas que todo coordinador usa cada semana: en las reuniones, en los chats del equipo, con los apoderados y en los momentos de tensión.\n\nEl módulo dura cuatro semanas (32 horas): dos clases por semana durante tres semanas y una cuarta semana de taller. Se aprueba con las prácticas semanales, la bitácora y el trabajo del módulo: un protocolo de comunicación y manejo de conflictos para el propio equipo.",
       "clases": [
         {
@@ -297,6 +307,9 @@
       "semanas": "",
       "duracion": "4 semanas · 32 horas",
       "constancia": true,
+      "requiere": [
+        "m1"
+      ],
       "intro": "Este módulo reúne seis clases y un taller final para pasar de las buenas ideas a planes que se cumplen: definir hacia dónde va el grupo, leer la realidad, priorizar, diseñar proyectos, manejar recursos y anticipar riesgos. Son las herramientas que permiten que un equipo pastoral no viva apagando incendios.\n\nEl módulo dura cuatro semanas (32 horas): dos clases por semana durante tres semanas y una cuarta semana de taller. Se aprueba con las prácticas semanales, la bitácora y el trabajo del módulo: el plan anual del grupo con un proyecto prioritario.",
       "clases": [
         {
@@ -365,6 +378,9 @@
       "semanas": "",
       "duracion": "4 semanas · 32 horas",
       "constancia": true,
+      "requiere": [
+        "m1"
+      ],
       "intro": "Este módulo reúne seis clases y un taller final sobre la dimensión más humana del liderazgo: acompañar a cada persona del equipo para que crezca. Conversaciones de acompañamiento, retroalimentación, motivación, cuidado del equipo y límites del líder ante las situaciones difíciles.\n\nEl módulo dura cuatro semanas (32 horas): dos clases por semana durante tres semanas y una cuarta semana de taller. Se aprueba con las prácticas semanales, la bitácora y el trabajo del módulo: un plan de acompañamiento para el propio equipo.",
       "clases": [
         {
@@ -433,6 +449,9 @@
       "semanas": "",
       "duracion": "2 semanas · 16 horas",
       "constancia": false,
+      "requiere": [
+        "m1"
+      ],
       "intro": "Esta etapa es solo para quienes cursan el diplomado completo. Reúne en un proyecto aplicado a la propia comunidad las herramientas de los seis módulos y termina con la presentación de los proyectos, la evaluación final y la ceremonia de cierre.\n\nPara recibir el certificado del diplomado se necesitan las constancias de los seis módulos y el proyecto integrador aprobado.",
       "clases": [
         {

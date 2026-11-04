@@ -121,6 +121,7 @@ def main():
             "semanas": "",
             "duracion": f"{mod['semanas']} semanas · {mod['horas']} horas",
             "constancia": constancia,
+            "requiere": [] if mod["n"] == 1 else ["m1"],
             "intro": mod.get("intro", intro).strip(),
             "clases": clases,
         })

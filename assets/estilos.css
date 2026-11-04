@@ -281,3 +281,5 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 /* Módulos certificables */
 .chip-constancia { display: inline-block; font-size: .78rem; font-weight: 700; color: var(--acento); background: var(--acento-claro); border-radius: 99px; padding: .05rem .55rem; }
 .sesiones .sesiones-modulo { display: block; font-family: var(--serif); font-weight: 600; color: var(--tinta); font-size: 1.05rem; padding: 1rem 0 .3rem; border-bottom: 0; }
+.aviso.bloqueo { margin: 0 0 .6rem; }
+.lista-clases.bloqueada { opacity: .55; pointer-events: none; }
