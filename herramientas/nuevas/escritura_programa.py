@@ -84,7 +84,7 @@ PROGRAMA["se-1"] = M(
     trabajo=("Ensayo breve (1.500 a 2.000 palabras): **«¿Por qué los cristianos leemos el Antiguo Testamento?»**. "
              "Elige un texto del AT (por ejemplo, Gn 12,1-9; Ex 3,1-15; 2 Sam 7,1-17 o Is 7,10-17) y explica: a) su contexto histórico aproximado; "
              "b) qué dice en su sentido literal; c) cómo lo relee el NT; d) qué enseña *Dei Verbum* 15-16 sobre esta relación. "
-             "Cita al menos dos obras de la bibliografía y un documento del Magisterio."),
+             "Cita al menos dos lecturas del programa y un documento del Magisterio."),
     sesiones=[
         S("Lc 24,13-35 y 44-48; Neh 8,1-12; Prólogo del Eclesiástico (Sir, prólogo).",
           "Sánchez Caro, *Biblia y Palabra de Dios*: el canon del AT, los deuterocanónicos y las versiones antiguas (Septuaginta, Vulgata).",
@@ -163,7 +163,7 @@ PROGRAMA["se-2"] = M(
     trabajo=("Trabajo escrito (1.500 a 2.000 palabras): **del Jesús histórico al texto evangélico**. "
              "Elige una perícopa breve (Mc 1,14-15; Mc 2,23-28; Lc 11,1-4 o Mt 6,9-13) y describe las tres etapas de su transmisión según *Dei Verbum* 19: "
              "a) qué elementos remontan a Jesús y su contexto palestino; b) cómo la usó la predicación de la Iglesia; c) cómo la integró el evangelista en su obra. "
-             "Usa al menos dos obras de la bibliografía."),
+             "Cita al menos dos lecturas del programa."),
     sesiones=[
         S("Lc 2,1-7; Lc 3,1-2; Mc 12,13-27; Hch 23,6-10.",
           "Brown, *Introducción al NT*: el mundo político y religioso del NT. Complementa con Jeremias o Stegemann.",
@@ -233,7 +233,7 @@ PROGRAMA["se-3"] = M(
     trabajo=("Análisis sinóptico (1.500 a 2.500 palabras). Elige una perícopa presente en los tres sinópticos "
              "(el bautismo de Jesús, la confesión de Pedro, la tempestad calmada o la parábola del sembrador). "
              "a) Copia los tres textos en columnas; b) marca coincidencias y diferencias; c) explica qué revela cada diferencia sobre la teología de cada evangelista; "
-             "d) cierra con una aplicación pastoral. Cita al menos dos obras de la bibliografía."),
+             "d) cierra con una aplicación pastoral. Cita al menos dos lecturas del programa."),
     sesiones=[
         S("Mc 1,40-45 // Mt 8,1-4 // Lc 5,12-16; Mc 4,35-41 // Mt 8,23-27 // Lc 8,22-25.",
           "Aguirre – Rodríguez Carmona: la cuestión sinóptica. Guijarro: la tradición oral y las fuentes.",
@@ -299,7 +299,7 @@ PROGRAMA["se-4"] = M(
     online=ONLINE_BASE + [("Pío XII, *Divino afflante Spiritu* (1943): los géneros literarios", DAS)],
     trabajo=("Exégesis de una perícopa del Pentateuco (1.500 a 2.500 palabras): Gn 2,4b-25; Gn 22,1-19; Ex 3,1-15 o Ex 19,1-8. "
              "Sigue estos pasos: delimitación del texto, traducción comparada (dos versiones), estructura, género literario, contexto en el libro, "
-             "comentario versículo a versículo, teología y actualización. Usa García López o Ska y un documento del Magisterio."),
+             "comentario versículo a versículo, teología y actualización. Cita al menos dos lecturas del programa y un documento del Magisterio."),
     sesiones=[
         S("Gn 1,1–2,4a y 2,4b-25; Ex 3 y 6,2-8 (dos relatos de la revelación del nombre).",
           "García López, *El Pentateuco*: la historia de la investigación. Ska, *Introducción*: los problemas literarios.",
@@ -431,7 +431,7 @@ PROGRAMA["se-6"] = M(
     online=ONLINE_BASE,
     trabajo=("Análisis de un argumento paulino (1.500 a 2.500 palabras): Rom 5,1-11; Gal 2,15-21; 1 Cor 12,12-31; 1 Cor 15,1-28 o Flp 2,5-11. "
              "Describe la situación de la comunidad destinataria, la estructura del pasaje, el razonamiento de Pablo paso a paso, los conceptos clave y su actualidad. "
-             "Usa Becker, Lona o Vanni."),
+             "Cita al menos dos lecturas del programa."),
     sesiones=[
         S("Gal 1,11-24; Flp 3,4-14; Hch 9,1-30; 2 Cor 11,21-33.",
           "Becker, *Pablo*: la vida de Pablo y su cronología.",
@@ -560,7 +560,7 @@ PROGRAMA["se-8"] = M(
     ],
     online=ONLINE_BASE + [("Catecismo: Jesús, Palabra hecha carne, nn. 456-483", CEC)],
     trabajo=("Exégesis de un texto joánico (1.500 a 2.500 palabras): Jn 1,1-18; Jn 2,1-11; Jn 4,1-42; Jn 11,1-44 o 1 Jn 4,7-21. "
-             "Analiza estructura, simbolismo, malentendidos e ironía joánica, relación con el resto del evangelio y su aporte a la cristología. Usa Brown, Lona o Tuñí – Alegre."),
+             "Analiza estructura, simbolismo, malentendidos e ironía joánica, relación con el resto del evangelio y su aporte a la cristología. Cita al menos dos lecturas del programa."),
     sesiones=[
         S("Jn 1,35-51; 13,23-26; 19,25-27.35; 20,1-10; 21,20-25.",
           "Tuñí – Alegre: la cuestión joánica. Brown, *La comunidad del discípulo amado*.",
@@ -668,11 +668,74 @@ PROGRAMA["se-9"] = M(
 )
 
 
+# Lecturas gratuitas en línea (acceso abierto verificado) -------------------
+BIBLIA_URL = "https://www.vatican.va/archive/ESL0506/_INDEX.HTM"
+BIBLIA_T = "*El Libro del Pueblo de Dios. La Biblia* (traducción argentina), texto completo en vatican.va"
+UCA = "https://repositorio.uca.edu.ar/handle/123456789/"
+A_FERRADA_11 = ("A. Ferrada Moreira, «Teología e historia en el Antiguo Testamento», *Teología y Vida* 52/3 (2011)", "https://www.redalyc.org/pdf/322/32221381003.pdf")
+A_FERRADA_13 = ("A. Ferrada Moreira, «La mediación de Moisés: autoridad e historia», *Teología y Vida* 54/3 (2013)", "https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pid=S0049-34492013000300011")
+A_CHUECAS = ("I. Chuecas, «Tendencias actuales en los estudios del Antiguo Testamento. Desafíos y oportunidades», *Teología y Vida* 53 (2012)", "http://teologiayvida.uc.cl/index.php/tyv/article/view/6762")
+A_NAPOLE = ("G. M. Nápole, «“Lo que nuestros padres nos contaron” (Sal 78,3): el Antiguo Testamento y la historia de Israel», UCA (2021)", UCA + "11908")
+A_RODELAS = ("J. M. Díaz Rodelas, «Inspiración y verdad de la Sagrada Escritura. La aportación del reciente documento de la Pontificia Comisión Bíblica»", RODELAS)
+A_MORENO = ("A. Moreno Casamitjana, «El Pueblo de Dios en el Antiguo Testamento», *Teología y Vida* 26 (1985)", "https://repositorio.uc.cl/handle/11534/15233")
+A_ANDINACH = ("P. R. Andiñach, «La teología y las teologías del Antiguo Testamento» (2019)", UCA + "12353")
+A_RUIZ = ("E. Ruiz, «A 30 años de *La interpretación de la Biblia en la Iglesia*», *Teología* 60/142 (2023)", RUIZ)
+A_RIVAS_DISC = ("L. H. Rivas, «Discípulos para la misión en el Nuevo Testamento», *Teología* 44/94 (2007)", UCA + "18041")
+A_RIVAS_LC = ("L. H. Rivas, «“Nosotros esperábamos…” (Lc 24,21)», *Teología* 53/121 (2016)", UCA + "7313")
+A_ALEGRE = ("X. Alegre, «Marcos o la corrección de una ideología triunfalista. Pautas para la lectura de un evangelio beligerante y comprometido», *Revista Latinoamericana de Teología*", "https://revistas.uca.edu.sv/index.php/rlt/article/download/6184/6119")
+A_TRIANA = ("J. Y. Triana Rodríguez – I. A. Méndez Paniagua, «Experimentar el paso de Dios: diálogo entre exégesis, teología y tradición en Ex 33,12-23», *Theologica Xaveriana* 71 (2021)", "https://revistas.javeriana.edu.co/index.php/teoxaveriana/article/view/33347")
+A_RIVAS_VIDA = ("L. H. Rivas, «“Para que tengan vida…”» (el Deuteronomio y los escritos joánicos), *Teología* 45/95 (2008)", UCA + "18011")
+A_DOCE = ("D. A. Torino – L. A. Verdini, *Los doce profetas*, Santa María, Buenos Aires 2015 (libro completo en acceso abierto)", UCA + "11231")
+A_BRAVO = ("A. Bravo, «Los profetas y san Pablo en la carta a los Gálatas», *Cuestiones Teológicas* 36/86 (2009)", "https://core.ac.uk/download/350031747.pdf")
+A_ESPINDOLA = ("L. Espíndola García, «La nueva creación en el pensamiento de Pablo», *Veritas* 35 (2016)", "https://www.redalyc.org/pdf/2911/291147541010.pdf")
+A_CAPB_EST = ("A. C. Capboscq, «Atanasio: teólogo, exégeta y maestro de espiritualidad. Aspectos de su “Carta a Marcelino”», *Teología* 59/137 (2022)", "https://doi.org/10.46553/teo.59.137.2022.p30-58")
+A_CAPB_TXT = ("San Atanasio, *Carta a Marcelino sobre los Salmos*, trad. A. C. Capboscq, *Teología* 59/137 (2022)", UCA + "13826")
+A_LIMA = ("M. de L. Lima, «Alegria e riso em meio à fugacidade da vida» (Qohélet), *Teología y Vida* 62 (2021), en portugués", "http://teologiayvida.uc.cl/index.php/tyv/article/view/38509")
+A_RIVAS_JN = ("L. H. Rivas, «El conocimiento de Dios en el Evangelio de San Juan», *Teología* 51/114 (2014)", UCA + "7150")
+A_RIVAS_MANA = ("L. H. Rivas, «Las tradiciones sobre el maná y el capítulo VI del Evangelio de San Juan», *Teología* 22/45 (1985), número completo", UCA + "6748")
+A_TUNI = ("J. O. Tuñí, «Teología judía y cristología joánica», *Revista Latinoamericana de Teología*", "https://revistas.uca.edu.sv/index.php/rlt/article/download/5255/5222/17042")
+A_FERNANDEZ = ("V. M. Fernández, «La vida sacerdotal de los cristianos según la carta a los Hebreos», *Revista Bíblica* 52 (1990)", UCA + "7865")
+A_MENDOZA = ("C. B. Mendoza, «“Conozco tus obras…” (Ap 2,2.19; 3,1.8.15)» (fidelidad martirial en el Apocalipsis), *Teología* 59/139 (2022), número completo", UCA + "15708")
+
+# Por módulo: lecturas en línea de cada sesión (1 a 5)
+LIBRES = {
+    "se-1": {1: [], 2: [A_FERRADA_11], 3: [A_NAPOLE], 4: [A_RODELAS, A_CHUECAS], 5: [A_MORENO]},
+    "se-2": {1: [], 2: [], 3: [], 4: [A_RIVAS_DISC], 5: [A_RUIZ]},
+    "se-3": {1: [], 2: [A_ALEGRE], 3: [A_RIVAS_DISC], 4: [A_RIVAS_LC], 5: []},
+    "se-4": {1: [A_TRIANA, A_CHUECAS], 2: [], 3: [A_FERRADA_11], 4: [A_FERRADA_13], 5: [A_RIVAS_VIDA]},
+    "se-5": {1: [A_CHUECAS], 2: [A_DOCE], 3: [], 4: [A_BRAVO], 5: [A_DOCE]},
+    "se-6": {1: [A_BRAVO], 2: [], 3: [A_BRAVO], 4: [A_ESPINDOLA], 5: []},
+    "se-7": {1: [A_CHUECAS, A_ANDINACH], 2: [A_CAPB_TXT, A_CAPB_EST], 3: [], 4: [A_LIMA], 5: []},
+    "se-8": {1: [A_TUNI], 2: [A_RIVAS_JN], 3: [A_RIVAS_MANA], 4: [], 5: [A_RIVAS_VIDA]},
+    "se-9": {1: [], 2: [A_FERNANDEZ], 3: [], 4: [A_MENDOZA], 5: []},
+}
+
+
+MAGIS = ("*Dei Verbum*", "Catecismo", "*Ordenación", "Benedicto XVI, catequesis")
+
+
+def _magis(p):
+    return [x for x in p["obligatoria"][1:] if x.startswith(MAGIS)]
+
+
+def _libros(p):
+    return [x for x in p["obligatoria"][1:] if not x.startswith(MAGIS)] + p["complementaria"]
+
+
+def _articulos(mid):
+    vistos, out = set(), []
+    for n in range(1, 6):
+        for a in LIBRES[mid][n]:
+            if a[1] not in vistos:
+                vistos.add(a[1]); out.append(a)
+    return out
+
+
 # Presentación --------------------------------------------------------------
 HORAS = 30
 CARGA = ("| Actividad | Horas |\n|---|---|\n"
          "| 5 sesiones de clase (90 min cada una) | 7,5 |\n"
-         "| Lectura bíblica, manual y estudio personal (3,5 h por sesión) | 17,5 |\n"
+         "| Lectura bíblica, lecturas en línea y estudio personal (3,5 h por sesión) | 17,5 |\n"
          "| Trabajo escrito | 3,5 |\n"
          "| Sesión de cierre: taller y evaluación final | 1,5 |\n"
          "| **Total** | **30** |")
@@ -696,22 +759,24 @@ def programa_md(mid, intro):
         p["contenidos"],
         "#### Carga horaria",
         CARGA,
-        "#### Lecturas obligatorias",
-        _lista(p["obligatoria"]),
-        "#### Bibliografía complementaria",
-        _lista(p["complementaria"]),
-        "#### Recursos gratuitos en línea",
-        _links(p["online"]),
+        "#### Lecturas obligatorias (gratuitas, en línea)",
+        _lista([f"[{BIBLIA_T}]({BIBLIA_URL}).",
+                "Los textos de las cinco sesiones de este módulo, con su pestaña «Lecturas y estudio».",
+                "Documentos de la Iglesia:"]) + "\n" + "\n".join([f"  - {x}" for x in _magis(p)] + [f"  - [{t}]({u})" for t, u in p["online"]]),
+        "#### Artículos académicos de acceso abierto",
+        _links(_articulos(mid)) if _articulos(mid) else "Este módulo se apoya en los textos de las sesiones y en los documentos de la Iglesia.",
+        "#### Para profundizar (en bibliotecas)",
+        "Manuales de referencia en español. No son obligatorios: úsalos si tienes acceso a la biblioteca de un seminario, una parroquia o una universidad.\n\n" + _lista(_libros(p)),
         "#### Trabajo escrito",
         p["trabajo"] + "\n\nSe entrega a tu relator antes de la sesión de cierre. Extensión indicada, citas con autor, título, editorial y año.",
         "#### Evaluación y aprobación",
         _lista([
             "Asistencia o lectura completa de las 5 sesiones.",
-            "Trabajo escrito aprobado por el relator (rúbrica: comprensión del texto 40 %, uso de bibliografía 30 %, claridad y redacción 20 %, aplicación pastoral 10 %).",
+            "Trabajo escrito aprobado por el relator (rúbrica: comprensión del texto 40 %, uso de las lecturas 30 %, claridad y redacción 20 %, aplicación pastoral 10 %).",
             "Evaluación final en la plataforma con un mínimo de 70 %.",
         ]),
         "*Programa elaborado con referencia a los programas de Sagrada Escritura de la Facultad de Teología de la Pontificia Universidad Católica Argentina. "
-        "Las obras se citan sin páginas; consulta la edición disponible en tu biblioteca.*",
+        "Todas las lecturas obligatorias son gratuitas y están enlazadas; los libros se citan sin páginas.*",
     ])
 
 
@@ -720,8 +785,10 @@ def estudio_md(mid, n):
     return "\n\n".join([
         "### Lecturas y estudio (3 h 30 min)",
         "#### Lectura bíblica",
-        s["biblia"],
-        "#### Lectura del manual",
+        s["biblia"] + f" Puedes leerla en [El Libro del Pueblo de Dios]({BIBLIA_URL}).",
+        "#### Lectura en línea",
+        _links(LIBRES[mid][n]) if LIBRES[mid][n] else "Para esta sesión basta con la lectura bíblica y el estado de la cuestión.",
+        "#### Si tienes acceso a una biblioteca",
         s["manual"],
         "#### Estado de la cuestión",
         s["profundizacion"],
