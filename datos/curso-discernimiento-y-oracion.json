@@ -1,10 +1,12 @@
 {
   "id": "discernimiento-y-oracion",
   "titulo": "Camino de Discernimiento y Oración",
-  "subtitulo": "Itinerario de vida interior",
-  "descripcion": "Para cultivar el silencio interior, orar con la Palabra, reconocer lo que Dios mueve en el corazón y aprender a decidir con Él. 4 unidades de 90 minutos y una evaluación final.",
-  "duracion": "4 unidades de 90 min (6 horas)",
+  "subtitulo": "Itinerario vocacional",
+  "descripcion": "El primer paso de la ruta: aprender a hacer silencio, orar con la Palabra y reconocer lo que Dios mueve en el corazón, para discernir si quieres tomar el camino de dirigente. 5 unidades de 90 minutos y una evaluación final.",
+  "duracion": "5 unidades de 90 min (7,5 horas)",
   "publico": "Jóvenes desde los 13 años",
   "modalidad": "En línea, a tu ritmo",
-  "recursos": {}
+  "recursos": {},
+  "paso": 1,
+  "etapa": "Discernir"
 }

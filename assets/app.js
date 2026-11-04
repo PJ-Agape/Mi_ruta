@@ -147,7 +147,7 @@
       var html = '<section class="portada"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA + "<p>" + esc(sitio.lema) + "</p></section>";
       html += lista.map(function (c) {
         var p = progreso(c);
-        return '<article class="tarjeta curso-tarjeta">' + (c.institucion ? '<p class="institucion">' + esc(c.institucion) + "</p>" : "") + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
+        return '<article class="tarjeta curso-tarjeta">' + (c.paso ? '<p class="institucion">Paso ' + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + "</p>" : (c.institucion ? '<p class="institucion">' + esc(c.institucion) + "</p>" : "")) + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
           "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(esc).join(" · ") + "</p>" +
           barraProgreso(p) + '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Entrar al curso</a></div></article>';
       }).join("");
@@ -161,7 +161,7 @@
       var h = hechas(c.id);
       var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0; })[0];
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
-      html += '<section class="portada"><p class="subtitulo">' + (c.institucion ? esc(c.institucion) + " · " : "") + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
+      html += '<section class="portada"><p class="subtitulo">' + (c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + " · " : (c.institucion ? esc(c.institucion) + " · " : "")) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         barraProgreso(p) +
         '<div class="botones">' +

@@ -4,9 +4,9 @@
   {
    "id": "m1",
    "numero": 1,
-   "titulo": "El silencio y el encuentro interior",
+   "titulo": "Escuchar y responder",
    "semanas": "",
-   "intro": "Un itinerario de cuatro unidades para quienes quieren profundizar su vida de oración: hacer silencio, orar con la Palabra, reconocer lo que Dios mueve en el corazón y aprender a decidir con Él.",
+   "intro": "Primer paso de la ruta. Un itinerario de cinco unidades para aprender a escuchar a Dios y descubrir si te llama a servir como dirigente: hacer silencio, orar con la Palabra, reconocer lo que Dios mueve en el corazón, aprender a decidir con Él y, al final, dar tu respuesta con libertad.",
    "clases": [
     {
      "id": "m1-u01",
@@ -41,11 +41,19 @@
      "tiempo": "90 min"
     },
     {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 1.5",
+     "titulo": "¿Me llama Dios a ser dirigente?",
+     "tiempo": "90 min"
+    },
+    {
      "id": "m1-eval",
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
      "titulo": "Discernimiento de la oración",
-     "tiempo": "6 preguntas"
+     "tiempo": "9 preguntas"
     }
    ]
   }

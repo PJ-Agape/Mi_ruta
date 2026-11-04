@@ -1,89 +1,237 @@
 {
- "intro": "Un itinerario de cuatro unidades para quienes quieren profundizar su vida de oración: hacer silencio, orar con la Palabra, reconocer lo que Dios mueve en el corazón y aprender a decidir con Él.",
+ "intro": "Primer paso de la ruta. Un itinerario de cinco unidades para aprender a escuchar a Dios y descubrir si te llama a servir como dirigente: hacer silencio, orar con la Palabra, reconocer lo que Dios mueve en el corazón, aprender a decidir con Él y, al final, dar tu respuesta con libertad.",
  "unidades": {
   "1.1": {
    "comenzar": "Durante un minuto, quédate quieto y anota todos los ruidos que escuchas: afuera, dentro de tu casa y dentro de ti (pensamientos, preocupaciones, ganas de mirar el celular). Mira tu lista: ese es el punto de partida del silencio.",
-   "logros": ["Descubrir el silencio como espacio de encuentro con Dios.", "Reconocer los ruidos exteriores e interiores que te alejan de la oración.", "Practicar cinco minutos diarios de silencio orante."],
+   "logros": [
+    "Descubrir el silencio como espacio de encuentro con Dios.",
+    "Reconocer los ruidos exteriores e interiores que te alejan de la oración.",
+    "Practicar cinco minutos diarios de silencio orante."
+   ],
    "profundizar": {
     "titulo": "Ruidos de afuera y ruidos de adentro",
-    "texto": "Hay dos tipos de ruido que dificultan la oración. Los **ruidos de afuera** son los más fáciles de reconocer: notificaciones, música, conversaciones, la televisión encendida. Para ellos basta una decisión práctica: buscar un lugar tranquilo y dejar el celular en otra pieza o en modo avión.\n\nLos **ruidos de adentro** cuestan más: preocupaciones por una prueba, una pelea que no se resolvió, la lista de pendientes, el deseo de hacer otra cosa. No se apagan a la fuerza. Algunas claves para manejarlos:\n\n- **No pelees con las distracciones:** cuando notes que te fuiste, vuelve con suavidad, repitiendo una palabra como «Jesús» o «Padre».\n- **Ofrécele lo que te preocupa:** si un pensamiento insiste, conviértelo en oración: «Señor, te entrego esta prueba».\n- **Usa el cuerpo:** siéntate derecho, respira despacio y apoya las manos abiertas en tus rodillas.\n- **Empieza con poco:** cinco minutos bien vividos valen más que una hora distraída.\n\nEl silencio no es un fin en sí mismo: es la puerta para escuchar. San Juan de la Cruz decía que el Padre pronunció una sola Palabra, su Hijo, y que esa Palabra se escucha en el silencio."
+    "texto": "Hay dos tipos de ruido que dificultan la oración. Los **ruidos de afuera** son los más fáciles de reconocer: notificaciones, música, conversaciones, la televisión encendida. Para ellos basta una decisión práctica: buscar un lugar tranquilo y dejar el celular en otra pieza o en modo avión.\n\nLos **ruidos de adentro** cuestan más: preocupaciones por una prueba, una pelea que no se resolvió, la lista de pendientes, el deseo de hacer otra cosa. No se apagan a la fuerza. Algunas claves para manejarlos:\n\n- **No pelees con las distracciones:** cuando notes que te fuiste, vuelve con suavidad, repitiendo una palabra como «Jesús» o «Padre».\n- **Ofrécele lo que te preocupa:** si un pensamiento insiste, conviértelo en oración: «Señor, te entrego esta prueba».\n- **Usa el cuerpo:** siéntate derecho, respira despacio y apoya las manos abiertas en tus rodillas.\n- **Empieza con poco:** cinco minutos bien vividos valen más que una hora distraída.\n\nEl silencio no es un fin en sí mismo: es la puerta para escuchar. San Juan de la Cruz decía que el Padre pronunció una sola Palabra, su Hijo, y que esa Palabra se escucha en el silencio.\n\nEn este curso, el silencio tiene además una pregunta de fondo: **¿me llama Dios a servir a otros jóvenes como dirigente?** No hace falta responderla todavía. Basta con llevarla al silencio cada día y dejar que Dios vaya hablando. La responderás en la última unidad."
    },
    "caso": {
     "titulo": "«No me resulta»",
     "texto": "Isidora intentó rezar en silencio cinco minutos, pero a los treinta segundos ya estaba pensando en sus amigas y en una serie que estaba viendo. Concluyó: «Esto del silencio no es para mí».",
-    "preguntas": ["¿Qué le dirías a Isidora sobre las distracciones?", "¿Qué le propondrías para su próximo intento?"]
+    "preguntas": [
+     "¿Qué le dirías a Isidora sobre las distracciones?",
+     "¿Qué le propondrías para su próximo intento?"
+    ]
    },
-   "claves": [["Silencio orante", "Callar por fuera y por dentro para estar con Dios y escucharlo."], ["Distracción", "Pensamiento que nos aleja de la oración; se recibe con paciencia y se vuelve a Dios."], ["Oración", "Relación viva y personal con Dios."]],
+   "claves": [
+    [
+     "Silencio orante",
+     "Callar por fuera y por dentro para estar con Dios y escucharlo."
+    ],
+    [
+     "Distracción",
+     "Pensamiento que nos aleja de la oración; se recibe con paciencia y se vuelve a Dios."
+    ],
+    [
+     "Oración",
+     "Relación viva y personal con Dios."
+    ]
+   ],
    "lectio": {
     "meditar": "Jesús invita a entrar en la habitación y cerrar la puerta. ¿Cuál es tu «habitación secreta» posible hoy? ¿Qué puertas te cuesta cerrar?",
     "orar": "Repite despacio, al ritmo de tu respiración: «Padre, aquí estoy».",
     "vivir": "Elige un lugar y una hora fija para tus cinco minutos de silencio diario."
    },
-   "practica": ["Elige un lugar y una hora fija para orar.", "Deja el celular en modo avión o en otra pieza.", "Haz el ejercicio de cinco minutos de silencio cada día durante una semana.", "Anota en tu cuaderno cómo te fue cada día, sin juzgarte."],
+   "practica": [
+    "Elige un lugar y una hora fija para orar.",
+    "Deja el celular en modo avión o en otra pieza.",
+    "Haz el ejercicio de cinco minutos de silencio cada día durante una semana.",
+    "Anota en tu cuaderno cómo te fue cada día, sin juzgarte.",
+    "Al final de cada rato de silencio, escribe en una línea qué sientes hoy frente a la pregunta de si Dios te llama a servir."
+   ],
    "idea": "El silencio es la puerta para escuchar a Dios."
   },
   "1.2": {
    "comenzar": "Piensa en un mensaje o carta que alguien querido te escribió y que leíste varias veces. ¿Por qué lo releíste? ¿Qué sentías al hacerlo? Así se lee la Palabra de Dios: como una carta de alguien que te ama.",
-   "logros": ["Conocer los pasos de la lectio divina.", "Practicar la lectura orante con un texto del Evangelio.", "Incorporar la Palabra de Dios a tu oración diaria."],
+   "logros": [
+    "Conocer los pasos de la lectio divina.",
+    "Practicar la lectura orante con un texto del Evangelio.",
+    "Incorporar la Palabra de Dios a tu oración diaria."
+   ],
    "profundizar": {
     "titulo": "Elegir el texto y perseverar",
-    "texto": "Una dificultad frecuente al empezar con la lectio divina es no saber qué leer. Algunas sugerencias:\n\n- **El Evangelio del día:** une tu oración con la de toda la Iglesia. Puedes encontrarlo en aplicaciones católicas, en la página de tu diócesis o en la sección de Evangelio de agAPPe.\n- **Un Evangelio completo, de a poco:** el de Marcos es el más breve y ágil, ideal para comenzar. Lee un pasaje por día.\n- **Los Salmos:** son oraciones ya escritas que expresan alegría, miedo, rabia, gratitud y confianza.\n\nAlgunos consejos para perseverar:\n\n- **Textos cortos:** cinco a diez versículos bastan.\n- **Una sola palabra puede ser suficiente:** si una frase te toca, quédate ahí y no sigas leyendo.\n- **Escribe:** anotar la frase del día y tu respuesta en un cuaderno te ayuda a ver el camino recorrido.\n- **Compártelo:** hacer lectio en grupo una vez por semana sostiene la práctica personal."
+    "texto": "Una dificultad frecuente al empezar con la lectio divina es no saber qué leer. Algunas sugerencias:\n\n- **El Evangelio del día:** une tu oración con la de toda la Iglesia. Puedes encontrarlo en aplicaciones católicas, en la página de tu diócesis o en la sección de Evangelio de agAPPe.\n- **Un Evangelio completo, de a poco:** el de Marcos es el más breve y ágil, ideal para comenzar. Lee un pasaje por día.\n- **Los Salmos:** son oraciones ya escritas que expresan alegría, miedo, rabia, gratitud y confianza.\n- **Relatos de vocación:** para este camino te recomendamos especialmente los textos en que Dios llama: Jeremías 1,4-8; Isaías 6,1-8; Marcos 1,16-20; Juan 1,35-39 y Lucas 5,1-11. Fíjate en cómo llama Dios, qué siente quien es llamado y cómo responde.\n\nAlgunos consejos para perseverar:\n\n- **Textos cortos:** cinco a diez versículos bastan.\n- **Una sola palabra puede ser suficiente:** si una frase te toca, quédate ahí y no sigas leyendo.\n- **Escribe:** anotar la frase del día y tu respuesta en un cuaderno te ayuda a ver el camino recorrido.\n- **Compártelo:** hacer lectio en grupo una vez por semana sostiene la práctica personal."
    },
    "caso": {
     "titulo": "Leer mucho, orar poco",
     "texto": "Benjamín decidió leer toda la Biblia en un año. Lee tres capítulos cada noche muy rápido para cumplir la meta, pero dice que no siente que Dios le hable.",
-    "preguntas": ["¿Qué diferencia hay entre leer la Biblia y orar con la Biblia?", "¿Qué le recomendarías cambiar?"]
+    "preguntas": [
+     "¿Qué diferencia hay entre leer la Biblia y orar con la Biblia?",
+     "¿Qué le recomendarías cambiar?"
+    ]
    },
-   "claves": [["Lectio divina", "Lectura orante de la Palabra de Dios, en pasos: leer, meditar, orar, contemplar y actuar."], ["Meditar", "Rumiar el texto: preguntarse qué me dice a mí hoy."], ["Contemplar", "Quedarse en silencio ante Dios, dejando que su Palabra actúe."]],
+   "claves": [
+    [
+     "Lectio divina",
+     "Lectura orante de la Palabra de Dios, en pasos: leer, meditar, orar, contemplar y actuar."
+    ],
+    [
+     "Meditar",
+     "Rumiar el texto: preguntarse qué me dice a mí hoy."
+    ],
+    [
+     "Contemplar",
+     "Quedarse en silencio ante Dios, dejando que su Palabra actúe."
+    ]
+   ],
    "lectio": {
     "meditar": "Marta está ocupada en muchas cosas; María está sentada a los pies de Jesús escuchándolo. ¿A cuál te pareces más? ¿Qué es «lo único necesario» para ti hoy?",
     "orar": "Dile a Jesús qué cosas te tienen inquieto y ocupado, y pídele aprender a escucharlo.",
-    "vivir": "Haz lectio divina con el Evangelio del día durante cinco días seguidos."
+    "vivir": "Haz lectio divina durante cinco días con los relatos de vocación: Jeremías 1,4-8; Isaías 6,1-8; Marcos 1,16-20; Juan 1,35-39 y Lucas 5,1-11."
    },
-   "practica": ["Busca el Evangelio del día.", "Recorre los cinco pasos de la lectio, con diez a quince minutos en total.", "Anota en tu cuaderno la frase que te tocó y tu respuesta.", "Repítelo cinco días y, al final de la semana, relee lo que escribiste."],
+   "practica": [
+    "Elige uno de los relatos de vocación para cada día.",
+    "Recorre los cinco pasos de la lectio, con diez a quince minutos en total.",
+    "Anota la frase que te tocó y qué te dice sobre tu propio llamado.",
+    "Al final de la semana, relee lo que escribiste: ¿qué se repite?"
+   ],
    "idea": "La Palabra de Dios se lee como una carta de alguien que te ama."
   },
   "1.3": {
    "comenzar": "Recuerda dos momentos de la última semana: uno en que te sentiste en paz por dentro, aunque estuvieras ocupado, y otro en que te sentiste inquieto, vacío o lejos de Dios. Escribe qué estabas haciendo en cada uno.",
-   "logros": ["Reconocer los movimientos interiores de consolación y desolación.", "Aplicar consejos básicos de discernimiento en tiempos difíciles.", "Practicar el examen diario para descubrir a Dios en lo vivido."],
+   "logros": [
+    "Reconocer los movimientos interiores de consolación y desolación.",
+    "Aplicar consejos básicos de discernimiento en tiempos difíciles.",
+    "Practicar el examen diario para descubrir a Dios en lo vivido."
+   ],
    "profundizar": {
     "titulo": "Señales para distinguir",
     "texto": "No toda emoción agradable es consolación ni toda tristeza es desolación. Algunas pistas para distinguir:\n\n- **La consolación** aumenta la fe, la esperanza y el amor; te acerca a Dios y a los demás; deja paz profunda, incluso en medio de una dificultad o de la pena.\n- **La desolación** apaga la fe y la esperanza; te encierra en ti mismo; deja inquietud, tristeza sin sentido y ganas de abandonar lo bueno.\n- **Una alegría superficial** (por ejemplo, después de burlarte de alguien) puede no ser consolación, porque no te acerca al amor.\n- **Una tristeza sana** (por ejemplo, al reconocer un error) puede ser consolación, porque te mueve a cambiar y te acerca a Dios.\n\nEl criterio de fondo es el fruto: ¿esto me lleva a amar más a Dios y a los demás? San Pablo enumera los frutos del Espíritu: «amor, alegría y paz, magnanimidad, afabilidad, bondad y confianza, mansedumbre y temperancia» (Gálatas 5,22-23). Donde aparecen, el Espíritu está actuando."
    },
    "caso": {
     "titulo": "Dos tardes",
-    "texto": "Una tarde, Tomás acompañó a su abuela al médico: fue cansador, pero volvió a casa con una paz enorme. Otra tarde, pasó cinco horas jugando en línea y se acostó vacío e irritable, aunque «lo pasó bien».",
-    "preguntas": ["¿Cuál tarde fue consolación y cuál desolación? ¿Por qué?", "¿Qué podría aprender Tomás de estas dos experiencias?"]
+    "texto": "Una tarde, Tomás acompañó como ayudante en una jornada con niños de su parroquia: terminó cansado, pero volvió a casa con una paz enorme. Otra tarde, pasó cinco horas jugando en línea y se acostó vacío e irritable, aunque «lo pasó bien».",
+    "preguntas": [
+     "¿Cuál tarde fue consolación y cuál desolación? ¿Por qué?",
+     "¿Qué podría estar diciéndole Dios a Tomás sobre el servicio?"
+    ]
    },
-   "claves": [["Consolación", "Movimiento interior que acerca a Dios y deja paz profunda."], ["Desolación", "Oscuridad interior que aleja de Dios y quita la esperanza."], ["Frutos del Espíritu", "Señales de la acción de Dios: amor, alegría, paz, bondad, entre otros."]],
+   "claves": [
+    [
+     "Consolación",
+     "Movimiento interior que acerca a Dios y deja paz profunda."
+    ],
+    [
+     "Desolación",
+     "Oscuridad interior que aleja de Dios y quita la esperanza."
+    ],
+    [
+     "Frutos del Espíritu",
+     "Señales de la acción de Dios: amor, alegría, paz, bondad, entre otros."
+    ]
+   ],
    "lectio": {
     "meditar": "Los discípulos dicen: «¿No ardía acaso nuestro corazón mientras nos hablaba en el camino?». Solo lo notan después. ¿En qué momentos de tu vida ardió tu corazón y lo reconociste más tarde?",
     "orar": "Agradece a Jesús por un momento de consolación reciente y entrégale una desolación que estés viviendo.",
     "vivir": "Cada noche de esta semana, anota un momento de consolación y uno de desolación."
    },
-   "practica": ["Cada noche, haz el examen en cinco minutos: agradecer, mirar el día, reconocer movimientos, pedir perdón y pedir luz para mañana.", "Anota una consolación y una desolación.", "Al final de la semana, busca qué se repite.", "Conversa lo descubierto con quien te acompaña espiritualmente."],
+   "practica": [
+    "Cada noche, haz el examen en cinco minutos: agradecer, mirar el día, reconocer movimientos, pedir perdón y pedir luz para mañana.",
+    "Anota una consolación y una desolación.",
+    "Fíjate especialmente en lo que sientes cuando ayudas o sirves a otros: ¿te deja paz o te deja vacío?",
+    "Al final de la semana, busca qué se repite.",
+    "Conversa lo descubierto con quien te acompaña espiritualmente."
+   ],
    "idea": "El fruto muestra el camino: lo que te lleva a amar más viene de Dios."
   },
   "1.4": {
    "comenzar": "Escribe una decisión que tengas por delante, grande o pequeña (qué estudiar, si aceptar un servicio, cómo resolver un conflicto). Escríbela como pregunta. Al final de la unidad volverás a ella con un método.",
-   "logros": ["Conocer pasos sencillos para tomar decisiones con Dios.", "Valorar la conciencia y el acompañamiento en el discernimiento.", "Aplicar el método a una decisión concreta de tu vida."],
+   "logros": [
+    "Conocer pasos sencillos para tomar decisiones con Dios.",
+    "Valorar la conciencia y el acompañamiento en el discernimiento.",
+    "Aplicar el método a una decisión concreta de tu vida."
+   ],
    "profundizar": {
     "titulo": "Cuando no hay una respuesta clara",
     "texto": "A veces, después de rezar y pensar, las dos opciones parecen buenas y no aparece una señal clara. Eso no significa que Dios no esté. Algunas claves:\n\n- **Entre dos bienes, puedes elegir con libertad:** Dios no siempre tiene una sola respuesta escondida que debes adivinar. Muchas veces te deja elegir y bendice lo que eliges con amor.\n- **Mira hacia dónde va tu deseo más profundo:** no el capricho del momento, sino lo que de verdad quieres para tu vida ante Dios.\n- **Imagina el final:** ¿qué te gustaría haber elegido al mirar atrás dentro de muchos años?\n- **Imagina a un amigo en tu lugar:** ¿qué le aconsejarías a él?\n- **Elige y ofrece:** después de discernir, toma la decisión y entrégasela a Dios. Si con el tiempo aparece paz, es una confirmación.\n\nLas decisiones sobre cosas malas no se disciernen: se rechazan. El discernimiento es para elegir entre caminos buenos."
    },
    "caso": {
-    "titulo": "Coordinar o no coordinar",
-    "texto": "A Catalina le ofrecen ser coordinadora del grupo el próximo año. Le gustaría, pero está en cuarto medio y quiere prepararse bien para la universidad. Sus amigos le dicen cosas distintas y ella está angustiada.",
-    "preguntas": ["¿Qué pasos del método podría aplicar Catalina?", "¿Con quién le convendría conversar antes de decidir?"]
+    "titulo": "El fútbol o el coro",
+    "texto": "A Benjamín lo invitaron a la selección de fútbol del colegio, que entrena los sábados en la mañana. Ese es justo el horario del coro de la parroquia, donde participa hace dos años y tiene buenos amigos. Las dos cosas le gustan y no puede hacer ambas.",
+    "preguntas": [
+     "¿Qué pasos del método podría aplicar Benjamín?",
+     "¿Es posible que las dos opciones sean buenas? ¿Cómo decidir entonces?"
+    ]
    },
-   "claves": [["Conciencia", "Lugar íntimo donde la persona escucha la voz de Dios y juzga lo que está bien y mal."], ["Discernir una decisión", "Buscar con Dios el camino mejor entre opciones buenas."], ["Confirmación", "Paz que permanece después de decidir, señal de que la elección va por buen camino."]],
+   "claves": [
+    [
+     "Conciencia",
+     "Lugar íntimo donde la persona escucha la voz de Dios y juzga lo que está bien y mal."
+    ],
+    [
+     "Discernir una decisión",
+     "Buscar con Dios el camino mejor entre opciones buenas."
+    ],
+    [
+     "Confirmación",
+     "Paz que permanece después de decidir, señal de que la elección va por buen camino."
+    ]
+   ],
    "lectio": {
     "meditar": "Samuel no reconoce la voz de Dios al principio y necesita la ayuda de Elí. ¿Quién es para ti un «Elí» que te ayuda a reconocer la voz de Dios?",
     "orar": "Repite durante el día la oración de Samuel: «Habla, Señor, que tu servidor escucha».",
-    "vivir": "Aplica el método a la decisión que escribiste al comienzo."
+    "vivir": "Aplica el método a la decisión que escribiste al comienzo. En la próxima unidad lo usarás para la pregunta de fondo de este curso."
    },
-   "practica": ["Escribe tu decisión como pregunta.", "Reza pidiendo libertad interior para aceptar lo que Dios quiera.", "Haz dos columnas con razones a favor y en contra de cada opción, y míralas ante Dios.", "Conversa tu discernimiento con tu asesor o acompañante antes de decidir."],
+   "practica": [
+    "Escribe tu decisión como pregunta.",
+    "Reza pidiendo libertad interior para aceptar lo que Dios quiera.",
+    "Haz dos columnas con razones a favor y en contra de cada opción, y míralas ante Dios.",
+    "Conversa tu discernimiento con tu asesor o acompañante antes de decidir."
+   ],
    "idea": "Habla, Señor, que tu servidor escucha."
+  },
+  "1.5": {
+   "comenzar": "Completa en tu cuaderno estas tres frases, sin corregirlas: «Me gustaría ser dirigente porque…», «Me da miedo ser dirigente porque…» y «Las personas que me conocen dicen que yo…». Son el material de esta unidad.",
+   "logros": [
+    "Comprender qué significa ser dirigente y qué compromisos implica.",
+    "Reconocer en tu propia vida las señales de un llamado a servir.",
+    "Dar una respuesta libre y acompañada: sí, todavía no u otro camino."
+   ],
+   "profundizar": {
+    "titulo": "Ser dirigente siendo adolescente",
+    "texto": "En muchos grupos hay dirigentes desde muy jóvenes, y es una gran oportunidad para crecer. Si tienes menos de 18 años, ten en cuenta algunas condiciones que te cuidan a ti y a los demás:\n\n- **Tus padres o apoderados deben estar de acuerdo.** Conversa con ellos antes de dar tu respuesta: ellos también disciernen contigo.\n- **Nunca estarás solo.** Un dirigente adolescente trabaja siempre en equipo y con asesores adultos responsables, que son quienes toman las decisiones delicadas.\n- **Tus estudios y tu familia van primero.** Ser dirigente no puede costarte el colegio ni tu descanso. Si un semestre se pone pesado, se puede conversar.\n- **Puedes pedir ayuda y puedes dar un paso al costado.** Decir «esto me está superando» no es fracasar: es ser honesto.\n- **No te toca resolver crisis.** Si un joven te cuenta algo grave, tu tarea es escuchar y avisar de inmediato a un asesor."
+   },
+   "caso": {
+    "titulo": "Martina y Joaquín",
+    "texto": "Martina, de 14 años, quiere ser dirigente porque sus dos mejores amigas lo van a ser y no quiere quedarse fuera. Joaquín, de 16, fue invitado por su asesor porque «escucha muy bien a los demás», pero tiene dudas: es tímido y no se imagina hablando frente a un grupo.",
+    "preguntas": [
+     "¿Qué señales de llamado ves en cada uno? ¿Qué motivaciones convendría purificar?",
+     "¿Qué le dirías a Joaquín sobre su timidez? ¿Y a Martina sobre su motivación?"
+    ]
+   },
+   "claves": [
+    [
+     "Vocación",
+     "Llamado de Dios a amar y servir de una manera concreta."
+    ],
+    [
+     "Confirmación de la comunidad",
+     "Cuando otros reconocen en ti los dones para un servicio y te invitan a asumirlo."
+    ],
+    [
+     "Libertad interior",
+     "Poder decir sí o no sin miedo ni presión, buscando lo que Dios quiere."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jeremías se excusa: «soy demasiado joven». Dios no le responde que es muy capaz, sino que estará con él. ¿Cuál es tu «soy demasiado joven»? ¿Qué cambia si Dios está contigo?",
+    "orar": "Dile a Dios con sinceridad lo que deseas y lo que temes. Pídele la libertad de responder lo que Él quiera.",
+    "vivir": "Escribe tu carta de respuesta y conversa con tu asesor esta semana."
+   },
+   "practica": [
+    "Relee tu cuaderno de este curso y subraya las consolaciones y desolaciones relacionadas con servir a otros.",
+    "Aplica los cinco pasos de la unidad 1.4 a la pregunta: «¿Quiero ser dirigente en esta etapa de mi vida?».",
+    "Conversa con tus padres o apoderados sobre lo que estás discerniendo.",
+    "Escribe tu carta de respuesta y llévala a una conversación con tu asesor."
+   ],
+   "idea": "Responder con libertad también es responder a Dios."
   }
  },
  "nuevas_unidades": [
@@ -94,22 +242,58 @@
    "objective": "Aprender a orar con la Sagrada Escritura mediante los pasos de la lectio divina, para escuchar a Dios que habla personalmente en su Palabra.",
    "intro": "Dios no es mudo: habla. Y una de las formas privilegiadas en que lo hace es su Palabra, la Biblia. Pero no basta con leerla como un libro de historia: hay que leerla orando. En esta unidad conocerás un camino que la Iglesia practica hace siglos, la lectio divina, para que la Palabra baje de la cabeza al corazón.",
    "sections": [
-    {"title": "Una carta de Dios para ti", "body": "La Biblia es Palabra de Dios escrita por autores humanos inspirados por el Espíritu Santo. Por eso no es un libro más: a través de ella, Dios sigue hablando hoy. El Concilio Vaticano II recuerda, citando a san Jerónimo, que «desconocer las Escrituras es desconocer a Cristo» (Dei Verbum 25).\n\nLeerla orando significa abrirla con una pregunta en el corazón: «Señor, ¿qué me quieres decir hoy?». No se trata de entenderlo todo, sino de dejarse tocar por una palabra, una frase o una escena."},
-    {"title": "Los pasos de la lectio divina", "body": "La tradición de la Iglesia propone un camino en varios pasos, que el papa Benedicto XVI explicó con sencillez (Verbum Domini 87):\n\n- **Lectura (¿qué dice el texto?):** leer despacio, dos o tres veces, fijándose en los personajes, los gestos y las palabras.\n- **Meditación (¿qué me dice a mí?):** dejar que el texto toque mi vida, mis preguntas y mis decisiones.\n- **Oración (¿qué le digo a Dios?):** responderle con mis propias palabras: agradecer, pedir perdón, suplicar, alabar.\n- **Contemplación (¿qué me regala?):** quedarme en silencio ante Él, sin hacer nada, dejando que su mirada me transforme.\n- **Acción (¿qué voy a hacer?):** llevar a la vida algo concreto de lo que recibí."},
-    {"title": "Marta y María", "body": "En Lucas 10,38-42, Jesús visita a dos hermanas. Marta está ocupada atendiéndolo; María se sienta a sus pies y escucha su palabra. Cuando Marta reclama, Jesús le responde con cariño que María eligió «la mejor parte».\n\nJesús no desprecia el servicio de Marta: la Iglesia necesita manos que sirvan. Pero muestra el orden: primero escuchar, después servir. Un servicio que no nace de la escucha se vuelve agobio y reclamo, como le pasó a Marta. La lectio divina es una forma concreta de sentarse a los pies de Jesús cada día."},
-    {"title": "Lectio en grupo", "body": "La lectio también se puede hacer en comunidad. Una forma sencilla para un grupo de jóvenes:\n\n- Una persona lee el texto en voz alta; los demás escuchan con los ojos cerrados.\n- Silencio de un minuto. Cada uno repite en voz alta, sin comentar, la palabra o frase que más le tocó.\n- Otra persona vuelve a leer el texto. Silencio. Quien quiera comparte brevemente qué le dice el texto hoy, sin discutir lo que dicen otros.\n- Una tercera lectura. Cada uno hace una oración breve en voz alta o en silencio.\n- Se termina con un compromiso personal y un Padre Nuestro.\n\nEsta forma tiene una regla de oro: nadie corrige ni opina sobre lo que comparte otro. Se escucha con respeto, porque Dios habla a cada uno de forma distinta."}
+    {
+     "title": "Una carta de Dios para ti",
+     "body": "La Biblia es Palabra de Dios escrita por autores humanos inspirados por el Espíritu Santo. Por eso no es un libro más: a través de ella, Dios sigue hablando hoy. El Concilio Vaticano II recuerda, citando a san Jerónimo, que «desconocer las Escrituras es desconocer a Cristo» (Dei Verbum 25).\n\nLeerla orando significa abrirla con una pregunta en el corazón: «Señor, ¿qué me quieres decir hoy?». No se trata de entenderlo todo, sino de dejarse tocar por una palabra, una frase o una escena."
+    },
+    {
+     "title": "Los pasos de la lectio divina",
+     "body": "La tradición de la Iglesia propone un camino en varios pasos, que el papa Benedicto XVI explicó con sencillez (Verbum Domini 87):\n\n- **Lectura (¿qué dice el texto?):** leer despacio, dos o tres veces, fijándose en los personajes, los gestos y las palabras.\n- **Meditación (¿qué me dice a mí?):** dejar que el texto toque mi vida, mis preguntas y mis decisiones.\n- **Oración (¿qué le digo a Dios?):** responderle con mis propias palabras: agradecer, pedir perdón, suplicar, alabar.\n- **Contemplación (¿qué me regala?):** quedarme en silencio ante Él, sin hacer nada, dejando que su mirada me transforme.\n- **Acción (¿qué voy a hacer?):** llevar a la vida algo concreto de lo que recibí."
+    },
+    {
+     "title": "Marta y María",
+     "body": "En Lucas 10,38-42, Jesús visita a dos hermanas. Marta está ocupada atendiéndolo; María se sienta a sus pies y escucha su palabra. Cuando Marta reclama, Jesús le responde con cariño que María eligió «la mejor parte».\n\nJesús no desprecia el servicio de Marta: la Iglesia necesita manos que sirvan. Pero muestra el orden: primero escuchar, después servir. Un servicio que no nace de la escucha se vuelve agobio y reclamo, como le pasó a Marta. La lectio divina es una forma concreta de sentarse a los pies de Jesús cada día."
+    },
+    {
+     "title": "Lectio en grupo",
+     "body": "La lectio también se puede hacer en comunidad. Una forma sencilla para un grupo de jóvenes:\n\n- Una persona lee el texto en voz alta; los demás escuchan con los ojos cerrados.\n- Silencio de un minuto. Cada uno repite en voz alta, sin comentar, la palabra o frase que más le tocó.\n- Otra persona vuelve a leer el texto. Silencio. Quien quiera comparte brevemente qué le dice el texto hoy, sin discutir lo que dicen otros.\n- Una tercera lectura. Cada uno hace una oración breve en voz alta o en silencio.\n- Se termina con un compromiso personal y un Padre Nuestro.\n\nEsta forma tiene una regla de oro: nadie corrige ni opina sobre lo que comparte otro. Se escucha con respeto, porque Dios habla a cada uno de forma distinta."
+    }
    ],
-   "bible": {"ref": "Lucas 10,38-42 · Marta y María", "comment": "Marta sirve, María escucha. Jesús no descalifica a Marta, pero le recuerda lo único necesario: estar con Él y escuchar su palabra. Lee el texto e imagínate en la casa: ¿dónde estás tú?"},
+   "bible": {
+    "ref": "Lucas 10,38-42 · Marta y María",
+    "comment": "Marta sirve, María escucha. Jesús no descalifica a Marta, pero le recuerda lo único necesario: estar con Él y escuchar su palabra. Lee el texto e imagínate en la casa: ¿dónde estás tú?"
+   },
    "church": [
-    {"source": "Dei Verbum 25", "text": "El Concilio invita a todos los fieles a leer con frecuencia la Sagrada Escritura, recordando que desconocer las Escrituras es desconocer a Cristo.", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"},
-    {"source": "Verbum Domini 86-87", "text": "Benedicto XVI recomienda la lectio divina y describe sus pasos: lectura, meditación, oración, contemplación y acción.", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"}
+    {
+     "source": "Dei Verbum 25",
+     "text": "El Concilio invita a todos los fieles a leer con frecuencia la Sagrada Escritura, recordando que desconocer las Escrituras es desconocer a Cristo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Verbum Domini 86-87",
+     "text": "Benedicto XVI recomienda la lectio divina y describe sus pasos: lectura, meditación, oración, contemplación y acción.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    }
    ],
-   "questions": ["¿Qué lugar ocupa hoy la Biblia en tu vida? ¿La lees, la escuchas solo en misa o casi no la tocas?", "¿Te pareces más a Marta o a María? ¿En qué situaciones?", "¿Qué paso de la lectio te parece más difícil? ¿Por qué?", "¿Qué texto de la Biblia te ha marcado alguna vez? ¿Qué te dijo?"],
+   "questions": [
+    "¿Qué lugar ocupa hoy la Biblia en tu vida? ¿La lees, la escuchas solo en misa o casi no la tocas?",
+    "¿Te pareces más a Marta o a María? ¿En qué situaciones?",
+    "¿Qué paso de la lectio te parece más difícil? ¿Por qué?",
+    "¿Qué texto de la Biblia te ha marcado alguna vez? ¿Qué te dijo?"
+   ],
    "activity": "Propón en tu grupo o en tu familia una lectio en comunidad con el Evangelio del próximo domingo, siguiendo los pasos de la lectio en grupo.",
    "prayer": "Señor Jesús, Palabra del Padre, quiero sentarme a tus pies como María y escucharte. Abre mis oídos para que tu Palabra no pase de largo, y mi corazón para que dé fruto en mi vida. Enséñame a leer la Biblia como una carta tuya y a servir a los demás desde lo que escucho de Ti. Amén.",
    "resources": [
-    {"title": "Dei Verbum (Concilio Vaticano II)", "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html", "note": "Constitución sobre la divina revelación. Lee el capítulo 6, números 21-26."},
-    {"title": "Verbum Domini (Benedicto XVI, 2010)", "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html", "note": "Números 86-87, sobre la lectio divina."}
+    {
+     "title": "Dei Verbum (Concilio Vaticano II)",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+     "note": "Constitución sobre la divina revelación. Lee el capítulo 6, números 21-26."
+    },
+    {
+     "title": "Verbum Domini (Benedicto XVI, 2010)",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html",
+     "note": "Números 86-87, sobre la lectio divina."
+    }
    ]
   },
   {
@@ -119,22 +303,58 @@
    "objective": "Aprender a reconocer los movimientos interiores de consolación y desolación, y a responder a ellos según la sabiduría espiritual de la Iglesia.",
    "intro": "Dentro de nosotros pasan muchas cosas: alegrías, tristezas, entusiasmos, desánimos, ganas de hacer el bien y ganas de abandonarlo todo. Discernir empieza por darse cuenta de esos movimientos y preguntarse de dónde vienen y hacia dónde llevan. En esta unidad aprenderás a mirar tu corazón con los ojos de la fe.",
    "sections": [
-    {"title": "Un corazón que se mueve", "body": "Dios habla no solo en la Biblia y en la Iglesia, sino también en lo que vivimos. Los movimientos interiores (entusiasmo, paz, inquietud, desgano) son como señales que vale la pena leer.\n\nEl papa Francisco recuerda que el discernimiento no es solo para grandes decisiones: es una práctica diaria, un don que se pide al Espíritu y se ejercita con la oración, el examen de conciencia y el acompañamiento (Gaudete et exsultate 166-169)."},
-    {"title": "Consolación y desolación", "body": "San Ignacio de Loyola enseñó a distinguir dos grandes tipos de movimientos:\n\n- **Consolación:** todo aumento de fe, esperanza y amor; la paz profunda que acerca a Dios y a los demás, aunque haya dificultades.\n- **Desolación:** la oscuridad, la inquietud, la falta de esperanza y de amor; el desánimo que aleja de Dios y de lo bueno.\n\nLas dos son normales en la vida espiritual. Nadie vive siempre en consolación. Lo importante es reconocerlas y saber qué hacer en cada una."},
-    {"title": "Qué hacer en tiempo de desolación", "body": "San Ignacio dejó algunos consejos muy prácticos para los momentos oscuros:\n\n- **No hacer cambios importantes:** en desolación no se deja la oración, el grupo ni una decisión tomada en paz.\n- **Insistir un poco más en la oración:** justamente cuando cuesta, vale la pena quedarse un rato más.\n- **Recordar la consolación pasada:** releer el cuaderno, volver a lo que Dios te mostró en tiempos de luz.\n- **Contarlo:** el mal espíritu quiere que la desolación quede en secreto. Hablarlo con alguien de confianza le quita fuerza.\n- **Tener paciencia:** la desolación pasa.\n\nImportante: la desolación espiritual no es lo mismo que una depresión o un problema de salud mental. Si la tristeza dura semanas, afecta el sueño, el apetito o las ganas de vivir, hay que buscar ayuda profesional además del acompañamiento espiritual."},
-    {"title": "El examen diario", "body": "La herramienta más sencilla para leer el corazón es el examen del día, que san Ignacio consideraba la oración más importante. Toma cinco a diez minutos antes de dormir:\n\n- **Agradecer:** recorre el día y da gracias por tres cosas concretas.\n- **Pedir luz:** pide al Espíritu que te ayude a ver tu día como Dios lo ve.\n- **Revisar:** ¿dónde sentiste consolación? ¿Dónde desolación? ¿Qué las provocó?\n- **Pedir perdón:** por lo que no estuvo bien, con confianza en la misericordia de Dios.\n- **Mirar el mañana:** ¿qué quieres pedirle a Dios para el día siguiente?\n\nCon el tiempo, el examen te ayuda a descubrir patrones: qué te acerca a Dios y qué te aleja."}
+    {
+     "title": "Un corazón que se mueve",
+     "body": "Dios habla no solo en la Biblia y en la Iglesia, sino también en lo que vivimos. Los movimientos interiores (entusiasmo, paz, inquietud, desgano) son como señales que vale la pena leer.\n\nEl papa Francisco recuerda que el discernimiento no es solo para grandes decisiones: es una práctica diaria, un don que se pide al Espíritu y se ejercita con la oración, el examen de conciencia y el acompañamiento (Gaudete et exsultate 166-169)."
+    },
+    {
+     "title": "Consolación y desolación",
+     "body": "San Ignacio de Loyola enseñó a distinguir dos grandes tipos de movimientos:\n\n- **Consolación:** todo aumento de fe, esperanza y amor; la paz profunda que acerca a Dios y a los demás, aunque haya dificultades.\n- **Desolación:** la oscuridad, la inquietud, la falta de esperanza y de amor; el desánimo que aleja de Dios y de lo bueno.\n\nLas dos son normales en la vida espiritual. Nadie vive siempre en consolación. Lo importante es reconocerlas y saber qué hacer en cada una."
+    },
+    {
+     "title": "Qué hacer en tiempo de desolación",
+     "body": "San Ignacio dejó algunos consejos muy prácticos para los momentos oscuros:\n\n- **No hacer cambios importantes:** en desolación no se deja la oración, el grupo ni una decisión tomada en paz.\n- **Insistir un poco más en la oración:** justamente cuando cuesta, vale la pena quedarse un rato más.\n- **Recordar la consolación pasada:** releer el cuaderno, volver a lo que Dios te mostró en tiempos de luz.\n- **Contarlo:** el mal espíritu quiere que la desolación quede en secreto. Hablarlo con alguien de confianza le quita fuerza.\n- **Tener paciencia:** la desolación pasa.\n\nImportante: la desolación espiritual no es lo mismo que una depresión o un problema de salud mental. Si la tristeza dura semanas, afecta el sueño, el apetito o las ganas de vivir, hay que buscar ayuda profesional además del acompañamiento espiritual."
+    },
+    {
+     "title": "El examen diario",
+     "body": "La herramienta más sencilla para leer el corazón es el examen del día, que san Ignacio consideraba la oración más importante. Toma cinco a diez minutos antes de dormir:\n\n- **Agradecer:** recorre el día y da gracias por tres cosas concretas.\n- **Pedir luz:** pide al Espíritu que te ayude a ver tu día como Dios lo ve.\n- **Revisar:** ¿dónde sentiste consolación? ¿Dónde desolación? ¿Qué las provocó?\n- **Pedir perdón:** por lo que no estuvo bien, con confianza en la misericordia de Dios.\n- **Mirar el mañana:** ¿qué quieres pedirle a Dios para el día siguiente?\n\nCon el tiempo, el examen te ayuda a descubrir patrones: qué te acerca a Dios y qué te aleja."
+    }
    ],
-   "bible": {"ref": "Lucas 24,28-35 · «¿No ardía nuestro corazón?»", "comment": "Después de partir el pan con Jesús, los discípulos de Emaús releen el camino y descubren que su corazón ardía mientras Él les hablaba. Solo lo reconocen después. Así funciona muchas veces el examen: mirando atrás descubrimos que Dios estaba ahí."},
+   "bible": {
+    "ref": "Lucas 24,28-35 · «¿No ardía nuestro corazón?»",
+    "comment": "Después de partir el pan con Jesús, los discípulos de Emaús releen el camino y descubren que su corazón ardía mientras Él les hablaba. Solo lo reconocen después. Así funciona muchas veces el examen: mirando atrás descubrimos que Dios estaba ahí."
+   },
    "church": [
-    {"source": "Gaudete et exsultate 166-169", "text": "El discernimiento es un don que hay que pedir y una práctica cotidiana, necesaria no solo en momentos extraordinarios.", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html"},
-    {"source": "Christus vivit, capítulo 9", "text": "El papa dedica el último capítulo de la exhortación a los jóvenes al discernimiento: aprender a reconocer la voz de Dios en la propia vida.", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"}
+    {
+     "source": "Gaudete et exsultate 166-169",
+     "text": "El discernimiento es un don que hay que pedir y una práctica cotidiana, necesaria no solo en momentos extraordinarios.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html"
+    },
+    {
+     "source": "Christus vivit, capítulo 9",
+     "text": "El papa dedica el último capítulo de la exhortación a los jóvenes al discernimiento: aprender a reconocer la voz de Dios en la propia vida.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
    ],
-   "questions": ["¿Qué experiencias de consolación recuerdas de este último tiempo?", "¿Cómo reaccionas habitualmente cuando estás en desolación?", "¿Hay alguna decisión que hayas tomado en un momento oscuro y que convendría revisar?", "¿A quién podrías contarle lo que vives por dentro?"],
+   "questions": [
+    "¿Qué experiencias de consolación recuerdas de este último tiempo?",
+    "¿Cómo reaccionas habitualmente cuando estás en desolación?",
+    "¿Hay alguna decisión que hayas tomado en un momento oscuro y que convendría revisar?",
+    "¿A quién podrías contarle lo que vives por dentro?"
+   ],
    "activity": "Haz el examen diario durante siete noches seguidas y anota cada día una consolación y una desolación. Al final de la semana, busca qué se repite.",
    "prayer": "Espíritu Santo, luz de los corazones, enséñame a reconocer tu paso por mi vida. Cuando estoy en consolación, ayúdame a agradecer y a guardar en la memoria tu luz. Cuando estoy en desolación, sostenme, no me dejes abandonar el bien y dame la confianza de que la noche pasa. Que mi corazón arda cada vez que me hablas. Amén.",
    "resources": [
-    {"title": "Gaudete et exsultate (Francisco, 2018)", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html", "note": "Capítulo 5: combate, vigilancia y discernimiento."},
-    {"title": "Christus vivit, capítulo 9", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html", "note": "El discernimiento en la vida de los jóvenes."}
+    {
+     "title": "Gaudete et exsultate (Francisco, 2018)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html",
+     "note": "Capítulo 5: combate, vigilancia y discernimiento."
+    },
+    {
+     "title": "Christus vivit, capítulo 9",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "El discernimiento en la vida de los jóvenes."
+    }
    ]
   },
   {
@@ -144,30 +364,198 @@
    "objective": "Conocer un camino sencillo para tomar decisiones a la luz de la fe, valorando la conciencia, la oración y el acompañamiento.",
    "intro": "La vida está llena de decisiones: algunas pequeñas, como qué hacer el fin de semana, y otras grandes, como qué estudiar o a qué servicio decir que sí. Dios no decide por nosotros, pero nos acompaña y nos ilumina. En esta unidad aprenderás un camino para decidir con Él.",
    "sections": [
-    {"title": "La conciencia, lugar de encuentro", "body": "El Catecismo enseña que en lo más profundo de la conciencia la persona descubre una ley que no se dio a sí misma y a la que debe obedecer; es el lugar donde está a solas con Dios y donde escucha su voz (Catecismo 1776). Por eso, decidir con Dios no es buscar señales mágicas, sino escuchar con atención en ese lugar íntimo.\n\nLa conciencia se forma: con la Palabra de Dios, la enseñanza de la Iglesia, la oración y el consejo de personas sabias. Una conciencia bien formada es la mejor brújula para decidir."},
-    {"title": "Antes de decidir: libertad interior", "body": "Para escuchar a Dios hace falta estar dispuesto a aceptar lo que Él muestre. Si ya decidiste por dentro y solo buscas que Dios te dé la razón, no estás discerniendo.\n\nSan Ignacio hablaba de estar «indiferente»: no en el sentido de que nada te importe, sino de no estar atado a una opción antes de tiempo. Una buena oración para empezar es: «Señor, quiero lo que Tú quieras para mí; dame la libertad para elegirlo»."},
-    {"title": "Un camino en cinco pasos", "body": "1. **Formular la pregunta:** escribir con claridad qué hay que decidir y cuáles son las opciones.\n2. **Informarse:** reunir los datos necesarios. Discernir no es improvisar.\n3. **Orar con las razones:** hacer una lista de ventajas y desventajas de cada opción y presentarlas ante Dios, en silencio, mirando cuál pesa más a la luz del amor.\n4. **Consultar:** conversar con un acompañante espiritual, con la familia o con personas de confianza que conozcan la situación.\n5. **Decidir y confirmar:** elegir, ofrecer la decisión a Dios y observar en los días siguientes si permanece la paz. La paz profunda es señal de confirmación."},
-    {"title": "La vocación: la pregunta de fondo", "body": "Detrás de muchas decisiones hay una pregunta más grande: ¿para qué estoy en el mundo? ¿Cómo quiere Dios que ame y sirva? Esa es la pregunta por la vocación.\n\nEl papa Francisco dedica un capítulo de *Christus vivit* a la vocación y recuerda que todos estamos llamados primero a la amistad con Jesús, y desde ahí a un camino concreto: el matrimonio, la vida consagrada, el sacerdocio, y también una profesión y un servicio en la sociedad. No hace falta tener todo claro a los 15 años. Lo importante es irse haciendo la pregunta con Dios, sin miedo."}
+    {
+     "title": "La conciencia, lugar de encuentro",
+     "body": "El Catecismo enseña que en lo más profundo de la conciencia la persona descubre una ley que no se dio a sí misma y a la que debe obedecer; es el lugar donde está a solas con Dios y donde escucha su voz (Catecismo 1776). Por eso, decidir con Dios no es buscar señales mágicas, sino escuchar con atención en ese lugar íntimo.\n\nLa conciencia se forma: con la Palabra de Dios, la enseñanza de la Iglesia, la oración y el consejo de personas sabias. Una conciencia bien formada es la mejor brújula para decidir."
+    },
+    {
+     "title": "Antes de decidir: libertad interior",
+     "body": "Para escuchar a Dios hace falta estar dispuesto a aceptar lo que Él muestre. Si ya decidiste por dentro y solo buscas que Dios te dé la razón, no estás discerniendo.\n\nSan Ignacio hablaba de estar «indiferente»: no en el sentido de que nada te importe, sino de no estar atado a una opción antes de tiempo. Una buena oración para empezar es: «Señor, quiero lo que Tú quieras para mí; dame la libertad para elegirlo»."
+    },
+    {
+     "title": "Un camino en cinco pasos",
+     "body": "1. **Formular la pregunta:** escribir con claridad qué hay que decidir y cuáles son las opciones.\n2. **Informarse:** reunir los datos necesarios. Discernir no es improvisar.\n3. **Orar con las razones:** hacer una lista de ventajas y desventajas de cada opción y presentarlas ante Dios, en silencio, mirando cuál pesa más a la luz del amor.\n4. **Consultar:** conversar con un acompañante espiritual, con la familia o con personas de confianza que conozcan la situación.\n5. **Decidir y confirmar:** elegir, ofrecer la decisión a Dios y observar en los días siguientes si permanece la paz. La paz profunda es señal de confirmación."
+    },
+    {
+     "title": "La vocación: la pregunta de fondo",
+     "body": "Detrás de muchas decisiones hay una pregunta más grande: ¿para qué estoy en el mundo? ¿Cómo quiere Dios que ame y sirva? Esa es la pregunta por la vocación.\n\nEl papa Francisco dedica un capítulo de *Christus vivit* a la vocación y recuerda que todos estamos llamados primero a la amistad con Jesús, y desde ahí a un camino concreto: el matrimonio, la vida consagrada, el sacerdocio, y también una profesión y un servicio en la sociedad. No hace falta tener todo claro a los 15 años. Lo importante es irse haciendo la pregunta con Dios, sin miedo."
+    }
    ],
-   "bible": {"ref": "1 Samuel 3,1-10 · «Habla, Señor, que tu servidor escucha»", "comment": "El joven Samuel escucha una voz en la noche y no sabe que es Dios. Corre tres veces donde Elí, hasta que el sacerdote le enseña a responder. La voz de Dios se aprende a reconocer, y casi siempre con la ayuda de alguien que acompaña."},
+   "bible": {
+    "ref": "1 Samuel 3,1-10 · «Habla, Señor, que tu servidor escucha»",
+    "comment": "El joven Samuel escucha una voz en la noche y no sabe que es Dios. Corre tres veces donde Elí, hasta que el sacerdote le enseña a responder. La voz de Dios se aprende a reconocer, y casi siempre con la ayuda de alguien que acompaña."
+   },
    "church": [
-    {"source": "Catecismo 1776", "text": "La conciencia es el núcleo más secreto y el sagrario de la persona, donde está a solas con Dios, cuya voz resuena en lo más íntimo.", "url": "https://www.vatican.va/archive/catechism_sp/p3s1c1a6_sp.html"},
-    {"source": "Christus vivit, capítulo 8", "text": "La vocación es un llamado al servicio misionero a los demás, que nace de la amistad con Jesús.", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"}
+    {
+     "source": "Catecismo 1776",
+     "text": "La conciencia es el núcleo más secreto y el sagrario de la persona, donde está a solas con Dios, cuya voz resuena en lo más íntimo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s1c1a6_sp.html"
+    },
+    {
+     "source": "Christus vivit, capítulo 8",
+     "text": "La vocación es un llamado al servicio misionero a los demás, que nace de la amistad con Jesús.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
    ],
-   "questions": ["¿Qué decisión importante tienes por delante?", "¿Te sientes libre frente a las opciones o ya estás inclinado hacia una?", "¿Quién podría ser para ti como Elí para Samuel?", "¿Qué intuyes hoy sobre tu vocación? Escríbelo sin miedo, aunque sea una idea vaga."],
+   "questions": [
+    "¿Qué decisión importante tienes por delante?",
+    "¿Te sientes libre frente a las opciones o ya estás inclinado hacia una?",
+    "¿Quién podría ser para ti como Elí para Samuel?",
+    "¿Qué intuyes hoy sobre tu vocación? Escríbelo sin miedo, aunque sea una idea vaga."
+   ],
    "activity": "Aplica los cinco pasos a una decisión real que tengas pendiente y conversa el resultado con tu asesor o acompañante espiritual.",
    "prayer": "Habla, Señor, que tu servidor escucha. Me presento ante Ti con mis preguntas y mis decisiones. Dame libertad para querer lo que Tú quieres, luz para ver el camino y valentía para seguirlo. Pon a mi lado personas que me ayuden a reconocer tu voz, como Elí a Samuel. Y que, decida lo que decida, lo haga contigo. Amén.",
    "resources": [
-    {"title": "Catecismo: la conciencia moral", "url": "https://www.vatican.va/archive/catechism_sp/p3s1c1a6_sp.html", "note": "Números 1776-1802."},
-    {"title": "Christus vivit, capítulos 8 y 9", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html", "note": "La vocación y el discernimiento."}
+    {
+     "title": "Catecismo: la conciencia moral",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s1c1a6_sp.html",
+     "note": "Números 1776-1802."
+    },
+    {
+     "title": "Christus vivit, capítulos 8 y 9",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "La vocación y el discernimiento."
+    }
+   ]
+  },
+  {
+   "id": "1.5",
+   "title": "¿Me llama Dios a ser dirigente?",
+   "time": "90 min",
+   "objective": "Discernir, a la luz de lo aprendido en este camino, si Dios te invita a servir como dirigente en esta etapa de tu vida, y dar una respuesta libre y acompañada.",
+   "intro": "Llegaste al final de este camino con una pregunta concreta: ¿me llama Dios a servir como dirigente? Ser dirigente no es un premio para los mejores ni una obligación: es una forma de responder al amor de Dios acompañando a otros jóvenes. En esta unidad vas a mirar con honestidad tus deseos, tus dones y tus circunstancias, y vas a dar una respuesta. Puede ser «sí», «todavía no» u «otro camino»: las tres pueden ser fieles a Dios.",
+   "sections": [
+    {
+     "title": "Qué es, y qué no es, ser dirigente",
+     "body": "Un dirigente **acompaña a un grupo** de niños o jóvenes, **prepara los encuentros** con su equipo, **es testimonio** de Jesús con su manera de tratar a los demás y **trabaja de la mano de asesores adultos** y de la parroquia.\n\nSer dirigente **no** es ser perfecto, saberlo todo, mandar a otros ni cargar solo con el grupo. Tampoco es un compromiso para toda la vida: es un servicio por una etapa, que se asume por un tiempo definido y se puede revisar.\n\nSí implica compromisos concretos: el encuentro con tu grupo, las reuniones del equipo y tiempo para tu propia formación. Antes de responder, conviene saber cuánto tiempo semanal pide en tu grupo."
+    },
+    {
+     "title": "Señales de un llamado",
+     "body": "Dios no suele llamar con voces del cielo, sino a través de señales que se van juntando. Algunas de ellas:\n\n- **Un deseo que vuelve y deja paz:** no un entusiasmo de un día ni la presión de otros, sino algo que aparece una y otra vez en tu oración.\n- **Dones que otros reconocen:** saber escuchar, alegría, responsabilidad, paciencia con los más chicos.\n- **Frutos de consolación:** cuando has ayudado o servido, ¿te has sentido más cerca de Dios y de los demás? (lo trabajaste en la unidad 1.3).\n- **La comunidad confirma:** tus asesores o tu equipo ven en ti esos dones y te invitan.\n- **Libertad:** puedes decir sí o no sin miedo a decepcionar a nadie.\n\nNo hace falta que estén todas. Pero si ninguna aparece, vale la pena esperar."
+    },
+    {
+     "title": "Mirar con realismo",
+     "body": "Un buen discernimiento también mira lo concreto:\n\n- **Tus motivaciones:** es normal que se mezclen cosas (estar con los amigos, sentirse importante, querer ayudar). Pregúntate con honestidad: ¿quiero servir, o quiero que me vean?\n- **Tu tiempo:** estudios, familia, descanso. ¿Qué tendrías que dejar o reorganizar?\n- **Tu familia:** si eres menor de edad, tus padres o apoderados deben estar de acuerdo.\n- **Tu momento personal:** si estás pasando por algo difícil, a veces lo primero es dejarse cuidar. Servir vendrá después."
+    },
+    {
+     "title": "Tres respuestas posibles",
+     "body": "- **Sí, ahora:** conversa tu decisión con tu asesor y comienza la formación de dirigentes, el siguiente paso de tu ruta: [El Arte de Encontrarnos](#/curso/arte-de-encontrarnos).\n- **Todavía no:** sigue participando en tu grupo, colabora como ayudante en alguna actividad y vuelve a hacerte la pregunta en unos meses.\n- **Por otro camino:** el servicio tiene muchas formas: el coro, la liturgia, las misiones, la ayuda social, tu propia familia. Dios no te quiere menos por eso.\n\nLo importante no es qué respondes, sino que respondas con Dios y con libertad. Como enseña el papa Francisco, cada uno puede decir: «yo soy una misión en esta tierra»."
+    }
+   ],
+   "bible": {
+    "ref": "Jeremías 1,4-8 · «Soy demasiado joven»",
+    "comment": "Jeremías siente que no está preparado y se excusa por su edad. Dios no le dice que es muy capaz, sino que no tenga miedo, porque Él estará con él. La juventud no es un obstáculo para Dios: Él no llama a los capacitados, sino que capacita a los que llama."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 253-254",
+     "text": "La vocación es un llamado a servir a los demás. El papa invita a cada joven a reconocer que es «una misión en esta tierra», citando Evangelii gaudium 273.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Christus vivit 285-286",
+     "text": "Para discernir la propia vocación, el papa propone preguntas como: ¿me conozco de verdad?, ¿qué alegra o entristece mi corazón?, ¿cómo puedo servir mejor y ser más útil a los demás?",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué señales de llamado reconoces en tu vida? ¿Cuáles no aparecen todavía?",
+    "¿Qué motivaciones te mueven a ser dirigente? ¿Cuáles conviene purificar?",
+    "¿Qué te haría falta reorganizar en tu semana para servir bien?",
+    "Si tu respuesta fuera «todavía no» o «por otro camino», ¿cómo te sentirías? ¿Por qué?"
+   ],
+   "activity": "Escribe una carta a Dios con tu respuesta (sí, todavía no o por otro camino) y las razones que la sostienen. Llévala a una conversación con tu asesor o acompañante antes de comunicarla al equipo.",
+   "prayer": "Señor, Tú me conoces desde antes de nacer, como a Jeremías. Aquí estoy, con mis ganas y mis miedos, con mis dones y mis límites. No quiero responder por presión ni por quedar bien, sino porque Tú me lo pides. Si me llamas a servir, dame un corazón disponible; si me pides esperar, dame paciencia; si me muestras otro camino, dame alegría para seguirlo. Que todo lo que haga sea para amarte y servir a los demás. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, capítulos 8 y 9",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "La vocación y el discernimiento de los jóvenes."
+    }
    ]
   }
  ],
  "evaluacion": [
-  {"q": "¿Cuál es el orden de los pasos de la lectio divina?", "options": ["Orar, leer, actuar y meditar.", "Leer, meditar, orar, contemplar y actuar.", "Actuar, leer y contemplar."], "correct": 1, "feedback": "La lectio avanza de lo que dice el texto a lo que me dice, lo que le respondo a Dios, el silencio ante Él y la acción."},
-  {"q": "Según san Ignacio, ¿qué conviene hacer en tiempo de desolación?", "options": ["Tomar decisiones importantes para salir rápido del malestar.", "No hacer cambios importantes, insistir en la oración y contarlo a alguien de confianza.", "Dejar de rezar hasta sentirse mejor."], "correct": 1, "feedback": "En desolación se mantiene lo decidido en paz, se persevera en la oración y se pide compañía."},
-  {"q": "¿Cuál es el criterio de fondo para reconocer la acción de Dios?", "options": ["Que me haga sentir bien en el momento.", "Que me lleve a amar más a Dios y a los demás.", "Que coincida con lo que yo ya quería."], "correct": 1, "feedback": "El fruto es la señal: lo que aumenta la fe, la esperanza y el amor viene de Dios."},
-  {"q": "Una tristeza que dura semanas y afecta el sueño, el apetito o las ganas de vivir, ¿qué requiere?", "options": ["Solo más oración.", "Acompañamiento espiritual y también ayuda profesional de salud.", "Esperar a que se pase sola."], "correct": 1, "feedback": "La desolación espiritual no es lo mismo que un problema de salud mental. Ante esas señales, hay que buscar ayuda profesional."},
-  {"q": "¿Qué significa estar «indiferente» en el sentido de san Ignacio?", "options": ["Que nada te importe.", "No estar atado a una opción antes de tiempo, para poder elegir lo que Dios muestre.", "Dejar que otros decidan por ti."], "correct": 1, "feedback": "La indiferencia ignaciana es libertad interior para elegir lo mejor."}
- ]
+  {
+   "q": "¿Cuál es el orden de los pasos de la lectio divina?",
+   "options": [
+    "Orar, leer, actuar y meditar.",
+    "Leer, meditar, orar, contemplar y actuar.",
+    "Actuar, leer y contemplar."
+   ],
+   "correct": 1,
+   "feedback": "La lectio avanza de lo que dice el texto a lo que me dice, lo que le respondo a Dios, el silencio ante Él y la acción."
+  },
+  {
+   "q": "Según san Ignacio, ¿qué conviene hacer en tiempo de desolación?",
+   "options": [
+    "Tomar decisiones importantes para salir rápido del malestar.",
+    "No hacer cambios importantes, insistir en la oración y contarlo a alguien de confianza.",
+    "Dejar de rezar hasta sentirse mejor."
+   ],
+   "correct": 1,
+   "feedback": "En desolación se mantiene lo decidido en paz, se persevera en la oración y se pide compañía."
+  },
+  {
+   "q": "¿Cuál es el criterio de fondo para reconocer la acción de Dios?",
+   "options": [
+    "Que me haga sentir bien en el momento.",
+    "Que me lleve a amar más a Dios y a los demás.",
+    "Que coincida con lo que yo ya quería."
+   ],
+   "correct": 1,
+   "feedback": "El fruto es la señal: lo que aumenta la fe, la esperanza y el amor viene de Dios."
+  },
+  {
+   "q": "Una tristeza que dura semanas y afecta el sueño, el apetito o las ganas de vivir, ¿qué requiere?",
+   "options": [
+    "Solo más oración.",
+    "Acompañamiento espiritual y también ayuda profesional de salud.",
+    "Esperar a que se pase sola."
+   ],
+   "correct": 1,
+   "feedback": "La desolación espiritual no es lo mismo que un problema de salud mental. Ante esas señales, hay que buscar ayuda profesional."
+  },
+  {
+   "q": "¿Qué significa estar «indiferente» en el sentido de san Ignacio?",
+   "options": [
+    "Que nada te importe.",
+    "No estar atado a una opción antes de tiempo, para poder elegir lo que Dios muestre.",
+    "Dejar que otros decidan por ti."
+   ],
+   "correct": 1,
+   "feedback": "La indiferencia ignaciana es libertad interior para elegir lo mejor."
+  },
+  {
+   "q": "Según este curso, ¿qué es ser dirigente?",
+   "options": [
+    "Un premio para los mejores del grupo.",
+    "Un servicio a otros jóvenes, por una etapa, en equipo y acompañado por adultos.",
+    "Un cargo para toda la vida."
+   ],
+   "correct": 1,
+   "feedback": "Ser dirigente es un servicio que se asume por un tiempo, en equipo y con asesores adultos responsables."
+  },
+  {
+   "q": "¿Cuál de estas es una señal de un llamado a servir?",
+   "options": [
+    "Que mis amigos también van a ser dirigentes.",
+    "Un deseo que vuelve, deja paz y que otros también reconocen en mí.",
+    "Sentir que tengo que ser perfecto para ayudar."
+   ],
+   "correct": 1,
+   "feedback": "El llamado se reconoce por un deseo que permanece y da paz, por los dones que la comunidad confirma y por los frutos de consolación."
+  },
+  {
+   "q": "Si después de discernir tu respuesta es «todavía no», ¿qué significa?",
+   "options": [
+    "Que fallaste en el camino.",
+    "Que puedes seguir participando, prepararte y volver a preguntarte más adelante.",
+    "Que Dios ya no te va a llamar."
+   ],
+   "correct": 1,
+   "feedback": "«Todavía no» es una respuesta honesta y libre. Dios sigue caminando contigo y la pregunta se puede retomar."
+  }
+ ],
+ "titulo": "Escuchar y responder"
 }

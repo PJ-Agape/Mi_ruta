@@ -138,5 +138,7 @@
       "presentacion": ""
     }
   },
-  "programa": true
+  "programa": true,
+  "paso": 4,
+  "etapa": "Liderar"
 }

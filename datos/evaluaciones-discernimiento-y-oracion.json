@@ -62,6 +62,36 @@
     ],
     "correcta": 1,
     "explicacion": "La indiferencia ignaciana es libertad interior para elegir lo mejor."
+   },
+   {
+    "pregunta": "Según este curso, ¿qué es ser dirigente?",
+    "opciones": [
+     "Un premio para los mejores del grupo.",
+     "Un servicio a otros jóvenes, por una etapa, en equipo y acompañado por adultos.",
+     "Un cargo para toda la vida."
+    ],
+    "correcta": 1,
+    "explicacion": "Ser dirigente es un servicio que se asume por un tiempo, en equipo y con asesores adultos responsables."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una señal de un llamado a servir?",
+    "opciones": [
+     "Que mis amigos también van a ser dirigentes.",
+     "Un deseo que vuelve, deja paz y que otros también reconocen en mí.",
+     "Sentir que tengo que ser perfecto para ayudar."
+    ],
+    "correcta": 1,
+    "explicacion": "El llamado se reconoce por un deseo que permanece y da paz, por los dones que la comunidad confirma y por los frutos de consolación."
+   },
+   {
+    "pregunta": "Si después de discernir tu respuesta es «todavía no», ¿qué significa?",
+    "opciones": [
+     "Que fallaste en el camino.",
+     "Que puedes seguir participando, prepararte y volver a preguntarte más adelante.",
+     "Que Dios ya no te va a llamar."
+    ],
+    "correcta": 1,
+    "explicacion": "«Todavía no» es una respuesta honesta y libre. Dios sigue caminando contigo y la pregunta se puede retomar."
    }
   ]
  }
