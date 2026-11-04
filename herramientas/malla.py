@@ -158,6 +158,8 @@ COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-litur
 
 
 ESCRITURA = [f"se-{i}" for i in range(1, 10)]
+# Lo que la portada muestra en «Nuevos».
+NUEVOS_IDS = {"diplomado-escritura", "catequista", "el-credo", "sacramentos", "logistica"}
 
 
 def modulos():
@@ -287,6 +289,8 @@ def main():
                              "intro": m.get("intro", ""), "clases": m["clases"]})
                 evals.update(m["evals"])
         ficha = {"id": c["id"], "titulo": c["titulo"], "subtitulo": c["subtitulo"], "descripcion": c["descripcion"],
+                 "nivel": "diplomado" if c["id"].startswith("diplomado") else "curso", "nuevo": c["id"] in NUEVOS_IDS,
+                 "modulos_n": len(c["obligatorios"]) + c["elige"],
                  "duracion": f"{horas_txt(horas_obl + horas_opt)} · {len(c['obligatorios'])} módulos" + (f" obligatorios y {c['elige']} optativo{'s' if c['elige'] > 1 else ''}" if c["elige"] else ""),
                  "modalidad": c.get("modalidad", "En línea, a tu ritmo"), "publico": c["publico"], "tipo": "curso", "orden": orden,
                  "elige": c["elige"], "horas": horas_obl + horas_opt, "recursos": {}}
@@ -294,7 +298,7 @@ def main():
         lista.append(c["id"])
     for mid in COMPLEMENTARIAS:
         m = M[mid]
-        ficha = {"id": mid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"],
+        ficha = {"id": mid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": mid in NUEVOS_IDS,
                  "duracion": "6 sesiones · 9 horas", "modalidad": "En línea, a tu ritmo", "tipo": "complementaria", "horas": 9, "recursos": {}}
         mods = [{"id": mid, "numero": 1, "titulo": m["titulo"], "tipo": "obligatorio", "etiqueta": "Módulo",
                  "duracion": "6 sesiones · 9 horas", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]

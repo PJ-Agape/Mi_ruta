@@ -400,3 +400,38 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .taller-cierre { background: #fff; border: 1px solid rgba(11, 37, 102, .14); border-left: 5px solid var(--acento); border-radius: 14px; padding: 1rem 1.2rem; margin: 1rem 0 1.4rem; }
 .taller-cierre h2, .evaluacion-titulo { font-family: "Fraunces", Georgia, serif; font-size: 1.25rem; margin: 0 0 .5rem; color: var(--tinta); }
 .evaluacion-titulo { margin-top: 1.2rem; }
+
+/* Portada al estilo catálogo */
+.portada-inicio { text-align: center; }
+.portada-inicio .portada-lema { max-width: 560px; margin: .6rem auto 1rem; }
+.buscador { display: flex; align-items: center; gap: .5rem; max-width: 520px; margin: 0 auto .8rem; background: #fff; border-radius: 999px; padding: .55rem 1rem; box-shadow: 0 6px 20px rgba(0, 0, 0, .15); }
+.buscador input { flex: 1; border: 0; outline: none; font: inherit; font-size: 1rem; color: var(--tinta); background: transparent; min-width: 0; }
+.icono-buscar { width: 20px; height: 20px; color: var(--tinta-suave); flex: none; }
+.portada-inicio .botones { justify-content: center; }
+.pestanas-inicio { display: flex; gap: .4rem; overflow-x: auto; margin: 1.2rem 0 .4rem; padding-bottom: .2rem; }
+.pestanas-inicio button { flex: none; border: 1px solid var(--linea); background: var(--papel); color: var(--tinta); border-radius: 999px; padding: .5rem 1rem; font: inherit; font-weight: 600; cursor: pointer; }
+.pestanas-inicio button[aria-selected="true"] { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .75rem; margin-top: .6rem; }
+.tile { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: .45rem; background: var(--papel); border: 1px solid var(--linea); border-radius: 16px; padding: .9rem .9rem 1rem; text-decoration: none; color: var(--tinta); min-height: 132px; transition: transform .15s, box-shadow .15s; overflow: hidden; }
+.tile:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(11, 37, 102, .1); }
+.tile[hidden] { display: none !important; }
+.tile-icono { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; background: var(--primario-claro); color: var(--primario); }
+.tile-icono .icono { width: 24px; height: 24px; }
+.tile-diplomado .tile-icono { background: #fde3d6; color: var(--acento); }
+.tile-modulo .tile-icono { background: #fff0c2; color: #8a6400; }
+.tile-titulo { font-weight: 700; font-size: .95rem; line-height: 1.25; }
+.tile-meta { font-size: .8rem; color: var(--tinta-suave); margin-top: auto; }
+.tile-nuevo { position: absolute; top: .7rem; right: .7rem; font-size: .68rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #fff; background: var(--acento); border-radius: 999px; padding: .15rem .5rem; }
+.tile-avance { position: absolute; left: 0; bottom: 0; height: 4px; width: var(--pct); background: var(--primario); }
+.area .categoria-titulo { display: flex; align-items: center; gap: .45rem; margin-top: 1.2rem; }
+.icono-area { width: 20px; height: 20px; color: var(--acento); }
+.sin-resultados { text-align: center; color: var(--tinta-suave); margin: 1.5rem 0; }
+.pasos { list-style: none; padding: 0; margin: .6rem 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .75rem; counter-reset: paso; }
+.pasos li { counter-increment: paso; background: var(--papel); border: 1px solid var(--linea); border-radius: 16px; padding: 1rem; display: flex; flex-direction: column; gap: .3rem; }
+.pasos li::before { content: counter(paso); display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--primario); color: #fff; font-weight: 700; margin-bottom: .2rem; }
+.pasos li span { color: var(--tinta-suave); font-size: .92rem; }
+.ayuda details { background: var(--papel); border: 1px solid var(--linea); border-radius: 12px; padding: .7rem 1rem; margin-top: .5rem; }
+.ayuda summary { cursor: pointer; font-weight: 600; }
+.ayuda details p { margin: .5rem 0 0; color: var(--tinta-suave); }
+@media (max-width: 600px) { .tiles { grid-template-columns: repeat(2, 1fr); } .tile { min-height: 120px; } }
+.portada-inicio .firma { justify-content: center; text-align: center; margin-left: auto; margin-right: auto; }

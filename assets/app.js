@@ -240,50 +240,130 @@
 
   /* ---------- vistas ---------- */
 
+  // Íconos de línea para la portada (sin emojis).
+  var ICONOS = {
+    curso: '<path d="M4 19 C8 19 9 13 12 13 S16 7 20 7"/><circle cx="4" cy="19" r="1.6"/><circle cx="20" cy="7" r="1.6"/>',
+    diplomado: '<path d="M3 9 L12 5 L21 9 L12 13 Z"/><path d="M7 11 V15.5 C9.5 17.5 14.5 17.5 17 15.5 V11"/><path d="M21 9 V14"/>',
+    "Liturgia": '<path d="M7 4 H17 C17 9 14.5 11 12 11 C9.5 11 7 9 7 4 Z"/><path d="M12 11 V18"/><path d="M8 20 H16"/>',
+    "Fe": '<path d="M12 3 V21"/><path d="M7 8 H17"/>',
+    "Sagrada Escritura": '<path d="M4 5 H10 A2 2 0 0 1 12 7 V20 A2 2 0 0 0 10 18 H4 Z"/><path d="M20 5 H14 A2 2 0 0 0 12 7 V20 A2 2 0 0 1 14 18 H20 Z"/>',
+    "Misión y servicio": '<circle cx="12" cy="12" r="8.5"/><path d="M15.5 8.5 L13.2 13.2 L8.5 15.5 L10.8 10.8 Z"/>',
+    "Cuidado": '<path d="M12 20 C5 15 3.5 11.5 3.5 8.5 A4.2 4.2 0 0 1 12 6.8 A4.2 4.2 0 0 1 20.5 8.5 C20.5 11.5 19 15 12 20 Z"/>',
+    "Herramientas": '<path d="M14.5 6.5 A4 4 0 0 0 9.3 11.7 L4 17 L7 20 L12.3 14.7 A4 4 0 0 0 17.5 9.5 L15 12 L12 9 Z"/>',
+    buscar: '<circle cx="11" cy="11" r="6.5"/><path d="M16 16 L20.5 20.5"/>'
+  };
+  function icono(nombre, clase) {
+    return '<svg class="' + (clase || "icono") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONOS[nombre] || ICONOS.curso) + "</svg>";
+  }
+  var ORDEN_AREAS = ["Liturgia", "Fe", "Sagrada Escritura", "Misión y servicio", "Cuidado", "Herramientas"];
+
   function vistaInicio() {
     return Promise.all(sitio.cursos.map(cargarCurso)).then(function (lista) {
-      var html = '<section class="portada"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA + "<p>" + esc(sitio.lema) + "</p></section>";
-      function tarjeta(c) {
-        var p = progreso(c);
-        var ceja = c.tipo === "curso" ? "Curso" : (c.categoria ? esc(c.categoria) : (c.institucion ? esc(c.institucion) : ""));
-        return '<article class="tarjeta curso-tarjeta">' + (ceja ? '<p class="institucion">' + ceja + "</p>" : "") + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
-          "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(esc).join(" · ") + "</p>" +
-          barraProgreso(p) + '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Entrar al curso</a></div></article>';
-      }
       var e = cuentaActual();
-      if (Nube.habilitada && e.status === "invitado") {
-        html += '<section class="tarjeta acceso-inicio"><h2>Bienvenido a Mi Ruta</h2><p>Crea tu cuenta para inscribirte en los cursos y guardar tu avance en todos tus dispositivos.</p><div class="botones"><a class="boton principal" href="#/ingresar">Ingresar o crear cuenta</a></div></section>';
-      } else if (Nube.habilitada && e.status === "pendiente") {
-        html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión. Mientras tanto, explora los cursos y solicita la inscripción en los que te interesen.</p><div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
+      var invitado = Nube.habilitada && e.status === "invitado";
+      var html = '<section class="portada portada-inicio"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
+        '<p class="portada-lema">Formación para servir en la pastoral juvenil: cursos, diplomados y módulos con constancia, a tu ritmo y con tu comunidad.</p>' +
+        '<label class="buscador">' + icono("buscar", "icono-buscar") + '<input id="buscar" type="search" placeholder="¿Qué quieres aprender?" autocomplete="off" aria-label="Buscar cursos y módulos"></label>' +
+        (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") + "</section>";
+
+      if (Nube.habilitada && e.status === "pendiente") {
+        html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión. Mientras tanto, explora la oferta y solicita la inscripción en lo que te interese.</p><div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
       } else if (Nube.habilitada && e.activo && !e.esRelator) {
         var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0; });
         html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
           (mios.length ? mios.map(function (c) {
-            var p = progreso(c);
-            return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(p) + "</a>";
+            return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(progreso(c)) + "</a>";
           }).join("") : '<p class="seccion-bajada">Todavía no tienes cursos habilitados. Elige uno abajo y solicita la inscripción.</p>') + "</section>";
       }
-      var ruta = lista.filter(function (c) { return c.tipo === "curso"; }).sort(function (a, b) { return (a.orden || 0) - (b.orden || 0); });
-      var extras = lista.filter(function (c) { return c.tipo !== "curso"; });
-      if (ruta.length) {
-        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Cursos</h2>' +
-          '<p class="seccion-bajada">Cada curso reúne módulos obligatorios y optativos de seis sesiones. Un módulo aprobado vale en todos los cursos que lo incluyen.</p>' + ruta.map(tarjeta).join("") + "</section>";
+
+      var cursosL = lista.filter(function (c) { return c.tipo === "curso" && c.nivel !== "diplomado"; });
+      var diplomados = lista.filter(function (c) { return c.nivel === "diplomado"; });
+      var modulos = lista.filter(function (c) { return c.tipo !== "curso"; });
+      var nuevos = lista.filter(function (c) { return c.nuevo; });
+
+      function meta(c) {
+        if (c.tipo === "curso") return (c.horas ? c.horas + " h · " : "") + (c.modulos_n || c.modulos.length) + " módulos";
+        return "6 sesiones · 9 h";
       }
-      if (extras.length) {
-        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Módulos que puedes tomar por separado</h2>' +
-          '<p class="seccion-bajada">Formaciones breves de seis sesiones. Si después te inscribes en un curso que las incluye, se te reconocen.</p>';
-        var categoria = null;
-        extras.forEach(function (c) {
-          if (c.categoria && c.categoria !== categoria) {
-            categoria = c.categoria;
-            html += '<h3 class="categoria-titulo">' + esc(categoria) + "</h3>";
-          }
-          html += tarjeta(c);
-        });
-        html += "</section>";
+      function tile(c) {
+        var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
+        var p = progreso(c);
+        var texto = [c.titulo, c.subtitulo, c.categoria, c.descripcion].join(" ").toLowerCase();
+        return '<a class="tile tile-' + (c.tipo === "curso" ? (c.nivel || "curso") : "modulo") + '" href="#/curso/' + esc(c.id) + '" data-texto="' + esc(texto) + '">' +
+          '<span class="tile-icono">' + icono(ic) + "</span>" +
+          '<span class="tile-titulo">' + esc(c.titulo) + "</span>" +
+          '<span class="tile-meta">' + esc(meta(c)) + "</span>" +
+          (p.hechas ? '<span class="tile-avance" style="--pct:' + p.pct + '%"></span>' : "") +
+          (c.nuevo ? '<span class="tile-nuevo">Nuevo</span>' : "") + "</a>";
       }
+      function grupo(id, titulo, bajada, items) {
+        return '<section class="seccion-inicio grupo-tiles" data-grupo="' + id + '"><h2 class="seccion-titulo">' + titulo + "</h2>" +
+          (bajada ? '<p class="seccion-bajada">' + bajada + "</p>" : "") + '<div class="tiles">' + items.map(tile).join("") + "</div></section>";
+      }
+
+      html += '<nav class="pestanas-inicio" role="tablist">' +
+        [["todo", "Todo"], ["cursos", "Cursos"], ["diplomados", "Diplomados"], ["modulos", "Módulos"]].map(function (t, k) {
+          return '<button role="tab" data-ver="' + t[0] + '" aria-selected="' + (k === 0) + '">' + t[1] + "</button>";
+        }).join("") + "</nav>";
+
+      html += '<div id="oferta">';
+      if (nuevos.length) html += grupo("nuevos", "Nuevos", "", nuevos);
+      html += grupo("cursos", "Cursos", "Programas completos con módulos obligatorios y optativos. Al terminar recibes el certificado del curso.", cursosL);
+      html += grupo("diplomados", "Diplomados", "Formación de mayor profundidad. Cada módulo entrega su propia constancia.", diplomados);
+      var areas = ORDEN_AREAS.filter(function (a) { return modulos.some(function (c) { return c.categoria === a; }); });
+      html += '<section class="seccion-inicio" data-grupo="modulos"><h2 class="seccion-titulo">Módulos por área</h2><p class="seccion-bajada">Formaciones breves de seis sesiones que puedes tomar por separado. Si después te inscribes en un curso que las incluye, se te reconocen.</p>' +
+        areas.map(function (a) {
+          return '<div class="grupo-tiles area"><h3 class="categoria-titulo">' + icono(a, "icono-area") + esc(a) + '</h3><div class="tiles">' +
+            modulos.filter(function (c) { return c.categoria === a; }).map(tile).join("") + "</div></div>";
+        }).join("") + "</section>";
+      html += '<p class="sin-resultados" hidden>No encontramos cursos ni módulos con esa búsqueda.</p></div>';
+
+      html += '<section class="seccion-inicio como-funciona"><h2 class="seccion-titulo">Cómo funciona</h2><ol class="pasos">' +
+        '<li><b>Crea tu cuenta</b><span>Con Google o con tu correo. Es gratis.</span></li>' +
+        '<li><b>Elige tu formación</b><span>Un curso, un diplomado o un módulo suelto, y solicita la inscripción.</span></li>' +
+        '<li><b>Tu relator te acompaña</b><span>Aprueba tu inscripción y te guía en los encuentros con tu comunidad.</span></li>' +
+        '<li><b>Avanza y certifícate</b><span>Cada módulo aprobado entrega una constancia verificable con código.</span></li></ol></section>';
+
+      html += '<section class="seccion-inicio ayuda"><h2 class="seccion-titulo">Preguntas frecuentes</h2>' +
+        '<details><summary>¿Cuánto cuesta?</summary><p>Nada. Mi Ruta es una iniciativa de agAPPe y la formación es gratuita.</p></details>' +
+        '<details><summary>¿Qué diferencia hay entre un curso, un diplomado y un módulo?</summary><p>Un módulo es una formación de seis sesiones. Un curso reúne varios módulos (obligatorios y optativos) en un programa. Un diplomado es una formación más profunda, con constancia por cada módulo y un certificado final.</p></details>' +
+        '<details><summary>¿Si ya aprobé un módulo, tengo que repetirlo en otro curso?</summary><p>No. Un módulo aprobado vale en todos los cursos que lo incluyen.</p></details>' +
+        '<details><summary>¿Cómo se verifica una constancia?</summary><p>Cada constancia tiene un código. Cualquiera puede verificarla en esta página sin necesidad de cuenta.</p></details>' +
+        '<details><summary>Soy menor de edad, ¿puedo inscribirme?</summary><p>Sí, cada formación indica la edad mínima. Crea tu cuenta con conocimiento de tus padres o tutores.</p></details>' +
+        "</section>";
       pintar(html);
+      activarInicio();
     });
+  }
+
+  function activarInicio() {
+    var pestanas = app.querySelectorAll("[data-ver]");
+    var buscar = document.getElementById("buscar");
+    var filtroVer = "todo";
+    function aplicar() {
+      var q = (buscar.value || "").trim().toLowerCase();
+      app.querySelectorAll("#oferta [data-grupo]").forEach(function (g) {
+        var id = g.getAttribute("data-grupo");
+        var visible = filtroVer === "todo" ? (q ? id !== "nuevos" : true) : id === filtroVer;
+        g.hidden = !visible;
+      });
+      var hay = 0;
+      app.querySelectorAll("#oferta .tile").forEach(function (t) {
+        var ok = !q || t.getAttribute("data-texto").indexOf(q) >= 0;
+        t.hidden = !ok;
+        if (ok && !t.closest("[data-grupo]").hidden) hay++;
+      });
+      app.querySelectorAll("#oferta .area").forEach(function (a) { a.hidden = !a.querySelector(".tile:not([hidden])"); });
+      app.querySelector(".sin-resultados").hidden = hay > 0;
+    }
+    pestanas.forEach(function (b) {
+      b.addEventListener("click", function () {
+        filtroVer = b.getAttribute("data-ver");
+        pestanas.forEach(function (x) { x.setAttribute("aria-selected", String(x === b)); });
+        aplicar();
+      });
+    });
+    buscar.addEventListener("input", aplicar);
   }
 
   function vistaCurso(id) {
