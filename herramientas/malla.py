@@ -25,6 +25,7 @@ import sys
 R = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(R / "herramientas" / "nuevas"))
 from talleres import TALLERES, EVAL_DJ  # noqa: E402
+from referencias import REFS  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -222,6 +223,14 @@ def horas_txt(h):
     return f"{h:g}".replace(".", ",") + " horas"
 
 
+def corregir(mid, archivo, texto):
+    for viejo, nuevo in REFS.get((mid, archivo), []):
+        if viejo not in texto:
+            raise SystemExit(f"Referencia no encontrada en {mid}/{archivo}: {viejo}")
+        texto = texto.replace(viejo, nuevo)
+    return texto
+
+
 def escribir_modulo(mid, m):
     carpeta = CONT / "modulos" / mid
     if carpeta.exists():
@@ -230,13 +239,13 @@ def escribir_modulo(mid, m):
     clases, evals = [], {}
     for i, s in enumerate(m["sesiones"], 1):
         sid = f"{mid}-s{i}"
-        (carpeta / f"s{i}.md").write_text(s["texto"], encoding="utf-8")
+        (carpeta / f"s{i}.md").write_text(corregir(mid, f"s{i}.md", s["texto"]), encoding="utf-8")
         clases.append({"id": sid, "tipo": s["tipo"], "numero": i, "etiqueta": f"Sesión {i}", "titulo": s["titulo"],
                        "tiempo": s["tiempo"], "archivo": f"contenido/modulos/{mid}/s{i}.md"})
     cid = f"{mid}-cierre"
     if "cierre" in m:
         s = m["cierre"]
-        (carpeta / "cierre.md").write_text(s["texto"], encoding="utf-8")
+        (carpeta / "cierre.md").write_text(corregir(mid, "cierre.md", s["texto"]), encoding="utf-8")
         clases.append({"id": cid, "tipo": "taller", "numero": 6, "etiqueta": "Sesión 6 · Cierre", "titulo": s["titulo"],
                        "tiempo": s["tiempo"], "archivo": f"contenido/modulos/{mid}/cierre.md"})
     else:

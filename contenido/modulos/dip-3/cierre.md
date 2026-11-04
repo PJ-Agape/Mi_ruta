@@ -1,17 +1,17 @@
-La semana 4 del módulo reemplaza el encuentro semanal por una jornada de un día (8 horas), idealmente un sábado. Tiene tres propósitos: integrar lo aprendido en los Módulos I y II, armar el organigrama del equipo coordinador (trabajo del módulo) y, para quienes cursan el diplomado completo, avanzar en el proyecto integrador. También es un espacio de convivencia que fortalece al curso como grupo.
+La sesión de cierre del módulo es una jornada de un día (8 horas), idealmente un sábado. Tiene tres propósitos: integrar lo aprendido en los módulos I, II y III, armar el organigrama del equipo coordinador (trabajo del módulo) y, para quienes cursan el diplomado completo, avanzar en el proyecto integrador. También es un espacio de convivencia que fortalece al curso como grupo.
 
 ### Programa de la jornada
 
 | Hora  | Momento                   | Contenido                                                                                                                        |
 |-------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | 09:00 | Acogida                   | Desayuno, dinámica de integración y breve momento de oración                                                                     |
-| 09:45 | Mirada atrás              | Cada participante repite la rueda de competencias (Módulo I, clase 1) y revisa su plan de desarrollo (Módulo I, clase 3). En parejas: ¿qué se movió? |
+| 09:45 | Mirada atrás              | Cada participante repite la rueda de competencias (Módulo I, sesión 1) y revisa su plan de desarrollo (Módulo I, sesión 3). En parejas: ¿qué se movió? |
 | 10:45 | Pausa                     |                                                                                                                                  |
 | 11:00 | Caso integrado            | Simulación de una comunidad en crisis (ver abajo)                                                                                |
 | 13:00 | Almuerzo                  | Compartido                                                                                                                       |
 | 14:00 | Taller del organigrama    | Trabajo del módulo (ver plantilla)                                                                                               |
 | 15:30 | Pausa                     |                                                                                                                                  |
-| 15:45 | Avance del proyecto integrador (si cursa el diplomado completo) | Cada participante define el tema y el diagnóstico de su proyecto con el cuadro de mando (Módulo I, clase 11)                               |
+| 15:45 | Avance del proyecto integrador (si cursa el diplomado completo) | Cada participante define el tema y el diagnóstico de su proyecto con el cuadro de mando (Módulo II, sesión 5)                               |
 | 17:00 | Plenario y cierre         | Lo aprendido en la primera mitad del curso, compromisos para los próximos módulos y celebración                                         |
 | 18:00 | Término                   |                                                                                                                                  |
 
@@ -23,22 +23,22 @@ La semana 4 del módulo reemplaza el encuentro semanal por una jornada de un dí
 
 **Trabajo en grupos de 5 (90 minutos).** Cada grupo actúa como el nuevo equipo coordinador y entrega:
 
-1.  Un FODA de la comunidad (Módulo I, clase 8).
-2.  La conversación difícil preparada para los dos monitores en conflicto (Módulo I, clase 7).
-3.  Una matriz RACI que libere al coordinador (clave 12).
-4.  Un rol para la líder natural (Módulo I, clase 2 y clave 11).
-5.  Un plan de arranque de 4 semanas (clave 16).
-6.  Un pitch de 5 minutos para el párroco (clave 14).
+1.  Un FODA de la comunidad (Módulo II, sesión 3).
+2.  La conversación difícil preparada para los dos monitores en conflicto (Módulo II, sesión 2).
+3.  Una matriz RACI que libere al coordinador (sesión 2).
+4.  Un rol para la líder natural (Módulo I, sesión 2, y sesión 1 de este módulo).
+5.  Un plan de arranque de 4 semanas (sesión 5).
+6.  Un pitch de 5 minutos para el párroco (sesión 4).
 
 **Plenario (30 minutos).** Cada grupo presenta su pitch y el relator, en el rol de párroco, hace una pregunta a cada grupo.
 
 ### Plantilla: organigrama del equipo coordinador
 
-Es el trabajo del Módulo II. Debe describir cómo funcionará el equipo de la propia comunidad.
+Es el trabajo del Módulo III. Debe describir cómo funcionará el equipo de la propia comunidad.
 
 **1. Integrantes y roles:**
 
-| Nombre | Rol en el equipo | Perfil (clave 11) | Responsabilidades principales | Nivel de delegación actual (1 a 4) |
+| Nombre | Rol en el equipo | Perfil (sesión 1) | Responsabilidades principales | Nivel de delegación actual (1 a 4) |
 |--------|------------------|-------------------|-------------------------------|------------------------------------|
 |        | Coordinador      |                   |                               |                                    |
 |        |                  |                   |                               |                                    |
@@ -48,7 +48,7 @@ Es el trabajo del Módulo II. Debe describir cómo funcionará el equipo de la p
 
 **2. Roles sugeridos para un equipo coordinador:** coordinación general, formación y temas, animación y dinámicas, liturgia y oración, comunicaciones y redes, acogida de nuevos, logística y materiales, registro y cuadro de mando. Un equipo pequeño puede combinar varios en una persona.
 
-**3. Matriz RACI de las tareas recurrentes** (la plantilla de la clave 12, aplicada a las tareas de todo el año y no solo a un encuentro).
+**3. Matriz RACI de las tareas recurrentes** (la plantilla de la sesión 2, aplicada a las tareas de todo el año y no solo a un encuentro).
 
 **4. Calendario de reuniones:**
 
@@ -66,14 +66,14 @@ Es el trabajo del Módulo II. Debe describir cómo funcionará el equipo de la p
 | Paso | Tiempo | Instrucción                                                                                                                                   |
 |------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | 10 min | Presentar la plantilla y mostrar un ejemplo completo                                                                                          |
-| 2    | 45 min | Cada participante (o pareja de la misma comunidad) completa su organigrama con el mapa de la clave 11 y la RACI de la clave 12                |
+| 2    | 45 min | Cada participante (o pareja de la misma comunidad) completa su organigrama con el mapa de la sesión 1 y la RACI de la sesión 2                |
 | 3    | 25 min | En tríos, revisar los organigramas: ¿alguien tiene demasiadas responsabilidades?, ¿falta algún rol?, ¿el calendario de reuniones es realista? |
 | 4    | 10 min | Cada uno anota los ajustes y el plazo para entregar la versión final                                                                          |
 
 ### Aplicación y bitácora
 
 - [ ] Presentar el organigrama a tu equipo y ajustarlo con sus aportes.
-- [ ] Entregar la versión final como trabajo del Módulo II al terminar el módulo.
+- [ ] Entregar la versión final como trabajo del Módulo III al terminar el módulo.
 - [ ] Si cursas el diplomado completo, definir el tema de tu proyecto integrador.
 
-**Bitácora de mitad de camino:** ¿qué cambió en mi rueda de competencias desde la clase 1 del Módulo I? ¿Qué herramienta ya uso sin pensarlo y cuál todavía me cuesta?
+**Bitácora de mitad de camino:** ¿qué cambió en mi rueda de competencias desde el Módulo I, sesión 1? ¿Qué herramienta ya uso sin pensarlo y cuál todavía me cuesta?

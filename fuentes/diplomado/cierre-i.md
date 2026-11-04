@@ -39,7 +39,7 @@ En grupos de cuatro, respondan:
 
 **Objetivo:** que cada participante integre las herramientas del módulo en un perfil de liderazgo personal con una meta y acciones concretas.
 
-**Materiales:** las plantillas completadas en las clases 1 a 5, copias del perfil de liderazgo, lápices.
+**Materiales:** las plantillas completadas en las sesiones 1 a 5, copias del perfil de liderazgo, lápices.
 
 | Paso | Tiempo | Instrucción |
 |------|--------|-------------|

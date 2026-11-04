@@ -4,7 +4,7 @@
 |-------------------------|--------|-----------------------------------------------------------------------------------------------------------------------|
 | Acogida                 | 10 min | Bienvenida a participantes, acompañantes, familias e invitados                                                        |
 | Oración                 | 10 min | Breve momento de oración y envío                                                                                      |
-| El techo que subió      | 15 min | Cada participante compara su rueda de competencias de la clase 1 del Módulo I con la final y comparte en una frase su mayor cambio |
+| El techo que subió      | 15 min | Cada participante compara su rueda de competencias del Módulo I, sesión 1 con la final y comparte en una frase su mayor cambio |
 | Testimonios             | 15 min | Dos o tres participantes cuentan qué aplicaron en su comunidad y qué resultó                                          |
 | Entrega de certificados | 20 min | Firma del párroco y del asesor de pastoral juvenil                                                                    |
 | Compromiso              | 10 min | Cada participante escribe un compromiso de servicio para el próximo año y lo entrega a su acompañante                 |
@@ -25,7 +25,7 @@ Anónima, de 1 a 5, al final de la ceremonia o en línea durante la semana:
 
 ### Bitácora final
 
-- [ ] Completar la rueda de competencias final y compararla con la de la clase 1 del Módulo I.
+- [ ] Completar la rueda de competencias final y compararla con la del Módulo I, sesión 1.
 - [ ] Revisar tu plan de desarrollo personal: ¿se cumplió la meta SMART?
 - [ ] Escribir tu compromiso de servicio para el próximo año.
 
