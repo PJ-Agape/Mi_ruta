@@ -18,7 +18,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     function administradoresIniciales() {
-      return ['tu_correo@gmail.com'];
+      return ['iperezconus84@gmail.com'];
     }
 
     function conSesion() {
