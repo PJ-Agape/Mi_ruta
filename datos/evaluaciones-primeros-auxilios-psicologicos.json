@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Primeros auxilios psicológicos",
+ "primeros-auxilios-psicologicos-cierre": {
+  "titulo": "Cierre del módulo: Primeros auxilios psicológicos",
   "aprobacion": 70,
+  "taller": "Juego de roles en tríos: una persona vive una crisis (caso preparado por el relator), otra la acompaña aplicando el protocolo ABCD y la tercera observa con una pauta. Rotan los roles. Al cierre, cada participante revisa su tarjeta con los números de ayuda y el nombre del adulto responsable a quien derivar.",
   "preguntas": [
    {
     "pregunta": "¿Qué son los primeros auxilios psicológicos?",

@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Buen trato y prevención",
+ "buen-trato-y-prevencion-cierre": {
+  "titulo": "Cierre del módulo: Buen trato y prevención",
   "aprobacion": 70,
+  "taller": "Análisis de casos en grupos: cada grupo recibe una situación (una salida, un mensaje privado, un rumor, una revelación de daño) y debe decidir qué hacer, a quién avisar y qué no hacer, según el protocolo de la parroquia. Al final, cada participante completa su tarjeta con los nombres y contactos del encargado de prevención y los números de ayuda.",
   "preguntas": [
    {
     "pregunta": "¿Qué es el buen trato?",

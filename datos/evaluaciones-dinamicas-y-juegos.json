@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Dinámicas y juegos",
+ "dinamicas-y-juegos-cierre": {
+  "titulo": "Cierre del módulo: Dinámicas y juegos",
   "aprobacion": 70,
+  "taller": "Cada participante conduce una dinámica de 10 minutos con el grupo, usando la ficha de dinámica: objetivo, explicación, conducción y reflexión final. Los demás evalúan con una pauta breve: ¿se entendió?, ¿todos participaron?, ¿la reflexión ayudó a pensar?",
   "preguntas": [
    {
     "pregunta": "¿Cuál es la pregunta clave antes de elegir una dinámica?",

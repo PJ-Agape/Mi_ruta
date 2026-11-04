@@ -1,0 +1,71 @@
+{
+ "curso": "logistica",
+ "modulos": [
+  {
+   "id": "logistica",
+   "numero": 1,
+   "titulo": "Logística de actividades pastorales",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
+   "intro": "Una actividad pastoral puede tener un gran contenido y fracasar porque faltó comida, no llegó el bus o nadie sabía dónde estaban los materiales. La logística es una forma de servicio: cuando funciona, nadie la nota y todos pueden concentrarse en lo importante. En este módulo vas a aprender a organizarla.",
+   "clases": [
+    {
+     "id": "logistica-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Planificar la logística",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s1.md"
+    },
+    {
+     "id": "logistica-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Alimentación: menús, cantidades y manipulación segura",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s2.md"
+    },
+    {
+     "id": "logistica-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Materiales e insumos: inventario, bodega y reposición",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s3.md"
+    },
+    {
+     "id": "logistica-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s4.md"
+    },
+    {
+     "id": "logistica-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Presupuesto, compras y rendición de cuentas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s5.md"
+    },
+    {
+     "id": "logistica-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

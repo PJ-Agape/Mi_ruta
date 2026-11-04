@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Primeros auxilios",
+ "primeros-auxilios-cierre": {
+  "titulo": "Cierre del módulo: Primeros auxilios",
   "aprobacion": 70,
+  "taller": "Estaciones prácticas: en grupos rotan por cuatro estaciones (evaluación inicial y llamada al 131, reanimación cardiopulmonar en maniquí si hay, maniobra ante atragantamiento y vendaje de una herida). Si es posible, el taller lo guía un profesional de la salud o un instructor certificado.",
   "preguntas": [
    {
     "pregunta": "¿Cuál es el orden correcto ante una emergencia?",

@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Música y animación litúrgica",
+ "musica-liturgica-cierre": {
+  "titulo": "Cierre del módulo: Música y animación litúrgica",
   "aprobacion": 70,
+  "taller": "El coro prepara la música completa de una misa del tiempo litúrgico actual: elige los cantos con los criterios del módulo, arma la hoja de cantos, hace un ensayo de 30 minutos y anima a la asamblea (el resto del grupo) en los momentos principales. Al final evalúan juntos qué ayudó a rezar.",
   "preguntas": [
    {
     "pregunta": "Según el Concilio Vaticano II, ¿qué es la música sacra en la liturgia?",

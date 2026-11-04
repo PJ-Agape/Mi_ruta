@@ -1,0 +1,14 @@
+{
+  "id": "diplomado",
+  "titulo": "Diplomado en liderazgo para equipos de pastoral juvenil",
+  "subtitulo": "Conducir equipos, acompañar personas y gestionar proyectos",
+  "descripcion": "Para dirigentes con experiencia que asumen la conducción de equipos. Ocho módulos con constancia propia: liderazgo personal, autoridad y decisiones, formación de equipos, gestión del tiempo y legado, comunicación y conflictos, planificación de proyectos, acompañamiento de personas y un proyecto integrador. Modalidad mixta: sesiones presenciales o en línea con el relator y trabajo personal.",
+  "duracion": "225 horas · 8 módulos obligatorios y 1 optativo",
+  "modalidad": "Mixta: encuentros con relator y trabajo personal",
+  "publico": "Desde 17 años, con el curso Dirigente juvenil aprobado",
+  "tipo": "curso",
+  "orden": 2,
+  "elige": 1,
+  "horas": 225,
+  "recursos": {}
+}

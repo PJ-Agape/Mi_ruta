@@ -1,0 +1,1547 @@
+{
+ "dj-identidad-cierre": {
+  "titulo": "Cierre del módulo: Identidad y espiritualidad del agente pastoral",
+  "aprobacion": 70,
+  "taller": "Cada participante escribe su regla de vida para los próximos tres meses: oración diaria, Eucaristía, descanso, servicio y formación. La comparte en parejas y elige a alguien que lo acompañe a cumplirla.",
+  "preguntas": [
+   {
+    "pregunta": "Un joven nuevo se sienta apartado y mira el celular todo el rato. ¿Qué actitud refleja mejor el modelo de Emaús?",
+    "opciones": [
+     "Pedirle delante de todos que guarde el celular para que participe.",
+     "Acercarte con calma, sentarte a su lado, preguntarle su nombre y cómo llegó, sin presionarlo.",
+     "Dejarlo tranquilo hasta que él decida participar por su cuenta."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Jesús en Emaús, el dirigente se acerca primero y camina al ritmo del otro. La confianza se construye antes de pedir participación."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases describe mejor la identidad del dirigente de pastoral juvenil?",
+    "opciones": [
+     "Un joven creyente que, desde su bautismo, se hace puente entre los jóvenes y Jesús.",
+     "Una autoridad que debe mantener la disciplina del grupo.",
+     "Un experto que debe tener respuesta para todas las preguntas de fe."
+    ],
+    "correcta": 0,
+    "explicacion": "El dirigente es testigo y servidor, no jefe ni experto. Su servicio nace del bautismo y apunta a que otros se encuentren con Jesús y con la comunidad."
+   },
+   {
+    "pregunta": "Un compañero dirigente dice: «este curso es puro desorden, no vale la pena prepararles nada». ¿Qué responde mejor a CV 67?",
+    "opciones": [
+     "Darle la razón y preparar actividades más simples.",
+     "Invitarlo a buscar juntos lo positivo de ese curso y a pensar qué necesidades hay detrás del desorden.",
+     "Pedir a los coordinadores que cambien a esos jóvenes de grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "El papa pide descubrir la pequeña llama que sigue ardiendo en cada joven. Preguntar por las necesidades detrás de una conducta desactiva prejuicios."
+   },
+   {
+    "pregunta": "Según el Catecismo, ¿qué funciones de Cristo comparte todo bautizado?",
+    "opciones": [
+     "Solo la de rey, porque gobierna su vida.",
+     "Sacerdote, profeta y rey.",
+     "Ninguna: esas funciones son solo de los sacerdotes."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el pueblo de Dios participa de las funciones sacerdotal, profética y real de Cristo (Catecismo 783-786). Para el dirigente se traducen en orar y ofrecer, anunciar con la vida y servir."
+   },
+   {
+    "pregunta": "¿Qué significa que Jesús está realmente presente en la Eucaristía?",
+    "opciones": [
+     "Que la Eucaristía es un recuerdo simbólico de la Última Cena.",
+     "Que Jesús está verdadera, real y sustancialmente presente bajo las especies del pan y del vino.",
+     "Que Jesús está presente solo si la persona que comulga se siente emocionada."
+    ],
+    "correcta": 1,
+    "explicacion": "La Iglesia cree en la presencia real de Cristo en la Eucaristía (Catecismo 1374). No depende de lo que sintamos, sino de la palabra de Jesús."
+   },
+   {
+    "pregunta": "Notas que duermes mal, te irritas con los jóvenes y sientes que todo depende de ti. ¿Qué haces?",
+    "opciones": [
+     "Aumentar tu esfuerzo para demostrar compromiso.",
+     "Conversar con tu equipo, redistribuir tareas, descansar y retomar tu vida de oración.",
+     "Dejar el grupo sin avisar."
+    ],
+    "correcta": 1,
+    "explicacion": "Son señales de agotamiento. Jesús invita a descansar, y Jetró aconsejó a Moisés repartir las cargas."
+   },
+   {
+    "pregunta": "¿Qué significa, en síntesis, ser dirigente en la pastoral juvenil?",
+    "opciones": [
+     "Tener un cargo para organizar y dar instrucciones.",
+     "Ser el animador que más destaca en las actividades.",
+     "Ser un hermano mayor y amigo que, enviado por Jesús y en equipo, acompaña a los jóvenes con escucha, cuidado y testimonio."
+    ],
+    "correcta": 2,
+    "explicacion": "Felicitaciones: has recorrido el curso completo. El liderazgo cristiano es servicio humilde que hace crecer a otros."
+   },
+   {
+    "pregunta": "¿Qué caracteriza a una buena regla de vida?",
+    "opciones": [
+     "Muchas exigencias para crecer rápido.",
+     "Pocas decisiones concretas y posibles, conversadas con quien te acompaña y revisadas cada cierto tiempo.",
+     "Un compromiso que no se puede cambiar nunca."
+    ],
+    "correcta": 1,
+    "explicacion": "La regla de vida ordena la vida en torno a Jesús con decisiones pequeñas y realistas, que se revisan y se retoman."
+   },
+   {
+    "pregunta": "Un dirigente atraviesa una semana muy oscura y quiere renunciar. Según san Ignacio, ¿qué le conviene?",
+    "opciones": [
+     "Decidir rápido para no seguir sufriendo.",
+     "No hacer cambios importantes en desolación y buscar compañía y oración hasta que vuelva la calma.",
+     "Renunciar y volver cuando se sienta mejor."
+    ],
+    "correcta": 1,
+    "explicacion": "En desolación no se hacen cambios importantes. Es momento de sostenerse en la oración y en la comunidad."
+   }
+  ]
+ },
+ "conocer-la-biblia-cierre": {
+  "titulo": "Cierre del módulo: Conocer la Biblia",
+  "aprobacion": 70,
+  "taller": "Por parejas, cada uno guía un momento de Palabra compartida de 20 minutos con un texto elegido por el grupo, usando los siete pasos. Antes deben explicar en dos minutos el género y el contexto del texto. El resto del grupo participa y luego comenta qué funcionó.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuántos libros tiene la Biblia católica?",
+    "opciones": [
+     "66",
+     "73",
+     "77"
+    ],
+    "correcta": 1,
+    "explicacion": "46 del Antiguo Testamento y 27 del Nuevo."
+   },
+   {
+    "pregunta": "¿Qué significa la cita Lucas 15,11-32?",
+    "opciones": [
+     "Lucas, versículo 15, capítulos 11 al 32.",
+     "Lucas, capítulo 15, versículos 11 al 32.",
+     "Libro 15 de Lucas, página 11."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero el libro, luego el capítulo y después los versículos."
+   },
+   {
+    "pregunta": "¿Qué enseña la Iglesia sobre los autores de la Biblia?",
+    "opciones": [
+     "Dios la dictó palabra por palabra sin intervención humana.",
+     "Dios es su autor a través de autores humanos inspirados por el Espíritu Santo.",
+     "Es solo una obra humana sobre Dios."
+    ],
+    "correcta": 1,
+    "explicacion": "Dei Verbum 11: Dios y los autores humanos, que escribieron con sus propias capacidades."
+   },
+   {
+    "pregunta": "¿Quién es el centro de toda la Escritura?",
+    "opciones": [
+     "Moisés.",
+     "Jesucristo.",
+     "El pueblo de Israel."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el Antiguo Testamento prepara su venida y el Nuevo lo anuncia."
+   },
+   {
+    "pregunta": "¿Qué relación hay entre la Escritura y la Tradición?",
+    "opciones": [
+     "Están unidas y brotan de la misma fuente.",
+     "La Tradición es más importante que la Escritura.",
+     "No tienen relación."
+    ],
+    "correcta": 0,
+    "explicacion": "Dei Verbum 9 enseña que ambas brotan de la misma fuente divina."
+   },
+   {
+    "pregunta": "¿Por qué es importante conocer el género literario de un texto?",
+    "opciones": [
+     "Para saber cuánto demora en leerse.",
+     "Para descubrir lo que el autor quiso decir.",
+     "No es importante."
+    ],
+    "correcta": 1,
+    "explicacion": "Dei Verbum 12 pide atender a los géneros literarios."
+   },
+   {
+    "pregunta": "¿Qué tipo de lenguaje usa el Apocalipsis?",
+    "opciones": [
+     "Un calendario exacto del fin del mundo.",
+     "Un lenguaje simbólico de visiones para sostener la esperanza.",
+     "Un relato histórico literal."
+    ],
+    "correcta": 1,
+    "explicacion": "Es un libro apocalíptico: usa símbolos para animar a los cristianos perseguidos."
+   },
+   {
+    "pregunta": "¿Cuál es una buena forma de empezar a leer la Biblia?",
+    "opciones": [
+     "Leer desde el Génesis hasta el Apocalipsis sin parar.",
+     "Abrir una página al azar cada día.",
+     "Empezar por un Evangelio, poco a poco y cada día."
+    ],
+    "correcta": 2,
+    "explicacion": "Marcos es una excelente puerta de entrada."
+   },
+   {
+    "pregunta": "¿Cuál es la tarea de quien anima un momento de Palabra compartida?",
+    "opciones": [
+     "Dar una charla sobre el texto",
+     "Cuidar los tiempos, invitar a hablar en primera persona y no discutir lo que otros comparten",
+     "Corregir a quienes se equivocan"
+    ],
+    "correcta": 1,
+    "explicacion": "Quien anima facilita; no reemplaza la voz del grupo."
+   },
+   {
+    "pregunta": "¿Por qué es importante el silencio después de leer?",
+    "opciones": [
+     "Para descansar",
+     "Para dejar que el texto resuene antes de compartir",
+     "Porque no hay nada que decir"
+    ],
+    "correcta": 1,
+    "explicacion": "El silencio deja que la Palabra llegue al corazón."
+   }
+  ]
+ },
+ "el-credo-cierre": {
+  "titulo": "Cierre del módulo: El Credo: lo que creemos",
+  "aprobacion": 70,
+  "taller": "Cada participante elige un artículo del Credo y prepara una explicación de cinco minutos para un grupo de catequesis de la edad que acompaña (niños, adolescentes o jóvenes). Debe incluir una imagen o ejemplo de la vida diaria, un texto bíblico y una pregunta para el grupo. Se presentan en tríos y cada uno recibe comentarios: ¿fue fiel a la fe de la Iglesia?, ¿fue claro para esa edad?, ¿invitó a rezar?",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es la fe según la Iglesia?",
+    "opciones": [
+     "Una opinión sobre Dios",
+     "La respuesta personal y libre a Dios que se revela",
+     "Un sentimiento religioso"
+    ],
+    "correcta": 1,
+    "explicacion": "La fe responde a Dios que toma la iniciativa."
+   },
+   {
+    "pregunta": "¿Por qué decimos que la fe se vive en Iglesia?",
+    "opciones": [
+     "Porque la recibimos de otros y la transmitimos a otros",
+     "Porque no se puede rezar a solas",
+     "Porque es obligatorio"
+    ],
+    "correcta": 0,
+    "explicacion": "Nadie cree solo: la fe se recibe y se comparte."
+   },
+   {
+    "pregunta": "¿Qué afirma la fe sobre la Trinidad?",
+    "opciones": [
+     "Que hay tres dioses",
+     "Que hay un solo Dios en tres personas",
+     "Que Dios cambia de forma"
+    ],
+    "correcta": 1,
+    "explicacion": "Un solo Dios, comunión de tres personas."
+   },
+   {
+    "pregunta": "¿Cómo se relacionan la fe y la ciencia?",
+    "opciones": [
+     "Se contradicen",
+     "No se oponen: responden preguntas distintas",
+     "La ciencia reemplaza a la fe"
+    ],
+    "correcta": 1,
+    "explicacion": "La Biblia dice por qué y para qué; la ciencia estudia cómo."
+   },
+   {
+    "pregunta": "¿Quién es Jesucristo según el Credo?",
+    "opciones": [
+     "Un hombre muy bueno",
+     "Verdadero Dios y verdadero hombre",
+     "Dios con apariencia humana"
+    ],
+    "correcta": 1,
+    "explicacion": "Una sola persona, verdadero Dios y verdadero hombre."
+   },
+   {
+    "pregunta": "¿Qué es el kerigma?",
+    "opciones": [
+     "Una oración antigua",
+     "El anuncio de Jesús muerto y resucitado",
+     "Un libro de la Biblia"
+    ],
+    "correcta": 1,
+    "explicacion": "Es el corazón de toda catequesis."
+   },
+   {
+    "pregunta": "¿Qué significa que la Iglesia sea «católica»?",
+    "opciones": [
+     "Que es solo de Roma",
+     "Que es universal, abierta a todos los pueblos",
+     "Que no tiene pecadores"
+    ],
+    "correcta": 1,
+    "explicacion": "Católica significa universal."
+   },
+   {
+    "pregunta": "¿Qué es la comunión de los santos?",
+    "opciones": [
+     "La unión de todos los creyentes en Cristo, vivos y difuntos",
+     "Una fiesta del calendario",
+     "Un grupo de santos famosos"
+    ],
+    "correcta": 0,
+    "explicacion": "Formamos una sola familia en Cristo."
+   },
+   {
+    "pregunta": "¿Cuál es el criterio del juicio según Mateo 25?",
+    "opciones": [
+     "Cuántas oraciones rezamos",
+     "El amor a los más pequeños",
+     "Conocer bien la doctrina"
+    ],
+    "correcta": 1,
+    "explicacion": "«Lo hicieron conmigo»."
+   },
+   {
+    "pregunta": "Ante un niño en duelo, ¿qué conviene?",
+    "opciones": [
+     "Decirle que no llore",
+     "Escuchar, permitir la tristeza y anunciar con delicadeza la esperanza",
+     "Explicarle que Dios se llevó a su familiar porque lo necesitaba"
+    ],
+    "correcta": 1,
+    "explicacion": "Escuchar y acompañar antes de explicar."
+   }
+  ]
+ },
+ "sacramentos-cierre": {
+  "titulo": "Cierre del módulo: Sacramentos e iniciación cristiana",
+  "aprobacion": 70,
+  "taller": "En grupos, diseñen el encuentro de celebración previo a un sacramento (bautismo, primera comunión, confirmación o primera confesión) para los niños o jóvenes y sus familias. Deben incluir: un momento de acogida, la explicación del signo principal del sacramento, un texto bíblico, un gesto simbólico y una oración final. Cada grupo presenta su diseño y recibe comentarios sobre su fidelidad a la liturgia y su claridad para esa edad.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es un sacramento?",
+    "opciones": [
+     "Un recuerdo simbólico",
+     "Un signo eficaz de la gracia instituido por Cristo",
+     "Una tradición familiar"
+    ],
+    "correcta": 1,
+    "explicacion": "Hace lo que significa: Cristo actúa en él."
+   },
+   {
+    "pregunta": "¿Cuáles son los sacramentos de iniciación cristiana?",
+    "opciones": [
+     "Bautismo, Confirmación y Eucaristía",
+     "Bautismo, Reconciliación y Matrimonio",
+     "Eucaristía, Unción y Orden"
+    ],
+    "correcta": 0,
+    "explicacion": "Son las puertas de entrada a la vida cristiana."
+   },
+   {
+    "pregunta": "¿Qué requisito debe cumplir un padrino de bautismo?",
+    "opciones": [
+     "Ser familiar del niño",
+     "Ser católico confirmado, haber recibido la Eucaristía y llevar una vida de fe coherente",
+     "Tener más de 30 años"
+    ],
+    "correcta": 1,
+    "explicacion": "Su tarea es acompañar la fe del ahijado."
+   },
+   {
+    "pregunta": "¿Quién es el ministro ordinario de la Confirmación?",
+    "opciones": [
+     "El catequista",
+     "El obispo",
+     "El padrino"
+    ],
+    "correcta": 1,
+    "explicacion": "El obispo, que puede delegar en un sacerdote."
+   },
+   {
+    "pregunta": "¿Qué conviene en la preparación de la confirmación?",
+    "opciones": [
+     "Obligar a todos a confirmarse",
+     "Respetar la libertad del joven y proponer un camino de fe",
+     "Solo dar clases teóricas"
+    ],
+    "correcta": 1,
+    "explicacion": "La confirmación es un sí libre."
+   },
+   {
+    "pregunta": "¿Por qué se dice que la Eucaristía es fuente y culmen?",
+    "opciones": [
+     "Porque es la más antigua",
+     "Porque de ella brota y hacia ella tiende toda la vida cristiana",
+     "Porque se celebra en las fiestas"
+    ],
+    "correcta": 1,
+    "explicacion": "Lumen gentium 11."
+   },
+   {
+    "pregunta": "¿Cuánto dura el ayuno eucarístico?",
+    "opciones": [
+     "Una hora",
+     "Tres horas",
+     "Todo el día"
+    ],
+    "correcta": 0,
+    "explicacion": "Una hora, salvo agua y medicamentos."
+   },
+   {
+    "pregunta": "¿Qué es el sigilo sacramental?",
+    "opciones": [
+     "Una oración",
+     "El secreto absoluto del sacerdote sobre la confesión",
+     "El sello del bautismo"
+    ],
+    "correcta": 1,
+    "explicacion": "No admite excepciones."
+   },
+   {
+    "pregunta": "Si un niño cuenta en la catequesis que sufre un daño, ¿qué hace el catequista?",
+    "opciones": [
+     "Guarda el secreto como en la confesión",
+     "Actúa según los protocolos de prevención",
+     "Le pide que lo confiese"
+    ],
+    "correcta": 1,
+    "explicacion": "El sigilo es del sacramento; el catequista debe proteger."
+   },
+   {
+    "pregunta": "¿Qué es la mistagogia?",
+    "opciones": [
+     "Un rito antiguo",
+     "La etapa de profundizar en lo celebrado después de recibir los sacramentos",
+     "Un libro litúrgico"
+    ],
+    "correcta": 1,
+    "explicacion": "El camino continúa después del sacramento."
+   }
+  ]
+ },
+ "ayudante-de-catequesis-cierre": {
+  "titulo": "Cierre del módulo: Ayudante de catequesis",
+  "aprobacion": 70,
+  "taller": "En parejas, preparan y animan un encuentro breve de catequesis (20 minutos) para un grupo de la edad que acompañan, con acogida, un momento de Palabra, una actividad y una oración. El grupo hace de catequizandos. Después, el catequista responsable da retroalimentación sobre preparación, trato y cuidado.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué significa la palabra «catequesis»?",
+    "opciones": [
+     "Enseñar de memoria.",
+     "Hacer resonar.",
+     "Preparar un examen."
+    ],
+    "correcta": 1,
+    "explicacion": "El catequista hace resonar la Palabra de Dios en la vida."
+   },
+   {
+    "pregunta": "¿Qué es el kerigma?",
+    "opciones": [
+     "Un libro de catequesis.",
+     "El primer anuncio: Dios te ama, Cristo te salva, Él vive.",
+     "Una oración de la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "Toda la catequesis vuelve a este anuncio."
+   },
+   {
+    "pregunta": "¿Cuál es el lugar del ayudante de catequesis?",
+    "opciones": [
+     "Reemplaza al catequista cuando no puede venir.",
+     "Colabora con el catequista, sin quedar a cargo del grupo solo.",
+     "Tiene las conversaciones importantes con los padres."
+    ],
+    "correcta": 1,
+    "explicacion": "El ayudante colabora; el catequista adulto es el responsable."
+   },
+   {
+    "pregunta": "¿Cómo aprenden mejor los niños de 8 a 10 años?",
+    "opciones": [
+     "Escuchando charlas largas.",
+     "Haciendo: con juegos, historias, dibujos y canciones.",
+     "Leyendo solos el manual."
+    ],
+    "correcta": 1,
+    "explicacion": "Conviene cambiar de actividad cada 10 o 15 minutos."
+   },
+   {
+    "pregunta": "¿Qué modelo bíblico propone el papa para acompañar a los jóvenes?",
+    "opciones": [
+     "El camino de Emaús.",
+     "La torre de Babel.",
+     "El arca de Noé."
+    ],
+    "correcta": 0,
+    "explicacion": "Christus vivit 237: acercarse, caminar, preguntar, escuchar, explicar y acompañar."
+   },
+   {
+    "pregunta": "Si un adolescente te hace una pregunta difícil que no sabes responder, ¿qué haces?",
+    "opciones": [
+     "Inventas una respuesta para no quedar mal.",
+     "Reconoces que es una buena pregunta y la ven con el catequista.",
+     "Le dices que no se pregunta eso."
+    ],
+    "correcta": 1,
+    "explicacion": "La honestidad genera confianza."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una regla de cuidado en la catequesis?",
+    "opciones": [
+     "Tener chats privados con los niños para conocerlos mejor.",
+     "No quedar a solas con un niño en un lugar apartado.",
+     "Subir fotos del grupo sin preguntar."
+    ],
+    "correcta": 1,
+    "explicacion": "Las conversaciones se tienen en lugares visibles, y la comunicación digital es con las familias."
+   },
+   {
+    "pregunta": "Si un niño revela que alguien le hace daño, ¿qué haces?",
+    "opciones": [
+     "Le prometes guardar el secreto.",
+     "Escuchas, le crees, no prometes secreto y avisas de inmediato al catequista o al párroco.",
+     "Hablas con la persona señalada para aclarar."
+    ],
+    "correcta": 1,
+    "explicacion": "No te toca investigar ni resolver solo: escuchar y avisar."
+   },
+   {
+    "pregunta": "¿Quiénes son los primeros educadores en la fe?",
+    "opciones": [
+     "Los catequistas",
+     "Los padres y quienes crían",
+     "Los sacerdotes"
+    ],
+    "correcta": 1,
+    "explicacion": "La catequesis acompaña a la familia, no la reemplaza."
+   },
+   {
+    "pregunta": "Si notas algo preocupante en la situación de un niño, ¿qué haces?",
+    "opciones": [
+     "Lo resuelves tú directamente con la familia",
+     "Lo conversas con el catequista responsable",
+     "No haces nada"
+    ],
+    "correcta": 1,
+    "explicacion": "El ayudante no actúa solo: informa al catequista responsable."
+   }
+  ]
+ },
+ "dj-metodologia-cierre": {
+  "titulo": "Cierre del módulo: Metodología y animación de grupos",
+  "aprobacion": 70,
+  "taller": "En equipos, planifican un encuentro completo de 60 minutos con el método vivir, conversar, iluminar y actuar, que incluya un juego y un momento de oración con símbolos. Presentan la planificación y animan la parte del juego con el curso.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es el propósito principal del juego en un encuentro juvenil?",
+    "opciones": [
+     "Pasar el rato cuando sobra tiempo.",
+     "Romper el hielo, integrar y generar una experiencia común de la cual aprender y conversar.",
+     "Descubrir quiénes son los más hábiles para darles más responsabilidades."
+    ],
+    "correcta": 1,
+    "explicacion": "El juego abre el corazón y crea una vivencia compartida que luego se ilumina con la fe."
+   },
+   {
+    "pregunta": "En un juego cooperativo el equipo pierde porque un joven tropezó. ¿Qué enseñas?",
+    "opciones": [
+     "Que la próxima vez juegue otro para asegurar el resultado.",
+     "Que nos levantamos juntos, sin reproches: el verdadero logro es no dejar a nadie atrás.",
+     "Que perder también es parte del juego y terminar la actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "La cooperación educa en la lógica del Reino: lo que se comparte se multiplica y nadie es descartable."
+   },
+   {
+    "pregunta": "¿Cuál es el orden del método formativo que propone el curso?",
+    "opciones": [
+     "Iluminar, vivir, actuar, conversar.",
+     "Charla, juego, oración.",
+     "Vivir, conversar, iluminar y actuar, cerrando con una oración."
+    ],
+    "correcta": 2,
+    "explicacion": "Como en Emaús: se parte de la vida, se conversa, se ilumina con la Palabra y se vuelve a la vida con un compromiso."
+   },
+   {
+    "pregunta": "Al terminar una actividad, ¿qué tres preguntas ayudan a cosechar la experiencia?",
+    "opciones": [
+     "¿Qué pasó? ¿Qué sentí o aprendí? ¿Qué me pide Dios?",
+     "¿Quién ganó? ¿Quién perdió? ¿Quién tuvo la culpa?",
+     "¿Cuánto duró? ¿A qué hora nos vamos? ¿Qué hay para comer?"
+    ],
+    "correcta": 0,
+    "explicacion": "Estas preguntas convierten una actividad en experiencia formativa y en un pequeño ejercicio de discernimiento."
+   },
+   {
+    "pregunta": "Al planificar un encuentro de 60 minutos, ¿cuánto tiempo conviene dedicar a la exposición del dirigente (la «charla»)?",
+    "opciones": [
+     "La mayor parte, porque es lo más importante.",
+     "Poco: unos cinco minutos dentro del momento de iluminar, dejando espacio a la experiencia y la conversación.",
+     "Nada; basta con los juegos."
+    ],
+    "correcta": 1,
+    "explicacion": "El centro del encuentro es la experiencia y el diálogo. La Palabra ilumina brevemente lo vivido y conduce a la acción."
+   },
+   {
+    "pregunta": "¿Cuál de estas actividades NO debería hacerse en un grupo juvenil?",
+    "opciones": [
+     "Un juego cooperativo en que el grupo cruza un obstáculo junto.",
+     "Un castigo en que el equipo perdedor debe hacer algo humillante frente a todos.",
+     "Una celebración por el cumpleaños de un joven."
+    ],
+    "correcta": 1,
+    "explicacion": "Los juegos que humillan dejan heridas y contradicen el Evangelio. Un buen juego une, enseña y cuida la dignidad de todos."
+   },
+   {
+    "pregunta": "¿Cuál es el aporte del momento «iluminar» en el método?",
+    "opciones": [
+     "Dar datos y estadísticas sobre el tema.",
+     "Mirar la experiencia a la luz de la Palabra de Dios y de la enseñanza de la Iglesia.",
+     "Decidir quién organiza la próxima actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "Iluminar une la vida con la fe: es el paso que evita que el encuentro sea solo una conversación entretenida."
+   },
+   {
+    "pregunta": "¿Por qué usamos signos como una vela o una piedra en la oración?",
+    "opciones": [
+     "Porque se ven bien en las fotos para redes sociales.",
+     "Porque somos cuerpo y espíritu, y Dios se comunica a través de realidades visibles que nos ayudan a orar con todo el ser.",
+     "Porque es obligatorio según el reglamento parroquial."
+    ],
+    "correcta": 1,
+    "explicacion": "La liturgia está tejida de signos (CEC 1145-1152). Jesús usó barro, agua y pan para que la gracia se pudiera ver y sentir."
+   }
+  ]
+ },
+ "dj-escucha-cierre": {
+  "titulo": "Cierre del módulo: Escucha y acompañamiento",
+  "aprobacion": 70,
+  "taller": "Práctica de escucha en tríos: una persona cuenta algo real y no demasiado íntimo, otra escucha aplicando lo aprendido (sin aconsejar, con preguntas abiertas y poniendo nombre a lo que siente) y la tercera observa. Rotan. Al final cada uno identifica su principal dificultad para escuchar.",
+  "preguntas": [
+   {
+    "pregunta": "Un joven te cuenta algo que le duele y tú sientes el impulso de darle un consejo inmediato. ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Darle el consejo enseguida para que no siga sufriendo.",
+     "Contarle una experiencia tuya parecida para que vea que lo entiendes.",
+     "Escuchar hasta el final, nombrar lo que siente y preguntarle qué necesita."
+    ],
+    "correcta": 2,
+    "explicacion": "Escuchar es más que oír (EG 171). La escucha activa deja hablar, nombra la emoción y permite que el joven exprese qué necesita."
+   },
+   {
+    "pregunta": "Un joven te cuenta que un adulto de su entorno le hace daño y te pide que no se lo digas a nadie. ¿Qué haces?",
+    "opciones": [
+     "Le prometes guardar el secreto para no perder su confianza.",
+     "Le agradeces la confianza, le explicas que para cuidarlo necesitas pedir ayuda y buscas enseguida a tu asesor o a un adulto responsable.",
+     "Investigas por tu cuenta qué pasó antes de contarle a alguien."
+    ],
+    "correcta": 1,
+    "explicacion": "La confidencialidad tiene límites: cuando hay riesgo, se pide ayuda de inmediato a un adulto responsable. El dirigente no investiga ni promete secretos que no puede guardar."
+   },
+   {
+    "pregunta": "Un joven te dice: «Te voy a contar algo, pero prométeme que no le dirás a nadie». ¿Qué respondes?",
+    "opciones": [
+     "«Te lo prometo, confía en mí».",
+     "«No puedo escucharte si es algo delicado».",
+     "«Quiero escucharte. Todo lo guardaré con cuidado, pero si hay algo que ponga en riesgo tu vida o tu seguridad, tendré que pedir ayuda»."
+    ],
+    "correcta": 2,
+    "explicacion": "Nunca se promete un secreto absoluto antes de saber de qué se trata. La confidencialidad tiene un límite cuando hay riesgo para la vida o la integridad."
+   },
+   {
+    "pregunta": "Un joven te cuenta con lágrimas que sus padres se están separando. ¿Qué respuesta es más adecuada?",
+    "opciones": [
+     "«No llores, esto pasa rápido y hay gente que está peor».",
+     "«Lo siento mucho. Estoy aquí contigo, ¿quieres contarme cómo estás viviendo esto?».",
+     "Cambiar de tema con una broma para que no piense en cosas tristes."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Jesús ante Lázaro, validamos el dolor y ofrecemos presencia. Las frases hechas y la evasión suelen herir más."
+   },
+   {
+    "pregunta": "Un joven siempre responde «bien» o «normal». ¿Cómo lo ayudas?",
+    "opciones": [
+     "Con preguntas abiertas y herramientas como tarjetas de emociones, respetando que puede decir «paso».",
+     "Insistiendo delante del grupo hasta que diga algo más.",
+     "Dejando de preguntarle para no incomodarlo."
+    ],
+    "correcta": 0,
+    "explicacion": "Como Jesús con Bartimeo, una buena pregunta ayuda a nombrar lo que se siente, siempre respetando la libertad."
+   },
+   {
+    "pregunta": "Semanas después de la muerte de su abuelo, un joven sigue muy aislado, dejó el colegio y dice que «nada tiene sentido». ¿Qué haces?",
+    "opciones": [
+     "Esperar, porque cada uno vive el duelo a su ritmo.",
+     "Decirle que rece más y que pronto se le pasará.",
+     "Acompañarlo con cariño y avisar a tus coordinadores y asesores para que la familia busque ayuda profesional; si la situación es urgente, pedir ayuda de inmediato."
+    ],
+    "correcta": 2,
+    "explicacion": "Son señales de alerta. El dirigente acompaña, pero no reemplaza la ayuda profesional; ante una urgencia no se espera."
+   },
+   {
+    "pregunta": "Un joven en duelo publica en redes que «ya no quiere seguir». ¿Qué haces?",
+    "opciones": [
+     "Esperar a que se le pase, porque es normal en el duelo.",
+     "Avisar de inmediato a tu asesor o a un adulto responsable y, si hay peligro inminente, a los servicios de emergencia.",
+     "Responderle en público para que sepa que el grupo lo apoya."
+    ],
+    "correcta": 1,
+    "explicacion": "Cualquier mención a no querer vivir es una señal roja: se pide ayuda adulta de inmediato y no se maneja solo."
+   },
+   {
+    "pregunta": "Un joven te cuenta en privado algo que te hace pensar que su vida o su integridad están en peligro. ¿Qué debes hacer?",
+    "opciones": [
+     "Prometerle que no le contarás a nadie para no perder su confianza.",
+     "Escucharlo con calma, no dejarlo solo, avisar de inmediato a los responsables y a su familia, y buscar ayuda profesional; ante una emergencia, llamar al 131.",
+     "Recomendarle rezar más y esperar a ver cómo evoluciona."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una situación «roja». El mayor acto de amor es no quedarse solo con eso y activar la ayuda profesional de inmediato."
+   },
+   {
+    "pregunta": "Eres dirigente y tienes 15 años. Un joven del grupo te escribe por privado de noche para contarte algo grave. ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Resolverlo tú por privado para no exponerlo.",
+     "Escucharlo, decirle que vas a pedir ayuda para cuidarlo y avisar de inmediato a tu asesor o a un adulto responsable.",
+     "No responder hasta la próxima reunión."
+    ],
+    "correcta": 1,
+    "explicacion": "Un dirigente menor de edad nunca maneja solo una situación grave. Escucha, no promete secretos y busca de inmediato a un adulto responsable."
+   }
+  ]
+ },
+ "dj-eucaristia-cierre": {
+  "titulo": "Cierre del módulo: Eucaristía y vida litúrgica del grupo",
+  "aprobacion": 70,
+  "taller": "El grupo prepara la animación de una misa dominical: cantos, lectores, monición de entrada, oración de los fieles, procesión de ofrendas y servidores. Revisan con el párroco que todo respete la liturgia del día.",
+  "preguntas": [
+   {
+    "pregunta": "Un joven de tu grupo te dice: «La misa es aburrida, no voy a ir más». ¿Qué respuesta refleja mejor lo aprendido?",
+    "opciones": [
+     "Decirle que si no va a misa no puede seguir en el grupo.",
+     "Escucharlo, preguntarle qué le cuesta, invitarlo personalmente a ir juntos y ayudarlo a entender lo que se celebra.",
+     "No decir nada: es su decisión y no es tema del dirigente."
+    ],
+    "correcta": 1,
+    "explicacion": "Como Jesús en Juan 6, respetamos la libertad, pero no somos indiferentes: escuchamos, invitamos y acompañamos para que cada joven pueda descubrir el sentido de la Eucaristía."
+   },
+   {
+    "pregunta": "¿Qué significa que la Eucaristía sea «fuente y culmen» de la vida cristiana?",
+    "opciones": [
+     "Que es la actividad más importante del calendario parroquial.",
+     "Que de ella brota la fuerza de toda la vida cristiana y hacia ella se orienta todo, también nuestro servicio.",
+     "Que basta con ir a misa para ser un buen cristiano, aunque no se viva el Evangelio."
+    ],
+    "correcta": 1,
+    "explicacion": "El Catecismo (1324) enseña que los sacramentos y todas las obras de apostolado están unidos a la Eucaristía y se ordenan a ella."
+   },
+   {
+    "pregunta": "Tu grupo va a animar la misa del domingo y alguien propone cambiar el Evangelio del día por un texto más «juvenil». ¿Qué corresponde hacer?",
+    "opciones": [
+     "Aceptarlo, porque lo importante es que los jóvenes se motiven.",
+     "Explicar que las lecturas y los ritos no se cambian, y poner la creatividad en la acogida, los cantos, las moniciones y la preparación, coordinando con el párroco.",
+     "Dejar que cada uno haga lo que quiera durante la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "La liturgia es un tesoro que recibimos de la Iglesia. La participación activa se vive dentro de su forma, con creatividad en lo que sí corresponde."
+   },
+   {
+    "pregunta": "Quieres proponer una primera experiencia de adoración a jóvenes que nunca la han vivido. ¿Qué es lo más adecuado?",
+    "opciones": [
+     "Una hora completa en silencio, sin ninguna explicación.",
+     "Un momento breve y guiado: explicar antes qué se vive, un canto, una frase del Evangelio, silencio y una oración final, coordinado con el párroco.",
+     "Pedirles que cierren los ojos y dejen la mente en blanco."
+    ],
+    "correcta": 1,
+    "explicacion": "La adoración es estar con Jesús presente en la Eucaristía. Para quienes empiezan, conviene que sea breve, acompañada y bien preparada."
+   },
+   {
+    "pregunta": "¿Por qué el Catecismo dice que la Eucaristía «entraña un compromiso en favor de los pobres»?",
+    "opciones": [
+     "Porque en la misa se hace una colecta.",
+     "Porque quien recibe a Cristo en la comunión está llamado a reconocerlo y servirlo en los más pobres, sus hermanos.",
+     "Porque la caridad reemplaza a la misa: si ayudo a otros, no necesito ir."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el mismo Jesús el que se entrega en el altar y el que nos sale al encuentro en el que sufre (CEC 1397). La misa nos envía a servir."
+   },
+   {
+    "pregunta": "Un joven pregunta si puede comulgar aunque no se ha confesado de un pecado grave. ¿Qué enseña la Iglesia?",
+    "opciones": [
+     "Que puede comulgar si se siente bien.",
+     "Que quien tiene conciencia de pecado grave debe confesarse antes de comulgar.",
+     "Que la comunión no tiene requisitos."
+    ],
+    "correcta": 1,
+    "explicacion": "Para comulgar hay que estar en gracia de Dios; quien tiene conciencia de pecado grave se confiesa antes (Catecismo 1385). Mientras tanto, puede participar y hacer una comunión espiritual."
+   },
+   {
+    "pregunta": "¿Qué color litúrgico se usa en el tiempo ordinario?",
+    "opciones": [
+     "Verde.",
+     "Morado.",
+     "Blanco."
+    ],
+    "correcta": 0,
+    "explicacion": "El verde se usa en el tiempo ordinario y recuerda la esperanza y el crecimiento. El morado es de Adviento y Cuaresma, y el blanco de Navidad y Pascua."
+   },
+   {
+    "pregunta": "¿Cuál es el mejor criterio para elegir un canto de comunión?",
+    "opciones": [
+     "Que esté de moda entre los jóvenes.",
+     "Que su letra sea fiel a la fe, corresponda al momento y la asamblea pueda cantarlo.",
+     "Que el coro se luzca."
+    ],
+    "correcta": 1,
+    "explicacion": "La música litúrgica ayuda a que todos recen: corresponde al momento, es fiel a la fe y la comunidad puede cantarla."
+   }
+  ]
+ },
+ "buen-trato-y-prevencion-cierre": {
+  "titulo": "Cierre del módulo: Buen trato y prevención",
+  "aprobacion": 70,
+  "taller": "Análisis de casos en grupos: cada grupo recibe una situación (una salida, un mensaje privado, un rumor, una revelación de daño) y debe decidir qué hacer, a quién avisar y qué no hacer, según el protocolo de la parroquia. Al final, cada participante completa su tarjeta con los nombres y contactos del encargado de prevención y los números de ayuda.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es el buen trato?",
+    "opciones": [
+     "No pegarle a nadie.",
+     "Una manera de relacionarse que reconoce la dignidad, respeta los límites y busca el bien del otro.",
+     "Ser simpático con todos."
+    ],
+    "correcta": 1,
+    "explicacion": "No es solo no hacer daño: es cuidar activamente."
+   },
+   {
+    "pregunta": "¿Qué tres formas de abuso nombra el papa Francisco?",
+    "opciones": [
+     "De poder, de conciencia y sexual.",
+     "Físico, verbal y económico.",
+     "Público, privado y digital."
+    ],
+    "correcta": 0,
+    "explicacion": "Suelen ir unidas: el abuso de poder y de conciencia abre la puerta a otros."
+   },
+   {
+    "pregunta": "¿Qué dice la regla de los dos adultos?",
+    "opciones": [
+     "Que cada joven debe venir con dos adultos.",
+     "Que en las actividades con menores hay al menos dos adultos responsables.",
+     "Que dos adultos deciden todo en el grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una de las reglas básicas de un ambiente seguro."
+   },
+   {
+    "pregunta": "¿Cómo debe ser la comunicación digital entre dirigentes y menores del grupo?",
+    "opciones": [
+     "Por chat privado para más confianza.",
+     "Grupal y transparente, con adultos responsables incluidos y en horarios razonables.",
+     "Solo de noche, cuando todos están libres."
+    ],
+    "correcta": 1,
+    "explicacion": "No hay chats privados entre adultos o dirigentes y menores."
+   },
+   {
+    "pregunta": "Si un joven te revela que alguien le hace daño, ¿qué NO debes hacer?",
+    "opciones": [
+     "Escuchar con calma y creerle.",
+     "Prometer guardar el secreto.",
+     "Avisar de inmediato al asesor o encargado."
+    ],
+    "correcta": 1,
+    "explicacion": "Para cuidarlo hay que pedir ayuda; por eso no se promete secreto."
+   },
+   {
+    "pregunta": "¿Quién puede denunciar un delito contra un menor en Chile?",
+    "opciones": [
+     "Solo los padres.",
+     "Cualquier persona; algunas, como directores y profesores, están obligadas por ley.",
+     "Solo la policía."
+    ],
+    "correcta": 1,
+    "explicacion": "Artículos 175 y 176 del Código Procesal Penal."
+   },
+   {
+    "pregunta": "¿Qué número es el Fono Niños de Carabineros?",
+    "opciones": [
+     "131",
+     "133",
+     "147"
+    ],
+    "correcta": 2,
+    "explicacion": "131 es SAMU y 133 es Carabineros."
+   },
+   {
+    "pregunta": "Si alguien te presiona para enviar fotos íntimas, ¿qué es lo correcto?",
+    "opciones": [
+     "Enviarlas para no perder la amistad.",
+     "No enviarlas y contarlo a un adulto de confianza; no es tu culpa.",
+     "Guardar silencio para no meterte en problemas."
+    ],
+    "correcta": 1,
+    "explicacion": "Producir o compartir imágenes sexuales de menores es un delito."
+   },
+   {
+    "pregunta": "Si alguien te cuenta que sufrió un daño, ¿cuál es la primera actitud?",
+    "opciones": [
+     "Preguntarle por qué no habló antes",
+     "Creerle, no juzgar y avisar a un adulto responsable",
+     "Contarlo al grupo para que lo apoyen"
+    ],
+    "correcta": 1,
+    "explicacion": "Creer, no juzgar y activar a los adultos responsables."
+   },
+   {
+    "pregunta": "¿A quién protege primero la comunidad ante una denuncia?",
+    "opciones": [
+     "A la imagen del grupo",
+     "A la persona afectada",
+     "Al acusado"
+    ],
+    "correcta": 1,
+    "explicacion": "La persona afectada es la prioridad."
+   }
+  ]
+ },
+ "dj-coordinar-cierre": {
+  "titulo": "Cierre del módulo: Coordinar, planificar y administrar",
+  "aprobacion": 70,
+  "taller": "Cada participante arma el plan del año de su grupo en una página: objetivo, calendario cruzado con las fechas de la parroquia, responsables por actividad y presupuesto básico con formato de rendición de cuentas.",
+  "preguntas": [
+   {
+    "pregunta": "Un dirigente nuevo prepara una dinámica que no te convence del todo. ¿Qué hace un coordinador que sirve?",
+    "opciones": [
+     "La rehace él mismo para que salga perfecta.",
+     "Le pregunta qué quiere lograr, le sugiere mejoras y lo deja hacerla, acompañándolo.",
+     "Le dice que mejor no la haga."
+    ],
+    "correcta": 1,
+    "explicacion": "Coordinar es ayudar a que cada uno dé lo mejor de sí, no hacerlo todo uno mismo."
+   },
+   {
+    "pregunta": "Tú y tu compañero de dupla no están de acuerdo en una decisión importante. ¿Qué corresponde?",
+    "opciones": [
+     "Que cada uno lo plantee al equipo para ver quién gana.",
+     "Conversarlo en privado, rezar, escuchar al equipo y, si no hay acuerdo, consultar a los asesores.",
+     "Decide el que lleva más tiempo en el grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Los desacuerdos de la dupla se conversan en privado y se disciernen, con ayuda de los asesores si es necesario."
+   },
+   {
+    "pregunta": "Al armar el calendario del año, ¿qué va primero?",
+    "opciones": [
+     "Las actividades más entretenidas.",
+     "El año litúrgico y la misa dominical, y a partir de ahí las actividades.",
+     "Las fechas libres de los dirigentes."
+    ],
+    "correcta": 1,
+    "explicacion": "La Eucaristía es fuente y culmen de la vida cristiana: el calendario se arma a partir del año litúrgico."
+   },
+   {
+    "pregunta": "¿Cuál es la diferencia entre autoridad y poder en un coordinador?",
+    "opciones": [
+     "No hay diferencia: ambos vienen del cargo.",
+     "La autoridad se gana sirviendo y buscando el bien del grupo; el poder se impone.",
+     "El poder es mejor porque permite decidir más rápido."
+    ],
+    "correcta": 1,
+    "explicacion": "La autoridad cristiana nace del servicio y la coherencia, como la de Jesús."
+   },
+   {
+    "pregunta": "¿Qué ayuda más a prevenir tensiones en una dupla de coordinación?",
+    "opciones": [
+     "Que uno de los dos tome todas las decisiones.",
+     "Un acuerdo escrito sobre tareas, decisiones, comunicación y cómo resolver desacuerdos.",
+     "Evitar hablar de los problemas para no pelear."
+    ],
+    "correcta": 1,
+    "explicacion": "Poner por escrito las expectativas al comenzar evita malentendidos y cuida la amistad."
+   },
+   {
+    "pregunta": "¿Cuál es el mejor objetivo para el año?",
+    "opciones": [
+     "Que los jóvenes sean más buenos.",
+     "Que cada familia del grupo tenga un momento de oración en todos sus encuentros, preparado por los propios jóvenes.",
+     "Hacer muchas actividades."
+    ],
+    "correcta": 1,
+    "explicacion": "Un buen objetivo dice qué queremos lograr y cómo nos daremos cuenta de que lo logramos."
+   },
+   {
+    "pregunta": "Para organizar un retiro, el equipo dice «todos ayudamos con todo». ¿Qué falta?",
+    "opciones": [
+     "Más entusiasmo.",
+     "Un responsable con nombre para cada acción, con fecha y recursos.",
+     "Hacer el retiro más corto."
+    ],
+    "correcta": 1,
+    "explicacion": "Una tarea que es de todos suele terminar siendo de nadie: cada acción necesita un responsable y una fecha."
+   },
+   {
+    "pregunta": "¿Qué conviene revisar antes de agregar actividades propias al calendario del grupo?",
+    "opciones": [
+     "Las preferencias del coordinador.",
+     "El calendario litúrgico, el escolar y lo que propone la parroquia y la diócesis.",
+     "Las actividades de otros grupos para competir con ellas."
+    ],
+    "correcta": 1,
+    "explicacion": "El año pastoral se construye al ritmo de la Iglesia y considerando la vida real de los jóvenes."
+   },
+   {
+    "pregunta": "¿Cuál de estos es un objetivo claro?",
+    "opciones": [
+     "Que el grupo crezca mucho.",
+     "Que al menos ocho jóvenes nuevos participen antes de fin de mayo.",
+     "Hacer más actividades."
+    ],
+    "correcta": 1,
+    "explicacion": "Un objetivo claro dice qué, cuánto y para cuándo, y permite revisar si se cumplió."
+   },
+   {
+    "pregunta": "¿Cuál es una buena práctica con el dinero del grupo?",
+    "opciones": [
+     "Que lo guarde el coordinador en su cuenta personal.",
+     "Registrar cada ingreso y gasto con comprobante, contarlo entre dos y rendir cuenta cada semestre.",
+     "No anotar nada para no complicarse."
+    ],
+    "correcta": 1,
+    "explicacion": "La transparencia protege a la comunidad y a quien administra."
+   }
+  ]
+ },
+ "santos-jovenes-cierre": {
+  "titulo": "Cierre del módulo: Santos jóvenes",
+  "aprobacion": 70,
+  "taller": "Cada participante presenta en tres minutos a un santo o testigo de la fe que lo haya marcado (puede ser de los estudiados o uno nuevo), con un dato de su vida, una frase y lo que le enseña. Al final, cada uno escribe en una tarjeta su propio «camino de santidad» para el próximo mes.",
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿quiénes están llamados a la santidad?",
+    "opciones": [
+     "Solo los sacerdotes y religiosos.",
+     "Todos los fieles, en cualquier estado o condición.",
+     "Solo quienes hacen milagros."
+    ],
+    "correcta": 1,
+    "explicacion": "Lumen gentium 40 enseña el llamado universal a la santidad."
+   },
+   {
+    "pregunta": "¿Qué son los «santos de la puerta de al lado»?",
+    "opciones": [
+     "Santos que vivieron en los conventos.",
+     "Personas cercanas que reflejan la presencia de Dios en la vida cotidiana.",
+     "Imágenes de santos en la entrada de las iglesias."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una expresión de Gaudete et exsultate 7."
+   },
+   {
+    "pregunta": "¿Quién fue la primera santa chilena?",
+    "opciones": [
+     "Laura Vicuña.",
+     "Teresa de los Andes.",
+     "Gabriela Mistral."
+    ],
+    "correcta": 1,
+    "explicacion": "Juan Pablo II la canonizó en 1993."
+   },
+   {
+    "pregunta": "¿Qué obra fundó san Alberto Hurtado en 1944?",
+    "opciones": [
+     "El Hogar de Cristo.",
+     "Un colegio jesuita.",
+     "Una radio católica."
+    ],
+    "correcta": 0,
+    "explicacion": "El Hogar de Cristo acoge a personas en situación de calle."
+   },
+   {
+    "pregunta": "¿Qué decía Carlo Acutis sobre la Eucaristía?",
+    "opciones": [
+     "Que era un rito para los domingos.",
+     "Que era su autopista al cielo.",
+     "Que solo era para adultos."
+    ],
+    "correcta": 1,
+    "explicacion": "Iba a misa diariamente y adoraba al Santísimo."
+   },
+   {
+    "pregunta": "¿Cuál era el lema de Pier Giorgio Frassati?",
+    "opciones": [
+     "«Verso l'alto»: hacia lo alto.",
+     "«Ora et labora».",
+     "«Todo por amor»."
+    ],
+    "correcta": 0,
+    "explicacion": "Lo usaba como montañista y como camino espiritual."
+   },
+   {
+    "pregunta": "¿Qué frase repetía Chiara Badano durante su enfermedad?",
+    "opciones": [
+     "«No es justo».",
+     "«Si lo quieres tú, Jesús, lo quiero yo también».",
+     "«Contento, Señor, contento»."
+    ],
+    "correcta": 1,
+    "explicacion": "«Contento, Señor, contento» era de san Alberto Hurtado."
+   },
+   {
+    "pregunta": "Según esta formación, ¿qué hacer si estás pasando por algo muy difícil?",
+    "opciones": [
+     "Soportarlo en silencio como los santos.",
+     "Rezar y también pedir ayuda a la familia, a un adulto de confianza o a un profesional.",
+     "Esperar a que pase solo."
+    ],
+    "correcta": 1,
+    "explicacion": "La fe y la ayuda humana van juntas."
+   },
+   {
+    "pregunta": "¿Qué tienen en común Ceferino, Domingo y Sandra?",
+    "opciones": [
+     "Hicieron milagros espectaculares",
+     "Vivieron su vida ordinaria con un amor extraordinario",
+     "Fueron todos sacerdotes"
+    ],
+    "correcta": 1,
+    "explicacion": "La santidad se juega en lo cotidiano."
+   },
+   {
+    "pregunta": "¿Qué muestra la vida de Ceferino Namuncurá?",
+    "opciones": [
+     "Que hay que renunciar a la propia cultura para ser santo",
+     "Que se puede unir la identidad de un pueblo con el Evangelio",
+     "Que solo los europeos llegan a ser santos"
+    ],
+    "correcta": 1,
+    "explicacion": "Ceferino vivió la fe sin renunciar a su identidad mapuche."
+   }
+  ]
+ },
+ "dinamicas-y-juegos-cierre": {
+  "titulo": "Cierre del módulo: Dinámicas y juegos",
+  "aprobacion": 70,
+  "taller": "Cada participante conduce una dinámica de 10 minutos con el grupo, usando la ficha de dinámica: objetivo, explicación, conducción y reflexión final. Los demás evalúan con una pauta breve: ¿se entendió?, ¿todos participaron?, ¿la reflexión ayudó a pensar?",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es la pregunta clave antes de elegir una dinámica?",
+    "opciones": [
+     "¿Es la más divertida?",
+     "¿Para qué la usamos?",
+     "¿Es la más nueva?"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada dinámica debe tener un propósito."
+   },
+   {
+    "pregunta": "¿Cuál de estos juegos NO corresponde en un grupo cristiano?",
+    "opciones": [
+     "Nombre y gesto.",
+     "Un «bautizo» de los nuevos con harina y huevos.",
+     "Cruzar el río."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie debe pasarlo mal para que otros se rían."
+   },
+   {
+    "pregunta": "¿Qué incluye una buena explicación de un juego?",
+    "opciones": [
+     "Muchas palabras para que no queden dudas.",
+     "Pocas palabras, paso a paso, con una demostración.",
+     "Empezar sin explicar y corregir sobre la marcha."
+    ],
+    "correcta": 1,
+    "explicacion": "Esperar silencio, explicar breve, demostrar y preguntar dudas."
+   },
+   {
+    "pregunta": "¿Cuáles son las tres preguntas de la reflexión final?",
+    "opciones": [
+     "¿Quién ganó? ¿Quién perdió? ¿Quién hizo trampa?",
+     "¿Qué pasó? ¿Cómo se sintieron? ¿Qué aprendimos?",
+     "¿Les gustó? ¿Lo repetimos? ¿Cuándo?"
+    ],
+    "correcta": 1,
+    "explicacion": "Describir, sentir y aprender."
+   },
+   {
+    "pregunta": "¿Cuándo conviene terminar una dinámica?",
+    "opciones": [
+     "Cuando el grupo ya está aburrido.",
+     "Cuando el grupo todavía la está disfrutando.",
+     "Cuando todos hayan ganado al menos una vez."
+    ],
+    "correcta": 1,
+    "explicacion": "Así queda un buen recuerdo y energía para lo que sigue."
+   },
+   {
+    "pregunta": "¿Qué dinámica sirve para aprender nombres?",
+    "opciones": [
+     "Nombre y gesto.",
+     "Cruzar el río.",
+     "Semáforo."
+    ],
+    "correcta": 0,
+    "explicacion": "Es una dinámica de presentación."
+   },
+   {
+    "pregunta": "¿Cuál es una regla de seguridad en un juego nocturno?",
+    "opciones": [
+     "Que cada uno busque las pistas solo.",
+     "Espacio conocido y delimitado, linternas, adultos en puntos fijos y nadie solo.",
+     "Jugar en un bosque desconocido para que sea más emocionante."
+    ],
+    "correcta": 1,
+    "explicacion": "Y contar a los participantes al inicio y al final."
+   },
+   {
+    "pregunta": "¿Cómo se logra que un gran juego sea inclusivo?",
+    "opciones": [
+     "Haciendo solo desafíos físicos.",
+     "Con desafíos variados, adaptaciones y roles para todos.",
+     "Dejando fuera a quienes no pueden correr."
+    ],
+    "correcta": 1,
+    "explicacion": "Que todos puedan destacar en algo."
+   },
+   {
+    "pregunta": "¿Qué conviene programar después de almuerzo?",
+    "opciones": [
+     "Una charla larga",
+     "Juegos activos",
+     "Un momento de silencio de una hora"
+    ],
+    "correcta": 1,
+    "explicacion": "Después de almuerzo la energía baja: hay que moverse."
+   },
+   {
+    "pregunta": "¿Qué no se negocia ante imprevistos?",
+    "opciones": [
+     "El gran juego",
+     "La oración y el cierre",
+     "El horario de almuerzo"
+    ],
+    "correcta": 1,
+    "explicacion": "Lo esencial se mantiene; lo demás se adapta."
+   }
+  ]
+ },
+ "comunicacion-y-redes-cierre": {
+  "titulo": "Cierre del módulo: Comunicación y redes para la pastoral",
+  "aprobacion": 70,
+  "taller": "Cada equipo presenta el plan de comunicación de su grupo para los próximos tres meses (objetivos, públicos, canales, calendario y roles) y una pieza de muestra: una publicación, una historia o un afiche. Los demás revisan que cuide la imagen y los datos de las personas.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo describe el papa el ambiente digital?",
+    "opciones": [
+     "Como una simple herramienta.",
+     "Como un lugar donde viven los jóvenes, con oportunidades y riesgos.",
+     "Como algo que la Iglesia debe evitar."
+    ],
+    "correcta": 1,
+    "explicacion": "Christus vivit 86-90."
+   },
+   {
+    "pregunta": "¿Cuáles son los tres filtros antes de publicar?",
+    "opciones": [
+     "¿Es largo? ¿Es bonito? ¿Es nuevo?",
+     "¿Es verdad? ¿Es bueno? ¿Es útil?",
+     "¿Tendrá muchos «me gusta»? ¿Es divertido? ¿Es rápido?"
+    ],
+    "correcta": 1,
+    "explicacion": "Si no pasa los tres, mejor no publicarlo."
+   },
+   {
+    "pregunta": "¿Qué va primero en un aviso?",
+    "opciones": [
+     "Una reflexión larga.",
+     "Lo más importante: qué, cuándo y dónde.",
+     "Muchos emojis."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo importante primero, con frases cortas."
+   },
+   {
+    "pregunta": "¿Cuál es un buen principio de diseño?",
+    "opciones": [
+     "Usar muchas tipografías y colores.",
+     "Jerarquía, contraste, pocos colores y espacio en blanco.",
+     "Llenar todo el espacio."
+    ],
+    "correcta": 1,
+    "explicacion": "Menos es más."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "opciones": [
+     "Nada, si son fotos grupales.",
+     "Autorización escrita de sus padres o apoderados.",
+     "Que el menor diga que sí por mensaje."
+    ],
+    "correcta": 1,
+    "explicacion": "Y se respeta a quien no quiere aparecer."
+   },
+   {
+    "pregunta": "¿Qué información de los menores NO se publica?",
+    "opciones": [
+     "El nombre del grupo.",
+     "Nombres completos, etiquetas y ubicación en tiempo real.",
+     "La fecha de la actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "Permitiría identificarlos o ubicarlos."
+   },
+   {
+    "pregunta": "¿Cómo deben ser los grupos de mensajería con menores?",
+    "opciones": [
+     "Sin administradores para que sean más libres.",
+     "Con administradores adultos, normas claras y horarios razonables.",
+     "Con chats privados entre dirigentes y cada joven."
+    ],
+    "correcta": 1,
+    "explicacion": "La comunicación es grupal y transparente."
+   },
+   {
+    "pregunta": "Según Evangelii gaudium, ¿cómo crece la Iglesia?",
+    "opciones": [
+     "Por proselitismo.",
+     "Por atracción, por el testimonio de una comunidad que vive la alegría del Evangelio.",
+     "Por publicidad."
+    ],
+    "correcta": 1,
+    "explicacion": "La mejor comunicación es una vida comunitaria auténtica."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "opciones": [
+     "Nada, si es una actividad de la Iglesia",
+     "Autorización escrita de sus padres o tutores",
+     "Que el menor esté de acuerdo"
+    ],
+    "correcta": 1,
+    "explicacion": "La autorización de los padres o tutores es indispensable."
+   },
+   {
+    "pregunta": "¿Qué conviene al publicar después de un evento?",
+    "opciones": [
+     "Subir todas las fotos",
+     "Elegir pocas imágenes buenas y un texto breve",
+     "Esperar un mes"
+    ],
+    "correcta": 1,
+    "explicacion": "Menos y mejor comunica más."
+   }
+  ]
+ },
+ "primeros-auxilios-psicologicos-cierre": {
+  "titulo": "Cierre del módulo: Primeros auxilios psicológicos",
+  "aprobacion": 70,
+  "taller": "Juego de roles en tríos: una persona vive una crisis (caso preparado por el relator), otra la acompaña aplicando el protocolo ABCD y la tercera observa con una pauta. Rotan los roles. Al cierre, cada participante revisa su tarjeta con los números de ayuda y el nombre del adulto responsable a quien derivar.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué son los primeros auxilios psicológicos?",
+    "opciones": [
+     "Una terapia breve.",
+     "Una ayuda breve e inmediata para aliviar, proteger y conectar con apoyo.",
+     "Un diagnóstico de salud mental."
+    ],
+    "correcta": 1,
+    "explicacion": "No reemplazan la atención profesional."
+   },
+   {
+    "pregunta": "¿Qué significan las letras del protocolo ABCD?",
+    "opciones": [
+     "Atender, buscar, curar, despedir.",
+     "Escucha activa, reentrenamiento de la respiración, categorización de necesidades y derivación a redes.",
+     "Avisar, buscar, calmar, dormir."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el protocolo de primera ayuda psicológica usado en Chile."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases ayuda a alguien en crisis?",
+    "opciones": [
+     "«No llores».",
+     "«Hay gente que está peor».",
+     "«Estoy aquí contigo, tómate tu tiempo»."
+    ],
+    "correcta": 2,
+    "explicacion": "Validar y acompañar ayuda más que minimizar."
+   },
+   {
+    "pregunta": "En el ejercicio de respiración, ¿cómo se exhala?",
+    "opciones": [
+     "Más rápido que la inspiración.",
+     "Lentamente, más largo que la inspiración.",
+     "Reteniendo el aire un minuto."
+    ],
+    "correcta": 1,
+    "explicacion": "Inspirar en 4 y exhalar en 6 u 8 ayuda a calmar el cuerpo."
+   },
+   {
+    "pregunta": "Si alguien dice que piensa en quitarse la vida, ¿qué haces?",
+    "opciones": [
+     "Le cambias el tema para que no piense en eso.",
+     "No lo dejas solo, escuchas, no prometes secreto y avisas de inmediato.",
+     "Esperas a ver si lo vuelve a decir."
+    ],
+    "correcta": 1,
+    "explicacion": "Siempre se toma en serio y se busca ayuda de inmediato."
+   },
+   {
+    "pregunta": "¿Cuál es el número de la línea de prevención del suicidio del Ministerio de Salud?",
+    "opciones": [
+     "*4141",
+     "147",
+     "132"
+    ],
+    "correcta": 0,
+    "explicacion": "Es gratuita y funciona las 24 horas. Ante riesgo inmediato, 131."
+   },
+   {
+    "pregunta": "¿Preguntar directamente a alguien si piensa en quitarse la vida aumenta el riesgo?",
+    "opciones": [
+     "Sí, siempre.",
+     "No; muchas veces alivia poder decirlo.",
+     "Solo si es menor de edad."
+    ],
+    "correcta": 1,
+    "explicacion": "Preguntar con respeto abre la puerta a pedir ayuda."
+   },
+   {
+    "pregunta": "¿Cuándo se rompe la confidencialidad?",
+    "opciones": [
+     "Nunca.",
+     "Cuando hay riesgo para la vida o la seguridad de alguien.",
+     "Cuando el grupo quiere saber."
+    ],
+    "correcta": 1,
+    "explicacion": "Informar a un adulto responsable en esos casos es cuidar, no traicionar."
+   },
+   {
+    "pregunta": "¿Qué es lo primero en una crisis colectiva?",
+    "opciones": [
+     "Hacer un encuentro de oración",
+     "Asegurar que todos estén a salvo y avisar a los adultos responsables",
+     "Publicar lo ocurrido en redes"
+    ],
+    "correcta": 1,
+    "explicacion": "Seguridad primero, luego aviso y acompañamiento."
+   },
+   {
+    "pregunta": "Si alguien habla de no querer vivir, ¿qué haces?",
+    "opciones": [
+     "Esperas a ver si se le pasa",
+     "Avisas de inmediato a un adulto y llaman al *4141",
+     "Lo comentas con el grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una urgencia: se avisa y se busca ayuda de inmediato."
+   }
+  ]
+ },
+ "logistica-cierre": {
+  "titulo": "Cierre del módulo: Logística de actividades pastorales",
+  "aprobacion": 70,
+  "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
+  "preguntas": [
+   {
+    "pregunta": "¿Por qué la logística es parte de la pastoral?",
+    "opciones": [
+     "Porque así se ahorra dinero",
+     "Porque cuidar los detalles es cuidar a las personas",
+     "Porque la hacen los más nuevos"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando la logística funciona, todos pueden concentrarse en lo importante."
+   },
+   {
+    "pregunta": "¿Qué es un cronograma hacia atrás?",
+    "opciones": [
+     "Un plan que parte desde la fecha de la actividad y define tareas antes de ella",
+     "Un resumen de lo que salió mal",
+     "Un horario del día de la actividad"
+    ],
+    "correcta": 0,
+    "explicacion": "Se cuenta hacia atrás desde la fecha."
+   },
+   {
+    "pregunta": "¿Cuánto conviene agregar a las cantidades de comida por imprevistos?",
+    "opciones": [
+     "Nada",
+     "Alrededor de un 10 %",
+     "El doble"
+    ],
+    "correcta": 1,
+    "explicacion": "Un 10 % extra cubre imprevistos sin desperdiciar."
+   },
+   {
+    "pregunta": "¿Qué es la contaminación cruzada?",
+    "opciones": [
+     "Mezclar sabores",
+     "El paso de microbios de alimentos crudos a cocidos",
+     "Cocinar en dos ollas"
+    ],
+    "correcta": 1,
+    "explicacion": "Por eso se separan tablas y utensilios."
+   },
+   {
+    "pregunta": "¿Qué debe registrar un inventario?",
+    "opciones": [
+     "Solo el nombre del material",
+     "Material, cantidad, estado, ubicación y responsable",
+     "El precio de compra"
+    ],
+    "correcta": 1,
+    "explicacion": "Así se sabe qué hay y dónde está."
+   },
+   {
+    "pregunta": "¿Para qué sirve definir un stock mínimo?",
+    "opciones": [
+     "Para saber cuándo reponer un consumible",
+     "Para limitar el uso de materiales",
+     "Para vender lo que sobra"
+    ],
+    "correcta": 0,
+    "explicacion": "Al llegar al mínimo, se repone."
+   },
+   {
+    "pregunta": "¿Qué se necesita para trasladar menores?",
+    "opciones": [
+     "Solo un auto disponible",
+     "Transporte con permisos al día, autorización de los padres y lista de pasajeros",
+     "Que vayan con un amigo mayor"
+    ],
+    "correcta": 1,
+    "explicacion": "La seguridad en los traslados no se improvisa."
+   },
+   {
+    "pregunta": "¿Cómo se definen los dormitorios en una actividad con menores?",
+    "opciones": [
+     "Libremente",
+     "Separados para hombres y mujeres, y para menores y adultos",
+     "Todos juntos para ahorrar espacio"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una norma básica de cuidado."
+   },
+   {
+    "pregunta": "¿Qué hacer si una familia no puede pagar la cuota?",
+    "opciones": [
+     "Excluir al joven",
+     "Ofrecer con discreción una cuota solidaria o beca",
+     "Exponer la situación ante el grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie debería quedar fuera por razones económicas."
+   },
+   {
+    "pregunta": "¿Qué es lo esencial en la rendición de cuentas?",
+    "opciones": [
+     "Gastar todo el dinero",
+     "Comparar lo presupuestado con lo gastado, con comprobantes, e informar",
+     "Que solo lo sepa el tesorero"
+    ],
+    "correcta": 1,
+    "explicacion": "La transparencia genera confianza."
+   }
+  ]
+ }
+}

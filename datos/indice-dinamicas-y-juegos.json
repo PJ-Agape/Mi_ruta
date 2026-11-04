@@ -2,58 +2,68 @@
  "curso": "dinamicas-y-juegos",
  "modulos": [
   {
-   "id": "m1",
+   "id": "dinamicas-y-juegos",
    "numero": 1,
-   "titulo": "Animar con el juego",
-   "semanas": "",
+   "titulo": "Dinámicas y juegos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "El juego es uno de los lenguajes más naturales de los jóvenes. Bien usado, rompe el hielo, une al grupo, enseña y abre el corazón. Mal usado, puede aburrir, excluir o incluso humillar. Esta formación te ayuda a elegir, diseñar y conducir dinámicas con sentido.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "dinamicas-y-juegos-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "¿Para qué jugar?",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "dinamicas-y-juegos-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Diseñar y conducir una dinámica",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "dinamicas-y-juegos-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Banco de dinámicas",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "dinamicas-y-juegos-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Animar una jornada completa",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "dinamicas-y-juegos-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Grandes juegos, seguridad e inclusión",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "dinamicas-y-juegos-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Dinámicas y juegos",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

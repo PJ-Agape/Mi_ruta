@@ -1,0 +1,430 @@
+{
+ "primeros-auxilios-psicologicos-cierre": {
+  "titulo": "Cierre del módulo: Primeros auxilios psicológicos",
+  "aprobacion": 70,
+  "taller": "Juego de roles en tríos: una persona vive una crisis (caso preparado por el relator), otra la acompaña aplicando el protocolo ABCD y la tercera observa con una pauta. Rotan los roles. Al cierre, cada participante revisa su tarjeta con los números de ayuda y el nombre del adulto responsable a quien derivar.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué son los primeros auxilios psicológicos?",
+    "opciones": [
+     "Una terapia breve.",
+     "Una ayuda breve e inmediata para aliviar, proteger y conectar con apoyo.",
+     "Un diagnóstico de salud mental."
+    ],
+    "correcta": 1,
+    "explicacion": "No reemplazan la atención profesional."
+   },
+   {
+    "pregunta": "¿Qué significan las letras del protocolo ABCD?",
+    "opciones": [
+     "Atender, buscar, curar, despedir.",
+     "Escucha activa, reentrenamiento de la respiración, categorización de necesidades y derivación a redes.",
+     "Avisar, buscar, calmar, dormir."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el protocolo de primera ayuda psicológica usado en Chile."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases ayuda a alguien en crisis?",
+    "opciones": [
+     "«No llores».",
+     "«Hay gente que está peor».",
+     "«Estoy aquí contigo, tómate tu tiempo»."
+    ],
+    "correcta": 2,
+    "explicacion": "Validar y acompañar ayuda más que minimizar."
+   },
+   {
+    "pregunta": "En el ejercicio de respiración, ¿cómo se exhala?",
+    "opciones": [
+     "Más rápido que la inspiración.",
+     "Lentamente, más largo que la inspiración.",
+     "Reteniendo el aire un minuto."
+    ],
+    "correcta": 1,
+    "explicacion": "Inspirar en 4 y exhalar en 6 u 8 ayuda a calmar el cuerpo."
+   },
+   {
+    "pregunta": "Si alguien dice que piensa en quitarse la vida, ¿qué haces?",
+    "opciones": [
+     "Le cambias el tema para que no piense en eso.",
+     "No lo dejas solo, escuchas, no prometes secreto y avisas de inmediato.",
+     "Esperas a ver si lo vuelve a decir."
+    ],
+    "correcta": 1,
+    "explicacion": "Siempre se toma en serio y se busca ayuda de inmediato."
+   },
+   {
+    "pregunta": "¿Cuál es el número de la línea de prevención del suicidio del Ministerio de Salud?",
+    "opciones": [
+     "*4141",
+     "147",
+     "132"
+    ],
+    "correcta": 0,
+    "explicacion": "Es gratuita y funciona las 24 horas. Ante riesgo inmediato, 131."
+   },
+   {
+    "pregunta": "¿Preguntar directamente a alguien si piensa en quitarse la vida aumenta el riesgo?",
+    "opciones": [
+     "Sí, siempre.",
+     "No; muchas veces alivia poder decirlo.",
+     "Solo si es menor de edad."
+    ],
+    "correcta": 1,
+    "explicacion": "Preguntar con respeto abre la puerta a pedir ayuda."
+   },
+   {
+    "pregunta": "¿Cuándo se rompe la confidencialidad?",
+    "opciones": [
+     "Nunca.",
+     "Cuando hay riesgo para la vida o la seguridad de alguien.",
+     "Cuando el grupo quiere saber."
+    ],
+    "correcta": 1,
+    "explicacion": "Informar a un adulto responsable en esos casos es cuidar, no traicionar."
+   },
+   {
+    "pregunta": "¿Qué es lo primero en una crisis colectiva?",
+    "opciones": [
+     "Hacer un encuentro de oración",
+     "Asegurar que todos estén a salvo y avisar a los adultos responsables",
+     "Publicar lo ocurrido en redes"
+    ],
+    "correcta": 1,
+    "explicacion": "Seguridad primero, luego aviso y acompañamiento."
+   },
+   {
+    "pregunta": "Si alguien habla de no querer vivir, ¿qué haces?",
+    "opciones": [
+     "Esperas a ver si se le pasa",
+     "Avisas de inmediato a un adulto y llaman al *4141",
+     "Lo comentas con el grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una urgencia: se avisa y se busca ayuda de inmediato."
+   }
+  ]
+ },
+ "comunicacion-y-redes-cierre": {
+  "titulo": "Cierre del módulo: Comunicación y redes para la pastoral",
+  "aprobacion": 70,
+  "taller": "Cada equipo presenta el plan de comunicación de su grupo para los próximos tres meses (objetivos, públicos, canales, calendario y roles) y una pieza de muestra: una publicación, una historia o un afiche. Los demás revisan que cuide la imagen y los datos de las personas.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo describe el papa el ambiente digital?",
+    "opciones": [
+     "Como una simple herramienta.",
+     "Como un lugar donde viven los jóvenes, con oportunidades y riesgos.",
+     "Como algo que la Iglesia debe evitar."
+    ],
+    "correcta": 1,
+    "explicacion": "Christus vivit 86-90."
+   },
+   {
+    "pregunta": "¿Cuáles son los tres filtros antes de publicar?",
+    "opciones": [
+     "¿Es largo? ¿Es bonito? ¿Es nuevo?",
+     "¿Es verdad? ¿Es bueno? ¿Es útil?",
+     "¿Tendrá muchos «me gusta»? ¿Es divertido? ¿Es rápido?"
+    ],
+    "correcta": 1,
+    "explicacion": "Si no pasa los tres, mejor no publicarlo."
+   },
+   {
+    "pregunta": "¿Qué va primero en un aviso?",
+    "opciones": [
+     "Una reflexión larga.",
+     "Lo más importante: qué, cuándo y dónde.",
+     "Muchos emojis."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo importante primero, con frases cortas."
+   },
+   {
+    "pregunta": "¿Cuál es un buen principio de diseño?",
+    "opciones": [
+     "Usar muchas tipografías y colores.",
+     "Jerarquía, contraste, pocos colores y espacio en blanco.",
+     "Llenar todo el espacio."
+    ],
+    "correcta": 1,
+    "explicacion": "Menos es más."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "opciones": [
+     "Nada, si son fotos grupales.",
+     "Autorización escrita de sus padres o apoderados.",
+     "Que el menor diga que sí por mensaje."
+    ],
+    "correcta": 1,
+    "explicacion": "Y se respeta a quien no quiere aparecer."
+   },
+   {
+    "pregunta": "¿Qué información de los menores NO se publica?",
+    "opciones": [
+     "El nombre del grupo.",
+     "Nombres completos, etiquetas y ubicación en tiempo real.",
+     "La fecha de la actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "Permitiría identificarlos o ubicarlos."
+   },
+   {
+    "pregunta": "¿Cómo deben ser los grupos de mensajería con menores?",
+    "opciones": [
+     "Sin administradores para que sean más libres.",
+     "Con administradores adultos, normas claras y horarios razonables.",
+     "Con chats privados entre dirigentes y cada joven."
+    ],
+    "correcta": 1,
+    "explicacion": "La comunicación es grupal y transparente."
+   },
+   {
+    "pregunta": "Según Evangelii gaudium, ¿cómo crece la Iglesia?",
+    "opciones": [
+     "Por proselitismo.",
+     "Por atracción, por el testimonio de una comunidad que vive la alegría del Evangelio.",
+     "Por publicidad."
+    ],
+    "correcta": 1,
+    "explicacion": "La mejor comunicación es una vida comunitaria auténtica."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "opciones": [
+     "Nada, si es una actividad de la Iglesia",
+     "Autorización escrita de sus padres o tutores",
+     "Que el menor esté de acuerdo"
+    ],
+    "correcta": 1,
+    "explicacion": "La autorización de los padres o tutores es indispensable."
+   },
+   {
+    "pregunta": "¿Qué conviene al publicar después de un evento?",
+    "opciones": [
+     "Subir todas las fotos",
+     "Elegir pocas imágenes buenas y un texto breve",
+     "Esperar un mes"
+    ],
+    "correcta": 1,
+    "explicacion": "Menos y mejor comunica más."
+   }
+  ]
+ },
+ "voluntariado-y-doctrina-social-cierre": {
+  "titulo": "Cierre del módulo: Voluntariado y doctrina social",
+  "aprobacion": 70,
+  "taller": "Cada equipo presenta su proyecto solidario completo: diagnóstico, objetivo, plan, responsables, presupuesto y cómo se cuidará la dignidad de las personas atendidas. Los demás lo revisan con preguntas desde los principios de la doctrina social: ¿promueve o solo asiste?, ¿participan los destinatarios?, ¿es sostenible?",
+  "preguntas": [
+   {
+    "pregunta": "Según Mateo 25, ¿con quién se identifica Jesús?",
+    "opciones": [
+     "Con los más poderosos.",
+     "Con el hambriento, el enfermo, el forastero y el preso.",
+     "Solo con sus discípulos."
+    ],
+    "correcta": 1,
+    "explicacion": "«Cada vez que lo hicieron con el más pequeño de mis hermanos, lo hicieron conmigo»."
+   },
+   {
+    "pregunta": "Según Deus caritas est, ¿cuáles son las tres tareas de la Iglesia?",
+    "opciones": [
+     "Anunciar la Palabra, celebrar los sacramentos y servir en la caridad.",
+     "Rezar, estudiar y descansar.",
+     "Construir templos, educar y gobernar."
+    ],
+    "correcta": 0,
+    "explicacion": "Las tres son inseparables."
+   },
+   {
+    "pregunta": "¿Cuál es el fundamento de todos los principios de la doctrina social?",
+    "opciones": [
+     "La propiedad privada.",
+     "La dignidad de la persona humana.",
+     "El crecimiento económico."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo ser humano, creado a imagen de Dios, tiene una dignidad inviolable."
+   },
+   {
+    "pregunta": "¿Qué es la solidaridad según la doctrina social?",
+    "opciones": [
+     "Ayudar cuando hay una catástrofe.",
+     "La determinación firme y perseverante de comprometerse por el bien común.",
+     "Donar dinero una vez al año."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una virtud constante, no un gesto aislado."
+   },
+   {
+    "pregunta": "¿Qué dice el principio de subsidiariedad?",
+    "opciones": [
+     "El Estado debe hacerlo todo.",
+     "Lo que una comunidad pequeña puede hacer no debe quitárselo una mayor, que debe ayudar cuando la pequeña no puede.",
+     "Cada uno debe arreglárselas solo."
+    ],
+    "correcta": 1,
+    "explicacion": "Respeta la iniciativa de las personas y comunidades."
+   },
+   {
+    "pregunta": "¿Qué diferencia hay entre asistencia y promoción?",
+    "opciones": [
+     "Son lo mismo.",
+     "La asistencia responde a una urgencia; la promoción ayuda a que las personas salgan adelante por sí mismas.",
+     "La asistencia es mala y la promoción es buena."
+    ],
+    "correcta": 1,
+    "explicacion": "Ambas son necesarias."
+   },
+   {
+    "pregunta": "¿Cuál de estas prácticas respeta la dignidad de las personas ayudadas?",
+    "opciones": [
+     "Publicar fotos de ellas sin permiso para mostrar lo que hicimos.",
+     "Preguntar qué necesitan, escuchar su historia y respetar su privacidad.",
+     "Decidir por ellas lo que les conviene."
+    ],
+    "correcta": 1,
+    "explicacion": "La caridad mira al otro como hermano."
+   },
+   {
+    "pregunta": "¿Cuál es un buen objetivo para un proyecto solidario de un grupo juvenil?",
+    "opciones": [
+     "Terminar con la pobreza en el país.",
+     "Acompañar semanalmente durante un semestre a los adultos mayores de un hogar cercano.",
+     "Hacer muchas actividades distintas en un mes."
+    ],
+    "correcta": 1,
+    "explicacion": "Un buen objetivo es concreto, realista y medible."
+   },
+   {
+    "pregunta": "¿Qué conviene al elegir un voluntariado?",
+    "opciones": [
+     "Comprometerse con todo lo posible al principio",
+     "Ser realista con el tiempo disponible y preferir la constancia",
+     "Elegir lo que eligen los amigos"
+    ],
+    "correcta": 1,
+    "explicacion": "Un compromiso pequeño y constante hace más bien que uno grande que se abandona."
+   },
+   {
+    "pregunta": "¿Qué señal indica que una organización es confiable?",
+    "opciones": [
+     "Que no pide capacitación",
+     "Que tiene responsables claros y normas de cuidado",
+     "Que acepta a cualquiera para cualquier tarea"
+    ],
+    "correcta": 1,
+    "explicacion": "La seriedad protege a las personas atendidas y a los voluntarios."
+   }
+  ]
+ },
+ "logistica-cierre": {
+  "titulo": "Cierre del módulo: Logística de actividades pastorales",
+  "aprobacion": 70,
+  "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
+  "preguntas": [
+   {
+    "pregunta": "¿Por qué la logística es parte de la pastoral?",
+    "opciones": [
+     "Porque así se ahorra dinero",
+     "Porque cuidar los detalles es cuidar a las personas",
+     "Porque la hacen los más nuevos"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando la logística funciona, todos pueden concentrarse en lo importante."
+   },
+   {
+    "pregunta": "¿Qué es un cronograma hacia atrás?",
+    "opciones": [
+     "Un plan que parte desde la fecha de la actividad y define tareas antes de ella",
+     "Un resumen de lo que salió mal",
+     "Un horario del día de la actividad"
+    ],
+    "correcta": 0,
+    "explicacion": "Se cuenta hacia atrás desde la fecha."
+   },
+   {
+    "pregunta": "¿Cuánto conviene agregar a las cantidades de comida por imprevistos?",
+    "opciones": [
+     "Nada",
+     "Alrededor de un 10 %",
+     "El doble"
+    ],
+    "correcta": 1,
+    "explicacion": "Un 10 % extra cubre imprevistos sin desperdiciar."
+   },
+   {
+    "pregunta": "¿Qué es la contaminación cruzada?",
+    "opciones": [
+     "Mezclar sabores",
+     "El paso de microbios de alimentos crudos a cocidos",
+     "Cocinar en dos ollas"
+    ],
+    "correcta": 1,
+    "explicacion": "Por eso se separan tablas y utensilios."
+   },
+   {
+    "pregunta": "¿Qué debe registrar un inventario?",
+    "opciones": [
+     "Solo el nombre del material",
+     "Material, cantidad, estado, ubicación y responsable",
+     "El precio de compra"
+    ],
+    "correcta": 1,
+    "explicacion": "Así se sabe qué hay y dónde está."
+   },
+   {
+    "pregunta": "¿Para qué sirve definir un stock mínimo?",
+    "opciones": [
+     "Para saber cuándo reponer un consumible",
+     "Para limitar el uso de materiales",
+     "Para vender lo que sobra"
+    ],
+    "correcta": 0,
+    "explicacion": "Al llegar al mínimo, se repone."
+   },
+   {
+    "pregunta": "¿Qué se necesita para trasladar menores?",
+    "opciones": [
+     "Solo un auto disponible",
+     "Transporte con permisos al día, autorización de los padres y lista de pasajeros",
+     "Que vayan con un amigo mayor"
+    ],
+    "correcta": 1,
+    "explicacion": "La seguridad en los traslados no se improvisa."
+   },
+   {
+    "pregunta": "¿Cómo se definen los dormitorios en una actividad con menores?",
+    "opciones": [
+     "Libremente",
+     "Separados para hombres y mujeres, y para menores y adultos",
+     "Todos juntos para ahorrar espacio"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una norma básica de cuidado."
+   },
+   {
+    "pregunta": "¿Qué hacer si una familia no puede pagar la cuota?",
+    "opciones": [
+     "Excluir al joven",
+     "Ofrecer con discreción una cuota solidaria o beca",
+     "Exponer la situación ante el grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie debería quedar fuera por razones económicas."
+   },
+   {
+    "pregunta": "¿Qué es lo esencial en la rendición de cuentas?",
+    "opciones": [
+     "Gastar todo el dinero",
+     "Comparar lo presupuestado con lo gastado, con comprobantes, e informar",
+     "Que solo lo sepa el tesorero"
+    ],
+    "correcta": 1,
+    "explicacion": "La transparencia genera confianza."
+   }
+  ]
+ }
+}

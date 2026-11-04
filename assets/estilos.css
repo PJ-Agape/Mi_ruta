@@ -395,3 +395,8 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
   .documento-contenedor { margin: 0; overflow: visible; }
   .documento { zoom: 1 !important; box-shadow: none; width: 11in; min-height: 8.5in; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/* Cierre de módulo: taller práctico antes de la evaluación */
+.taller-cierre { background: #fff; border: 1px solid rgba(11, 37, 102, .14); border-left: 5px solid var(--acento); border-radius: 14px; padding: 1rem 1.2rem; margin: 1rem 0 1.4rem; }
+.taller-cierre h2, .evaluacion-titulo { font-family: "Fraunces", Georgia, serif; font-size: 1.25rem; margin: 0 0 .5rem; color: var(--tinta); }
+.evaluacion-titulo { margin-top: 1.2rem; }

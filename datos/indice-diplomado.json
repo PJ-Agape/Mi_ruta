@@ -1,0 +1,830 @@
+{
+ "curso": "diplomado",
+ "modulos": [
+  {
+   "id": "dip-1",
+   "numero": 1,
+   "titulo": "I · Fundamentos del liderazgo personal",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-1-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El techo del líder",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-1/s1.md"
+    },
+    {
+     "id": "dip-1-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Influencia, no cargo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-1/s2.md"
+    },
+    {
+     "id": "dip-1-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Crecer es un proceso",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-1/s3.md"
+    },
+    {
+     "id": "dip-1-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Saber navegar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-1/s4.md"
+    },
+    {
+     "id": "dip-1-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Sumar valor a cada persona",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-1/s5.md"
+    },
+    {
+     "id": "dip-1-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller y evaluación del módulo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-1/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-2",
+   "numero": 2,
+   "titulo": "II · Autoridad, decisiones y gestión del grupo",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-2-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La confianza es la base",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-2/s1.md"
+    },
+    {
+     "id": "dip-2-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Autoridad que se gana",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-2/s2.md"
+    },
+    {
+     "id": "dip-2-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Leer la realidad antes de decidir",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-2/s3.md"
+    },
+    {
+     "id": "dip-2-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Atraer y conectar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-2/s4.md"
+    },
+    {
+     "id": "dip-2-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuadro de mando del grupo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-2/s5.md"
+    },
+    {
+     "id": "dip-2-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller y evaluación del módulo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-2/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-3",
+   "numero": 3,
+   "titulo": "III · Formación de equipos y delegación",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1",
+    "dip-2"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-3-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El círculo cercano",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-3/s1.md"
+    },
+    {
+     "id": "dip-3-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Delegar es empoderar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-3/s2.md"
+    },
+    {
+     "id": "dip-3-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Se enseña con el ejemplo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-3/s3.md"
+    },
+    {
+     "id": "dip-3-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Primero creen en ti, después en tu proyecto",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-3/s4.md"
+    },
+    {
+     "id": "dip-3-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Hacer que las cosas pasen y cuidar el impulso",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-3/s5.md"
+    },
+    {
+     "id": "dip-3-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: jornada del módulo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-3/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-4",
+   "numero": 4,
+   "titulo": "IV · Gestión del tiempo, autocuidado y legado",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 4",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1",
+    "dip-2"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-4-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Primero lo primero",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-4/s1.md"
+    },
+    {
+     "id": "dip-4-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Entrega sin desgaste",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-4/s2.md"
+    },
+    {
+     "id": "dip-4-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "El momento oportuno",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-4/s3.md"
+    },
+    {
+     "id": "dip-4-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Multiplicar líderes",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-4/s4.md"
+    },
+    {
+     "id": "dip-4-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Dejar legado",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-4/s5.md"
+    },
+    {
+     "id": "dip-4-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller y evaluación del módulo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-4/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-5",
+   "numero": 5,
+   "titulo": "V · Comunicación y mediación de conflictos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 5",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1",
+    "dip-2"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-5-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Decir las cosas claras",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-5/s1.md"
+    },
+    {
+     "id": "dip-5-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Escuchar para entender",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-5/s2.md"
+    },
+    {
+     "id": "dip-5-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Decir lo difícil: mensaje DESC y conversaciones difíciles",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-5/s3.md"
+    },
+    {
+     "id": "dip-5-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Entender el conflicto",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-5/s4.md"
+    },
+    {
+     "id": "dip-5-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Mediar entre otros",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-5/s5.md"
+    },
+    {
+     "id": "dip-5-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller de protocolo de comunicación",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-5/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-6",
+   "numero": 6,
+   "titulo": "VI · Planificación y gestión de proyectos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 6",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1",
+    "dip-2"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-6-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "De la visión al plan, leyendo la realidad",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-6/s1.md"
+    },
+    {
+     "id": "dip-6-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Priorizar y calendarizar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-6/s2.md"
+    },
+    {
+     "id": "dip-6-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Diseñar un proyecto",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-6/s3.md"
+    },
+    {
+     "id": "dip-6-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Recursos y presupuesto",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-6/s4.md"
+    },
+    {
+     "id": "dip-6-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Riesgos, plan B y evaluación",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-6/s5.md"
+    },
+    {
+     "id": "dip-6-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller del plan anual del grupo",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-6/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-7",
+   "numero": 7,
+   "titulo": "VII · Acompañamiento y desarrollo de personas",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 7",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1",
+    "dip-2"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-7-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Liderar es acompañar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-7/s1.md"
+    },
+    {
+     "id": "dip-7-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Conversaciones que hacen crecer",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-7/s2.md"
+    },
+    {
+     "id": "dip-7-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Reconocer, corregir y motivar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-7/s3.md"
+    },
+    {
+     "id": "dip-7-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Cuidar al equipo y prevenir el desgaste",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-7/s4.md"
+    },
+    {
+     "id": "dip-7-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Acompañar en momentos difíciles y saber derivar",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-7/s5.md"
+    },
+    {
+     "id": "dip-7-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller del plan de acompañamiento",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-7/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "dip-8",
+   "numero": 8,
+   "titulo": "VIII · Proyecto integrador",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 8",
+   "duracion": "6 sesiones · 27 horas",
+   "constancia": true,
+   "requiere": [
+    "dip-1",
+    "dip-2",
+    "dip-3",
+    "dip-4",
+    "dip-5",
+    "dip-6",
+    "dip-7"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dip-8-s1",
+     "tipo": "clase",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Taller de lanzamiento del proyecto",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-8/s1.md"
+    },
+    {
+     "id": "dip-8-s2",
+     "tipo": "clase",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Asesoría 1: diagnóstico",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-8/s2.md"
+    },
+    {
+     "id": "dip-8-s3",
+     "tipo": "clase",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Asesoría 2: plan de acción",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-8/s3.md"
+    },
+    {
+     "id": "dip-8-s4",
+     "tipo": "clase",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Asesoría 3: ejecución y evidencias",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-8/s4.md"
+    },
+    {
+     "id": "dip-8-s5",
+     "tipo": "clase",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Presentaciones de los proyectos",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-8/s5.md"
+    },
+    {
+     "id": "dip-8-cierre",
+     "tipo": "taller",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: evaluación del diplomado y ceremonia",
+     "tiempo": "Sesión del diplomado",
+     "archivo": "contenido/modulos/dip-8/cierre.md"
+    }
+   ]
+  },
+  {
+   "id": "primeros-auxilios-psicologicos",
+   "numero": 1,
+   "titulo": "Primeros auxilios psicológicos",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "En los grupos juveniles, a veces alguien se quiebra: por una pérdida, un problema en la casa, una crisis de angustia o un momento de mucha tristeza. Esta formación enseña a acompañar en esos primeros momentos con calma y respeto, y a conectar a la persona con la ayuda que necesita. No convierte a nadie en terapeuta: ayuda a no dejar solo a quien sufre y a saber a quién avisar.",
+   "clases": [
+    {
+     "id": "primeros-auxilios-psicologicos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Qué son los primeros auxilios psicológicos?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s1.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El protocolo ABCD",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s2.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Situaciones difíciles",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s3.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Cuando todo el grupo vive una crisis",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s4.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidar al que cuida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s5.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "comunicacion-y-redes",
+   "numero": 2,
+   "titulo": "Comunicación y redes para la pastoral",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Hoy los grupos juveniles se comunican por redes sociales, mensajería y afiches digitales. Bien usadas, estas herramientas convocan, informan y anuncian. Mal usadas, pueden exponer o dañar a las personas. Esta formación entrega criterios y técnicas para comunicar bien y con cuidado.",
+   "clases": [
+    {
+     "id": "comunicacion-y-redes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Comunicar con sentido",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Crear buenos contenidos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Cuidar a las personas en lo digital",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Contar un evento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Un plan de comunicación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md"
+    },
+    {
+     "id": "comunicacion-y-redes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "voluntariado-y-doctrina-social",
+   "numero": 3,
+   "titulo": "Voluntariado y doctrina social",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "La fe cristiana no se queda en el templo: se hace servicio, solidaridad y compromiso con un mundo más justo. Esta formación une el corazón y la cabeza: el amor concreto por los demás y los criterios que la Iglesia ofrece para servir bien.",
+   "clases": [
+    {
+     "id": "voluntariado-y-doctrina-social-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La fe que se hace caridad",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s1.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Los principios de la doctrina social",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s2.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Servir bien",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s3.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Dónde y cómo servir",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s4.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Un proyecto solidario",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s5.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "logistica",
+   "numero": 4,
+   "titulo": "Logística de actividades pastorales",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Una actividad pastoral puede tener un gran contenido y fracasar porque faltó comida, no llegó el bus o nadie sabía dónde estaban los materiales. La logística es una forma de servicio: cuando funciona, nadie la nota y todos pueden concentrarse en lo importante. En este módulo vas a aprender a organizarla.",
+   "clases": [
+    {
+     "id": "logistica-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Planificar la logística",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s1.md"
+    },
+    {
+     "id": "logistica-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Alimentación: menús, cantidades y manipulación segura",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s2.md"
+    },
+    {
+     "id": "logistica-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Materiales e insumos: inventario, bodega y reposición",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s3.md"
+    },
+    {
+     "id": "logistica-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s4.md"
+    },
+    {
+     "id": "logistica-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Presupuesto, compras y rendición de cuentas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s5.md"
+    },
+    {
+     "id": "logistica-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

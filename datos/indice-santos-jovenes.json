@@ -2,58 +2,68 @@
  "curso": "santos-jovenes",
  "modulos": [
   {
-   "id": "m1",
+   "id": "santos-jovenes",
    "numero": 1,
-   "titulo": "Testigos de nuestra edad",
-   "semanas": "",
+   "titulo": "Santos jóvenes",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "Los santos no son personas perfectas ni lejanas: muchos fueron jóvenes como tú, con amigos, estudios, deportes, dudas y dificultades. Esta formación te invita a conocerlos y a descubrir que la santidad es el camino para ser plenamente tú mismo.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "santos-jovenes-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "La santidad es para ti",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "santos-jovenes-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Santos de Chile",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "santos-jovenes-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Santos de la era digital y de la montaña",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "santos-jovenes-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Santos de nuestra tierra y de la vida cotidiana",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "santos-jovenes-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Testigos hasta el final y tu propio camino",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "santos-jovenes-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Santos jóvenes",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

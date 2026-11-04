@@ -3,10 +3,11 @@
   "titulo": "Conocer la Biblia",
   "subtitulo": "La Palabra de Dios en tus manos",
   "descripcion": "Para perderle el miedo a la Biblia: cómo está organizada, cómo buscar una cita, qué significa que sea Palabra de Dios, cómo interpretarla bien y cómo hacerla parte de la vida. 5 unidades de 90 minutos y una evaluación final.",
-  "categoria": "Fe",
   "publico": "Desde 13 años",
+  "categoria": "Fe",
+  "duracion": "6 sesiones · 9 horas",
   "modalidad": "En línea, a tu ritmo",
-  "duracion": "5 unidades de 90 min (7,5 horas)",
   "tipo": "complementaria",
+  "horas": 9,
   "recursos": {}
 }

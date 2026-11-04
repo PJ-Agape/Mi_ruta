@@ -1,0 +1,109 @@
+{
+ "sacramentos-cierre": {
+  "titulo": "Cierre del módulo: Sacramentos e iniciación cristiana",
+  "aprobacion": 70,
+  "taller": "En grupos, diseñen el encuentro de celebración previo a un sacramento (bautismo, primera comunión, confirmación o primera confesión) para los niños o jóvenes y sus familias. Deben incluir: un momento de acogida, la explicación del signo principal del sacramento, un texto bíblico, un gesto simbólico y una oración final. Cada grupo presenta su diseño y recibe comentarios sobre su fidelidad a la liturgia y su claridad para esa edad.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es un sacramento?",
+    "opciones": [
+     "Un recuerdo simbólico",
+     "Un signo eficaz de la gracia instituido por Cristo",
+     "Una tradición familiar"
+    ],
+    "correcta": 1,
+    "explicacion": "Hace lo que significa: Cristo actúa en él."
+   },
+   {
+    "pregunta": "¿Cuáles son los sacramentos de iniciación cristiana?",
+    "opciones": [
+     "Bautismo, Confirmación y Eucaristía",
+     "Bautismo, Reconciliación y Matrimonio",
+     "Eucaristía, Unción y Orden"
+    ],
+    "correcta": 0,
+    "explicacion": "Son las puertas de entrada a la vida cristiana."
+   },
+   {
+    "pregunta": "¿Qué requisito debe cumplir un padrino de bautismo?",
+    "opciones": [
+     "Ser familiar del niño",
+     "Ser católico confirmado, haber recibido la Eucaristía y llevar una vida de fe coherente",
+     "Tener más de 30 años"
+    ],
+    "correcta": 1,
+    "explicacion": "Su tarea es acompañar la fe del ahijado."
+   },
+   {
+    "pregunta": "¿Quién es el ministro ordinario de la Confirmación?",
+    "opciones": [
+     "El catequista",
+     "El obispo",
+     "El padrino"
+    ],
+    "correcta": 1,
+    "explicacion": "El obispo, que puede delegar en un sacerdote."
+   },
+   {
+    "pregunta": "¿Qué conviene en la preparación de la confirmación?",
+    "opciones": [
+     "Obligar a todos a confirmarse",
+     "Respetar la libertad del joven y proponer un camino de fe",
+     "Solo dar clases teóricas"
+    ],
+    "correcta": 1,
+    "explicacion": "La confirmación es un sí libre."
+   },
+   {
+    "pregunta": "¿Por qué se dice que la Eucaristía es fuente y culmen?",
+    "opciones": [
+     "Porque es la más antigua",
+     "Porque de ella brota y hacia ella tiende toda la vida cristiana",
+     "Porque se celebra en las fiestas"
+    ],
+    "correcta": 1,
+    "explicacion": "Lumen gentium 11."
+   },
+   {
+    "pregunta": "¿Cuánto dura el ayuno eucarístico?",
+    "opciones": [
+     "Una hora",
+     "Tres horas",
+     "Todo el día"
+    ],
+    "correcta": 0,
+    "explicacion": "Una hora, salvo agua y medicamentos."
+   },
+   {
+    "pregunta": "¿Qué es el sigilo sacramental?",
+    "opciones": [
+     "Una oración",
+     "El secreto absoluto del sacerdote sobre la confesión",
+     "El sello del bautismo"
+    ],
+    "correcta": 1,
+    "explicacion": "No admite excepciones."
+   },
+   {
+    "pregunta": "Si un niño cuenta en la catequesis que sufre un daño, ¿qué hace el catequista?",
+    "opciones": [
+     "Guarda el secreto como en la confesión",
+     "Actúa según los protocolos de prevención",
+     "Le pide que lo confiese"
+    ],
+    "correcta": 1,
+    "explicacion": "El sigilo es del sacramento; el catequista debe proteger."
+   },
+   {
+    "pregunta": "¿Qué es la mistagogia?",
+    "opciones": [
+     "Un rito antiguo",
+     "La etapa de profundizar en lo celebrado después de recibir los sacramentos",
+     "Un libro litúrgico"
+    ],
+    "correcta": 1,
+    "explicacion": "El camino continúa después del sacramento."
+   }
+  ]
+ }
+}

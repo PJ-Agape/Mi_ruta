@@ -1,0 +1,407 @@
+{
+ "curso": "fe-y-catequesis",
+ "modulos": [
+  {
+   "id": "conocer-la-biblia",
+   "numero": 1,
+   "titulo": "Conocer la Biblia",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Muchos jóvenes tienen una Biblia en la casa, pero no saben por dónde empezar. Esta formación te ayuda a conocerla, a moverte en ella con soltura y a leerla como la lee la Iglesia: como Palabra viva de Dios para hoy.",
+   "clases": [
+    {
+     "id": "conocer-la-biblia-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una biblioteca con una sola historia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s1.md"
+    },
+    {
+     "id": "conocer-la-biblia-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Palabra de Dios en palabras humanas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s2.md"
+    },
+    {
+     "id": "conocer-la-biblia-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Leer bien: géneros y contexto",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s3.md"
+    },
+    {
+     "id": "conocer-la-biblia-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "La Biblia en la vida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s4.md"
+    },
+    {
+     "id": "conocer-la-biblia-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Compartir la Palabra en grupo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s5.md"
+    },
+    {
+     "id": "conocer-la-biblia-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "santos-jovenes",
+   "numero": 2,
+   "titulo": "Santos jóvenes",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "conocer-la-biblia"
+   ],
+   "intro": "Los santos no son personas perfectas ni lejanas: muchos fueron jóvenes como tú, con amigos, estudios, deportes, dudas y dificultades. Esta formación te invita a conocerlos y a descubrir que la santidad es el camino para ser plenamente tú mismo.",
+   "clases": [
+    {
+     "id": "santos-jovenes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La santidad es para ti",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s1.md"
+    },
+    {
+     "id": "santos-jovenes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Santos de Chile",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s2.md"
+    },
+    {
+     "id": "santos-jovenes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Santos de la era digital y de la montaña",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s3.md"
+    },
+    {
+     "id": "santos-jovenes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Santos de nuestra tierra y de la vida cotidiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s4.md"
+    },
+    {
+     "id": "santos-jovenes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Testigos hasta el final y tu propio camino",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s5.md"
+    },
+    {
+     "id": "santos-jovenes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "ayudante-de-catequesis",
+   "numero": 3,
+   "titulo": "Ayudante de catequesis",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "santos-jovenes"
+   ],
+   "intro": "Muchas parroquias invitan a jóvenes a ayudar en la catequesis. Es un servicio precioso: los niños y adolescentes ven en ellos a alguien cercano que vive la fe con alegría. Esta formación te prepara para colaborar con el catequista adulto, sin reemplazarlo, y para hacerlo con cariño y responsabilidad.",
+   "clases": [
+    {
+     "id": "ayudante-de-catequesis-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Qué es la catequesis?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s1.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Conocer a quienes acompañamos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s2.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Preparar y animar un encuentro",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s3.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Las familias y la comunidad",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s4.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidar y crecer como ayudante",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s5.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "buen-trato-y-prevencion",
+   "numero": 4,
+   "titulo": "Buen trato y prevención",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 4",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "ayudante-de-catequesis"
+   ],
+   "intro": "Cuidar a cada persona, especialmente a los niños y jóvenes, es parte esencial del Evangelio. La Iglesia en Chile ha aprendido con dolor que la prevención no es opcional. Esta formación entrega criterios claros, reglas prácticas y pasos concretos para que nuestros grupos sean lugares sanos y seguros. Se recomienda que la hagan todos los que sirven, cualquiera sea su edad o función.",
+   "clases": [
+    {
+     "id": "buen-trato-y-prevencion-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una cultura del buen trato",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Ambientes seguros",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Escuchar y actuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Reparar y acompañar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidarnos entre todos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dinamicas-y-juegos",
+   "numero": 1,
+   "titulo": "Dinámicas y juegos",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "El juego es uno de los lenguajes más naturales de los jóvenes. Bien usado, rompe el hielo, une al grupo, enseña y abre el corazón. Mal usado, puede aburrir, excluir o incluso humillar. Esta formación te ayuda a elegir, diseñar y conducir dinámicas con sentido.",
+   "clases": [
+    {
+     "id": "dinamicas-y-juegos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Para qué jugar?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Diseñar y conducir una dinámica",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Banco de dinámicas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Animar una jornada completa",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Grandes juegos, seguridad e inclusión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "comunicacion-y-redes",
+   "numero": 2,
+   "titulo": "Comunicación y redes para la pastoral",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Hoy los grupos juveniles se comunican por redes sociales, mensajería y afiches digitales. Bien usadas, estas herramientas convocan, informan y anuncian. Mal usadas, pueden exponer o dañar a las personas. Esta formación entrega criterios y técnicas para comunicar bien y con cuidado.",
+   "clases": [
+    {
+     "id": "comunicacion-y-redes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Comunicar con sentido",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Crear buenos contenidos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Cuidar a las personas en lo digital",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Contar un evento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Un plan de comunicación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md"
+    },
+    {
+     "id": "comunicacion-y-redes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

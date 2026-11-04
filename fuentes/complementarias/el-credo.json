@@ -1,0 +1,605 @@
+{
+ "id": "el-credo",
+ "titulo": "El Credo: lo que creemos",
+ "subtitulo": "Las verdades de la fe para quienes acompañan a otros",
+ "categoria": "Fe",
+ "publico": "Desde 15 años; pensado para catequistas y agentes de pastoral",
+ "descripcion": "Un recorrido por el Credo para conocer y explicar con sencillez lo que creemos: la fe como respuesta, Dios Padre creador, Jesucristo, el Espíritu Santo y la Iglesia, y la esperanza en la vida eterna. 5 unidades de 90 minutos, un taller de cierre y una evaluación final.",
+ "modulo": "El Credo: lo que creemos",
+ "intro": "Quien acompaña la fe de otros necesita conocerla bien. El Credo resume en pocas frases lo esencial de nuestra fe. En este módulo lo vas a recorrer artículo por artículo, con la Biblia y el Catecismo en la mano, y vas a practicar cómo explicarlo a niños y jóvenes.",
+ "taller": "Cada participante elige un artículo del Credo y prepara una explicación de cinco minutos para un grupo de catequesis de la edad que acompaña (niños, adolescentes o jóvenes). Debe incluir una imagen o ejemplo de la vida diaria, un texto bíblico y una pregunta para el grupo. Se presentan en tríos y cada uno recibe comentarios: ¿fue fiel a la fe de la Iglesia?, ¿fue claro para esa edad?, ¿invitó a rezar?",
+ "unidades": [
+  {
+   "title": "Creer: la fe como respuesta",
+   "objective": "Comprender qué es la fe cristiana: un encuentro personal con Dios que se revela y una respuesta libre que se vive en comunidad.",
+   "intro": "Antes de mirar qué creemos, conviene preguntarse qué significa creer. La fe no es un conjunto de ideas para memorizar: es la respuesta de una persona a Dios que se le acerca. En esta unidad vas a descubrir qué es la fe, cómo nace y por qué se profesa en comunidad.",
+   "sections": [
+    {
+     "title": "Dios toma la iniciativa",
+     "body": "La fe empieza con Dios, no con nosotros. Dios se da a conocer a lo largo de la historia: en la creación, en el pueblo de Israel y, de manera plena, en Jesucristo. A esto la Iglesia lo llama **Revelación**.\n\nDios no revela solo información: se revela a sí mismo y nos invita a la amistad con Él. La fe es la respuesta a esa invitación."
+    },
+    {
+     "title": "Qué es creer",
+     "body": "Creer es:\n\n- **Confiar en alguien:** como Abraham, que salió de su tierra confiando en la promesa de Dios.\n- **Aceptar lo que Dios ha revelado,** porque viene de Él, aunque no todo lo entendamos.\n- **Un acto libre:** nadie puede ser obligado a creer.\n- **Un don y una tarea:** la fe es regalo de Dios y, al mismo tiempo, una respuesta que cada uno da con su inteligencia y su voluntad.\n\nLa fe y la razón no se oponen: la fe busca entender, y la razón puede llegar hasta las puertas de la fe."
+    },
+    {
+     "title": "Creemos en la Iglesia",
+     "body": "Nadie cree solo. Recibimos la fe de otros (la familia, la comunidad, los catequistas) y la transmitimos a otros. Por eso el Credo dice «creo», pero lo rezamos juntos: es la fe de la Iglesia que cada uno hace suya.\n\nLa Revelación nos llega por la **Sagrada Escritura** y la **Tradición**, custodiadas e interpretadas por el **Magisterio** de la Iglesia."
+    },
+    {
+     "title": "El Credo, un resumen",
+     "body": "El Credo es el resumen de la fe. Hay dos formas principales:\n\n- **El Credo de los Apóstoles:** breve, usado desde los primeros siglos en el bautismo de la Iglesia de Roma.\n- **El Credo Niceno-Constantinopolitano:** más extenso, fruto de los concilios de Nicea (325) y Constantinopla (381).\n\nAmbos tienen tres grandes partes: Dios Padre, Jesucristo y el Espíritu Santo, con la Iglesia. Rezarlo es renovar el «sí» de nuestro bautismo."
+    }
+   ],
+   "bible": {
+    "ref": "Génesis 12,1-4 · Abraham sale confiando",
+    "comment": "Dios le dice a Abraham: «Deja tu tierra… y vete a la tierra que yo te mostraré». Abraham sale sin saber exactamente adónde va, confiando en la promesa. Por eso se le llama padre de los creyentes: la fe es ponerse en camino confiando en Dios."
+   },
+   "church": [
+    {
+     "source": "Dei Verbum 2 y 5",
+     "text": "Dios, por su bondad, quiso revelarse a sí mismo; a Dios que se revela se le debe responder con la obediencia de la fe, entregándose entera y libremente a Él.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 142-184",
+     "text": "La fe es la respuesta del ser humano a Dios que se revela: una adhesión personal a Dios y, al mismo tiempo, el asentimiento libre a toda la verdad revelada.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Quién te transmitió la fe a ti?",
+    "¿Qué diferencia hay entre saber cosas sobre Dios y creer en Él?",
+    "¿Qué dudas de fe tienes o has tenido?",
+    "¿Cómo explicarías a un niño qué significa «creer»?"
+   ],
+   "activity": "En parejas, cada uno cuenta la historia de su fe en cinco minutos: quién se la transmitió, un momento importante y una duda que tuvo. Luego conversen: ¿qué tienen en común sus historias?",
+   "prayer": "Señor, que te acercas a nosotros y nos invitas a tu amistad: aumenta mi fe. Que, como Abraham, me atreva a confiar en ti aunque no vea todo el camino, y que sepa transmitir a otros la fe que recibí. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Números 26-184, sobre la fe."
+    }
+   ],
+   "comenzar": "Escribe en una frase qué significa para ti creer en Dios. Guárdala: la vas a revisar al final del módulo.",
+   "logros": [
+    "Explicar la fe como respuesta a Dios que se revela.",
+    "Reconocer la dimensión personal y comunitaria de la fe.",
+    "Conocer las dos formas principales del Credo."
+   ],
+   "profundizar": {
+    "titulo": "Fe y dudas",
+    "texto": "Tener dudas no significa no tener fe. Muchos santos atravesaron oscuridades. La duda puede ser una invitación a buscar, preguntar y profundizar. Lo importante es no quedarse solo con ella: conversarla con alguien de confianza, leer y rezar."
+   },
+   "caso": {
+    "titulo": "«Yo creo en Dios, pero no en la Iglesia»",
+    "texto": "En el grupo de catequesis de confirmación, una joven dice: «Yo creo en Dios a mi manera, no necesito a la Iglesia para eso».",
+    "preguntas": [
+     "¿Qué hay de verdadero en lo que dice?",
+     "¿Cómo le explicarías que la fe se recibe y se vive en comunidad?"
+    ]
+   },
+   "claves": [
+    [
+     "Revelación",
+     "Dios que se da a conocer a sí mismo y su plan de amor."
+    ],
+    [
+     "Fe",
+     "Respuesta personal y libre a Dios que se revela."
+    ],
+    [
+     "Credo",
+     "Resumen de la fe de la Iglesia."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Abraham sale sin saber adónde va. ¿Dónde te pide Dios confiar hoy?",
+    "orar": "Reza el Credo lentamente, deteniéndote en una frase.",
+    "vivir": "Agradece esta semana a quien te transmitió la fe."
+   },
+   "practica": [
+    "Cuenten la historia de su fe.",
+    "Identifiquen qué tienen en común.",
+    "Recen juntos el Credo de los Apóstoles.",
+    "Anoten una pregunta para el resto del módulo."
+   ],
+   "idea": "Creer es responder con confianza a Dios que se acerca."
+  },
+  {
+   "title": "Dios Padre, creador",
+   "objective": "Conocer lo que la Iglesia cree sobre Dios Uno y Trino, Padre todopoderoso y creador, y su relación con la ciencia y el cuidado de la creación.",
+   "intro": "«Creo en Dios, Padre todopoderoso, creador del cielo y de la tierra». Estas primeras palabras del Credo dicen mucho: que Dios es uno, que es Padre, que todo lo creó por amor y que el mundo tiene sentido. En esta unidad vas a profundizar en ellas.",
+   "sections": [
+    {
+     "title": "Un solo Dios, tres personas",
+     "body": "Creemos en **un solo Dios** en **tres personas**: Padre, Hijo y Espíritu Santo. Es el misterio central de la fe cristiana: la **Santísima Trinidad**.\n\nNo son tres dioses ni tres máscaras de uno solo. Son tres personas distintas que comparten la misma vida divina. Dios no es soledad: es comunión de amor. Por eso fuimos creados para el amor y la comunidad.\n\nLas imágenes (el trébol, el agua en tres estados) ayudan un poco, pero todas se quedan cortas: es un misterio que se contempla más que se explica."
+    },
+    {
+     "title": "Padre",
+     "body": "Jesús nos enseñó a llamar a Dios **Abbá**, Padre, con la confianza de un hijo. Dios es Padre porque es origen de todo y porque cuida de nosotros con amor.\n\nCuando un niño tiene una mala experiencia con su propio padre, conviene presentar a Dios como quien ama con el amor más fiel, sin forzar la comparación. La Biblia también habla del amor de Dios con imágenes maternas (Isaías 49,15)."
+    },
+    {
+     "title": "Creador",
+     "body": "Dios creó todo **de la nada**, libremente y por amor. La creación es buena y tiene un orden.\n\n- **Fe y ciencia no se oponen.** La Biblia no es un libro de ciencia: los relatos del Génesis enseñan *por qué* y *para qué* existe el mundo; la ciencia estudia *cómo* funciona.\n- **El ser humano es imagen de Dios:** tiene dignidad, inteligencia y libertad.\n- **Somos custodios, no dueños:** la creación nos fue confiada para cuidarla."
+    },
+    {
+     "title": "Todopoderoso y el mal",
+     "body": "Si Dios es bueno y todopoderoso, ¿por qué existe el mal? Es una de las preguntas más difíciles. La fe no da una respuesta simple, pero sí algunas luces:\n\n- Dios creó seres libres, y la libertad puede usarse mal.\n- Dios no quiere el mal, pero puede sacar bien incluso de él.\n- La respuesta más profunda es Jesús en la cruz: Dios no está lejos del sufrimiento, lo comparte y lo vence.\n\nAnte el dolor de alguien, más que explicaciones, ayuda la compañía."
+    }
+   ],
+   "bible": {
+    "ref": "Génesis 1,26-31 · «Vio Dios que era muy bueno»",
+    "comment": "Dios crea al ser humano a su imagen, varón y mujer, y le confía la creación. Al terminar, ve que todo es «muy bueno». Este texto no explica cómo se formó el universo: anuncia que todo viene de Dios, que es bueno y que el ser humano tiene una dignidad única."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 232-267",
+     "text": "El misterio de la Santísima Trinidad es el misterio central de la fe y de la vida cristiana.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Laudato si' 76-77",
+     "text": "Para la tradición cristiana, la creación es un don que surge de la mano abierta del Padre de todos, un orden movido por el amor.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    }
+   ],
+   "questions": [
+    "¿Qué imagen de Dios tenías cuando eras niño? ¿Ha cambiado?",
+    "¿Cómo explicarías la Trinidad a un niño de 10 años?",
+    "¿Qué responderías a quien dice que la ciencia demostró que Dios no existe?",
+    "¿Cómo acompañarías a alguien que sufre y pregunta por qué Dios lo permite?"
+   ],
+   "activity": "En grupos, preparen una explicación de la Trinidad para una edad determinada (8, 12 o 16 años), usando una imagen y un texto bíblico. Presenten y comenten: ¿qué dice bien la imagen y en qué se queda corta?",
+   "prayer": "Padre, Hijo y Espíritu Santo, comunión de amor: gracias por crearnos y por llamarnos a vivir en tu amor. Que sepamos cuidar tu creación y reconocer en cada persona tu imagen. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Números 198-421, sobre Dios Padre creador."
+    }
+   ],
+   "comenzar": "Dibuja o describe cómo te imaginabas a Dios cuando eras niño.",
+   "logros": [
+    "Expresar con sencillez el misterio de la Trinidad.",
+    "Explicar la relación entre fe y ciencia.",
+    "Acompañar con delicadeza la pregunta por el mal."
+   ],
+   "profundizar": {
+    "titulo": "Evitar errores al explicar la Trinidad",
+    "texto": "Al explicar la Trinidad, evita decir que Dios es «uno que se disfraza de tres» o que son «tres dioses unidos». Es mejor decir: un solo Dios que es comunión de tres personas que se aman. Y reconocer con humildad que es un misterio."
+   },
+   "caso": {
+    "titulo": "La pregunta del niño",
+    "texto": "En la catequesis de primera comunión, un niño de nueve años pregunta: «Si Dios es bueno, ¿por qué se murió mi perro?». Los demás se ríen.",
+    "preguntas": [
+     "¿Cómo responderías?",
+     "¿Qué harías con las risas del grupo?"
+    ]
+   },
+   "claves": [
+    [
+     "Trinidad",
+     "Un solo Dios en tres personas: Padre, Hijo y Espíritu Santo."
+    ],
+    [
+     "Creación",
+     "Todo lo que existe, creado por Dios de la nada y por amor."
+    ],
+    [
+     "Imagen de Dios",
+     "Dignidad propia de cada ser humano."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Vio Dios que era muy bueno. ¿Qué de ti mismo te cuesta ver como bueno?",
+    "orar": "Haz la señal de la cruz despacio, pensando en cada persona de la Trinidad.",
+    "vivir": "Contempla esta semana algo de la creación y da gracias."
+   },
+   "practica": [
+    "Elijan una edad.",
+    "Preparen la explicación.",
+    "Preséntenla.",
+    "Evalúen sus imágenes."
+   ],
+   "idea": "Dios es comunión de amor, y nos creó por amor."
+  },
+  {
+   "title": "Jesucristo, verdadero Dios y verdadero hombre",
+   "objective": "Profundizar en quién es Jesucristo según la fe de la Iglesia: su encarnación, su vida, su muerte y su resurrección.",
+   "intro": "El centro del Credo es Jesucristo. La mayor parte de sus palabras hablan de Él: quién es, cómo vino al mundo, qué hizo, cómo murió y resucitó. En esta unidad vas a recorrer el misterio de Cristo, el corazón de toda catequesis.",
+   "sections": [
+    {
+     "title": "Verdadero Dios y verdadero hombre",
+     "body": "Jesús es el **Hijo eterno de Dios** que se hizo hombre. No es mitad Dios y mitad hombre, ni un hombre muy bueno, ni Dios disfrazado de hombre: es **verdadero Dios y verdadero hombre**, una sola persona con dos naturalezas.\n\nPor eso en Jesús vemos el rostro de Dios, y también vemos lo que es un ser humano plenamente realizado."
+    },
+    {
+     "title": "La encarnación",
+     "body": "«Por obra del Espíritu Santo se encarnó de María, la Virgen, y se hizo hombre». Dios entra en la historia en un lugar y un tiempo concretos: nace en Belén, crece en Nazaret, trabaja, tiene amigos, siente cansancio y alegría.\n\nMaría es la **Madre de Dios** porque el hijo que dio a luz es el Hijo de Dios. Su «sí» hace posible la encarnación."
+    },
+    {
+     "title": "Su vida y su mensaje",
+     "body": "Jesús anunció el **Reino de Dios**: Dios que reina con amor, que perdona, sana y pone a los últimos en el centro.\n\n- Lo anunció con **palabras:** las parábolas, las bienaventuranzas.\n- Con **gestos:** comer con pecadores, sanar enfermos, tocar a los excluidos.\n- Con **su manera de vivir:** en oración constante con el Padre y al servicio de todos.\n\nConocer los evangelios es indispensable para presentar a Jesús."
+    },
+    {
+     "title": "Muerte y resurrección",
+     "body": "Jesús **murió en la cruz** por amor a nosotros, para salvarnos del pecado y de la muerte. No fue un fracaso: fue la entrega total de su vida.\n\nAl tercer día **resucitó**. La resurrección no es una idea ni un símbolo: es el acontecimiento central de nuestra fe. Jesús vive, y su vida nueva está abierta a todos.\n\nEste anuncio, Jesús muerto y resucitado, es el **kerigma**: el corazón de toda catequesis."
+    }
+   ],
+   "bible": {
+    "ref": "Filipenses 2,5-11 · Se despojó de sí mismo",
+    "comment": "Pablo canta el camino de Cristo: siendo de condición divina, se despojó, se hizo hombre, se humilló hasta la muerte en cruz, y por eso Dios lo exaltó. En pocas líneas está todo el misterio de Cristo: encarnación, cruz y resurrección."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 422-682",
+     "text": "El Catecismo desarrolla la fe en Jesucristo, Hijo único de Dios, concebido por obra del Espíritu Santo, muerto, resucitado y glorificado.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Christus vivit 118-129",
+     "text": "Cristo te salva y vive: el anuncio del amor de Jesús muerto y resucitado es lo esencial que todo joven necesita escuchar.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué texto del evangelio te ayuda más a conocer a Jesús?",
+    "¿Qué imagen equivocada de Jesús has escuchado alguna vez?",
+    "¿Cómo explicarías a un adolescente por qué Jesús murió en la cruz?",
+    "¿Qué cambia en tu vida que Jesús haya resucitado?"
+   ],
+   "activity": "Cada participante elige un pasaje del evangelio que muestre quién es Jesús y prepara en una tarjeta: el texto, qué muestra de Jesús y cómo lo contaría a la edad que acompaña. Se arma un fichero común para el equipo de catequesis.",
+   "prayer": "Señor Jesús, verdadero Dios y verdadero hombre, que te hiciste uno de nosotros, diste tu vida y resucitaste: quiero conocerte más para amarte más y anunciarte mejor. Que mi catequesis tenga siempre tu rostro en el centro. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Números 422-682, sobre Jesucristo."
+    }
+   ],
+   "comenzar": "Completa: «Si tuviera que presentar a Jesús en tres palabras, diría…».",
+   "logros": [
+    "Expresar que Jesús es verdadero Dios y verdadero hombre.",
+    "Recorrer los misterios de su vida, muerte y resurrección.",
+    "Poner el kerigma en el centro de la catequesis."
+   ],
+   "profundizar": {
+    "titulo": "Imágenes de Jesús que no ayudan",
+    "texto": "Algunas imágenes deforman a Jesús: un juez que espera que fallemos, un personaje histórico lejano, un amigo que aprueba todo o solo un maestro de moral. El Jesús de los evangelios es más grande: nos ama sin condiciones, nos llama a cambiar y nos acompaña vivo."
+   },
+   "caso": {
+    "titulo": "«Jesús fue un buen hombre, nada más»",
+    "texto": "Un apoderado de la catequesis comenta que para él Jesús fue un gran maestro, como Gandhi, pero que no cree que haya resucitado.",
+    "preguntas": [
+     "¿Qué responderías con respeto?",
+     "¿Qué textos del evangelio podrías compartir?"
+    ]
+   },
+   "claves": [
+    [
+     "Encarnación",
+     "El Hijo de Dios se hace hombre en el seno de María."
+    ],
+    [
+     "Reino de Dios",
+     "El reinado del amor de Dios que Jesús anunció."
+    ],
+    [
+     "Kerigma",
+     "El anuncio de Jesús muerto y resucitado."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Se despojó de sí mismo. ¿De qué te invita Jesús a despojarte?",
+    "orar": "Reza ante un crucifijo unos minutos en silencio.",
+    "vivir": "Lee esta semana un capítulo del evangelio de Marcos cada día."
+   },
+   "practica": [
+    "Elijan un pasaje.",
+    "Escriban la tarjeta.",
+    "Compártanla.",
+    "Armen el fichero común."
+   ],
+   "idea": "Jesús muerto y resucitado es el corazón de toda catequesis."
+  },
+  {
+   "title": "El Espíritu Santo y la Iglesia",
+   "objective": "Comprender la acción del Espíritu Santo y el misterio de la Iglesia, una, santa, católica y apostólica, comunión de los santos.",
+   "intro": "«Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados». Esta parte del Credo habla de cómo Dios sigue actuando hoy. En esta unidad vas a conocer al Espíritu Santo y a la Iglesia que Él anima.",
+   "sections": [
+    {
+     "title": "El Espíritu Santo",
+     "body": "El Espíritu Santo es la **tercera persona de la Trinidad**, Señor y dador de vida. No es una fuerza impersonal: es Dios mismo que habita en nosotros.\n\n- **Actúa en la creación** y habló por los profetas.\n- **Descendió sobre Jesús** en su bautismo y sobre los apóstoles en Pentecostés.\n- **Hoy nos enseña a rezar,** nos recuerda las palabras de Jesús, nos da sus dones y nos impulsa a la misión.\n\nSus dones (sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios) se reciben en plenitud en la confirmación."
+    },
+    {
+     "title": "La Iglesia, pueblo de Dios",
+     "body": "La Iglesia no es un edificio ni solo una institución: es el **pueblo de Dios**, el **Cuerpo de Cristo** y el **templo del Espíritu**. Todos los bautizados forman parte de ella.\n\nEn la Iglesia hay distintas vocaciones y servicios: laicos, consagrados, ministros ordenados. Todos tienen la misma dignidad y se necesitan mutuamente."
+    },
+    {
+     "title": "Una, santa, católica y apostólica",
+     "body": "- **Una:** un solo Señor, una sola fe, un solo bautismo, aunque con mucha diversidad.\n- **Santa:** porque Cristo la santifica, aunque sus miembros somos pecadores.\n- **Católica:** universal, abierta a todos los pueblos y culturas.\n- **Apostólica:** fundada sobre los apóstoles y guiada por sus sucesores, los obispos, en comunión con el papa.\n\nReconocer que la Iglesia es santa no significa ocultar sus pecados. La Iglesia necesita siempre convertirse."
+    },
+    {
+     "title": "Comunión de los santos y perdón",
+     "body": "La **comunión de los santos** significa que todos los creyentes, los que peregrinamos en la tierra, los que se purifican y los que ya están en el cielo, formamos una sola familia unida en Cristo. Por eso pedimos la intercesión de los santos y rezamos por los difuntos.\n\nEl **perdón de los pecados** se recibe en el bautismo y, después, en el sacramento de la reconciliación. La Iglesia es comunidad de perdonados que perdonan."
+    }
+   ],
+   "bible": {
+    "ref": "Hechos 2,1-13 · Pentecostés",
+    "comment": "Los apóstoles están reunidos con María. El Espíritu desciende como viento y fuego, y comienzan a anunciar a Jesús en las lenguas de todos los pueblos. Ese día nace la Iglesia misionera: una comunidad animada por el Espíritu para llevar el Evangelio a todos."
+   },
+   "church": [
+    {
+     "source": "Lumen gentium 9 y 48",
+     "text": "Dios quiso santificar y salvar a los hombres no individualmente, sino constituyéndolos en un pueblo; la Iglesia es en Cristo como un sacramento de salvación.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 683-987",
+     "text": "El Catecismo desarrolla la fe en el Espíritu Santo, la Iglesia, la comunión de los santos y el perdón de los pecados.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo has sentido la acción del Espíritu Santo en tu vida?",
+    "¿Qué te cuesta de la Iglesia? ¿Qué agradeces de ella?",
+    "¿Cómo explicarías que la Iglesia es santa y a la vez tiene pecadores?",
+    "¿A qué santo o difunto querido le pides que interceda por ti?"
+   ],
+   "activity": "Hagan un mural de la Iglesia: en el centro, Cristo; alrededor, los distintos servicios y vocaciones que conocen en su parroquia, con nombres reales (con permiso). Al final, cada uno escribe dónde se ve él o ella en ese mural.",
+   "prayer": "Ven, Espíritu Santo, llena los corazones de tus fieles y enciende en ellos el fuego de tu amor. Haz de nuestra Iglesia una comunidad unida, santa y misionera, que perdona y acoge a todos. Amén.",
+   "resources": [
+    {
+     "title": "Lumen gentium (Concilio Vaticano II, 1964)",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_sp.html",
+     "note": "Constitución sobre la Iglesia."
+    }
+   ],
+   "comenzar": "Escribe tres palabras que asocias a la palabra «Iglesia».",
+   "logros": [
+    "Reconocer al Espíritu Santo como persona divina que actúa hoy.",
+    "Explicar las cuatro notas de la Iglesia.",
+    "Comprender la comunión de los santos y el perdón de los pecados."
+   ],
+   "profundizar": {
+    "titulo": "Hablar de los pecados de la Iglesia",
+    "texto": "Los jóvenes conocen los escándalos de la Iglesia. No conviene negarlos ni minimizarlos. Se puede reconocer con dolor el daño causado, explicar que la Iglesia está llamada a convertirse y a proteger a las víctimas, y mostrar también la santidad de tantos que sirven con fidelidad."
+   },
+   "caso": {
+    "titulo": "«La Iglesia es un edificio»",
+    "texto": "Al preguntar en la catequesis qué es la Iglesia, todos los niños señalan el templo de la parroquia.",
+    "preguntas": [
+     "¿Qué dinámica usarías para ampliar esa idea?",
+     "¿Cómo les ayudarías a descubrir que ellos también son Iglesia?"
+    ]
+   },
+   "claves": [
+    [
+     "Espíritu Santo",
+     "Tercera persona de la Trinidad, Señor y dador de vida."
+    ],
+    [
+     "Notas de la Iglesia",
+     "Una, santa, católica y apostólica."
+    ],
+    [
+     "Comunión de los santos",
+     "Unión de todos los creyentes en Cristo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El Espíritu desciende sobre todos. ¿Qué don necesitas hoy?",
+    "orar": "Reza el «Ven, Espíritu Santo» cada mañana esta semana.",
+    "vivir": "Participa en alguna actividad de tu parroquia que no conozcas."
+   },
+   "practica": [
+    "Armen el mural.",
+    "Pongan nombres reales con permiso.",
+    "Ubíquense en él.",
+    "Recen juntos al Espíritu Santo."
+   ],
+   "idea": "El Espíritu Santo hace de nosotros una sola Iglesia en misión."
+  },
+  {
+   "title": "La vida eterna y la esperanza cristiana",
+   "objective": "Comprender lo que creemos sobre la resurrección de los muertos, la vida eterna y el juicio, y cómo esta esperanza ilumina la vida y la muerte.",
+   "intro": "El Credo termina con una promesa: «la resurrección de la carne y la vida eterna». Muchos niños y jóvenes preguntan qué pasa después de la muerte, sobre todo cuando pierden a alguien. En esta unidad vas a conocer lo que creemos y cómo compartirlo con delicadeza.",
+   "sections": [
+    {
+     "title": "Resucitaremos",
+     "body": "Creemos que, así como Cristo resucitó, **también nosotros resucitaremos**. No es solo que el alma sobrevive: Dios nos dará un cuerpo glorioso, transformado. Somos personas completas, cuerpo y alma, y así viviremos para siempre.\n\nLa resurrección de Jesús es la garantía de nuestra esperanza."
+    },
+    {
+     "title": "La vida eterna",
+     "body": "La vida eterna no es una vida aburrida que nunca termina: es la **plenitud del amor**, la comunión total con Dios y con todos los que amamos en Él.\n\n- **El cielo** es estar para siempre con Dios. Es el destino para el que fuimos creados.\n- **El purgatorio** es la purificación de quienes mueren en amistad con Dios pero necesitan ser purificados.\n- **El infierno** es la posibilidad real de rechazar a Dios libremente y para siempre. Dios no quiere que nadie se pierda."
+    },
+    {
+     "title": "El juicio",
+     "body": "Al morir, cada persona se encuentra con Dios y su vida queda iluminada por la verdad. Al final de los tiempos, Cristo vendrá en gloria.\n\nEl criterio del juicio es el amor: «Lo que hicieron con uno de estos más pequeños, lo hicieron conmigo» (Mateo 25,40). Por eso la esperanza en la vida eterna no nos aleja del mundo: nos compromete a amar aquí y ahora."
+    },
+    {
+     "title": "Acompañar ante la muerte",
+     "body": "Cuando un niño o joven pierde a alguien:\n\n- **Escucha** más de lo que hablas.\n- **No digas frases** como «Dios se lo llevó porque lo necesitaba» o «no llores». Pueden hacer daño.\n- **Puedes decir:** «Creemos que Jesús venció la muerte y que tu abuela está en las manos de Dios».\n- **Permite la tristeza:** Jesús también lloró por su amigo Lázaro.\n- **Avisa a su familia y al catequista responsable** si notas que el duelo lo sobrepasa."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 11,21-27 · «Yo soy la resurrección y la vida»",
+    "comment": "Marta, que ha perdido a su hermano Lázaro, le dice a Jesús: «Si hubieras estado aquí…». Jesús le responde: «Yo soy la resurrección y la vida: el que cree en mí, aunque muera, vivirá». La esperanza cristiana no niega el dolor: lo atraviesa con la promesa de Jesús."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 988-1065",
+     "text": "Creemos firmemente que, así como Cristo ha resucitado y vive para siempre, los justos vivirán para siempre con Cristo resucitado.",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+     "source": "Lumen gentium 48-50",
+     "text": "La Iglesia es peregrina hacia la plenitud; está unida a los que ya gozan de Dios y a los difuntos que se purifican.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué te enseñaron de niño sobre lo que pasa después de la muerte?",
+    "¿Qué frases ante la muerte te parecen poco adecuadas?",
+    "¿Cómo cambia tu manera de vivir la esperanza en la vida eterna?",
+    "¿Cómo acompañarías a un niño que perdió a su abuelo?"
+   ],
+   "activity": "En parejas, practiquen la conversación con un niño o joven que acaba de perder a alguien querido. Uno hace de catequista y el otro de niño. Después conversen: ¿qué ayudó?, ¿qué frase sobró?",
+   "prayer": "Señor Jesús, resurrección y vida: te confiamos a nuestros difuntos. Danos una esperanza que no niegue el dolor, pero que lo ilumine con tu promesa. Ayúdanos a vivir amando, para encontrarnos un día todos en tu casa. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica",
+     "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+     "note": "Números 988-1065, sobre la resurrección y la vida eterna."
+    }
+   ],
+   "comenzar": "Vuelve a la frase que escribiste en la primera unidad sobre qué significa creer. ¿Cambiarías algo?",
+   "logros": [
+    "Explicar la fe en la resurrección y la vida eterna.",
+    "Comprender el juicio a la luz del amor.",
+    "Acompañar con delicadeza a quien vive un duelo."
+   ],
+   "profundizar": {
+    "titulo": "El Credo completo",
+    "texto": "Al terminar este módulo, intenta rezar el Credo explicando para ti cada frase en una palabra propia. Si alguna frase sigue siendo oscura, anótala y pregúntala a tu asesor o párroco: la fe busca entender."
+   },
+   "caso": {
+    "titulo": "El funeral",
+    "texto": "Muere el papá de un niño de tu grupo de catequesis. Vas al funeral y, al verte, el niño te pregunta: «¿Mi papá me está mirando?».",
+    "preguntas": [
+     "¿Qué le responderías?",
+     "¿Cómo acompañarías al niño y al grupo en las semanas siguientes?"
+    ]
+   },
+   "claves": [
+    [
+     "Resurrección de la carne",
+     "Resucitaremos con un cuerpo glorioso."
+    ],
+    [
+     "Vida eterna",
+     "Plenitud del amor en comunión con Dios."
+    ],
+    [
+     "Esperanza",
+     "Confianza en las promesas de Dios que sostiene la vida."
+    ]
+   ],
+   "lectio": {
+    "meditar": "«Yo soy la resurrección y la vida». ¿A quién le confías hoy a Jesús?",
+    "orar": "Reza por tus difuntos, uno por uno.",
+    "vivir": "Visita o llama a alguien que esté viviendo un duelo."
+   },
+   "practica": [
+    "Formen parejas.",
+    "Practiquen la conversación.",
+    "Intercambien roles.",
+    "Comenten lo aprendido."
+   ],
+   "idea": "Creemos en la vida: Jesús venció la muerte."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué es la fe según la Iglesia?",
+   "options": [
+    "Una opinión sobre Dios",
+    "La respuesta personal y libre a Dios que se revela",
+    "Un sentimiento religioso"
+   ],
+   "correct": 1,
+   "feedback": "La fe responde a Dios que toma la iniciativa."
+  },
+  {
+   "q": "¿Por qué decimos que la fe se vive en Iglesia?",
+   "options": [
+    "Porque la recibimos de otros y la transmitimos a otros",
+    "Porque no se puede rezar a solas",
+    "Porque es obligatorio"
+   ],
+   "correct": 0,
+   "feedback": "Nadie cree solo: la fe se recibe y se comparte."
+  },
+  {
+   "q": "¿Qué afirma la fe sobre la Trinidad?",
+   "options": [
+    "Que hay tres dioses",
+    "Que hay un solo Dios en tres personas",
+    "Que Dios cambia de forma"
+   ],
+   "correct": 1,
+   "feedback": "Un solo Dios, comunión de tres personas."
+  },
+  {
+   "q": "¿Cómo se relacionan la fe y la ciencia?",
+   "options": [
+    "Se contradicen",
+    "No se oponen: responden preguntas distintas",
+    "La ciencia reemplaza a la fe"
+   ],
+   "correct": 1,
+   "feedback": "La Biblia dice por qué y para qué; la ciencia estudia cómo."
+  },
+  {
+   "q": "¿Quién es Jesucristo según el Credo?",
+   "options": [
+    "Un hombre muy bueno",
+    "Verdadero Dios y verdadero hombre",
+    "Dios con apariencia humana"
+   ],
+   "correct": 1,
+   "feedback": "Una sola persona, verdadero Dios y verdadero hombre."
+  },
+  {
+   "q": "¿Qué es el kerigma?",
+   "options": [
+    "Una oración antigua",
+    "El anuncio de Jesús muerto y resucitado",
+    "Un libro de la Biblia"
+   ],
+   "correct": 1,
+   "feedback": "Es el corazón de toda catequesis."
+  },
+  {
+   "q": "¿Qué significa que la Iglesia sea «católica»?",
+   "options": [
+    "Que es solo de Roma",
+    "Que es universal, abierta a todos los pueblos",
+    "Que no tiene pecadores"
+   ],
+   "correct": 1,
+   "feedback": "Católica significa universal."
+  },
+  {
+   "q": "¿Qué es la comunión de los santos?",
+   "options": [
+    "La unión de todos los creyentes en Cristo, vivos y difuntos",
+    "Una fiesta del calendario",
+    "Un grupo de santos famosos"
+   ],
+   "correct": 0,
+   "feedback": "Formamos una sola familia en Cristo."
+  },
+  {
+   "q": "¿Cuál es el criterio del juicio según Mateo 25?",
+   "options": [
+    "Cuántas oraciones rezamos",
+    "El amor a los más pequeños",
+    "Conocer bien la doctrina"
+   ],
+   "correct": 1,
+   "feedback": "«Lo hicieron conmigo»."
+  },
+  {
+   "q": "Ante un niño en duelo, ¿qué conviene?",
+   "options": [
+    "Decirle que no llore",
+    "Escuchar, permitir la tristeza y anunciar con delicadeza la esperanza",
+    "Explicarle que Dios se llevó a su familiar porque lo necesitaba"
+   ],
+   "correct": 1,
+   "feedback": "Escuchar y acompañar antes de explicar."
+  }
+ ]
+}

@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Lectores y salmistas",
+ "lectores-y-salmistas-cierre": {
+  "titulo": "Cierre del módulo: Lectores y salmistas",
   "aprobacion": 70,
+  "taller": "Cada participante proclama una lectura y un salmo del próximo domingo ante el grupo, con micrófono si es posible. Antes de proclamar comparte en una frase lo que el texto le dijo en la oración. Los demás dan retroalimentación sobre tres aspectos: comprensión del texto, voz y ritmo, y presencia.",
   "preguntas": [
    {
     "pregunta": "¿Qué enseña la Iglesia sobre la lectura de la Escritura en la liturgia?",

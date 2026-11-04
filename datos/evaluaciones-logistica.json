@@ -1,0 +1,109 @@
+{
+ "logistica-cierre": {
+  "titulo": "Cierre del módulo: Logística de actividades pastorales",
+  "aprobacion": 70,
+  "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
+  "preguntas": [
+   {
+    "pregunta": "¿Por qué la logística es parte de la pastoral?",
+    "opciones": [
+     "Porque así se ahorra dinero",
+     "Porque cuidar los detalles es cuidar a las personas",
+     "Porque la hacen los más nuevos"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando la logística funciona, todos pueden concentrarse en lo importante."
+   },
+   {
+    "pregunta": "¿Qué es un cronograma hacia atrás?",
+    "opciones": [
+     "Un plan que parte desde la fecha de la actividad y define tareas antes de ella",
+     "Un resumen de lo que salió mal",
+     "Un horario del día de la actividad"
+    ],
+    "correcta": 0,
+    "explicacion": "Se cuenta hacia atrás desde la fecha."
+   },
+   {
+    "pregunta": "¿Cuánto conviene agregar a las cantidades de comida por imprevistos?",
+    "opciones": [
+     "Nada",
+     "Alrededor de un 10 %",
+     "El doble"
+    ],
+    "correcta": 1,
+    "explicacion": "Un 10 % extra cubre imprevistos sin desperdiciar."
+   },
+   {
+    "pregunta": "¿Qué es la contaminación cruzada?",
+    "opciones": [
+     "Mezclar sabores",
+     "El paso de microbios de alimentos crudos a cocidos",
+     "Cocinar en dos ollas"
+    ],
+    "correcta": 1,
+    "explicacion": "Por eso se separan tablas y utensilios."
+   },
+   {
+    "pregunta": "¿Qué debe registrar un inventario?",
+    "opciones": [
+     "Solo el nombre del material",
+     "Material, cantidad, estado, ubicación y responsable",
+     "El precio de compra"
+    ],
+    "correcta": 1,
+    "explicacion": "Así se sabe qué hay y dónde está."
+   },
+   {
+    "pregunta": "¿Para qué sirve definir un stock mínimo?",
+    "opciones": [
+     "Para saber cuándo reponer un consumible",
+     "Para limitar el uso de materiales",
+     "Para vender lo que sobra"
+    ],
+    "correcta": 0,
+    "explicacion": "Al llegar al mínimo, se repone."
+   },
+   {
+    "pregunta": "¿Qué se necesita para trasladar menores?",
+    "opciones": [
+     "Solo un auto disponible",
+     "Transporte con permisos al día, autorización de los padres y lista de pasajeros",
+     "Que vayan con un amigo mayor"
+    ],
+    "correcta": 1,
+    "explicacion": "La seguridad en los traslados no se improvisa."
+   },
+   {
+    "pregunta": "¿Cómo se definen los dormitorios en una actividad con menores?",
+    "opciones": [
+     "Libremente",
+     "Separados para hombres y mujeres, y para menores y adultos",
+     "Todos juntos para ahorrar espacio"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una norma básica de cuidado."
+   },
+   {
+    "pregunta": "¿Qué hacer si una familia no puede pagar la cuota?",
+    "opciones": [
+     "Excluir al joven",
+     "Ofrecer con discreción una cuota solidaria o beca",
+     "Exponer la situación ante el grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie debería quedar fuera por razones económicas."
+   },
+   {
+    "pregunta": "¿Qué es lo esencial en la rendición de cuentas?",
+    "opciones": [
+     "Gastar todo el dinero",
+     "Comparar lo presupuestado con lo gastado, con comprobantes, e informar",
+     "Que solo lo sepa el tesorero"
+    ],
+    "correcta": 1,
+    "explicacion": "La transparencia genera confianza."
+   }
+  ]
+ }
+}

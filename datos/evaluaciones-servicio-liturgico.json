@@ -1,0 +1,644 @@
+{
+ "servidores-del-altar-cierre": {
+  "titulo": "Cierre del módulo: Servidores del altar",
+  "aprobacion": 70,
+  "taller": "Ensayo general en el templo: el grupo prepara y sirve una misa completa de práctica (o una celebración de la Palabra), con todos los roles repartidos. Antes, revisan juntos la credencia con la lista de chequeo; después, cada servidor dice qué hizo bien y qué mejorará, y el coordinador da una retroalimentación breve.",
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿qué desempeñan los acólitos y servidores del altar?",
+    "opciones": [
+     "Un adorno de la celebración.",
+     "Un auténtico ministerio litúrgico.",
+     "Un trabajo de sacristía."
+    ],
+    "correcta": 1,
+    "explicacion": "Sacrosanctum concilium 29 enseña que desempeñan un auténtico ministerio litúrgico."
+   },
+   {
+    "pregunta": "¿Qué es el corporal?",
+    "opciones": [
+     "El paño para secar el cáliz.",
+     "El lienzo cuadrado sobre el que se ponen el cáliz y la patena.",
+     "La vestidura blanca del servidor."
+    ],
+    "correcta": 1,
+    "explicacion": "El purificador seca el cáliz; el corporal se extiende sobre el altar."
+   },
+   {
+    "pregunta": "¿Qué color litúrgico se usa en Adviento y Cuaresma?",
+    "opciones": [
+     "Verde.",
+     "Morado.",
+     "Rojo."
+    ],
+    "correcta": 1,
+    "explicacion": "El morado expresa espera y conversión."
+   },
+   {
+    "pregunta": "¿Ante qué se hace la genuflexión?",
+    "opciones": [
+     "Ante el Santísimo en el sagrario.",
+     "Ante el ambón.",
+     "Ante la sede del sacerdote."
+    ],
+    "correcta": 0,
+    "explicacion": "La genuflexión es un gesto de adoración ante el Santísimo; ante el altar se hace inclinación profunda."
+   },
+   {
+    "pregunta": "En la preparación del altar, ¿qué se presenta al sacerdote con las vinajeras?",
+    "opciones": [
+     "Primero el agua y luego el vino.",
+     "Primero el vino y luego el agua.",
+     "Solo el agua."
+    ],
+    "correcta": 1,
+    "explicacion": "Se ofrece primero el vino y luego el agua, que el sacerdote mezcla en el cáliz."
+   },
+   {
+    "pregunta": "Si se cae una hostia consagrada, ¿qué debe hacer el servidor?",
+    "opciones": [
+     "Recogerla rápido y guardarla en el bolsillo.",
+     "No tocarla ni pisarla y avisar con discreción al sacerdote o al ministro.",
+     "Seguir como si nada."
+    ],
+    "correcta": 1,
+    "explicacion": "El sacerdote o el ministro saben cómo actuar en ese caso."
+   },
+   {
+    "pregunta": "¿Qué celebración es la más importante del año litúrgico?",
+    "opciones": [
+     "La Navidad.",
+     "La Vigilia Pascual.",
+     "El Domingo de Ramos."
+    ],
+    "correcta": 1,
+    "explicacion": "La Vigilia Pascual celebra la Resurrección del Señor y es la madre de todas las vigilias."
+   },
+   {
+    "pregunta": "¿Qué regla de cuidado vale siempre en la sacristía y en las actividades?",
+    "opciones": [
+     "Los servidores pueden quedarse solos con cualquier adulto de la parroquia.",
+     "Siempre hay más de un adulto y ningún servidor queda solo con un adulto.",
+     "Lo que pasa en la sacristía se guarda en secreto."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una regla básica de prevención. Si algo te incomoda, cuéntalo a tus padres o a otro adulto de confianza."
+   },
+   {
+    "pregunta": "¿Por qué conviene repartir los roles antes de la misa?",
+    "opciones": [
+     "Para que los servidores con más experiencia tengan los roles más importantes",
+     "Para que cada uno sepa su tarea y el servicio sea sereno",
+     "Porque así lo exige el sacerdote"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando cada uno sabe qué hacer, no hay carreras ni improvisación."
+   },
+   {
+    "pregunta": "¿Qué es lo más importante al recibir a un servidor nuevo?",
+    "opciones": [
+     "Que aprenda todos los roles en su primera misa",
+     "Acompañarlo con un padrino, empezar por roles sencillos y explicar el sentido",
+     "Que observe durante un año antes de servir"
+    ],
+    "correcta": 1,
+    "explicacion": "Se aprende acompañado, paso a paso y entendiendo el porqué."
+   }
+  ]
+ },
+ "lectores-y-salmistas-cierre": {
+  "titulo": "Cierre del módulo: Lectores y salmistas",
+  "aprobacion": 70,
+  "taller": "Cada participante proclama una lectura y un salmo del próximo domingo ante el grupo, con micrófono si es posible. Antes de proclamar comparte en una frase lo que el texto le dijo en la oración. Los demás dan retroalimentación sobre tres aspectos: comprensión del texto, voz y ritmo, y presencia.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué enseña la Iglesia sobre la lectura de la Escritura en la liturgia?",
+    "opciones": [
+     "Es un momento para informarse sobre la historia de Israel.",
+     "Cuando se leen las Escrituras, Dios mismo habla a su pueblo.",
+     "Es una preparación opcional para la Eucaristía."
+    ],
+    "correcta": 1,
+    "explicacion": "Así lo enseñan Sacrosanctum concilium 7 y la Ordenación General del Misal Romano 29."
+   },
+   {
+    "pregunta": "En la misa, ¿quién proclama el Evangelio?",
+    "opciones": [
+     "El lector más preparado.",
+     "El diácono o el sacerdote.",
+     "Cualquier fiel de la asamblea."
+    ],
+    "correcta": 1,
+    "explicacion": "El lector proclama las lecturas anteriores al Evangelio."
+   },
+   {
+    "pregunta": "En el ciclo dominical, ¿qué Evangelio se lee principalmente en el año C?",
+    "opciones": [
+     "Mateo.",
+     "Marcos.",
+     "Lucas."
+    ],
+    "correcta": 2,
+    "explicacion": "Año A: Mateo; año B: Marcos; año C: Lucas."
+   },
+   {
+    "pregunta": "¿Qué no se lee en voz alta al proclamar una lectura?",
+    "opciones": [
+     "«Lectura del libro del profeta Isaías».",
+     "El título en rojo y la cita con números.",
+     "«Palabra de Dios» al final."
+    ],
+    "correcta": 1,
+    "explicacion": "Se anuncia el libro, se proclama el texto y se termina con «Palabra de Dios»."
+   },
+   {
+    "pregunta": "¿Cuál es el error más común de los lectores?",
+    "opciones": [
+     "Leer demasiado lento.",
+     "Leer demasiado rápido.",
+     "Mirar a la asamblea."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo que al lector le parece lento suele ser el ritmo justo para la asamblea."
+   },
+   {
+    "pregunta": "¿Cómo comienza la proclamación del salmo responsorial?",
+    "opciones": [
+     "Anunciando «Salmo responsorial» y el número del salmo.",
+     "Directamente con la respuesta, que la asamblea repite.",
+     "Con «Palabra de Dios»."
+    ],
+    "correcta": 1,
+    "explicacion": "Se comienza con la respuesta y se invita a la asamblea a repetirla."
+   },
+   {
+    "pregunta": "¿Cuál es el orden habitual de las intenciones de la oración universal?",
+    "opciones": [
+     "Comunidad local, Iglesia, mundo y enfermos.",
+     "Iglesia, gobernantes y salvación del mundo, los que sufren y la comunidad local.",
+     "Cualquier orden, según lo que surja."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el orden que propone la Ordenación General del Misal Romano 70."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una buena intención?",
+    "opciones": [
+     "«Para que el gobierno deje de hacer las cosas mal. Roguemos al Señor».",
+     "«Por los enfermos de nuestra comunidad, para que sientan la cercanía de Dios y de sus hermanos. Roguemos al Señor».",
+     "«Les recordamos que el sábado hay convivencia. Roguemos al Señor»."
+    ],
+    "correcta": 1,
+    "explicacion": "Es breve, concreta, ruega por otros y no tiene opiniones ni avisos."
+   },
+   {
+    "pregunta": "¿Qué distingue al lector que reza el texto antes de proclamarlo?",
+    "opciones": [
+     "Que lo lee más rápido",
+     "Que lo proclama con sentido, porque primero lo escuchó",
+     "Que no necesita ensayar"
+    ],
+    "correcta": 1,
+    "explicacion": "La preparación espiritual se nota en la proclamación."
+   },
+   {
+    "pregunta": "¿Qué pide la Iglesia sobre la coherencia del lector?",
+    "opciones": [
+     "Ser perfecto antes de leer",
+     "Intentar vivir lo que proclama, como un camino",
+     "Solo leer bien"
+    ],
+    "correcta": 1,
+    "explicacion": "La coherencia es un camino, no un requisito de perfección."
+   }
+  ]
+ },
+ "musica-liturgica-cierre": {
+  "titulo": "Cierre del módulo: Música y animación litúrgica",
+  "aprobacion": 70,
+  "taller": "El coro prepara la música completa de una misa del tiempo litúrgico actual: elige los cantos con los criterios del módulo, arma la hoja de cantos, hace un ensayo de 30 minutos y anima a la asamblea (el resto del grupo) en los momentos principales. Al final evalúan juntos qué ayudó a rezar.",
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿qué es la música sacra en la liturgia?",
+    "opciones": [
+     "Un adorno opcional para las fiestas.",
+     "Parte necesaria e integral de la liturgia solemne.",
+     "Un momento de descanso entre los ritos."
+    ],
+    "correcta": 1,
+    "explicacion": "Así lo enseña Sacrosanctum concilium 112."
+   },
+   {
+    "pregunta": "¿Cuál es el primer objetivo del coro en la misa?",
+    "opciones": [
+     "Cantar las canciones más bonitas.",
+     "Ayudar a que la asamblea cante y ore.",
+     "Que la comunidad escuche en silencio."
+    ],
+    "correcta": 1,
+    "explicacion": "La asamblea es el primer protagonista del canto."
+   },
+   {
+    "pregunta": "¿Cuál de estas partes de la misa tiene un texto fijo que no se reemplaza por otro canto?",
+    "opciones": [
+     "El canto de entrada.",
+     "El Santo.",
+     "El canto de salida."
+    ],
+    "correcta": 1,
+    "explicacion": "El Santo, como el Gloria y el Cordero de Dios, tiene su texto propio."
+   },
+   {
+    "pregunta": "¿En qué tiempos litúrgicos no se canta el Gloria en los domingos?",
+    "opciones": [
+     "Adviento y Cuaresma.",
+     "Navidad y Pascua.",
+     "Tiempo Ordinario."
+    ],
+    "correcta": 0,
+    "explicacion": "El Gloria se omite en Adviento y Cuaresma, salvo solemnidades y fiestas."
+   },
+   {
+    "pregunta": "¿Qué pasa con el Aleluya en Cuaresma?",
+    "opciones": [
+     "Se canta más fuerte.",
+     "Se reemplaza por otra aclamación antes del Evangelio.",
+     "Se canta solo al final de la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "En Cuaresma se omite el Aleluya y se canta otra aclamación."
+   },
+   {
+    "pregunta": "¿Cuál es una buena regla para el volumen de los instrumentos?",
+    "opciones": [
+     "Siempre al máximo para animar.",
+     "Si no se escucha a la asamblea cantar, el volumen está alto.",
+     "Solo importa que se escuche al coro."
+    ],
+    "correcta": 1,
+    "explicacion": "Los instrumentos sostienen el canto de la asamblea, no lo tapan."
+   },
+   {
+    "pregunta": "¿Qué lugar tiene el silencio en la misa?",
+    "opciones": [
+     "Es un error que la música debe llenar.",
+     "Forma parte de la celebración y debe respetarse en los momentos oportunos.",
+     "Solo se usa en los funerales."
+    ],
+    "correcta": 1,
+    "explicacion": "La Ordenación General del Misal Romano 45 lo señala como parte de la celebración."
+   },
+   {
+    "pregunta": "¿Qué diferencia hay entre la música de un encuentro juvenil y la de la misa?",
+    "opciones": [
+     "Ninguna: se puede cantar lo mismo en ambos.",
+     "En la misa el canto está al servicio del rito y sigue sus criterios; en un encuentro hay más libertad.",
+     "En la misa solo se puede cantar gregoriano."
+    ],
+    "correcta": 1,
+    "explicacion": "Ambas son buenas, pero tienen criterios distintos."
+   },
+   {
+    "pregunta": "¿Qué cambia en la música durante la Cuaresma?",
+    "opciones": [
+     "Nada, se canta igual",
+     "No se canta el Aleluya y el acompañamiento se modera",
+     "Se canta solo en latín"
+    ],
+    "correcta": 1,
+    "explicacion": "La austeridad de la Cuaresma prepara la alegría de la Pascua."
+   },
+   {
+    "pregunta": "¿Cuál es un buen criterio para la música de un matrimonio?",
+    "opciones": [
+     "Cantar las canciones favoritas de los novios",
+     "Acompañar la celebración con cantos litúrgicos, sin convertirla en un concierto",
+     "No cantar nada"
+    ],
+    "correcta": 1,
+    "explicacion": "El canto sirve a la celebración, también en los sacramentos."
+   }
+  ]
+ },
+ "buen-trato-y-prevencion-cierre": {
+  "titulo": "Cierre del módulo: Buen trato y prevención",
+  "aprobacion": 70,
+  "taller": "Análisis de casos en grupos: cada grupo recibe una situación (una salida, un mensaje privado, un rumor, una revelación de daño) y debe decidir qué hacer, a quién avisar y qué no hacer, según el protocolo de la parroquia. Al final, cada participante completa su tarjeta con los nombres y contactos del encargado de prevención y los números de ayuda.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es el buen trato?",
+    "opciones": [
+     "No pegarle a nadie.",
+     "Una manera de relacionarse que reconoce la dignidad, respeta los límites y busca el bien del otro.",
+     "Ser simpático con todos."
+    ],
+    "correcta": 1,
+    "explicacion": "No es solo no hacer daño: es cuidar activamente."
+   },
+   {
+    "pregunta": "¿Qué tres formas de abuso nombra el papa Francisco?",
+    "opciones": [
+     "De poder, de conciencia y sexual.",
+     "Físico, verbal y económico.",
+     "Público, privado y digital."
+    ],
+    "correcta": 0,
+    "explicacion": "Suelen ir unidas: el abuso de poder y de conciencia abre la puerta a otros."
+   },
+   {
+    "pregunta": "¿Qué dice la regla de los dos adultos?",
+    "opciones": [
+     "Que cada joven debe venir con dos adultos.",
+     "Que en las actividades con menores hay al menos dos adultos responsables.",
+     "Que dos adultos deciden todo en el grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una de las reglas básicas de un ambiente seguro."
+   },
+   {
+    "pregunta": "¿Cómo debe ser la comunicación digital entre dirigentes y menores del grupo?",
+    "opciones": [
+     "Por chat privado para más confianza.",
+     "Grupal y transparente, con adultos responsables incluidos y en horarios razonables.",
+     "Solo de noche, cuando todos están libres."
+    ],
+    "correcta": 1,
+    "explicacion": "No hay chats privados entre adultos o dirigentes y menores."
+   },
+   {
+    "pregunta": "Si un joven te revela que alguien le hace daño, ¿qué NO debes hacer?",
+    "opciones": [
+     "Escuchar con calma y creerle.",
+     "Prometer guardar el secreto.",
+     "Avisar de inmediato al asesor o encargado."
+    ],
+    "correcta": 1,
+    "explicacion": "Para cuidarlo hay que pedir ayuda; por eso no se promete secreto."
+   },
+   {
+    "pregunta": "¿Quién puede denunciar un delito contra un menor en Chile?",
+    "opciones": [
+     "Solo los padres.",
+     "Cualquier persona; algunas, como directores y profesores, están obligadas por ley.",
+     "Solo la policía."
+    ],
+    "correcta": 1,
+    "explicacion": "Artículos 175 y 176 del Código Procesal Penal."
+   },
+   {
+    "pregunta": "¿Qué número es el Fono Niños de Carabineros?",
+    "opciones": [
+     "131",
+     "133",
+     "147"
+    ],
+    "correcta": 2,
+    "explicacion": "131 es SAMU y 133 es Carabineros."
+   },
+   {
+    "pregunta": "Si alguien te presiona para enviar fotos íntimas, ¿qué es lo correcto?",
+    "opciones": [
+     "Enviarlas para no perder la amistad.",
+     "No enviarlas y contarlo a un adulto de confianza; no es tu culpa.",
+     "Guardar silencio para no meterte en problemas."
+    ],
+    "correcta": 1,
+    "explicacion": "Producir o compartir imágenes sexuales de menores es un delito."
+   },
+   {
+    "pregunta": "Si alguien te cuenta que sufrió un daño, ¿cuál es la primera actitud?",
+    "opciones": [
+     "Preguntarle por qué no habló antes",
+     "Creerle, no juzgar y avisar a un adulto responsable",
+     "Contarlo al grupo para que lo apoyen"
+    ],
+    "correcta": 1,
+    "explicacion": "Creer, no juzgar y activar a los adultos responsables."
+   },
+   {
+    "pregunta": "¿A quién protege primero la comunidad ante una denuncia?",
+    "opciones": [
+     "A la imagen del grupo",
+     "A la persona afectada",
+     "Al acusado"
+    ],
+    "correcta": 1,
+    "explicacion": "La persona afectada es la prioridad."
+   }
+  ]
+ },
+ "conocer-la-biblia-cierre": {
+  "titulo": "Cierre del módulo: Conocer la Biblia",
+  "aprobacion": 70,
+  "taller": "Por parejas, cada uno guía un momento de Palabra compartida de 20 minutos con un texto elegido por el grupo, usando los siete pasos. Antes deben explicar en dos minutos el género y el contexto del texto. El resto del grupo participa y luego comenta qué funcionó.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuántos libros tiene la Biblia católica?",
+    "opciones": [
+     "66",
+     "73",
+     "77"
+    ],
+    "correcta": 1,
+    "explicacion": "46 del Antiguo Testamento y 27 del Nuevo."
+   },
+   {
+    "pregunta": "¿Qué significa la cita Lucas 15,11-32?",
+    "opciones": [
+     "Lucas, versículo 15, capítulos 11 al 32.",
+     "Lucas, capítulo 15, versículos 11 al 32.",
+     "Libro 15 de Lucas, página 11."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero el libro, luego el capítulo y después los versículos."
+   },
+   {
+    "pregunta": "¿Qué enseña la Iglesia sobre los autores de la Biblia?",
+    "opciones": [
+     "Dios la dictó palabra por palabra sin intervención humana.",
+     "Dios es su autor a través de autores humanos inspirados por el Espíritu Santo.",
+     "Es solo una obra humana sobre Dios."
+    ],
+    "correcta": 1,
+    "explicacion": "Dei Verbum 11: Dios y los autores humanos, que escribieron con sus propias capacidades."
+   },
+   {
+    "pregunta": "¿Quién es el centro de toda la Escritura?",
+    "opciones": [
+     "Moisés.",
+     "Jesucristo.",
+     "El pueblo de Israel."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el Antiguo Testamento prepara su venida y el Nuevo lo anuncia."
+   },
+   {
+    "pregunta": "¿Qué relación hay entre la Escritura y la Tradición?",
+    "opciones": [
+     "Están unidas y brotan de la misma fuente.",
+     "La Tradición es más importante que la Escritura.",
+     "No tienen relación."
+    ],
+    "correcta": 0,
+    "explicacion": "Dei Verbum 9 enseña que ambas brotan de la misma fuente divina."
+   },
+   {
+    "pregunta": "¿Por qué es importante conocer el género literario de un texto?",
+    "opciones": [
+     "Para saber cuánto demora en leerse.",
+     "Para descubrir lo que el autor quiso decir.",
+     "No es importante."
+    ],
+    "correcta": 1,
+    "explicacion": "Dei Verbum 12 pide atender a los géneros literarios."
+   },
+   {
+    "pregunta": "¿Qué tipo de lenguaje usa el Apocalipsis?",
+    "opciones": [
+     "Un calendario exacto del fin del mundo.",
+     "Un lenguaje simbólico de visiones para sostener la esperanza.",
+     "Un relato histórico literal."
+    ],
+    "correcta": 1,
+    "explicacion": "Es un libro apocalíptico: usa símbolos para animar a los cristianos perseguidos."
+   },
+   {
+    "pregunta": "¿Cuál es una buena forma de empezar a leer la Biblia?",
+    "opciones": [
+     "Leer desde el Génesis hasta el Apocalipsis sin parar.",
+     "Abrir una página al azar cada día.",
+     "Empezar por un Evangelio, poco a poco y cada día."
+    ],
+    "correcta": 2,
+    "explicacion": "Marcos es una excelente puerta de entrada."
+   },
+   {
+    "pregunta": "¿Cuál es la tarea de quien anima un momento de Palabra compartida?",
+    "opciones": [
+     "Dar una charla sobre el texto",
+     "Cuidar los tiempos, invitar a hablar en primera persona y no discutir lo que otros comparten",
+     "Corregir a quienes se equivocan"
+    ],
+    "correcta": 1,
+    "explicacion": "Quien anima facilita; no reemplaza la voz del grupo."
+   },
+   {
+    "pregunta": "¿Por qué es importante el silencio después de leer?",
+    "opciones": [
+     "Para descansar",
+     "Para dejar que el texto resuene antes de compartir",
+     "Porque no hay nada que decir"
+    ],
+    "correcta": 1,
+    "explicacion": "El silencio deja que la Palabra llegue al corazón."
+   }
+  ]
+ },
+ "santos-jovenes-cierre": {
+  "titulo": "Cierre del módulo: Santos jóvenes",
+  "aprobacion": 70,
+  "taller": "Cada participante presenta en tres minutos a un santo o testigo de la fe que lo haya marcado (puede ser de los estudiados o uno nuevo), con un dato de su vida, una frase y lo que le enseña. Al final, cada uno escribe en una tarjeta su propio «camino de santidad» para el próximo mes.",
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿quiénes están llamados a la santidad?",
+    "opciones": [
+     "Solo los sacerdotes y religiosos.",
+     "Todos los fieles, en cualquier estado o condición.",
+     "Solo quienes hacen milagros."
+    ],
+    "correcta": 1,
+    "explicacion": "Lumen gentium 40 enseña el llamado universal a la santidad."
+   },
+   {
+    "pregunta": "¿Qué son los «santos de la puerta de al lado»?",
+    "opciones": [
+     "Santos que vivieron en los conventos.",
+     "Personas cercanas que reflejan la presencia de Dios en la vida cotidiana.",
+     "Imágenes de santos en la entrada de las iglesias."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una expresión de Gaudete et exsultate 7."
+   },
+   {
+    "pregunta": "¿Quién fue la primera santa chilena?",
+    "opciones": [
+     "Laura Vicuña.",
+     "Teresa de los Andes.",
+     "Gabriela Mistral."
+    ],
+    "correcta": 1,
+    "explicacion": "Juan Pablo II la canonizó en 1993."
+   },
+   {
+    "pregunta": "¿Qué obra fundó san Alberto Hurtado en 1944?",
+    "opciones": [
+     "El Hogar de Cristo.",
+     "Un colegio jesuita.",
+     "Una radio católica."
+    ],
+    "correcta": 0,
+    "explicacion": "El Hogar de Cristo acoge a personas en situación de calle."
+   },
+   {
+    "pregunta": "¿Qué decía Carlo Acutis sobre la Eucaristía?",
+    "opciones": [
+     "Que era un rito para los domingos.",
+     "Que era su autopista al cielo.",
+     "Que solo era para adultos."
+    ],
+    "correcta": 1,
+    "explicacion": "Iba a misa diariamente y adoraba al Santísimo."
+   },
+   {
+    "pregunta": "¿Cuál era el lema de Pier Giorgio Frassati?",
+    "opciones": [
+     "«Verso l'alto»: hacia lo alto.",
+     "«Ora et labora».",
+     "«Todo por amor»."
+    ],
+    "correcta": 0,
+    "explicacion": "Lo usaba como montañista y como camino espiritual."
+   },
+   {
+    "pregunta": "¿Qué frase repetía Chiara Badano durante su enfermedad?",
+    "opciones": [
+     "«No es justo».",
+     "«Si lo quieres tú, Jesús, lo quiero yo también».",
+     "«Contento, Señor, contento»."
+    ],
+    "correcta": 1,
+    "explicacion": "«Contento, Señor, contento» era de san Alberto Hurtado."
+   },
+   {
+    "pregunta": "Según esta formación, ¿qué hacer si estás pasando por algo muy difícil?",
+    "opciones": [
+     "Soportarlo en silencio como los santos.",
+     "Rezar y también pedir ayuda a la familia, a un adulto de confianza o a un profesional.",
+     "Esperar a que pase solo."
+    ],
+    "correcta": 1,
+    "explicacion": "La fe y la ayuda humana van juntas."
+   },
+   {
+    "pregunta": "¿Qué tienen en común Ceferino, Domingo y Sandra?",
+    "opciones": [
+     "Hicieron milagros espectaculares",
+     "Vivieron su vida ordinaria con un amor extraordinario",
+     "Fueron todos sacerdotes"
+    ],
+    "correcta": 1,
+    "explicacion": "La santidad se juega en lo cotidiano."
+   },
+   {
+    "pregunta": "¿Qué muestra la vida de Ceferino Namuncurá?",
+    "opciones": [
+     "Que hay que renunciar a la propia cultura para ser santo",
+     "Que se puede unir la identidad de un pueblo con el Evangelio",
+     "Que solo los europeos llegan a ser santos"
+    ],
+    "correcta": 1,
+    "explicacion": "Ceferino vivió la fe sin renunciar a su identidad mapuche."
+   }
+  ]
+ }
+}

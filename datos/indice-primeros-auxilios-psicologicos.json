@@ -2,58 +2,68 @@
  "curso": "primeros-auxilios-psicologicos",
  "modulos": [
   {
-   "id": "m1",
+   "id": "primeros-auxilios-psicologicos",
    "numero": 1,
-   "titulo": "Acompañar en la crisis",
-   "semanas": "",
+   "titulo": "Primeros auxilios psicológicos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "En los grupos juveniles, a veces alguien se quiebra: por una pérdida, un problema en la casa, una crisis de angustia o un momento de mucha tristeza. Esta formación enseña a acompañar en esos primeros momentos con calma y respeto, y a conectar a la persona con la ayuda que necesita. No convierte a nadie en terapeuta: ayuda a no dejar solo a quien sufre y a saber a quién avisar.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "primeros-auxilios-psicologicos-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "¿Qué son los primeros auxilios psicológicos?",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "primeros-auxilios-psicologicos-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "El protocolo ABCD",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "primeros-auxilios-psicologicos-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Situaciones difíciles",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "primeros-auxilios-psicologicos-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Cuando todo el grupo vive una crisis",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "primeros-auxilios-psicologicos-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Cuidar al que cuida",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "primeros-auxilios-psicologicos-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Primeros auxilios psicológicos",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

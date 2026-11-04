@@ -2,58 +2,68 @@
  "curso": "ayudante-de-catequesis",
  "modulos": [
   {
-   "id": "m1",
+   "id": "ayudante-de-catequesis",
    "numero": 1,
-   "titulo": "Acompañar en la fe",
-   "semanas": "",
+   "titulo": "Ayudante de catequesis",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "Muchas parroquias invitan a jóvenes a ayudar en la catequesis. Es un servicio precioso: los niños y adolescentes ven en ellos a alguien cercano que vive la fe con alegría. Esta formación te prepara para colaborar con el catequista adulto, sin reemplazarlo, y para hacerlo con cariño y responsabilidad.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "ayudante-de-catequesis-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "¿Qué es la catequesis?",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "ayudante-de-catequesis-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Conocer a quienes acompañamos",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "ayudante-de-catequesis-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Preparar y animar un encuentro",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "ayudante-de-catequesis-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Las familias y la comunidad",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "ayudante-de-catequesis-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Cuidar y crecer como ayudante",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "ayudante-de-catequesis-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Ayudante de catequesis",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

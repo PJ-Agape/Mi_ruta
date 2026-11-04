@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Ayudante de catequesis",
+ "ayudante-de-catequesis-cierre": {
+  "titulo": "Cierre del módulo: Ayudante de catequesis",
   "aprobacion": 70,
+  "taller": "En parejas, preparan y animan un encuentro breve de catequesis (20 minutos) para un grupo de la edad que acompañan, con acogida, un momento de Palabra, una actividad y una oración. El grupo hace de catequizandos. Después, el catequista responsable da retroalimentación sobre preparación, trato y cuidado.",
   "preguntas": [
    {
     "pregunta": "¿Qué significa la palabra «catequesis»?",

@@ -1,0 +1,475 @@
+{
+ "curso": "mision-y-servicio",
+ "modulos": [
+  {
+   "id": "voluntariado-y-doctrina-social",
+   "numero": 1,
+   "titulo": "Voluntariado y doctrina social",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "La fe cristiana no se queda en el templo: se hace servicio, solidaridad y compromiso con un mundo más justo. Esta formación une el corazón y la cabeza: el amor concreto por los demás y los criterios que la Iglesia ofrece para servir bien.",
+   "clases": [
+    {
+     "id": "voluntariado-y-doctrina-social-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La fe que se hace caridad",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s1.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Los principios de la doctrina social",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s2.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Servir bien",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s3.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Dónde y cómo servir",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s4.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Un proyecto solidario",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s5.md"
+    },
+    {
+     "id": "voluntariado-y-doctrina-social-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "ecologia-integral",
+   "numero": 2,
+   "titulo": "Ecología integral",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "voluntariado-y-doctrina-social"
+   ],
+   "intro": "El papa Francisco escribió en 2015 la encíclica *Laudato si'*, sobre el cuidado de la casa común. En ella invita a todos, y especialmente a los jóvenes, a una conversión ecológica: cambiar la manera de mirar, de vivir y de consumir. Esta formación recorre sus ideas centrales y termina en acción.",
+   "clases": [
+    {
+     "id": "ecologia-integral-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La creación, un regalo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s1.md"
+    },
+    {
+     "id": "ecologia-integral-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Todo está conectado",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s2.md"
+    },
+    {
+     "id": "ecologia-integral-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Ecología de la vida cotidiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s3.md"
+    },
+    {
+     "id": "ecologia-integral-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Conversión ecológica",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s4.md"
+    },
+    {
+     "id": "ecologia-integral-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Un proyecto por la casa común",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s5.md"
+    },
+    {
+     "id": "ecologia-integral-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "misiones-juveniles",
+   "numero": 3,
+   "titulo": "Misiones juveniles",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "ecologia-integral"
+   ],
+   "intro": "Las misiones son para muchos jóvenes una experiencia que marca la vida: salir de la propia comodidad, conocer otras realidades y anunciar a Jesús con la propia vida. Esta formación ayuda a vivirlas bien: con sentido, con organización y con cuidado de todos.",
+   "clases": [
+    {
+     "id": "misiones-juveniles-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Enviados",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/misiones-juveniles/s1.md"
+    },
+    {
+     "id": "misiones-juveniles-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Preparar la misión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/misiones-juveniles/s2.md"
+    },
+    {
+     "id": "misiones-juveniles-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Anunciar a Jesús",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/misiones-juveniles/s3.md"
+    },
+    {
+     "id": "misiones-juveniles-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "En terreno",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/misiones-juveniles/s4.md"
+    },
+    {
+     "id": "misiones-juveniles-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Volver y continuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/misiones-juveniles/s5.md"
+    },
+    {
+     "id": "misiones-juveniles-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "logistica",
+   "numero": 4,
+   "titulo": "Logística de actividades pastorales",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 4",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "misiones-juveniles"
+   ],
+   "intro": "Una actividad pastoral puede tener un gran contenido y fracasar porque faltó comida, no llegó el bus o nadie sabía dónde estaban los materiales. La logística es una forma de servicio: cuando funciona, nadie la nota y todos pueden concentrarse en lo importante. En este módulo vas a aprender a organizarla.",
+   "clases": [
+    {
+     "id": "logistica-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Planificar la logística",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s1.md"
+    },
+    {
+     "id": "logistica-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Alimentación: menús, cantidades y manipulación segura",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s2.md"
+    },
+    {
+     "id": "logistica-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Materiales e insumos: inventario, bodega y reposición",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s3.md"
+    },
+    {
+     "id": "logistica-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s4.md"
+    },
+    {
+     "id": "logistica-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Presupuesto, compras y rendición de cuentas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s5.md"
+    },
+    {
+     "id": "logistica-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "buen-trato-y-prevencion",
+   "numero": 5,
+   "titulo": "Buen trato y prevención",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 5",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "logistica"
+   ],
+   "intro": "Cuidar a cada persona, especialmente a los niños y jóvenes, es parte esencial del Evangelio. La Iglesia en Chile ha aprendido con dolor que la prevención no es opcional. Esta formación entrega criterios claros, reglas prácticas y pasos concretos para que nuestros grupos sean lugares sanos y seguros. Se recomienda que la hagan todos los que sirven, cualquiera sea su edad o función.",
+   "clases": [
+    {
+     "id": "buen-trato-y-prevencion-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una cultura del buen trato",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Ambientes seguros",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Escuchar y actuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Reparar y acompañar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidarnos entre todos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "primeros-auxilios",
+   "numero": 1,
+   "titulo": "Primeros auxilios",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "En cualquier actividad con jóvenes puede ocurrir un accidente o una emergencia. Saber qué hacer en los primeros minutos puede marcar una gran diferencia. Esta formación entrega conocimientos básicos y ordenados. Importante: los primeros auxilios se aprenden practicando. Por eso, esta formación debe complementarse con un **curso práctico certificado**, como los que ofrecen la Cruz Roja Chilena, las mutualidades o algunos centros de salud. Ante cualquier duda, sigue siempre las indicaciones del SAMU (131).",
+   "clases": [
+    {
+     "id": "primeros-auxilios-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Antes de actuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s1.md"
+    },
+    {
+     "id": "primeros-auxilios-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Emergencias que ponen en riesgo la vida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s2.md"
+    },
+    {
+     "id": "primeros-auxilios-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Lesiones frecuentes en actividades",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s3.md"
+    },
+    {
+     "id": "primeros-auxilios-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Situaciones médicas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s4.md"
+    },
+    {
+     "id": "primeros-auxilios-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Prevenir: actividades seguras",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s5.md"
+    },
+    {
+     "id": "primeros-auxilios-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dinamicas-y-juegos",
+   "numero": 2,
+   "titulo": "Dinámicas y juegos",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "El juego es uno de los lenguajes más naturales de los jóvenes. Bien usado, rompe el hielo, une al grupo, enseña y abre el corazón. Mal usado, puede aburrir, excluir o incluso humillar. Esta formación te ayuda a elegir, diseñar y conducir dinámicas con sentido.",
+   "clases": [
+    {
+     "id": "dinamicas-y-juegos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Para qué jugar?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Diseñar y conducir una dinámica",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Banco de dinámicas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Animar una jornada completa",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Grandes juegos, seguridad e inclusión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

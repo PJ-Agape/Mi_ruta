@@ -143,13 +143,21 @@
       });
   }
 
-  function hechas(cursoId) { return almacen.leer("hechas:" + cursoId, []); }
+  // El avance es uno solo para toda la plataforma: cada sesión tiene un identificador único,
+  // así un módulo aprobado cuenta en todos los cursos que lo incluyen.
+  // Se suman las listas antiguas por curso para no perder el avance previo.
+  function hechas(cursoId) {
+    var todo = almacen.leer("hechas:todo", []);
+    var antiguo = cursoId ? almacen.leer("hechas:" + cursoId, []) : [];
+    return antiguo.length ? todo.concat(antiguo.filter(function (x) { return todo.indexOf(x) < 0; })) : todo;
+  }
 
   // Un módulo con requisitos queda bloqueado para el participante hasta completar
   // todas las clases de los módulos requeridos. En vista relator se ve todo.
   function moduloBloqueado(curso, m) {
     if (!m.requiere || !m.requiere.length || modoRelator()) return null;
     var h = hechas(curso.id);
+    if (moduloCompleto(m, h)) return null;
     var faltan = m.requiere.map(function (id) {
       return curso.modulos.filter(function (x) { return x.id === id; })[0];
     }).filter(function (req) {
@@ -159,16 +167,29 @@
   }
 
   function marcarHecha(cursoId, claseId, valor) {
-    var lista = hechas(cursoId).filter(function (x) { return x !== claseId; });
+    var lista = almacen.leer("hechas:todo", []).filter(function (x) { return x !== claseId; });
     if (valor) lista.push(claseId);
-    almacen.guardar("hechas:" + cursoId, lista);
+    almacen.guardar("hechas:todo", lista);
   }
 
-  function progreso(curso) {
-    var h = hechas(curso.id);
-    var n = curso.clases.filter(function (c) { return h.indexOf(c.id) >= 0; }).length;
-    return { hechas: n, total: curso.clases.length, pct: curso.clases.length ? Math.round(100 * n / curso.clases.length) : 0 };
+  // Un curso se completa con todos sus módulos obligatorios y la cantidad de optativos
+  // que pide (elige); de los optativos se cuentan los más avanzados.
+  function progresoCon(curso, h) {
+    var hechasDe = function (m) { return m.clases.filter(function (c) { return h.indexOf(c.id) >= 0; }).length; };
+    var obl = curso.modulos.filter(function (m) { return m.tipo !== "optativo"; });
+    var opt = curso.modulos.filter(function (m) { return m.tipo === "optativo"; });
+    var n = 0, total = 0;
+    obl.forEach(function (m) { n += hechasDe(m); total += m.clases.length; });
+    var elige = Math.min(curso.elige || 0, opt.length);
+    if (elige) {
+      var tam = opt[0].clases.length;
+      opt.map(hechasDe).sort(function (a, b) { return b - a; }).slice(0, elige).forEach(function (x) { n += x; });
+      total += elige * tam;
+    }
+    return { hechas: n, total: total, pct: total ? Math.round(100 * n / total) : 0 };
   }
+  function progreso(curso) { return progresoCon(curso, hechas(curso.id)); }
+  function moduloCompleto(m, h) { return m.clases.every(function (c) { return h.indexOf(c.id) >= 0; }); }
 
   function duracionClase(cl) {
     return cl.semana ? "Semana " + cl.semana : (cl.tiempo || "");
@@ -224,7 +245,7 @@
       var html = '<section class="portada"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA + "<p>" + esc(sitio.lema) + "</p></section>";
       function tarjeta(c) {
         var p = progreso(c);
-        var ceja = c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") : (c.categoria ? esc(c.categoria) : (c.institucion ? esc(c.institucion) : ""));
+        var ceja = c.tipo === "curso" ? "Curso" : (c.categoria ? esc(c.categoria) : (c.institucion ? esc(c.institucion) : ""));
         return '<article class="tarjeta curso-tarjeta">' + (ceja ? '<p class="institucion">' + ceja + "</p>" : "") + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
           "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(esc).join(" · ") + "</p>" +
           barraProgreso(p) + '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Entrar al curso</a></div></article>';
@@ -242,15 +263,15 @@
             return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(p) + "</a>";
           }).join("") : '<p class="seccion-bajada">Todavía no tienes cursos habilitados. Elige uno abajo y solicita la inscripción.</p>') + "</section>";
       }
-      var ruta = lista.filter(function (c) { return c.paso; }).sort(function (a, b) { return a.paso - b.paso; });
-      var extras = lista.filter(function (c) { return !c.paso; });
+      var ruta = lista.filter(function (c) { return c.tipo === "curso"; }).sort(function (a, b) { return (a.orden || 0) - (b.orden || 0); });
+      var extras = lista.filter(function (c) { return c.tipo !== "curso"; });
       if (ruta.length) {
-        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Tu ruta de formación</h2>' +
-          '<p class="seccion-bajada">Cuatro pasos para crecer en el servicio, en orden.</p>' + ruta.map(tarjeta).join("") + "</section>";
+        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Cursos</h2>' +
+          '<p class="seccion-bajada">Cada curso reúne módulos obligatorios y optativos de seis sesiones. Un módulo aprobado vale en todos los cursos que lo incluyen.</p>' + ruta.map(tarjeta).join("") + "</section>";
       }
       if (extras.length) {
-        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Formaciones complementarias</h2>' +
-          '<p class="seccion-bajada">Cursos breves que puedes tomar en cualquier momento, sin seguir un orden.</p>';
+        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Módulos que puedes tomar por separado</h2>' +
+          '<p class="seccion-bajada">Formaciones breves de seis sesiones. Si después te inscribes en un curso que las incluye, se te reconocen.</p>';
         var categoria = null;
         extras.forEach(function (c) {
           if (c.categoria && c.categoria !== categoria) {
@@ -269,9 +290,9 @@
     return cargarCurso(id).then(function (c) {
       var p = progreso(c);
       var h = hechas(c.id);
-      var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0; })[0];
+      var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0 && !moduloBloqueado(c, x.modulo); })[0];
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
-      html += '<section class="portada"><p class="subtitulo">' + (c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + " · " : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
+      html += '<section class="portada"><p class="subtitulo">' + (c.tipo === "curso" ? "Curso · " : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         (acceso(c) === "libre" ? barraProgreso(p) : "") +
         '<div class="botones">' +
@@ -281,8 +302,14 @@
 
       var tipoAcceso = acceso(c);
       if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
+      var vistoOpt = false;
+      if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Se cursan en orden: cada uno se habilita al completar el anterior.</p>';
       c.modulos.forEach(function (m) {
         var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
+        if (m.tipo === "optativo" && !vistoOpt) {
+          vistoOpt = true;
+          html += '<h2 class="seccion-titulo">Módulos optativos</h2><p class="seccion-bajada">Elige ' + (c.elige === 1 ? "uno" : c.elige) + '. Puedes cursarlos en cualquier momento.</p>';
+        }
         html += '<section class="tarjeta modulo"><h2>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</h2>" +
           (m.semanas ? '<p class="semanas">Semanas ' + esc(m.semanas) + "</p>" : "") +
           (m.duracion || m.constancia ? '<p class="semanas">' + [m.duracion ? esc(m.duracion) : "", m.constancia ? '<span class="chip-constancia">Constancia propia</span>' : ""].filter(Boolean).join(" · ") +
@@ -381,7 +408,7 @@
           armarEvaluacion(c, cl, i, ev[cl.id]);
         });
       }
-      return pedir("contenido/" + cursoId + "/" + claseId + ".md", "texto").then(function (texto) {
+      return pedir(cl.archivo || "contenido/" + cursoId + "/" + claseId + ".md", "texto").then(function (texto) {
         armarClase(c, cl, i, texto);
       });
     });
@@ -526,7 +553,7 @@
   /* ---------- evaluaciones ---------- */
 
   function armarEvaluacion(c, cl, i, ev) {
-    var clave = "eval:" + c.id + ":" + cl.id;
+    var clave = "eval:" + cl.id;
     var previo = almacen.leer(clave, null);
     // Las opciones se barajan en cada intento para que la posición no delate la respuesta.
     var ordenes = ev.preguntas.map(function (p) {
@@ -535,8 +562,9 @@
       return o;
     });
     var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>";
-    html += '<header class="clase-cabecera"><span class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · Evaluación</span>" +
+    html += '<header class="clase-cabecera"><span class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + (ev.taller ? " · Cierre del módulo" : " · Evaluación") + "</span>" +
       "<h1>" + esc(ev.titulo) + '</h1><p class="meta">' + ev.preguntas.length + " preguntas · se aprueba con " + ev.aprobacion + "%</p></header>";
+    if (ev.taller) html += '<section class="taller-cierre"><h2>Taller práctico</h2><div class="texto">' + md(ev.taller) + '</div><p class="ficha-nota">El taller se realiza con tu grupo y tu relator. Después, responde la evaluación.</p></section><h2 class="evaluacion-titulo">Evaluación</h2>';
     html += '<p class="aviso">Responde todas las preguntas y luego revisa tus respuestas. Puedes intentarlo las veces que quieras.' +
       (previo ? " Tu mejor resultado hasta ahora: " + previo.mejor + "%." : "") + "</p>";
     html += '<form id="evaluacion" class="evaluacion">' + ev.preguntas.map(function (p, k) {
@@ -708,33 +736,37 @@
     return m ? m[1] + " horas" : "";
   }
 
-  // Arma los datos de una constancia para un curso, un módulo o el diplomado completo.
-  function datosConstancia(c, alcance, persona) {
+  // Arma los datos de una constancia: de un módulo, de un módulo que se toma por separado,
+  // o el certificado de un curso completo (h es el avance de la persona).
+  function datosConstancia(c, alcance, persona, h) {
+    h = h || [];
     var d = { uid: persona.uid, nombre: persona.nombre, comunidad: persona.comunidad || "", cursoId: c.id, alcance: alcance, fecha: new Date().toISOString().slice(0, 10) };
-    var sinEval = function (cls) { return cls.filter(function (x) { return x.tipo !== "evaluacion"; }).map(function (x) { return x.titulo; }); };
-    if (alcance === "diplomado") {
+    var sesiones = function (m) { return m.clases.filter(function (x) { return !/cierre$/.test(x.id); }).map(function (x) { return x.titulo; }); };
+    var horas = function (m) { return horasDe(m.duracion) || m.duracion; };
+    if (alcance === "curso" && c.tipo === "curso") {
+      var obl = c.modulos.filter(function (m) { return m.tipo !== "optativo"; });
+      var opt = c.modulos.filter(function (m) { return m.tipo === "optativo" && moduloCompleto(m, h); }).slice(0, c.elige || 0);
       d.tipo = "certificado";
-      d.eyebrow = "DIPLOMADO EN LIDERAZGO";
+      d.eyebrow = "CURSO · " + c.titulo.toUpperCase();
       d.titulo = c.titulo;
-      d.detalle = "por haber aprobado los seis módulos del diplomado y su proyecto integrador, con un total de 216 horas de formación.";
-      d.contenidos = c.modulos.map(function (m) { return etiquetaModulo(m) + ". " + m.titulo + " · " + (horasDe(m.duracion) || ""); });
+      d.detalle = "por haber aprobado el curso " + c.titulo + ": " + obl.length + " módulos obligatorios y " + (c.elige || 0) + (c.elige === 1 ? " optativo" : " optativos") + ", con un total de " + c.horas + " horas de formación.";
+      d.contenidos = obl.concat(opt).map(function (m) { return m.titulo; });
       return d;
     }
     d.tipo = "constancia";
-    if (alcance !== "curso") {
-      var m = c.modulos.filter(function (x) { return x.id === alcance; })[0];
-      d.eyebrow = "DIPLOMADO EN LIDERAZGO · " + etiquetaModulo(m).toUpperCase();
-      d.titulo = m.titulo;
-      d.detalle = m.clases.length + " clases y trabajo del módulo aprobados · " + (horasDe(m.duracion) || m.duracion);
-      d.contenidos = sinEval(m.clases);
+    if (alcance === "curso") {
+      var unico = c.modulos[0];
+      d.eyebrow = "MÓDULO" + (c.categoria ? " · " + String(c.categoria).toUpperCase() : "");
+      d.titulo = c.titulo;
+      d.detalle = "6 sesiones aprobadas, con taller y evaluación de cierre · " + horas(unico) + " de formación";
+      d.contenidos = sesiones(unico);
       return d;
     }
-    d.eyebrow = c.paso ? "RUTA DE FORMACIÓN · PASO " + c.paso : (c.categoria ? "FORMACIÓN COMPLEMENTARIA · " + String(c.categoria).toUpperCase() : "FORMACIÓN");
-    d.titulo = c.titulo;
-    var unidades = c.clases.filter(function (x) { return x.tipo !== "evaluacion"; }).length;
-    var evals = c.clases.length - unidades;
-    d.detalle = unidades + " unidades" + (evals ? " y " + evals + (evals === 1 ? " evaluación aprobada" : " evaluaciones aprobadas") : "") + (horasDe(c.duracion) ? " · " + horasDe(c.duracion) + " de formación" : "");
-    d.contenidos = c.modulos.length > 1 ? c.modulos.map(function (x) { return x.titulo; }) : sinEval(c.clases);
+    var m = c.modulos.filter(function (x) { return x.id === alcance; })[0];
+    d.eyebrow = c.titulo.toUpperCase() + " · " + etiquetaModulo(m).toUpperCase();
+    d.titulo = m.titulo;
+    d.detalle = "6 sesiones aprobadas, con taller y evaluación de cierre · " + horas(m) + " de formación";
+    d.contenidos = sesiones(m);
     return d;
   }
 
@@ -910,20 +942,18 @@
       if (!cursosU.length) { caja.innerHTML = '<p class="seccion-bajada">No tiene cursos habilitados.</p>'; return; }
       var opciones = [];
       var filas = cursosU.map(function (c) {
-        var h = datos["hechas:" + c.id] || [];
-        var n = c.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
-        var pct = c.clases.length ? Math.round(100 * n / c.clases.length) : 0;
-        var html = '<li><b>' + esc(c.titulo) + "</b><span>" + n + " de " + c.clases.length + " (" + pct + "%)</span></li>";
-        var conConstancia = c.modulos.filter(function (m) { return m.constancia; });
-        if (conConstancia.length) {
-          conConstancia.forEach(function (m) {
+        var h = (datos["hechas:todo"] || []).concat(datos["hechas:" + c.id] || []);
+        var pg = progresoCon(c, h);
+        var html = '<li><b>' + esc(c.titulo) + "</b><span>" + pg.hechas + " de " + pg.total + " (" + pg.pct + "%)</span></li>";
+        if (c.tipo === "curso") {
+          c.modulos.forEach(function (m) {
             var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
             html += '<li class="sub"><span>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</span><span>" + hm + " de " + m.clases.length + "</span></li>";
-            opciones.push({ valor: c.id + "|" + m.id, texto: c.titulo.split(" para ")[0] + " · " + etiquetaModulo(m) + (hm === m.clases.length ? " (completo)" : " (" + hm + " de " + m.clases.length + ")") });
+            opciones.push({ valor: c.id + "|" + m.id, texto: c.titulo + " · " + m.titulo + (hm === m.clases.length ? " (completo)" : " (" + hm + " de " + m.clases.length + ")"), h: h });
           });
-          opciones.push({ valor: c.id + "|diplomado", texto: "Certificado del diplomado" + (pct === 100 ? " (completo)" : " (" + pct + "%)") });
+          opciones.push({ valor: c.id + "|curso", texto: "Certificado del curso " + c.titulo + (pg.pct === 100 ? " (completo)" : " (" + pg.pct + "%)"), h: h });
         } else {
-          opciones.push({ valor: c.id + "|curso", texto: c.titulo + (pct === 100 ? " (completo)" : " (" + pct + "%)") });
+          opciones.push({ valor: c.id + "|curso", texto: c.titulo + (pg.pct === 100 ? " (completo)" : " (" + pg.pct + "%)"), h: h });
         }
         return html;
       }).join("");
@@ -941,7 +971,8 @@
         boton.disabled = true;
         var partes = select.value.split("|");
         var c = lista.filter(function (x) { return x.id === partes[0]; })[0];
-        Nube.emitirConstancia(datosConstancia(c, partes[1], u)).then(function (folio) {
+        var op = opciones.filter(function (o) { return o.valor === select.value; })[0];
+        Nube.emitirConstancia(datosConstancia(c, partes[1], u, op ? op.h : [])).then(function (folio) {
           msj.className = "mensaje ok";
           msj.innerHTML = 'Constancia emitida: <a href="#/constancia/' + esc(folio) + '">' + esc(folio) + "</a>";
           boton.disabled = false; boton.setAttribute("data-paso", "1"); boton.textContent = "Emitir constancia";

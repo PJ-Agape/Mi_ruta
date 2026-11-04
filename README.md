@@ -58,7 +58,17 @@ Las formaciones complementarias (Liturgia, Fe, Misión y servicio, Cuidado y Her
 python3 herramientas/complementarias.py
 ```
 
-Después, agrega el id del curso a `datos/sitio.json` para que aparezca en la portada.
+### Cursos y módulos (la malla)
+
+Los cursos de Mi Ruta se arman con módulos de 6 sesiones (5 de contenido y 1 de cierre con taller y evaluación). Un módulo puede estar en varios cursos y, si se aprueba en uno, cuenta en todos. Los cursos, sus módulos obligatorios y optativos, y qué clases forman cada módulo están definidos en `herramientas/malla.py`. Las sesiones nuevas del diplomado están en `fuentes/diplomado/` y los talleres de cierre en `herramientas/nuevas/talleres.py`.
+
+Después de generar las formaciones con los scripts anteriores, arma los cursos con:
+
+```
+python3 herramientas/malla.py
+```
+
+El script escribe el contenido de cada sesión en `contenido/modulos/`, los datos de cada curso en `datos/` y la lista de cursos en `datos/sitio.json`.
 
 ## Ver el sitio en el computador
 

@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Servidores del altar",
+ "servidores-del-altar-cierre": {
+  "titulo": "Cierre del módulo: Servidores del altar",
   "aprobacion": 70,
+  "taller": "Ensayo general en el templo: el grupo prepara y sirve una misa completa de práctica (o una celebración de la Palabra), con todos los roles repartidos. Antes, revisan juntos la credencia con la lista de chequeo; después, cada servidor dice qué hizo bien y qué mejorará, y el coordinador da una retroalimentación breve.",
   "preguntas": [
    {
     "pregunta": "Según el Concilio Vaticano II, ¿qué desempeñan los acólitos y servidores del altar?",

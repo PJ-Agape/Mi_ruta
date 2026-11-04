@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Comunicación y redes para la pastoral",
+ "comunicacion-y-redes-cierre": {
+  "titulo": "Cierre del módulo: Comunicación y redes para la pastoral",
   "aprobacion": 70,
+  "taller": "Cada equipo presenta el plan de comunicación de su grupo para los próximos tres meses (objetivos, públicos, canales, calendario y roles) y una pieza de muestra: una publicación, una historia o un afiche. Los demás revisan que cuide la imagen y los datos de las personas.",
   "preguntas": [
    {
     "pregunta": "¿Cómo describe el papa el ambiente digital?",

@@ -2,58 +2,68 @@
  "curso": "servidores-del-altar",
  "modulos": [
   {
-   "id": "m1",
+   "id": "servidores-del-altar",
    "numero": 1,
-   "titulo": "Servir en el altar",
-   "semanas": "",
+   "titulo": "Servidores del altar",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "Servir en el altar es un verdadero ministerio litúrgico: ayuda a que la comunidad celebre con dignidad y es un camino de amistad con Jesús. Esta formación sirve para quienes empiezan y para quienes ya sirven y quieren hacerlo mejor. Conviene recorrerla junto al responsable de los servidores de tu parroquia, porque cada comunidad tiene algunas costumbres propias.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "servidores-del-altar-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "Servir en el altar: un llamado",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "servidores-del-altar-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "El templo y los objetos sagrados",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "servidores-del-altar-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "La misa paso a paso",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "servidores-del-altar-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Un equipo de servidores",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "servidores-del-altar-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Celebraciones especiales y vida de servidor",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "servidores-del-altar-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Servidores del altar",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

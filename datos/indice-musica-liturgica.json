@@ -2,58 +2,68 @@
  "curso": "musica-liturgica",
  "modulos": [
   {
-   "id": "m1",
+   "id": "musica-liturgica",
    "numero": 1,
-   "titulo": "Servir con la música",
-   "semanas": "",
+   "titulo": "Música y animación litúrgica",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "La música no es un adorno de la misa: es parte de la oración. Esta formación ayuda a coros, cantores y músicos a elegir bien, ensayar mejor y, sobre todo, a lograr que toda la comunidad cante. No necesitas saber leer partituras para hacerla.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "musica-liturgica-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "Cantar la misa, no cantar en la misa",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "musica-liturgica-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Elegir los cantos",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "musica-liturgica-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Cantar los tiempos y las fiestas",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "musica-liturgica-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Ensayar y animar a la asamblea",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "musica-liturgica-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "El coro como comunidad",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "musica-liturgica-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Música y animación litúrgica",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

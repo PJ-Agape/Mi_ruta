@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Ecología integral",
+ "ecologia-integral-cierre": {
+  "titulo": "Cierre del módulo: Ecología integral",
   "aprobacion": 70,
+  "taller": "Cada equipo presenta su proyecto por la casa común (en la parroquia, el barrio o el colegio) con objetivo, acciones, responsables y fecha. Además, cada participante comparte un cambio concreto de su estilo de vida que mantuvo durante el módulo y cómo le fue.",
   "preguntas": [
    {
     "pregunta": "¿Con qué palabras comienza Laudato si'?",

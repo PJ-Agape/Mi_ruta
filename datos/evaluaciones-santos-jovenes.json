@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Santos jóvenes",
+ "santos-jovenes-cierre": {
+  "titulo": "Cierre del módulo: Santos jóvenes",
   "aprobacion": 70,
+  "taller": "Cada participante presenta en tres minutos a un santo o testigo de la fe que lo haya marcado (puede ser de los estudiados o uno nuevo), con un dato de su vida, una frase y lo que le enseña. Al final, cada uno escribe en una tarjeta su propio «camino de santidad» para el próximo mes.",
   "preguntas": [
    {
     "pregunta": "Según el Concilio Vaticano II, ¿quiénes están llamados a la santidad?",

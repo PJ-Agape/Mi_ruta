@@ -1,0 +1,1013 @@
+{
+ "curso": "catequista",
+ "modulos": [
+  {
+   "id": "dj-identidad",
+   "numero": 1,
+   "titulo": "Identidad y espiritualidad del agente pastoral",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dj-identidad-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El dirigente: puente y amigo cercano",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-identidad/s1.md"
+    },
+    {
+     "id": "dj-identidad-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Mirar al joven con los ojos de Jesús",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-identidad/s2.md"
+    },
+    {
+     "id": "dj-identidad-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Permanecer en Él: la Eucaristía en el centro",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-identidad/s3.md"
+    },
+    {
+     "id": "dj-identidad-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Orar y dejarse perdonar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-identidad/s4.md"
+    },
+    {
+     "id": "dj-identidad-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "El descanso en el Señor",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-identidad/s5.md"
+    },
+    {
+     "id": "dj-identidad-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 9 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "conocer-la-biblia",
+   "numero": 2,
+   "titulo": "Conocer la Biblia",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "dj-identidad"
+   ],
+   "intro": "Muchos jóvenes tienen una Biblia en la casa, pero no saben por dónde empezar. Esta formación te ayuda a conocerla, a moverte en ella con soltura y a leerla como la lee la Iglesia: como Palabra viva de Dios para hoy.",
+   "clases": [
+    {
+     "id": "conocer-la-biblia-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una biblioteca con una sola historia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s1.md"
+    },
+    {
+     "id": "conocer-la-biblia-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Palabra de Dios en palabras humanas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s2.md"
+    },
+    {
+     "id": "conocer-la-biblia-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Leer bien: géneros y contexto",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s3.md"
+    },
+    {
+     "id": "conocer-la-biblia-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "La Biblia en la vida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s4.md"
+    },
+    {
+     "id": "conocer-la-biblia-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Compartir la Palabra en grupo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s5.md"
+    },
+    {
+     "id": "conocer-la-biblia-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "el-credo",
+   "numero": 3,
+   "titulo": "El Credo: lo que creemos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "conocer-la-biblia"
+   ],
+   "intro": "Quien acompaña la fe de otros necesita conocerla bien. El Credo resume en pocas frases lo esencial de nuestra fe. En este módulo lo vas a recorrer artículo por artículo, con la Biblia y el Catecismo en la mano, y vas a practicar cómo explicarlo a niños y jóvenes.",
+   "clases": [
+    {
+     "id": "el-credo-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Creer: la fe como respuesta",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s1.md"
+    },
+    {
+     "id": "el-credo-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Dios Padre, creador",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s2.md"
+    },
+    {
+     "id": "el-credo-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Jesucristo, verdadero Dios y verdadero hombre",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s3.md"
+    },
+    {
+     "id": "el-credo-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "El Espíritu Santo y la Iglesia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s4.md"
+    },
+    {
+     "id": "el-credo-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "La vida eterna y la esperanza cristiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s5.md"
+    },
+    {
+     "id": "el-credo-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "sacramentos",
+   "numero": 4,
+   "titulo": "Sacramentos e iniciación cristiana",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 4",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "el-credo"
+   ],
+   "intro": "La mayor parte de la catequesis prepara para un sacramento. Pero un sacramento no es una meta ni un trámite: es un encuentro con Cristo que inicia o hace crecer una vida. En este módulo vas a conocer los sacramentos de la iniciación cristiana y la Reconciliación, y a pensar cómo acompañar ese camino.",
+   "clases": [
+    {
+     "id": "sacramentos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Signos de la gracia: qué es un sacramento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s1.md"
+    },
+    {
+     "id": "sacramentos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El Bautismo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s2.md"
+    },
+    {
+     "id": "sacramentos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "La Confirmación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s3.md"
+    },
+    {
+     "id": "sacramentos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "La Eucaristía y la primera comunión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s4.md"
+    },
+    {
+     "id": "sacramentos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "La Reconciliación y el camino de iniciación cristiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s5.md"
+    },
+    {
+     "id": "sacramentos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "ayudante-de-catequesis",
+   "numero": 5,
+   "titulo": "Ayudante de catequesis",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 5",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "sacramentos"
+   ],
+   "intro": "Muchas parroquias invitan a jóvenes a ayudar en la catequesis. Es un servicio precioso: los niños y adolescentes ven en ellos a alguien cercano que vive la fe con alegría. Esta formación te prepara para colaborar con el catequista adulto, sin reemplazarlo, y para hacerlo con cariño y responsabilidad.",
+   "clases": [
+    {
+     "id": "ayudante-de-catequesis-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Qué es la catequesis?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s1.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Conocer a quienes acompañamos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s2.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Preparar y animar un encuentro",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s3.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Las familias y la comunidad",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s4.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidar y crecer como ayudante",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s5.md"
+    },
+    {
+     "id": "ayudante-de-catequesis-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dj-metodologia",
+   "numero": 6,
+   "titulo": "Metodología y animación de grupos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 6",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "ayudante-de-catequesis"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dj-metodologia-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La alegría de jugar y celebrar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-metodologia/s1.md"
+    },
+    {
+     "id": "dj-metodologia-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Nadie se queda atrás: la cooperación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-metodologia/s2.md"
+    },
+    {
+     "id": "dj-metodologia-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "El método: vivir, conversar, iluminar y actuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-metodologia/s3.md"
+    },
+    {
+     "id": "dj-metodologia-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Descubrir a Dios en lo que vivimos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-metodologia/s4.md"
+    },
+    {
+     "id": "dj-metodologia-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "El poder de los símbolos: orar con todo el ser",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-metodologia/s5.md"
+    },
+    {
+     "id": "dj-metodologia-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dj-escucha",
+   "numero": 7,
+   "titulo": "Escucha y acompañamiento",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 7",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "dj-metodologia"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dj-escucha-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El arte de escuchar y acompañar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-escucha/s1.md"
+    },
+    {
+     "id": "dj-escucha-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "La compasión de Jesús y los gestos sencillos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-escucha/s2.md"
+    },
+    {
+     "id": "dj-escucha-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Poner palabras a lo que sentimos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-escucha/s3.md"
+    },
+    {
+     "id": "dj-escucha-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Acompañar en el dolor",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-escucha/s4.md"
+    },
+    {
+     "id": "dj-escucha-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Saber cuándo pedir ayuda",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-escucha/s5.md"
+    },
+    {
+     "id": "dj-escucha-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 9 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dj-eucaristia",
+   "numero": 8,
+   "titulo": "Eucaristía y vida litúrgica del grupo",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 8",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "dj-escucha"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dj-eucaristia-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "«¿A quién iremos?»: los jóvenes y la Eucaristía hoy",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-eucaristia/s1.md"
+    },
+    {
+     "id": "dj-eucaristia-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "La misa, paso a paso",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-eucaristia/s2.md"
+    },
+    {
+     "id": "dj-eucaristia-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Jóvenes que celebran: animar la liturgia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-eucaristia/s3.md"
+    },
+    {
+     "id": "dj-eucaristia-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Adorar: quedarse con Él",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-eucaristia/s4.md"
+    },
+    {
+     "id": "dj-eucaristia-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Del altar a la vida: la misa nos envía",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-eucaristia/s5.md"
+    },
+    {
+     "id": "dj-eucaristia-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 8 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "buen-trato-y-prevencion",
+   "numero": 9,
+   "titulo": "Buen trato y prevención",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 9",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "dj-eucaristia"
+   ],
+   "intro": "Cuidar a cada persona, especialmente a los niños y jóvenes, es parte esencial del Evangelio. La Iglesia en Chile ha aprendido con dolor que la prevención no es opcional. Esta formación entrega criterios claros, reglas prácticas y pasos concretos para que nuestros grupos sean lugares sanos y seguros. Se recomienda que la hagan todos los que sirven, cualquiera sea su edad o función.",
+   "clases": [
+    {
+     "id": "buen-trato-y-prevencion-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una cultura del buen trato",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Ambientes seguros",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Escuchar y actuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Reparar y acompañar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidarnos entre todos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dj-coordinar",
+   "numero": 10,
+   "titulo": "Coordinar, planificar y administrar",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 10",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "buen-trato-y-prevencion"
+   ],
+   "intro": "",
+   "clases": [
+    {
+     "id": "dj-coordinar-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Coordinar es servir, con la Eucaristía en el centro del equipo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-coordinar/s1.md"
+    },
+    {
+     "id": "dj-coordinar-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Una dupla que camina junta",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-coordinar/s2.md"
+    },
+    {
+     "id": "dj-coordinar-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "El año pastoral",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-coordinar/s3.md"
+    },
+    {
+     "id": "dj-coordinar-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "De la idea a la acción",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-coordinar/s4.md"
+    },
+    {
+     "id": "dj-coordinar-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Administrar con transparencia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dj-coordinar/s5.md"
+    },
+    {
+     "id": "dj-coordinar-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "santos-jovenes",
+   "numero": 1,
+   "titulo": "Santos jóvenes",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Los santos no son personas perfectas ni lejanas: muchos fueron jóvenes como tú, con amigos, estudios, deportes, dudas y dificultades. Esta formación te invita a conocerlos y a descubrir que la santidad es el camino para ser plenamente tú mismo.",
+   "clases": [
+    {
+     "id": "santos-jovenes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La santidad es para ti",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s1.md"
+    },
+    {
+     "id": "santos-jovenes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Santos de Chile",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s2.md"
+    },
+    {
+     "id": "santos-jovenes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Santos de la era digital y de la montaña",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s3.md"
+    },
+    {
+     "id": "santos-jovenes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Santos de nuestra tierra y de la vida cotidiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s4.md"
+    },
+    {
+     "id": "santos-jovenes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Testigos hasta el final y tu propio camino",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s5.md"
+    },
+    {
+     "id": "santos-jovenes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dinamicas-y-juegos",
+   "numero": 2,
+   "titulo": "Dinámicas y juegos",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "El juego es uno de los lenguajes más naturales de los jóvenes. Bien usado, rompe el hielo, une al grupo, enseña y abre el corazón. Mal usado, puede aburrir, excluir o incluso humillar. Esta formación te ayuda a elegir, diseñar y conducir dinámicas con sentido.",
+   "clases": [
+    {
+     "id": "dinamicas-y-juegos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Para qué jugar?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Diseñar y conducir una dinámica",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Banco de dinámicas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Animar una jornada completa",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Grandes juegos, seguridad e inclusión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md"
+    },
+    {
+     "id": "dinamicas-y-juegos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "comunicacion-y-redes",
+   "numero": 3,
+   "titulo": "Comunicación y redes para la pastoral",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Hoy los grupos juveniles se comunican por redes sociales, mensajería y afiches digitales. Bien usadas, estas herramientas convocan, informan y anuncian. Mal usadas, pueden exponer o dañar a las personas. Esta formación entrega criterios y técnicas para comunicar bien y con cuidado.",
+   "clases": [
+    {
+     "id": "comunicacion-y-redes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Comunicar con sentido",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Crear buenos contenidos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Cuidar a las personas en lo digital",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Contar un evento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md"
+    },
+    {
+     "id": "comunicacion-y-redes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Un plan de comunicación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md"
+    },
+    {
+     "id": "comunicacion-y-redes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "primeros-auxilios-psicologicos",
+   "numero": 4,
+   "titulo": "Primeros auxilios psicológicos",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "En los grupos juveniles, a veces alguien se quiebra: por una pérdida, un problema en la casa, una crisis de angustia o un momento de mucha tristeza. Esta formación enseña a acompañar en esos primeros momentos con calma y respeto, y a conectar a la persona con la ayuda que necesita. No convierte a nadie en terapeuta: ayuda a no dejar solo a quien sufre y a saber a quién avisar.",
+   "clases": [
+    {
+     "id": "primeros-auxilios-psicologicos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "¿Qué son los primeros auxilios psicológicos?",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s1.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El protocolo ABCD",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s2.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Situaciones difíciles",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s3.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Cuando todo el grupo vive una crisis",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s4.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidar al que cuida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s5.md"
+    },
+    {
+     "id": "primeros-auxilios-psicologicos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "logistica",
+   "numero": 5,
+   "titulo": "Logística de actividades pastorales",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Una actividad pastoral puede tener un gran contenido y fracasar porque faltó comida, no llegó el bus o nadie sabía dónde estaban los materiales. La logística es una forma de servicio: cuando funciona, nadie la nota y todos pueden concentrarse en lo importante. En este módulo vas a aprender a organizarla.",
+   "clases": [
+    {
+     "id": "logistica-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Planificar la logística",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s1.md"
+    },
+    {
+     "id": "logistica-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Alimentación: menús, cantidades y manipulación segura",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s2.md"
+    },
+    {
+     "id": "logistica-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Materiales e insumos: inventario, bodega y reposición",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s3.md"
+    },
+    {
+     "id": "logistica-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s4.md"
+    },
+    {
+     "id": "logistica-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Presupuesto, compras y rendición de cuentas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/logistica/s5.md"
+    },
+    {
+     "id": "logistica-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

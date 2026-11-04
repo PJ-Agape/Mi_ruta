@@ -1,0 +1,407 @@
+{
+ "curso": "servicio-liturgico",
+ "modulos": [
+  {
+   "id": "servidores-del-altar",
+   "numero": 1,
+   "titulo": "Servidores del altar",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Servir en el altar es un verdadero ministerio litúrgico: ayuda a que la comunidad celebre con dignidad y es un camino de amistad con Jesús. Esta formación sirve para quienes empiezan y para quienes ya sirven y quieren hacerlo mejor. Conviene recorrerla junto al responsable de los servidores de tu parroquia, porque cada comunidad tiene algunas costumbres propias.",
+   "clases": [
+    {
+     "id": "servidores-del-altar-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Servir en el altar: un llamado",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s1.md"
+    },
+    {
+     "id": "servidores-del-altar-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El templo y los objetos sagrados",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s2.md"
+    },
+    {
+     "id": "servidores-del-altar-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "La misa paso a paso",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s3.md"
+    },
+    {
+     "id": "servidores-del-altar-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Un equipo de servidores",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s4.md"
+    },
+    {
+     "id": "servidores-del-altar-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Celebraciones especiales y vida de servidor",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/servidores-del-altar/s5.md"
+    },
+    {
+     "id": "servidores-del-altar-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "lectores-y-salmistas",
+   "numero": 2,
+   "titulo": "Lectores y salmistas",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "servidores-del-altar"
+   ],
+   "intro": "Cuando se lee la Sagrada Escritura en la misa, es Dios mismo quien habla a su pueblo. Quien proclama presta su voz para que esa Palabra llegue a todos. Esta formación combina el sentido espiritual del ministerio con técnicas prácticas de lectura, voz y preparación.",
+   "clases": [
+    {
+     "id": "lectores-y-salmistas-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Cuando se lee la Escritura, Dios habla",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s1.md"
+    },
+    {
+     "id": "lectores-y-salmistas-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Preparar la lectura",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s2.md"
+    },
+    {
+     "id": "lectores-y-salmistas-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Voz, cuerpo y micrófono",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s3.md"
+    },
+    {
+     "id": "lectores-y-salmistas-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "El salmo y la oración universal",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s4.md"
+    },
+    {
+     "id": "lectores-y-salmistas-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "La vida del lector",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s5.md"
+    },
+    {
+     "id": "lectores-y-salmistas-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "musica-liturgica",
+   "numero": 3,
+   "titulo": "Música y animación litúrgica",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "lectores-y-salmistas"
+   ],
+   "intro": "La música no es un adorno de la misa: es parte de la oración. Esta formación ayuda a coros, cantores y músicos a elegir bien, ensayar mejor y, sobre todo, a lograr que toda la comunidad cante. No necesitas saber leer partituras para hacerla.",
+   "clases": [
+    {
+     "id": "musica-liturgica-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Cantar la misa, no cantar en la misa",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s1.md"
+    },
+    {
+     "id": "musica-liturgica-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Elegir los cantos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s2.md"
+    },
+    {
+     "id": "musica-liturgica-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Cantar los tiempos y las fiestas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s3.md"
+    },
+    {
+     "id": "musica-liturgica-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Ensayar y animar a la asamblea",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s4.md"
+    },
+    {
+     "id": "musica-liturgica-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "El coro como comunidad",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/musica-liturgica/s5.md"
+    },
+    {
+     "id": "musica-liturgica-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "buen-trato-y-prevencion",
+   "numero": 4,
+   "titulo": "Buen trato y prevención",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 4",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "musica-liturgica"
+   ],
+   "intro": "Cuidar a cada persona, especialmente a los niños y jóvenes, es parte esencial del Evangelio. La Iglesia en Chile ha aprendido con dolor que la prevención no es opcional. Esta formación entrega criterios claros, reglas prácticas y pasos concretos para que nuestros grupos sean lugares sanos y seguros. Se recomienda que la hagan todos los que sirven, cualquiera sea su edad o función.",
+   "clases": [
+    {
+     "id": "buen-trato-y-prevencion-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una cultura del buen trato",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Ambientes seguros",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Escuchar y actuar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Reparar y acompañar",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidarnos entre todos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md"
+    },
+    {
+     "id": "buen-trato-y-prevencion-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "conocer-la-biblia",
+   "numero": 1,
+   "titulo": "Conocer la Biblia",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Muchos jóvenes tienen una Biblia en la casa, pero no saben por dónde empezar. Esta formación te ayuda a conocerla, a moverte en ella con soltura y a leerla como la lee la Iglesia: como Palabra viva de Dios para hoy.",
+   "clases": [
+    {
+     "id": "conocer-la-biblia-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Una biblioteca con una sola historia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s1.md"
+    },
+    {
+     "id": "conocer-la-biblia-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Palabra de Dios en palabras humanas",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s2.md"
+    },
+    {
+     "id": "conocer-la-biblia-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Leer bien: géneros y contexto",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s3.md"
+    },
+    {
+     "id": "conocer-la-biblia-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "La Biblia en la vida",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s4.md"
+    },
+    {
+     "id": "conocer-la-biblia-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Compartir la Palabra en grupo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/conocer-la-biblia/s5.md"
+    },
+    {
+     "id": "conocer-la-biblia-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "santos-jovenes",
+   "numero": 2,
+   "titulo": "Santos jóvenes",
+   "tipo": "optativo",
+   "etiqueta": "Optativo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Los santos no son personas perfectas ni lejanas: muchos fueron jóvenes como tú, con amigos, estudios, deportes, dudas y dificultades. Esta formación te invita a conocerlos y a descubrir que la santidad es el camino para ser plenamente tú mismo.",
+   "clases": [
+    {
+     "id": "santos-jovenes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "La santidad es para ti",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s1.md"
+    },
+    {
+     "id": "santos-jovenes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Santos de Chile",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s2.md"
+    },
+    {
+     "id": "santos-jovenes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Santos de la era digital y de la montaña",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s3.md"
+    },
+    {
+     "id": "santos-jovenes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Santos de nuestra tierra y de la vida cotidiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s4.md"
+    },
+    {
+     "id": "santos-jovenes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Testigos hasta el final y tu propio camino",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/santos-jovenes/s5.md"
+    },
+    {
+     "id": "santos-jovenes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

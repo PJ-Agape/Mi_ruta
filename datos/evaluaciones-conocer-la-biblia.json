@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Conocer la Biblia",
+ "conocer-la-biblia-cierre": {
+  "titulo": "Cierre del módulo: Conocer la Biblia",
   "aprobacion": 70,
+  "taller": "Por parejas, cada uno guía un momento de Palabra compartida de 20 minutos con un texto elegido por el grupo, usando los siete pasos. Antes deben explicar en dos minutos el género y el contexto del texto. El resto del grupo participa y luego comenta qué funcionó.",
   "preguntas": [
    {
     "pregunta": "¿Cuántos libros tiene la Biblia católica?",

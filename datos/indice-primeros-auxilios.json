@@ -2,58 +2,68 @@
  "curso": "primeros-auxilios",
  "modulos": [
   {
-   "id": "m1",
+   "id": "primeros-auxilios",
    "numero": 1,
-   "titulo": "Cuidar la vida",
-   "semanas": "",
+   "titulo": "Primeros auxilios",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "En cualquier actividad con jóvenes puede ocurrir un accidente o una emergencia. Saber qué hacer en los primeros minutos puede marcar una gran diferencia. Esta formación entrega conocimientos básicos y ordenados. Importante: los primeros auxilios se aprenden practicando. Por eso, esta formación debe complementarse con un **curso práctico certificado**, como los que ofrecen la Cruz Roja Chilena, las mutualidades o algunos centros de salud. Ante cualquier duda, sigue siempre las indicaciones del SAMU (131).",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "primeros-auxilios-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "Antes de actuar",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "primeros-auxilios-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Emergencias que ponen en riesgo la vida",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "primeros-auxilios-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Lesiones frecuentes en actividades",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "primeros-auxilios-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Situaciones médicas",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "primeros-auxilios-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Prevenir: actividades seguras",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/primeros-auxilios/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "primeros-auxilios-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Primeros auxilios",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

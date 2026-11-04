@@ -2,58 +2,68 @@
  "curso": "voluntariado-y-doctrina-social",
  "modulos": [
   {
-   "id": "m1",
+   "id": "voluntariado-y-doctrina-social",
    "numero": 1,
-   "titulo": "Amar con obras",
-   "semanas": "",
+   "titulo": "Voluntariado y doctrina social",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "La fe cristiana no se queda en el templo: se hace servicio, solidaridad y compromiso con un mundo más justo. Esta formación une el corazón y la cabeza: el amor concreto por los demás y los criterios que la Iglesia ofrece para servir bien.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "voluntariado-y-doctrina-social-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "La fe que se hace caridad",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "voluntariado-y-doctrina-social-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Los principios de la doctrina social",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "voluntariado-y-doctrina-social-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Servir bien",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "voluntariado-y-doctrina-social-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Dónde y cómo servir",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "voluntariado-y-doctrina-social-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Un proyecto solidario",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "voluntariado-y-doctrina-social-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Voluntariado y doctrina social",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

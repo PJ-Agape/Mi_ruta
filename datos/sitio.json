@@ -2,15 +2,19 @@
   "nombre": "Mi Ruta",
   "lema": "Tu camino de formación, paso a paso",
   "cursos": [
-    "discernimiento-y-oracion",
-    "arte-de-encontrarnos",
-    "coordinar-es-servir",
-    "liderazgo",
+    "dirigente-juvenil",
+    "diplomado",
+    "servicio-liturgico",
+    "fe-y-catequesis",
+    "mision-y-servicio",
+    "catequista",
     "servidores-del-altar",
     "lectores-y-salmistas",
     "musica-liturgica",
     "conocer-la-biblia",
     "santos-jovenes",
+    "el-credo",
+    "sacramentos",
     "misiones-juveniles",
     "ayudante-de-catequesis",
     "voluntariado-y-doctrina-social",
@@ -19,6 +23,7 @@
     "primeros-auxilios",
     "primeros-auxilios-psicologicos",
     "comunicacion-y-redes",
-    "dinamicas-y-juegos"
+    "dinamicas-y-juegos",
+    "logistica"
   ]
 }

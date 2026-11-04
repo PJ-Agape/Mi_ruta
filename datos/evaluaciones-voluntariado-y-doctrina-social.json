@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Voluntariado y doctrina social",
+ "voluntariado-y-doctrina-social-cierre": {
+  "titulo": "Cierre del módulo: Voluntariado y doctrina social",
   "aprobacion": 70,
+  "taller": "Cada equipo presenta su proyecto solidario completo: diagnóstico, objetivo, plan, responsables, presupuesto y cómo se cuidará la dignidad de las personas atendidas. Los demás lo revisan con preguntas desde los principios de la doctrina social: ¿promueve o solo asiste?, ¿participan los destinatarios?, ¿es sostenible?",
   "preguntas": [
    {
     "pregunta": "Según Mateo 25, ¿con quién se identifica Jesús?",

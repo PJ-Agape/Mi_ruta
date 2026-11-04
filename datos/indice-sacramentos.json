@@ -1,0 +1,71 @@
+{
+ "curso": "sacramentos",
+ "modulos": [
+  {
+   "id": "sacramentos",
+   "numero": 1,
+   "titulo": "Sacramentos e iniciación cristiana",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
+   "intro": "La mayor parte de la catequesis prepara para un sacramento. Pero un sacramento no es una meta ni un trámite: es un encuentro con Cristo que inicia o hace crecer una vida. En este módulo vas a conocer los sacramentos de la iniciación cristiana y la Reconciliación, y a pensar cómo acompañar ese camino.",
+   "clases": [
+    {
+     "id": "sacramentos-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Signos de la gracia: qué es un sacramento",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s1.md"
+    },
+    {
+     "id": "sacramentos-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El Bautismo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s2.md"
+    },
+    {
+     "id": "sacramentos-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "La Confirmación",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s3.md"
+    },
+    {
+     "id": "sacramentos-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "La Eucaristía y la primera comunión",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s4.md"
+    },
+    {
+     "id": "sacramentos-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "La Reconciliación y el camino de iniciación cristiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/sacramentos/s5.md"
+    },
+    {
+     "id": "sacramentos-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

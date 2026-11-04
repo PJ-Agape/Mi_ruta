@@ -1,0 +1,109 @@
+{
+ "el-credo-cierre": {
+  "titulo": "Cierre del módulo: El Credo: lo que creemos",
+  "aprobacion": 70,
+  "taller": "Cada participante elige un artículo del Credo y prepara una explicación de cinco minutos para un grupo de catequesis de la edad que acompaña (niños, adolescentes o jóvenes). Debe incluir una imagen o ejemplo de la vida diaria, un texto bíblico y una pregunta para el grupo. Se presentan en tríos y cada uno recibe comentarios: ¿fue fiel a la fe de la Iglesia?, ¿fue claro para esa edad?, ¿invitó a rezar?",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué es la fe según la Iglesia?",
+    "opciones": [
+     "Una opinión sobre Dios",
+     "La respuesta personal y libre a Dios que se revela",
+     "Un sentimiento religioso"
+    ],
+    "correcta": 1,
+    "explicacion": "La fe responde a Dios que toma la iniciativa."
+   },
+   {
+    "pregunta": "¿Por qué decimos que la fe se vive en Iglesia?",
+    "opciones": [
+     "Porque la recibimos de otros y la transmitimos a otros",
+     "Porque no se puede rezar a solas",
+     "Porque es obligatorio"
+    ],
+    "correcta": 0,
+    "explicacion": "Nadie cree solo: la fe se recibe y se comparte."
+   },
+   {
+    "pregunta": "¿Qué afirma la fe sobre la Trinidad?",
+    "opciones": [
+     "Que hay tres dioses",
+     "Que hay un solo Dios en tres personas",
+     "Que Dios cambia de forma"
+    ],
+    "correcta": 1,
+    "explicacion": "Un solo Dios, comunión de tres personas."
+   },
+   {
+    "pregunta": "¿Cómo se relacionan la fe y la ciencia?",
+    "opciones": [
+     "Se contradicen",
+     "No se oponen: responden preguntas distintas",
+     "La ciencia reemplaza a la fe"
+    ],
+    "correcta": 1,
+    "explicacion": "La Biblia dice por qué y para qué; la ciencia estudia cómo."
+   },
+   {
+    "pregunta": "¿Quién es Jesucristo según el Credo?",
+    "opciones": [
+     "Un hombre muy bueno",
+     "Verdadero Dios y verdadero hombre",
+     "Dios con apariencia humana"
+    ],
+    "correcta": 1,
+    "explicacion": "Una sola persona, verdadero Dios y verdadero hombre."
+   },
+   {
+    "pregunta": "¿Qué es el kerigma?",
+    "opciones": [
+     "Una oración antigua",
+     "El anuncio de Jesús muerto y resucitado",
+     "Un libro de la Biblia"
+    ],
+    "correcta": 1,
+    "explicacion": "Es el corazón de toda catequesis."
+   },
+   {
+    "pregunta": "¿Qué significa que la Iglesia sea «católica»?",
+    "opciones": [
+     "Que es solo de Roma",
+     "Que es universal, abierta a todos los pueblos",
+     "Que no tiene pecadores"
+    ],
+    "correcta": 1,
+    "explicacion": "Católica significa universal."
+   },
+   {
+    "pregunta": "¿Qué es la comunión de los santos?",
+    "opciones": [
+     "La unión de todos los creyentes en Cristo, vivos y difuntos",
+     "Una fiesta del calendario",
+     "Un grupo de santos famosos"
+    ],
+    "correcta": 0,
+    "explicacion": "Formamos una sola familia en Cristo."
+   },
+   {
+    "pregunta": "¿Cuál es el criterio del juicio según Mateo 25?",
+    "opciones": [
+     "Cuántas oraciones rezamos",
+     "El amor a los más pequeños",
+     "Conocer bien la doctrina"
+    ],
+    "correcta": 1,
+    "explicacion": "«Lo hicieron conmigo»."
+   },
+   {
+    "pregunta": "Ante un niño en duelo, ¿qué conviene?",
+    "opciones": [
+     "Decirle que no llore",
+     "Escuchar, permitir la tristeza y anunciar con delicadeza la esperanza",
+     "Explicarle que Dios se llevó a su familiar porque lo necesitaba"
+    ],
+    "correcta": 1,
+    "explicacion": "Escuchar y acompañar antes de explicar."
+   }
+  ]
+ }
+}

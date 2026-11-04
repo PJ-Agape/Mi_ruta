@@ -2,58 +2,68 @@
  "curso": "lectores-y-salmistas",
  "modulos": [
   {
-   "id": "m1",
+   "id": "lectores-y-salmistas",
    "numero": 1,
-   "titulo": "Prestar la voz a la Palabra",
-   "semanas": "",
+   "titulo": "Lectores y salmistas",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "Cuando se lee la Sagrada Escritura en la misa, es Dios mismo quien habla a su pueblo. Quien proclama presta su voz para que esa Palabra llegue a todos. Esta formación combina el sentido espiritual del ministerio con técnicas prácticas de lectura, voz y preparación.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "lectores-y-salmistas-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "Cuando se lee la Escritura, Dios habla",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "lectores-y-salmistas-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Preparar la lectura",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "lectores-y-salmistas-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Voz, cuerpo y micrófono",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "lectores-y-salmistas-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "El salmo y la oración universal",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "lectores-y-salmistas-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "La vida del lector",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/lectores-y-salmistas/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "lectores-y-salmistas-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Lectores y salmistas",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

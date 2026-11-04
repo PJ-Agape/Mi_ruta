@@ -2,58 +2,68 @@
  "curso": "comunicacion-y-redes",
  "modulos": [
   {
-   "id": "m1",
+   "id": "comunicacion-y-redes",
    "numero": 1,
-   "titulo": "Comunicar el Evangelio en lo digital",
-   "semanas": "",
+   "titulo": "Comunicación y redes para la pastoral",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "Hoy los grupos juveniles se comunican por redes sociales, mensajería y afiches digitales. Bien usadas, estas herramientas convocan, informan y anuncian. Mal usadas, pueden exponer o dañar a las personas. Esta formación entrega criterios y técnicas para comunicar bien y con cuidado.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "comunicacion-y-redes-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "Comunicar con sentido",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "comunicacion-y-redes-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Crear buenos contenidos",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "comunicacion-y-redes-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Cuidar a las personas en lo digital",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "comunicacion-y-redes-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Contar un evento",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "comunicacion-y-redes-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Un plan de comunicación",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "comunicacion-y-redes-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Comunicación y redes para la pastoral",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }

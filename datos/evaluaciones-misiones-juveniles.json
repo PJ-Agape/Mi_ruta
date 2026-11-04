@@ -1,7 +1,8 @@
 {
- "m1-eval": {
-  "titulo": "Evaluación: Misiones juveniles",
+ "misiones-juveniles-cierre": {
+  "titulo": "Cierre del módulo: Misiones juveniles",
   "aprobacion": 70,
+  "taller": "Simulación de una jornada de misión: en parejas, cada equipo visita una «casa» (otro par de participantes que interpreta una familia con una situación preparada por el relator), escucha, comparte su testimonio y ofrece una oración. Luego se evalúa la visita con la pauta del módulo y se revisa la planificación logística de la próxima misión.",
   "preguntas": [
    {
     "pregunta": "¿Cómo envía Jesús a sus discípulos en Lucas 10?",

@@ -1,0 +1,71 @@
+{
+ "curso": "el-credo",
+ "modulos": [
+  {
+   "id": "el-credo",
+   "numero": 1,
+   "titulo": "El Credo: lo que creemos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
+   "intro": "Quien acompaña la fe de otros necesita conocerla bien. El Credo resume en pocas frases lo esencial de nuestra fe. En este módulo lo vas a recorrer artículo por artículo, con la Biblia y el Catecismo en la mano, y vas a practicar cómo explicarlo a niños y jóvenes.",
+   "clases": [
+    {
+     "id": "el-credo-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Creer: la fe como respuesta",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s1.md"
+    },
+    {
+     "id": "el-credo-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Dios Padre, creador",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s2.md"
+    },
+    {
+     "id": "el-credo-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Jesucristo, verdadero Dios y verdadero hombre",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s3.md"
+    },
+    {
+     "id": "el-credo-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "El Espíritu Santo y la Iglesia",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s4.md"
+    },
+    {
+     "id": "el-credo-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "La vida eterna y la esperanza cristiana",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/el-credo/s5.md"
+    },
+    {
+     "id": "el-credo-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

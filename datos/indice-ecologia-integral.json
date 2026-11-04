@@ -2,58 +2,68 @@
  "curso": "ecologia-integral",
  "modulos": [
   {
-   "id": "m1",
+   "id": "ecologia-integral",
    "numero": 1,
-   "titulo": "Cuidar la casa común",
-   "semanas": "",
+   "titulo": "Ecología integral",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
    "intro": "El papa Francisco escribió en 2015 la encíclica *Laudato si'*, sobre el cuidado de la casa común. En ella invita a todos, y especialmente a los jóvenes, a una conversión ecológica: cambiar la manera de mirar, de vivir y de consumir. Esta formación recorre sus ideas centrales y termina en acción.",
    "clases": [
     {
-     "id": "m1-u01",
+     "id": "ecologia-integral-s1",
      "tipo": "unidad",
-     "numero": "1.1",
-     "etiqueta": "Unidad 1",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
      "titulo": "La creación, un regalo",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s1.md"
     },
     {
-     "id": "m1-u02",
+     "id": "ecologia-integral-s2",
      "tipo": "unidad",
-     "numero": "1.2",
-     "etiqueta": "Unidad 2",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
      "titulo": "Todo está conectado",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s2.md"
     },
     {
-     "id": "m1-u03",
+     "id": "ecologia-integral-s3",
      "tipo": "unidad",
-     "numero": "1.3",
-     "etiqueta": "Unidad 3",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
      "titulo": "Ecología de la vida cotidiana",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s3.md"
     },
     {
-     "id": "m1-u04",
+     "id": "ecologia-integral-s4",
      "tipo": "unidad",
-     "numero": "1.4",
-     "etiqueta": "Unidad 4",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
      "titulo": "Conversión ecológica",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s4.md"
     },
     {
-     "id": "m1-u05",
+     "id": "ecologia-integral-s5",
      "tipo": "unidad",
-     "numero": "1.5",
-     "etiqueta": "Unidad 5",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
      "titulo": "Un proyecto por la casa común",
-     "tiempo": "90 min"
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ecologia-integral/s5.md"
     },
     {
-     "id": "m1-eval",
+     "id": "ecologia-integral-cierre",
      "tipo": "evaluacion",
-     "etiqueta": "Evaluación",
-     "titulo": "Evaluación: Ecología integral",
-     "tiempo": "10 preguntas"
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
     }
    ]
   }
