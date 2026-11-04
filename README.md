@@ -64,7 +64,7 @@ y luego abrir `http://localhost:8000`.
 
 ## Publicar en GitHub Pages
 
-En el repositorio: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`. El sitio queda en `https://pj-agape.github.io/mi-ruta/`.
+En el repositorio: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`. El sitio queda en `https://pj-agape.github.io/Mi_ruta/`.
 
 ## Créditos
 
