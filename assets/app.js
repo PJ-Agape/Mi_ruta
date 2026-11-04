@@ -19,15 +19,23 @@
 
   /* ---------- utilidades ---------- */
 
+  // Nube: cuentas y sincronización (assets/nube.js). Sin configuración, modo local.
+  var Nube = window.Nube || { habilitada: false, listo: Promise.resolve(), estado: function () { return { habilitada: false, status: "local" }; }, alCambiar: function () {} };
+  function cuentaActual() { return Nube.estado(); }
+
+  // Con cuentas activas, cada usuario tiene su propio espacio local, que se sincroniza con la nube.
+  function claveLocal(clave) { return Nube.habilitada ? Nube.claveLocal(clave) : "agp:" + clave; }
+
   var almacen = {
     leer: function (clave, defecto) {
       try {
-        var v = localStorage.getItem("agp:" + clave);
+        var v = localStorage.getItem(claveLocal(clave));
         return v === null ? defecto : JSON.parse(v);
       } catch (e) { return defecto; }
     },
     guardar: function (clave, valor) {
-      try { localStorage.setItem("agp:" + clave, JSON.stringify(valor)); } catch (e) { /* sin almacenamiento */ }
+      try { localStorage.setItem(claveLocal(clave), JSON.stringify(valor)); } catch (e) { /* sin almacenamiento */ }
+      if (Nube.habilitada) Nube.guardado(clave, valor);
     }
   };
 
@@ -55,7 +63,61 @@
 
   var FIRMA = '<p class="firma">by <span class="ag-app" role="img" aria-label="agAPPe">ag<b>APP</b>e</span></p>';
 
-  function modoRelator() { return almacen.leer("modoRelator", false); }
+  function modoRelator() {
+    if (Nube.habilitada && !cuentaActual().esRelator) return false;
+    return almacen.leer("modoRelator", false);
+  }
+
+  /* ---------- acceso a los cursos ---------- */
+
+  // libre | ingresar | pendiente | pausado | solicitar | solicitado | error
+  function acceso(curso) {
+    if (!Nube.habilitada) return "libre";
+    var e = cuentaActual();
+    if (e.status === "invitado") return "ingresar";
+    if (e.status === "pendiente") return "pendiente";
+    if (e.status === "pausado") return "pausado";
+    if (e.status !== "activo") return "error";
+    if (e.esRelator) return "libre";
+    var c = e.cuenta || {};
+    if ((c.cursos || []).indexOf(curso.id) >= 0) return "libre";
+    if ((c.solicitudes || []).indexOf(curso.id) >= 0) return "solicitado";
+    return "solicitar";
+  }
+
+  function bloqueAcceso(curso, tipo) {
+    var m = {
+      ingresar: ["Ingresa para comenzar", "Crea tu cuenta o ingresa para inscribirte y guardar tu avance en todos tus dispositivos.", '<a class="boton principal" href="#/ingresar">Ingresar o crear cuenta</a>'],
+      pendiente: ["Tu cuenta está en revisión", "Un relator o administrador debe aprobar tu cuenta. Mientras tanto, puedes solicitar la inscripción en este curso.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
+      pausado: ["Tu cuenta está en pausa", "Conversa con tu relator o con la coordinación de Mi Ruta.", ""],
+      solicitar: ["Inscríbete en este curso", "Al solicitar la inscripción, un relator la revisará y te habilitará el curso.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
+      solicitado: ["Inscripción solicitada", "Tu solicitud está en revisión. Te habilitaremos el curso apenas sea aprobada.", ""],
+      error: ["No pudimos verificar tu cuenta", "Revisa tu conexión y vuelve a intentar.", '<a class="boton" href="#/perfil">Ver mi cuenta</a>'],
+    }[tipo];
+    if (tipo === "pendiente" && (cuentaActual().cuenta.solicitudes || []).indexOf(curso.id) >= 0) {
+      m = ["Tu cuenta está en revisión", "Ya solicitaste este curso. Te habilitaremos apenas un relator apruebe tu cuenta.", ""];
+    }
+    return '<div class="acceso"><h2>' + m[0] + "</h2><p>" + m[1] + "</p>" + (m[2] ? '<div class="botones">' + m[2] + "</div>" : "") + "</div>";
+  }
+
+  function activarSolicitudes() {
+    app.querySelectorAll("[data-solicitar]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        b.disabled = true;
+        b.textContent = "Enviando…";
+        Nube.solicitarCurso(b.getAttribute("data-solicitar")).then(ruta).catch(function (e) {
+          b.disabled = false; b.textContent = "Solicitar inscripción"; alertaEn(b.parentNode, e.message);
+        });
+      });
+    });
+  }
+
+  function alertaEn(nodo, texto) {
+    var p = document.createElement("p");
+    p.className = "aviso error";
+    p.textContent = texto;
+    nodo.appendChild(p);
+  }
 
   function cargarSitio() {
     if (sitio) return Promise.resolve(sitio);
@@ -167,6 +229,19 @@
           "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(esc).join(" · ") + "</p>" +
           barraProgreso(p) + '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Entrar al curso</a></div></article>';
       }
+      var e = cuentaActual();
+      if (Nube.habilitada && e.status === "invitado") {
+        html += '<section class="tarjeta acceso-inicio"><h2>Bienvenido a Mi Ruta</h2><p>Crea tu cuenta para inscribirte en los cursos y guardar tu avance en todos tus dispositivos.</p><div class="botones"><a class="boton principal" href="#/ingresar">Ingresar o crear cuenta</a></div></section>';
+      } else if (Nube.habilitada && e.status === "pendiente") {
+        html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión. Mientras tanto, explora los cursos y solicita la inscripción en los que te interesen.</p><div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
+      } else if (Nube.habilitada && e.activo && !e.esRelator) {
+        var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0; });
+        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
+          (mios.length ? mios.map(function (c) {
+            var p = progreso(c);
+            return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(p) + "</a>";
+          }).join("") : '<p class="seccion-bajada">Todavía no tienes cursos habilitados. Elige uno abajo y solicita la inscripción.</p>') + "</section>";
+      }
       var ruta = lista.filter(function (c) { return c.paso; }).sort(function (a, b) { return a.paso - b.paso; });
       var extras = lista.filter(function (c) { return !c.paso; });
       if (ruta.length) {
@@ -198,12 +273,14 @@
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
       html += '<section class="portada"><p class="subtitulo">' + (c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + " · " : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
-        barraProgreso(p) +
+        (acceso(c) === "libre" ? barraProgreso(p) : "") +
         '<div class="botones">' +
-        (siguiente ? '<a class="boton principal" href="#/clase/' + esc(c.id) + "/" + esc(siguiente.id) + '">' + (p.hechas ? "Continuar" : "Comenzar") + "</a>" : "") +
+        (siguiente && acceso(c) === "libre" ? '<a class="boton principal" href="#/clase/' + esc(c.id) + "/" + esc(siguiente.id) + '">' + (p.hechas ? "Continuar" : "Comenzar") + "</a>" : "") +
         (c.programa ? '<a class="boton" href="#/curso/' + esc(c.id) + '/programa">Programa</a>' : "") +
         (c.sesiones && c.sesiones.length ? '<a class="boton" href="#/curso/' + esc(c.id) + '/sesiones">Sesiones en vivo</a>' : "") + "</div></section>";
 
+      var tipoAcceso = acceso(c);
+      if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
       c.modulos.forEach(function (m) {
         var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
         html += '<section class="tarjeta modulo"><h2>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</h2>" +
@@ -215,7 +292,7 @@
         if (bloqueo) {
           html += '<p class="aviso bloqueo">Se habilita al completar ' + bloqueo.map(function (r) { return esc(etiquetaModulo(r)); }).join(" y ") + ".</p>";
         }
-        html += '<ol class="lista-clases' + (bloqueo ? " bloqueada" : "") + '">' + m.clases.map(function (cl) {
+        html += '<ol class="lista-clases' + (bloqueo || tipoAcceso !== "libre" ? " bloqueada" : "") + '">' + m.clases.map(function (cl) {
           var hecha = h.indexOf(cl.id) >= 0;
           return '<li class="' + (hecha ? "hecha" : "") + '"><a href="#/clase/' + esc(c.id) + "/" + esc(cl.id) + '">' +
             '<span class="estado" aria-label="' + (hecha ? "Completada" : "Pendiente") + '">' + (hecha ? "&#10003;" : "") + "</span>" +
@@ -225,6 +302,7 @@
       });
       if (c.credito) html += '<p class="credito">' + esc(c.credito) + "</p>";
       pintar(html, c.titulo);
+      activarSolicitudes();
     });
   }
 
@@ -282,6 +360,13 @@
       c.clases.forEach(function (x, k) { if (x.id === claseId) i = k; });
       if (i < 0) throw new Error("La clase no existe.");
       var cl = c.clases[i];
+      var tipoAcceso = acceso(c);
+      if (tipoAcceso !== "libre") {
+        pintar('<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>" +
+          '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>", cl.titulo);
+        activarSolicitudes();
+        return;
+      }
       var bloqueo = moduloBloqueado(c, cl.modulo);
       if (bloqueo) {
         pintar('<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>" +
@@ -505,17 +590,413 @@
     reintentar.addEventListener("click", function () { armarEvaluacion(c, cl, i, ev); });
   }
 
+  /* ---------- cuentas ---------- */
+
+  function migas(extra) {
+    return '<nav class="migas"><a href="#/">Inicio</a>' + (extra ? " / " + extra : "") + "</nav>";
+  }
+
+  function vistaIngresar() {
+    var e = cuentaActual();
+    if (!Nube.habilitada) { location.hash = "#/"; return Promise.resolve(); }
+    if (e.status !== "invitado" && e.status !== "error") { location.hash = "#/perfil"; return Promise.resolve(); }
+    var html = migas() +
+      '<section class="tarjeta ingreso"><h1>Ingresar a Mi Ruta</h1>' +
+      '<p class="seccion-bajada">Con tu cuenta, tu avance te acompaña en todos tus dispositivos y puedes recibir tus constancias.</p>' +
+      '<button class="boton google" id="con-google"><svg viewBox="0 0 48 48" width="20" height="20" aria-hidden="true"><path fill="#ffc107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#ff3d00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4caf50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976d2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Continuar con Google</button>' +
+      '<div class="separador"><span>o con tu correo</span></div>' +
+      '<div class="pestanas-ingreso" role="tablist"><button class="pestana" role="tab" aria-selected="true" data-modo="entrar">Ingresar</button><button class="pestana" role="tab" aria-selected="false" data-modo="crear">Crear cuenta</button></div>' +
+      '<form id="form-ingreso" class="formulario" novalidate>' +
+      '<div class="solo-crear" hidden><label>Nombre y apellido<input name="nombre" autocomplete="name"></label>' +
+      '<label>Comunidad o parroquia<input name="comunidad" autocomplete="organization"></label></div>' +
+      '<label>Correo<input name="correo" type="email" autocomplete="email" required></label>' +
+      '<label>Contraseña<input name="clave" type="password" autocomplete="current-password" minlength="6" required></label>' +
+      '<p class="solo-crear nota" hidden>Si tienes menos de 18 años, crea tu cuenta con el conocimiento de tus padres o apoderados.</p>' +
+      '<div class="botones"><button class="boton principal" type="submit" id="enviar-ingreso">Ingresar</button>' +
+      '<button class="boton enlace" type="button" id="olvide">Olvidé mi contraseña</button></div>' +
+      '<div class="mensaje" aria-live="polite"></div></form></section>';
+    pintar(html, "Ingresar");
+
+    var modo = "entrar";
+    var form = document.getElementById("form-ingreso");
+    var mensaje = form.querySelector(".mensaje");
+    function decir(texto, tipo) { mensaje.className = "mensaje " + (tipo || ""); mensaje.textContent = texto || ""; }
+    function ocupado(si) { form.querySelectorAll("button, input").forEach(function (x) { x.disabled = si; }); document.getElementById("con-google").disabled = si; }
+
+    app.querySelectorAll("[data-modo]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        modo = b.getAttribute("data-modo");
+        app.querySelectorAll("[data-modo]").forEach(function (x) { x.setAttribute("aria-selected", String(x === b)); });
+        form.querySelectorAll(".solo-crear").forEach(function (x) { x.hidden = modo !== "crear"; });
+        form.clave.setAttribute("autocomplete", modo === "crear" ? "new-password" : "current-password");
+        document.getElementById("enviar-ingreso").textContent = modo === "crear" ? "Crear cuenta" : "Ingresar";
+        document.getElementById("olvide").hidden = modo === "crear";
+        decir("");
+      });
+    });
+    document.getElementById("con-google").addEventListener("click", function () {
+      ocupado(true); decir("Abriendo Google…");
+      Nube.ingresarGoogle().catch(function (e) { ocupado(false); decir(e.message, "error"); });
+    });
+    document.getElementById("olvide").addEventListener("click", function () {
+      if (!form.correo.value.trim()) { decir("Escribe tu correo y vuelve a tocar «Olvidé mi contraseña».", "error"); form.correo.focus(); return; }
+      ocupado(true);
+      Nube.recuperarClave(form.correo.value).then(function () {
+        ocupado(false); decir("Te enviamos un correo para crear una nueva contraseña. Revisa también la carpeta de spam.", "ok");
+      }).catch(function (e) { ocupado(false); decir(e.message, "error"); });
+    });
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var datos = { nombre: form.nombre.value.trim(), comunidad: form.comunidad.value.trim(), correo: form.correo.value.trim(), clave: form.clave.value };
+      if (!datos.correo || !datos.clave) { decir("Completa tu correo y tu contraseña.", "error"); return; }
+      if (modo === "crear" && (!datos.nombre || !datos.comunidad)) { decir("Completa tu nombre y tu comunidad.", "error"); return; }
+      if (modo === "crear" && datos.clave.length < 6) { decir("La contraseña debe tener al menos 6 caracteres.", "error"); return; }
+      ocupado(true); decir(modo === "crear" ? "Creando tu cuenta…" : "Ingresando…");
+      (modo === "crear" ? Nube.registrar(datos) : Nube.ingresarCorreo(datos.correo, datos.clave))
+        .catch(function (e) { ocupado(false); decir(e.message, "error"); });
+    });
+    return Promise.resolve();
+  }
+
+  var ESTADOS = { pendiente: "En revisión", activo: "Activa", pausado: "En pausa" };
+  var ROLES = { participante: "Participante", relator: "Relator", admin: "Administrador" };
+
+  function vistaPerfil() {
+    var e = cuentaActual();
+    if (!Nube.habilitada) { location.hash = "#/"; return Promise.resolve(); }
+    if (e.status === "invitado") { location.hash = "#/ingresar"; return Promise.resolve(); }
+    if (!e.cuenta) { pintar(migas() + '<section class="tarjeta"><h1>Mi cuenta</h1><p class="aviso error">' + esc(e.error || "No se pudo cargar tu cuenta.") + '</p><div class="botones"><button class="boton" id="salir">Salir</button></div></section>', "Mi cuenta"); enlazarSalir(); return Promise.resolve(); }
+    var c = e.cuenta;
+    var html = migas("Mi cuenta") + '<section class="tarjeta"><h1>Mi cuenta</h1>' +
+      '<p class="estado-cuenta estado-' + esc(c.estado) + '">' + esc(ROLES[c.rol] || c.rol) + " · " + esc(ESTADOS[c.estado] || c.estado) + "</p>" +
+      (c.estado === "pendiente" ? '<p class="aviso">Tu cuenta está en revisión. Un relator o administrador la aprobará y te habilitará los cursos que solicites.</p>' : "") +
+      (c.estado === "pausado" ? '<p class="aviso">Tu cuenta está en pausa. Conversa con tu relator o con la coordinación de Mi Ruta.</p>' : "") +
+      '<form id="form-perfil" class="formulario"><label>Nombre y apellido<input name="nombre" value="' + esc(c.nombre) + '" required></label>' +
+      '<label>Comunidad o parroquia<input name="comunidad" value="' + esc(c.comunidad) + '"></label>' +
+      '<label>Correo<input value="' + esc(c.correo) + '" disabled></label>' +
+      '<div class="botones"><button class="boton principal" type="submit">Guardar cambios</button></div><div class="mensaje" aria-live="polite"></div></form>' +
+      '<div class="botones">' +
+      (e.activo ? '<a class="boton" href="#/mis-constancias">Mis constancias</a>' : "") +
+      (e.esRelator ? '<a class="boton" href="#/gestion">Gestión</a>' : "") +
+      '<button class="boton" id="salir">Salir</button></div>' +
+      (e.esRelator ? '<label class="interruptor claro"><input type="checkbox" id="relator-perfil"' + (modoRelator() ? " checked" : "") + '> <span>Vista relator: mostrar las guías y todos los módulos</span></label>' : "") +
+      "</section>";
+    pintar(html, "Mi cuenta");
+    var form = document.getElementById("form-perfil");
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var msj = form.querySelector(".mensaje");
+      Nube.actualizarPerfil({ nombre: form.nombre.value.trim(), comunidad: form.comunidad.value.trim() })
+        .then(function () { msj.className = "mensaje ok"; msj.textContent = "Cambios guardados."; })
+        .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+    });
+    var rel = document.getElementById("relator-perfil");
+    if (rel) rel.addEventListener("change", function () { almacen.guardar("modoRelator", rel.checked); actualizarCabecera(); });
+    enlazarSalir();
+    return Promise.resolve();
+  }
+
+  function enlazarSalir() {
+    var b = document.getElementById("salir");
+    if (b) b.addEventListener("click", function () { Nube.salir().then(function () { location.hash = "#/"; }); });
+  }
+
+  /* ---------- constancias ---------- */
+
+  function horasDe(texto) {
+    var m = String(texto || "").match(/(\d+(?:,\d+)?)\s*h/);
+    return m ? m[1] + " horas" : "";
+  }
+
+  // Arma los datos de una constancia para un curso, un módulo o el diplomado completo.
+  function datosConstancia(c, alcance, persona) {
+    var d = { uid: persona.uid, nombre: persona.nombre, comunidad: persona.comunidad || "", cursoId: c.id, alcance: alcance, fecha: new Date().toISOString().slice(0, 10) };
+    var sinEval = function (cls) { return cls.filter(function (x) { return x.tipo !== "evaluacion"; }).map(function (x) { return x.titulo; }); };
+    if (alcance === "diplomado") {
+      d.tipo = "certificado";
+      d.eyebrow = "DIPLOMADO EN LIDERAZGO";
+      d.titulo = c.titulo;
+      d.detalle = "por haber aprobado los seis módulos del diplomado y su proyecto integrador, con un total de 216 horas de formación.";
+      d.contenidos = c.modulos.map(function (m) { return etiquetaModulo(m) + ". " + m.titulo + " · " + (horasDe(m.duracion) || ""); });
+      return d;
+    }
+    d.tipo = "constancia";
+    if (alcance !== "curso") {
+      var m = c.modulos.filter(function (x) { return x.id === alcance; })[0];
+      d.eyebrow = "DIPLOMADO EN LIDERAZGO · " + etiquetaModulo(m).toUpperCase();
+      d.titulo = m.titulo;
+      d.detalle = m.clases.length + " clases y trabajo del módulo aprobados · " + (horasDe(m.duracion) || m.duracion);
+      d.contenidos = sinEval(m.clases);
+      return d;
+    }
+    d.eyebrow = c.paso ? "RUTA DE FORMACIÓN · PASO " + c.paso : (c.categoria ? "FORMACIÓN COMPLEMENTARIA · " + String(c.categoria).toUpperCase() : "FORMACIÓN");
+    d.titulo = c.titulo;
+    var unidades = c.clases.filter(function (x) { return x.tipo !== "evaluacion"; }).length;
+    var evals = c.clases.length - unidades;
+    d.detalle = unidades + " unidades" + (evals ? " y " + evals + (evals === 1 ? " evaluación aprobada" : " evaluaciones aprobadas") : "") + (horasDe(c.duracion) ? " · " + horasDe(c.duracion) + " de formación" : "");
+    d.contenidos = c.modulos.length > 1 ? c.modulos.map(function (x) { return x.titulo; }) : sinEval(c.clases);
+    return d;
+  }
+
+  function fechaLarga(iso) {
+    var meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+    var p = String(iso || "").split("-");
+    return p.length === 3 ? Number(p[2]) + " de " + meses[Number(p[1]) - 1] + " de " + p[0] : "";
+  }
+
+  var SELLO = '<svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11.5" fill="#1351a4"/><path d="M9 37 V14 L19 28 L29 14 V31" fill="none" stroke="#fff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="37" cy="34" r="4.2" fill="#ef591c"/></svg>';
+
+  function htmlConstancia(d) {
+    var cert = d.tipo === "certificado";
+    return '<article class="documento' + (cert ? " certificado" : "") + '"><div class="documento-marco">' +
+      '<header class="documento-cabecera"><div class="documento-logo">' + SELLO + '<div><strong>Mi <em>Ruta</em></strong><span>by <span class="ag-app">ag<b>APP</b>e</span></span></div></div>' +
+      '<div class="documento-folio">' + (cert ? "Certificado" : "Constancia") + " N.º<br><b>" + esc(d.folio) + "</b></div></header>" +
+      '<div class="documento-cuerpo">' +
+      (cert ? '<p class="documento-grande">Certificado</p>' : "") +
+      '<p class="documento-ceja">' + (cert ? "" : "CONSTANCIA · ") + esc(d.eyebrow) + "</p>" +
+      '<p class="documento-otorga">Se otorga a</p><p class="documento-nombre">' + esc(d.nombre) + "</p>" +
+      (cert ? '<p class="documento-detalle">' + esc(d.detalle) + "</p>" :
+        '<p class="documento-otorga">por haber aprobado la formación</p><p class="documento-curso">' + esc(d.titulo) + '</p><p class="documento-detalle">' + esc(d.detalle) + "</p>") +
+      '<p class="documento-contenidos-titulo' + (d.contenidos.length > 4 ? " dos" : "") + '">' + (cert ? "MÓDULOS" : "CONTENIDOS") + '</p><ol class="documento-contenidos' + (d.contenidos.length > 4 ? " dos" : "") + '">' +
+      d.contenidos.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ol></div>" +
+      '<footer class="documento-pie"><div class="documento-firma"><span>' + esc(d.firmante || "") + "</span>Relator o asesor</div>" +
+      '<div class="documento-lugar">' + esc(d.comunidad || "") + "<br>" + esc(fechaLarga(d.fecha)) + "</div>" +
+      '<div class="documento-firma"><span></span>' + (cert ? "Párroco" : "Coordinación de Mi Ruta") + "</div></footer>" +
+      '<p class="documento-verificar">Verifica este documento en pj-agape.github.io/Mi_ruta con el código ' + esc(d.folio) + "</p>" +
+      "</div></article>";
+  }
+
+  // En pantalla, la constancia (tamaño carta) se achica para caber; al imprimir vuelve a su tamaño.
+  function ajustarDocumento() {
+    var cont = app.querySelector(".documento-contenedor");
+    var doc = cont && cont.querySelector(".documento");
+    if (!doc) return;
+    var escala = Math.min(1, cont.clientWidth / 1056);
+    doc.style.zoom = escala;
+  }
+  window.addEventListener("resize", ajustarDocumento);
+
+  function vistaConstancia(folio) {
+    pintar(migas("Constancia") + '<p class="cargando">Buscando la constancia…</p>', "Constancia");
+    if (!Nube.habilitada) { pintar(migas() + '<section class="tarjeta"><h1>Verificación no disponible</h1><p>Esta plataforma todavía no tiene activadas las cuentas.</p></section>', "Constancia"); return Promise.resolve(); }
+    return Nube.leerConstancia(folio).then(function (d) {
+      if (!d) {
+        pintar(migas("Verificar") + '<section class="tarjeta"><h1>No encontramos esa constancia</h1><p>Revisa que el código esté bien escrito: <b>' + esc(folio) + "</b>.</p></section>", "Constancia");
+        return;
+      }
+      pintar(migas("Constancia") + '<p class="verificada">Documento válido, emitido por Mi Ruta.</p><div class="documento-contenedor">' + htmlConstancia(d) +
+        '</div><div class="botones no-imprimir"><button class="boton principal" id="imprimir">Imprimir o guardar en PDF</button></div>', d.titulo);
+      document.getElementById("imprimir").addEventListener("click", function () { window.print(); });
+      ajustarDocumento();
+    });
+  }
+
+  function vistaMisConstancias() {
+    var e = cuentaActual();
+    if (!e.activo) { location.hash = e.status === "invitado" ? "#/ingresar" : "#/perfil"; return Promise.resolve(); }
+    return Nube.constanciasDe(e.cuenta.uid).then(function (lista) {
+      var html = migas('<a href="#/perfil">Mi cuenta</a> / Mis constancias') + '<section class="tarjeta"><h1>Mis constancias</h1>' +
+        (lista.length ? '<ul class="lista-constancias">' + lista.sort(function (a, b) { return String(b.fecha).localeCompare(String(a.fecha)); }).map(function (d) {
+          return '<li><a href="#/constancia/' + esc(d.folio) + '"><b>' + esc(d.titulo) + '</b><span>' + esc(d.eyebrow) + " · " + esc(fechaLarga(d.fecha)) + "</span></a></li>";
+        }).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no tienes constancias. Cuando apruebes una formación, tu relator la emitirá y aparecerá aquí.</p>') +
+        "</section>";
+      pintar(html, "Mis constancias");
+    });
+  }
+
+  /* ---------- gestión ---------- */
+
+  function vistaGestion() {
+    var e = cuentaActual();
+    if (!e.esRelator) { location.hash = "#/"; return Promise.resolve(); }
+    pintar(migas("Gestión") + '<p class="cargando">Cargando participantes…</p>', "Gestión");
+    return Promise.all([Nube.listarUsuarios(), Promise.all(sitio.cursos.map(cargarCurso))]).then(function (r) {
+      var usuarios = r[0], lista = r[1];
+      var porId = {}; lista.forEach(function (c) { porId[c.id] = c; });
+      var pendientes = usuarios.filter(function (u) { return u.estado === "pendiente" || (u.estado === "activo" && (u.solicitudes || []).length); });
+      var filtro = almacen.leer("gestion:filtro", "");
+
+      function nombreCurso(id) { return porId[id] ? porId[id].titulo : id; }
+
+      function fichaPendiente(u) {
+        var sol = (u.solicitudes || []);
+        return '<li class="ficha" data-uid="' + esc(u.uid) + '"><div class="ficha-cabeza"><b>' + esc(u.nombre) + '</b><span>' + esc(u.correo) + (u.comunidad ? " · " + esc(u.comunidad) : "") + "</span></div>" +
+          (u.estado === "pendiente" ? '<p class="ficha-nota">Cuenta nueva, en revisión.</p>' : "") +
+          (sol.length ? '<p class="ficha-nota">Solicita: ' + sol.map(function (id) { return esc(nombreCurso(id)); }).join(", ") + "</p>" : "") +
+          '<div class="botones"><button class="boton principal" data-accion="aprobar">' + (u.estado === "pendiente" ? "Aprobar" : "Inscribir") + (sol.length ? " e inscribir" : "") + "</button>" +
+          (u.estado === "pendiente" ? '<button class="boton" data-accion="pausar">Rechazar</button>' : '<button class="boton" data-accion="descartar">Descartar solicitud</button>') + "</div></li>";
+      }
+
+      function fichaParticipante(u) {
+        var cursosU = u.cursos || [];
+        return '<li class="ficha" data-uid="' + esc(u.uid) + '"><details><summary><div class="ficha-cabeza"><b>' + esc(u.nombre) + '</b><span>' + esc(ROLES[u.rol] || u.rol) + " · " + esc(ESTADOS[u.estado] || u.estado) +
+          (u.comunidad ? " · " + esc(u.comunidad) : "") + " · " + cursosU.length + (cursosU.length === 1 ? " curso" : " cursos") + "</span></div></summary>" +
+          '<div class="ficha-cuerpo"><p class="ficha-nota">' + esc(u.correo) + "</p>" +
+          '<fieldset class="ficha-cursos"><legend>Cursos habilitados</legend>' + lista.map(function (c) {
+            return '<label><input type="checkbox" value="' + esc(c.id) + '"' + (cursosU.indexOf(c.id) >= 0 ? " checked" : "") + "> " + esc(c.titulo) + "</label>";
+          }).join("") + "</fieldset>" +
+          '<div class="ficha-avance" data-cargar="1"><button class="boton" data-accion="avance">Ver avance y emitir constancias</button></div>' +
+          '<div class="botones"><button class="boton principal" data-accion="guardar-cursos">Guardar cursos</button>' +
+          (u.estado === "activo" ? '<button class="boton" data-accion="pausar">Poner en pausa</button>' : '<button class="boton" data-accion="activar">Activar</button>') +
+          (e.esAdmin && u.uid !== e.cuenta.uid ? '<label class="ficha-rol">Rol <select data-accion="rol">' + Object.keys(ROLES).map(function (k) { return '<option value="' + k + '"' + (u.rol === k ? " selected" : "") + ">" + ROLES[k] + "</option>"; }).join("") + "</select></label>" : "") +
+          '</div><div class="mensaje" aria-live="polite"></div></div></details></li>';
+      }
+
+      var participantes = usuarios.filter(function (u) {
+        if (!filtro) return true;
+        var t = (u.nombre + " " + u.correo + " " + (u.comunidad || "")).toLowerCase();
+        return t.indexOf(filtro.toLowerCase()) >= 0;
+      }).sort(function (a, b) { return String(a.nombre).localeCompare(String(b.nombre)); });
+
+      var html = migas("Gestión") + '<section class="portada"><h1>Gestión</h1><p>Aprueba cuentas, inscribe en cursos, revisa avances y emite constancias.</p>' +
+        '<ul class="etiquetas"><li>' + usuarios.length + " cuentas</li><li>" + pendientes.length + " por revisar</li></ul></section>" +
+        '<section class="tarjeta"><h2>Por revisar</h2>' + (pendientes.length ? '<ul class="fichas">' + pendientes.map(fichaPendiente).join("") + "</ul>" : '<p class="seccion-bajada">No hay solicitudes pendientes.</p>') + "</section>" +
+        '<section class="tarjeta"><h2>Participantes</h2><label class="buscador">Buscar<input id="filtro" value="' + esc(filtro) + '" placeholder="Nombre, correo o comunidad"></label>' +
+        '<ul class="fichas">' + participantes.map(fichaParticipante).join("") + "</ul></section>" +
+        '<section class="tarjeta"><h2>Constancias emitidas</h2><div id="constancias-emitidas"><button class="boton" id="ver-constancias">Ver constancias emitidas</button></div></section>';
+      pintar(html, "Gestión");
+
+      var buscar = document.getElementById("filtro");
+      buscar.addEventListener("change", function () { almacen.guardar("gestion:filtro", buscar.value.trim()); vistaGestion(); });
+
+      document.getElementById("ver-constancias").addEventListener("click", function () {
+        var caja = document.getElementById("constancias-emitidas");
+        caja.innerHTML = '<p class="cargando">Cargando…</p>';
+        Nube.todasLasConstancias().then(function (cs) {
+          caja.innerHTML = cs.length ? '<ul class="lista-constancias">' + cs.sort(function (a, b) { return String(b.fecha).localeCompare(String(a.fecha)); }).map(function (d) {
+            return '<li><a href="#/constancia/' + esc(d.folio) + '"><b>' + esc(d.nombre) + " · " + esc(d.titulo) + "</b><span>" + esc(d.folio) + " · " + esc(fechaLarga(d.fecha)) + "</span></a></li>";
+          }).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no se han emitido constancias.</p>';
+        }).catch(function (er) { caja.innerHTML = '<p class="aviso error">' + esc(er.message) + "</p>"; });
+      });
+
+      app.querySelectorAll(".ficha").forEach(function (li) {
+        var uid = li.getAttribute("data-uid");
+        var u = usuarios.filter(function (x) { return x.uid === uid; })[0];
+        var msj = li.querySelector(".mensaje") || li;
+        function hecho(promesa) {
+          promesa.then(vistaGestion).catch(function (er) { alertaEn(msj, er.message); });
+        }
+        li.querySelectorAll("[data-accion]").forEach(function (b) {
+          var accion = b.getAttribute("data-accion");
+          var evento = b.tagName === "SELECT" ? "change" : "click";
+          b.addEventListener(evento, function () {
+            if (accion === "aprobar") {
+              var cursosNuevos = Array.from(new Set((u.cursos || []).concat(u.solicitudes || [])));
+              hecho(Nube.actualizarUsuario(uid, { estado: "activo", cursos: cursosNuevos, solicitudes: [] }));
+            } else if (accion === "descartar") {
+              hecho(Nube.actualizarUsuario(uid, { solicitudes: [] }));
+            } else if (accion === "pausar") {
+              hecho(Nube.actualizarUsuario(uid, { estado: "pausado" }));
+            } else if (accion === "activar") {
+              hecho(Nube.actualizarUsuario(uid, { estado: "activo" }));
+            } else if (accion === "guardar-cursos") {
+              var marcados = Array.from(li.querySelectorAll(".ficha-cursos input:checked")).map(function (x) { return x.value; });
+              hecho(Nube.actualizarUsuario(uid, { cursos: marcados, solicitudes: (u.solicitudes || []).filter(function (s) { return marcados.indexOf(s) < 0; }) }));
+            } else if (accion === "rol") {
+              hecho(Nube.actualizarUsuario(uid, { rol: b.value }));
+            } else if (accion === "avance") {
+              mostrarAvance(li.querySelector(".ficha-avance"), u, lista);
+            }
+          });
+        });
+      });
+    });
+  }
+
+  function mostrarAvance(caja, u, lista) {
+    caja.innerHTML = '<p class="cargando">Cargando avance…</p>';
+    Nube.avanceDe(u.uid).then(function (datos) {
+      var cursosU = lista.filter(function (c) { return (u.cursos || []).indexOf(c.id) >= 0; });
+      if (!cursosU.length) { caja.innerHTML = '<p class="seccion-bajada">No tiene cursos habilitados.</p>'; return; }
+      var opciones = [];
+      var filas = cursosU.map(function (c) {
+        var h = datos["hechas:" + c.id] || [];
+        var n = c.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
+        var pct = c.clases.length ? Math.round(100 * n / c.clases.length) : 0;
+        var html = '<li><b>' + esc(c.titulo) + "</b><span>" + n + " de " + c.clases.length + " (" + pct + "%)</span></li>";
+        var conConstancia = c.modulos.filter(function (m) { return m.constancia; });
+        if (conConstancia.length) {
+          conConstancia.forEach(function (m) {
+            var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
+            html += '<li class="sub"><span>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</span><span>" + hm + " de " + m.clases.length + "</span></li>";
+            opciones.push({ valor: c.id + "|" + m.id, texto: c.titulo.split(" para ")[0] + " · " + etiquetaModulo(m) + (hm === m.clases.length ? " (completo)" : " (" + hm + " de " + m.clases.length + ")") });
+          });
+          opciones.push({ valor: c.id + "|diplomado", texto: "Certificado del diplomado" + (pct === 100 ? " (completo)" : " (" + pct + "%)") });
+        } else {
+          opciones.push({ valor: c.id + "|curso", texto: c.titulo + (pct === 100 ? " (completo)" : " (" + pct + "%)") });
+        }
+        return html;
+      }).join("");
+      caja.innerHTML = '<ul class="avance-lista">' + filas + "</ul>" +
+        '<div class="emitir"><label>Emitir constancia de<select>' + opciones.map(function (o) { return '<option value="' + esc(o.valor) + '">' + esc(o.texto) + "</option>"; }).join("") + "</select></label>" +
+        '<p class="ficha-nota">Antes de emitir, confirma que aprobó las evaluaciones, la asistencia y el trabajo final que pide la formación.</p>' +
+        '<div class="botones"><button class="boton principal" data-paso="1">Emitir constancia</button></div><div class="mensaje" aria-live="polite"></div></div>';
+      var boton = caja.querySelector("[data-paso]");
+      var select = caja.querySelector("select");
+      var msj = caja.querySelector(".mensaje");
+      boton.addEventListener("click", function () {
+        if (boton.getAttribute("data-paso") === "1") {
+          boton.setAttribute("data-paso", "2"); boton.textContent = "Confirmar: emitir a " + u.nombre; return;
+        }
+        boton.disabled = true;
+        var partes = select.value.split("|");
+        var c = lista.filter(function (x) { return x.id === partes[0]; })[0];
+        Nube.emitirConstancia(datosConstancia(c, partes[1], u)).then(function (folio) {
+          msj.className = "mensaje ok";
+          msj.innerHTML = 'Constancia emitida: <a href="#/constancia/' + esc(folio) + '">' + esc(folio) + "</a>";
+          boton.disabled = false; boton.setAttribute("data-paso", "1"); boton.textContent = "Emitir constancia";
+        }).catch(function (er) { boton.disabled = false; msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+    }).catch(function (er) { caja.innerHTML = '<p class="aviso error">' + esc(er.message) + "</p>"; });
+  }
+
+  /* ---------- cabecera ---------- */
+
+  function actualizarCabecera() {
+    var enlace = document.getElementById("cuenta-enlace");
+    var caja = document.getElementById("caja-relator");
+    var pie = document.getElementById("pie-nota");
+    if (!Nube.habilitada) { enlace.hidden = true; caja.hidden = false; return; }
+    var e = cuentaActual();
+    caja.hidden = true;
+    enlace.hidden = false;
+    if (e.status === "invitado" || e.status === "error" && !e.cuenta) {
+      enlace.textContent = "Ingresar"; enlace.href = "#/ingresar"; enlace.className = "cuenta-boton";
+    } else if (e.cuenta) {
+      var iniciales = String(e.cuenta.nombre || "?").split(/\s+/).filter(Boolean).slice(0, 2).map(function (x) { return x[0]; }).join("").toUpperCase();
+      enlace.textContent = iniciales; enlace.href = "#/perfil"; enlace.className = "cuenta-boton avatar" + (modoRelator() ? " relator" : "");
+      enlace.title = e.cuenta.nombre + (modoRelator() ? " · vista relator" : "");
+    }
+    if (pie) pie.textContent = e.activo ? "Tu avance se guarda en tu cuenta y te acompaña en todos tus dispositivos." : "Con tu cuenta, tu avance te acompaña en todos tus dispositivos.";
+    if (e.esRelator) {
+      if (!document.getElementById("enlace-gestion")) {
+        var g = document.createElement("a");
+        g.id = "enlace-gestion"; g.className = "cuenta-gestion"; g.href = "#/gestion"; g.textContent = "Gestión";
+        enlace.parentNode.insertBefore(g, enlace);
+      }
+    } else {
+      var vieja = document.getElementById("enlace-gestion");
+      if (vieja) vieja.remove();
+    }
+  }
+
   /* ---------- enrutador ---------- */
 
   function ruta() {
     var partes = (location.hash.replace(/^#\/?/, "") || "").split("/").filter(Boolean).map(decodeURIComponent);
     var tarea;
+    actualizarCabecera();
     if (partes[0] === "curso" && partes[1] && partes[2] === "programa") tarea = vistaPrograma(partes[1]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "sesiones") tarea = vistaSesiones(partes[1]);
     else if (partes[0] === "curso" && partes[1]) tarea = vistaCurso(partes[1]);
     else if (partes[0] === "clase" && partes[1] && partes[2]) tarea = vistaClase(partes[1], partes[2]);
+    else if (partes[0] === "ingresar") tarea = vistaIngresar();
+    else if (partes[0] === "perfil") tarea = vistaPerfil();
+    else if (partes[0] === "gestion") tarea = vistaGestion();
+    else if (partes[0] === "mis-constancias") tarea = vistaMisConstancias();
+    else if (partes[0] === "constancia" && partes[1]) tarea = vistaConstancia(partes[1]);
     else tarea = vistaInicio();
-    return tarea.catch(error);
+    return Promise.resolve(tarea).catch(error);
   }
 
   var interruptor = document.getElementById("modo-relator");
@@ -526,5 +1007,12 @@
   });
 
   window.addEventListener("hashchange", ruta);
-  cargarSitio().then(ruta).catch(error);
+
+  // Al ingresar o salir, se vuelve a dibujar la vista. Después de ingresar, se va a la portada.
+  Nube.alCambiar(function () {
+    if (/^#\/ingresar/.test(location.hash) && cuentaActual().cuenta) location.hash = "#/";
+    else ruta();
+  });
+
+  Promise.resolve(Nube.listo).then(cargarSitio).then(ruta).catch(error);
 })();

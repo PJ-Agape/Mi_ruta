@@ -1,0 +1,134 @@
+rules_version = '2';
+
+// Reglas de seguridad de Mi Ruta.
+//
+// Antes de publicarlas, reemplaza tu_correo@gmail.com por el correo de Google
+// del primer administrador (en minúsculas). Debe ser el mismo que pongas en
+// assets/config.js, en «administradores».
+//
+// Resumen:
+//   - Cualquiera puede crear su cuenta, que queda «pendiente» y sin cursos.
+//   - Un relator o administrador aprueba cuentas, habilita cursos y emite constancias.
+//   - Solo un administrador cambia roles.
+//   - Cada persona escribe solo su propio avance, y solo con la cuenta activa.
+//   - Las notas personales (bitácora, plantillas) son privadas: nadie más las lee.
+//   - Las constancias se pueden verificar con su código, sin iniciar sesión.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function administradoresIniciales() {
+      return ['tu_correo@gmail.com'];
+    }
+
+    function conSesion() {
+      return request.auth != null;
+    }
+
+    function correoVerificado() {
+      return conSesion() && request.auth.token.email != null
+        && (request.auth.token.email_verified == true
+            || request.auth.token.firebase.sign_in_provider == 'google.com');
+    }
+
+    function esAdminInicial() {
+      return correoVerificado() && request.auth.token.email.lower() in administradoresIniciales();
+    }
+
+    function miCuenta() {
+      return get(/databases/$(database)/documents/usuarios/$(request.auth.uid)).data;
+    }
+
+    function tengoCuenta() {
+      return conSesion() && exists(/databases/$(database)/documents/usuarios/$(request.auth.uid));
+    }
+
+    function activo() {
+      return tengoCuenta() && miCuenta().estado == 'activo';
+    }
+
+    function esAdmin() {
+      return (activo() && miCuenta().rol == 'admin') || esAdminInicial();
+    }
+
+    function esEquipo() {
+      return (activo() && miCuenta().rol in ['relator', 'admin']) || esAdminInicial();
+    }
+
+    function soloCambia(campos) {
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly(campos);
+    }
+
+    function textoCorto(campo, max) {
+      return request.resource.data[campo] is string && request.resource.data[campo].size() <= max;
+    }
+
+    // ---------- usuarios ----------
+    match /usuarios/{uid} {
+      allow get: if conSesion() && (request.auth.uid == uid || esEquipo());
+      allow list: if esEquipo();
+
+      // Cada persona crea su propia cuenta: pendiente, como participante y sin cursos.
+      // Los administradores iniciales se crean activos.
+      allow create: if conSesion() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['nombre', 'correo', 'comunidad', 'rol', 'estado', 'cursos', 'solicitudes', 'creado', 'ultimoIngreso'])
+        && request.resource.data.correo == request.auth.token.email
+        && textoCorto('nombre', 120) && textoCorto('comunidad', 160)
+        && request.resource.data.cursos == []
+        && request.resource.data.solicitudes is list && request.resource.data.solicitudes.size() <= 30
+        && (
+          (request.resource.data.rol == 'participante' && request.resource.data.estado == 'pendiente')
+          || (esAdminInicial() && request.resource.data.rol == 'admin' && request.resource.data.estado == 'activo')
+        );
+
+      allow update: if
+        // La persona edita su nombre, comunidad y solicitudes de inscripción.
+        (conSesion() && request.auth.uid == uid
+          && soloCambia(['nombre', 'comunidad', 'solicitudes', 'ultimoIngreso'])
+          && textoCorto('nombre', 120) && textoCorto('comunidad', 160)
+          && request.resource.data.solicitudes is list && request.resource.data.solicitudes.size() <= 30)
+        // Un relator aprueba, pausa e inscribe a participantes (no cambia roles ni toca a otros relatores).
+        || (esEquipo() && !esAdmin() && resource.data.rol == 'participante'
+          && soloCambia(['estado', 'cursos', 'solicitudes'])
+          && request.resource.data.estado in ['pendiente', 'activo', 'pausado'])
+        // Un administrador puede todo, salvo dejar un rol o estado inválido.
+        || (esAdmin()
+          && request.resource.data.rol in ['participante', 'relator', 'admin']
+          && request.resource.data.estado in ['pendiente', 'activo', 'pausado']);
+
+      allow delete: if esAdmin();
+    }
+
+    // ---------- avance ----------
+    // datos: { "hechas:<curso>": [...], "eval:<curso>:<id>": {...} }
+    match /avance/{uid} {
+      allow read: if conSesion() && (request.auth.uid == uid || esEquipo());
+      allow create, update: if conSesion() && request.auth.uid == uid && activo()
+        && request.resource.data.keys().hasOnly(['datos', 'actualizado']);
+      allow delete: if esAdmin();
+    }
+
+    // ---------- notas personales (privadas) ----------
+    match /notas/{uid} {
+      allow read: if conSesion() && request.auth.uid == uid;
+      allow create, update: if conSesion() && request.auth.uid == uid && activo()
+        && request.resource.data.keys().hasOnly(['datos']);
+      allow delete: if conSesion() && request.auth.uid == uid;
+    }
+
+    // ---------- constancias ----------
+    match /constancias/{folio} {
+      // Cualquiera puede verificar una constancia si conoce su código.
+      allow get: if true;
+      // El equipo ve todas; cada persona, las suyas.
+      allow list: if esEquipo() || (conSesion() && resource.data.uid == request.auth.uid);
+      allow create: if esEquipo()
+        && request.resource.data.folio == folio
+        && request.resource.data.emitidaPor == request.auth.uid
+        && request.resource.data.uid is string
+        && exists(/databases/$(database)/documents/usuarios/$(request.resource.data.uid));
+      allow update: if false;
+      allow delete: if esAdmin();
+    }
+  }
+}

@@ -70,6 +70,15 @@ python3 -m http.server 8000
 
 y luego abrir `http://localhost:8000`.
 
+## Cuentas de usuario (Firebase)
+
+Mi Ruta funciona en dos modos:
+
+- **Modo local** (mientras `assets/config.js` tenga `firebase: null`): sin cuentas; el avance se guarda solo en el navegador y la vista relator se activa con el interruptor de la cabecera.
+- **Con cuentas**: registro con Google o con correo y contraseña, aprobación por un relator, cursos habilitados por persona, avance sincronizado, panel de **Gestión** y constancias verificables.
+
+Para activar las cuentas, sigue [CONFIGURAR-FIREBASE.md](CONFIGURAR-FIREBASE.md). Las reglas de seguridad están en `firestore.rules`.
+
 ## Publicar en GitHub Pages
 
 En el repositorio: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`. El sitio queda en `https://pj-agape.github.io/Mi_ruta/`.

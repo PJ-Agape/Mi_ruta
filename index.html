@@ -21,10 +21,13 @@
         <svg class="marca-sello" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11.5" fill="#ef591c"/><path d="M9 37 V14 L19 28 L29 14 V31" fill="none" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="37" cy="34" r="4.2" fill="#ffba03"/></svg>
         <span class="marca-nombre" id="marca-nombre">Mi <em>Ruta</em></span>
       </a>
-      <label class="interruptor" title="Muestra las guías para conducir cada encuentro">
+      <div class="cabecera-acciones">
+      <a class="cuenta-boton" id="cuenta-enlace" href="#/ingresar" hidden>Ingresar</a>
+      <label class="interruptor" id="caja-relator" title="Muestra las guías para conducir cada encuentro">
         <input type="checkbox" id="modo-relator">
         <span>Vista relator</span>
       </label>
+      </div>
     </div>
   </header>
 
@@ -34,10 +37,12 @@
 
   <footer class="pie">
     <p class="pie-iniciativa">Una iniciativa de <a href="https://pj-agape.github.io/" target="_blank" rel="noopener" aria-label="agAPPe"><span class="ag-app" aria-hidden="true">ag<b>APP</b>e</span></a></p>
-    <p>Tus avances, plantillas y bitácora se guardan solo en este dispositivo.</p>
+    <p id="pie-nota">Tus avances, plantillas y bitácora se guardan solo en este dispositivo.</p>
   </footer>
 
+  <script src="assets/config.js"></script>
+  <script type="module" src="assets/nube.js"></script>
   <script src="assets/vendor/marked.umd.js"></script>
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js" defer></script>
 </body>
 </html>
