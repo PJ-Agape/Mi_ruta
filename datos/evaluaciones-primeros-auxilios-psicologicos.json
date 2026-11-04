@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Informar a un adulto responsable en esos casos es cuidar, no traicionar."
+   },
+   {
+    "pregunta": "¿Qué es lo primero en una crisis colectiva?",
+    "opciones": [
+     "Hacer un encuentro de oración",
+     "Asegurar que todos estén a salvo y avisar a los adultos responsables",
+     "Publicar lo ocurrido en redes"
+    ],
+    "correcta": 1,
+    "explicacion": "Seguridad primero, luego aviso y acompañamiento."
+   },
+   {
+    "pregunta": "Si alguien habla de no querer vivir, ¿qué haces?",
+    "opciones": [
+     "Esperas a ver si se le pasa",
+     "Avisas de inmediato a un adulto y llaman al *4141",
+     "Lo comentas con el grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una urgencia: se avisa y se busca ayuda de inmediato."
    }
   ]
  }

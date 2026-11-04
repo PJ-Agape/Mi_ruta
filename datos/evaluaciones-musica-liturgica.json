@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Ambas son buenas, pero tienen criterios distintos."
+   },
+   {
+    "pregunta": "¿Qué cambia en la música durante la Cuaresma?",
+    "opciones": [
+     "Nada, se canta igual",
+     "No se canta el Aleluya y el acompañamiento se modera",
+     "Se canta solo en latín"
+    ],
+    "correcta": 1,
+    "explicacion": "La austeridad de la Cuaresma prepara la alegría de la Pascua."
+   },
+   {
+    "pregunta": "¿Cuál es un buen criterio para la música de un matrimonio?",
+    "opciones": [
+     "Cantar las canciones favoritas de los novios",
+     "Acompañar la celebración con cantos litúrgicos, sin convertirla en un concierto",
+     "No cantar nada"
+    ],
+    "correcta": 1,
+    "explicacion": "El canto sirve a la celebración, también en los sacramentos."
    }
   ]
  }

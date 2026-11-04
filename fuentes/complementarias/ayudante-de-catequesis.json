@@ -4,7 +4,7 @@
  "subtitulo": "Acompañar a quienes se preparan para los sacramentos",
  "categoria": "Misión y servicio",
  "publico": "Desde 14 años",
- "descripcion": "Para jóvenes que colaboran con catequistas de primera comunión o confirmación: qué es la catequesis, cómo son los niños y adolescentes que acompañamos, cómo preparar y animar un encuentro, y cómo cuidar a todos. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para jóvenes que colaboran con catequistas de primera comunión o confirmación: qué es la catequesis, cómo son los niños y adolescentes que acompañamos, cómo preparar y animar un encuentro, y cómo cuidar a todos. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Acompañar en la fe",
  "intro": "Muchas parroquias invitan a jóvenes a ayudar en la catequesis. Es un servicio precioso: los niños y adolescentes ven en ellos a alguien cercano que vive la fe con alegría. Esta formación te prepara para colaborar con el catequista adulto, sin reemplazarlo, y para hacerlo con cariño y responsabilidad.",
  "unidades": [
@@ -301,6 +301,103 @@
    "idea": "De la vida a la Palabra, y de la Palabra a la vida."
   },
   {
+   "title": "Las familias y la comunidad",
+   "objective": "Comprender el lugar de la familia y de la comunidad en la catequesis, y aprender a acoger a las familias con sus distintas realidades.",
+   "intro": "La catequesis no ocurre solo en la sala del encuentro. Los niños y jóvenes llegan desde una familia y van hacia una comunidad. En esta unidad vas a mirar cómo involucrar a las familias, cómo acogerlas sin juzgar y cómo conectar la catequesis con la vida de la parroquia.",
+   "sections": [
+    {
+     "title": "La familia, primera escuela de la fe",
+     "body": "Los padres y quienes crían son los primeros educadores en la fe. La catequesis no los reemplaza: los acompaña. Por eso:\n\n- **Lo que pasa en casa pesa más** que lo que pasa en una hora de encuentro.\n- **Un niño aprende a rezar** viendo rezar a los suyos.\n- **La catequesis funciona mejor** cuando la familia sabe qué se está viviendo y puede continuarlo en casa."
+    },
+    {
+     "title": "Familias muy distintas",
+     "body": "Las familias que llegan a la catequesis son muy diversas: con ambos padres, con uno solo, con abuelos a cargo, separadas, con nuevas parejas, con mucha fe o con muy poca.\n\nComo ayudante:\n\n- **Acoge a todos sin juzgar.** No preguntes ni comentes la situación familiar de un niño.\n- **Usa un lenguaje inclusivo:** «tu familia», «quienes te cuidan», en vez de suponer siempre «tu papá y tu mamá».\n- **Cuida a los niños** cuando una actividad toque temas familiares que puedan doler.\n- **Si notas algo que te preocupa,** conversa con el catequista responsable; no lo resuelvas solo."
+    },
+    {
+     "title": "Involucrar a las familias",
+     "body": "Algunas ideas sencillas:\n\n- **Una tarea para hacer en casa** que requiera conversar con la familia.\n- **Encuentros de familias** algunas veces al año.\n- **Invitar a las familias** a la misa en que participan los niños.\n- **Un mensaje breve** después de cada encuentro, a través del catequista, contando qué se vivió.\n\nSiempre a través del catequista responsable y con los canales que la parroquia defina."
+    },
+    {
+     "title": "Conectar con la comunidad",
+     "body": "La catequesis prepara para vivir en comunidad, no solo para recibir un sacramento. Ayuda a que los niños y jóvenes:\n\n- **Conozcan la parroquia:** el templo, el párroco, los grupos.\n- **Participen en la misa** del domingo, no solo en las de su grupo.\n- **Descubran los grupos** a los que podrían integrarse después: infancia misionera, grupos juveniles, coros, servidores del altar."
+    }
+   ],
+   "bible": {
+    "ref": "Deuteronomio 6,4-9 · Enseñarás estas palabras a tus hijos",
+    "comment": "«Escucha, Israel… Grábate en el corazón estas palabras que hoy te mando; repíteselas a tus hijos, háblales de ellas cuando estés en casa y cuando vayas de viaje». La fe se transmitía en la vida diaria de la familia. La catequesis ayuda a que eso siga ocurriendo hoy."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2221-2226",
+     "text": "Los padres tienen la primera responsabilidad en la educación de sus hijos, también en la fe; la familia es como una iglesia doméstica.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a4_sp.html"
+    },
+    {
+     "source": "Directorio para la Catequesis (2020)",
+     "text": "La familia es sujeto activo de la catequesis, y la comunidad cristiana debe acompañarla en su tarea de transmitir la fe."
+    }
+   ],
+   "questions": [
+    "¿Quién te enseñó a rezar a ti?",
+    "¿Qué realidades familiares conoces en tu grupo de catequesis, sin dar nombres?",
+    "¿Qué expresiones podrían hacer sentir excluido a un niño?",
+    "¿Cómo podría tu grupo de catequesis conectarse más con la parroquia?"
+   ],
+   "activity": "Diseñen una tarea para la casa que invite a cada niño o joven a conversar con su familia sobre el tema del próximo encuentro. Revisen que sirva para cualquier tipo de familia.",
+   "prayer": "Señor, que creciste en la familia de Nazaret: bendice a todas las familias de nuestros niños y jóvenes, con sus alegrías y sus heridas. Haznos capaces de acogerlas sin juzgar y de ayudarles a transmitir la fe en su casa. Amén.",
+   "resources": [
+    {
+     "title": "Catecismo de la Iglesia Católica",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a4_sp.html",
+     "note": "Números 2221-2226, sobre los deberes de los padres."
+    }
+   ],
+   "comenzar": "Recuerda un momento de fe que viviste con tu familia cuando eras niño. ¿Qué lo hizo especial?",
+   "logros": [
+    "Reconocer a la familia como primera educadora de la fe.",
+    "Acoger a familias diversas sin juzgar.",
+    "Involucrar a las familias y conectar con la comunidad."
+   ],
+   "profundizar": {
+    "titulo": "Lo que no corresponde al ayudante",
+    "texto": "El ayudante no debe: pedir datos personales a las familias, comunicarse con ellas por su cuenta sin acuerdo del catequista, ni compartir información de los niños fuera del grupo. Todo contacto con las familias se hace por los canales definidos por la parroquia."
+   },
+   "caso": {
+    "titulo": "El Día del Padre",
+    "texto": "Para el Día del Padre, el catequista propone que cada niño haga una tarjeta para su papá. Una niña se queda quieta y luego dice en voz baja que su papá no vive con ella.",
+    "preguntas": [
+     "¿Cómo podrías haber evitado esta situación?",
+     "¿Qué harías en ese momento?"
+    ]
+   },
+   "claves": [
+    [
+     "Iglesia doméstica",
+     "La familia como primer lugar donde se vive y transmite la fe."
+    ],
+    [
+     "Acogida",
+     "Recibir a cada familia sin juicios."
+    ],
+    [
+     "Comunidad",
+     "La parroquia y sus grupos, donde la fe se sigue viviendo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Repíteselas a tus hijos. ¿Qué palabras de fe te repitieron a ti?",
+    "orar": "Reza por las familias de tu grupo de catequesis.",
+    "vivir": "Agradece esta semana a alguien de tu familia por la fe que te transmitió."
+   },
+   "practica": [
+    "Diseñen la tarea para la casa.",
+    "Revisen que sirva para cualquier familia.",
+    "Preséntenla al catequista.",
+    "Úsenla en el próximo encuentro."
+   ],
+   "idea": "La catequesis acompaña a la familia; no la reemplaza."
+  },
+  {
    "title": "Cuidar y crecer como ayudante",
    "objective": "Conocer las reglas de cuidado en la catequesis y cultivar la propia vida de fe y formación como ayudante.",
    "intro": "Quien acompaña a niños y adolescentes tiene una gran responsabilidad: cuidarlos. Y para dar, también necesita cuidarse y seguir creciendo. En esta última unidad vas a conocer las reglas de buen trato en la catequesis y a pensar tu propio camino como ayudante.",
@@ -478,6 +575,26 @@
    ],
    "correct": 1,
    "feedback": "No te toca investigar ni resolver solo: escuchar y avisar."
+  },
+  {
+   "q": "¿Quiénes son los primeros educadores en la fe?",
+   "options": [
+    "Los catequistas",
+    "Los padres y quienes crían",
+    "Los sacerdotes"
+   ],
+   "correct": 1,
+   "feedback": "La catequesis acompaña a la familia, no la reemplaza."
+  },
+  {
+   "q": "Si notas algo preocupante en la situación de un niño, ¿qué haces?",
+   "options": [
+    "Lo resuelves tú directamente con la familia",
+    "Lo conversas con el catequista responsable",
+    "No haces nada"
+   ],
+   "correct": 1,
+   "feedback": "El ayudante no actúa solo: informa al catequista responsable."
   }
  ]
 }

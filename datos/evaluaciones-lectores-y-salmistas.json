@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Es breve, concreta, ruega por otros y no tiene opiniones ni avisos."
+   },
+   {
+    "pregunta": "¿Qué distingue al lector que reza el texto antes de proclamarlo?",
+    "opciones": [
+     "Que lo lee más rápido",
+     "Que lo proclama con sentido, porque primero lo escuchó",
+     "Que no necesita ensayar"
+    ],
+    "correcta": 1,
+    "explicacion": "La preparación espiritual se nota en la proclamación."
+   },
+   {
+    "pregunta": "¿Qué pide la Iglesia sobre la coherencia del lector?",
+    "opciones": [
+     "Ser perfecto antes de leer",
+     "Intentar vivir lo que proclama, como un camino",
+     "Solo leer bien"
+    ],
+    "correcta": 1,
+    "explicacion": "La coherencia es un camino, no un requisito de perfección."
    }
   ]
  }

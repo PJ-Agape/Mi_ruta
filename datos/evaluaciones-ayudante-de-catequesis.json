@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "No te toca investigar ni resolver solo: escuchar y avisar."
+   },
+   {
+    "pregunta": "¿Quiénes son los primeros educadores en la fe?",
+    "opciones": [
+     "Los catequistas",
+     "Los padres y quienes crían",
+     "Los sacerdotes"
+    ],
+    "correcta": 1,
+    "explicacion": "La catequesis acompaña a la familia, no la reemplaza."
+   },
+   {
+    "pregunta": "Si notas algo preocupante en la situación de un niño, ¿qué haces?",
+    "opciones": [
+     "Lo resuelves tú directamente con la familia",
+     "Lo conversas con el catequista responsable",
+     "No haces nada"
+    ],
+    "correcta": 1,
+    "explicacion": "El ayudante no actúa solo: informa al catequista responsable."
    }
   ]
  }

@@ -4,7 +4,7 @@
  "subtitulo": "Cantar la misa, no cantar en la misa",
  "categoria": "Liturgia",
  "publico": "Desde 13 años",
- "descripcion": "Para quienes cantan, tocan un instrumento o animan el canto en las celebraciones: el sentido de la música en la liturgia, cómo elegir los cantos de cada momento, cómo ensayar y animar a la asamblea, y la vida del coro como comunidad. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para quienes cantan, tocan un instrumento o animan el canto en las celebraciones: el sentido de la música en la liturgia, cómo elegir los cantos de cada momento, cómo ensayar y animar a la asamblea, y la vida del coro como comunidad. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Servir con la música",
  "intro": "La música no es un adorno de la misa: es parte de la oración. Esta formación ayuda a coros, cantores y músicos a elegir bien, ensayar mejor y, sobre todo, a lograr que toda la comunidad cante. No necesitas saber leer partituras para hacerla.",
  "unidades": [
@@ -203,6 +203,104 @@
     "Presenten la hoja al sacerdote o al equipo de liturgia."
    ],
    "idea": "Cada momento de la misa pide su canto, y algunos textos no se cambian."
+  },
+  {
+   "title": "Cantar los tiempos y las fiestas",
+   "objective": "Adaptar la música al año litúrgico y a las celebraciones especiales, para que el canto ayude a vivir cada tiempo.",
+   "intro": "La Iglesia no celebra siempre lo mismo: tiene tiempos de espera, de alegría, de conversión y de fiesta. La música es una de las formas más claras de hacer sentir ese ritmo. En esta unidad vas a aprender a elegir y preparar el canto según el tiempo litúrgico y según la celebración.",
+   "sections": [
+    {
+     "title": "El año litúrgico en música",
+     "body": "- **Adviento:** espera sobria y alegre. Cantos de esperanza, instrumentos más sencillos.\n- **Navidad:** fiesta. Villancicos litúrgicos, canto más pleno.\n- **Cuaresma:** conversión y austeridad. No se canta el Aleluya ni el Gloria (salvo en solemnidades y fiestas); el acompañamiento instrumental se modera.\n- **Semana Santa:** el corazón del año. Cada día tiene su carácter: la entrada en Jerusalén, la Cena, la Pasión, el silencio y la Vigilia.\n- **Pascua:** cincuenta días de alegría. Vuelve el Aleluya con fuerza.\n- **Tiempo ordinario:** crecer en la vida cristiana. Variedad, pero sin perder el sentido de cada momento."
+    },
+    {
+     "title": "Sacramentos y celebraciones especiales",
+     "body": "- **Bautismos:** cantos sencillos que la familia pueda cantar; aclamaciones breves.\n- **Primeras comuniones y confirmaciones:** cantos que los niños o jóvenes conozcan y hayan ensayado.\n- **Matrimonios:** acompañar la celebración, no convertirla en un concierto. Las canciones románticas no litúrgicas no reemplazan los cantos de la misa.\n- **Funerales:** cantos de esperanza en la resurrección, con delicadeza y sobriedad."
+    },
+    {
+     "title": "Fiestas de la comunidad",
+     "body": "Cada comunidad tiene sus fiestas: el patrono, el Mes de María, las fiestas religiosas populares. Ahí la música tradicional tiene un lugar especial.\n\n- **Rescatar los cantos de la tradición** que la gente conoce y quiere.\n- **Integrar la religiosidad popular** sin desplazar las partes propias de la misa.\n- **Preguntar a los mayores** qué se cantaba antes: es una forma de cuidar la memoria de la comunidad."
+    },
+    {
+     "title": "Planificar con tiempo",
+     "body": "Un coro que planifica sirve mejor:\n\n- **Calendario anual** con los tiempos y las fiestas marcadas.\n- **Repertorio base por tiempo:** unos pocos cantos por tiempo, bien aprendidos.\n- **Ensayos especiales** para Semana Santa, Navidad y la fiesta patronal, con varias semanas de anticipación.\n- **Coordinación con el párroco** para las celebraciones de sacramentos."
+    }
+   ],
+   "bible": {
+    "ref": "Eclesiastés 3,1-8 · Hay un tiempo para cada cosa",
+    "comment": "«Un tiempo para llorar y un tiempo para reír, un tiempo para lamentarse y un tiempo para bailar». La Escritura reconoce que la vida tiene ritmos. La liturgia también, y la música ayuda a la comunidad a entrar en cada uno de ellos."
+   },
+   "church": [
+    {
+     "source": "Sacrosanctum concilium 102",
+     "text": "La Iglesia celebra a lo largo del año todo el misterio de Cristo, desde la Encarnación hasta Pentecostés y la espera de su venida.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html"
+    },
+    {
+     "source": "Ordenación General del Misal Romano 39-41",
+     "text": "Se debe dar gran importancia al canto en la celebración, según la índole de cada pueblo y de cada asamblea.",
+     "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Tu comunidad nota la diferencia entre la música de Cuaresma y la de Pascua?",
+    "¿Qué cantos de la tradición de tu parroquia te gustaría rescatar?",
+    "¿Cómo se prepara hoy la música de Semana Santa en tu comunidad?",
+    "¿Qué celebración especial te ha costado más acompañar con la música?"
+   ],
+   "activity": "Armen el calendario musical del próximo trimestre: tiempos litúrgicos, fiestas y sacramentos previstos, con dos o tres cantos posibles para cada uno y las fechas de ensayo.",
+   "prayer": "Señor del tiempo y de la historia: enséñanos a cantar contigo la espera, la alegría, la conversión y la fiesta. Que nuestra música ayude a tu pueblo a vivir cada tiempo con el corazón abierto. Amén.",
+   "resources": [
+    {
+     "title": "Sacrosanctum concilium",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html",
+     "note": "Capítulo V, sobre el año litúrgico."
+    }
+   ],
+   "comenzar": "Escribe un canto que asocias a Navidad, uno a Cuaresma y uno a Pascua. ¿Qué tiene cada uno que lo hace propio de ese tiempo?",
+   "logros": [
+    "Distinguir el carácter musical de cada tiempo litúrgico.",
+    "Acompañar sacramentos y fiestas con criterio.",
+    "Planificar el repertorio del año."
+   ],
+   "profundizar": {
+    "titulo": "Cuaresma: el valor de quitar",
+    "texto": "En Cuaresma la liturgia «quita» cosas: el Aleluya, el Gloria, las flores, parte del acompañamiento instrumental. Ese despojo prepara la explosión de la Vigilia Pascual, cuando todo vuelve. Si en Cuaresma se canta igual que siempre, la Pascua pierde fuerza."
+   },
+   "caso": {
+    "titulo": "La canción de los novios",
+    "texto": "Una pareja pide que en su matrimonio, durante la comunión, se cante la canción romántica de moda. El coro no sabe qué responder.",
+    "preguntas": [
+     "¿Qué criterios ayudan a responder?",
+     "¿Qué alternativa podrían ofrecer a los novios?"
+    ]
+   },
+   "claves": [
+    [
+     "Año litúrgico",
+     "Ciclo anual en que la Iglesia celebra el misterio de Cristo."
+    ],
+    [
+     "Tiempo fuerte",
+     "Adviento, Navidad, Cuaresma y Pascua."
+    ],
+    [
+     "Repertorio base",
+     "Conjunto de cantos bien aprendidos para cada tiempo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Hay un tiempo para cada cosa. ¿En qué tiempo está hoy tu vida?",
+    "orar": "Agradece por las fiestas de tu comunidad.",
+    "vivir": "Escucha esta semana un canto propio del tiempo litúrgico actual y reza con él."
+   },
+   "practica": [
+    "Marquen los tiempos y fiestas del trimestre.",
+    "Elijan dos o tres cantos por fecha.",
+    "Fijen los ensayos.",
+    "Compártanlo con el párroco."
+   ],
+   "idea": "La música ayuda a la comunidad a vivir cada tiempo."
   },
   {
    "title": "Ensayar y animar a la asamblea",
@@ -481,6 +579,26 @@
    ],
    "correct": 1,
    "feedback": "Ambas son buenas, pero tienen criterios distintos."
+  },
+  {
+   "q": "¿Qué cambia en la música durante la Cuaresma?",
+   "options": [
+    "Nada, se canta igual",
+    "No se canta el Aleluya y el acompañamiento se modera",
+    "Se canta solo en latín"
+   ],
+   "correct": 1,
+   "feedback": "La austeridad de la Cuaresma prepara la alegría de la Pascua."
+  },
+  {
+   "q": "¿Cuál es un buen criterio para la música de un matrimonio?",
+   "options": [
+    "Cantar las canciones favoritas de los novios",
+    "Acompañar la celebración con cantos litúrgicos, sin convertirla en un concierto",
+    "No cantar nada"
+   ],
+   "correct": 1,
+   "feedback": "El canto sirve a la celebración, también en los sacramentos."
   }
  ]
 }

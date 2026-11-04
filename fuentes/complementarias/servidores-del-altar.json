@@ -4,7 +4,7 @@
  "subtitulo": "Formación para monaguillos y acólitos",
  "categoria": "Liturgia",
  "publico": "Desde 10 años; los menores de 13, junto a un adulto",
- "descripcion": "Para quienes sirven en el altar o quieren empezar: el sentido del servicio, el templo y los objetos sagrados, la misa paso a paso y las celebraciones especiales. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para quienes sirven en el altar o quieren empezar: el sentido del servicio, el templo y los objetos sagrados, la misa paso a paso y las celebraciones especiales. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Servir en el altar",
  "intro": "Servir en el altar es un verdadero ministerio litúrgico: ayuda a que la comunidad celebre con dignidad y es un camino de amistad con Jesús. Esta formación sirve para quienes empiezan y para quienes ya sirven y quieren hacerlo mejor. Conviene recorrerla junto al responsable de los servidores de tu parroquia, porque cada comunidad tiene algunas costumbres propias.",
  "unidades": [
@@ -303,6 +303,104 @@
    "idea": "Cuando conoces el camino, puedes servir en paz."
   },
   {
+   "title": "Un equipo de servidores",
+   "objective": "Organizar el servicio del altar como un equipo: roles, turnos, preparación previa y acogida de nuevos servidores.",
+   "intro": "Servir en el altar no es tarea de una persona sola. Detrás de cada celebración bien servida hay un equipo que se organiza, se prepara y se cuida. En esta unidad vas a pensar cómo funciona tu grupo de servidores y cómo hacer que cualquiera, nuevo o antiguo, sepa qué hacer.",
+   "sections": [
+    {
+     "title": "Muchos servicios, un solo altar",
+     "body": "En una misa con varios servidores, cada uno tiene una tarea clara. Algunos roles frecuentes:\n\n- **Cruz y ciriales:** encabezan la procesión de entrada y salida.\n- **Misal:** sostiene o acerca el misal al sacerdote en la sede y en el altar.\n- **Credencia:** prepara y acerca vinajeras, lavabo, corporal y vasos sagrados.\n- **Turiferario y naveta:** se encargan del incienso, cuando se usa.\n- **Campanilla:** marca los momentos de la consagración, si es costumbre en la parroquia.\n\nCuando cada uno sabe su tarea, el servicio es sereno y nadie corre ni improvisa."
+    },
+    {
+     "title": "Antes de la misa",
+     "body": "El servicio empieza antes de que suene la campana:\n\n- **Llegar con tiempo,** al menos 15 o 20 minutos antes.\n- **Revisar la credencia** con el sacristán o el coordinador: cáliz, patena, corporal, purificador, vinajeras, lavabo.\n- **Repartir los roles** del día y confirmar quién hace qué.\n- **Revestirse con calma** y en silencio.\n- **Orar juntos** un momento breve antes de salir en procesión."
+    },
+    {
+     "title": "Turnos y coordinación",
+     "body": "Un grupo que funciona bien suele tener:\n\n- **Un coordinador o coordinadora** que arma los turnos y es el contacto con el párroco y el sacristán.\n- **Un calendario de turnos** conocido por todos, con reemplazos acordados.\n- **Un canal de aviso** para cuando alguien no puede asistir, con tiempo.\n- **Reuniones breves** para revisar cómo va el servicio y preparar fechas especiales.\n\nCuidar los turnos es cuidar a la comunidad: que nunca falte servicio y que nadie cargue con todo."
+    },
+    {
+     "title": "Recibir y formar a los nuevos",
+     "body": "Los servidores con más experiencia tienen una tarea hermosa: acompañar a los que llegan.\n\n- **Asignar un padrino o madrina** a cada nuevo servidor durante sus primeras misas.\n- **Empezar por roles sencillos** y avanzar poco a poco.\n- **Explicar el sentido,** no solo los movimientos.\n- **Corregir con cariño,** después de la misa y en privado.\n- **Celebrar los pasos:** la primera vez que alguien sirve, el envío anual, el cambio de rol.\n\nCuando hay niños menores de 13 años sirviendo, siempre debe haber un adulto responsable presente."
+    }
+   ],
+   "bible": {
+    "ref": "Romanos 12,4-8 · Muchos miembros, un solo cuerpo",
+    "comment": "Pablo compara a la comunidad con un cuerpo: cada miembro tiene una función distinta y todos son necesarios. Un equipo de servidores vive esto en pequeño: el que lleva la cruz no vale más que el que prepara las vinajeras. Cada servicio, hecho con amor, es parte del mismo cuerpo."
+   },
+   "church": [
+    {
+     "source": "Sacrosanctum concilium 29",
+     "text": "Los acólitos y los demás ministros desempeñan un auténtico ministerio litúrgico, y deben cumplirlo con piedad sincera y orden.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 1140-1144",
+     "text": "Toda la asamblea celebra la liturgia, y dentro de ella cada uno sirve según su función.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p2s1c2a1_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Qué roles existen en tu grupo de servidores? ¿Están claros para todos?",
+    "¿Qué pasa en tu parroquia cuando alguien falta a su turno?",
+    "¿Cómo te recibieron cuando empezaste a servir? ¿Qué te habría ayudado?",
+    "¿Qué podrías enseñarle tú a un servidor nuevo?"
+   ],
+   "activity": "Armen juntos el tablero de su grupo de servidores: lista de roles con su descripción breve, calendario de turnos del próximo mes y una lista de revisión de la credencia. Pónganlo en la sacristía.",
+   "prayer": "Señor, que nos llamas a servir juntos en tu altar: haznos un equipo unido, puntual y alegre. Que nadie se sienta solo en el servicio y que cada uno descubra que su tarea, por pequeña que parezca, es parte de tu obra. Amén.",
+   "resources": [
+    {
+     "title": "Sacrosanctum concilium",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html",
+     "note": "Número 29, sobre los ministerios litúrgicos."
+    }
+   ],
+   "comenzar": "Piensa en la última misa que serviste. Anota qué salió bien y qué se pudo haber preparado mejor antes de empezar.",
+   "logros": [
+    "Reconocer los roles del servicio del altar.",
+    "Organizar turnos y la preparación previa.",
+    "Acompañar a los servidores nuevos."
+   ],
+   "profundizar": {
+    "titulo": "La lista de revisión de la credencia",
+    "texto": "Una lista simple evita olvidos:\n\n- Cáliz, patena y purificador.\n- Corporal y palia.\n- Vinajeras con vino y agua.\n- Lavabo, jarro y manutergio.\n- Copones con hostias suficientes.\n- Misal con las cintas puestas en las páginas del día.\n- Incensario, carbón y naveta, si corresponde."
+   },
+   "caso": {
+    "titulo": "El domingo sin servidores",
+    "texto": "Un domingo, tres de los cuatro servidores avisan a última hora que no pueden ir. El único que llega tiene 12 años y es su segunda vez. El sacerdote empieza la misa sin saber qué pasará.",
+    "preguntas": [
+     "¿Qué falló en la organización del grupo?",
+     "¿Qué acuerdos podrían tomar para que no se repita?"
+    ]
+   },
+   "claves": [
+    [
+     "Credencia",
+     "Mesa lateral donde se preparan los objetos para la celebración."
+    ],
+    [
+     "Turno",
+     "Fecha y rol asignados a cada servidor."
+    ],
+    [
+     "Padrino de servicio",
+     "Servidor con experiencia que acompaña a uno nuevo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Muchos miembros, un solo cuerpo. ¿Qué lugar ocupas tú en el cuerpo de tu grupo?",
+    "orar": "Agradece a quienes te enseñaron a servir.",
+    "vivir": "Ofrécete esta semana para acompañar a un servidor nuevo o para cubrir un turno."
+   },
+   "practica": [
+    "Hagan la lista de roles.",
+    "Armen el calendario de turnos.",
+    "Preparen la lista de revisión de la credencia.",
+    "Asignen padrinos a los nuevos."
+   ],
+   "idea": "En el altar nadie sirve solo: servimos como un cuerpo."
+  },
+  {
    "title": "Celebraciones especiales y vida de servidor",
    "objective": "Conocer el servicio en celebraciones especiales y en los tiempos fuertes del año, y descubrir cómo el servicio del altar se prolonga en la vida diaria.",
    "intro": "Además de la misa de cada domingo, hay celebraciones con ritos especiales: bautismos, matrimonios, funerales y, sobre todo, la Semana Santa. Cada una pide algo distinto al servidor. Y hay algo más importante todavía: que el servicio del altar se note también fuera del templo.",
@@ -481,6 +579,26 @@
    ],
    "correct": 1,
    "feedback": "Es una regla básica de prevención. Si algo te incomoda, cuéntalo a tus padres o a otro adulto de confianza."
+  },
+  {
+   "q": "¿Por qué conviene repartir los roles antes de la misa?",
+   "options": [
+    "Para que los servidores con más experiencia tengan los roles más importantes",
+    "Para que cada uno sepa su tarea y el servicio sea sereno",
+    "Porque así lo exige el sacerdote"
+   ],
+   "correct": 1,
+   "feedback": "Cuando cada uno sabe qué hacer, no hay carreras ni improvisación."
+  },
+  {
+   "q": "¿Qué es lo más importante al recibir a un servidor nuevo?",
+   "options": [
+    "Que aprenda todos los roles en su primera misa",
+    "Acompañarlo con un padrino, empezar por roles sencillos y explicar el sentido",
+    "Que observe durante un año antes de servir"
+   ],
+   "correct": 1,
+   "feedback": "Se aprende acompañado, paso a paso y entendiendo el porqué."
   }
  ]
 }

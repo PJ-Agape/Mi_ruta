@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Producir o compartir imágenes sexuales de menores es un delito."
+   },
+   {
+    "pregunta": "Si alguien te cuenta que sufrió un daño, ¿cuál es la primera actitud?",
+    "opciones": [
+     "Preguntarle por qué no habló antes",
+     "Creerle, no juzgar y avisar a un adulto responsable",
+     "Contarlo al grupo para que lo apoyen"
+    ],
+    "correcta": 1,
+    "explicacion": "Creer, no juzgar y activar a los adultos responsables."
+   },
+   {
+    "pregunta": "¿A quién protege primero la comunidad ante una denuncia?",
+    "opciones": [
+     "A la imagen del grupo",
+     "A la persona afectada",
+     "Al acusado"
+    ],
+    "correcta": 1,
+    "explicacion": "La persona afectada es la prioridad."
    }
   ]
  }

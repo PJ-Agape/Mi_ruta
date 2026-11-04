@@ -4,7 +4,7 @@
  "subtitulo": "Cuidar la casa común con Laudato si'",
  "categoria": "Misión y servicio",
  "publico": "Desde 13 años",
- "descripcion": "Para jóvenes que quieren cuidar la creación desde la fe: la mirada cristiana sobre la naturaleza, la relación entre la crisis ambiental y la pobreza, la conversión ecológica y un proyecto concreto para el grupo. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para jóvenes que quieren cuidar la creación desde la fe: la mirada cristiana sobre la naturaleza, la relación entre la crisis ambiental y la pobreza, la conversión ecológica y un proyecto concreto para el grupo. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Cuidar la casa común",
  "intro": "El papa Francisco escribió en 2015 la encíclica *Laudato si'*, sobre el cuidado de la casa común. En ella invita a todos, y especialmente a los jóvenes, a una conversión ecológica: cambiar la manera de mirar, de vivir y de consumir. Esta formación recorre sus ideas centrales y termina en acción.",
  "unidades": [
@@ -13,27 +13,97 @@
    "objective": "Descubrir la mirada cristiana sobre la creación como don de Dios y la responsabilidad humana de cultivarla y cuidarla.",
    "intro": "Para un cristiano, la naturaleza no es solo un paisaje bonito ni un conjunto de recursos para usar. Es una creación de Dios, un regalo que nos habla de Él y que nos ha sido confiado. En esta unidad vas a mirar el mundo con ojos de fe.",
    "sections": [
-    {"title": "«Alabado seas, mi Señor»", "body": "*Laudato si'* comienza con las palabras del Cántico de las criaturas de san Francisco de Asís, que alaba a Dios por el hermano sol, la hermana luna, el hermano viento, la hermana agua y la hermana madre tierra (Laudato si' 1).\n\nFrancisco de Asís miraba la creación como una gran familia: todo viene del mismo Padre. Por eso la cuidaba con ternura."},
-    {"title": "Creados para cuidar", "body": "En el Génesis, Dios pone al ser humano en el jardín del Edén **«para que lo cultivara y lo cuidara»** (Génesis 2,15). Cultivar significa trabajar, hacer producir; cuidar significa proteger, custodiar, preservar.\n\nLa Biblia no autoriza a dominar la naturaleza sin límite. El papa explica que la expresión «dominar la tierra» se ha interpretado mal: el ser humano es un administrador responsable, no un dueño absoluto (Laudato si' 67)."},
-    {"title": "Todo habla de Dios", "body": "Para la fe cristiana, la creación es como un libro donde Dios se deja ver. Cada criatura refleja algo de su bondad y belleza (Laudato si' 84-88).\n\nPor eso el contacto con la naturaleza puede ser un lugar de oración: una caminata en la cordillera, el mar, un amanecer, un bosque. El asombro abre el corazón a Dios."},
-    {"title": "La tierra clama", "body": "El papa dice que la tierra, nuestra hermana, **clama por el daño que le provocamos** por el uso irresponsable de los bienes que Dios puso en ella (Laudato si' 2). Contaminación, basura, pérdida de especies, cambio climático, escasez de agua.\n\nEn Chile lo vemos en la **sequía prolongada** de la zona central, los **incendios forestales**, la contaminación del aire en algunas ciudades y la acumulación de basura en ríos y playas."}
+    {
+     "title": "«Alabado seas, mi Señor»",
+     "body": "*Laudato si'* comienza con las palabras del Cántico de las criaturas de san Francisco de Asís, que alaba a Dios por el hermano sol, la hermana luna, el hermano viento, la hermana agua y la hermana madre tierra (Laudato si' 1).\n\nFrancisco de Asís miraba la creación como una gran familia: todo viene del mismo Padre. Por eso la cuidaba con ternura."
+    },
+    {
+     "title": "Creados para cuidar",
+     "body": "En el Génesis, Dios pone al ser humano en el jardín del Edén **«para que lo cultivara y lo cuidara»** (Génesis 2,15). Cultivar significa trabajar, hacer producir; cuidar significa proteger, custodiar, preservar.\n\nLa Biblia no autoriza a dominar la naturaleza sin límite. El papa explica que la expresión «dominar la tierra» se ha interpretado mal: el ser humano es un administrador responsable, no un dueño absoluto (Laudato si' 67)."
+    },
+    {
+     "title": "Todo habla de Dios",
+     "body": "Para la fe cristiana, la creación es como un libro donde Dios se deja ver. Cada criatura refleja algo de su bondad y belleza (Laudato si' 84-88).\n\nPor eso el contacto con la naturaleza puede ser un lugar de oración: una caminata en la cordillera, el mar, un amanecer, un bosque. El asombro abre el corazón a Dios."
+    },
+    {
+     "title": "La tierra clama",
+     "body": "El papa dice que la tierra, nuestra hermana, **clama por el daño que le provocamos** por el uso irresponsable de los bienes que Dios puso en ella (Laudato si' 2). Contaminación, basura, pérdida de especies, cambio climático, escasez de agua.\n\nEn Chile lo vemos en la **sequía prolongada** de la zona central, los **incendios forestales**, la contaminación del aire en algunas ciudades y la acumulación de basura en ríos y playas."
+    }
    ],
-   "bible": {"ref": "Génesis 1,26-31 y 2,15 · «Vio Dios que era muy bueno»", "comment": "Dios crea todo y lo mira como bueno; al crear al ser humano, lo mira como muy bueno, y le confía la tierra para cultivarla y cuidarla. La creación es un regalo y una responsabilidad."},
+   "bible": {
+    "ref": "Génesis 1,26-31 y 2,15 · «Vio Dios que era muy bueno»",
+    "comment": "Dios crea todo y lo mira como bueno; al crear al ser humano, lo mira como muy bueno, y le confía la tierra para cultivarla y cuidarla. La creación es un regalo y una responsabilidad."
+   },
    "church": [
-    {"source": "Laudato si' 1-2", "text": "La tierra, nuestra casa común, es como una hermana con la que compartimos la existencia y que hoy clama por el daño que le provocamos.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"},
-    {"source": "Laudato si' 66-67", "text": "El ser humano no es dueño absoluto de la creación: está llamado a cultivarla y cuidarla con responsabilidad.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"}
+    {
+     "source": "Laudato si' 1-2",
+     "text": "La tierra, nuestra casa común, es como una hermana con la que compartimos la existencia y que hoy clama por el daño que le provocamos.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    },
+    {
+     "source": "Laudato si' 66-67",
+     "text": "El ser humano no es dueño absoluto de la creación: está llamado a cultivarla y cuidarla con responsabilidad.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    }
    ],
-   "questions": ["¿En qué lugar de la naturaleza te sientes más cerca de Dios?", "¿Qué diferencia hay entre «dominar» y «cuidar» la tierra?", "¿Qué daño a la creación ves en tu barrio o tu ciudad?", "¿Qué te dice que Dios mirara la creación como «muy buena»?"],
+   "questions": [
+    "¿En qué lugar de la naturaleza te sientes más cerca de Dios?",
+    "¿Qué diferencia hay entre «dominar» y «cuidar» la tierra?",
+    "¿Qué daño a la creación ves en tu barrio o tu ciudad?",
+    "¿Qué te dice que Dios mirara la creación como «muy buena»?"
+   ],
    "activity": "Organicen una caminata o salida a un lugar natural cercano (un cerro, un parque, la playa, un río). Incluyan un momento de silencio y lean juntos el Cántico de las criaturas de san Francisco.",
    "prayer": "Alabado seas, mi Señor, por todas tus criaturas: por el sol que nos da luz, por el agua tan útil y tan humilde, por la tierra que nos sostiene. Enséñame a mirar la creación con asombro y gratitud, y a cuidarla como un regalo que me confías. Amén.",
-   "resources": [{"title": "Laudato si' (Francisco, 2015)", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html", "note": "Encíclica sobre el cuidado de la casa común."}],
+   "resources": [
+    {
+     "title": "Laudato si' (Francisco, 2015)",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+     "note": "Encíclica sobre el cuidado de la casa común."
+    }
+   ],
    "comenzar": "Cierra los ojos y recuerda el lugar natural más bonito que hayas visto. Descríbelo en tu cuaderno: colores, sonidos, olores. ¿Qué sentiste allí?",
-   "logros": ["Reconocer la creación como don de Dios.", "Explicar el llamado a cultivar y cuidar la tierra.", "Identificar daños a la creación en el propio entorno."],
-   "profundizar": {"titulo": "San Francisco de Asís", "texto": "Francisco de Asís (1181-1226) es el patrono de la ecología. Hijo de un comerciante rico, dejó todo para vivir pobre siguiendo a Jesús. Hablaba a las aves, llamaba hermanos al sol y al fuego, y compuso el **Cántico de las criaturas** poco antes de morir, cuando estaba casi ciego.\n\nEl papa Francisco eligió su nombre y lo presenta como ejemplo de una ecología integral vivida con alegría: amor a los pobres, sencillez de vida y ternura con la creación (Laudato si' 10-12)."},
-   "caso": {"titulo": "El paseo de curso", "texto": "En un paseo de curso a la playa, al terminar el día queda basura por todas partes: botellas, envoltorios, colillas. Nadie se hace cargo porque «para eso está la municipalidad».", "preguntas": ["¿Qué actitud frente a la creación muestra esta situación?", "¿Qué podría hacer un joven cristiano en ese momento?"]},
-   "claves": [["Creación", "Todo lo que existe, como obra y regalo de Dios."], ["Casa común", "Expresión del papa para hablar de la tierra que compartimos todos."], ["Custodia", "Responsabilidad de cuidar y proteger lo que se nos confía."]],
-   "lectio": {"meditar": "Dios vio que todo era muy bueno. ¿Miras tú la creación con esa misma bondad?", "orar": "Escribe tu propia estrofa del Cántico de las criaturas, alabando a Dios por algo de la naturaleza.", "vivir": "Recoge esta semana basura que no es tuya en un lugar público."},
-   "practica": ["Organicen la salida con un adulto responsable.", "Incluyan un momento de silencio.", "Lean el Cántico de las criaturas.", "Recojan la basura que encuentren en el lugar."],
+   "logros": [
+    "Reconocer la creación como don de Dios.",
+    "Explicar el llamado a cultivar y cuidar la tierra.",
+    "Identificar daños a la creación en el propio entorno."
+   ],
+   "profundizar": {
+    "titulo": "San Francisco de Asís",
+    "texto": "Francisco de Asís (1181-1226) es el patrono de la ecología. Hijo de un comerciante rico, dejó todo para vivir pobre siguiendo a Jesús. Hablaba a las aves, llamaba hermanos al sol y al fuego, y compuso el **Cántico de las criaturas** poco antes de morir, cuando estaba casi ciego.\n\nEl papa Francisco eligió su nombre y lo presenta como ejemplo de una ecología integral vivida con alegría: amor a los pobres, sencillez de vida y ternura con la creación (Laudato si' 10-12)."
+   },
+   "caso": {
+    "titulo": "El paseo de curso",
+    "texto": "En un paseo de curso a la playa, al terminar el día queda basura por todas partes: botellas, envoltorios, colillas. Nadie se hace cargo porque «para eso está la municipalidad».",
+    "preguntas": [
+     "¿Qué actitud frente a la creación muestra esta situación?",
+     "¿Qué podría hacer un joven cristiano en ese momento?"
+    ]
+   },
+   "claves": [
+    [
+     "Creación",
+     "Todo lo que existe, como obra y regalo de Dios."
+    ],
+    [
+     "Casa común",
+     "Expresión del papa para hablar de la tierra que compartimos todos."
+    ],
+    [
+     "Custodia",
+     "Responsabilidad de cuidar y proteger lo que se nos confía."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Dios vio que todo era muy bueno. ¿Miras tú la creación con esa misma bondad?",
+    "orar": "Escribe tu propia estrofa del Cántico de las criaturas, alabando a Dios por algo de la naturaleza.",
+    "vivir": "Recoge esta semana basura que no es tuya en un lugar público."
+   },
+   "practica": [
+    "Organicen la salida con un adulto responsable.",
+    "Incluyan un momento de silencio.",
+    "Lean el Cántico de las criaturas.",
+    "Recojan la basura que encuentren en el lugar."
+   ],
    "idea": "La creación es un regalo que se agradece y se cuida."
   },
   {
@@ -41,55 +111,293 @@
    "objective": "Comprender la ecología integral: la relación entre el cuidado del ambiente, la justicia con los pobres y la vida de las personas.",
    "intro": "Una idea atraviesa toda *Laudato si'*: todo está conectado. No se puede separar el cuidado de la naturaleza del cuidado de las personas, especialmente de los más pobres. En esta unidad vas a descubrir qué significa una ecología integral.",
    "sections": [
-    {"title": "El clamor de la tierra y el clamor de los pobres", "body": "El papa dice que un verdadero planteamiento ecológico se convierte siempre en un planteamiento social, para escuchar tanto **el clamor de la tierra como el clamor de los pobres** (Laudato si' 49).\n\nLos más pobres son los que más sufren la contaminación, la falta de agua, los desastres naturales y el cambio climático, porque viven en los lugares más expuestos y tienen menos recursos para protegerse."},
-    {"title": "Ecología integral", "body": "La **ecología integral** mira todas las dimensiones a la vez (Laudato si' 137-142):\n\n- **Ambiental:** el aire, el agua, la tierra, los seres vivos.\n- **Económica y social:** cómo producimos, consumimos y repartimos.\n- **Cultural:** el respeto por las culturas y los pueblos, en especial los pueblos originarios.\n- **De la vida cotidiana:** la ciudad, la vivienda, el transporte, los espacios públicos.\n- **Humana:** el respeto por el propio cuerpo y por la vida en todas sus etapas."},
-    {"title": "La cultura del descarte", "body": "El papa denuncia una **cultura del descarte**: se usan y se botan las cosas con facilidad, y la misma lógica termina aplicándose a las personas que «no sirven»: los pobres, los ancianos, los enfermos, los no nacidos (Laudato si' 20-22).\n\nCuidar la creación también es aprender a valorar lo que tenemos, reparar en vez de botar, y no tratar a nadie como desechable."},
-    {"title": "El cambio climático", "body": "El clima es un bien común. La gran mayoría de los científicos coincide en que el calentamiento del planeta se debe en gran parte a la actividad humana (Laudato si' 23). En 2023, el papa Francisco volvió sobre el tema en la exhortación *Laudate Deum*, insistiendo en la urgencia de actuar.\n\nNo se trata de tener miedo, sino de asumir responsabilidad: como personas, como comunidades y como sociedad."}
+    {
+     "title": "El clamor de la tierra y el clamor de los pobres",
+     "body": "El papa dice que un verdadero planteamiento ecológico se convierte siempre en un planteamiento social, para escuchar tanto **el clamor de la tierra como el clamor de los pobres** (Laudato si' 49).\n\nLos más pobres son los que más sufren la contaminación, la falta de agua, los desastres naturales y el cambio climático, porque viven en los lugares más expuestos y tienen menos recursos para protegerse."
+    },
+    {
+     "title": "Ecología integral",
+     "body": "La **ecología integral** mira todas las dimensiones a la vez (Laudato si' 137-142):\n\n- **Ambiental:** el aire, el agua, la tierra, los seres vivos.\n- **Económica y social:** cómo producimos, consumimos y repartimos.\n- **Cultural:** el respeto por las culturas y los pueblos, en especial los pueblos originarios.\n- **De la vida cotidiana:** la ciudad, la vivienda, el transporte, los espacios públicos.\n- **Humana:** el respeto por el propio cuerpo y por la vida en todas sus etapas."
+    },
+    {
+     "title": "La cultura del descarte",
+     "body": "El papa denuncia una **cultura del descarte**: se usan y se botan las cosas con facilidad, y la misma lógica termina aplicándose a las personas que «no sirven»: los pobres, los ancianos, los enfermos, los no nacidos (Laudato si' 20-22).\n\nCuidar la creación también es aprender a valorar lo que tenemos, reparar en vez de botar, y no tratar a nadie como desechable."
+    },
+    {
+     "title": "El cambio climático",
+     "body": "El clima es un bien común. La gran mayoría de los científicos coincide en que el calentamiento del planeta se debe en gran parte a la actividad humana (Laudato si' 23). En 2023, el papa Francisco volvió sobre el tema en la exhortación *Laudate Deum*, insistiendo en la urgencia de actuar.\n\nNo se trata de tener miedo, sino de asumir responsabilidad: como personas, como comunidades y como sociedad."
+    }
    ],
-   "bible": {"ref": "Romanos 8,19-23 · La creación espera", "comment": "Pablo dice que toda la creación gime como con dolores de parto, esperando ser liberada. La salvación que trae Cristo no es solo para las almas: abarca a toda la creación, que también espera ser renovada."},
+   "bible": {
+    "ref": "Romanos 8,19-23 · La creación espera",
+    "comment": "Pablo dice que toda la creación gime como con dolores de parto, esperando ser liberada. La salvación que trae Cristo no es solo para las almas: abarca a toda la creación, que también espera ser renovada."
+   },
    "church": [
-    {"source": "Laudato si' 49 y 137-142", "text": "Un verdadero planteamiento ecológico escucha el clamor de la tierra y el clamor de los pobres; la ecología integral incluye las dimensiones ambiental, económica, social, cultural y humana.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"},
-    {"source": "Laudate Deum (Francisco, 2023)", "text": "El papa insiste en la urgencia de responder a la crisis climática con decisiones concretas.", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/20231004-laudate-deum.html"}
+    {
+     "source": "Laudato si' 49 y 137-142",
+     "text": "Un verdadero planteamiento ecológico escucha el clamor de la tierra y el clamor de los pobres; la ecología integral incluye las dimensiones ambiental, económica, social, cultural y humana.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    },
+    {
+     "source": "Laudate Deum (Francisco, 2023)",
+     "text": "El papa insiste en la urgencia de responder a la crisis climática con decisiones concretas.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/20231004-laudate-deum.html"
+    }
    ],
-   "questions": ["¿Qué ejemplo conoces de cómo la crisis ambiental afecta más a los pobres?", "¿Dónde ves la cultura del descarte en tu vida diaria?", "¿Qué dimensión de la ecología integral te parece más olvidada?", "¿Qué te dice que toda la creación «espere» la salvación?"],
+   "questions": [
+    "¿Qué ejemplo conoces de cómo la crisis ambiental afecta más a los pobres?",
+    "¿Dónde ves la cultura del descarte en tu vida diaria?",
+    "¿Qué dimensión de la ecología integral te parece más olvidada?",
+    "¿Qué te dice que toda la creación «espere» la salvación?"
+   ],
    "activity": "Hagan un «mapa de conexiones»: escojan un problema ambiental de su zona (por ejemplo, la escasez de agua o la basura) y dibujen cómo afecta a las personas, a la economía, a la salud y a los más pobres. Compártanlo con el grupo.",
    "prayer": "Señor, que todo lo creaste y todo lo sostienes: enséñanos a ver que todo está conectado. Que no separemos el cuidado de la tierra del cuidado de los pobres. Líbranos de la cultura del descarte, y haz de nosotros instrumentos de tu creación renovada. Amén.",
-   "resources": [{"title": "Laudate Deum (Francisco, 2023)", "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/20231004-laudate-deum.html", "note": "Exhortación sobre la crisis climática."}],
+   "resources": [
+    {
+     "title": "Laudate Deum (Francisco, 2023)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/20231004-laudate-deum.html",
+     "note": "Exhortación sobre la crisis climática."
+    }
+   ],
    "comenzar": "Piensa en algo que usaste hoy (una botella, una prenda, un celular). Intenta escribir su historia: de dónde vino, quién lo hizo, a dónde irá cuando lo botes. ¿Qué descubres?",
-   "logros": ["Explicar la relación entre crisis ambiental y pobreza.", "Describir las dimensiones de la ecología integral.", "Reconocer la cultura del descarte en la vida cotidiana."],
-   "profundizar": {"titulo": "El agua, un derecho", "texto": "El papa dice que el acceso al agua potable y segura es un **derecho humano básico**, porque determina la sobrevivencia de las personas (Laudato si' 30).\n\nEn Chile, varias comunas rurales dependen de camiones aljibe para tener agua para beber. Cuidar el agua en la casa (duchas más cortas, cerrar la llave, reparar filtraciones) no resuelve todo, pero es una forma concreta de solidaridad y de conciencia."},
-   "caso": {"titulo": "«Eso es tema de científicos»", "texto": "En el grupo, alguien dice: «Esto del medio ambiente es tema de científicos y políticos. ¿Qué tiene que ver con la fe?».", "preguntas": ["¿Qué responderías usando lo aprendido en esta unidad?", "¿Por qué el papa escribió una encíclica sobre este tema?"]},
-   "claves": [["Ecología integral", "Mirada que une el cuidado del ambiente, la justicia social y la dignidad humana."], ["Cultura del descarte", "Actitud de usar y botar cosas y personas con facilidad."], ["Bien común", "Lo que es de todos y permite que todos vivan dignamente, como el clima y el agua."]],
-   "lectio": {"meditar": "La creación gime esperando ser liberada. ¿Qué gemidos de la creación y de los pobres escuchas a tu alrededor?", "orar": "Presenta a Dios un problema ambiental de tu zona y a las personas que lo sufren.", "vivir": "Esta semana, repara algo en vez de botarlo, o regala lo que ya no usas."},
-   "practica": ["Elijan un problema ambiental de su zona.", "Dibujen el mapa de conexiones.", "Identifiquen a quiénes afecta más.", "Compartan el mapa con el grupo."],
+   "logros": [
+    "Explicar la relación entre crisis ambiental y pobreza.",
+    "Describir las dimensiones de la ecología integral.",
+    "Reconocer la cultura del descarte en la vida cotidiana."
+   ],
+   "profundizar": {
+    "titulo": "El agua, un derecho",
+    "texto": "El papa dice que el acceso al agua potable y segura es un **derecho humano básico**, porque determina la sobrevivencia de las personas (Laudato si' 30).\n\nEn Chile, varias comunas rurales dependen de camiones aljibe para tener agua para beber. Cuidar el agua en la casa (duchas más cortas, cerrar la llave, reparar filtraciones) no resuelve todo, pero es una forma concreta de solidaridad y de conciencia."
+   },
+   "caso": {
+    "titulo": "«Eso es tema de científicos»",
+    "texto": "En el grupo, alguien dice: «Esto del medio ambiente es tema de científicos y políticos. ¿Qué tiene que ver con la fe?».",
+    "preguntas": [
+     "¿Qué responderías usando lo aprendido en esta unidad?",
+     "¿Por qué el papa escribió una encíclica sobre este tema?"
+    ]
+   },
+   "claves": [
+    [
+     "Ecología integral",
+     "Mirada que une el cuidado del ambiente, la justicia social y la dignidad humana."
+    ],
+    [
+     "Cultura del descarte",
+     "Actitud de usar y botar cosas y personas con facilidad."
+    ],
+    [
+     "Bien común",
+     "Lo que es de todos y permite que todos vivan dignamente, como el clima y el agua."
+    ]
+   ],
+   "lectio": {
+    "meditar": "La creación gime esperando ser liberada. ¿Qué gemidos de la creación y de los pobres escuchas a tu alrededor?",
+    "orar": "Presenta a Dios un problema ambiental de tu zona y a las personas que lo sufren.",
+    "vivir": "Esta semana, repara algo en vez de botarlo, o regala lo que ya no usas."
+   },
+   "practica": [
+    "Elijan un problema ambiental de su zona.",
+    "Dibujen el mapa de conexiones.",
+    "Identifiquen a quiénes afecta más.",
+    "Compartan el mapa con el grupo."
+   ],
    "idea": "Todo está conectado: cuidar la tierra es cuidar a los pobres."
+  },
+  {
+   "title": "Ecología de la vida cotidiana",
+   "objective": "Descubrir que la ecología integral empieza en los espacios de cada día: el cuerpo, la casa, el barrio y las relaciones.",
+   "intro": "Cuando pensamos en ecología, pensamos en bosques, glaciares y océanos. Pero el papa Francisco también habla de una «ecología de la vida cotidiana»: cómo cuidamos nuestro cuerpo, nuestra casa, nuestro barrio y la forma en que convivimos. En esta unidad vas a mirar tu entorno más cercano.",
+   "sections": [
+    {
+     "title": "El lugar donde vivimos",
+     "body": "Los espacios influyen en cómo vivimos y nos relacionamos. Un barrio con plazas, árboles, luz y lugares de encuentro ayuda a convivir mejor. Uno con basura, abandono o inseguridad hace todo más difícil.\n\nPreguntas para mirar tu entorno:\n\n- **¿Hay lugares de encuentro** para niños, jóvenes y adultos mayores?\n- **¿Cómo está el aseo** de las calles y plazas?\n- **¿Qué espacios están abandonados** y podrían recuperarse?\n- **¿Quiénes están más solos** en tu barrio?"
+    },
+    {
+     "title": "Ecología humana",
+     "body": "Cuidar la creación incluye cuidar el propio cuerpo y aceptarlo como un regalo. También incluye respetar el cuerpo de los demás.\n\n- **Descanso, alimentación y movimiento:** el cuerpo también es casa común.\n- **Aceptar el propio cuerpo,** sin compararse con modelos imposibles de las redes.\n- **Cuidar el cuerpo de otros:** no burlarse, no exponer, no dañar."
+    },
+    {
+     "title": "Relaciones que cuidan",
+     "body": "La ecología integral también es social. Un barrio sano es uno donde:\n\n- **Los vecinos se conocen** y se saludan.\n- **Se cuida a los más frágiles:** adultos mayores solos, personas con discapacidad, familias migrantes.\n- **Los conflictos se conversan** antes de que crezcan.\n- **Hay lugar para los jóvenes,** que no son vistos como un problema sino como una fuerza."
+    },
+    {
+     "title": "Pequeñas acciones en tu entorno",
+     "body": "- **Adoptar un espacio:** una plaza, una jardinera, el patio de la parroquia.\n- **Organizar una jornada de limpieza** con los vecinos.\n- **Visitar a un adulto mayor** que vive solo.\n- **Crear un punto de reciclaje** en la parroquia o el colegio.\n- **Recuperar un lugar de encuentro:** pintar, plantar, iluminar."
+    }
+   ],
+   "bible": {
+    "ref": "Jeremías 29,5-7 · Busquen el bien de la ciudad",
+    "comment": "A los israelitas desterrados en Babilonia, Dios les dice: «Construyan casas, planten huertos… busquen el bien de la ciudad adonde los desterré y rueguen por ella al Señor, porque de su bien dependerá el de ustedes». Cuidar el lugar donde vivimos es parte de nuestra fe."
+   },
+   "church": [
+    {
+     "source": "Laudato si' 147-148",
+     "text": "Los espacios donde vivimos influyen en nuestra manera de ver la vida, sentir y actuar; hace falta cuidar los lugares comunes y los vínculos que los hacen habitables.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    },
+    {
+     "source": "Laudato si' 155",
+     "text": "La ecología humana implica aceptar el propio cuerpo como don de Dios y cuidarlo, reconociendo también al otro en su diferencia.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    }
+   ],
+   "questions": [
+    "¿Qué lugar de tu barrio te gusta más? ¿Por qué?",
+    "¿Qué espacio cercano está descuidado y podría recuperarse?",
+    "¿Cómo te relacionas con tu propio cuerpo? ¿Lo cuidas?",
+    "¿Quién en tu barrio podría necesitar compañía?"
+   ],
+   "activity": "Hagan un recorrido por el entorno de la parroquia o del lugar de encuentro. Anoten lo que encuentran: espacios descuidados, lugares de encuentro, personas que podrían necesitar algo. Elijan una acción pequeña para hacer en el próximo mes.",
+   "prayer": "Señor, que nos pides buscar el bien de la ciudad: abre nuestros ojos para ver el barrio donde vivimos. Ayúdanos a cuidar los espacios comunes, nuestro cuerpo y a las personas que están más solas. Que nuestra fe se note en el lugar donde vivimos. Amén.",
+   "resources": [
+    {
+     "title": "Laudato si' (Francisco, 2015)",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+     "note": "Números 147-155, sobre la ecología de la vida cotidiana."
+    }
+   ],
+   "comenzar": "Dibuja un mapa simple de tu barrio con tres lugares que usas cada semana.",
+   "logros": [
+    "Mirar el entorno cercano desde la ecología integral.",
+    "Reconocer el cuidado del cuerpo como parte de la ecología humana.",
+    "Proponer acciones concretas en el barrio."
+   ],
+   "profundizar": {
+    "titulo": "Pedir permiso y sumar a otros",
+    "texto": "Antes de intervenir un espacio público, conversen con la junta de vecinos o la municipalidad. Muchas municipalidades apoyan con herramientas, plantas o retiro de basura. Sumar a los vecinos hace que el cuidado dure más que una jornada."
+   },
+   "caso": {
+    "titulo": "La plaza de los columpios rotos",
+    "texto": "Frente a la capilla hay una plaza con columpios rotos y basura. Los niños ya no van y los adultos dicen que es peligrosa. El grupo juvenil se pregunta si es su problema.",
+    "preguntas": [
+     "¿Es tarea del grupo hacer algo?",
+     "¿Qué primer paso podrían dar?"
+    ]
+   },
+   "claves": [
+    [
+     "Ecología de la vida cotidiana",
+     "Cuidado de los espacios y relaciones de cada día."
+    ],
+    [
+     "Ecología humana",
+     "Cuidado del propio cuerpo y respeto por el de los demás."
+    ],
+    [
+     "Bien común",
+     "Condiciones que permiten a todos vivir mejor."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Busquen el bien de la ciudad. ¿Qué bien necesita tu barrio?",
+    "orar": "Reza por tus vecinos, uno por uno si puedes.",
+    "vivir": "Saluda esta semana a un vecino con el que nunca has hablado."
+   },
+   "practica": [
+    "Hagan el recorrido.",
+    "Anoten lo que encuentran.",
+    "Elijan una acción.",
+    "Planifiquen el primer paso."
+   ],
+   "idea": "La casa común empieza en la puerta de tu casa."
   },
   {
    "title": "Conversión ecológica",
    "objective": "Comprender la conversión ecológica como cambio interior y de estilo de vida, y asumir gestos concretos de cuidado de la creación.",
    "intro": "El papa no propone solo cambiar algunas costumbres: propone una conversión, un cambio de corazón que se nota en la manera de vivir. En esta unidad vas a descubrir qué es la conversión ecológica y qué gestos concretos están a tu alcance.",
    "sections": [
-    {"title": "Un cambio de corazón", "body": "La crisis ecológica es un llamado a una profunda **conversión interior** (Laudato si' 217). No basta con saber datos: hace falta que el encuentro con Jesús se note en la relación con el mundo que nos rodea.\n\nEsta conversión incluye **gratitud** por lo que Dios nos da, la conciencia de que **no estamos desconectados** de las demás criaturas, y la **responsabilidad** de cuidar (Laudato si' 220)."},
-    {"title": "Menos es más", "body": "El papa propone una espiritualidad de la **sobriedad**: disfrutar con poco, valorar cada cosa, no vivir obsesionados con consumir. La felicidad no está en tener más, sino en encontrarse, servir, agradecer y gozar de lo sencillo (Laudato si' 222-224).\n\nEsto es contracultural en un mundo que constantemente nos invita a comprar."},
-    {"title": "Pequeños gestos, gran valor", "body": "*Laudato si'* nombra gestos concretos (n. 211):\n\n- Evitar el uso de plástico y papel.\n- Reducir el consumo de agua.\n- Separar los residuos.\n- Cocinar solo lo que razonablemente se podrá comer.\n- Tratar con cuidado a los demás seres vivos.\n- Usar transporte público o compartir vehículo.\n- Plantar árboles.\n- Apagar las luces innecesarias.\n\nEl papa dice que estos gestos no son inútiles: derraman un bien en la sociedad que siempre produce frutos (n. 212)."},
-    {"title": "Una espiritualidad ecológica", "body": "- **Dar gracias** antes y después de las comidas.\n- **Contemplar:** un rato de silencio en la naturaleza.\n- **Descansar el domingo:** el día del Señor también es un día para descansar del consumo y del ruido (Laudato si' 237).\n- **Rezar con la creación:** los Salmos están llenos de alabanzas por la naturaleza.\n- **Celebrar el Tiempo de la Creación:** entre el 1 de septiembre y el 4 de octubre, fiesta de san Francisco de Asís, la Iglesia reza especialmente por el cuidado de la casa común."}
+    {
+     "title": "Un cambio de corazón",
+     "body": "La crisis ecológica es un llamado a una profunda **conversión interior** (Laudato si' 217). No basta con saber datos: hace falta que el encuentro con Jesús se note en la relación con el mundo que nos rodea.\n\nEsta conversión incluye **gratitud** por lo que Dios nos da, la conciencia de que **no estamos desconectados** de las demás criaturas, y la **responsabilidad** de cuidar (Laudato si' 220)."
+    },
+    {
+     "title": "Menos es más",
+     "body": "El papa propone una espiritualidad de la **sobriedad**: disfrutar con poco, valorar cada cosa, no vivir obsesionados con consumir. La felicidad no está en tener más, sino en encontrarse, servir, agradecer y gozar de lo sencillo (Laudato si' 222-224).\n\nEsto es contracultural en un mundo que constantemente nos invita a comprar."
+    },
+    {
+     "title": "Pequeños gestos, gran valor",
+     "body": "*Laudato si'* nombra gestos concretos (n. 211):\n\n- Evitar el uso de plástico y papel.\n- Reducir el consumo de agua.\n- Separar los residuos.\n- Cocinar solo lo que razonablemente se podrá comer.\n- Tratar con cuidado a los demás seres vivos.\n- Usar transporte público o compartir vehículo.\n- Plantar árboles.\n- Apagar las luces innecesarias.\n\nEl papa dice que estos gestos no son inútiles: derraman un bien en la sociedad que siempre produce frutos (n. 212)."
+    },
+    {
+     "title": "Una espiritualidad ecológica",
+     "body": "- **Dar gracias** antes y después de las comidas.\n- **Contemplar:** un rato de silencio en la naturaleza.\n- **Descansar el domingo:** el día del Señor también es un día para descansar del consumo y del ruido (Laudato si' 237).\n- **Rezar con la creación:** los Salmos están llenos de alabanzas por la naturaleza.\n- **Celebrar el Tiempo de la Creación:** entre el 1 de septiembre y el 4 de octubre, fiesta de san Francisco de Asís, la Iglesia reza especialmente por el cuidado de la casa común."
+    }
    ],
-   "bible": {"ref": "Mateo 6,25-34 · Miren las aves del cielo", "comment": "Jesús invita a mirar las aves y los lirios del campo, que no se angustian por acumular, porque el Padre los cuida. No es una invitación a la irresponsabilidad, sino a la confianza y a la sencillez: buscar primero el Reino de Dios y no vivir esclavos de las cosas."},
+   "bible": {
+    "ref": "Mateo 6,25-34 · Miren las aves del cielo",
+    "comment": "Jesús invita a mirar las aves y los lirios del campo, que no se angustian por acumular, porque el Padre los cuida. No es una invitación a la irresponsabilidad, sino a la confianza y a la sencillez: buscar primero el Reino de Dios y no vivir esclavos de las cosas."
+   },
    "church": [
-    {"source": "Laudato si' 211-212", "text": "La educación ambiental se traduce en gestos cotidianos de cuidado, que derraman un bien en la sociedad aunque no se vean.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"},
-    {"source": "Laudato si' 216-221", "text": "La conversión ecológica implica dejar brotar todas las consecuencias del encuentro con Jesucristo en la relación con el mundo.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"}
+    {
+     "source": "Laudato si' 211-212",
+     "text": "La educación ambiental se traduce en gestos cotidianos de cuidado, que derraman un bien en la sociedad aunque no se vean.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    },
+    {
+     "source": "Laudato si' 216-221",
+     "text": "La conversión ecológica implica dejar brotar todas las consecuencias del encuentro con Jesucristo en la relación con el mundo.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    }
    ],
-   "questions": ["¿Qué hábito tuyo daña más la creación?", "¿Qué gesto de la lista de Laudato si' 211 te resulta más fácil? ¿Cuál el más difícil?", "¿Qué significa para ti «menos es más»?", "¿Cómo podrías incluir la creación en tu oración?"],
+   "questions": [
+    "¿Qué hábito tuyo daña más la creación?",
+    "¿Qué gesto de la lista de Laudato si' 211 te resulta más fácil? ¿Cuál el más difícil?",
+    "¿Qué significa para ti «menos es más»?",
+    "¿Cómo podrías incluir la creación en tu oración?"
+   ],
    "activity": "Cada participante elige tres gestos concretos de cuidado de la creación y los practica durante tres semanas, anotando en su cuaderno cómo le va. El grupo los revisa al final.",
    "prayer": "Señor, que vistes los lirios del campo y alimentas a las aves del cielo: libérame de la ansiedad de tener más. Enséñame a vivir con sencillez, a agradecer cada cosa y a cuidar tu creación con pequeños gestos de amor. Que mi vida sea una alabanza a tu nombre. Amén.",
-   "resources": [{"title": "Laudato si', capítulo 6", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html", "note": "Educación y espiritualidad ecológica, números 202-246."}],
+   "resources": [
+    {
+     "title": "Laudato si', capítulo 6",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+     "note": "Educación y espiritualidad ecológica, números 202-246."
+    }
+   ],
    "comenzar": "Haz una lista de todo lo que botaste a la basura ayer. ¿Qué podrías haber evitado, reutilizado o reciclado?",
-   "logros": ["Explicar qué es la conversión ecológica.", "Valorar la sobriedad como camino de felicidad.", "Asumir gestos concretos y una espiritualidad de cuidado de la creación."],
-   "profundizar": {"titulo": "Consumir con conciencia", "texto": "Antes de comprar algo, algunas preguntas útiles:\n\n- **¿Lo necesito de verdad,** o solo lo quiero en este momento?\n- **¿Puedo pedirlo prestado,** comprarlo usado o repararlo?\n- **¿Cuánto durará?**\n- **¿Quién lo hizo y en qué condiciones?**\n- **¿Qué pasará con él cuando ya no lo use?**\n\nEl papa recuerda que comprar es siempre un acto moral, no solo económico (Laudato si' 206)."},
-   "caso": {"titulo": "La moda rápida", "texto": "Javiera compra ropa nueva casi todas las semanas por internet porque es barata. Usa cada prenda unas pocas veces y luego la bota. Dice que no tiene nada de malo porque «es su plata».", "preguntas": ["¿Qué consecuencias tiene este hábito para la creación y para otras personas?", "¿Qué alternativas podría considerar Javiera?"]},
-   "claves": [["Conversión ecológica", "Cambio interior que transforma la relación con la creación."], ["Sobriedad", "Vivir con sencillez, disfrutando con poco."], ["Tiempo de la Creación", "Período del 1 de septiembre al 4 de octubre dedicado a orar por el cuidado de la creación."]],
-   "lectio": {"meditar": "Jesús invita a no angustiarse por acumular. ¿Qué cosas te tienen ansioso o esclavo?", "orar": "Agradece a Dios por diez cosas sencillas que tienes y que muchas veces das por hecho.", "vivir": "Practica tus tres gestos de cuidado durante tres semanas."},
-   "practica": ["Cada uno elige tres gestos.", "Los anota en su cuaderno.", "Los practica durante tres semanas.", "El grupo comparte cómo le fue."],
+   "logros": [
+    "Explicar qué es la conversión ecológica.",
+    "Valorar la sobriedad como camino de felicidad.",
+    "Asumir gestos concretos y una espiritualidad de cuidado de la creación."
+   ],
+   "profundizar": {
+    "titulo": "Consumir con conciencia",
+    "texto": "Antes de comprar algo, algunas preguntas útiles:\n\n- **¿Lo necesito de verdad,** o solo lo quiero en este momento?\n- **¿Puedo pedirlo prestado,** comprarlo usado o repararlo?\n- **¿Cuánto durará?**\n- **¿Quién lo hizo y en qué condiciones?**\n- **¿Qué pasará con él cuando ya no lo use?**\n\nEl papa recuerda que comprar es siempre un acto moral, no solo económico (Laudato si' 206)."
+   },
+   "caso": {
+    "titulo": "La moda rápida",
+    "texto": "Javiera compra ropa nueva casi todas las semanas por internet porque es barata. Usa cada prenda unas pocas veces y luego la bota. Dice que no tiene nada de malo porque «es su plata».",
+    "preguntas": [
+     "¿Qué consecuencias tiene este hábito para la creación y para otras personas?",
+     "¿Qué alternativas podría considerar Javiera?"
+    ]
+   },
+   "claves": [
+    [
+     "Conversión ecológica",
+     "Cambio interior que transforma la relación con la creación."
+    ],
+    [
+     "Sobriedad",
+     "Vivir con sencillez, disfrutando con poco."
+    ],
+    [
+     "Tiempo de la Creación",
+     "Período del 1 de septiembre al 4 de octubre dedicado a orar por el cuidado de la creación."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús invita a no angustiarse por acumular. ¿Qué cosas te tienen ansioso o esclavo?",
+    "orar": "Agradece a Dios por diez cosas sencillas que tienes y que muchas veces das por hecho.",
+    "vivir": "Practica tus tres gestos de cuidado durante tres semanas."
+   },
+   "practica": [
+    "Cada uno elige tres gestos.",
+    "Los anota en su cuaderno.",
+    "Los practica durante tres semanas.",
+    "El grupo comparte cómo le fue."
+   ],
    "idea": "Pequeños gestos de cuidado derraman un bien que siempre da fruto."
   },
   {
@@ -97,38 +405,200 @@
    "objective": "Diseñar y realizar un proyecto ecológico como grupo, que una acción concreta, educación y oración.",
    "intro": "Los cambios personales son importantes, pero el papa insiste en que también hacen falta acciones comunitarias. Un grupo juvenil puede hacer mucho por su barrio, su parroquia o su colegio. En esta unidad vas a diseñar un proyecto ecológico con tu grupo.",
    "sections": [
-    {"title": "Acción comunitaria", "body": "El papa dice que a los problemas sociales se responde con redes comunitarias, no con la mera suma de bienes individuales (Laudato si' 219). Un grupo que se organiza puede:\n\n- Cambiar las costumbres de su propia comunidad.\n- Educar e inspirar a otros.\n- Colaborar con organizaciones y autoridades locales.\n- Mostrar con hechos que otra forma de vivir es posible."},
-    {"title": "Ideas de proyectos", "body": "- **Parroquia verde:** reducir el uso de desechables en las actividades, instalar puntos de reciclaje, cuidar los jardines.\n- **Huerto comunitario** en la parroquia o el colegio.\n- **Limpieza de un espacio natural:** una playa, un río, un cerro o una plaza.\n- **Plantación de árboles nativos** coordinada con la municipalidad o con organizaciones especializadas.\n- **Campaña de ahorro de agua y energía** en la comunidad.\n- **Feria de intercambio** de ropa, libros y juguetes.\n- **Celebración del Tiempo de la Creación** con una misa, una caminata y una oración."},
-    {"title": "Los pasos del proyecto", "body": "1. **Diagnóstico:** ¿qué problema ambiental tiene nuestra comunidad?\n2. **Objetivo:** una meta concreta y medible.\n3. **Plan:** actividades, responsables, recursos, fechas y permisos.\n4. **Educación:** cómo vamos a explicar a otros por qué lo hacemos.\n5. **Oración:** cómo vamos a unir el proyecto a la fe.\n6. **Ejecución y evaluación.**"},
-    {"title": "Cuidados", "body": "- Toda actividad al aire libre se hace con **adultos responsables** y autorización de los padres para los menores.\n- En limpiezas, usar **guantes** y no tocar objetos cortantes ni residuos peligrosos (jeringas, vidrios, químicos): se señalan y se avisa a un adulto.\n- Cuidarse del **sol** y llevar **agua**.\n- Pedir los **permisos** necesarios para intervenir espacios públicos."}
+    {
+     "title": "Acción comunitaria",
+     "body": "El papa dice que a los problemas sociales se responde con redes comunitarias, no con la mera suma de bienes individuales (Laudato si' 219). Un grupo que se organiza puede:\n\n- Cambiar las costumbres de su propia comunidad.\n- Educar e inspirar a otros.\n- Colaborar con organizaciones y autoridades locales.\n- Mostrar con hechos que otra forma de vivir es posible."
+    },
+    {
+     "title": "Ideas de proyectos",
+     "body": "- **Parroquia verde:** reducir el uso de desechables en las actividades, instalar puntos de reciclaje, cuidar los jardines.\n- **Huerto comunitario** en la parroquia o el colegio.\n- **Limpieza de un espacio natural:** una playa, un río, un cerro o una plaza.\n- **Plantación de árboles nativos** coordinada con la municipalidad o con organizaciones especializadas.\n- **Campaña de ahorro de agua y energía** en la comunidad.\n- **Feria de intercambio** de ropa, libros y juguetes.\n- **Celebración del Tiempo de la Creación** con una misa, una caminata y una oración."
+    },
+    {
+     "title": "Los pasos del proyecto",
+     "body": "1. **Diagnóstico:** ¿qué problema ambiental tiene nuestra comunidad?\n2. **Objetivo:** una meta concreta y medible.\n3. **Plan:** actividades, responsables, recursos, fechas y permisos.\n4. **Educación:** cómo vamos a explicar a otros por qué lo hacemos.\n5. **Oración:** cómo vamos a unir el proyecto a la fe.\n6. **Ejecución y evaluación.**"
+    },
+    {
+     "title": "Cuidados",
+     "body": "- Toda actividad al aire libre se hace con **adultos responsables** y autorización de los padres para los menores.\n- En limpiezas, usar **guantes** y no tocar objetos cortantes ni residuos peligrosos (jeringas, vidrios, químicos): se señalan y se avisa a un adulto.\n- Cuidarse del **sol** y llevar **agua**.\n- Pedir los **permisos** necesarios para intervenir espacios públicos."
+    }
    ],
-   "bible": {"ref": "Salmo 104 · «¡Qué variadas son tus obras, Señor!»", "comment": "El salmista contempla la creación: las montañas, los ríos, los animales, el pan que alegra el corazón. Todo depende de Dios y todo lo alaba. Este salmo puede ser la oración de cualquier proyecto ecológico: actuar con las manos y alabar con el corazón."},
+   "bible": {
+    "ref": "Salmo 104 · «¡Qué variadas son tus obras, Señor!»",
+    "comment": "El salmista contempla la creación: las montañas, los ríos, los animales, el pan que alegra el corazón. Todo depende de Dios y todo lo alaba. Este salmo puede ser la oración de cualquier proyecto ecológico: actuar con las manos y alabar con el corazón."
+   },
    "church": [
-    {"source": "Laudato si' 219", "text": "A los problemas sociales se responde con redes comunitarias; la conversión ecológica también es una conversión comunitaria.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"},
-    {"source": "Laudato si' 13-14", "text": "El papa hace un llamado a todos, y destaca que los jóvenes exigen cambios y se preguntan cómo es posible construir un futuro mejor sin pensar en la crisis ambiental.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"}
+    {
+     "source": "Laudato si' 219",
+     "text": "A los problemas sociales se responde con redes comunitarias; la conversión ecológica también es una conversión comunitaria.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    },
+    {
+     "source": "Laudato si' 13-14",
+     "text": "El papa hace un llamado a todos, y destaca que los jóvenes exigen cambios y se preguntan cómo es posible construir un futuro mejor sin pensar en la crisis ambiental.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+    }
    ],
-   "questions": ["¿Qué problema ambiental de tu comunidad te gustaría atender?", "¿Qué proyecto de la lista te entusiasma más?", "¿Cómo podrían unir el proyecto con la oración?", "¿Qué cambio te gustaría ver en tu comunidad dentro de un año?"],
+   "questions": [
+    "¿Qué problema ambiental de tu comunidad te gustaría atender?",
+    "¿Qué proyecto de la lista te entusiasma más?",
+    "¿Cómo podrían unir el proyecto con la oración?",
+    "¿Qué cambio te gustaría ver en tu comunidad dentro de un año?"
+   ],
    "activity": "Diseñen como grupo un proyecto ecológico con los seis pasos. Preséntenlo al asesor y al párroco, pidan los permisos necesarios y fijen la fecha de inicio.",
    "prayer": "Señor, qué variadas son tus obras, y todas las hiciste con sabiduría. Bendice el proyecto que vamos a comenzar. Que nuestras manos cuiden lo que Tú creaste, que nuestras palabras inviten a otros a cuidarlo, y que todo lo que hagamos sea una alabanza a tu nombre. Amén.",
-   "resources": [{"title": "Laudato si' (Francisco, 2015)", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html", "note": "Al final de la encíclica hay dos oraciones por la tierra."}],
+   "resources": [
+    {
+     "title": "Laudato si' (Francisco, 2015)",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+     "note": "Al final de la encíclica hay dos oraciones por la tierra."
+    }
+   ],
    "comenzar": "Recorre mentalmente tu parroquia o tu colegio. ¿Qué ves que daña la creación? ¿Qué ves que la cuida? Haz dos columnas en tu cuaderno.",
-   "logros": ["Valorar la acción comunitaria por el cuidado de la creación.", "Diseñar un proyecto ecológico con los seis pasos.", "Realizar el proyecto con los cuidados necesarios."],
-   "profundizar": {"titulo": "Las oraciones de Laudato si'", "texto": "La encíclica termina con dos oraciones escritas por el papa: una **oración por nuestra tierra**, que pueden rezar creyentes de distintas religiones, y una **oración cristiana con la creación**, dirigida a la Trinidad.\n\nPueden usarlas para comenzar o terminar cada actividad del proyecto, o rezarlas en la misa del Tiempo de la Creación."},
-   "caso": {"titulo": "El reciclaje que no funcionó", "texto": "El grupo instaló contenedores de reciclaje en la parroquia, pero nadie explicó qué iba en cada uno. A las dos semanas estaban todos mezclados y la empresa recolectora no los quiso llevar.", "preguntas": ["¿Qué paso del proyecto faltó?", "¿Cómo lo resolverías?"]},
-   "claves": [["Acción comunitaria", "Trabajo organizado de un grupo para un bien común."], ["Educación ambiental", "Ayudar a otros a comprender y cuidar la creación."], ["Proyecto", "Conjunto de acciones planificadas para lograr un objetivo."]],
-   "lectio": {"meditar": "El salmista se asombra ante la variedad de la creación. ¿Qué te asombra a ti?", "orar": "Recen juntos la oración cristiana con la creación de Laudato si'.", "vivir": "Den el primer paso del proyecto esta semana."},
-   "practica": ["Hagan el diagnóstico.", "Escriban el proyecto con los seis pasos.", "Preséntenlo al asesor y al párroco.", "Pidan los permisos y fijen la fecha de inicio."],
+   "logros": [
+    "Valorar la acción comunitaria por el cuidado de la creación.",
+    "Diseñar un proyecto ecológico con los seis pasos.",
+    "Realizar el proyecto con los cuidados necesarios."
+   ],
+   "profundizar": {
+    "titulo": "Las oraciones de Laudato si'",
+    "texto": "La encíclica termina con dos oraciones escritas por el papa: una **oración por nuestra tierra**, que pueden rezar creyentes de distintas religiones, y una **oración cristiana con la creación**, dirigida a la Trinidad.\n\nPueden usarlas para comenzar o terminar cada actividad del proyecto, o rezarlas en la misa del Tiempo de la Creación."
+   },
+   "caso": {
+    "titulo": "El reciclaje que no funcionó",
+    "texto": "El grupo instaló contenedores de reciclaje en la parroquia, pero nadie explicó qué iba en cada uno. A las dos semanas estaban todos mezclados y la empresa recolectora no los quiso llevar.",
+    "preguntas": [
+     "¿Qué paso del proyecto faltó?",
+     "¿Cómo lo resolverías?"
+    ]
+   },
+   "claves": [
+    [
+     "Acción comunitaria",
+     "Trabajo organizado de un grupo para un bien común."
+    ],
+    [
+     "Educación ambiental",
+     "Ayudar a otros a comprender y cuidar la creación."
+    ],
+    [
+     "Proyecto",
+     "Conjunto de acciones planificadas para lograr un objetivo."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El salmista se asombra ante la variedad de la creación. ¿Qué te asombra a ti?",
+    "orar": "Recen juntos la oración cristiana con la creación de Laudato si'.",
+    "vivir": "Den el primer paso del proyecto esta semana."
+   },
+   "practica": [
+    "Hagan el diagnóstico.",
+    "Escriban el proyecto con los seis pasos.",
+    "Preséntenlo al asesor y al párroco.",
+    "Pidan los permisos y fijen la fecha de inicio."
+   ],
    "idea": "Cuidar la casa común también se hace en comunidad."
   }
  ],
  "evaluacion": [
-  {"q": "¿Con qué palabras comienza Laudato si'?", "options": ["«Alabado seas, mi Señor», del Cántico de las criaturas.", "«Padre nuestro».", "«En el principio»."], "correct": 0, "feedback": "Son palabras de san Francisco de Asís."},
-  {"q": "Según Génesis 2,15, ¿para qué pone Dios al ser humano en el jardín?", "options": ["Para dominarlo sin límites.", "Para cultivarlo y cuidarlo.", "Para descansar."], "correct": 1, "feedback": "El ser humano es administrador responsable, no dueño absoluto."},
-  {"q": "¿Qué dos clamores hay que escuchar según Laudato si' 49?", "options": ["El de los científicos y el de los políticos.", "El de la tierra y el de los pobres.", "El de los jóvenes y el de los adultos."], "correct": 1, "feedback": "Un planteamiento ecológico es siempre también social."},
-  {"q": "¿Qué es la ecología integral?", "options": ["Cuidar solo los animales y las plantas.", "Una mirada que une el cuidado del ambiente, la justicia social y la dignidad humana.", "Una ciencia para especialistas."], "correct": 1, "feedback": "Todo está conectado."},
-  {"q": "¿Qué es la cultura del descarte?", "options": ["Reciclar correctamente.", "Usar y botar cosas, y terminar tratando así también a las personas.", "Ordenar la casa."], "correct": 1, "feedback": "El papa la denuncia en Laudato si' 20-22."},
-  {"q": "¿Cuál de estos es un gesto que propone Laudato si' 211?", "options": ["Comprar siempre lo más nuevo.", "Apagar las luces innecesarias y separar los residuos.", "Usar más plástico desechable."], "correct": 1, "feedback": "Los pequeños gestos derraman un bien en la sociedad."},
-  {"q": "¿Cuándo se celebra el Tiempo de la Creación?", "options": ["Del 1 de septiembre al 4 de octubre.", "En Cuaresma.", "En Navidad."], "correct": 0, "feedback": "Termina en la fiesta de san Francisco de Asís."},
-  {"q": "En una limpieza de playa, si encuentras una jeringa o un vidrio roto, ¿qué haces?", "options": ["Lo recoges con la mano para terminar rápido.", "No lo tocas, lo señalas y avisas a un adulto.", "Lo dejas sin decir nada."], "correct": 1, "feedback": "Los residuos peligrosos los manejan adultos con protección."}
+  {
+   "q": "¿Con qué palabras comienza Laudato si'?",
+   "options": [
+    "«Alabado seas, mi Señor», del Cántico de las criaturas.",
+    "«Padre nuestro».",
+    "«En el principio»."
+   ],
+   "correct": 0,
+   "feedback": "Son palabras de san Francisco de Asís."
+  },
+  {
+   "q": "Según Génesis 2,15, ¿para qué pone Dios al ser humano en el jardín?",
+   "options": [
+    "Para dominarlo sin límites.",
+    "Para cultivarlo y cuidarlo.",
+    "Para descansar."
+   ],
+   "correct": 1,
+   "feedback": "El ser humano es administrador responsable, no dueño absoluto."
+  },
+  {
+   "q": "¿Qué dos clamores hay que escuchar según Laudato si' 49?",
+   "options": [
+    "El de los científicos y el de los políticos.",
+    "El de la tierra y el de los pobres.",
+    "El de los jóvenes y el de los adultos."
+   ],
+   "correct": 1,
+   "feedback": "Un planteamiento ecológico es siempre también social."
+  },
+  {
+   "q": "¿Qué es la ecología integral?",
+   "options": [
+    "Cuidar solo los animales y las plantas.",
+    "Una mirada que une el cuidado del ambiente, la justicia social y la dignidad humana.",
+    "Una ciencia para especialistas."
+   ],
+   "correct": 1,
+   "feedback": "Todo está conectado."
+  },
+  {
+   "q": "¿Qué es la cultura del descarte?",
+   "options": [
+    "Reciclar correctamente.",
+    "Usar y botar cosas, y terminar tratando así también a las personas.",
+    "Ordenar la casa."
+   ],
+   "correct": 1,
+   "feedback": "El papa la denuncia en Laudato si' 20-22."
+  },
+  {
+   "q": "¿Cuál de estos es un gesto que propone Laudato si' 211?",
+   "options": [
+    "Comprar siempre lo más nuevo.",
+    "Apagar las luces innecesarias y separar los residuos.",
+    "Usar más plástico desechable."
+   ],
+   "correct": 1,
+   "feedback": "Los pequeños gestos derraman un bien en la sociedad."
+  },
+  {
+   "q": "¿Cuándo se celebra el Tiempo de la Creación?",
+   "options": [
+    "Del 1 de septiembre al 4 de octubre.",
+    "En Cuaresma.",
+    "En Navidad."
+   ],
+   "correct": 0,
+   "feedback": "Termina en la fiesta de san Francisco de Asís."
+  },
+  {
+   "q": "En una limpieza de playa, si encuentras una jeringa o un vidrio roto, ¿qué haces?",
+   "options": [
+    "Lo recoges con la mano para terminar rápido.",
+    "No lo tocas, lo señalas y avisas a un adulto.",
+    "Lo dejas sin decir nada."
+   ],
+   "correct": 1,
+   "feedback": "Los residuos peligrosos los manejan adultos con protección."
+  },
+  {
+   "q": "¿Qué es la ecología de la vida cotidiana?",
+   "options": [
+    "Solo reciclar",
+    "El cuidado de los espacios, el cuerpo y las relaciones de cada día",
+    "Algo que solo hacen los expertos"
+   ],
+   "correct": 1,
+   "feedback": "La ecología integral empieza en lo cercano."
+  },
+  {
+   "q": "Según Laudato si', la ecología humana incluye:",
+   "options": [
+    "Aceptar y cuidar el propio cuerpo como un don",
+    "Solo cuidar a los animales",
+    "Vivir lejos de las ciudades"
+   ],
+   "correct": 0,
+   "feedback": "Cuidar la creación incluye cuidar nuestro cuerpo y el de los demás."
+  }
  ]
 }

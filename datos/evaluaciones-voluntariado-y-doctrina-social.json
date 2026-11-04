@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Un buen objetivo es concreto, realista y medible."
+   },
+   {
+    "pregunta": "¿Qué conviene al elegir un voluntariado?",
+    "opciones": [
+     "Comprometerse con todo lo posible al principio",
+     "Ser realista con el tiempo disponible y preferir la constancia",
+     "Elegir lo que eligen los amigos"
+    ],
+    "correcta": 1,
+    "explicacion": "Un compromiso pequeño y constante hace más bien que uno grande que se abandona."
+   },
+   {
+    "pregunta": "¿Qué señal indica que una organización es confiable?",
+    "opciones": [
+     "Que no pide capacitación",
+     "Que tiene responsables claros y normas de cuidado",
+     "Que acepta a cualquiera para cualquier tarea"
+    ],
+    "correcta": 1,
+    "explicacion": "La seriedad protege a las personas atendidas y a los voluntarios."
    }
   ]
  }

@@ -4,7 +4,7 @@
  "subtitulo": "Proclamar la Palabra en la liturgia",
  "categoria": "Liturgia",
  "publico": "Desde 13 años",
- "descripcion": "Para quienes leen en misa o quieren aprender: el sentido de la Palabra en la liturgia, cómo preparar una lectura, el uso de la voz y el micrófono, el salmo responsorial y la oración universal. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para quienes leen en misa o quieren aprender: el sentido de la Palabra en la liturgia, cómo preparar una lectura, el uso de la voz y el micrófono, el salmo responsorial y la oración universal. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Prestar la voz a la Palabra",
  "intro": "Cuando se lee la Sagrada Escritura en la misa, es Dios mismo quien habla a su pueblo. Quien proclama presta su voz para que esa Palabra llegue a todos. Esta formación combina el sentido espiritual del ministerio con técnicas prácticas de lectura, voz y preparación.",
  "unidades": [
@@ -399,6 +399,104 @@
     "Entréguenlas al sacerdote o al equipo de liturgia."
    ],
    "idea": "En el salmo, la comunidad responde a Dios; en las intenciones, presenta el mundo a Dios."
+  },
+  {
+   "title": "La vida del lector",
+   "objective": "Cultivar la espiritualidad del lector: dejar que la Palabra que proclama transforme primero su propia vida.",
+   "intro": "Un buen lector no es solo alguien que lee bien en voz alta. Es alguien que conoce, reza y vive la Palabra que proclama. En esta unidad vas a mirar el ministerio del lector desde dentro: cómo prepararte espiritualmente y cómo dejar que la Escritura te cambie.",
+   "sections": [
+    {
+     "title": "Primero oyente, después lector",
+     "body": "Antes de prestar tu voz a la Palabra, necesitas escucharla tú. Algunas costumbres que ayudan:\n\n- **Leer el texto durante la semana,** no solo el día de la misa.\n- **Leerlo completo,** con lo que viene antes y después, para entender de qué se trata.\n- **Preguntarte:** ¿qué dice el texto?, ¿qué me dice a mí?, ¿qué le digo yo a Dios?\n- **Quedarte con una frase** que te acompañe durante el día.\n\nQuien ha rezado el texto lo proclama distinto: se nota."
+    },
+    {
+     "title": "Coherencia sin perfección",
+     "body": "La comunidad ve a quien sube al ambón. Eso no exige ser perfecto, pero sí intentar vivir lo que se proclama:\n\n- **Participar en la misa entera,** no solo en tu momento.\n- **Cuidar el trato** con los demás antes y después de la celebración.\n- **Confesarte y rezar** con regularidad.\n- **Servir también fuera del templo.**\n\nTodos somos pecadores que anuncian una Palabra más grande que nosotros. La coherencia es un camino, no un requisito de entrada."
+    },
+    {
+     "title": "Formarse siempre",
+     "body": "El lector crece cuando conoce mejor la Biblia y la liturgia:\n\n- **Conocer el leccionario:** el ciclo A, B o C de los domingos y el ciclo par o impar de los días de semana.\n- **Usar un buen comentario** o la introducción de tu Biblia para entender el contexto.\n- **Participar en las formaciones** de la parroquia o del decanato.\n- **Pedir retroalimentación** a alguien de confianza sobre tu forma de proclamar."
+    },
+    {
+     "title": "Un ministerio para toda la comunidad",
+     "body": "Desde 2021, el ministerio instituido de lector puede ser conferido también a mujeres. Pero más allá de la institución formal, todo laico que lee en la misa ejerce un servicio verdadero.\n\nEse servicio no termina en la celebración: el lector puede animar grupos de lectura de la Biblia, ayudar a preparar las lecturas con niños o acompañar a nuevos lectores."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 4,16-21 · Jesús lee en la sinagoga de Nazaret",
+    "comment": "Jesús se pone de pie, recibe el rollo, lee el pasaje de Isaías y dice: «Hoy se ha cumplido esta Escritura que acaban de oír». La Palabra que proclama se hace realidad en Él. Todo lector está llamado a algo parecido: que lo que lee se vaya cumpliendo, poco a poco, en su propia vida."
+   },
+   "church": [
+    {
+     "source": "Verbum Domini 58",
+     "text": "Los lectores deben estar realmente preparados: con formación bíblica y litúrgica, y también con preparación técnica para proclamar.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    },
+    {
+     "source": "Dei Verbum 25",
+     "text": "Se invita a todos los fieles a la lectura asidua de la Escritura, acompañada de la oración, para que se establezca un diálogo entre Dios y el ser humano.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Cuándo preparas normalmente la lectura que vas a proclamar?",
+    "¿Alguna lectura que proclamaste te tocó personalmente? ¿Cuál?",
+    "¿Qué te ayudaría a formarte más como lector?",
+    "¿Cómo podrías servir con la Palabra fuera de la misa?"
+   ],
+   "activity": "Cada participante elige la lectura del próximo domingo, la reza con las tres preguntas (qué dice, qué me dice, qué le digo) y comparte en el grupo la frase que lo acompañó durante la semana.",
+   "prayer": "Señor, que te hiciste Palabra para nosotros: antes de prestarte mi voz, quiero prestarte mi oído y mi corazón. Que lo que proclamo se vaya cumpliendo en mi vida, y que mi comunidad escuche en mi voz tu voz. Amén.",
+   "resources": [
+    {
+     "title": "Verbum Domini (Benedicto XVI, 2010)",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html",
+     "note": "Número 58, sobre la preparación de los lectores."
+    }
+   ],
+   "comenzar": "Recuerda la última vez que leíste en misa. ¿Cuánto tiempo antes leíste el texto por primera vez?",
+   "logros": [
+    "Preparar la lectura también con la oración.",
+    "Vivir el ministerio con coherencia, sin exigir perfección.",
+    "Buscar formación permanente como lector."
+   ],
+   "profundizar": {
+    "titulo": "Las lecturas de la semana",
+    "texto": "Una práctica sencilla para el grupo de lectores: reunirse 30 minutos durante la semana, leer en voz alta las lecturas del domingo, compartir una frase cada uno y ensayar la proclamación. Así la preparación técnica y la espiritual van juntas."
+   },
+   "caso": {
+    "titulo": "El lector de siempre",
+    "texto": "En la parroquia, el mismo joven lee todos los domingos desde hace tres años. Lo hace bien, pero llega justo a la hora, lee y se va antes del final. Algunos jóvenes quieren leer y no se atreven a pedirlo.",
+    "preguntas": [
+     "¿Qué le dirías a ese lector?",
+     "¿Cómo podría el grupo abrir espacio a nuevos lectores?"
+    ]
+   },
+   "claves": [
+    [
+     "Lector instituido",
+     "Laico que recibe de manera estable el ministerio de lector."
+    ],
+    [
+     "Leccionario",
+     "Libro que ordena las lecturas de la misa por ciclos."
+    ],
+    [
+     "Ambón",
+     "Lugar desde donde se proclama la Palabra."
+    ]
+   ],
+   "lectio": {
+    "meditar": "«Hoy se ha cumplido esta Escritura». ¿Qué Palabra está esperando cumplirse en tu vida?",
+    "orar": "Pide a Dios un corazón que escuche antes de hablar.",
+    "vivir": "Lee esta semana las lecturas del domingo tres veces: lunes, miércoles y sábado."
+   },
+   "practica": [
+    "Elijan la lectura del domingo.",
+    "Récenla con las tres preguntas.",
+    "Compartan una frase.",
+    "Ensayen la proclamación."
+   ],
+   "idea": "Se proclama bien lo que primero se ha escuchado."
   }
  ],
  "evaluacion": [
@@ -481,6 +579,26 @@
    ],
    "correct": 1,
    "feedback": "Es breve, concreta, ruega por otros y no tiene opiniones ni avisos."
+  },
+  {
+   "q": "¿Qué distingue al lector que reza el texto antes de proclamarlo?",
+   "options": [
+    "Que lo lee más rápido",
+    "Que lo proclama con sentido, porque primero lo escuchó",
+    "Que no necesita ensayar"
+   ],
+   "correct": 1,
+   "feedback": "La preparación espiritual se nota en la proclamación."
+  },
+  {
+   "q": "¿Qué pide la Iglesia sobre la coherencia del lector?",
+   "options": [
+    "Ser perfecto antes de leer",
+    "Intentar vivir lo que proclama, como un camino",
+    "Solo leer bien"
+   ],
+   "correct": 1,
+   "feedback": "La coherencia es un camino, no un requisito de perfección."
   }
  ]
 }

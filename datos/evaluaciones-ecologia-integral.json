@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Los residuos peligrosos los manejan adultos con protección."
+   },
+   {
+    "pregunta": "¿Qué es la ecología de la vida cotidiana?",
+    "opciones": [
+     "Solo reciclar",
+     "El cuidado de los espacios, el cuerpo y las relaciones de cada día",
+     "Algo que solo hacen los expertos"
+    ],
+    "correcta": 1,
+    "explicacion": "La ecología integral empieza en lo cercano."
+   },
+   {
+    "pregunta": "Según Laudato si', la ecología humana incluye:",
+    "opciones": [
+     "Aceptar y cuidar el propio cuerpo como un don",
+     "Solo cuidar a los animales",
+     "Vivir lejos de las ciudades"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuidar la creación incluye cuidar nuestro cuerpo y el de los demás."
    }
   ]
  }

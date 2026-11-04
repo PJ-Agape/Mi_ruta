@@ -41,11 +41,19 @@
      "tiempo": "90 min"
     },
     {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Compartir la Palabra en grupo",
+     "tiempo": "90 min"
+    },
+    {
      "id": "m1-eval",
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
      "titulo": "Evaluación: Conocer la Biblia",
-     "tiempo": "8 preguntas"
+     "tiempo": "10 preguntas"
     }
    ]
   }

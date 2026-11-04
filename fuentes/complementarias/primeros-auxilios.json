@@ -4,7 +4,7 @@
  "subtitulo": "Saber qué hacer mientras llega la ayuda",
  "categoria": "Cuidado",
  "publico": "Desde 14 años",
- "descripcion": "Conocimientos básicos para actuar en emergencias durante encuentros, salidas, campamentos y misiones: cómo evaluar la situación y pedir ayuda, qué hacer ante emergencias que ponen en riesgo la vida, lesiones frecuentes y situaciones médicas. Complementa un curso práctico certificado, no lo reemplaza. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Conocimientos básicos para actuar en emergencias durante encuentros, salidas, campamentos y misiones: cómo evaluar la situación y pedir ayuda, qué hacer ante emergencias que ponen en riesgo la vida, lesiones frecuentes y situaciones médicas. Complementa un curso práctico certificado, no lo reemplaza. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Cuidar la vida",
  "intro": "En cualquier actividad con jóvenes puede ocurrir un accidente o una emergencia. Saber qué hacer en los primeros minutos puede marcar una gran diferencia. Esta formación entrega conocimientos básicos y ordenados. Importante: los primeros auxilios se aprenden practicando. Por eso, esta formación debe complementarse con un **curso práctico certificado**, como los que ofrecen la Cruz Roja Chilena, las mutualidades o algunos centros de salud. Ante cualquier duda, sigue siempre las indicaciones del SAMU (131).",
  "unidades": [
@@ -13,27 +13,97 @@
    "objective": "Aprender a evaluar una emergencia, protegerse, pedir ayuda correctamente y preparar al grupo para actuar con orden.",
    "intro": "En una emergencia, lo más importante es no empeorar la situación. Antes de tocar a alguien, hay que mirar, pensar y pedir ayuda. En esta unidad vas a aprender la secuencia básica que se usa en todo el mundo y cómo preparar a tu grupo antes de cualquier actividad.",
    "sections": [
-    {"title": "Proteger, avisar, socorrer", "body": "La regla básica de los primeros auxilios tiene tres pasos, en este orden:\n\n1. **Proteger:** asegúrate de que el lugar sea seguro para ti, para la persona afectada y para los demás. Si hay fuego, tránsito, electricidad o riesgo de derrumbe, no te acerques hasta que sea seguro.\n2. **Avisar:** llama o pide a alguien que llame a emergencias.\n3. **Socorrer:** ayuda a la persona con lo que sabes, sin hacer más de lo que sabes."},
-    {"title": "Números de emergencia en Chile", "body": "- **131:** SAMU, ambulancia y urgencias médicas.\n- **132:** Bomberos.\n- **133:** Carabineros.\n\nAl llamar, di con calma:\n\n- **Dónde estás:** dirección exacta o puntos de referencia.\n- **Qué pasó.**\n- **Cuántas personas** están afectadas.\n- **Cómo están:** si responden, si respiran, si sangran.\n\n**No cortes** hasta que te lo indiquen. El operador del SAMU puede guiarte por teléfono paso a paso; si puedes, pon el altavoz."},
-    {"title": "La evaluación inicial", "body": "Al acercarte a una persona:\n\n1. **¿Responde?** Háblale fuerte y tócale los hombros: «¿Me escuchas?».\n2. **¿Respira normalmente?** Mira si el pecho sube y baja, durante no más de 10 segundos.\n3. **¿Hay una hemorragia importante?**\n\nSi **no responde y no respira con normalidad**, es un paro cardiorrespiratorio: se llama al 131 y se inician las compresiones (unidad 2).\n\nSi **no responde pero respira**, se pone de lado en posición lateral de seguridad y se llama al 131.\n\nSi **responde**, se le pregunta qué le pasó, qué le duele, y se lo tranquiliza."},
-    {"title": "Preparar al grupo", "body": "Antes de cualquier actividad:\n\n- **Fichas de salud** de cada participante: alergias, enfermedades, medicamentos y contactos de emergencia, guardadas por el encargado y con resguardo de privacidad.\n- **Encargado de salud** definido, idealmente con curso de primeros auxilios.\n- **Botiquín** revisado.\n- **Centro de salud más cercano** identificado, con su dirección.\n- **Transporte disponible** para una urgencia, si se está en un lugar alejado.\n- **Señal telefónica:** saber si hay cobertura en el lugar."}
+    {
+     "title": "Proteger, avisar, socorrer",
+     "body": "La regla básica de los primeros auxilios tiene tres pasos, en este orden:\n\n1. **Proteger:** asegúrate de que el lugar sea seguro para ti, para la persona afectada y para los demás. Si hay fuego, tránsito, electricidad o riesgo de derrumbe, no te acerques hasta que sea seguro.\n2. **Avisar:** llama o pide a alguien que llame a emergencias.\n3. **Socorrer:** ayuda a la persona con lo que sabes, sin hacer más de lo que sabes."
+    },
+    {
+     "title": "Números de emergencia en Chile",
+     "body": "- **131:** SAMU, ambulancia y urgencias médicas.\n- **132:** Bomberos.\n- **133:** Carabineros.\n\nAl llamar, di con calma:\n\n- **Dónde estás:** dirección exacta o puntos de referencia.\n- **Qué pasó.**\n- **Cuántas personas** están afectadas.\n- **Cómo están:** si responden, si respiran, si sangran.\n\n**No cortes** hasta que te lo indiquen. El operador del SAMU puede guiarte por teléfono paso a paso; si puedes, pon el altavoz."
+    },
+    {
+     "title": "La evaluación inicial",
+     "body": "Al acercarte a una persona:\n\n1. **¿Responde?** Háblale fuerte y tócale los hombros: «¿Me escuchas?».\n2. **¿Respira normalmente?** Mira si el pecho sube y baja, durante no más de 10 segundos.\n3. **¿Hay una hemorragia importante?**\n\nSi **no responde y no respira con normalidad**, es un paro cardiorrespiratorio: se llama al 131 y se inician las compresiones (unidad 2).\n\nSi **no responde pero respira**, se pone de lado en posición lateral de seguridad y se llama al 131.\n\nSi **responde**, se le pregunta qué le pasó, qué le duele, y se lo tranquiliza."
+    },
+    {
+     "title": "Preparar al grupo",
+     "body": "Antes de cualquier actividad:\n\n- **Fichas de salud** de cada participante: alergias, enfermedades, medicamentos y contactos de emergencia, guardadas por el encargado y con resguardo de privacidad.\n- **Encargado de salud** definido, idealmente con curso de primeros auxilios.\n- **Botiquín** revisado.\n- **Centro de salud más cercano** identificado, con su dirección.\n- **Transporte disponible** para una urgencia, si se está en un lugar alejado.\n- **Señal telefónica:** saber si hay cobertura en el lugar."
+    }
    ],
-   "bible": {"ref": "Lucas 10,30-35 · El buen samaritano", "comment": "El samaritano ve al herido, se conmueve, se acerca, le venda las heridas, lo lleva a una posada y lo deja al cuidado del posadero, pagando lo necesario. No hace todo solo: actúa, cuida y busca quien pueda seguir atendiendo. Así son los primeros auxilios: actuar con lo que sabes y asegurar que llegue la ayuda adecuada."},
+   "bible": {
+    "ref": "Lucas 10,30-35 · El buen samaritano",
+    "comment": "El samaritano ve al herido, se conmueve, se acerca, le venda las heridas, lo lleva a una posada y lo deja al cuidado del posadero, pagando lo necesario. No hace todo solo: actúa, cuida y busca quien pueda seguir atendiendo. Así son los primeros auxilios: actuar con lo que sabes y asegurar que llegue la ayuda adecuada."
+   },
    "church": [
-    {"source": "Catecismo de la Iglesia Católica 2288", "text": "La vida y la salud física son bienes preciosos confiados por Dios; debemos cuidarlas razonablemente, también las de los demás.", "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"},
-    {"source": "Fratelli tutti 63-68", "text": "El buen samaritano se detiene, se acerca y se hace cargo del herido: un modelo para toda acción de cuidado.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"}
+    {
+     "source": "Catecismo de la Iglesia Católica 2288",
+     "text": "La vida y la salud física son bienes preciosos confiados por Dios; debemos cuidarlas razonablemente, también las de los demás.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"
+    },
+    {
+     "source": "Fratelli tutti 63-68",
+     "text": "El buen samaritano se detiene, se acerca y se hace cargo del herido: un modelo para toda acción de cuidado.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+    }
    ],
-   "questions": ["¿Has vivido alguna emergencia? ¿Cómo reaccionaste?", "¿Por qué es tan importante protegerse antes de socorrer?", "¿Tu grupo tiene encargado de salud y fichas de los participantes?", "¿Qué te enseña el buen samaritano sobre los límites de lo que uno puede hacer?"],
+   "questions": [
+    "¿Has vivido alguna emergencia? ¿Cómo reaccionaste?",
+    "¿Por qué es tan importante protegerse antes de socorrer?",
+    "¿Tu grupo tiene encargado de salud y fichas de los participantes?",
+    "¿Qué te enseña el buen samaritano sobre los límites de lo que uno puede hacer?"
+   ],
    "activity": "Practiquen en parejas una llamada simulada al 131: uno hace de operador y el otro informa de una emergencia ficticia en el lugar donde están. Luego revisen juntos la ficha de salud y el botiquín del grupo.",
    "prayer": "Señor de la vida, que te conmoviste ante el dolor de tantos: danos serenidad en las emergencias, prudencia para no hacer daño y prontitud para ayudar. Cuida a cada joven de nuestro grupo, y bendice a quienes trabajan en la salud y en los servicios de emergencia. Amén.",
-   "resources": [{"title": "Cruz Roja Chilena", "url": "https://www.cruzroja.cl/", "note": "Ofrece cursos prácticos certificados de primeros auxilios."}],
+   "resources": [
+    {
+     "title": "Cruz Roja Chilena",
+     "url": "https://www.cruzroja.cl/",
+     "note": "Ofrece cursos prácticos certificados de primeros auxilios."
+    }
+   ],
    "comenzar": "Escribe qué harías si, durante un encuentro, un participante se cae y no se levanta. Anota tus pasos en orden. Al final de la unidad compara tu respuesta con la secuencia proteger, avisar, socorrer.",
-   "logros": ["Aplicar la secuencia proteger, avisar y socorrer.", "Llamar correctamente a los servicios de emergencia.", "Hacer la evaluación inicial y preparar al grupo antes de una actividad."],
-   "profundizar": {"titulo": "El botiquín del grupo", "texto": "Un botiquín básico para actividades juveniles:\n\n- Guantes desechables.\n- Gasas estériles y apósitos de distintos tamaños.\n- Vendas elásticas y venda triangular.\n- Tela adhesiva.\n- Suero fisiológico para limpiar heridas y ojos.\n- Tijeras de punta roma y pinzas.\n- Manta térmica.\n- Bolsas de frío instantáneo.\n- Termómetro.\n- Mascarilla para respiración, si se sabe usar.\n- Libreta, lápiz y lista de números de emergencia.\n\n**Medicamentos:** en actividades con menores, no se administran medicamentos sin autorización escrita de los padres. Los medicamentos personales de cada participante los guarda y entrega el encargado de salud según lo indicado en la ficha."},
-   "caso": {"titulo": "Todos miran", "texto": "Durante un partido en una convivencia, un joven cae y se golpea la cabeza. Se forma un círculo de veinte personas alrededor. Todos opinan, nadie llama y alguien intenta levantarlo de inmediato.", "preguntas": ["¿Qué errores se están cometiendo?", "¿Cómo debería organizarse el grupo en ese momento?"]},
-   "claves": [["Proteger, avisar, socorrer", "Secuencia básica de actuación ante una emergencia."], ["SAMU", "Servicio de atención médica de urgencia; número 131."], ["Evaluación inicial", "Revisar si la persona responde, si respira y si sangra."]],
-   "lectio": {"meditar": "El samaritano se detiene mientras otros pasan de largo. ¿Qué te ayuda a no paralizarte ante una emergencia?", "orar": "Reza por quienes trabajan en ambulancias, bomberos y hospitales.", "vivir": "Guarda los números 131, 132 y 133 en tu teléfono y averigua cuál es el centro de salud más cercano a tu parroquia."},
-   "practica": ["Practiquen la llamada simulada al 131.", "Revisen el botiquín del grupo.", "Revisen el sistema de fichas de salud.", "Identifiquen al encargado de salud y el centro de salud más cercano."],
+   "logros": [
+    "Aplicar la secuencia proteger, avisar y socorrer.",
+    "Llamar correctamente a los servicios de emergencia.",
+    "Hacer la evaluación inicial y preparar al grupo antes de una actividad."
+   ],
+   "profundizar": {
+    "titulo": "El botiquín del grupo",
+    "texto": "Un botiquín básico para actividades juveniles:\n\n- Guantes desechables.\n- Gasas estériles y apósitos de distintos tamaños.\n- Vendas elásticas y venda triangular.\n- Tela adhesiva.\n- Suero fisiológico para limpiar heridas y ojos.\n- Tijeras de punta roma y pinzas.\n- Manta térmica.\n- Bolsas de frío instantáneo.\n- Termómetro.\n- Mascarilla para respiración, si se sabe usar.\n- Libreta, lápiz y lista de números de emergencia.\n\n**Medicamentos:** en actividades con menores, no se administran medicamentos sin autorización escrita de los padres. Los medicamentos personales de cada participante los guarda y entrega el encargado de salud según lo indicado en la ficha."
+   },
+   "caso": {
+    "titulo": "Todos miran",
+    "texto": "Durante un partido en una convivencia, un joven cae y se golpea la cabeza. Se forma un círculo de veinte personas alrededor. Todos opinan, nadie llama y alguien intenta levantarlo de inmediato.",
+    "preguntas": [
+     "¿Qué errores se están cometiendo?",
+     "¿Cómo debería organizarse el grupo en ese momento?"
+    ]
+   },
+   "claves": [
+    [
+     "Proteger, avisar, socorrer",
+     "Secuencia básica de actuación ante una emergencia."
+    ],
+    [
+     "SAMU",
+     "Servicio de atención médica de urgencia; número 131."
+    ],
+    [
+     "Evaluación inicial",
+     "Revisar si la persona responde, si respira y si sangra."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El samaritano se detiene mientras otros pasan de largo. ¿Qué te ayuda a no paralizarte ante una emergencia?",
+    "orar": "Reza por quienes trabajan en ambulancias, bomberos y hospitales.",
+    "vivir": "Guarda los números 131, 132 y 133 en tu teléfono y averigua cuál es el centro de salud más cercano a tu parroquia."
+   },
+   "practica": [
+    "Practiquen la llamada simulada al 131.",
+    "Revisen el botiquín del grupo.",
+    "Revisen el sistema de fichas de salud.",
+    "Identifiquen al encargado de salud y el centro de salud más cercano."
+   ],
    "idea": "Primero proteger, luego avisar, y después socorrer."
   },
   {
@@ -41,27 +111,97 @@
    "objective": "Conocer qué hacer ante un paro cardiorrespiratorio, un atragantamiento, una persona inconsciente que respira y una hemorragia importante.",
    "intro": "Algunas emergencias necesitan una respuesta en los primeros minutos, antes de que llegue la ambulancia. Conocer los pasos básicos puede salvar una vida. Recuerda: estos conocimientos deben practicarse en un curso certificado, con maniquíes y un instructor.",
    "sections": [
-    {"title": "Paro cardiorrespiratorio", "body": "Si una persona **no responde y no respira con normalidad**:\n\n1. **Llama al 131** o pide a alguien que llame, con el altavoz encendido.\n2. **Pide un desfibrilador (DEA)** si hay uno cerca. Muchos lugares públicos lo tienen.\n3. **Inicia compresiones torácicas:**\n   - Persona boca arriba sobre una superficie firme.\n   - Talón de una mano en el **centro del pecho**, la otra mano encima, brazos rectos.\n   - Comprime **fuerte y rápido**: unos 5 a 6 centímetros de profundidad en un adulto, a un ritmo de **100 a 120 compresiones por minuto**.\n   - Deja que el pecho vuelva a su posición entre cada compresión.\n4. **No te detengas** hasta que llegue la ayuda, la persona respire o el DEA te lo indique. Si hay otra persona capacitada, túrnense cada dos minutos.\n\nSi no has hecho un curso, haz **solo compresiones**. El operador del SAMU te guiará."},
-    {"title": "El desfibrilador (DEA)", "body": "El desfibrilador externo automático es un aparato que analiza el ritmo del corazón y, si es necesario, da una descarga eléctrica. Está diseñado para que **cualquier persona** pueda usarlo:\n\n- Enciéndelo y **sigue las instrucciones de voz**.\n- Pega los parches en el pecho desnudo como muestra el dibujo.\n- Cuando el aparato lo indique, **nadie debe tocar a la persona**.\n- Después de la descarga, continúa con las compresiones si el DEA lo indica."},
-    {"title": "Atragantamiento", "body": "Si alguien se atraganta:\n\n- **Si puede toser,** anímalo a seguir tosiendo con fuerza. No le des golpes ni agua.\n- **Si no puede toser, hablar ni respirar,** es una emergencia:\n  - Pide ayuda y que alguien llame al 131.\n  - En adultos y niños mayores, se alternan **golpes firmes en la espalda**, entre los omóplatos con la persona inclinada hacia adelante, y **compresiones abdominales** desde atrás, por encima del ombligo, hacia adentro y arriba.\n  - En **lactantes** la técnica es distinta y debe aprenderse en un curso.\n- **Si pierde el conocimiento,** acuéstala en el suelo, llama al 131 e inicia compresiones torácicas."},
-    {"title": "Inconsciente que respira y hemorragias", "body": "**Persona inconsciente que respira:**\n\n- Colócala en **posición lateral de seguridad**: de lado, con la cabeza ligeramente inclinada hacia atrás para que la vía respiratoria quede abierta y pueda salir el vómito.\n- **Si sospechas una lesión de columna** (caída de altura, accidente de tránsito, golpe fuerte), no la muevas salvo que sea necesario para que respire o por peligro inmediato.\n- Llama al 131 y vigila que siga respirando.\n\n**Hemorragia importante:**\n\n- Ponte guantes si tienes.\n- **Presiona directamente** sobre la herida con gasas o un paño limpio, con fuerza y sin soltar.\n- Si se empapa, **agrega más gasas encima** sin retirar las primeras.\n- Llama al 131.\n- Mantén a la persona abrigada y acostada."}
+    {
+     "title": "Paro cardiorrespiratorio",
+     "body": "Si una persona **no responde y no respira con normalidad**:\n\n1. **Llama al 131** o pide a alguien que llame, con el altavoz encendido.\n2. **Pide un desfibrilador (DEA)** si hay uno cerca. Muchos lugares públicos lo tienen.\n3. **Inicia compresiones torácicas:**\n   - Persona boca arriba sobre una superficie firme.\n   - Talón de una mano en el **centro del pecho**, la otra mano encima, brazos rectos.\n   - Comprime **fuerte y rápido**: unos 5 a 6 centímetros de profundidad en un adulto, a un ritmo de **100 a 120 compresiones por minuto**.\n   - Deja que el pecho vuelva a su posición entre cada compresión.\n4. **No te detengas** hasta que llegue la ayuda, la persona respire o el DEA te lo indique. Si hay otra persona capacitada, túrnense cada dos minutos.\n\nSi no has hecho un curso, haz **solo compresiones**. El operador del SAMU te guiará."
+    },
+    {
+     "title": "El desfibrilador (DEA)",
+     "body": "El desfibrilador externo automático es un aparato que analiza el ritmo del corazón y, si es necesario, da una descarga eléctrica. Está diseñado para que **cualquier persona** pueda usarlo:\n\n- Enciéndelo y **sigue las instrucciones de voz**.\n- Pega los parches en el pecho desnudo como muestra el dibujo.\n- Cuando el aparato lo indique, **nadie debe tocar a la persona**.\n- Después de la descarga, continúa con las compresiones si el DEA lo indica."
+    },
+    {
+     "title": "Atragantamiento",
+     "body": "Si alguien se atraganta:\n\n- **Si puede toser,** anímalo a seguir tosiendo con fuerza. No le des golpes ni agua.\n- **Si no puede toser, hablar ni respirar,** es una emergencia:\n  - Pide ayuda y que alguien llame al 131.\n  - En adultos y niños mayores, se alternan **golpes firmes en la espalda**, entre los omóplatos con la persona inclinada hacia adelante, y **compresiones abdominales** desde atrás, por encima del ombligo, hacia adentro y arriba.\n  - En **lactantes** la técnica es distinta y debe aprenderse en un curso.\n- **Si pierde el conocimiento,** acuéstala en el suelo, llama al 131 e inicia compresiones torácicas."
+    },
+    {
+     "title": "Inconsciente que respira y hemorragias",
+     "body": "**Persona inconsciente que respira:**\n\n- Colócala en **posición lateral de seguridad**: de lado, con la cabeza ligeramente inclinada hacia atrás para que la vía respiratoria quede abierta y pueda salir el vómito.\n- **Si sospechas una lesión de columna** (caída de altura, accidente de tránsito, golpe fuerte), no la muevas salvo que sea necesario para que respire o por peligro inmediato.\n- Llama al 131 y vigila que siga respirando.\n\n**Hemorragia importante:**\n\n- Ponte guantes si tienes.\n- **Presiona directamente** sobre la herida con gasas o un paño limpio, con fuerza y sin soltar.\n- Si se empapa, **agrega más gasas encima** sin retirar las primeras.\n- Llama al 131.\n- Mantén a la persona abrigada y acostada."
+    }
    ],
-   "bible": {"ref": "Hechos 20,7-12 · Eutico vuelve a la vida", "comment": "Durante una reunión que se alarga hasta la medianoche, un joven llamado Eutico se duerme, cae desde una ventana y lo levantan sin vida. Pablo baja, se inclina sobre él y lo abraza, y el joven vive. La comunidad se llena de consuelo. Detrás de cada emergencia hay una vida preciosa a los ojos de Dios."},
+   "bible": {
+    "ref": "Hechos 20,7-12 · Eutico vuelve a la vida",
+    "comment": "Durante una reunión que se alarga hasta la medianoche, un joven llamado Eutico se duerme, cae desde una ventana y lo levantan sin vida. Pablo baja, se inclina sobre él y lo abraza, y el joven vive. La comunidad se llena de consuelo. Detrás de cada emergencia hay una vida preciosa a los ojos de Dios."
+   },
    "church": [
-    {"source": "Catecismo de la Iglesia Católica 2258", "text": "La vida humana es sagrada porque desde su inicio es fruto de la acción creadora de Dios.", "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"},
-    {"source": "Evangelium vitae 2", "text": "El hombre está llamado a una plenitud de vida que va más allá de la existencia terrena, y por eso su vida es preciosa.", "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"}
+    {
+     "source": "Catecismo de la Iglesia Católica 2258",
+     "text": "La vida humana es sagrada porque desde su inicio es fruto de la acción creadora de Dios.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"
+    },
+    {
+     "source": "Evangelium vitae 2",
+     "text": "El hombre está llamado a una plenitud de vida que va más allá de la existencia terrena, y por eso su vida es preciosa.",
+     "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html"
+    }
    ],
-   "questions": ["¿Sabes si hay un desfibrilador en tu parroquia, colegio o en algún lugar cercano?", "¿Qué te da más miedo de actuar en una emergencia grave?", "¿Por qué es mejor hacer compresiones aunque no sepas hacerlo perfecto que no hacer nada?", "¿Qué te gustaría practicar en un curso certificado?"],
+   "questions": [
+    "¿Sabes si hay un desfibrilador en tu parroquia, colegio o en algún lugar cercano?",
+    "¿Qué te da más miedo de actuar en una emergencia grave?",
+    "¿Por qué es mejor hacer compresiones aunque no sepas hacerlo perfecto que no hacer nada?",
+    "¿Qué te gustaría practicar en un curso certificado?"
+   ],
    "activity": "Revisen juntos el esquema de actuación ante un paro cardiorrespiratorio y el atragantamiento. Averigüen dónde está el desfibrilador más cercano a la parroquia y planifiquen, con el asesor, inscribirse en un curso práctico certificado.",
    "prayer": "Señor, dador de la vida: si alguna vez me toca enfrentar una emergencia, dame calma, fuerza y claridad. Que mis manos sirvan para sostener la vida mientras llega la ayuda. Y si no sé qué hacer, que no tenga miedo de pedir ayuda y seguir las indicaciones. Amén.",
-   "resources": [{"title": "Cruz Roja Chilena", "url": "https://www.cruzroja.cl/", "note": "Cursos de primeros auxilios y reanimación con práctica en maniquí."}],
+   "resources": [
+    {
+     "title": "Cruz Roja Chilena",
+     "url": "https://www.cruzroja.cl/",
+     "note": "Cursos de primeros auxilios y reanimación con práctica en maniquí."
+    }
+   ],
    "comenzar": "¿Has visto alguna vez un desfibrilador en un mall, un aeropuerto, un colegio o un estadio? Si no lo recuerdas, fíjate esta semana en los lugares que visites.",
-   "logros": ["Actuar ante un paro cardiorrespiratorio con compresiones y desfibrilador.", "Responder ante un atragantamiento.", "Poner a una persona en posición lateral de seguridad y controlar una hemorragia con presión directa."],
-   "profundizar": {"titulo": "Hacer algo es mejor que no hacer nada", "texto": "En un paro cardiorrespiratorio, cada minuto sin compresiones disminuye mucho las posibilidades de sobrevivir. Por eso, aunque tengas miedo de hacerlo mal:\n\n- **Llama al 131** y sigue las indicaciones.\n- **Haz compresiones:** es poco probable que empeores la situación de alguien que ya está en paro.\n- **Usa el DEA:** solo da una descarga si es necesaria.\n\nEn Chile, como en muchos países, se promueve que la ciudadanía aprenda reanimación básica. Tu grupo puede ser parte de eso."},
-   "caso": {"titulo": "El abuelo en la misa", "texto": "Durante la misa del domingo, un señor mayor se desploma en su banca. No responde. Algunos jóvenes que sirven en la misa están cerca y no saben qué hacer.", "preguntas": ["¿Cuáles son los primeros tres pasos?", "¿Cómo se pueden repartir las tareas entre varias personas?"]},
-   "claves": [["Paro cardiorrespiratorio", "Detención del corazón y de la respiración normal."], ["DEA", "Desfibrilador externo automático, que cualquier persona puede usar siguiendo sus instrucciones de voz."], ["Posición lateral de seguridad", "Posición de lado para una persona inconsciente que respira."]],
-   "lectio": {"meditar": "Pablo se inclina y abraza al joven caído. ¿Qué te dice esta escena sobre el valor de cada vida?", "orar": "Agradece a Dios por la vida de las personas de tu grupo.", "vivir": "Averigua dónde hay un desfibrilador cerca de tu casa o tu parroquia."},
-   "practica": ["Revisen el esquema de paro cardiorrespiratorio.", "Revisen el esquema de atragantamiento.", "Ubiquen el desfibrilador más cercano.", "Planifiquen un curso práctico certificado para el grupo."],
+   "logros": [
+    "Actuar ante un paro cardiorrespiratorio con compresiones y desfibrilador.",
+    "Responder ante un atragantamiento.",
+    "Poner a una persona en posición lateral de seguridad y controlar una hemorragia con presión directa."
+   ],
+   "profundizar": {
+    "titulo": "Hacer algo es mejor que no hacer nada",
+    "texto": "En un paro cardiorrespiratorio, cada minuto sin compresiones disminuye mucho las posibilidades de sobrevivir. Por eso, aunque tengas miedo de hacerlo mal:\n\n- **Llama al 131** y sigue las indicaciones.\n- **Haz compresiones:** es poco probable que empeores la situación de alguien que ya está en paro.\n- **Usa el DEA:** solo da una descarga si es necesaria.\n\nEn Chile, como en muchos países, se promueve que la ciudadanía aprenda reanimación básica. Tu grupo puede ser parte de eso."
+   },
+   "caso": {
+    "titulo": "El abuelo en la misa",
+    "texto": "Durante la misa del domingo, un señor mayor se desploma en su banca. No responde. Algunos jóvenes que sirven en la misa están cerca y no saben qué hacer.",
+    "preguntas": [
+     "¿Cuáles son los primeros tres pasos?",
+     "¿Cómo se pueden repartir las tareas entre varias personas?"
+    ]
+   },
+   "claves": [
+    [
+     "Paro cardiorrespiratorio",
+     "Detención del corazón y de la respiración normal."
+    ],
+    [
+     "DEA",
+     "Desfibrilador externo automático, que cualquier persona puede usar siguiendo sus instrucciones de voz."
+    ],
+    [
+     "Posición lateral de seguridad",
+     "Posición de lado para una persona inconsciente que respira."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Pablo se inclina y abraza al joven caído. ¿Qué te dice esta escena sobre el valor de cada vida?",
+    "orar": "Agradece a Dios por la vida de las personas de tu grupo.",
+    "vivir": "Averigua dónde hay un desfibrilador cerca de tu casa o tu parroquia."
+   },
+   "practica": [
+    "Revisen el esquema de paro cardiorrespiratorio.",
+    "Revisen el esquema de atragantamiento.",
+    "Ubiquen el desfibrilador más cercano.",
+    "Planifiquen un curso práctico certificado para el grupo."
+   ],
    "idea": "Llama, comprime y no te detengas hasta que llegue la ayuda."
   },
   {
@@ -69,27 +209,97 @@
    "objective": "Saber atender las lesiones más comunes en encuentros, juegos, salidas y campamentos, y reconocer cuándo hay que buscar atención médica.",
    "intro": "En las actividades juveniles, las emergencias graves son poco frecuentes, pero las lesiones menores son comunes: raspones, golpes, torceduras, quemaduras, sangrado de nariz. Saber atenderlas bien evita complicaciones y da tranquilidad a todos.",
    "sections": [
-    {"title": "Heridas", "body": "- **Lávate las manos** y ponte guantes.\n- **Limpia la herida** con abundante agua potable o suero fisiológico.\n- **Cubre** con una gasa o apósito limpio.\n- **No uses** algodón directamente sobre la herida ni productos caseros.\n\n**Busca atención médica** si la herida es profunda, no deja de sangrar, tiene bordes separados, está sucia con tierra u óxido, fue causada por una mordedura, o está en la cara o las manos."},
-    {"title": "Quemaduras", "body": "- **Enfría con agua corriente** fría, no helada, durante 10 a 20 minutos.\n- **Retira anillos, pulseras o ropa** de la zona, salvo que estén pegados a la piel.\n- **Cubre** con una gasa limpia o un paño limpio, sin apretar.\n- **No uses** hielo, pasta de dientes, mantequilla ni cremas caseras.\n- **No revientes** las ampollas.\n\n**Llama al 131 o busca atención médica** si la quemadura es grande, profunda, afecta la cara, las manos, los genitales o las articulaciones, o si la persona es un niño pequeño."},
-    {"title": "Torceduras, fracturas y golpes", "body": "**Torceduras y golpes en extremidades:**\n\n- **Reposo:** que la persona no siga usando la zona.\n- **Frío:** aplica una bolsa de frío envuelta en un paño, 15 a 20 minutos.\n- **Elevación** de la extremidad, si no duele más.\n\n**Si sospechas una fractura** (deformidad, dolor muy intenso, imposibilidad de mover): no intentes acomodar el hueso. **Inmoviliza** la zona como está, con apoyo, y busca atención médica.\n\n**Golpes en la cabeza:** observa a la persona durante las horas siguientes. Busca atención médica de inmediato si hay **pérdida de conciencia, vómitos repetidos, somnolencia, confusión, dolor de cabeza intenso o que aumenta**, o salida de líquido por nariz u oídos."},
-    {"title": "Sangrado de nariz y otras molestias", "body": "**Sangrado de nariz:**\n\n- Siéntate con la **cabeza inclinada hacia adelante**, no hacia atrás.\n- **Aprieta la parte blanda** de la nariz durante 10 minutos seguidos.\n- Si no se detiene en 20 minutos, busca atención médica.\n\n**Cuerpo extraño en el ojo:** lavar con abundante suero o agua limpia. No frotar.\n\n**Picaduras de insectos:** retirar el aguijón raspando con el borde de una tarjeta, lavar y aplicar frío. Si aparece dificultad para respirar, hinchazón de la cara o de la lengua, es una **emergencia: llama al 131**."}
+    {
+     "title": "Heridas",
+     "body": "- **Lávate las manos** y ponte guantes.\n- **Limpia la herida** con abundante agua potable o suero fisiológico.\n- **Cubre** con una gasa o apósito limpio.\n- **No uses** algodón directamente sobre la herida ni productos caseros.\n\n**Busca atención médica** si la herida es profunda, no deja de sangrar, tiene bordes separados, está sucia con tierra u óxido, fue causada por una mordedura, o está en la cara o las manos."
+    },
+    {
+     "title": "Quemaduras",
+     "body": "- **Enfría con agua corriente** fría, no helada, durante 10 a 20 minutos.\n- **Retira anillos, pulseras o ropa** de la zona, salvo que estén pegados a la piel.\n- **Cubre** con una gasa limpia o un paño limpio, sin apretar.\n- **No uses** hielo, pasta de dientes, mantequilla ni cremas caseras.\n- **No revientes** las ampollas.\n\n**Llama al 131 o busca atención médica** si la quemadura es grande, profunda, afecta la cara, las manos, los genitales o las articulaciones, o si la persona es un niño pequeño."
+    },
+    {
+     "title": "Torceduras, fracturas y golpes",
+     "body": "**Torceduras y golpes en extremidades:**\n\n- **Reposo:** que la persona no siga usando la zona.\n- **Frío:** aplica una bolsa de frío envuelta en un paño, 15 a 20 minutos.\n- **Elevación** de la extremidad, si no duele más.\n\n**Si sospechas una fractura** (deformidad, dolor muy intenso, imposibilidad de mover): no intentes acomodar el hueso. **Inmoviliza** la zona como está, con apoyo, y busca atención médica.\n\n**Golpes en la cabeza:** observa a la persona durante las horas siguientes. Busca atención médica de inmediato si hay **pérdida de conciencia, vómitos repetidos, somnolencia, confusión, dolor de cabeza intenso o que aumenta**, o salida de líquido por nariz u oídos."
+    },
+    {
+     "title": "Sangrado de nariz y otras molestias",
+     "body": "**Sangrado de nariz:**\n\n- Siéntate con la **cabeza inclinada hacia adelante**, no hacia atrás.\n- **Aprieta la parte blanda** de la nariz durante 10 minutos seguidos.\n- Si no se detiene en 20 minutos, busca atención médica.\n\n**Cuerpo extraño en el ojo:** lavar con abundante suero o agua limpia. No frotar.\n\n**Picaduras de insectos:** retirar el aguijón raspando con el borde de una tarjeta, lavar y aplicar frío. Si aparece dificultad para respirar, hinchazón de la cara o de la lengua, es una **emergencia: llama al 131**."
+    }
    ],
-   "bible": {"ref": "Isaías 61,1-3 · Vendar los corazones heridos", "comment": "El profeta anuncia que el Espíritu del Señor lo envía a llevar buenas noticias a los pobres y a vendar los corazones heridos. Jesús hace suyo este texto. Curar una herida pequeña con cariño también es un signo de ese cuidado de Dios."},
+   "bible": {
+    "ref": "Isaías 61,1-3 · Vendar los corazones heridos",
+    "comment": "El profeta anuncia que el Espíritu del Señor lo envía a llevar buenas noticias a los pobres y a vendar los corazones heridos. Jesús hace suyo este texto. Curar una herida pequeña con cariño también es un signo de ese cuidado de Dios."
+   },
    "church": [
-    {"source": "Catecismo de la Iglesia Católica 2288", "text": "Hay que cuidar razonablemente la salud propia y la de los demás, teniendo en cuenta las necesidades del bien común.", "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"},
-    {"source": "Fratelli tutti 67", "text": "La parábola del buen samaritano muestra con qué iniciativas se puede rehacer una comunidad a partir de quienes se hacen cargo del dolor ajeno.", "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"}
+    {
+     "source": "Catecismo de la Iglesia Católica 2288",
+     "text": "Hay que cuidar razonablemente la salud propia y la de los demás, teniendo en cuenta las necesidades del bien común.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"
+    },
+    {
+     "source": "Fratelli tutti 67",
+     "text": "La parábola del buen samaritano muestra con qué iniciativas se puede rehacer una comunidad a partir de quienes se hacen cargo del dolor ajeno.",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html"
+    }
    ],
-   "questions": ["¿Qué lesión has visto más en las actividades de tu grupo?", "¿Qué remedios caseros has visto usar que ahora sabes que no son recomendables?", "¿Cuándo buscarías atención médica después de un golpe en la cabeza?", "¿Qué ajustes harías en las actividades de tu grupo para prevenir lesiones?"],
+   "questions": [
+    "¿Qué lesión has visto más en las actividades de tu grupo?",
+    "¿Qué remedios caseros has visto usar que ahora sabes que no son recomendables?",
+    "¿Cuándo buscarías atención médica después de un golpe en la cabeza?",
+    "¿Qué ajustes harías en las actividades de tu grupo para prevenir lesiones?"
+   ],
    "activity": "Repartan entre parejas las lesiones de esta unidad. Cada pareja prepara una demostración de dos minutos con el botiquín (sin hacer procedimientos invasivos) y explica cuándo buscar atención médica.",
    "prayer": "Señor, que vendas los corazones heridos: dame manos cuidadosas y un corazón atento. Que sepa atender las pequeñas heridas con cariño y reconocer cuándo hace falta más ayuda. Y que, sobre todo, nuestras actividades sean seguras para todos. Amén.",
-   "resources": [{"title": "Salud Responde", "url": "https://saludresponde.minsal.cl/", "note": "Orientación telefónica en salud del Ministerio de Salud: 600 360 7777."}],
+   "resources": [
+    {
+     "title": "Salud Responde",
+     "url": "https://saludresponde.minsal.cl/",
+     "note": "Orientación telefónica en salud del Ministerio de Salud: 600 360 7777."
+    }
+   ],
    "comenzar": "Haz una lista de las lesiones o accidentes que hayas visto en actividades de tu grupo, colegio o familia. ¿Cómo se atendieron?",
-   "logros": ["Atender heridas, quemaduras, torceduras y golpes.", "Reconocer señales de alarma tras un golpe en la cabeza.", "Saber cuándo buscar atención médica."],
-   "profundizar": {"titulo": "Prevenir es la mejor ayuda", "texto": "La mayoría de las lesiones se pueden evitar:\n\n- **Revisar el lugar** antes de los juegos: vidrios, hoyos, desniveles, objetos peligrosos.\n- **Adaptar los juegos** a la edad y al espacio.\n- **Calzado adecuado** para correr.\n- **Cuidado con el fuego:** fogatas y cocinas siempre a cargo de un adulto.\n- **Hidratación y protección solar** en actividades al aire libre.\n- **Descanso suficiente** en campamentos y misiones."},
-   "caso": {"titulo": "La pasta de dientes", "texto": "En un campamento, una joven se quema la mano con agua caliente al cocinar. Otra participante le dice que se ponga pasta de dientes porque «así se hace en su casa».", "preguntas": ["¿Qué es lo correcto en este caso?", "¿Cuándo habría que buscar atención médica?"]},
-   "claves": [["Presión directa", "Presionar sobre una herida para detener el sangrado."], ["Inmovilizar", "Mantener quieta una zona lesionada para no empeorarla."], ["Señales de alarma", "Signos que indican que hay que buscar atención médica de inmediato."]],
-   "lectio": {"meditar": "El enviado del Señor venda los corazones heridos. ¿Qué heridas, visibles o invisibles, hay en tu grupo?", "orar": "Pide por las personas de tu grupo que están enfermas o lesionadas.", "vivir": "Revisa con el encargado de salud que el botiquín esté completo."},
-   "practica": ["Repartan las lesiones entre parejas.", "Preparen las demostraciones con el botiquín.", "Presenten al grupo.", "Revisen juntos las medidas de prevención para la próxima actividad."],
+   "logros": [
+    "Atender heridas, quemaduras, torceduras y golpes.",
+    "Reconocer señales de alarma tras un golpe en la cabeza.",
+    "Saber cuándo buscar atención médica."
+   ],
+   "profundizar": {
+    "titulo": "Prevenir es la mejor ayuda",
+    "texto": "La mayoría de las lesiones se pueden evitar:\n\n- **Revisar el lugar** antes de los juegos: vidrios, hoyos, desniveles, objetos peligrosos.\n- **Adaptar los juegos** a la edad y al espacio.\n- **Calzado adecuado** para correr.\n- **Cuidado con el fuego:** fogatas y cocinas siempre a cargo de un adulto.\n- **Hidratación y protección solar** en actividades al aire libre.\n- **Descanso suficiente** en campamentos y misiones."
+   },
+   "caso": {
+    "titulo": "La pasta de dientes",
+    "texto": "En un campamento, una joven se quema la mano con agua caliente al cocinar. Otra participante le dice que se ponga pasta de dientes porque «así se hace en su casa».",
+    "preguntas": [
+     "¿Qué es lo correcto en este caso?",
+     "¿Cuándo habría que buscar atención médica?"
+    ]
+   },
+   "claves": [
+    [
+     "Presión directa",
+     "Presionar sobre una herida para detener el sangrado."
+    ],
+    [
+     "Inmovilizar",
+     "Mantener quieta una zona lesionada para no empeorarla."
+    ],
+    [
+     "Señales de alarma",
+     "Signos que indican que hay que buscar atención médica de inmediato."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El enviado del Señor venda los corazones heridos. ¿Qué heridas, visibles o invisibles, hay en tu grupo?",
+    "orar": "Pide por las personas de tu grupo que están enfermas o lesionadas.",
+    "vivir": "Revisa con el encargado de salud que el botiquín esté completo."
+   },
+   "practica": [
+    "Repartan las lesiones entre parejas.",
+    "Preparen las demostraciones con el botiquín.",
+    "Presenten al grupo.",
+    "Revisen juntos las medidas de prevención para la próxima actividad."
+   ],
    "idea": "Agua, frío, presión y saber cuándo pedir ayuda."
   },
   {
@@ -97,38 +307,298 @@
    "objective": "Saber cómo actuar ante desmayos, convulsiones, crisis de asma, reacciones alérgicas graves, bajas de azúcar y golpes de calor.",
    "intro": "Algunas emergencias no vienen de un accidente, sino de una condición de salud: un desmayo, una convulsión, una crisis de asma o una alergia grave. Conocer las fichas de salud del grupo y saber qué hacer en estos casos da mucha tranquilidad.",
    "sections": [
-    {"title": "Desmayo y convulsiones", "body": "**Desmayo:**\n\n- Si la persona se siente mal antes de caer, ayúdala a **sentarse o acostarse**.\n- Si se desmayó y respira, **acuéstala boca arriba** y, si no hubo golpe, eleva sus piernas.\n- Afloja la ropa apretada y asegura aire fresco.\n- Si no recupera la conciencia en un minuto, ponla en **posición lateral de seguridad** y llama al 131.\n\n**Convulsión:**\n\n- **Protege** a la persona de golpes: aleja objetos y pon algo blando bajo su cabeza.\n- **No la sujetes** ni le pongas nada en la boca.\n- **Mide el tiempo.**\n- Cuando termine, ponla en **posición lateral de seguridad**.\n- **Llama al 131** si dura más de 5 minutos, si es la primera vez, si se repite, si hay lesiones o si la persona no recupera la conciencia."},
-    {"title": "Asma y alergias graves", "body": "**Crisis de asma:**\n\n- Ayuda a la persona a **sentarse erguida** y a respirar con calma.\n- Ayúdala a usar **su propio inhalador** según su indicación médica.\n- Si no mejora, tiene labios azulados o no puede hablar, **llama al 131**.\n\n**Reacción alérgica grave (anafilaxia):**\n\nSeñales: dificultad para respirar, hinchazón de la cara, los labios o la lengua, ronchas extensas, mareo intenso.\n\n- **Llama al 131 de inmediato.**\n- Si la persona tiene un **autoinyector de adrenalina** indicado por su médico, ayúdala a usarlo según sus instrucciones.\n- Mantenla acostada, o sentada si respira mejor así."},
-    {"title": "Baja de azúcar", "body": "Las personas con **diabetes** pueden tener una baja de azúcar (hipoglicemia): sudor frío, temblor, palidez, confusión, irritabilidad.\n\n- **Si está consciente y puede tragar:** dale azúcar de absorción rápida, como un jugo con azúcar, una bebida azucarada o azúcar disuelta en agua.\n- Si mejora, que coma algo después.\n- **Si está confusa, no puede tragar o pierde la conciencia:** no le des nada por la boca, ponla en posición lateral de seguridad y llama al 131.\n\nLas fichas de salud deben indicar quién tiene diabetes y qué indicó su médico."},
-    {"title": "Calor y sol", "body": "En misiones y campamentos de verano son frecuentes:\n\n- **Deshidratación:** sed intensa, dolor de cabeza, cansancio, orina escasa. Llevar a la sombra y dar agua de a sorbos.\n- **Insolación y golpe de calor:** piel muy caliente, dolor de cabeza fuerte, náuseas, mareo. Llevar a la sombra, **enfriar** con paños húmedos y aire, y dar agua si está consciente.\n- Si hay **confusión, desmayo o convulsión**, es una emergencia: **llama al 131** mientras enfrías a la persona.\n\n**Prevención:** agua siempre disponible, gorro, bloqueador, evitar actividades intensas entre las 12 y las 16 horas."}
+    {
+     "title": "Desmayo y convulsiones",
+     "body": "**Desmayo:**\n\n- Si la persona se siente mal antes de caer, ayúdala a **sentarse o acostarse**.\n- Si se desmayó y respira, **acuéstala boca arriba** y, si no hubo golpe, eleva sus piernas.\n- Afloja la ropa apretada y asegura aire fresco.\n- Si no recupera la conciencia en un minuto, ponla en **posición lateral de seguridad** y llama al 131.\n\n**Convulsión:**\n\n- **Protege** a la persona de golpes: aleja objetos y pon algo blando bajo su cabeza.\n- **No la sujetes** ni le pongas nada en la boca.\n- **Mide el tiempo.**\n- Cuando termine, ponla en **posición lateral de seguridad**.\n- **Llama al 131** si dura más de 5 minutos, si es la primera vez, si se repite, si hay lesiones o si la persona no recupera la conciencia."
+    },
+    {
+     "title": "Asma y alergias graves",
+     "body": "**Crisis de asma:**\n\n- Ayuda a la persona a **sentarse erguida** y a respirar con calma.\n- Ayúdala a usar **su propio inhalador** según su indicación médica.\n- Si no mejora, tiene labios azulados o no puede hablar, **llama al 131**.\n\n**Reacción alérgica grave (anafilaxia):**\n\nSeñales: dificultad para respirar, hinchazón de la cara, los labios o la lengua, ronchas extensas, mareo intenso.\n\n- **Llama al 131 de inmediato.**\n- Si la persona tiene un **autoinyector de adrenalina** indicado por su médico, ayúdala a usarlo según sus instrucciones.\n- Mantenla acostada, o sentada si respira mejor así."
+    },
+    {
+     "title": "Baja de azúcar",
+     "body": "Las personas con **diabetes** pueden tener una baja de azúcar (hipoglicemia): sudor frío, temblor, palidez, confusión, irritabilidad.\n\n- **Si está consciente y puede tragar:** dale azúcar de absorción rápida, como un jugo con azúcar, una bebida azucarada o azúcar disuelta en agua.\n- Si mejora, que coma algo después.\n- **Si está confusa, no puede tragar o pierde la conciencia:** no le des nada por la boca, ponla en posición lateral de seguridad y llama al 131.\n\nLas fichas de salud deben indicar quién tiene diabetes y qué indicó su médico."
+    },
+    {
+     "title": "Calor y sol",
+     "body": "En misiones y campamentos de verano son frecuentes:\n\n- **Deshidratación:** sed intensa, dolor de cabeza, cansancio, orina escasa. Llevar a la sombra y dar agua de a sorbos.\n- **Insolación y golpe de calor:** piel muy caliente, dolor de cabeza fuerte, náuseas, mareo. Llevar a la sombra, **enfriar** con paños húmedos y aire, y dar agua si está consciente.\n- Si hay **confusión, desmayo o convulsión**, es una emergencia: **llama al 131** mientras enfrías a la persona.\n\n**Prevención:** agua siempre disponible, gorro, bloqueador, evitar actividades intensas entre las 12 y las 16 horas."
+    }
    ],
-   "bible": {"ref": "Marcos 1,29-31 · Jesús levanta a la suegra de Pedro", "comment": "La suegra de Pedro está en cama con fiebre. Jesús se acerca, la toma de la mano y la levanta. Jesús se ocupó de los enfermos con cercanía y ternura. Cuidar la salud de los demás es parte de nuestra manera de seguirlo."},
+   "bible": {
+    "ref": "Marcos 1,29-31 · Jesús levanta a la suegra de Pedro",
+    "comment": "La suegra de Pedro está en cama con fiebre. Jesús se acerca, la toma de la mano y la levanta. Jesús se ocupó de los enfermos con cercanía y ternura. Cuidar la salud de los demás es parte de nuestra manera de seguirlo."
+   },
    "church": [
-    {"source": "Catecismo de la Iglesia Católica 1503-1505", "text": "La compasión de Cristo hacia los enfermos y sus numerosas curaciones son un signo de que Dios visita a su pueblo.", "url": "https://www.vatican.va/archive/catechism_sp/p2s2c2a5_sp.html"},
-    {"source": "Catecismo de la Iglesia Católica 2288", "text": "La vida y la salud física son bienes preciosos confiados por Dios.", "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"}
+    {
+     "source": "Catecismo de la Iglesia Católica 1503-1505",
+     "text": "La compasión de Cristo hacia los enfermos y sus numerosas curaciones son un signo de que Dios visita a su pueblo.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p2s2c2a5_sp.html"
+    },
+    {
+     "source": "Catecismo de la Iglesia Católica 2288",
+     "text": "La vida y la salud física son bienes preciosos confiados por Dios.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"
+    }
    ],
-   "questions": ["¿Sabes si en tu grupo hay personas con asma, diabetes, epilepsia o alergias graves?", "¿Qué harías si alguien tiene una convulsión durante un encuentro?", "¿Qué medidas tomaría tu grupo para prevenir golpes de calor en una misión de verano?", "¿Qué te enseña la manera en que Jesús se acercaba a los enfermos?"],
+   "questions": [
+    "¿Sabes si en tu grupo hay personas con asma, diabetes, epilepsia o alergias graves?",
+    "¿Qué harías si alguien tiene una convulsión durante un encuentro?",
+    "¿Qué medidas tomaría tu grupo para prevenir golpes de calor en una misión de verano?",
+    "¿Qué te enseña la manera en que Jesús se acercaba a los enfermos?"
+   ],
    "activity": "Con el encargado de salud, revisen (con resguardo de privacidad) qué condiciones de salud hay en el grupo y preparen un plan simple para cada una: qué hacer, quién lo hace y dónde están los medicamentos.",
    "prayer": "Señor Jesús, que tomaste de la mano a la suegra de Pedro y la levantaste: cuida la salud de cada joven de nuestro grupo. Danos atención para conocer sus necesidades y serenidad para actuar si se enferman. Bendice a todos los enfermos y a quienes los cuidan. Amén.",
-   "resources": [{"title": "Salud Responde", "url": "https://saludresponde.minsal.cl/", "note": "Orientación en salud del Ministerio de Salud: 600 360 7777."}],
+   "resources": [
+    {
+     "title": "Salud Responde",
+     "url": "https://saludresponde.minsal.cl/",
+     "note": "Orientación en salud del Ministerio de Salud: 600 360 7777."
+    }
+   ],
    "comenzar": "Revisa tu propia salud: ¿tienes alguna alergia, enfermedad o medicamento que los responsables de tu grupo deberían conocer? ¿Está en tu ficha de salud?",
-   "logros": ["Actuar ante desmayos y convulsiones.", "Responder ante crisis de asma, alergias graves y bajas de azúcar.", "Prevenir y atender la deshidratación y el golpe de calor."],
-   "profundizar": {"titulo": "Privacidad de la información de salud", "texto": "Las fichas de salud contienen información sensible. Algunas reglas:\n\n- Solo las conocen el **encargado de salud** y los **responsables** de la actividad.\n- Se guardan en un lugar **seguro**, no en grupos de chat.\n- Se usan **solo para cuidar** a la persona.\n- Si un participante cuenta algo de su salud a un dirigente, se trata con **discreción** y se comparte solo con quien necesita saberlo para cuidarlo.\n- Al terminar la actividad, se devuelven o se guardan según las normas de la parroquia."},
-   "caso": {"titulo": "El inhalador olvidado", "texto": "En una caminata, un joven con asma empieza a tener dificultad para respirar. Su inhalador quedó en la mochila, en el bus, a media hora de distancia. Nadie sabía que tenía asma.", "preguntas": ["¿Qué falló en la preparación de la actividad?", "¿Qué hacer en ese momento?"]},
-   "claves": [["Anafilaxia", "Reacción alérgica grave que puede poner en riesgo la vida."], ["Hipoglicemia", "Baja de azúcar en la sangre, frecuente en personas con diabetes."], ["Golpe de calor", "Aumento peligroso de la temperatura del cuerpo por exposición al calor."]],
-   "lectio": {"meditar": "Jesús toma de la mano a la enferma. ¿Cómo puedes tú acercarte a quienes están enfermos en tu entorno?", "orar": "Reza por los enfermos de tu familia y de tu comunidad.", "vivir": "Visita o llama esta semana a alguien que esté enfermo."},
-   "practica": ["Revisen con el encargado las condiciones de salud del grupo.", "Preparen un plan para cada una.", "Ubiquen dónde estarán los medicamentos en cada actividad.", "Inscríbanse en un curso práctico certificado."],
+   "logros": [
+    "Actuar ante desmayos y convulsiones.",
+    "Responder ante crisis de asma, alergias graves y bajas de azúcar.",
+    "Prevenir y atender la deshidratación y el golpe de calor."
+   ],
+   "profundizar": {
+    "titulo": "Privacidad de la información de salud",
+    "texto": "Las fichas de salud contienen información sensible. Algunas reglas:\n\n- Solo las conocen el **encargado de salud** y los **responsables** de la actividad.\n- Se guardan en un lugar **seguro**, no en grupos de chat.\n- Se usan **solo para cuidar** a la persona.\n- Si un participante cuenta algo de su salud a un dirigente, se trata con **discreción** y se comparte solo con quien necesita saberlo para cuidarlo.\n- Al terminar la actividad, se devuelven o se guardan según las normas de la parroquia."
+   },
+   "caso": {
+    "titulo": "El inhalador olvidado",
+    "texto": "En una caminata, un joven con asma empieza a tener dificultad para respirar. Su inhalador quedó en la mochila, en el bus, a media hora de distancia. Nadie sabía que tenía asma.",
+    "preguntas": [
+     "¿Qué falló en la preparación de la actividad?",
+     "¿Qué hacer en ese momento?"
+    ]
+   },
+   "claves": [
+    [
+     "Anafilaxia",
+     "Reacción alérgica grave que puede poner en riesgo la vida."
+    ],
+    [
+     "Hipoglicemia",
+     "Baja de azúcar en la sangre, frecuente en personas con diabetes."
+    ],
+    [
+     "Golpe de calor",
+     "Aumento peligroso de la temperatura del cuerpo por exposición al calor."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús toma de la mano a la enferma. ¿Cómo puedes tú acercarte a quienes están enfermos en tu entorno?",
+    "orar": "Reza por los enfermos de tu familia y de tu comunidad.",
+    "vivir": "Visita o llama esta semana a alguien que esté enfermo."
+   },
+   "practica": [
+    "Revisen con el encargado las condiciones de salud del grupo.",
+    "Preparen un plan para cada una.",
+    "Ubiquen dónde estarán los medicamentos en cada actividad.",
+    "Inscríbanse en un curso práctico certificado."
+   ],
    "idea": "Conocer al grupo es la primera forma de cuidar su salud."
+  },
+  {
+   "title": "Prevenir: actividades seguras",
+   "objective": "Planificar una salida, jornada o campamento reduciendo riesgos y preparando la respuesta ante emergencias.",
+   "intro": "La mejor emergencia es la que no ocurre. Muchos accidentes en actividades juveniles se pueden prevenir con una buena planificación. En esta unidad vas a aprender a preparar una actividad segura: antes, durante y después.",
+   "sections": [
+    {
+     "title": "Antes de la actividad",
+     "body": "- **Conocer el lugar:** visitarlo antes si es posible, identificar riesgos (agua, altura, tránsito, clima).\n- **Fichas de salud** de cada participante: alergias, enfermedades, medicamentos y contacto de emergencia.\n- **Autorizaciones firmadas** por los padres o tutores para menores de edad.\n- **Número de adultos responsables** adecuado al grupo y a la actividad.\n- **Plan de emergencia:** centro de salud más cercano, cómo llegar, quién maneja, cobertura de teléfono."
+    },
+    {
+     "title": "El botiquín",
+     "body": "Un botiquín básico para actividades:\n\n- Guantes desechables.\n- Gasas, apósitos y vendas.\n- Tela adhesiva y parches curitas.\n- Suero fisiológico para lavar heridas.\n- Tijeras y pinzas.\n- Manta térmica.\n- Bolsas de frío instantáneo.\n- Protector solar.\n\nLos medicamentos de cada participante los administra solo un adulto responsable, según la indicación de la familia. No se dan medicamentos por cuenta propia."
+    },
+    {
+     "title": "Durante la actividad",
+     "body": "- **Contar al grupo** en cada traslado o cambio de lugar.\n- **Sistema de parejas:** nadie anda solo.\n- **Hidratación y protección del sol** en verano.\n- **Reglas claras** sobre el agua, los fuegos y las zonas prohibidas.\n- **Atención al clima:** suspender o adaptar si cambia.\n- **Un adulto siempre ubicable** con el botiquín y las fichas de salud."
+    },
+    {
+     "title": "Después",
+     "body": "- **Avisar a las familias** de cualquier incidente, aunque sea menor.\n- **Registrar lo ocurrido:** qué pasó, cómo se atendió, quién estuvo presente.\n- **Evaluar con el equipo** qué funcionó y qué mejorar para la próxima vez.\n- **Reponer el botiquín.**"
+    }
+   ],
+   "bible": {
+    "ref": "Proverbios 22,3 · El prudente ve el peligro",
+    "comment": "«El prudente ve el peligro y se pone a salvo; los inexpertos siguen adelante y sufren las consecuencias». La prudencia es una virtud cristiana: cuidar la vida de otros incluye pensar antes en lo que podría salir mal."
+   },
+   "church": [
+    {
+     "source": "Catecismo de la Iglesia Católica 2288",
+     "text": "La vida y la salud física son bienes confiados por Dios; debemos cuidarlos razonablemente, teniendo en cuenta las necesidades de los demás.",
+     "url": "https://www.vatican.va/archive/catechism_sp/p3s2c2a5_sp.html"
+    },
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile, 2020)",
+     "text": "Las actividades con menores de edad requieren autorización de los padres, adultos responsables suficientes y normas claras de cuidado.",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/"
+    }
+   ],
+   "questions": [
+    "¿Qué riesgos has visto en actividades de tu grupo?",
+    "¿Tu grupo usa fichas de salud y autorizaciones?",
+    "¿Sabes dónde está el centro de salud más cercano al lugar de tu próxima actividad?",
+    "¿Qué incidente pasado se pudo haber evitado?"
+   ],
+   "activity": "Planifiquen la seguridad de la próxima salida o jornada del grupo: lista de riesgos del lugar, plan de emergencia, revisión del botiquín y formato de ficha de salud y autorización.",
+   "prayer": "Señor de la vida, que nos confías a nuestros hermanos: danos prudencia para prevenir, serenidad para actuar y un corazón atento al cuidado de cada uno. Que nuestras actividades sean lugares seguros donde todos puedan crecer. Amén.",
+   "resources": [
+    {
+     "title": "Prevenir abusos: Iglesia en Chile",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/",
+     "note": "Orientaciones para actividades con menores de edad."
+    }
+   ],
+   "comenzar": "Piensa en la última actividad fuera de la parroquia en la que participaste. ¿Había botiquín? ¿Sabías quién era el adulto responsable?",
+   "logros": [
+    "Identificar riesgos antes de una actividad.",
+    "Preparar botiquín, fichas y autorizaciones.",
+    "Aplicar normas de cuidado durante y después."
+   ],
+   "profundizar": {
+    "titulo": "Los campamentos de verano",
+    "texto": "En verano aumentan los riesgos por calor, sol y agua. Nunca se debe permitir el baño sin un adulto responsable mirando y sin conocer el lugar. Los ríos, lagos y el mar en Chile pueden tener corrientes peligrosas incluso cuando parecen tranquilos."
+   },
+   "caso": {
+    "titulo": "La salida improvisada",
+    "texto": "Un sábado soleado, el grupo decide ir de improviso a un río cercano. Nadie lleva botiquín, no hay autorizaciones y solo un dirigente de 18 años acompaña a quince jóvenes.",
+    "preguntas": [
+     "¿Qué riesgos ves?",
+     "¿Qué habría que preparar para hacer esa salida de forma segura?"
+    ]
+   },
+   "claves": [
+    [
+     "Plan de emergencia",
+     "Qué hacer, a quién llamar y dónde ir si algo pasa."
+    ],
+    [
+     "Ficha de salud",
+     "Información médica y de contacto de cada participante."
+    ],
+    [
+     "Sistema de parejas",
+     "Cada participante tiene un compañero del que se preocupa."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El prudente ve el peligro. ¿Qué peligros no estás viendo?",
+    "orar": "Reza por quienes organizan actividades con jóvenes.",
+    "vivir": "Revisa esta semana el botiquín de tu grupo o parroquia."
+   },
+   "practica": [
+    "Hagan la lista de riesgos.",
+    "Preparen el plan de emergencia.",
+    "Revisen el botiquín.",
+    "Preparen fichas y autorizaciones."
+   ],
+   "idea": "Cuidar la vida empieza antes de que ocurra la emergencia."
   }
  ],
  "evaluacion": [
-  {"q": "¿Cuál es el orden correcto ante una emergencia?", "options": ["Socorrer, avisar, proteger.", "Proteger, avisar, socorrer.", "Avisar, socorrer, proteger."], "correct": 1, "feedback": "Primero asegurar el lugar, luego pedir ayuda y después socorrer."},
-  {"q": "¿Qué número llamas para una ambulancia en Chile?", "options": ["131", "132", "133"], "correct": 0, "feedback": "131 es SAMU; 132 Bomberos; 133 Carabineros."},
-  {"q": "Si una persona no responde y no respira con normalidad, ¿qué haces?", "options": ["Le das agua.", "Llamas al 131 e inicias compresiones en el centro del pecho.", "Esperas a que despierte."], "correct": 1, "feedback": "Es un paro cardiorrespiratorio: cada minuto cuenta."},
-  {"q": "¿A qué ritmo se hacen las compresiones torácicas?", "options": ["30 por minuto.", "100 a 120 por minuto.", "200 por minuto."], "correct": 1, "feedback": "Fuerte y rápido, dejando que el pecho vuelva a su posición."},
-  {"q": "¿Qué se hace ante una quemadura?", "options": ["Poner pasta de dientes.", "Enfriar con agua corriente fría durante 10 a 20 minutos.", "Poner hielo directamente."], "correct": 1, "feedback": "No se usan hielo, pasta de dientes ni remedios caseros."},
-  {"q": "Ante un sangrado de nariz, ¿cómo se pone la cabeza?", "options": ["Hacia atrás.", "Hacia adelante, apretando la parte blanda de la nariz.", "Acostado boca arriba."], "correct": 1, "feedback": "Hacia atrás la sangre puede tragarse o ir a la vía respiratoria."},
-  {"q": "Durante una convulsión, ¿qué NO se debe hacer?", "options": ["Proteger la cabeza.", "Poner algo en la boca de la persona o sujetarla.", "Medir el tiempo."], "correct": 1, "feedback": "Se protege de golpes y, al terminar, se pone en posición lateral de seguridad."},
-  {"q": "¿Esta formación reemplaza un curso práctico certificado?", "options": ["Sí, es suficiente.", "No, lo complementa: los primeros auxilios se aprenden practicando.", "Solo para mayores de 18 años."], "correct": 1, "feedback": "Inscríbanse en un curso con instructor y práctica en maniquí."}
+  {
+   "q": "¿Cuál es el orden correcto ante una emergencia?",
+   "options": [
+    "Socorrer, avisar, proteger.",
+    "Proteger, avisar, socorrer.",
+    "Avisar, socorrer, proteger."
+   ],
+   "correct": 1,
+   "feedback": "Primero asegurar el lugar, luego pedir ayuda y después socorrer."
+  },
+  {
+   "q": "¿Qué número llamas para una ambulancia en Chile?",
+   "options": [
+    "131",
+    "132",
+    "133"
+   ],
+   "correct": 0,
+   "feedback": "131 es SAMU; 132 Bomberos; 133 Carabineros."
+  },
+  {
+   "q": "Si una persona no responde y no respira con normalidad, ¿qué haces?",
+   "options": [
+    "Le das agua.",
+    "Llamas al 131 e inicias compresiones en el centro del pecho.",
+    "Esperas a que despierte."
+   ],
+   "correct": 1,
+   "feedback": "Es un paro cardiorrespiratorio: cada minuto cuenta."
+  },
+  {
+   "q": "¿A qué ritmo se hacen las compresiones torácicas?",
+   "options": [
+    "30 por minuto.",
+    "100 a 120 por minuto.",
+    "200 por minuto."
+   ],
+   "correct": 1,
+   "feedback": "Fuerte y rápido, dejando que el pecho vuelva a su posición."
+  },
+  {
+   "q": "¿Qué se hace ante una quemadura?",
+   "options": [
+    "Poner pasta de dientes.",
+    "Enfriar con agua corriente fría durante 10 a 20 minutos.",
+    "Poner hielo directamente."
+   ],
+   "correct": 1,
+   "feedback": "No se usan hielo, pasta de dientes ni remedios caseros."
+  },
+  {
+   "q": "Ante un sangrado de nariz, ¿cómo se pone la cabeza?",
+   "options": [
+    "Hacia atrás.",
+    "Hacia adelante, apretando la parte blanda de la nariz.",
+    "Acostado boca arriba."
+   ],
+   "correct": 1,
+   "feedback": "Hacia atrás la sangre puede tragarse o ir a la vía respiratoria."
+  },
+  {
+   "q": "Durante una convulsión, ¿qué NO se debe hacer?",
+   "options": [
+    "Proteger la cabeza.",
+    "Poner algo en la boca de la persona o sujetarla.",
+    "Medir el tiempo."
+   ],
+   "correct": 1,
+   "feedback": "Se protege de golpes y, al terminar, se pone en posición lateral de seguridad."
+  },
+  {
+   "q": "¿Esta formación reemplaza un curso práctico certificado?",
+   "options": [
+    "Sí, es suficiente.",
+    "No, lo complementa: los primeros auxilios se aprenden practicando.",
+    "Solo para mayores de 18 años."
+   ],
+   "correct": 1,
+   "feedback": "Inscríbanse en un curso con instructor y práctica en maniquí."
+  },
+  {
+   "q": "¿Qué documentos se necesitan para una salida con menores de edad?",
+   "options": [
+    "Ninguno",
+    "Autorización de los padres y ficha de salud",
+    "Solo la lista de asistencia"
+   ],
+   "correct": 1,
+   "feedback": "Autorización y ficha de salud son básicas."
+  },
+  {
+   "q": "¿Quién puede dar medicamentos a un participante?",
+   "options": [
+    "Cualquier dirigente",
+    "Solo un adulto responsable, según la indicación de la familia",
+    "El mismo participante a otros"
+   ],
+   "correct": 1,
+   "feedback": "Los medicamentos no se dan por cuenta propia."
+  }
  ]
 }

@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "La mejor comunicación es una vida comunitaria auténtica."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "opciones": [
+     "Nada, si es una actividad de la Iglesia",
+     "Autorización escrita de sus padres o tutores",
+     "Que el menor esté de acuerdo"
+    ],
+    "correcta": 1,
+    "explicacion": "La autorización de los padres o tutores es indispensable."
+   },
+   {
+    "pregunta": "¿Qué conviene al publicar después de un evento?",
+    "opciones": [
+     "Subir todas las fotos",
+     "Elegir pocas imágenes buenas y un texto breve",
+     "Esperar un mes"
+    ],
+    "correcta": 1,
+    "explicacion": "Menos y mejor comunica más."
    }
   ]
  }

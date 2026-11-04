@@ -4,7 +4,7 @@
  "subtitulo": "Jugar para encontrarse, aprender y crecer",
  "categoria": "Herramientas",
  "publico": "Desde 13 años",
- "descripcion": "Para quienes animan encuentros, retiros, campamentos y misiones: para qué sirve el juego en la pastoral, cómo diseñar y conducir una dinámica, un banco de dinámicas probadas y cómo organizar grandes juegos seguros e inclusivos. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para quienes animan encuentros, retiros, campamentos y misiones: para qué sirve el juego en la pastoral, cómo diseñar y conducir una dinámica, un banco de dinámicas probadas y cómo organizar grandes juegos seguros e inclusivos. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Animar con el juego",
  "intro": "El juego es uno de los lenguajes más naturales de los jóvenes. Bien usado, rompe el hielo, une al grupo, enseña y abre el corazón. Mal usado, puede aburrir, excluir o incluso humillar. Esta formación te ayuda a elegir, diseñar y conducir dinámicas con sentido.",
  "unidades": [
@@ -303,6 +303,104 @@
    "idea": "Cada miembro es necesario para que el grupo funcione."
   },
   {
+   "title": "Animar una jornada completa",
+   "objective": "Diseñar el ritmo de una jornada o encuentro largo, combinando juego, reflexión, oración y descanso.",
+   "intro": "Una dinámica bien hecha dura 15 minutos. Una jornada dura un día entero. Animarla requiere pensar en el ritmo: cuándo subir la energía, cuándo bajarla, cuándo reflexionar y cuándo descansar. En esta unidad vas a aprender a diseñar una jornada completa.",
+   "sections": [
+    {
+     "title": "La curva de energía",
+     "body": "La energía de un grupo sube y baja durante el día:\n\n- **Al llegar:** gente que no se conoce o viene cansada. Dinámicas de acogida y presentación.\n- **Media mañana:** buena atención. Momento para el tema central.\n- **Después de almuerzo:** energía baja. Juegos activos, no charlas largas.\n- **Tarde:** trabajo en grupos y gran juego.\n- **Cierre:** calma, oración y envío.\n\nUna buena jornada alterna momentos activos y momentos de profundidad."
+    },
+    {
+     "title": "Las transiciones",
+     "body": "Pasar de un momento a otro es donde más se pierde el grupo. Ayuda:\n\n- **Anunciar lo que viene** con claridad.\n- **Usar una señal** conocida para reunir al grupo: un canto, una palmada, una campana.\n- **Pasar de lo activo a lo reflexivo** con una dinámica de calma intermedia.\n- **Tener todo preparado** antes, para no hacer esperar."
+    },
+    {
+     "title": "El equipo de animación",
+     "body": "Nadie anima solo una jornada. Un equipo funciona mejor si:\n\n- **Cada momento tiene un responsable.**\n- **Hay alguien a cargo de los tiempos** que avisa cuando hay que avanzar.\n- **Alguien cuida a los participantes:** quién está solo, quién se siente mal.\n- **Se reúnen brevemente** durante la jornada para ajustar.\n- **Evalúan al final,** cuando todo está fresco."
+    },
+    {
+     "title": "Imprevistos",
+     "body": "Siempre pasa algo: llueve, llegan menos personas, una dinámica no resulta. Ten preparado:\n\n- **Un plan B bajo techo** para los juegos al aire libre.\n- **Dinámicas cortas de reserva** para llenar un espacio.\n- **Flexibilidad:** si el grupo está cansado, acorta; si está muy metido en una conversación, dale más tiempo.\n- **Lo esencial no se negocia:** la oración y el cierre se mantienen."
+    }
+   ],
+   "bible": {
+    "ref": "Marcos 6,30-32 · Vengan a descansar un poco",
+    "comment": "Los apóstoles vuelven de la misión con mucho que contar y tan ocupados que no tienen tiempo ni para comer. Jesús les dice: «Vengan ustedes solos a un lugar apartado y descansen un poco». Jesús cuida el ritmo de los suyos: trabajo, encuentro y descanso."
+   },
+   "church": [
+    {
+     "source": "Gaudete et exsultate 122-128",
+     "text": "La alegría y el sentido del humor son parte de la santidad: el santo vive con alegría y la contagia a los demás.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html"
+    },
+    {
+     "source": "Christus vivit 226-228",
+     "text": "El deporte, el juego y la vida al aire libre son espacios privilegiados para el encuentro y el crecimiento de los jóvenes.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Cuál ha sido la mejor jornada en la que has participado? ¿Qué la hizo buena?",
+    "¿En qué momento del día suele bajar más la energía de tu grupo?",
+    "¿Qué imprevisto has tenido que resolver en una actividad?",
+    "¿Cómo se reparten las tareas en el equipo de animación de tu grupo?"
+   ],
+   "activity": "En equipos, diseñen el programa completo de una jornada de seis horas para el grupo: horarios, momentos, responsables, materiales y plan B. Preséntenlo y reciban comentarios de los demás equipos.",
+   "prayer": "Señor, que cuidaste el ritmo de tus discípulos: ayúdanos a animar jornadas donde haya juego, encuentro, oración y descanso. Que cada momento ayude a nuestros jóvenes a encontrarse contigo y entre ellos. Amén.",
+   "resources": [
+    {
+     "title": "Gaudete et exsultate (Francisco, 2018)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html",
+     "note": "Números 122-128, sobre la alegría."
+    }
+   ],
+   "comenzar": "Recuerda una jornada aburrida en la que participaste. ¿En qué momento se perdió el grupo?",
+   "logros": [
+    "Diseñar el ritmo de una jornada según la energía del grupo.",
+    "Cuidar las transiciones entre momentos.",
+    "Trabajar en equipo y prever imprevistos."
+   ],
+   "profundizar": {
+    "titulo": "Plantilla de jornada",
+    "texto": "Una tabla con cinco columnas ayuda a planificar: hora, momento, objetivo, responsable y materiales. Revisen que no haya más de 45 minutos seguidos sentados escuchando y que exista un momento de oración y uno de evaluación."
+   },
+   "caso": {
+    "titulo": "La charla después del almuerzo",
+    "texto": "En una jornada, el equipo programa una charla de una hora justo después de almuerzo. A los diez minutos, la mitad del grupo está con el celular y varios se quedan dormidos.",
+    "preguntas": [
+     "¿Qué falló en el diseño?",
+     "¿Cómo reorganizarías esa parte de la jornada?"
+    ]
+   },
+   "claves": [
+    [
+     "Curva de energía",
+     "Cómo cambia la atención del grupo durante el día."
+    ],
+    [
+     "Transición",
+     "Paso de un momento de la jornada a otro."
+    ],
+    [
+     "Plan B",
+     "Alternativa preparada ante imprevistos."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Vengan a descansar un poco. ¿Respetas tu propio ritmo?",
+    "orar": "Reza por el equipo con el que animas.",
+    "vivir": "Regálate esta semana un momento real de descanso."
+   },
+   "practica": [
+    "Definan el objetivo de la jornada.",
+    "Diseñen el programa.",
+    "Asignen responsables.",
+    "Preparen el plan B."
+   ],
+   "idea": "Una buena jornada alterna juego, profundidad y descanso."
+  },
+  {
    "title": "Grandes juegos, seguridad e inclusión",
    "objective": "Organizar grandes juegos para muchos participantes con un objetivo pastoral, cuidando la seguridad y la inclusión de todos.",
    "intro": "Los grandes juegos, como una búsqueda del tesoro, un juego de pistas o unas olimpiadas, son momentos que los jóvenes recuerdan por años. Pero requieren mucha preparación y cuidados especiales. En esta unidad vas a aprender a organizarlos bien.",
@@ -481,6 +579,26 @@
    ],
    "correct": 1,
    "feedback": "Que todos puedan destacar en algo."
+  },
+  {
+   "q": "¿Qué conviene programar después de almuerzo?",
+   "options": [
+    "Una charla larga",
+    "Juegos activos",
+    "Un momento de silencio de una hora"
+   ],
+   "correct": 1,
+   "feedback": "Después de almuerzo la energía baja: hay que moverse."
+  },
+  {
+   "q": "¿Qué no se negocia ante imprevistos?",
+   "options": [
+    "El gran juego",
+    "La oración y el cierre",
+    "El horario de almuerzo"
+   ],
+   "correct": 1,
+   "feedback": "Lo esencial se mantiene; lo demás se adapta."
   }
  ]
 }

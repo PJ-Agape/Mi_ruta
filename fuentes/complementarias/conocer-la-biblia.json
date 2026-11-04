@@ -4,7 +4,7 @@
  "subtitulo": "La Palabra de Dios en tus manos",
  "categoria": "Fe",
  "publico": "Desde 13 años",
- "descripcion": "Para perderle el miedo a la Biblia: cómo está organizada, cómo buscar una cita, qué significa que sea Palabra de Dios, cómo interpretarla bien y cómo hacerla parte de la vida. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para perderle el miedo a la Biblia: cómo está organizada, cómo buscar una cita, qué significa que sea Palabra de Dios, cómo interpretarla bien y cómo hacerla parte de la vida. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "La Palabra de Dios en tus manos",
  "intro": "Muchos jóvenes tienen una Biblia en la casa, pero no saben por dónde empezar. Esta formación te ayuda a conocerla, a moverte en ella con soltura y a leerla como la lee la Iglesia: como Palabra viva de Dios para hoy.",
  "unidades": [
@@ -399,6 +399,104 @@
     "Acuerden revisar juntos su plan en un mes."
    ],
    "idea": "La Palabra no se termina de leer: se empieza a vivir."
+  },
+  {
+   "title": "Compartir la Palabra en grupo",
+   "objective": "Aprender un método sencillo para leer y compartir la Biblia en grupo, de modo que la Palabra ilumine la vida de todos.",
+   "intro": "La Biblia se puede leer a solas, pero nació para ser escuchada en comunidad. Cuando un grupo comparte la Palabra, cada uno descubre cosas que solo no habría visto. En esta unidad vas a aprender a guiar un momento de Palabra compartida en tu grupo.",
+   "sections": [
+    {
+     "title": "Por qué leer juntos",
+     "body": "- **La Biblia es el libro de una comunidad:** el pueblo de Israel y la Iglesia la escucharon, la rezaron y la transmitieron juntos.\n- **Cada uno aporta su mirada:** lo que a ti te pasa inadvertido, a otro le toca el corazón.\n- **Nos protege de interpretaciones raras:** el grupo, la tradición y los pastores ayudan a leer bien.\n- **Crea comunidad:** compartir la Palabra es compartir la vida."
+    },
+    {
+     "title": "Un método en siete pasos",
+     "body": "Un esquema sencillo, inspirado en las comunidades cristianas de muchos lugares:\n\n1. **Invocar al Espíritu Santo** con una oración o un canto breve.\n2. **Leer el texto** en voz alta, despacio.\n3. **Repetir en voz alta** una palabra o frase que llamó la atención, sin comentarla.\n4. **Silencio** de unos minutos para dejar resonar el texto.\n5. **Compartir** qué me dice el texto a mí, hoy.\n6. **Comprometerse:** ¿qué nos pide Dios esta semana?\n7. **Orar juntos** con lo que surgió."
+    },
+    {
+     "title": "El rol de quien anima",
+     "body": "Quien guía el momento no da una charla. Su tarea es:\n\n- **Elegir un texto breve,** de preferencia el evangelio del domingo.\n- **Cuidar los tiempos** para que todos puedan hablar.\n- **Hablar en primera persona** y ayudar a que los demás también lo hagan: «a mí me dice…».\n- **No corregir ni discutir** lo que otro comparte de su vida.\n- **Aclarar con humildad** si alguien interpreta algo de forma muy alejada del texto, y buscar ayuda si no sabe responder."
+    },
+    {
+     "title": "Errores frecuentes",
+     "body": "- **Convertirlo en debate** sobre temas polémicos.\n- **Que hable siempre el mismo.**\n- **Saltarse el silencio** por miedo a que sea incómodo.\n- **Quedarse en ideas** sin llegar a la vida concreta.\n- **Usar textos muy largos o difíciles** para empezar."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 24,13-35 · Los discípulos de Emaús",
+    "comment": "Dos discípulos caminan tristes y conversan. Jesús se acerca, les explica las Escrituras y, al partir el pan, lo reconocen. Después dicen: «¿No ardía nuestro corazón mientras nos hablaba en el camino?». Compartir la Palabra en grupo es caminar juntos dejando que Jesús nos explique la vida."
+   },
+   "church": [
+    {
+     "source": "Verbum Domini 86-87",
+     "text": "La lectura orante de la Escritura, personal y comunitaria, es un camino privilegiado para el encuentro con Cristo.",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html"
+    },
+    {
+     "source": "Dei Verbum 25",
+     "text": "La lectura de la Escritura debe ir acompañada de la oración, para que se establezca un diálogo entre Dios y el ser humano.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html"
+    }
+   ],
+   "questions": [
+    "¿Has compartido alguna vez la Palabra en grupo? ¿Cómo fue?",
+    "¿Qué te cuesta más: hablar de lo que te dice el texto o escuchar a otros?",
+    "¿Qué texto del evangelio te gustaría compartir con tu grupo?",
+    "¿Qué compromiso concreto podría surgir de un momento de Palabra compartida?"
+   ],
+   "activity": "Por parejas o tríos, preparen y guíen un momento de Palabra compartida de 20 minutos con el evangelio del próximo domingo, usando los siete pasos. Al final, el grupo comenta qué funcionó.",
+   "prayer": "Señor Jesús, que caminaste con los discípulos de Emaús y les explicaste las Escrituras: camina también con nosotros. Que al compartir tu Palabra arda nuestro corazón y te reconozcamos en medio del grupo. Amén.",
+   "resources": [
+    {
+     "title": "Verbum Domini (Benedicto XVI, 2010)",
+     "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html",
+     "note": "Números 86-87, sobre la lectura orante."
+    }
+   ],
+   "comenzar": "Piensa en una frase de la Biblia que alguien te compartió alguna vez y que te quedó dando vueltas. ¿Quién te la compartió?",
+   "logros": [
+    "Valorar la lectura comunitaria de la Biblia.",
+    "Guiar un momento de Palabra compartida en siete pasos.",
+    "Evitar los errores frecuentes al animar."
+   ],
+   "profundizar": {
+    "titulo": "Textos para empezar",
+    "texto": "Algunos textos breves y buenos para grupos que recién comienzan:\n\n- Marcos 10,46-52: el ciego Bartimeo.\n- Lucas 19,1-10: Zaqueo.\n- Juan 4,5-15: la samaritana.\n- Lucas 15,11-24: el hijo pródigo.\n- Mateo 14,22-33: Jesús camina sobre el agua."
+   },
+   "caso": {
+    "titulo": "La discusión",
+    "texto": "En el momento de compartir, dos jóvenes empiezan a discutir si el milagro del texto «ocurrió de verdad». El resto se queda callado y el tiempo se acaba sin que nadie haya hablado de su vida.",
+    "preguntas": [
+     "¿Qué podría haber hecho quien animaba?",
+     "¿Dónde se puede conversar esa pregunta en otro momento?"
+    ]
+   },
+   "claves": [
+    [
+     "Palabra compartida",
+     "Lectura de la Biblia en grupo que lleva a la vida y a la oración."
+    ],
+    [
+     "Resonancia",
+     "Palabra o frase del texto que toca a cada uno."
+    ],
+    [
+     "Compromiso",
+     "Paso concreto que surge de la Palabra."
+    ]
+   ],
+   "lectio": {
+    "meditar": "¿No ardía nuestro corazón? ¿Cuándo ha ardido el tuyo al escuchar la Palabra?",
+    "orar": "Pide a Jesús que camine con tu grupo.",
+    "vivir": "Comparte esta semana con alguien una frase del evangelio del domingo."
+   },
+   "practica": [
+    "Elijan el texto.",
+    "Preparen los siete pasos.",
+    "Guíen el momento.",
+    "Evalúen juntos."
+   ],
+   "idea": "La Palabra se entiende mejor cuando se comparte."
   }
  ],
  "evaluacion": [
@@ -481,6 +579,26 @@
    ],
    "correct": 2,
    "feedback": "Marcos es una excelente puerta de entrada."
+  },
+  {
+   "q": "¿Cuál es la tarea de quien anima un momento de Palabra compartida?",
+   "options": [
+    "Dar una charla sobre el texto",
+    "Cuidar los tiempos, invitar a hablar en primera persona y no discutir lo que otros comparten",
+    "Corregir a quienes se equivocan"
+   ],
+   "correct": 1,
+   "feedback": "Quien anima facilita; no reemplaza la voz del grupo."
+  },
+  {
+   "q": "¿Por qué es importante el silencio después de leer?",
+   "options": [
+    "Para descansar",
+    "Para dejar que el texto resuene antes de compartir",
+    "Porque no hay nada que decir"
+   ],
+   "correct": 1,
+   "feedback": "El silencio deja que la Palabra llegue al corazón."
   }
  ]
 }

@@ -37,6 +37,14 @@
      "tipo": "unidad",
      "numero": "1.4",
      "etiqueta": "Unidad 4",
+     "titulo": "Las familias y la comunidad",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
      "titulo": "Cuidar y crecer como ayudante",
      "tiempo": "90 min"
     },
@@ -45,7 +53,7 @@
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
      "titulo": "Evaluación: Ayudante de catequesis",
-     "tiempo": "8 preguntas"
+     "tiempo": "10 preguntas"
     }
    ]
   }

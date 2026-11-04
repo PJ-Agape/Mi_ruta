@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Es una regla básica de prevención. Si algo te incomoda, cuéntalo a tus padres o a otro adulto de confianza."
+   },
+   {
+    "pregunta": "¿Por qué conviene repartir los roles antes de la misa?",
+    "opciones": [
+     "Para que los servidores con más experiencia tengan los roles más importantes",
+     "Para que cada uno sepa su tarea y el servicio sea sereno",
+     "Porque así lo exige el sacerdote"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando cada uno sabe qué hacer, no hay carreras ni improvisación."
+   },
+   {
+    "pregunta": "¿Qué es lo más importante al recibir a un servidor nuevo?",
+    "opciones": [
+     "Que aprenda todos los roles en su primera misa",
+     "Acompañarlo con un padrino, empezar por roles sencillos y explicar el sentido",
+     "Que observe durante un año antes de servir"
+    ],
+    "correcta": 1,
+    "explicacion": "Se aprende acompañado, paso a paso y entendiendo el porqué."
    }
   ]
  }

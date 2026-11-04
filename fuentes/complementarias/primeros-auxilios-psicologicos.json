@@ -4,7 +4,7 @@
  "subtitulo": "Acompañar a alguien en un momento de crisis",
  "categoria": "Cuidado",
  "publico": "Desde 16 años",
- "descripcion": "Herramientas básicas para acompañar a alguien que vive un momento emocional difícil: qué es una crisis, el protocolo ABCD de primera ayuda psicológica, cómo actuar ante la angustia, el duelo y el riesgo de suicidio, y cómo cuidarse uno mismo. No reemplaza la atención profesional. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Herramientas básicas para acompañar a alguien que vive un momento emocional difícil: qué es una crisis, el protocolo ABCD de primera ayuda psicológica, cómo actuar ante la angustia, el duelo y el riesgo de suicidio, y cómo cuidarse uno mismo. No reemplaza la atención profesional. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Acompañar en la crisis",
  "intro": "En los grupos juveniles, a veces alguien se quiebra: por una pérdida, un problema en la casa, una crisis de angustia o un momento de mucha tristeza. Esta formación enseña a acompañar en esos primeros momentos con calma y respeto, y a conectar a la persona con la ayuda que necesita. No convierte a nadie en terapeuta: ayuda a no dejar solo a quien sufre y a saber a quién avisar.",
  "unidades": [
@@ -303,6 +303,104 @@
    "idea": "Ante el riesgo, nunca solo y nunca en secreto."
   },
   {
+   "title": "Cuando todo el grupo vive una crisis",
+   "objective": "Saber acompañar a un grupo que enfrenta una pérdida o un evento traumático colectivo, cuidando a cada persona y derivando cuando corresponde.",
+   "intro": "A veces la crisis no la vive una persona sola, sino todo el grupo: la muerte de un compañero, un accidente en una actividad, un incendio o un terremoto. En esta unidad vas a aprender cómo acompañar a un grupo en esos momentos, siempre junto a los adultos responsables.",
+   "sections": [
+    {
+     "title": "Crisis colectivas",
+     "body": "Algunas situaciones que afectan a todo un grupo:\n\n- **La muerte** de un integrante, un dirigente o un familiar cercano.\n- **Un accidente** durante una actividad o un campamento.\n- **Desastres** como incendios forestales, inundaciones o terremotos.\n- **Hechos de violencia** en el barrio o el colegio.\n\nCada persona reacciona distinto: algunos lloran, otros se ríen nerviosos, otros se callan o se enojan. Todas son reacciones posibles ante algo que sobrepasa."
+    },
+    {
+     "title": "Las primeras horas",
+     "body": "- **Seguridad primero:** que todos estén a salvo y atendidos.\n- **Avisar a los adultos responsables** y a las familias.\n- **Mantener al grupo junto,** en un lugar tranquilo.\n- **Dar información clara y verdadera,** sin rumores ni detalles innecesarios.\n- **Atender necesidades básicas:** agua, abrigo, comida, contacto con la familia.\n- **Identificar a quienes están más afectados** para acompañarlos de cerca."
+    },
+    {
+     "title": "Un espacio para hablar",
+     "body": "En los días siguientes, puede ayudar un encuentro guiado por un adulto preparado:\n\n- **Abrir con un momento de silencio** u oración.\n- **Invitar a compartir** sin obligar a nadie.\n- **Normalizar las reacciones:** sentir pena, rabia o miedo es esperable.\n- **Hacer algo juntos:** escribir cartas, plantar algo, preparar una misa.\n- **Explicar dónde pedir ayuda** si alguien sigue mal.\n\nNo se trata de hacer terapia: se trata de que nadie quede solo con lo que siente."
+    },
+    {
+     "title": "Señales para derivar",
+     "body": "Después de algunas semanas, la mayoría de las personas se va recuperando. Hay que buscar ayuda profesional si alguien:\n\n- **No puede dormir, comer o funcionar** en su vida diaria.\n- **Se aísla** de forma persistente.\n- **Habla de no querer vivir** o de hacerse daño: en ese caso, avisa de inmediato a un adulto y llama al **\\*4141**.\n- **Revive el hecho** constantemente con mucha angustia.\n\nSalud Responde (**600 360 7777**) orienta sobre dónde consultar."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 20,19-21 · Paz a ustedes",
+    "comment": "Después de la muerte de Jesús, los discípulos están encerrados, con miedo. Jesús resucitado entra, se pone en medio y les dice: «La paz esté con ustedes». No borra lo que vivieron: les muestra sus heridas. Acompañar a un grupo en crisis es estar en medio, con paz, sin negar el dolor."
+   },
+   "church": [
+    {
+     "source": "Gaudium et spes 1",
+     "text": "Los gozos y las esperanzas, las tristezas y las angustias de las personas de nuestro tiempo, sobre todo de los pobres y de los que sufren, son también los de los discípulos de Cristo.",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_sp.html"
+    },
+    {
+     "source": "Christus vivit 291-298",
+     "text": "Acompañar a los jóvenes implica escucharlos con paciencia y caminar junto a ellos en sus momentos difíciles.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Has vivido alguna vez una situación difícil como grupo? ¿Qué ayudó?",
+    "¿Por qué es importante dar información clara y no dejar que corran rumores?",
+    "¿Qué gestos simbólicos ayudan a un grupo a vivir un duelo?",
+    "¿Quiénes son los adultos y profesionales a los que podrías acudir?"
+   ],
+   "activity": "Con el asesor, armen un plan breve de respuesta para una crisis en el grupo: a quién se avisa, quién habla con las familias, dónde se reúnen, quién guía el encuentro posterior y qué números de ayuda se usan.",
+   "prayer": "Jesús resucitado, que entraste en medio de tus discípulos llenos de miedo: entra también en nuestros grupos cuando el dolor nos golpea. Danos tu paz, ayúdanos a no dejar a nadie solo y a buscar ayuda cuando la necesitemos. Amén.",
+   "resources": [
+    {
+     "title": "Gaudium et spes (Concilio Vaticano II, 1965)",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_sp.html",
+     "note": "Número 1, sobre la cercanía de la Iglesia al dolor humano."
+    }
+   ],
+   "comenzar": "Piensa en un momento difícil que viviste junto a otros. ¿Qué hizo alguien que te ayudó a sentirte acompañado?",
+   "logros": [
+    "Reconocer las reacciones ante una crisis colectiva.",
+    "Saber qué hacer en las primeras horas.",
+    "Identificar cuándo derivar a ayuda profesional."
+   ],
+   "profundizar": {
+    "titulo": "Cuidar a quienes acompañan",
+    "texto": "Los dirigentes que acompañan una crisis también quedan afectados. Después de la emergencia, necesitan un espacio propio para conversar con el asesor, descansar y, si lo necesitan, pedir ayuda profesional."
+   },
+   "caso": {
+    "titulo": "El campamento",
+    "texto": "En un campamento de verano, un joven sufre un accidente grave y es trasladado al hospital. El resto del grupo queda en el lugar, asustado, mientras corren versiones distintas por WhatsApp.",
+    "preguntas": [
+     "¿Qué harías en las primeras horas?",
+     "¿Cómo acompañarías al grupo en los días siguientes?"
+    ]
+   },
+   "claves": [
+    [
+     "Crisis colectiva",
+     "Evento que afecta a todo un grupo."
+    ],
+    [
+     "Normalizar",
+     "Explicar que las reacciones ante algo grave son esperables."
+    ],
+    [
+     "Derivar",
+     "Conectar a la persona con ayuda profesional."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús se pone en medio. ¿Dónde necesita tu grupo esa presencia?",
+    "orar": "Reza por algún grupo o comunidad que esté viviendo un dolor.",
+    "vivir": "Guarda en tu teléfono los números de ayuda."
+   },
+   "practica": [
+    "Definan a quién avisar.",
+    "Asignen roles.",
+    "Elijan el lugar de encuentro.",
+    "Anoten los números de ayuda."
+   ],
+   "idea": "En una crisis, nadie debe quedar solo con lo que siente."
+  },
+  {
    "title": "Cuidar al que cuida",
    "objective": "Reconocer el impacto emocional de acompañar a otros, cuidarse a uno mismo y sostener un equipo que se cuida.",
    "intro": "Acompañar a alguien en una crisis deja huella. Es normal quedar cansado, triste, preocupado o con rabia. Quien cuida también necesita ser cuidado. En esta última unidad vas a aprender a cuidarte y a construir un equipo que se sostiene mutuamente.",
@@ -476,6 +574,26 @@
    ],
    "correct": 1,
    "feedback": "Informar a un adulto responsable en esos casos es cuidar, no traicionar."
+  },
+  {
+   "q": "¿Qué es lo primero en una crisis colectiva?",
+   "options": [
+    "Hacer un encuentro de oración",
+    "Asegurar que todos estén a salvo y avisar a los adultos responsables",
+    "Publicar lo ocurrido en redes"
+   ],
+   "correct": 1,
+   "feedback": "Seguridad primero, luego aviso y acompañamiento."
+  },
+  {
+   "q": "Si alguien habla de no querer vivir, ¿qué haces?",
+   "options": [
+    "Esperas a ver si se le pasa",
+    "Avisas de inmediato a un adulto y llaman al *4141",
+    "Lo comentas con el grupo"
+   ],
+   "correct": 1,
+   "feedback": "Es una urgencia: se avisa y se busca ayuda de inmediato."
   }
  ]
 }

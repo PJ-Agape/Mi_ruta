@@ -29,7 +29,7 @@
      "tipo": "unidad",
      "numero": "1.3",
      "etiqueta": "Unidad 3",
-     "titulo": "En terreno",
+     "titulo": "Anunciar a Jesús",
      "tiempo": "90 min"
     },
     {
@@ -37,6 +37,14 @@
      "tipo": "unidad",
      "numero": "1.4",
      "etiqueta": "Unidad 4",
+     "titulo": "En terreno",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
      "titulo": "Volver y continuar",
      "tiempo": "90 min"
     },
@@ -45,7 +53,7 @@
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
      "titulo": "Evaluación: Misiones juveniles",
-     "tiempo": "8 preguntas"
+     "tiempo": "10 preguntas"
     }
    ]
   }

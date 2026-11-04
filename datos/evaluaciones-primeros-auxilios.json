@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Inscríbanse en un curso con instructor y práctica en maniquí."
+   },
+   {
+    "pregunta": "¿Qué documentos se necesitan para una salida con menores de edad?",
+    "opciones": [
+     "Ninguno",
+     "Autorización de los padres y ficha de salud",
+     "Solo la lista de asistencia"
+    ],
+    "correcta": 1,
+    "explicacion": "Autorización y ficha de salud son básicas."
+   },
+   {
+    "pregunta": "¿Quién puede dar medicamentos a un participante?",
+    "opciones": [
+     "Cualquier dirigente",
+     "Solo un adulto responsable, según la indicación de la familia",
+     "El mismo participante a otros"
+    ],
+    "correcta": 1,
+    "explicacion": "Los medicamentos no se dan por cuenta propia."
    }
   ]
  }

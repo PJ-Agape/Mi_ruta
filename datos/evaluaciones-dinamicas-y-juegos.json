@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "Que todos puedan destacar en algo."
+   },
+   {
+    "pregunta": "¿Qué conviene programar después de almuerzo?",
+    "opciones": [
+     "Una charla larga",
+     "Juegos activos",
+     "Un momento de silencio de una hora"
+    ],
+    "correcta": 1,
+    "explicacion": "Después de almuerzo la energía baja: hay que moverse."
+   },
+   {
+    "pregunta": "¿Qué no se negocia ante imprevistos?",
+    "opciones": [
+     "El gran juego",
+     "La oración y el cierre",
+     "El horario de almuerzo"
+    ],
+    "correcta": 1,
+    "explicacion": "Lo esencial se mantiene; lo demás se adapta."
    }
   ]
  }

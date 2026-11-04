@@ -37,6 +37,14 @@
      "tipo": "unidad",
      "numero": "1.4",
      "etiqueta": "Unidad 4",
+     "titulo": "Santos de nuestra tierra y de la vida cotidiana",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
      "titulo": "Testigos hasta el final y tu propio camino",
      "tiempo": "90 min"
     },
@@ -45,7 +53,7 @@
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
      "titulo": "Evaluación: Santos jóvenes",
-     "tiempo": "8 preguntas"
+     "tiempo": "10 preguntas"
     }
    ]
   }

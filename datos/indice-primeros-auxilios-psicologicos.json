@@ -37,6 +37,14 @@
      "tipo": "unidad",
      "numero": "1.4",
      "etiqueta": "Unidad 4",
+     "titulo": "Cuando todo el grupo vive una crisis",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
      "titulo": "Cuidar al que cuida",
      "tiempo": "90 min"
     },
@@ -45,7 +53,7 @@
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
      "titulo": "Evaluación: Primeros auxilios psicológicos",
-     "tiempo": "8 preguntas"
+     "tiempo": "10 preguntas"
     }
    ]
   }

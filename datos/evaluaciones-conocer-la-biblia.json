@@ -82,6 +82,26 @@
     ],
     "correcta": 2,
     "explicacion": "Marcos es una excelente puerta de entrada."
+   },
+   {
+    "pregunta": "¿Cuál es la tarea de quien anima un momento de Palabra compartida?",
+    "opciones": [
+     "Dar una charla sobre el texto",
+     "Cuidar los tiempos, invitar a hablar en primera persona y no discutir lo que otros comparten",
+     "Corregir a quienes se equivocan"
+    ],
+    "correcta": 1,
+    "explicacion": "Quien anima facilita; no reemplaza la voz del grupo."
+   },
+   {
+    "pregunta": "¿Por qué es importante el silencio después de leer?",
+    "opciones": [
+     "Para descansar",
+     "Para dejar que el texto resuene antes de compartir",
+     "Porque no hay nada que decir"
+    ],
+    "correcta": 1,
+    "explicacion": "El silencio deja que la Palabra llegue al corazón."
    }
   ]
  }

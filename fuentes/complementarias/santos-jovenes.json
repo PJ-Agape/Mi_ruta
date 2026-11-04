@@ -4,7 +4,7 @@
  "subtitulo": "La santidad también es para ti",
  "categoria": "Fe",
  "publico": "Desde 13 años",
- "descripcion": "Jóvenes que vivieron el Evangelio en serio: santos chilenos como Teresa de los Andes, Laura Vicuña y Alberto Hurtado, y testigos de nuestro tiempo como Carlo Acutis, Pier Giorgio Frassati y Chiara Badano. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Jóvenes que vivieron el Evangelio en serio: santos chilenos como Teresa de los Andes, Laura Vicuña y Alberto Hurtado, y testigos de nuestro tiempo como Carlo Acutis, Pier Giorgio Frassati y Chiara Badano. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Testigos de nuestra edad",
  "intro": "Los santos no son personas perfectas ni lejanas: muchos fueron jóvenes como tú, con amigos, estudios, deportes, dudas y dificultades. Esta formación te invita a conocerlos y a descubrir que la santidad es el camino para ser plenamente tú mismo.",
  "unidades": [
@@ -303,6 +303,104 @@
    "idea": "Todos nacemos originales; no te conviertas en una fotocopia."
   },
   {
+   "title": "Santos de nuestra tierra y de la vida cotidiana",
+   "objective": "Conocer a tres jóvenes que vivieron la santidad en contextos distintos y descubrir qué tienen que decir a tu propia vida.",
+   "intro": "La santidad no tiene un solo molde. Un joven mapuche de la Patagonia, un estudiante del oratorio de Don Bosco y una universitaria italiana de los años ochenta vivieron el Evangelio de maneras muy diferentes. En esta unidad vas a conocer sus historias y a preguntarte qué camino te muestran.",
+   "sections": [
+    {
+     "title": "Beato Ceferino Namuncurá (1886-1905)",
+     "body": "Hijo del cacique mapuche Manuel Namuncurá, nació en Chimpay, en la Patagonia argentina. Pidió estudiar para ayudar a su pueblo y fue acogido por los salesianos en Buenos Aires. Allí descubrió la fe con profundidad y sintió el llamado a ser sacerdote para servir a su gente.\n\nViajó a Italia para continuar sus estudios, pero enfermó de tuberculosis y murió en Roma a los 18 años. Fue beatificado en 2007. Su vida une la identidad de un pueblo originario con el Evangelio, sin renunciar a ninguno de los dos."
+    },
+    {
+     "title": "Santo Domingo Savio (1842-1857)",
+     "body": "Alumno de san Juan Bosco en el oratorio de Turín. Era un adolescente alegre, buen compañero y muy atento a los demás: separaba peleas, acompañaba a los que estaban solos y cuidaba a los enfermos. Junto a otros compañeros formó un grupo para ayudarse a vivir la fe y servir en el oratorio.\n\nSu lema fue «antes morir que pecar». Murió a los 14 años y fue canonizado en 1954. Muestra que la santidad se juega en lo cotidiano: el patio, la sala de clases y los amigos."
+    },
+    {
+     "title": "Beata Sandra Sabattini (1961-1984)",
+     "body": "Joven italiana, estudiante de medicina y miembro de la Comunidad Papa Juan XXIII, que acoge a personas con discapacidad, adicciones y en situación de calle. Desde adolescente escribió un diario espiritual y pasaba tiempo en oración cada día.\n\nEstaba de novia y soñaba con ser médica misionera en África. A los 22 años fue atropellada cuando iba a una reunión de la comunidad y murió pocos días después. Fue beatificada en 2021: es la primera joven novia declarada beata, un ejemplo de santidad en el amor de pareja y en el servicio."
+    },
+    {
+     "title": "Tres caminos, un mismo amor",
+     "body": "- **Ceferino** vivió la santidad desde su identidad y su deseo de servir a su pueblo.\n- **Domingo** la vivió en la alegría del grupo de amigos y el servicio sencillo.\n- **Sandra** la vivió en el estudio, el noviazgo y la entrega a los más pobres.\n\nNinguno hizo cosas espectaculares. Los tres vivieron su vida ordinaria con un amor extraordinario."
+    }
+   ],
+   "bible": {
+    "ref": "1 Timoteo 4,12 · Que nadie te desprecie por ser joven",
+    "comment": "Pablo le dice al joven Timoteo: «Que nadie te menosprecie por ser joven; sé ejemplo para los creyentes en la palabra, la conducta, el amor, la fe y la pureza». Ceferino, Domingo y Sandra fueron ejemplo siendo muy jóvenes. La edad no es obstáculo para la santidad."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 49-63",
+     "text": "El papa Francisco presenta a varios santos jóvenes, entre ellos Domingo Savio y Ceferino Namuncurá, como ejemplos para los jóvenes de hoy.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Gaudete et exsultate 14",
+     "text": "Todos estamos llamados a ser santos viviendo con amor y ofreciendo el propio testimonio en las ocupaciones de cada día.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html"
+    }
+   ],
+   "questions": [
+    "¿Con cuál de los tres te identificas más? ¿Por qué?",
+    "¿Qué tiene que ver la identidad de tu pueblo o tu familia con tu fe?",
+    "¿Cómo se podría vivir la santidad en tu colegio, tu universidad o tu trabajo?",
+    "¿Qué significa para ti vivir el pololeo o el noviazgo como camino de santidad?"
+   ],
+   "activity": "En grupos, cada uno toma a uno de los tres santos y prepara una presentación de tres minutos como si fuera una publicación para redes sociales: una frase, un dato de su vida y una pregunta para quien la lea.",
+   "prayer": "Señor, que llamaste a Ceferino, a Domingo y a Sandra a ser santos en su vida de cada día: ayúdame a descubrir que mi vida ordinaria también puede ser camino hacia ti. Que nadie me desprecie por ser joven, y que yo no me desprecie tampoco. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit (Francisco, 2019)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "Números 49-63, sobre jóvenes santos."
+    }
+   ],
+   "comenzar": "Escribe tres lugares donde pasas la mayor parte de tu semana. Esos son tus lugares de santidad.",
+   "logros": [
+    "Conocer la vida de tres jóvenes santos de contextos distintos.",
+    "Reconocer la santidad en la vida cotidiana.",
+    "Relacionar su ejemplo con la propia vida."
+   ],
+   "profundizar": {
+    "titulo": "El diario de Sandra",
+    "texto": "Sandra escribió desde los diez años un diario espiritual. Allí anotaba sus oraciones, dudas y propósitos. Escribir lo que vivimos con Dios ayuda a reconocer su paso por nuestra vida. Tu bitácora en esta plataforma puede ser algo parecido."
+   },
+   "caso": {
+    "titulo": "«Eso era antes»",
+    "texto": "En el grupo, un joven dice: «Los santos eran de otra época. Hoy nadie puede vivir así». Otra joven le responde que Sandra Sabattini murió en 1984, cuando sus papás eran adolescentes.",
+    "preguntas": [
+     "¿Qué responderías tú?",
+     "¿Conoces a alguien hoy que viva el Evangelio de forma admirable?"
+    ]
+   },
+   "claves": [
+    [
+     "Beato",
+     "Persona declarada por la Iglesia como modelo de vida cristiana, con culto en lugares determinados."
+    ],
+    [
+     "Santo",
+     "Persona canonizada, propuesta como modelo para toda la Iglesia."
+    ],
+    [
+     "Santidad cotidiana",
+     "Vivir con amor las tareas de cada día."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Sé ejemplo siendo joven. ¿En qué podrías ser ejemplo hoy?",
+    "orar": "Pide la intercesión del santo que más te tocó.",
+    "vivir": "Haz esta semana un gesto concreto de servicio en uno de tus tres lugares."
+   },
+   "practica": [
+    "Elijan un santo por grupo.",
+    "Preparen la publicación.",
+    "Preséntenla.",
+    "Compartan qué les enseñó."
+   ],
+   "idea": "La santidad se vive en lo ordinario, con un amor extraordinario."
+  },
+  {
    "title": "Testigos hasta el final y tu propio camino",
    "objective": "Conocer a la beata Chiara Badano y a san José Sánchez del Río, testigos de fe en el sufrimiento, y trazar un camino personal de santidad.",
    "intro": "Algunos jóvenes santos vivieron la fe en situaciones muy difíciles: una enfermedad grave o una persecución. Su testimonio nos muestra que el amor de Dios es más fuerte que el dolor. En esta última unidad los conocerás y pensarás en tu propio camino.",
@@ -481,6 +579,26 @@
    ],
    "correct": 1,
    "feedback": "La fe y la ayuda humana van juntas."
+  },
+  {
+   "q": "¿Qué tienen en común Ceferino, Domingo y Sandra?",
+   "options": [
+    "Hicieron milagros espectaculares",
+    "Vivieron su vida ordinaria con un amor extraordinario",
+    "Fueron todos sacerdotes"
+   ],
+   "correct": 1,
+   "feedback": "La santidad se juega en lo cotidiano."
+  },
+  {
+   "q": "¿Qué muestra la vida de Ceferino Namuncurá?",
+   "options": [
+    "Que hay que renunciar a la propia cultura para ser santo",
+    "Que se puede unir la identidad de un pueblo con el Evangelio",
+    "Que solo los europeos llegan a ser santos"
+   ],
+   "correct": 1,
+   "feedback": "Ceferino vivió la fe sin renunciar a su identidad mapuche."
   }
  ]
 }

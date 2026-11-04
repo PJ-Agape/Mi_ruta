@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "La misión es un encuentro: se da y se recibe."
+   },
+   {
+    "pregunta": "¿Cuáles son las tres verdades del primer anuncio según Christus vivit?",
+    "opciones": [
+     "Dios te ama, Cristo te salva, Él vive",
+     "Reza, ayuna, da limosna",
+     "Ve a misa, confiésate, comulga"
+    ],
+    "correcta": 0,
+    "explicacion": "Es el corazón del Evangelio, del que se desprende todo lo demás."
+   },
+   {
+    "pregunta": "¿Cómo se comparte la fe en la misión?",
+    "opciones": [
+     "Ganando los debates",
+     "Escuchando primero y hablando con mansedumbre y respeto",
+     "Insistiendo hasta que la persona acepte"
+    ],
+    "correcta": 1,
+    "explicacion": "La misión propone, no impone."
    }
   ]
  }

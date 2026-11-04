@@ -82,6 +82,26 @@
     ],
     "correcta": 1,
     "explicacion": "La fe y la ayuda humana van juntas."
+   },
+   {
+    "pregunta": "¿Qué tienen en común Ceferino, Domingo y Sandra?",
+    "opciones": [
+     "Hicieron milagros espectaculares",
+     "Vivieron su vida ordinaria con un amor extraordinario",
+     "Fueron todos sacerdotes"
+    ],
+    "correcta": 1,
+    "explicacion": "La santidad se juega en lo cotidiano."
+   },
+   {
+    "pregunta": "¿Qué muestra la vida de Ceferino Namuncurá?",
+    "opciones": [
+     "Que hay que renunciar a la propia cultura para ser santo",
+     "Que se puede unir la identidad de un pueblo con el Evangelio",
+     "Que solo los europeos llegan a ser santos"
+    ],
+    "correcta": 1,
+    "explicacion": "Ceferino vivió la fe sin renunciar a su identidad mapuche."
    }
   ]
  }

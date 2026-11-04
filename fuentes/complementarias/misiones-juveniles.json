@@ -4,7 +4,7 @@
  "subtitulo": "Preparar, vivir y continuar la misión",
  "categoria": "Misión y servicio",
  "publico": "Desde 14 años; los menores de edad, con autorización y acompañamiento adulto",
- "descripcion": "Para grupos que preparan misiones de verano o de invierno: el sentido de la misión, cómo organizarla con responsabilidad, cómo vivir los días en terreno y cómo continuar la misión al volver. 4 unidades de 90 minutos y una evaluación final.",
+ "descripcion": "Para grupos que preparan misiones de verano o de invierno: el sentido de la misión, cómo organizarla con responsabilidad, cómo vivir los días en terreno y cómo continuar la misión al volver. 5 unidades de 90 minutos y una evaluación final.",
  "modulo": "Enviados de dos en dos",
  "intro": "Las misiones son para muchos jóvenes una experiencia que marca la vida: salir de la propia comodidad, conocer otras realidades y anunciar a Jesús con la propia vida. Esta formación ayuda a vivirlas bien: con sentido, con organización y con cuidado de todos.",
  "unidades": [
@@ -203,6 +203,104 @@
     "Fijen la fecha de la visita previa."
    ],
    "idea": "Preparar bien es una forma de amar."
+  },
+  {
+   "title": "Anunciar a Jesús",
+   "objective": "Aprender a compartir la fe de forma sencilla y respetuosa: el primer anuncio, el testimonio personal y la oración con otros.",
+   "intro": "En la misión vas a golpear puertas y conversar con personas muy distintas. Muchas veces te preguntarán por qué estás ahí. En esta unidad vas a preparar lo más importante: cómo contar, con tus palabras, quién es Jesús para ti.",
+   "sections": [
+    {
+     "title": "El primer anuncio",
+     "body": "El corazón del Evangelio cabe en pocas frases. El papa Francisco lo resume para los jóvenes en tres verdades:\n\n- **Dios te ama.** Nunca lo dudes, pase lo que pase en tu vida.\n- **Cristo te salva.** Dio su vida por ti y te ofrece su perdón.\n- **Él vive.** No es un recuerdo del pasado: está presente y camina contigo.\n\nTodo lo demás (la doctrina, la moral, los sacramentos) se entiende a partir de este anuncio."
+    },
+    {
+     "title": "Tu testimonio",
+     "body": "Un testimonio no es un discurso. Es contar, en dos o tres minutos, cómo Jesús ha tocado tu vida. Una estructura simple:\n\n1. **Cómo era mi vida** antes, o en un momento difícil.\n2. **Cómo me encontré con Jesús** o cómo lo descubrí más cerca.\n3. **Qué ha cambiado** desde entonces.\n\nHabla con palabras sencillas, sin exagerar y sin dar lecciones. Lo que convence es la verdad de lo que cuentas."
+    },
+    {
+     "title": "Con mansedumbre y respeto",
+     "body": "- **Escucha primero.** Interésate por la vida de la persona antes de hablar de la tuya.\n- **No discutas** ni intentes ganar un debate.\n- **Respeta** a quien no cree, cree distinto o no quiere conversar.\n- **No prometas** cosas que no dependen de ti.\n- **Si no sabes algo,** dilo con honestidad y ofrece averiguarlo con alguien que sepa."
+    },
+    {
+     "title": "Orar con otros",
+     "body": "Muchas personas agradecen que alguien rece con ellas. Para hacerlo:\n\n- **Pregunta siempre** si quieren rezar.\n- **Reza con palabras simples,** nombrando lo que te contaron (si te dan permiso).\n- **Puedes terminar con el Padre Nuestro** o un Ave María, que muchos conocen.\n- **Deja algo:** una estampa, una oración escrita o la invitación a la capilla."
+    }
+   ],
+   "bible": {
+    "ref": "1 Pedro 3,15-16 · Dar razón de la esperanza",
+    "comment": "«Estén siempre dispuestos a dar razón de su esperanza a todo el que les pida explicaciones, pero háganlo con mansedumbre y respeto». La misión no consiste en convencer a la fuerza, sino en estar preparados para contar, con sencillez, por qué Jesús es nuestra esperanza."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 111-133",
+     "text": "El gran anuncio para todos los jóvenes: Dios te ama, Cristo te salva y Él vive.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Evangelii gaudium 164-165",
+     "text": "El primer anuncio o kerigma debe ocupar el centro de la evangelización: el amor de Dios manifestado en Jesucristo muerto y resucitado.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo explicarías en una frase quién es Jesús para ti?",
+    "¿Qué momento de tu vida podrías contar como testimonio?",
+    "¿Qué te da más miedo de hablar de tu fe con desconocidos?",
+    "¿Has rezado alguna vez con alguien que no conocías? ¿Cómo fue?"
+   ],
+   "activity": "Cada participante escribe su testimonio en tres partes y lo cuenta en parejas en tres minutos. Después, practican cómo ofrecer una oración a alguien que les comparte una preocupación.",
+   "prayer": "Señor Jesús, que me amas, me salvas y vives: dame palabras sencillas para contar lo que has hecho en mi vida. Que sepa escuchar antes de hablar y anunciarte siempre con mansedumbre y respeto. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit (Francisco, 2019)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "Capítulo 4: el gran anuncio para todos los jóvenes."
+    }
+   ],
+   "comenzar": "Completa esta frase sin pensarlo mucho: «Para mí, Jesús es…».",
+   "logros": [
+    "Expresar el primer anuncio con palabras propias.",
+    "Preparar un testimonio personal breve.",
+    "Ofrecer la oración con respeto."
+   ],
+   "profundizar": {
+    "titulo": "Preguntas que te pueden hacer",
+    "texto": "En la misión aparecen preguntas como «¿por qué Dios permite el sufrimiento?» o «¿por qué debería ir a la Iglesia?». No necesitas tener todas las respuestas. Escucha, comparte lo que tú vives y, si la conversación lo pide, ofrece seguir hablando con el asesor o el sacerdote de la misión."
+   },
+   "caso": {
+    "titulo": "La puerta que se cierra",
+    "texto": "En la primera casa, un señor les dice molesto que no cree en nada y que la Iglesia le ha hecho daño. Uno de los misioneros quiere responderle con argumentos; la otra se queda callada.",
+    "preguntas": [
+     "¿Qué harías tú?",
+     "¿Cómo se puede respetar a esa persona y, aun así, dejar una puerta abierta?"
+    ]
+   },
+   "claves": [
+    [
+     "Kerigma",
+     "Primer anuncio del amor de Dios en Jesucristo."
+    ],
+    [
+     "Testimonio",
+     "Relato breve de lo que Dios ha hecho en la propia vida."
+    ],
+    [
+     "Mansedumbre",
+     "Firmeza amable, sin agresividad."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Dar razón de tu esperanza. ¿Cuál es tu esperanza hoy?",
+    "orar": "Pide por las personas que encontrarás en la misión.",
+    "vivir": "Comparte esta semana tu testimonio con alguien de confianza."
+   },
+   "practica": [
+    "Escriban su testimonio.",
+    "Cuéntenlo en parejas.",
+    "Practiquen ofrecer una oración.",
+    "Comenten qué les costó."
+   ],
+   "idea": "Anunciar es contar con sencillez lo que Jesús ha hecho en ti."
   },
   {
    "title": "En terreno",
@@ -481,6 +579,26 @@
    ],
    "correct": 1,
    "feedback": "La misión es un encuentro: se da y se recibe."
+  },
+  {
+   "q": "¿Cuáles son las tres verdades del primer anuncio según Christus vivit?",
+   "options": [
+    "Dios te ama, Cristo te salva, Él vive",
+    "Reza, ayuna, da limosna",
+    "Ve a misa, confiésate, comulga"
+   ],
+   "correct": 0,
+   "feedback": "Es el corazón del Evangelio, del que se desprende todo lo demás."
+  },
+  {
+   "q": "¿Cómo se comparte la fe en la misión?",
+   "options": [
+    "Ganando los debates",
+    "Escuchando primero y hablando con mansedumbre y respeto",
+    "Insistiendo hasta que la persona acepte"
+   ],
+   "correct": 1,
+   "feedback": "La misión propone, no impone."
   }
  ]
 }
