@@ -91,7 +91,7 @@ Para dibujar la rueda, traza un círculo dividido en 10 partes, marca cada nota 
 2. ¿Alguien descubrió algo que no esperaba?
 3. ¿Qué le pasa a un grupo cuando su líder tiene baja esa competencia?
 
-**Cierre del relator:** recordar que la rueda se repite en la semana 15 para ver cuánto se movió el techo.
+**Cierre del relator:** recordar que la rueda se repite al final del módulo, y en el cierre del diplomado para quienes lo cursan completo, para ver cuánto se movió el techo.
 
 ### Aplicación y bitácora
 
@@ -202,7 +202,7 @@ Cada integrante responde en una hoja aparte y de forma anónima para el grupo (s
 - Planificar el crecimiento y no revisarlo nunca.
 - Crecer solo en conocimientos y no en práctica.
 
-### Plantilla: plan de desarrollo personal (15 semanas)
+### Plantilla: plan de desarrollo personal
 
 | Elemento | Mi plan |
 | --- | --- |
@@ -662,7 +662,7 @@ El FODA sirve si termina en decisiones. La pregunta final es: ¿cómo usamos las
 
 - [ ] Hacer el FODA real con tu equipo en una reunión de 45 minutos.
 - [ ] Elegir una prioridad y, si hay alternativas, usar la matriz.
-- [ ] Guardar el FODA: lo usarás en el cuadro de mando (clase 11) y en el proyecto final.
+- [ ] Guardar el FODA: lo usarás en el cuadro de mando (clase 11) y, si cursas el diplomado completo, en el proyecto integrador.
 
 **Bitácora:** ¿tomo decisiones con información o por impulso? ¿A quién no escuché antes de mi última decisión importante?
 
@@ -907,6 +907,6 @@ El error más común es medir solo la asistencia. Un grupo puede tener 40 jóven
 - [ ] Completar el cuadro de mando con la línea base real (puede tomar dos o tres semanas para algunos indicadores).
 - [ ] Aplicar la encuesta de clima en tu grupo.
 - [ ] Presentar el cuadro a tu equipo y acordar una revisión mensual.
-- [ ] Entregar el cuadro de mando como trabajo del Módulo I (15% de la nota final).
+- [ ] Entregar el cuadro de mando como trabajo del Módulo I.
 
 **Bitácora de cierre del módulo:** ¿qué aprendí de mi grupo que no sabía antes de medir? ¿Cuánto ha subido mi techo desde la clase 1?

@@ -5,8 +5,11 @@
       "id": "m1",
       "numero": 1,
       "titulo": "Cadena de valor del liderazgo y cuadro de mando",
-      "semanas": "1 a 6",
-      "intro": "Este módulo reúne las 11 clases del Módulo I (semanas 1 a 6): las claves 1 a 10 y el cuadro de mando. Cada clase trae el apunte para el participante, la plantilla de la herramienta, la guía del ejercicio para el relator y la pauta de aplicación.\n\n### Cómo usar este material\n\nCada clase tiene cuatro partes, pensadas para dos lectores distintos:\n\n| Parte | Para quién | Cuándo se usa |\n| --- | --- | --- |\n| Apunte | Participante | Antes del encuentro (lectura de 2 h) |\n| Plantilla | Participante | En el encuentro y en la aplicación |\n| Guía del ejercicio | Relator | Para conducir el encuentro-taller de 2 h |\n| Aplicación y bitácora | Participante | Durante la semana, con su equipo |\n\n**Estructura base del encuentro-taller (120 minutos):** acogida y repaso de la bitácora anterior (15 min), presentación breve de la clave (20 min), ejercicio (55 min), plenario (20 min) y compromiso de aplicación (10 min). Cada guía del relator detalla el ejercicio y el plenario; la acogida y el cierre se mantienen iguales en todas las clases.\n\n**Distribución del módulo:** las claves se trabajan de a dos por semana (semanas 1 a 5) y la semana 6 se dedica al cuadro de mando. En las semanas de dos claves, el encuentro dedica 50 minutos a cada una y la aplicación se elige entre ambas.",
+      "etiqueta": "Módulo I",
+      "semanas": "",
+      "duracion": "6 semanas · 48 horas",
+      "constancia": true,
+      "intro": "Este módulo reúne las 11 clases del Módulo I (semanas 1 a 6): las claves 1 a 10 y el cuadro de mando. Cada clase trae el apunte para el participante, la plantilla de la herramienta, la guía del ejercicio para el relator y la pauta de aplicación.",
       "clases": [
         {
           "id": "m1-c01",
@@ -102,8 +105,11 @@
       "id": "m2",
       "numero": 2,
       "titulo": "Preparación del líder",
-      "semanas": "7 a 10",
-      "intro": "Este módulo reúne el Módulo II (semanas 7 a 10): las claves 11 a 16 y la jornada de mitad de camino. Sigue el mismo formato del Módulo I: apunte, plantilla, guía del ejercicio para el relator (50 minutos por clave) y pauta de aplicación. El foco de este módulo es el equipo coordinador.",
+      "etiqueta": "Módulo II",
+      "semanas": "",
+      "duracion": "4 semanas · 32 horas",
+      "constancia": true,
+      "intro": "Este módulo reúne el Módulo II (cuatro semanas): las claves 11 a 16 y la jornada de cierre del módulo. Sigue el mismo formato del Módulo I: apunte, plantilla, guía del ejercicio para el relator (50 minutos por clave) y pauta de aplicación. El foco de este módulo es el equipo coordinador.",
       "clases": [
         {
           "id": "m2-c11",
@@ -111,7 +117,7 @@
           "numero": 11,
           "titulo": "El círculo cercano",
           "etiqueta": "Clave 11",
-          "semana": 7
+          "semana": 1
         },
         {
           "id": "m2-c12",
@@ -119,7 +125,7 @@
           "numero": 12,
           "titulo": "Delegar es empoderar",
           "etiqueta": "Clave 12",
-          "semana": 7
+          "semana": 1
         },
         {
           "id": "m2-c13",
@@ -127,7 +133,7 @@
           "numero": 13,
           "titulo": "Se enseña con el ejemplo",
           "etiqueta": "Clave 13",
-          "semana": 8
+          "semana": 2
         },
         {
           "id": "m2-c14",
@@ -135,7 +141,7 @@
           "numero": 14,
           "titulo": "Primero creen en ti, después en tu proyecto",
           "etiqueta": "Clave 14",
-          "semana": 8
+          "semana": 2
         },
         {
           "id": "m2-c15",
@@ -143,7 +149,7 @@
           "numero": 15,
           "titulo": "Hacer que las cosas pasen",
           "etiqueta": "Clave 15",
-          "semana": 9
+          "semana": 3
         },
         {
           "id": "m2-c16",
@@ -151,15 +157,15 @@
           "numero": 16,
           "titulo": "Cuidar el impulso",
           "etiqueta": "Clave 16",
-          "semana": 9
+          "semana": 3
         },
         {
           "id": "m2-s10",
           "tipo": "Semana",
           "numero": 10,
-          "titulo": "Jornada de mitad de camino y trabajo del módulo",
-          "etiqueta": "Semana 10",
-          "semana": 10
+          "titulo": "Jornada de cierre y trabajo del módulo",
+          "etiqueta": "Taller del módulo",
+          "semana": 4
         }
       ]
     },
@@ -167,8 +173,11 @@
       "id": "m3",
       "numero": 3,
       "titulo": "Cómo ganar siendo líder",
-      "semanas": "11 a 15",
-      "intro": "Este módulo reúne el Módulo III (semanas 11 a 15): las claves 17 a 21, el taller del proyecto final y el cierre del diplomado. Sigue el mismo formato de los módulos anteriores. El foco es el enfoque ganar-ganar: que crezcan la persona, el equipo, la parroquia y la comunidad juvenil.",
+      "etiqueta": "Módulo III",
+      "semanas": "",
+      "duracion": "3 semanas · 24 horas",
+      "constancia": true,
+      "intro": "Este módulo reúne el Módulo III (tres semanas): las claves 17 a 21. El taller del proyecto integrador y el cierre del diplomado forman una etapa aparte, para quienes cursan el diplomado completo. Sigue el mismo formato de los módulos anteriores. El foco es el enfoque ganar-ganar: que crezcan la persona, el equipo, la parroquia y la comunidad juvenil.",
       "clases": [
         {
           "id": "m3-c17",
@@ -176,7 +185,7 @@
           "numero": 17,
           "titulo": "Primero lo primero",
           "etiqueta": "Clave 17",
-          "semana": 11
+          "semana": 1
         },
         {
           "id": "m3-c18",
@@ -184,7 +193,7 @@
           "numero": 18,
           "titulo": "Entrega sin desgaste",
           "etiqueta": "Clave 18",
-          "semana": 11
+          "semana": 1
         },
         {
           "id": "m3-c19",
@@ -192,7 +201,7 @@
           "numero": 19,
           "titulo": "El momento oportuno",
           "etiqueta": "Clave 19",
-          "semana": 12
+          "semana": 2
         },
         {
           "id": "m3-c20",
@@ -200,7 +209,7 @@
           "numero": 20,
           "titulo": "Multiplicar líderes",
           "etiqueta": "Clave 20",
-          "semana": 13
+          "semana": 3
         },
         {
           "id": "m3-c21",
@@ -208,23 +217,239 @@
           "numero": 21,
           "titulo": "Dejar legado",
           "etiqueta": "Clave 21",
-          "semana": 13
+          "semana": 3
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "numero": 4,
+      "titulo": "Comunicación y conflictos",
+      "etiqueta": "Módulo IV",
+      "semanas": "",
+      "duracion": "4 semanas · 32 horas",
+      "constancia": true,
+      "intro": "Este módulo reúne seis clases y un taller final para aprender a comunicar con claridad, escuchar de verdad, decir lo difícil con respeto, entender los conflictos y mediar entre otros. Son herramientas que todo coordinador usa cada semana: en las reuniones, en los chats del equipo, con los apoderados y en los momentos de tensión.\n\nEl módulo dura cuatro semanas (32 horas): dos clases por semana durante tres semanas y una cuarta semana de taller. Se aprueba con las prácticas semanales, la bitácora y el trabajo del módulo: un protocolo de comunicación y manejo de conflictos para el propio equipo.",
+      "clases": [
+        {
+          "id": "m4-c01",
+          "tipo": "Clase",
+          "numero": 1,
+          "titulo": "Decir las cosas claras",
+          "etiqueta": "Clase 1",
+          "semana": 1
         },
         {
-          "id": "m3-s14",
-          "tipo": "Semana",
-          "numero": 14,
-          "titulo": "Taller del proyecto final",
-          "etiqueta": "Semana 14",
-          "semana": 14
+          "id": "m4-c02",
+          "tipo": "Clase",
+          "numero": 2,
+          "titulo": "Escuchar para entender",
+          "etiqueta": "Clase 2",
+          "semana": 1
         },
         {
-          "id": "m3-s15",
+          "id": "m4-c03",
+          "tipo": "Clase",
+          "numero": 3,
+          "titulo": "Decir lo difícil con respeto",
+          "etiqueta": "Clase 3",
+          "semana": 2
+        },
+        {
+          "id": "m4-c04",
+          "tipo": "Clase",
+          "numero": 4,
+          "titulo": "Conversaciones difíciles",
+          "etiqueta": "Clase 4",
+          "semana": 2
+        },
+        {
+          "id": "m4-c05",
+          "tipo": "Clase",
+          "numero": 5,
+          "titulo": "Entender el conflicto",
+          "etiqueta": "Clase 5",
+          "semana": 3
+        },
+        {
+          "id": "m4-c06",
+          "tipo": "Clase",
+          "numero": 6,
+          "titulo": "Mediar entre otros",
+          "etiqueta": "Clase 6",
+          "semana": 3
+        },
+        {
+          "id": "m4-s04",
           "tipo": "Semana",
-          "numero": 15,
+          "numero": 4,
+          "titulo": "Taller del módulo: protocolo de comunicación y conflictos",
+          "etiqueta": "Taller del módulo",
+          "semana": 4
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "numero": 5,
+      "titulo": "Planificación y proyectos",
+      "etiqueta": "Módulo V",
+      "semanas": "",
+      "duracion": "4 semanas · 32 horas",
+      "constancia": true,
+      "intro": "Este módulo reúne seis clases y un taller final para pasar de las buenas ideas a planes que se cumplen: definir hacia dónde va el grupo, leer la realidad, priorizar, diseñar proyectos, manejar recursos y anticipar riesgos. Son las herramientas que permiten que un equipo pastoral no viva apagando incendios.\n\nEl módulo dura cuatro semanas (32 horas): dos clases por semana durante tres semanas y una cuarta semana de taller. Se aprueba con las prácticas semanales, la bitácora y el trabajo del módulo: el plan anual del grupo con un proyecto prioritario.",
+      "clases": [
+        {
+          "id": "m5-c01",
+          "tipo": "Clase",
+          "numero": 1,
+          "titulo": "De la visión al plan",
+          "etiqueta": "Clase 1",
+          "semana": 1
+        },
+        {
+          "id": "m5-c02",
+          "tipo": "Clase",
+          "numero": 2,
+          "titulo": "Leer la realidad",
+          "etiqueta": "Clase 2",
+          "semana": 1
+        },
+        {
+          "id": "m5-c03",
+          "tipo": "Clase",
+          "numero": 3,
+          "titulo": "Priorizar y calendarizar",
+          "etiqueta": "Clase 3",
+          "semana": 2
+        },
+        {
+          "id": "m5-c04",
+          "tipo": "Clase",
+          "numero": 4,
+          "titulo": "Diseñar un proyecto",
+          "etiqueta": "Clase 4",
+          "semana": 2
+        },
+        {
+          "id": "m5-c05",
+          "tipo": "Clase",
+          "numero": 5,
+          "titulo": "Recursos y presupuesto",
+          "etiqueta": "Clase 5",
+          "semana": 3
+        },
+        {
+          "id": "m5-c06",
+          "tipo": "Clase",
+          "numero": 6,
+          "titulo": "Riesgos, plan B y evaluación",
+          "etiqueta": "Clase 6",
+          "semana": 3
+        },
+        {
+          "id": "m5-s04",
+          "tipo": "Semana",
+          "numero": 4,
+          "titulo": "Taller del módulo: plan anual del grupo",
+          "etiqueta": "Taller del módulo",
+          "semana": 4
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "numero": 6,
+      "titulo": "Liderazgo que acompaña personas",
+      "etiqueta": "Módulo VI",
+      "semanas": "",
+      "duracion": "4 semanas · 32 horas",
+      "constancia": true,
+      "intro": "Este módulo reúne seis clases y un taller final sobre la dimensión más humana del liderazgo: acompañar a cada persona del equipo para que crezca. Conversaciones de acompañamiento, retroalimentación, motivación, cuidado del equipo y límites del líder ante las situaciones difíciles.\n\nEl módulo dura cuatro semanas (32 horas): dos clases por semana durante tres semanas y una cuarta semana de taller. Se aprueba con las prácticas semanales, la bitácora y el trabajo del módulo: un plan de acompañamiento para el propio equipo.",
+      "clases": [
+        {
+          "id": "m6-c01",
+          "tipo": "Clase",
+          "numero": 1,
+          "titulo": "Liderar es acompañar",
+          "etiqueta": "Clase 1",
+          "semana": 1
+        },
+        {
+          "id": "m6-c02",
+          "tipo": "Clase",
+          "numero": 2,
+          "titulo": "Conversaciones que hacen crecer",
+          "etiqueta": "Clase 2",
+          "semana": 1
+        },
+        {
+          "id": "m6-c03",
+          "tipo": "Clase",
+          "numero": 3,
+          "titulo": "Reconocer y corregir",
+          "etiqueta": "Clase 3",
+          "semana": 2
+        },
+        {
+          "id": "m6-c04",
+          "tipo": "Clase",
+          "numero": 4,
+          "titulo": "Motivar sin presionar",
+          "etiqueta": "Clase 4",
+          "semana": 2
+        },
+        {
+          "id": "m6-c05",
+          "tipo": "Clase",
+          "numero": 5,
+          "titulo": "Cuidar al equipo y prevenir el desgaste",
+          "etiqueta": "Clase 5",
+          "semana": 3
+        },
+        {
+          "id": "m6-c06",
+          "tipo": "Clase",
+          "numero": 6,
+          "titulo": "Acompañar en momentos difíciles y saber derivar",
+          "etiqueta": "Clase 6",
+          "semana": 3
+        },
+        {
+          "id": "m6-s04",
+          "tipo": "Semana",
+          "numero": 4,
+          "titulo": "Taller del módulo: plan de acompañamiento del equipo",
+          "etiqueta": "Taller del módulo",
+          "semana": 4
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "numero": 7,
+      "titulo": "Proyecto integrador y cierre del diplomado",
+      "etiqueta": "Cierre",
+      "semanas": "",
+      "duracion": "2 semanas · 16 horas",
+      "constancia": false,
+      "intro": "Esta etapa es solo para quienes cursan el diplomado completo. Reúne en un proyecto aplicado a la propia comunidad las herramientas de los seis módulos y termina con la presentación de los proyectos, la evaluación final y la ceremonia de cierre.\n\nPara recibir el certificado del diplomado se necesitan las constancias de los seis módulos y el proyecto integrador aprobado.",
+      "clases": [
+        {
+          "id": "m7-s01",
+          "tipo": "Semana",
+          "numero": 1,
+          "titulo": "Taller del proyecto integrador",
+          "etiqueta": "Semana 1",
+          "semana": 1
+        },
+        {
+          "id": "m7-s02",
+          "tipo": "Semana",
+          "numero": 2,
           "titulo": "Presentaciones, evaluación y ceremonia de cierre",
-          "etiqueta": "Semana 15",
-          "semana": 15
+          "etiqueta": "Semana 2",
+          "semana": 2
         }
       ]
     }

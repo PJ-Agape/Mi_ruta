@@ -13,7 +13,9 @@
   var app = document.getElementById("app");
   var sitio = null;
   var cursos = {};
-  var ROMANOS = ["", "I", "II", "III", "IV", "V", "VI"];
+  var ROMANOS = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
+
+  function etiquetaModulo(m) { return m.etiqueta || "Módulo " + ROMANOS[m.numero]; }
 
   /* ---------- utilidades ---------- */
 
@@ -190,7 +192,11 @@
         (c.sesiones && c.sesiones.length ? '<a class="boton" href="#/curso/' + esc(c.id) + '/sesiones">Sesiones en vivo</a>' : "") + "</div></section>";
 
       c.modulos.forEach(function (m) {
-        html += '<section class="tarjeta modulo"><h2>Módulo ' + ROMANOS[m.numero] + ". " + esc(m.titulo) + "</h2>" + (m.semanas ? '<p class="semanas">Semanas ' + esc(m.semanas) + "</p>" : "");
+        var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
+        html += '<section class="tarjeta modulo"><h2>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</h2>" +
+          (m.semanas ? '<p class="semanas">Semanas ' + esc(m.semanas) + "</p>" : "") +
+          (m.duracion || m.constancia ? '<p class="semanas">' + [m.duracion ? esc(m.duracion) : "", m.constancia ? '<span class="chip-constancia">Constancia propia</span>' : ""].filter(Boolean).join(" · ") +
+            (m.constancia ? " · " + hm + " de " + m.clases.length + " completadas" : "") + "</p>" : "");
         if (m.intro) html += '<details><summary>Sobre este módulo</summary><div class="texto">' + md(m.intro) + "</div></details>";
         html += '<ol class="lista-clases">' + m.clases.map(function (cl) {
           var hecha = h.indexOf(cl.id) >= 0;
@@ -222,10 +228,15 @@
         '<section class="tarjeta"><h1>Sesiones en vivo</h1><p>Los encuentros-taller son semanales. Cuando una sesión sea por ' + esc(plataforma) +
         ", el botón para entrar aparecerá aquí.</p>" +
         (general ? '<div class="botones"><a class="boton principal" href="' + esc(general) + '" target="_blank" rel="noopener">Entrar a la sala del curso</a></div>' : "") +
-        '<ol class="sesiones">' + c.sesiones.map(function (s) {
+        '<ol class="sesiones">' + c.sesiones.map(function (s, k) {
+          var titulo = "";
+          if (s.modulo && (k === 0 || c.sesiones[k - 1].modulo !== s.modulo)) {
+            var mod = c.modulos.filter(function (m) { return m.numero === s.modulo; })[0];
+            titulo = '<li class="sesiones-modulo">' + esc(mod ? etiquetaModulo(mod) + ". " + mod.titulo : "Módulo " + s.modulo) + "</li>";
+          }
           var cuando = [s.fecha, s.hora, s.lugar].filter(Boolean).join(" · ") || "Fecha por definir";
           var enlace = s.enlace || "";
-          return '<li><span class="num">Semana ' + esc(s.semana) + '</span><span><span class="tema">' + esc(s.tema) +
+          return titulo + '<li><span class="num">Semana ' + esc(s.semana) + '</span><span><span class="tema">' + esc(s.tema) +
             '</span><br><span class="cuando">' + esc(cuando) + "</span></span>" +
             (enlace ? '<a class="boton" href="' + esc(enlace) + '" target="_blank" rel="noopener">Entrar</a>' : "<span></span>") + "</li>";
         }).join("") + "</ol></section>";
@@ -283,7 +294,7 @@
     var hecha = hechas(c.id).indexOf(cl.id) >= 0;
 
     var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>";
-    html += '<header class="clase-cabecera"><span class="etiqueta-clase">Módulo ' + ROMANOS[cl.modulo.numero] + " · " + esc(cl.etiqueta) + "</span>" +
+    html += '<header class="clase-cabecera"><span class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · " + esc(cl.etiqueta) + "</span>" +
       "<h1>" + esc(cl.titulo) + '</h1><p class="meta">' + esc(duracionClase(cl)) + "</p></header>";
     if (intro) html += '<div class="texto">' + md(intro) + "</div>";
     if (video) html += '<div class="medio"><iframe src="' + esc(video) + '" title="Video de la clase" allowfullscreen loading="lazy"></iframe></div>';
@@ -414,7 +425,7 @@
       return o;
     });
     var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>";
-    html += '<header class="clase-cabecera"><span class="etiqueta-clase">Módulo ' + ROMANOS[cl.modulo.numero] + " · Evaluación</span>" +
+    html += '<header class="clase-cabecera"><span class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · Evaluación</span>" +
       "<h1>" + esc(ev.titulo) + '</h1><p class="meta">' + ev.preguntas.length + " preguntas · se aprueba con " + ev.aprobacion + "%</p></header>";
     html += '<p class="aviso">Responde todas las preguntas y luego revisa tus respuestas. Puedes intentarlo las veces que quieras.' +
       (previo ? " Tu mejor resultado hasta ahora: " + previo.mejor + "%." : "") + "</p>";

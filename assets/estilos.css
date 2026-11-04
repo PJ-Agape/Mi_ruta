@@ -277,3 +277,7 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .seccion-titulo { font-size: 1.6rem; margin: 0 0 .2rem; }
 .seccion-bajada { margin: 0 0 1rem; color: var(--tinta-suave); }
 .categoria-titulo { font-family: var(--sans); font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--acento); margin: 1.6rem 0 .7rem; font-weight: 700; }
+
+/* Módulos certificables */
+.chip-constancia { display: inline-block; font-size: .78rem; font-weight: 700; color: var(--acento); background: var(--acento-claro); border-radius: 99px; padding: .05rem .55rem; }
+.sesiones .sesiones-modulo { display: block; font-family: var(--serif); font-weight: 600; color: var(--tinta); font-size: 1.05rem; padding: 1rem 0 .3rem; border-bottom: 0; }

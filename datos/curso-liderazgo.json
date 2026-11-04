@@ -1,9 +1,9 @@
 {
   "id": "liderazgo",
   "titulo": "Diplomado en Liderazgo para Equipos de Pastoral Juvenil",
-  "subtitulo": "21 claves para servir y guiar",
-  "descripcion": "Herramientas prácticas de liderazgo para quienes coordinan comunidades de pastoral juvenil católica: influir sin imponer, organizar un equipo, planificar, conducir reuniones, manejar conflictos y formar el relevo.",
-  "duracion": "120 horas en 15 semanas",
+  "subtitulo": "6 módulos certificables",
+  "descripcion": "Herramientas prácticas de liderazgo para quienes coordinan comunidades de pastoral juvenil católica. Cada módulo se puede cursar por separado y entrega su propia constancia: fundamentos y cuadro de mando, equipo, relevo, comunicación y conflictos, planificación y proyectos, y acompañamiento de personas. Con los seis módulos y un proyecto integrador se obtiene el certificado del diplomado.",
+  "duracion": "216 horas en 6 módulos y un proyecto integrador",
   "modalidad": "Mixta: estudio en línea y un encuentro-taller semanal",
   "autor": "",
   "videollamada": {
@@ -12,46 +12,52 @@
   },
   "sesiones": [
     {
+      "modulo": 1,
       "semana": 1,
-      "tema": "Bienvenida. Claves 1 y 2",
+      "tema": "El techo del líder · Influencia, no cargo",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
+      "modulo": 1,
       "semana": 2,
-      "tema": "Claves 3 y 4",
+      "tema": "Crecer es un proceso · Saber navegar",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
+      "modulo": 1,
       "semana": 3,
-      "tema": "Claves 5 y 6",
+      "tema": "Sumar valor a cada persona · La confianza es la base",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
+      "modulo": 1,
       "semana": 4,
-      "tema": "Claves 7 y 8",
+      "tema": "Autoridad que se gana · Leer la realidad antes de decidir",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
+      "modulo": 1,
       "semana": 5,
-      "tema": "Claves 9 y 10",
+      "tema": "Atraemos lo que somos · Conectar antes de pedir",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
+      "modulo": 1,
       "semana": 6,
       "tema": "Cuadro de mando del grupo",
       "fecha": "",
@@ -60,72 +66,189 @@
       "enlace": ""
     },
     {
-      "semana": 7,
-      "tema": "Claves 11 y 12",
+      "modulo": 2,
+      "semana": 1,
+      "tema": "El círculo cercano · Delegar es empoderar",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 8,
-      "tema": "Claves 13 y 14",
+      "modulo": 2,
+      "semana": 2,
+      "tema": "Se enseña con el ejemplo · Primero creen en ti, después en tu proyecto",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 9,
-      "tema": "Claves 15 y 16",
+      "modulo": 2,
+      "semana": 3,
+      "tema": "Hacer que las cosas pasen · Cuidar el impulso",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 10,
-      "tema": "Jornada de mitad de camino",
+      "modulo": 2,
+      "semana": 4,
+      "tema": "Jornada de cierre y trabajo del módulo",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 11,
-      "tema": "Claves 17 y 18",
+      "modulo": 3,
+      "semana": 1,
+      "tema": "Primero lo primero · Entrega sin desgaste",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 12,
-      "tema": "Clave 19",
+      "modulo": 3,
+      "semana": 2,
+      "tema": "El momento oportuno",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 13,
-      "tema": "Claves 20 y 21",
+      "modulo": 3,
+      "semana": 3,
+      "tema": "Multiplicar líderes · Dejar legado",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 14,
-      "tema": "Taller del proyecto final",
+      "modulo": 4,
+      "semana": 1,
+      "tema": "Decir las cosas claras · Escuchar para entender",
       "fecha": "",
       "hora": "",
       "lugar": "",
       "enlace": ""
     },
     {
-      "semana": 15,
-      "tema": "Presentaciones y ceremonia de cierre",
+      "modulo": 4,
+      "semana": 2,
+      "tema": "Decir lo difícil con respeto · Conversaciones difíciles",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 4,
+      "semana": 3,
+      "tema": "Entender el conflicto · Mediar entre otros",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 4,
+      "semana": 4,
+      "tema": "Taller del módulo: protocolo de comunicación y conflictos",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 5,
+      "semana": 1,
+      "tema": "De la visión al plan · Leer la realidad",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 5,
+      "semana": 2,
+      "tema": "Priorizar y calendarizar · Diseñar un proyecto",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 5,
+      "semana": 3,
+      "tema": "Recursos y presupuesto · Riesgos, plan B y evaluación",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 5,
+      "semana": 4,
+      "tema": "Taller del módulo: plan anual del grupo",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 6,
+      "semana": 1,
+      "tema": "Liderar es acompañar · Conversaciones que hacen crecer",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 6,
+      "semana": 2,
+      "tema": "Reconocer y corregir · Motivar sin presionar",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 6,
+      "semana": 3,
+      "tema": "Cuidar al equipo y prevenir el desgaste · Acompañar en momentos difíciles y saber derivar",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 6,
+      "semana": 4,
+      "tema": "Taller del módulo: plan de acompañamiento del equipo",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 7,
+      "semana": 1,
+      "tema": "Taller del proyecto integrador",
+      "fecha": "",
+      "hora": "",
+      "lugar": "",
+      "enlace": ""
+    },
+    {
+      "modulo": 7,
+      "semana": 2,
+      "tema": "Presentaciones, evaluación y ceremonia de cierre",
       "fecha": "",
       "hora": "",
       "lugar": "",
@@ -140,5 +263,6 @@
   },
   "programa": true,
   "paso": 4,
-  "etapa": "Liderar"
+  "etapa": "Liderar",
+  "publico": "Desde 17 años"
 }

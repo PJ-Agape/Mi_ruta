@@ -2,7 +2,7 @@
 
 2026-10-30 ·
 
-Este documento desarrolla el Módulo II (semanas 7 a 10): las claves 11 a 16 y la jornada de mitad de camino. Sigue el mismo formato del Módulo I: apunte, plantilla, guía del ejercicio para el relator (50 minutos por clave) y pauta de aplicación. El foco de este módulo es el equipo coordinador.
+Este documento desarrolla el Módulo II (cuatro semanas): las claves 11 a 16 y la jornada de cierre del módulo. Sigue el mismo formato del Módulo I: apunte, plantilla, guía del ejercicio para el relator (50 minutos por clave) y pauta de aplicación. El foco de este módulo es el equipo coordinador.
 
 ## Clave 11. El círculo cercano
 
@@ -183,7 +183,7 @@ Una persona puede tener dos perfiles. Lo importante es que el equipo, en conjunt
 
 - [ ] Armar la RACI de tu próximo encuentro real y compartirla con el equipo.
 - [ ] Delegar por completo una parte del encuentro (la oración, la dinámica o la difusión) y acompañarla sin intervenir.
-- [ ] Después del encuentro, dar una retroalimentación SCI a la persona (clase 5).
+- [ ] Después del encuentro, dar una retroalimentación SCI a la persona (Módulo I, clase 5).
 
 **Bitácora:** ¿qué me cuesta soltar y por qué? ¿Qué aprendió la persona a quien le delegué?
 
@@ -346,7 +346,7 @@ La regla de oro: nunca presentar un proyecto importante a un actor clave por pri
 
 - [ ] Completar el mapa de actores de un proyecto real.
 - [ ] Conversar a solas con los dos actores clave antes de presentarlo.
-- [ ] Ajustar el pitch con lo que escuchaste. Este proyecto puede ser la base de tu proyecto final.
+- [ ] Ajustar el pitch con lo que escuchaste. Si cursas el diplomado completo, este proyecto puede ser la base de tu proyecto integrador.
 
 **Bitácora:** ¿he ganado la confianza necesaria para lo que voy a pedir? ¿Qué aprendí de las dudas de los demás?
 
@@ -364,7 +364,7 @@ La regla de oro: nunca presentar un proyecto importante a un actor clave por pri
 4.  **Acuerdos con qué, quién y cuándo:** cada tema termina con una decisión o con un responsable de averiguar algo.
 5.  **Seguimiento:** la siguiente reunión empieza revisando los acuerdos anteriores.
 
-**Metas del equipo en formato SMART.** Las metas del equipo se escriben igual que las personales (clase 3). En vez de «tener más jóvenes», se escribe «pasar de 12 a 18 jóvenes con asistencia regular antes de diciembre». Una meta clara permite que todos empujen en la misma dirección y que el equipo sepa si lo está logrando.
+**Metas del equipo en formato SMART.** Las metas del equipo se escriben igual que las personales (Módulo I, clase 3). En vez de «tener más jóvenes», se escribe «pasar de 12 a 18 jóvenes con asistencia regular antes de diciembre». Una meta clara permite que todos empujen en la misma dirección y que el equipo sepa si lo está logrando.
 
 **Perseverar ante los obstáculos.** Cuando algo falla, el líder no busca culpables, sino caminos alternativos. Tres preguntas ayudan: ¿qué fue lo que falló exactamente?, ¿qué depende de nosotros? y ¿cuál es el siguiente paso más pequeño posible?
 
@@ -500,23 +500,23 @@ La regla de oro: nunca presentar un proyecto importante a un actor clave por pri
 
 **Bitácora:** ¿qué está frenando hoy el ánimo de mi grupo? ¿Cuándo fue la última vez que celebramos algo?
 
-## Semana 10. Jornada de mitad de camino y trabajo del módulo
+## Semana 10. Jornada de cierre y trabajo del módulo
 
-La semana 10 reemplaza el encuentro semanal por una jornada de un día (8 horas), idealmente un sábado. Tiene tres propósitos: integrar lo aprendido en los Módulos I y II, armar el organigrama del equipo coordinador (trabajo del módulo) y avanzar en el proyecto final. También es un espacio de convivencia que fortalece al curso como grupo.
+La semana 4 del módulo reemplaza el encuentro semanal por una jornada de un día (8 horas), idealmente un sábado. Tiene tres propósitos: integrar lo aprendido en los Módulos I y II, armar el organigrama del equipo coordinador (trabajo del módulo) y, para quienes cursan el diplomado completo, avanzar en el proyecto integrador. También es un espacio de convivencia que fortalece al curso como grupo.
 
 ### Programa de la jornada
 
 | Hora  | Momento                   | Contenido                                                                                                                        |
 |-------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | 09:00 | Acogida                   | Desayuno, dinámica de integración y breve momento de oración                                                                     |
-| 09:45 | Mirada atrás              | Cada participante repite la rueda de competencias (clase 1) y revisa su plan de desarrollo (clase 3). En parejas: ¿qué se movió? |
+| 09:45 | Mirada atrás              | Cada participante repite la rueda de competencias (Módulo I, clase 1) y revisa su plan de desarrollo (Módulo I, clase 3). En parejas: ¿qué se movió? |
 | 10:45 | Pausa                     |                                                                                                                                  |
 | 11:00 | Caso integrado            | Simulación de una comunidad en crisis (ver abajo)                                                                                |
 | 13:00 | Almuerzo                  | Compartido                                                                                                                       |
 | 14:00 | Taller del organigrama    | Trabajo del módulo (ver plantilla)                                                                                               |
 | 15:30 | Pausa                     |                                                                                                                                  |
-| 15:45 | Avance del proyecto final | Cada participante define el tema y el diagnóstico de su proyecto con el cuadro de mando (clase 11)                               |
-| 17:00 | Plenario y cierre         | Lo aprendido en la primera mitad del curso, compromisos para el Módulo III y celebración                                         |
+| 15:45 | Avance del proyecto integrador (si cursa el diplomado completo) | Cada participante define el tema y el diagnóstico de su proyecto con el cuadro de mando (Módulo I, clase 11)                               |
+| 17:00 | Plenario y cierre         | Lo aprendido en la primera mitad del curso, compromisos para los próximos módulos y celebración                                         |
 | 18:00 | Término                   |                                                                                                                                  |
 
 ### Caso integrado (2 horas)
@@ -527,10 +527,10 @@ La semana 10 reemplaza el encuentro semanal por una jornada de un día (8 horas)
 
 **Trabajo en grupos de 5 (90 minutos).** Cada grupo actúa como el nuevo equipo coordinador y entrega:
 
-1.  Un FODA de la comunidad (clase 8).
-2.  La conversación difícil preparada para los dos monitores en conflicto (clase 7).
+1.  Un FODA de la comunidad (Módulo I, clase 8).
+2.  La conversación difícil preparada para los dos monitores en conflicto (Módulo I, clase 7).
 3.  Una matriz RACI que libere al coordinador (clave 12).
-4.  Un rol para la líder natural (clase 2 y clave 11).
+4.  Un rol para la líder natural (Módulo I, clase 2 y clave 11).
 5.  Un plan de arranque de 4 semanas (clave 16).
 6.  Un pitch de 5 minutos para el párroco (clave 14).
 
@@ -538,7 +538,7 @@ La semana 10 reemplaza el encuentro semanal por una jornada de un día (8 horas)
 
 ### Plantilla: organigrama del equipo coordinador
 
-Es el trabajo del Módulo II (15% de la nota final). Debe describir cómo funcionará el equipo de la propia comunidad.
+Es el trabajo del Módulo II. Debe describir cómo funcionará el equipo de la propia comunidad.
 
 **1. Integrantes y roles:**
 
@@ -577,7 +577,7 @@ Es el trabajo del Módulo II (15% de la nota final). Debe describir cómo funcio
 ### Aplicación y bitácora
 
 - [ ] Presentar el organigrama a tu equipo y ajustarlo con sus aportes.
-- [ ] Entregar la versión final como trabajo del Módulo II antes de la semana 11.
-- [ ] Definir el tema de tu proyecto final.
+- [ ] Entregar la versión final como trabajo del Módulo II al terminar el módulo.
+- [ ] Si cursas el diplomado completo, definir el tema de tu proyecto integrador.
 
-**Bitácora de mitad de camino:** ¿qué cambió en mi rueda de competencias desde la clase 1? ¿Qué herramienta ya uso sin pensarlo y cuál todavía me cuesta?
+**Bitácora de mitad de camino:** ¿qué cambió en mi rueda de competencias desde la clase 1 del Módulo I? ¿Qué herramienta ya uso sin pensarlo y cuál todavía me cuesta?

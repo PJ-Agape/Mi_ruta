@@ -2,7 +2,7 @@
 
 2026-10-30 ·
 
-Este documento desarrolla el Módulo III (semanas 11 a 15): las claves 17 a 21, el taller del proyecto final y el cierre del diplomado. Sigue el mismo formato de los módulos anteriores. El foco es el enfoque ganar-ganar: que crezcan la persona, el equipo, la parroquia y la comunidad juvenil.
+Este documento desarrolla el Módulo III (tres semanas): las claves 17 a 21. El taller del proyecto integrador y el cierre del diplomado forman una etapa aparte, para quienes cursan el diplomado completo. Sigue el mismo formato de los módulos anteriores. El foco es el enfoque ganar-ganar: que crezcan la persona, el equipo, la parroquia y la comunidad juvenil.
 
 ## Clave 17. Primero lo primero
 
@@ -178,7 +178,7 @@ El desgaste no es señal de debilidad, sino de que la carga está mal repartida 
 
 ## Clave 19. El momento oportuno
 
-Esta clave ocupa sola la semana 12, por lo que su encuentro dura los 120 minutos completos e incluye un taller de planificación anual.
+Esta clave ocupa sola la semana 2 del módulo, por lo que su encuentro dura los 120 minutos completos e incluye un taller de planificación anual.
 
 ### Apunte
 
@@ -271,7 +271,7 @@ Esta clave ocupa sola la semana 12, por lo que su encuentro dura los 120 minutos
 - [ ] Revisar el calendario cruzado con tu equipo y ajustarlo.
 - [ ] Mover o reprogramar al menos una actividad que estaba en un mal momento.
 - [ ] Dar el primer paso (preparar) del cambio que planificaste.
-- [ ] Guardar el calendario: será parte de tu proyecto final.
+- [ ] Guardar el calendario: será parte de tu proyecto integrador.
 
 **Bitácora:** ¿quiero resultados inmediatos o confío en los procesos? ¿Qué decisión tomé en un mal momento?
 
@@ -287,7 +287,7 @@ Esta clave ocupa sola la semana 12, por lo que su encuentro dura los 120 minutos
 
 | Paso          | Qué se hace                                                                           | Señal de que está listo para el siguiente paso   |
 |---------------|---------------------------------------------------------------------------------------|--------------------------------------------------|
-| 1\. Detectar  | Observar a jóvenes con compromiso, iniciativa o influencia (sociograma de la clase 2) | Participa con constancia y otros lo siguen       |
+| 1\. Detectar  | Observar a jóvenes con compromiso, iniciativa o influencia (sociograma de la clase 2 del Módulo I) | Participa con constancia y otros lo siguen       |
 | 2\. Invitar   | Proponerle personalmente un primer rol pequeño                                        | Acepta y cumple                                  |
 | 3\. Acompañar | Trabajar a su lado y conversar regularmente (niveles 1 y 2 de delegación)             | Hace la tarea con apoyo y aprende de los errores |
 | 4\. Delegar   | Entregarle una responsabilidad completa (niveles 3 y 4)                               | Responde por los resultados por sí mismo         |
@@ -333,7 +333,7 @@ Esta clave ocupa sola la semana 12, por lo que su encuentro dura los 120 minutos
 
 **Objetivo:** que cada participante identifique a dos futuros líderes y diseñe el primer mes de su mentoría.
 
-**Materiales:** plantilla impresa, sociograma de la clase 2 de cada participante.
+**Materiales:** plantilla impresa, sociograma de la clase 2 del Módulo I de cada participante.
 
 | Paso | Tiempo | Instrucción                                                                                                          |
 |------|--------|----------------------------------------------------------------------------------------------------------------------|
@@ -353,7 +353,7 @@ Esta clave ocupa sola la semana 12, por lo que su encuentro dura los 120 minutos
 
 - [ ] Invitar personalmente a uno de los dos futuros líderes a su primer rol.
 - [ ] Tener la primera conversación de mentoría.
-- [ ] Incluir la ruta de formación de líderes en tu proyecto final.
+- [ ] Incluir la ruta de formación de líderes en tu proyecto integrador.
 
 **Bitácora:** ¿estoy formando a quien me pueda reemplazar? ¿Qué me cuesta de compartir mi rol?
 
@@ -440,13 +440,13 @@ Esta clave ocupa sola la semana 12, por lo que su encuentro dura los 120 minutos
 
 - [ ] Documentar al menos un proceso clave de tu comunidad (por ejemplo, cómo se organiza un encuentro).
 - [ ] Crear la carpeta de traspaso compartida con tu equipo.
-- [ ] Incluir el plan de relevo en tu proyecto final.
+- [ ] Incluir el plan de relevo en tu proyecto integrador.
 
 **Bitácora:** si dejara hoy el cargo, ¿el grupo seguiría funcionando? ¿Qué recibí yo de quienes me precedieron?
 
-## Semana 14. Taller del proyecto final
+## Semana 1. Taller del proyecto integrador
 
-El proyecto final reúne en un solo documento las herramientas del diplomado aplicadas a la comunidad real de cada participante. Vale 30% de la nota final. Se puede hacer de forma individual o en pareja con alguien de la misma comunidad. En esta semana no hay clave nueva: el encuentro completo es un taller para avanzar el proyecto con apoyo del relator y del curso.
+El proyecto integrador reúne en un solo documento las herramientas del diplomado aplicadas a la comunidad real de cada participante. Vale 30% de la nota final. Se puede hacer de forma individual o en pareja con alguien de la misma comunidad. En esta semana no hay clave nueva: el encuentro completo es un taller para avanzar el proyecto con apoyo del relator y del curso.
 
 ### Estructura del proyecto
 
@@ -455,14 +455,14 @@ El documento tiene entre 6 y 10 páginas y siete partes. Casi todo el material y
 | Parte                             | Contenido                                                                                    | Material del curso que se usa |
 |-----------------------------------|----------------------------------------------------------------------------------------------|-------------------------------|
 | 1\. Diagnóstico                   | Situación actual de la comunidad: FODA y cuadro de mando con línea base                      | Clases 8 y 11                 |
-| 2\. Objetivo                      | Una meta SMART para los próximos 6 a 12 meses y por qué es la prioridad                      | Clase 3 y clave 15            |
-| 3\. Equipo y roles                | Organigrama, perfiles y matriz RACI                                                          | Claves 11 y 12, semana 10     |
-| 4\. Plan de acción                | Actividades, responsables, calendario cruzado, riesgos y plan B                              | Clase 4 y clave 19            |
+| 2\. Objetivo                      | Una meta SMART para los próximos 6 a 12 meses y por qué es la prioridad                      | Módulo I, clase 3 y clave 15            |
+| 3\. Equipo y roles                | Organigrama, perfiles y matriz RACI                                                          | Claves 11 y 12, taller del Módulo II     |
+| 4\. Plan de acción                | Actividades, responsables, calendario cruzado, riesgos y plan B                              | Módulo I, clase 4 y clave 19            |
 | 5\. Comunicación y convocatoria   | Cómo se invitará y a quién, con el perfil del mapa de empatía                                | Clases 9 y 10                 |
 | 6\. Formación de líderes y relevo | Futuros líderes, plan de mentoría y carpeta de traspaso                                      | Claves 20 y 21                |
 | 7\. Ganar-ganar y evaluación      | Qué gana el joven, el equipo, la parroquia y la comunidad; cómo y cuándo se medirá el avance | Cuadro de mando               |
 
-**La presentación.** Además del documento, cada proyecto se presenta en la semana 15 en 10 minutos, con la estructura del pitch (clave 14): problema, propuesta, beneficio y lo que se pide para llevarlo a cabo.
+**La presentación.** Además del documento, cada proyecto se presenta en la sesión de cierre en 10 minutos, con la estructura del pitch (clave 14): problema, propuesta, beneficio y lo que se pide para llevarlo a cabo.
 
 ### Plantilla: ficha resumen del proyecto
 
@@ -485,7 +485,7 @@ Una página que va al inicio del documento:
 
 **Objetivo:** que cada participante salga con el borrador completo del proyecto y su presentación esbozada.
 
-**Materiales:** las plantillas de todo el curso de cada participante, computadores o tablets si es posible, la rúbrica de evaluación (semana 15) impresa.
+**Materiales:** las plantillas de todo el curso de cada participante, computadores o tablets si es posible, la rúbrica de evaluación (sesión de cierre) impresa.
 
 | Paso | Tiempo | Instrucción                                                                                                                                                 |
 |------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -494,7 +494,7 @@ Una página que va al inicio del documento:
 | 3    | 45 min | Trabajo individual o en pareja sobre las partes del proyecto. El relator y el acompañante circulan resolviendo dudas                                        |
 | 4    | 30 min | Revisión entre pares: en tríos, cada uno presenta su ficha resumen en 3 minutos y los otros dos lo evalúan con la rúbrica, dando una fortaleza y una mejora |
 | 5    | 15 min | Cada participante anota los ajustes y arma el esquema de su presentación de 10 minutos                                                                      |
-| 6    | 5 min  | Cierre: instrucciones para la semana 15                                                                                                                     |
+| 6    | 5 min  | Cierre: instrucciones para la sesión de cierre                                                                                                                     |
 
 **Preguntas de revisión para los tríos:**
 
@@ -508,21 +508,21 @@ Una página que va al inicio del documento:
 - [ ] Completar el documento del proyecto con los ajustes de la revisión.
 - [ ] Compartir el proyecto con tu equipo y recoger sus aportes antes de presentarlo.
 - [ ] Preparar y ensayar la presentación de 10 minutos.
-- [ ] Entregar el documento al relator al menos dos días antes de la semana 15.
+- [ ] Entregar el documento al relator al menos dos días antes de la sesión de cierre.
 
 **Bitácora:** ¿qué herramienta del curso fue la más útil para armar mi proyecto? ¿Qué parte me costó más y por qué?
 
-## Semana 15. Presentaciones, evaluación y ceremonia de cierre
+## Semana 2. Presentaciones, evaluación y ceremonia de cierre
 
-La última semana tiene dos momentos: las presentaciones de los proyectos finales y la ceremonia de cierre con entrega de certificados. Si el curso tiene más de 8 proyectos, las presentaciones se dividen en dos sesiones o se hacen en una jornada de sábado.
+La última semana tiene dos momentos: las presentaciones de los proyectos integradores y la ceremonia de cierre con entrega de certificados. Si el curso tiene más de 8 proyectos, las presentaciones se dividen en dos sesiones o se hacen en una jornada de sábado.
 
 ### Presentaciones
 
-**Formato:** 10 minutos de presentación y 5 minutos de preguntas por proyecto. Evalúan el relator y el acompañante con la rúbrica; el curso entrega retroalimentación escrita con el modelo SCI (clase 5).
+**Formato:** 10 minutos de presentación y 5 minutos de preguntas por proyecto. Evalúan el relator y el acompañante con la rúbrica; el curso entrega retroalimentación escrita con el modelo SCI (Módulo I, clase 5).
 
 **Invitados sugeridos:** el párroco o el asesor, coordinadores de otras comunidades y, si el participante lo desea, alguien de su propio equipo. Esto convierte la presentación en un primer paso real del proyecto.
 
-### Rúbrica de evaluación del proyecto final
+### Rúbrica de evaluación del proyecto integrador
 
 Cada criterio se evalúa de 1 a 4. El puntaje total se convierte en porcentaje para la nota ponderada del curso.
 
@@ -551,7 +551,7 @@ Cada participante completa una tarjeta por cada proyecto que escucha:
 |-------------------------|--------|-----------------------------------------------------------------------------------------------------------------------|
 | Acogida                 | 10 min | Bienvenida a participantes, acompañantes, familias e invitados                                                        |
 | Oración                 | 10 min | Breve momento de oración y envío                                                                                      |
-| El techo que subió      | 15 min | Cada participante compara su rueda de competencias de la clase 1 con la final y comparte en una frase su mayor cambio |
+| El techo que subió      | 15 min | Cada participante compara su rueda de competencias de la clase 1 del Módulo I con la final y comparte en una frase su mayor cambio |
 | Testimonios             | 15 min | Dos o tres participantes cuentan qué aplicaron en su comunidad y qué resultó                                          |
 | Entrega de certificados | 20 min | Firma del párroco y del asesor de pastoral juvenil                                                                    |
 | Compromiso              | 10 min | Cada participante escribe un compromiso de servicio para el próximo año y lo entrega a su acompañante                 |
@@ -572,7 +572,7 @@ Anónima, de 1 a 5, al final de la ceremonia o en línea durante la semana:
 
 ### Bitácora final
 
-- [ ] Completar la rueda de competencias final y compararla con la de la clase 1.
+- [ ] Completar la rueda de competencias final y compararla con la de la clase 1 del Módulo I.
 - [ ] Revisar tu plan de desarrollo personal: ¿se cumplió la meta SMART?
 - [ ] Escribir tu compromiso de servicio para el próximo año.
 
