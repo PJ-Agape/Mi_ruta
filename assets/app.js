@@ -394,7 +394,7 @@
           (m.semanas ? '<p class="semanas">Semanas ' + esc(m.semanas) + "</p>" : "") +
           (m.duracion || m.constancia ? '<p class="semanas">' + [m.duracion ? esc(m.duracion) : "", m.constancia ? '<span class="chip-constancia">Constancia propia</span>' : ""].filter(Boolean).join(" · ") +
             (m.constancia ? " · " + hm + " de " + m.clases.length + " completadas" : "") + "</p>" : "");
-        if (m.intro) html += '<details><summary>Sobre este módulo</summary><div class="texto">' + md(m.intro) + "</div></details>";
+        if (m.intro) html += '<details><summary>' + (m.intro.indexOf("#### Objetivos") >= 0 ? "Programa del módulo: objetivos, bibliografía y evaluación" : "Sobre este módulo") + '</summary><div class="texto">' + md(m.intro) + "</div></details>";
         var bloqueo = moduloBloqueado(c, m);
         if (bloqueo) {
           html += '<p class="aviso bloqueo">Se habilita al completar ' + bloqueo.map(function (r) { return esc(etiquetaModulo(r)); }).join(" y ") + ".</p>";

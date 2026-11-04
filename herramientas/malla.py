@@ -26,6 +26,7 @@ R = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(R / "herramientas" / "nuevas"))
 from talleres import TALLERES, EVAL_DJ  # noqa: E402
 from referencias import REFS  # noqa: E402
+import escritura_programa as EP  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -133,8 +134,14 @@ def complementaria(cid):
     assert len(ses) == 5, (cid, len(ses))
     preguntas = [{"pregunta": md(q["q"]), "opciones": [md(o) for o in q["options"]], "correcta": q["correct"],
                   "explicacion": md(q.get("feedback", ""))} for q in f["evaluacion"]]
-    return {"titulo": f["titulo"], "categoria": f["categoria"], "intro": f.get("intro", ""), "sesiones": ses,
-            "taller": f.get("taller") or TALLERES[cid], "preguntas": preguntas, "horas": 9,
+    intro, taller, horas = f.get("intro", ""), f.get("taller") or TALLERES[cid], 9
+    if cid in EP.PROGRAMA:
+        for n, s in enumerate(ses, 1):
+            s["texto"] = s["texto"].rstrip() + "\n\n" + EP.estudio_md(cid, n) + "\n"
+            s["tiempo"] = "90 min de clase + 3 h 30 min de estudio"
+        intro, taller, horas = EP.programa_md(cid, intro), EP.taller_md(cid, taller), EP.HORAS
+    return {"titulo": f["titulo"], "categoria": f["categoria"], "intro": intro, "sesiones": ses,
+            "taller": taller, "preguntas": preguntas, "horas": horas,
             "ficha": {k: f[k] for k in ("subtitulo", "descripcion", "publico") if k in f}}
 
 
