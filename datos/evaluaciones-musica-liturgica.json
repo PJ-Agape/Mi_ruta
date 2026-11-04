@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Música y animación litúrgica",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿qué es la música sacra en la liturgia?",
+    "opciones": [
+     "Un adorno opcional para las fiestas.",
+     "Parte necesaria e integral de la liturgia solemne.",
+     "Un momento de descanso entre los ritos."
+    ],
+    "correcta": 1,
+    "explicacion": "Así lo enseña Sacrosanctum concilium 112."
+   },
+   {
+    "pregunta": "¿Cuál es el primer objetivo del coro en la misa?",
+    "opciones": [
+     "Cantar las canciones más bonitas.",
+     "Ayudar a que la asamblea cante y ore.",
+     "Que la comunidad escuche en silencio."
+    ],
+    "correcta": 1,
+    "explicacion": "La asamblea es el primer protagonista del canto."
+   },
+   {
+    "pregunta": "¿Cuál de estas partes de la misa tiene un texto fijo que no se reemplaza por otro canto?",
+    "opciones": [
+     "El canto de entrada.",
+     "El Santo.",
+     "El canto de salida."
+    ],
+    "correcta": 1,
+    "explicacion": "El Santo, como el Gloria y el Cordero de Dios, tiene su texto propio."
+   },
+   {
+    "pregunta": "¿En qué tiempos litúrgicos no se canta el Gloria en los domingos?",
+    "opciones": [
+     "Adviento y Cuaresma.",
+     "Navidad y Pascua.",
+     "Tiempo Ordinario."
+    ],
+    "correcta": 0,
+    "explicacion": "El Gloria se omite en Adviento y Cuaresma, salvo solemnidades y fiestas."
+   },
+   {
+    "pregunta": "¿Qué pasa con el Aleluya en Cuaresma?",
+    "opciones": [
+     "Se canta más fuerte.",
+     "Se reemplaza por otra aclamación antes del Evangelio.",
+     "Se canta solo al final de la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "En Cuaresma se omite el Aleluya y se canta otra aclamación."
+   },
+   {
+    "pregunta": "¿Cuál es una buena regla para el volumen de los instrumentos?",
+    "opciones": [
+     "Siempre al máximo para animar.",
+     "Si no se escucha a la asamblea cantar, el volumen está alto.",
+     "Solo importa que se escuche al coro."
+    ],
+    "correcta": 1,
+    "explicacion": "Los instrumentos sostienen el canto de la asamblea, no lo tapan."
+   },
+   {
+    "pregunta": "¿Qué lugar tiene el silencio en la misa?",
+    "opciones": [
+     "Es un error que la música debe llenar.",
+     "Forma parte de la celebración y debe respetarse en los momentos oportunos.",
+     "Solo se usa en los funerales."
+    ],
+    "correcta": 1,
+    "explicacion": "La Ordenación General del Misal Romano 45 lo señala como parte de la celebración."
+   },
+   {
+    "pregunta": "¿Qué diferencia hay entre la música de un encuentro juvenil y la de la misa?",
+    "opciones": [
+     "Ninguna: se puede cantar lo mismo en ambos.",
+     "En la misa el canto está al servicio del rito y sigue sus criterios; en un encuentro hay más libertad.",
+     "En la misa solo se puede cantar gregoriano."
+    ],
+    "correcta": 1,
+    "explicacion": "Ambas son buenas, pero tienen criterios distintos."
+   }
+  ]
+ }
+}

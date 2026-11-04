@@ -271,3 +271,9 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .pie-iniciativa .ag-app { font-size: 1.1em; vertical-align: -.1em; }
 .portada .ag-app b { box-shadow: 2px 2px 0 var(--acento); }
 .pie-iniciativa a { margin-left: .2em; }
+
+/* Secciones de la portada */
+.seccion-inicio { margin-top: 2.2rem; }
+.seccion-titulo { font-size: 1.6rem; margin: 0 0 .2rem; }
+.seccion-bajada { margin: 0 0 1rem; color: var(--tinta-suave); }
+.categoria-titulo { font-family: var(--sans); font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--acento); margin: 1.6rem 0 .7rem; font-weight: 700; }

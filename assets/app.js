@@ -145,12 +145,32 @@
   function vistaInicio() {
     return Promise.all(sitio.cursos.map(cargarCurso)).then(function (lista) {
       var html = '<section class="portada"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA + "<p>" + esc(sitio.lema) + "</p></section>";
-      html += lista.map(function (c) {
+      function tarjeta(c) {
         var p = progreso(c);
-        return '<article class="tarjeta curso-tarjeta">' + (c.paso ? '<p class="institucion">Paso ' + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + "</p>" : (c.institucion ? '<p class="institucion">' + esc(c.institucion) + "</p>" : "")) + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
+        var ceja = c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") : (c.categoria ? esc(c.categoria) : (c.institucion ? esc(c.institucion) : ""));
+        return '<article class="tarjeta curso-tarjeta">' + (ceja ? '<p class="institucion">' + ceja + "</p>" : "") + '<h2>' + esc(c.titulo) + '</h2><p class="subtitulo">' + esc(c.subtitulo) +
           "</p><p>" + esc(c.descripcion) + "</p><p class=\"meta\">" + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(esc).join(" · ") + "</p>" +
           barraProgreso(p) + '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Entrar al curso</a></div></article>';
-      }).join("");
+      }
+      var ruta = lista.filter(function (c) { return c.paso; }).sort(function (a, b) { return a.paso - b.paso; });
+      var extras = lista.filter(function (c) { return !c.paso; });
+      if (ruta.length) {
+        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Tu ruta de formación</h2>' +
+          '<p class="seccion-bajada">Cuatro pasos para crecer en el servicio, en orden.</p>' + ruta.map(tarjeta).join("") + "</section>";
+      }
+      if (extras.length) {
+        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Formaciones complementarias</h2>' +
+          '<p class="seccion-bajada">Cursos breves que puedes tomar en cualquier momento, sin seguir un orden.</p>';
+        var categoria = null;
+        extras.forEach(function (c) {
+          if (c.categoria && c.categoria !== categoria) {
+            categoria = c.categoria;
+            html += '<h3 class="categoria-titulo">' + esc(categoria) + "</h3>";
+          }
+          html += tarjeta(c);
+        });
+        html += "</section>";
+      }
       pintar(html);
     });
   }
@@ -161,7 +181,7 @@
       var h = hechas(c.id);
       var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0; })[0];
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
-      html += '<section class="portada"><p class="subtitulo">' + (c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + " · " : (c.institucion ? esc(c.institucion) + " · " : "")) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
+      html += '<section class="portada"><p class="subtitulo">' + (c.paso ? "Paso " + esc(c.paso) + (c.etapa ? " · " + esc(c.etapa) : "") + " · " : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         barraProgreso(p) +
         '<div class="botones">' +

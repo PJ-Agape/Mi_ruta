@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Lectores y salmistas",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué enseña la Iglesia sobre la lectura de la Escritura en la liturgia?",
+    "opciones": [
+     "Es un momento para informarse sobre la historia de Israel.",
+     "Cuando se leen las Escrituras, Dios mismo habla a su pueblo.",
+     "Es una preparación opcional para la Eucaristía."
+    ],
+    "correcta": 1,
+    "explicacion": "Así lo enseñan Sacrosanctum concilium 7 y la Ordenación General del Misal Romano 29."
+   },
+   {
+    "pregunta": "En la misa, ¿quién proclama el Evangelio?",
+    "opciones": [
+     "El lector más preparado.",
+     "El diácono o el sacerdote.",
+     "Cualquier fiel de la asamblea."
+    ],
+    "correcta": 1,
+    "explicacion": "El lector proclama las lecturas anteriores al Evangelio."
+   },
+   {
+    "pregunta": "En el ciclo dominical, ¿qué Evangelio se lee principalmente en el año C?",
+    "opciones": [
+     "Mateo.",
+     "Marcos.",
+     "Lucas."
+    ],
+    "correcta": 2,
+    "explicacion": "Año A: Mateo; año B: Marcos; año C: Lucas."
+   },
+   {
+    "pregunta": "¿Qué no se lee en voz alta al proclamar una lectura?",
+    "opciones": [
+     "«Lectura del libro del profeta Isaías».",
+     "El título en rojo y la cita con números.",
+     "«Palabra de Dios» al final."
+    ],
+    "correcta": 1,
+    "explicacion": "Se anuncia el libro, se proclama el texto y se termina con «Palabra de Dios»."
+   },
+   {
+    "pregunta": "¿Cuál es el error más común de los lectores?",
+    "opciones": [
+     "Leer demasiado lento.",
+     "Leer demasiado rápido.",
+     "Mirar a la asamblea."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo que al lector le parece lento suele ser el ritmo justo para la asamblea."
+   },
+   {
+    "pregunta": "¿Cómo comienza la proclamación del salmo responsorial?",
+    "opciones": [
+     "Anunciando «Salmo responsorial» y el número del salmo.",
+     "Directamente con la respuesta, que la asamblea repite.",
+     "Con «Palabra de Dios»."
+    ],
+    "correcta": 1,
+    "explicacion": "Se comienza con la respuesta y se invita a la asamblea a repetirla."
+   },
+   {
+    "pregunta": "¿Cuál es el orden habitual de las intenciones de la oración universal?",
+    "opciones": [
+     "Comunidad local, Iglesia, mundo y enfermos.",
+     "Iglesia, gobernantes y salvación del mundo, los que sufren y la comunidad local.",
+     "Cualquier orden, según lo que surja."
+    ],
+    "correcta": 1,
+    "explicacion": "Es el orden que propone la Ordenación General del Misal Romano 70."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una buena intención?",
+    "opciones": [
+     "«Para que el gobierno deje de hacer las cosas mal. Roguemos al Señor».",
+     "«Por los enfermos de nuestra comunidad, para que sientan la cercanía de Dios y de sus hermanos. Roguemos al Señor».",
+     "«Les recordamos que el sábado hay convivencia. Roguemos al Señor»."
+    ],
+    "correcta": 1,
+    "explicacion": "Es breve, concreta, ruega por otros y no tiene opiniones ni avisos."
+   }
+  ]
+ }
+}

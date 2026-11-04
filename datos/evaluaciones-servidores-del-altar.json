@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Servidores del altar",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿qué desempeñan los acólitos y servidores del altar?",
+    "opciones": [
+     "Un adorno de la celebración.",
+     "Un auténtico ministerio litúrgico.",
+     "Un trabajo de sacristía."
+    ],
+    "correcta": 1,
+    "explicacion": "Sacrosanctum concilium 29 enseña que desempeñan un auténtico ministerio litúrgico."
+   },
+   {
+    "pregunta": "¿Qué es el corporal?",
+    "opciones": [
+     "El paño para secar el cáliz.",
+     "El lienzo cuadrado sobre el que se ponen el cáliz y la patena.",
+     "La vestidura blanca del servidor."
+    ],
+    "correcta": 1,
+    "explicacion": "El purificador seca el cáliz; el corporal se extiende sobre el altar."
+   },
+   {
+    "pregunta": "¿Qué color litúrgico se usa en Adviento y Cuaresma?",
+    "opciones": [
+     "Verde.",
+     "Morado.",
+     "Rojo."
+    ],
+    "correcta": 1,
+    "explicacion": "El morado expresa espera y conversión."
+   },
+   {
+    "pregunta": "¿Ante qué se hace la genuflexión?",
+    "opciones": [
+     "Ante el Santísimo en el sagrario.",
+     "Ante el ambón.",
+     "Ante la sede del sacerdote."
+    ],
+    "correcta": 0,
+    "explicacion": "La genuflexión es un gesto de adoración ante el Santísimo; ante el altar se hace inclinación profunda."
+   },
+   {
+    "pregunta": "En la preparación del altar, ¿qué se presenta al sacerdote con las vinajeras?",
+    "opciones": [
+     "Primero el agua y luego el vino.",
+     "Primero el vino y luego el agua.",
+     "Solo el agua."
+    ],
+    "correcta": 1,
+    "explicacion": "Se ofrece primero el vino y luego el agua, que el sacerdote mezcla en el cáliz."
+   },
+   {
+    "pregunta": "Si se cae una hostia consagrada, ¿qué debe hacer el servidor?",
+    "opciones": [
+     "Recogerla rápido y guardarla en el bolsillo.",
+     "No tocarla ni pisarla y avisar con discreción al sacerdote o al ministro.",
+     "Seguir como si nada."
+    ],
+    "correcta": 1,
+    "explicacion": "El sacerdote o el ministro saben cómo actuar en ese caso."
+   },
+   {
+    "pregunta": "¿Qué celebración es la más importante del año litúrgico?",
+    "opciones": [
+     "La Navidad.",
+     "La Vigilia Pascual.",
+     "El Domingo de Ramos."
+    ],
+    "correcta": 1,
+    "explicacion": "La Vigilia Pascual celebra la Resurrección del Señor y es la madre de todas las vigilias."
+   },
+   {
+    "pregunta": "¿Qué regla de cuidado vale siempre en la sacristía y en las actividades?",
+    "opciones": [
+     "Los servidores pueden quedarse solos con cualquier adulto de la parroquia.",
+     "Siempre hay más de un adulto y ningún servidor queda solo con un adulto.",
+     "Lo que pasa en la sacristía se guarda en secreto."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una regla básica de prevención. Si algo te incomoda, cuéntalo a tus padres o a otro adulto de confianza."
+   }
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "curso": "musica-liturgica",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Servir con la música",
+   "semanas": "",
+   "intro": "La música no es un adorno de la misa: es parte de la oración. Esta formación ayuda a coros, cantores y músicos a elegir bien, ensayar mejor y, sobre todo, a lograr que toda la comunidad cante. No necesitas saber leer partituras para hacerla.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Cantar la misa, no cantar en la misa",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Elegir los cantos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Ensayar y animar a la asamblea",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "El coro como comunidad",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Música y animación litúrgica",
+     "tiempo": "8 preguntas"
+    }
+   ]
+  }
+ ]
+}
