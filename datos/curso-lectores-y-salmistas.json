@@ -2,7 +2,7 @@
   "id": "lectores-y-salmistas",
   "titulo": "Lectores y salmistas",
   "subtitulo": "Proclamar la Palabra en la liturgia",
-  "descripcion": "Para quienes leen en misa o quieren aprender: el sentido de la Palabra en la liturgia, cómo preparar una lectura, el uso de la voz y el micrófono, el salmo responsorial y la oración universal. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para quienes leen en misa o quieren aprender: el sentido de la Palabra en la liturgia, cómo preparar una lectura, el uso de la voz y el micrófono, el salmo responsorial y la oración universal. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 13 años",
   "categoria": "Liturgia",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "La Palabra en la liturgia",
+    "Preparación de la lectura",
+    "Voz y micrófono",
+    "El salmo responsorial"
+  ],
+  "competencias": [
+    "Preparar y proclamar una lectura con claridad.",
+    "Cantar o recitar el salmo responsorial.",
+    "Redactar y leer la oración universal."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Cuando se lee la Escritura, Dios habla",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Preparar la lectura",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Voz, cuerpo y micrófono",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "El salmo y la oración universal",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La vida del lector",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

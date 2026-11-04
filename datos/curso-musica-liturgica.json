@@ -2,7 +2,7 @@
   "id": "musica-liturgica",
   "titulo": "Música y animación litúrgica",
   "subtitulo": "Cantar la misa, no cantar en la misa",
-  "descripcion": "Para quienes cantan, tocan un instrumento o animan el canto en las celebraciones: el sentido de la música en la liturgia, cómo elegir los cantos de cada momento, cómo ensayar y animar a la asamblea, y la vida del coro como comunidad. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para quienes cantan, tocan un instrumento o animan el canto en las celebraciones: el sentido de la música en la liturgia, cómo elegir los cantos de cada momento, cómo ensayar y animar a la asamblea, y la vida del coro como comunidad. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 13 años",
   "categoria": "Liturgia",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "La música en la liturgia",
+    "Elección de cantos",
+    "Tiempos litúrgicos",
+    "Animación de la asamblea"
+  ],
+  "competencias": [
+    "Elegir cantos adecuados para cada momento y tiempo litúrgico.",
+    "Preparar ensayos y animar el canto de la asamblea.",
+    "Vivir el coro como comunidad de servicio."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Cantar la misa, no cantar en la misa",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Elegir los cantos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cantar los tiempos y las fiestas",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Ensayar y animar a la asamblea",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "El coro como comunidad",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

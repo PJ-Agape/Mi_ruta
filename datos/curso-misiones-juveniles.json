@@ -2,7 +2,7 @@
   "id": "misiones-juveniles",
   "titulo": "Misiones juveniles",
   "subtitulo": "Preparar, vivir y continuar la misión",
-  "descripcion": "Para grupos que preparan misiones de verano o de invierno: el sentido de la misión, cómo organizarla con responsabilidad, cómo vivir los días en terreno y cómo continuar la misión al volver. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para grupos que preparan misiones de verano o de invierno: el sentido de la misión, cómo organizarla con responsabilidad, cómo vivir los días en terreno y cómo continuar la misión al volver. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 14 años; los menores de edad, con autorización y acompañamiento adulto",
   "categoria": "Misión y servicio",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Sentido de la misión",
+    "Preparación responsable",
+    "Anuncio y vida en terreno",
+    "Evaluación y continuidad"
+  ],
+  "competencias": [
+    "Organizar una misión de verano o invierno.",
+    "Anunciar a Jesús con respeto en visitas y actividades.",
+    "Evaluar la misión y darle continuidad."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Enviados",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Preparar la misión",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Anunciar a Jesús",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "En terreno",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Volver y continuar",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

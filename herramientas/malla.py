@@ -27,6 +27,7 @@ sys.path.insert(0, str(R / "herramientas" / "nuevas"))
 from talleres import TALLERES, EVAL_DJ  # noqa: E402
 from referencias import REFS  # noqa: E402
 import escritura_programa as EP  # noqa: E402
+from fichas import FICHAS  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -317,6 +318,14 @@ def main():
 
 
 def escribir(cid, ficha, mods, evals):
+    f = FICHAS[cid]
+    if "descripcion" in ficha:
+        ficha["descripcion"] = re.sub(r"\s*\d unidades de 90 minutos[^.]*\.", " Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.", ficha["descripcion"]).strip()
+    ficha["ejes"], ficha["competencias"] = f["ejes"], f["competencias"]
+    if ficha["tipo"] == "curso":
+        ficha["contenidos"] = [{"titulo": m["titulo"], "tipo": m["tipo"]} for m in mods]
+    else:
+        ficha["contenidos"] = [{"titulo": c["titulo"], "tipo": "sesion"} for c in mods[0]["clases"]]
     (DATOS / f"curso-{cid}.json").write_text(json.dumps(ficha, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (DATOS / f"indice-{cid}.json").write_text(json.dumps({"curso": cid, "modulos": mods}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (DATOS / f"evaluaciones-{cid}.json").write_text(json.dumps(evals, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

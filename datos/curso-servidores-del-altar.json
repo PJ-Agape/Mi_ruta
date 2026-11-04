@@ -2,7 +2,7 @@
   "id": "servidores-del-altar",
   "titulo": "Servidores del altar",
   "subtitulo": "Formación para monaguillos y acólitos",
-  "descripcion": "Para quienes sirven en el altar o quieren empezar: el sentido del servicio, el templo y los objetos sagrados, la misa paso a paso y las celebraciones especiales. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para quienes sirven en el altar o quieren empezar: el sentido del servicio, el templo y los objetos sagrados, la misa paso a paso y las celebraciones especiales. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 10 años; los menores de 13, junto a un adulto",
   "categoria": "Liturgia",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Vocación de servicio",
+    "El templo y los objetos litúrgicos",
+    "La misa paso a paso",
+    "Celebraciones especiales"
+  ],
+  "competencias": [
+    "Reconocer los objetos y lugares de la celebración.",
+    "Servir en cada momento de la misa.",
+    "Trabajar en equipo con otros servidores."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Servir en el altar: un llamado",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "El templo y los objetos sagrados",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La misa paso a paso",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Un equipo de servidores",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Celebraciones especiales y vida de servidor",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

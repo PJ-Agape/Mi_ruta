@@ -13,5 +13,44 @@
   "orden": 3,
   "elige": 1,
   "horas": 45,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Sentido de la liturgia",
+    "Servicio del altar",
+    "Proclamación de la Palabra",
+    "Música y canto",
+    "Buen trato en el servicio"
+  ],
+  "competencias": [
+    "Comprender la estructura y el sentido de la misa.",
+    "Servir en el altar, proclamar las lecturas o animar el canto con dignidad.",
+    "Preparar con su equipo las celebraciones del año litúrgico.",
+    "Vivir el servicio litúrgico como camino de fe."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Servidores del altar",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Lectores y salmistas",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Música y animación litúrgica",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Buen trato y prevención",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Conocer la Biblia",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Santos jóvenes",
+      "tipo": "optativo"
+    }
+  ]
 }

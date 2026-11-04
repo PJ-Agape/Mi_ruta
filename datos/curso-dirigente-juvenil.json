@@ -13,5 +13,81 @@
   "orden": 1,
   "elige": 2,
   "horas": 108,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Vocación y espiritualidad del dirigente",
+    "Vida de grupo y acompañamiento",
+    "Metodología y animación",
+    "Liturgia y vida sacramental del grupo",
+    "Organización, cuidado y relevo"
+  ],
+  "competencias": [
+    "Discernir y sostener su vocación de servicio con una vida de oración.",
+    "Acoger, escuchar y acompañar a los jóvenes de su grupo.",
+    "Preparar y animar encuentros con metodología participativa.",
+    "Planificar, coordinar y evaluar las actividades del grupo con su equipo.",
+    "Crear ambientes seguros y actuar según los protocolos de buen trato."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Oración y discernimiento vocacional",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Identidad y espiritualidad del agente pastoral",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Acogida y vida de grupo",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Escucha y acompañamiento",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Metodología y animación de grupos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Eucaristía y vida litúrgica del grupo",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Buen trato y prevención",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Coordinar, planificar y administrar",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Conducir el equipo",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Proyectar el grupo: cuidado, relevo y envío",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Dinámicas y juegos",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Primeros auxilios",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Comunicación y redes para la pastoral",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Primeros auxilios psicológicos",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Logística de actividades pastorales",
+      "tipo": "optativo"
+    }
+  ]
 }

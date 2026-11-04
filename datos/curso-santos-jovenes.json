@@ -2,7 +2,7 @@
   "id": "santos-jovenes",
   "titulo": "Santos jóvenes",
   "subtitulo": "La santidad también es para ti",
-  "descripcion": "Jóvenes que vivieron el Evangelio en serio: santos chilenos como Teresa de los Andes, Laura Vicuña y Alberto Hurtado, y testigos de nuestro tiempo como Carlo Acutis, Pier Giorgio Frassati y Chiara Badano. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Jóvenes que vivieron el Evangelio en serio: santos chilenos como Teresa de los Andes, Laura Vicuña y Alberto Hurtado, y testigos de nuestro tiempo como Carlo Acutis, Pier Giorgio Frassati y Chiara Badano. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 13 años",
   "categoria": "Fe",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Llamado a la santidad",
+    "Santos de Chile",
+    "Testigos de nuestro tiempo",
+    "El propio camino"
+  ],
+  "competencias": [
+    "Presentar la vida de santos jóvenes como modelos cercanos.",
+    "Relacionar sus testimonios con la vida de los jóvenes de hoy.",
+    "Proponer un camino personal de santidad."
+  ],
+  "contenidos": [
+    {
+      "titulo": "La santidad es para ti",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Santos de Chile",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Santos de la era digital y de la montaña",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Santos de nuestra tierra y de la vida cotidiana",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Testigos hasta el final y tu propio camino",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

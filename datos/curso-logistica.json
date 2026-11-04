@@ -2,7 +2,7 @@
   "id": "logistica",
   "titulo": "Logística de actividades pastorales",
   "subtitulo": "Comidas, insumos, materiales, lugares y presupuesto",
-  "descripcion": "Herramientas para organizar la logística de jornadas, retiros, campamentos y misiones: planificación, alimentación, materiales e inventario, lugares y traslados, y presupuesto con rendición de cuentas. 5 unidades de 90 minutos, un taller de cierre y una evaluación final.",
+  "descripcion": "Herramientas para organizar la logística de jornadas, retiros, campamentos y misiones: planificación, alimentación, materiales e inventario, lugares y traslados, y presupuesto con rendición de cuentas. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 15 años",
   "categoria": "Herramientas",
   "nuevo": true,
@@ -10,5 +10,43 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Planificación logística",
+    "Alimentación",
+    "Materiales e inventario",
+    "Lugares y traslados",
+    "Presupuesto y rendición"
+  ],
+  "competencias": [
+    "Planificar la logística de jornadas, retiros y campamentos.",
+    "Calcular menús, cantidades e insumos.",
+    "Gestionar presupuesto, compras y rendición de cuentas."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Planificar la logística",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Alimentación: menús, cantidades y manipulación segura",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Materiales e insumos: inventario, bodega y reposición",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Presupuesto, compras y rendición de cuentas",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

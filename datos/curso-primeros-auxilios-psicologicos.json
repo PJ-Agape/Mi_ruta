@@ -2,7 +2,7 @@
   "id": "primeros-auxilios-psicologicos",
   "titulo": "Primeros auxilios psicológicos",
   "subtitulo": "Acompañar a alguien en un momento de crisis",
-  "descripcion": "Herramientas básicas para acompañar a alguien que vive un momento emocional difícil: qué es una crisis, el protocolo ABCD de primera ayuda psicológica, cómo actuar ante la angustia, el duelo y el riesgo de suicidio, y cómo cuidarse uno mismo. No reemplaza la atención profesional. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Herramientas básicas para acompañar a alguien que vive un momento emocional difícil: qué es una crisis, el protocolo ABCD de primera ayuda psicológica, cómo actuar ante la angustia, el duelo y el riesgo de suicidio, y cómo cuidarse uno mismo. No reemplaza la atención profesional. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 16 años",
   "categoria": "Cuidado",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Qué es una crisis",
+    "Protocolo ABCD",
+    "Situaciones difíciles",
+    "Cuidado del que cuida"
+  ],
+  "competencias": [
+    "Brindar primera ayuda psicológica con el protocolo ABCD.",
+    "Reconocer cuándo derivar a un profesional.",
+    "Cuidarse y cuidar al equipo después de una crisis."
+  ],
+  "contenidos": [
+    {
+      "titulo": "¿Qué son los primeros auxilios psicológicos?",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "El protocolo ABCD",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Situaciones difíciles",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cuando todo el grupo vive una crisis",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cuidar al que cuida",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

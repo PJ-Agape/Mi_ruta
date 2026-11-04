@@ -2,7 +2,7 @@
   "id": "sacramentos",
   "titulo": "Sacramentos e iniciación cristiana",
   "subtitulo": "Bautismo, Confirmación, Eucaristía y Reconciliación para quienes acompañan",
-  "descripcion": "Qué es un sacramento y cómo se vive el camino de iniciación cristiana: el Bautismo, la Confirmación, la Eucaristía y la primera comunión, y la Reconciliación, con criterios para preparar a niños, jóvenes y familias. 5 unidades de 90 minutos, un taller de cierre y una evaluación final.",
+  "descripcion": "Qué es un sacramento y cómo se vive el camino de iniciación cristiana: el Bautismo, la Confirmación, la Eucaristía y la primera comunión, y la Reconciliación, con criterios para preparar a niños, jóvenes y familias. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 15 años; pensado para catequistas y agentes de pastoral",
   "categoria": "Fe",
   "nuevo": true,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Qué es un sacramento",
+    "Bautismo y Confirmación",
+    "Eucaristía y primera comunión",
+    "Reconciliación e iniciación cristiana"
+  ],
+  "competencias": [
+    "Explicar el sentido y los signos de cada sacramento de iniciación.",
+    "Acompañar a familias y catequizandos en la preparación sacramental.",
+    "Integrar la vida sacramental en la catequesis."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Signos de la gracia: qué es un sacramento",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "El Bautismo",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La Confirmación",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La Eucaristía y la primera comunión",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La Reconciliación y el camino de iniciación cristiana",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

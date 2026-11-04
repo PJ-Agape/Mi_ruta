@@ -2,7 +2,7 @@
   "id": "conocer-la-biblia",
   "titulo": "Conocer la Biblia",
   "subtitulo": "La Palabra de Dios en tus manos",
-  "descripcion": "Para perderle el miedo a la Biblia: cómo está organizada, cómo buscar una cita, qué significa que sea Palabra de Dios, cómo interpretarla bien y cómo hacerla parte de la vida. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para perderle el miedo a la Biblia: cómo está organizada, cómo buscar una cita, qué significa que sea Palabra de Dios, cómo interpretarla bien y cómo hacerla parte de la vida. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 13 años",
   "categoria": "Fe",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Organización de la Biblia",
+    "Palabra de Dios en palabras humanas",
+    "Géneros y contexto",
+    "La Biblia en la vida y en el grupo"
+  ],
+  "competencias": [
+    "Buscar y citar textos bíblicos.",
+    "Distinguir géneros literarios y leer en contexto.",
+    "Animar una lectura orante en grupo."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Una biblioteca con una sola historia",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Palabra de Dios en palabras humanas",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Leer bien: géneros y contexto",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La Biblia en la vida",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Compartir la Palabra en grupo",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "buen-trato-y-prevencion",
   "titulo": "Buen trato y prevención",
   "subtitulo": "Ambientes sanos y seguros en la pastoral",
-  "descripcion": "Para todos los que sirven en la pastoral: qué significa una cultura del buen trato, cómo construir ambientes seguros, cómo responder si alguien revela una situación de abuso, y cómo cuidarnos entre todos. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para todos los que sirven en la pastoral: qué significa una cultura del buen trato, cómo construir ambientes seguros, cómo responder si alguien revela una situación de abuso, y cómo cuidarnos entre todos. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 14 años; recomendada para todos los que sirven con niños y jóvenes",
   "categoria": "Cuidado",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Cultura del buen trato",
+    "Ambientes seguros",
+    "Escucha y actuación ante una revelación",
+    "Reparación y cuidado mutuo"
+  ],
+  "competencias": [
+    "Aplicar normas de ambientes seguros en actividades pastorales.",
+    "Saber cómo actuar y a quién informar ante una revelación.",
+    "Promover una cultura de cuidado en el grupo."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Una cultura del buen trato",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Ambientes seguros",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Escuchar y actuar",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Reparar y acompañar",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cuidarnos entre todos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

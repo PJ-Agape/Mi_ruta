@@ -2,7 +2,7 @@
   "id": "ecologia-integral",
   "titulo": "Ecología integral",
   "subtitulo": "Cuidar la casa común con Laudato si'",
-  "descripcion": "Para jóvenes que quieren cuidar la creación desde la fe: la mirada cristiana sobre la naturaleza, la relación entre la crisis ambiental y la pobreza, la conversión ecológica y un proyecto concreto para el grupo. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para jóvenes que quieren cuidar la creación desde la fe: la mirada cristiana sobre la naturaleza, la relación entre la crisis ambiental y la pobreza, la conversión ecológica y un proyecto concreto para el grupo. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 13 años",
   "categoria": "Misión y servicio",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "La creación como don",
+    "Crisis ambiental y pobreza",
+    "Hábitos cotidianos",
+    "Conversión ecológica"
+  ],
+  "competencias": [
+    "Explicar la ecología integral según *Laudato si'*.",
+    "Proponer cambios de hábitos en el grupo.",
+    "Diseñar un proyecto por la casa común."
+  ],
+  "contenidos": [
+    {
+      "titulo": "La creación, un regalo",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Todo está conectado",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Ecología de la vida cotidiana",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Conversión ecológica",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Un proyecto por la casa común",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

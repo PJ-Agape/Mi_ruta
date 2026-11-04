@@ -14,5 +14,56 @@
   "elige": 0,
   "horas": 270,
   "recursos": {},
-  "aviso": "Material en revisión. Los contenidos de este diplomado están siendo revisados. Si encuentras un error o algo que deba precisarse, avísanos."
+  "aviso": "Material en revisión. Los contenidos de este diplomado están siendo revisados. Si encuentras un error o algo que deba precisarse, avísanos.",
+  "ejes": [
+    "Introducción al Antiguo y al Nuevo Testamento",
+    "Pentateuco, Profetas y Sapienciales",
+    "Evangelios, Hechos y San Pablo",
+    "Escritos joánicos, Hebreos y Apocalipsis",
+    "Interpretación de la Biblia en la Iglesia"
+  ],
+  "competencias": [
+    "Situar cada libro bíblico en su contexto histórico y literario.",
+    "Interpretar un texto según los criterios de *Dei Verbum* y de la Pontificia Comisión Bíblica.",
+    "Realizar el análisis exegético de una perícopa por escrito.",
+    "Usar la Biblia con fundamento en la catequesis, la predicación y los grupos bíblicos."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Sagrada Escritura I: Introducción al Antiguo Testamento",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura II: Introducción al Nuevo Testamento",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura III: Exégesis N.T. I: Evangelios Sinópticos y Hechos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura IV: Exégesis A.T. I: Pentateuco",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura V: Exégesis A.T. II: Profetas",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura VI: Exégesis N.T. II: San Pablo",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura VII: Exégesis A.T. III: Sapienciales",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura VIII: Exégesis N.T. III: San Juan",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sagrada Escritura IX: Exégesis N.T. IV: Hebreos y Apocalipsis",
+      "tipo": "obligatorio"
+    }
+  ]
 }

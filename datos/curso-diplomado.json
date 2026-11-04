@@ -13,5 +13,69 @@
   "orden": 2,
   "elige": 1,
   "horas": 225,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Liderazgo personal y autoridad",
+    "Equipos, delegación y acompañamiento",
+    "Comunicación y conflictos",
+    "Planificación y proyectos",
+    "Proyecto integrador"
+  ],
+  "competencias": [
+    "Ejercer un liderazgo de servicio basado en la confianza y el ejemplo.",
+    "Formar equipos, delegar y acompañar el crecimiento de otros dirigentes.",
+    "Comunicar con claridad y mediar en conflictos.",
+    "Diseñar, presupuestar y evaluar proyectos pastorales.",
+    "Llevar a cabo un proyecto real en su comunidad con asesoría."
+  ],
+  "contenidos": [
+    {
+      "titulo": "I · Fundamentos del liderazgo personal",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "II · Autoridad, decisiones y gestión del grupo",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "III · Formación de equipos y delegación",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "IV · Gestión del tiempo, autocuidado y legado",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "V · Comunicación y mediación de conflictos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "VI · Planificación y gestión de proyectos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "VII · Acompañamiento y desarrollo de personas",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "VIII · Proyecto integrador",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Primeros auxilios psicológicos",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Comunicación y redes para la pastoral",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Voluntariado y doctrina social",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Logística de actividades pastorales",
+      "tipo": "optativo"
+    }
+  ]
 }

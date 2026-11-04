@@ -436,3 +436,31 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 @media (max-width: 600px) { .tiles { grid-template-columns: repeat(2, 1fr); } .tile { min-height: 120px; } }
 .portada-inicio .firma { justify-content: center; text-align: center; margin-left: auto; margin-right: auto; }
 .aviso.revision { border-left: 3px solid var(--acento); border-radius: 0 8px 8px 0; margin: .8rem 0 0; }
+
+/* Ficha de una formación (al tocar una tarjeta de la portada) */
+.ficha-dialogo { border: 0; padding: 0; border-radius: 18px; width: min(640px, calc(100vw - 2rem)); max-height: calc(100vh - 2rem); background: var(--papel); color: var(--tinta); box-shadow: 0 20px 60px rgba(11, 37, 102, .25); overflow: hidden; display: flex; flex-direction: column; }
+.ficha-dialogo:not([open]) { display: none; }
+.ficha-dialogo::backdrop { background: rgba(11, 37, 102, .45); }
+.ficha-cuerpo { position: relative; overflow-y: auto; padding: 1.4rem 1.4rem 1rem; }
+.ficha-cabecera { display: flex; gap: .8rem; align-items: center; padding-right: 2rem; }
+.ficha-cabecera h2 { margin: 0; font-family: var(--serif); font-size: 1.35rem; line-height: 1.2; }
+.ficha-tipo { margin: 0 0 .15rem; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--acento); }
+.ficha-cerrar { position: absolute; top: .8rem; right: .9rem; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--linea); background: var(--papel); color: var(--tinta); font-size: 1.4rem; line-height: 1; cursor: pointer; }
+.ficha-cerrar:hover { border-color: var(--acento); color: var(--acento); }
+.ficha-dialogo h3 { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-suave); margin: 1.2rem 0 .5rem; }
+.ficha-ejes { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.ficha-ejes li { background: var(--primario-claro); color: var(--primario); border-radius: 999px; padding: .3rem .75rem; font-size: .85rem; font-weight: 600; }
+.ficha-competencias { margin: 0; padding-left: 1.2rem; }
+.ficha-competencias li { margin: .25rem 0; }
+.ficha-competencias li::marker { color: var(--acento); }
+.ficha-indice { margin: 0; padding-left: 1.4rem; columns: 2 240px; column-gap: 1.6rem; }
+.ficha-indice li { margin: .2rem 0; break-inside: avoid; font-size: .93rem; }
+.ficha-optativos { font-size: .9rem; color: var(--tinta-suave); margin: .6rem 0 0; }
+.ficha-acciones { display: flex; gap: .6rem; justify-content: flex-end; padding: .9rem 1.4rem 1.1rem; border-top: 1px solid var(--linea); background: var(--papel); }
+@media (max-width: 600px) {
+  .ficha-dialogo { width: 100vw; max-width: 100vw; max-height: 88vh; margin: auto 0 0; border-radius: 18px 18px 0 0; }
+  .ficha-acciones { justify-content: stretch; }
+  .ficha-acciones > * { flex: 1; text-align: center; }
+}
+.ficha-dialogo .etiquetas { margin: .9rem 0 0; }
+.ficha-dialogo .etiquetas li { background: var(--fondo); color: var(--tinta); border: 1px solid var(--linea); }

@@ -2,7 +2,7 @@
   "id": "voluntariado-y-doctrina-social",
   "titulo": "Voluntariado y doctrina social",
   "subtitulo": "La fe que se hace servicio y justicia",
-  "descripcion": "Para grupos que quieren servir a los más necesitados con sentido y con criterio: la caridad en el Evangelio, los principios de la doctrina social de la Iglesia, cómo hacer un voluntariado que respete la dignidad, y cómo diseñar un proyecto solidario. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para grupos que quieren servir a los más necesitados con sentido y con criterio: la caridad en el Evangelio, los principios de la doctrina social de la Iglesia, cómo hacer un voluntariado que respete la dignidad, y cómo diseñar un proyecto solidario. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 14 años",
   "categoria": "Misión y servicio",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Fe y caridad",
+    "Principios de la doctrina social",
+    "Servir con criterio",
+    "Proyecto solidario"
+  ],
+  "competencias": [
+    "Aplicar los principios de la doctrina social al servicio.",
+    "Servir con dignidad y respeto a las personas.",
+    "Diseñar un proyecto solidario."
+  ],
+  "contenidos": [
+    {
+      "titulo": "La fe que se hace caridad",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Los principios de la doctrina social",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Servir bien",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Dónde y cómo servir",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Un proyecto solidario",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

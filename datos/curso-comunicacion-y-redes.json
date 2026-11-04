@@ -2,7 +2,7 @@
   "id": "comunicacion-y-redes",
   "titulo": "Comunicación y redes para la pastoral",
   "subtitulo": "Comunicar con sentido, belleza y cuidado",
-  "descripcion": "Para quienes manejan las redes, los grupos de mensajería o los afiches de su grupo: para qué comunica una comunidad cristiana, cómo crear buenos contenidos, cómo cuidar a las personas en el mundo digital y cómo armar un plan de comunicación. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para quienes manejan las redes, los grupos de mensajería o los afiches de su grupo: para qué comunica una comunidad cristiana, cómo crear buenos contenidos, cómo cuidar a las personas en el mundo digital y cómo armar un plan de comunicación. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 14 años",
   "categoria": "Herramientas",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Comunicar con sentido",
+    "Creación de contenidos",
+    "Cuidado en lo digital",
+    "Plan de comunicación"
+  ],
+  "competencias": [
+    "Crear contenidos claros para redes y afiches.",
+    "Cuidar la imagen y los datos de las personas en lo digital.",
+    "Elaborar un plan de comunicación para el grupo."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Comunicar con sentido",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Crear buenos contenidos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cuidar a las personas en lo digital",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Contar un evento",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Un plan de comunicación",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

@@ -13,5 +13,80 @@
   "orden": 7,
   "elige": 2,
   "horas": 108,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Identidad del agente pastoral",
+    "Contenidos de la fe: Biblia, Credo y sacramentos",
+    "Pedagogía de la catequesis",
+    "Acompañamiento y animación de grupos",
+    "Organización y cuidado"
+  ],
+  "competencias": [
+    "Explicar con sencillez y fidelidad los contenidos de la fe.",
+    "Preparar y animar encuentros de catequesis según la edad.",
+    "Acompañar a catequizandos y familias en el camino de iniciación cristiana.",
+    "Coordinarse con la comunidad y cuidar ambientes seguros."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Identidad y espiritualidad del agente pastoral",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Conocer la Biblia",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "El Credo: lo que creemos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Sacramentos e iniciación cristiana",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Ayudante de catequesis",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Metodología y animación de grupos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Escucha y acompañamiento",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Eucaristía y vida litúrgica del grupo",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Buen trato y prevención",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Coordinar, planificar y administrar",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Santos jóvenes",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Dinámicas y juegos",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Comunicación y redes para la pastoral",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Primeros auxilios psicológicos",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Logística de actividades pastorales",
+      "tipo": "optativo"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "id": "ayudante-de-catequesis",
   "titulo": "Ayudante de catequesis",
   "subtitulo": "Acompañar a quienes se preparan para los sacramentos",
-  "descripcion": "Para jóvenes que colaboran con catequistas de primera comunión o confirmación: qué es la catequesis, cómo son los niños y adolescentes que acompañamos, cómo preparar y animar un encuentro, y cómo cuidar a todos. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para jóvenes que colaboran con catequistas de primera comunión o confirmación: qué es la catequesis, cómo son los niños y adolescentes que acompañamos, cómo preparar y animar un encuentro, y cómo cuidar a todos. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 14 años",
   "categoria": "Misión y servicio",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Qué es la catequesis",
+    "Etapas de niños y adolescentes",
+    "Preparar y animar encuentros",
+    "Familias y comunidad"
+  ],
+  "competencias": [
+    "Colaborar con el catequista en la preparación de encuentros.",
+    "Adaptar actividades a la edad de los catequizandos.",
+    "Cuidar a los niños con criterios de buen trato."
+  ],
+  "contenidos": [
+    {
+      "titulo": "¿Qué es la catequesis?",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Conocer a quienes acompañamos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Preparar y animar un encuentro",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Las familias y la comunidad",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cuidar y crecer como ayudante",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

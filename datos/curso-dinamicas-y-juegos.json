@@ -2,7 +2,7 @@
   "id": "dinamicas-y-juegos",
   "titulo": "Dinámicas y juegos",
   "subtitulo": "Jugar para encontrarse, aprender y crecer",
-  "descripcion": "Para quienes animan encuentros, retiros, campamentos y misiones: para qué sirve el juego en la pastoral, cómo diseñar y conducir una dinámica, un banco de dinámicas probadas y cómo organizar grandes juegos seguros e inclusivos. 5 unidades de 90 minutos y una evaluación final.",
+  "descripcion": "Para quienes animan encuentros, retiros, campamentos y misiones: para qué sirve el juego en la pastoral, cómo diseñar y conducir una dinámica, un banco de dinámicas probadas y cómo organizar grandes juegos seguros e inclusivos. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 13 años",
   "categoria": "Herramientas",
   "nuevo": false,
@@ -10,5 +10,42 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "El juego en la pastoral",
+    "Diseño de dinámicas",
+    "Banco de dinámicas",
+    "Grandes juegos y seguridad"
+  ],
+  "competencias": [
+    "Diseñar y conducir una dinámica con objetivo claro.",
+    "Animar una jornada completa.",
+    "Adaptar juegos para que sean seguros e inclusivos."
+  ],
+  "contenidos": [
+    {
+      "titulo": "¿Para qué jugar?",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Diseñar y conducir una dinámica",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Banco de dinámicas",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Animar una jornada completa",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Grandes juegos, seguridad e inclusión",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

@@ -285,6 +285,8 @@
         if (c.tipo === "curso") return (c.horas ? c.horas + " h · " : "") + (c.modulos_n || c.modulos.length) + " módulos";
         return "6 sesiones · 9 h";
       }
+      FICHAS_INICIO = {};
+      lista.forEach(function (c) { FICHAS_INICIO[c.id] = c; });
       function tile(c) {
         var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
         var p = progreso(c);
@@ -336,7 +338,55 @@
     });
   }
 
+  var FICHAS_INICIO = {};
+
+  function enfasis(t) { return esc(t).replace(/\*([^*]+)\*/g, "<em>$1</em>"); }
+
+  function abrirFicha(c, origen) {
+    var viejo = document.getElementById("ficha-dialogo");
+    if (viejo) viejo.remove();
+    var tipo = c.tipo === "curso" ? (c.nivel === "diplomado" ? "Diplomado" : "Curso") : "Módulo";
+    var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
+    var cont = c.contenidos || [];
+    var obl = cont.filter(function (x) { return x.tipo !== "optativo"; });
+    var opt = cont.filter(function (x) { return x.tipo === "optativo"; });
+    var indice = c.tipo === "curso"
+      ? '<ol class="ficha-indice">' + obl.map(function (x) { return "<li>" + esc(x.titulo) + "</li>"; }).join("") + "</ol>" +
+        (opt.length ? '<p class="ficha-optativos"><b>Optativos' + (c.elige ? " (eliges " + c.elige + ")" : "") + ":</b> " + opt.map(function (x) { return esc(x.titulo); }).join(" · ") + "</p>" : "")
+      : '<ol class="ficha-indice">' + cont.map(function (x) { return "<li>" + esc(x.titulo) + "</li>"; }).join("") + "</ol>";
+    var d = document.createElement("dialog");
+    d.id = "ficha-dialogo";
+    d.className = "ficha-dialogo";
+    d.setAttribute("aria-labelledby", "ficha-titulo");
+    d.innerHTML = '<div class="ficha-cuerpo">' +
+      '<button class="ficha-cerrar" type="button" aria-label="Cerrar">&times;</button>' +
+      '<div class="ficha-cabecera"><span class="tile-icono">' + icono(ic) + '</span><div><p class="ficha-tipo">' + tipo + (c.categoria && c.tipo !== "curso" ? " · " + esc(c.categoria) : "") + '</p><h2 id="ficha-titulo">' + esc(c.titulo) + "</h2></div></div>" +
+      '<ul class="etiquetas">' + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
+      "<p>" + esc(c.descripcion || "") + "</p>" +
+      (c.ejes && c.ejes.length ? '<h3>Ejes temáticos</h3><ul class="ficha-ejes">' + c.ejes.map(function (x) { return "<li>" + enfasis(x) + "</li>"; }).join("") + "</ul>" : "") +
+      (c.competencias && c.competencias.length ? '<h3>Competencias que aporta</h3><ul class="ficha-competencias">' + c.competencias.map(function (x) { return "<li>" + enfasis(x) + "</li>"; }).join("") + "</ul>" : "") +
+      (cont.length ? "<h3>" + (c.tipo === "curso" ? "Módulos" : "Sesiones") + "</h3>" + indice : "") +
+      '</div><div class="ficha-acciones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Ver la formación</a><button class="boton" type="button" data-cerrar>Cerrar</button></div>';
+    document.body.appendChild(d);
+    function cerrar() { d.close(); }
+    d.querySelector(".ficha-cerrar").addEventListener("click", cerrar);
+    d.querySelector("[data-cerrar]").addEventListener("click", cerrar);
+    d.querySelector(".ficha-acciones a").addEventListener("click", cerrar);
+    d.addEventListener("click", function (ev) { if (ev.target === d) cerrar(); });
+    d.addEventListener("close", function () { d.remove(); if (origen && document.body.contains(origen)) origen.focus(); });
+    if (d.showModal) d.showModal(); else location.hash = "#/curso/" + c.id;
+  }
+
   function activarInicio() {
+    app.querySelectorAll("#oferta .tile").forEach(function (t) {
+      t.addEventListener("click", function (ev) {
+        var id = t.getAttribute("href").replace("#/curso/", "");
+        var c = FICHAS_INICIO[id];
+        if (!c || !window.HTMLDialogElement) return;
+        ev.preventDefault();
+        abrirFicha(c, t);
+      });
+    });
     var pestanas = app.querySelectorAll("[data-ver]");
     var buscar = document.getElementById("buscar");
     var filtroVer = "todo";

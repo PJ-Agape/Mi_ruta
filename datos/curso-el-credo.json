@@ -2,7 +2,7 @@
   "id": "el-credo",
   "titulo": "El Credo: lo que creemos",
   "subtitulo": "Las verdades de la fe para quienes acompañan a otros",
-  "descripcion": "Un recorrido por el Credo para conocer y explicar con sencillez lo que creemos: la fe como respuesta, Dios Padre creador, Jesucristo, el Espíritu Santo y la Iglesia, y la esperanza en la vida eterna. 5 unidades de 90 minutos, un taller de cierre y una evaluación final.",
+  "descripcion": "Un recorrido por el Credo para conocer y explicar con sencillez lo que creemos: la fe como respuesta, Dios Padre creador, Jesucristo, el Espíritu Santo y la Iglesia, y la esperanza en la vida eterna. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 15 años; pensado para catequistas y agentes de pastoral",
   "categoria": "Fe",
   "nuevo": true,
@@ -10,5 +10,43 @@
   "modalidad": "En línea, a tu ritmo",
   "tipo": "complementaria",
   "horas": 9,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "La fe como respuesta",
+    "Dios Padre creador",
+    "Jesucristo",
+    "El Espíritu Santo y la Iglesia",
+    "La esperanza cristiana"
+  ],
+  "competencias": [
+    "Explicar los artículos del Credo con lenguaje sencillo.",
+    "Fundamentar la fe en la Escritura y el Catecismo.",
+    "Responder preguntas frecuentes sobre la fe."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Creer: la fe como respuesta",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Dios Padre, creador",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Jesucristo, verdadero Dios y verdadero hombre",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "El Espíritu Santo y la Iglesia",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "La vida eterna y la esperanza cristiana",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
 }

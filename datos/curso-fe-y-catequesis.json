@@ -13,5 +13,43 @@
   "orden": 4,
   "elige": 1,
   "horas": 45,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "La Biblia",
+    "Modelos de santidad",
+    "Catequesis de niños y jóvenes",
+    "Animación y comunicación"
+  ],
+  "competencias": [
+    "Manejar la Biblia y leerla con sentido.",
+    "Presentar la fe con testimonios de vida cercanos.",
+    "Apoyar al catequista en la preparación y animación de encuentros.",
+    "Cuidar a niños y adolescentes con criterios de buen trato."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Conocer la Biblia",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Santos jóvenes",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Ayudante de catequesis",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Buen trato y prevención",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Dinámicas y juegos",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Comunicación y redes para la pastoral",
+      "tipo": "optativo"
+    }
+  ]
 }

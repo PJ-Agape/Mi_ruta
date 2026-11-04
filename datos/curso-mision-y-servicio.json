@@ -13,5 +13,48 @@
   "orden": 5,
   "elige": 1,
   "horas": 54,
-  "recursos": {}
+  "recursos": {},
+  "ejes": [
+    "Caridad y doctrina social",
+    "Cuidado de la casa común",
+    "Misión juvenil",
+    "Organización y logística",
+    "Seguridad y cuidado"
+  ],
+  "competencias": [
+    "Fundamentar el servicio en el Evangelio y la doctrina social de la Iglesia.",
+    "Diseñar y llevar a cabo proyectos solidarios o ecológicos.",
+    "Preparar, vivir y evaluar una misión juvenil.",
+    "Organizar la logística de una actividad con seguridad."
+  ],
+  "contenidos": [
+    {
+      "titulo": "Voluntariado y doctrina social",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Ecología integral",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Misiones juveniles",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Logística de actividades pastorales",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Buen trato y prevención",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Primeros auxilios",
+      "tipo": "optativo"
+    },
+    {
+      "titulo": "Dinámicas y juegos",
+      "tipo": "optativo"
+    }
+  ]
 }
