@@ -268,12 +268,14 @@
 
       if (Nube.habilitada && e.status === "pendiente") {
         html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión. Mientras tanto, explora la oferta y solicita la inscripción en lo que te interese.</p><div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
-      } else if (Nube.habilitada && e.activo && !e.esRelator) {
-        var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0; });
+      } else if (Nube.habilitada && e.activo) {
+        // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
+        var cursados = almacen.leer("cursados", []);
+        var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && cursados.indexOf(c.id) >= 0 && progreso(c).hechas > 0); });
         html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
           (mios.length ? mios.map(function (c) {
             return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(progreso(c)) + "</a>";
-          }).join("") : '<p class="seccion-bajada">Todavía no tienes cursos habilitados. Elige uno abajo y solicita la inscripción.</p>') + "</section>";
+          }).join("") : '<p class="seccion-bajada">' + (e.esRelator ? "Todavía no comienzas ninguna formación. Como " + (e.esAdmin ? "administrador" : "relator") + " puedes entrar a cualquiera: tu avance quedará aquí." : "Todavía no tienes cursos habilitados. Elige uno abajo y solicita la inscripción.") + "</p>") + "</section>";
       }
 
       var cursosL = lista.filter(function (c) { return c.tipo === "curso" && c.nivel !== "diplomado"; });
@@ -513,6 +515,8 @@
   }
 
   function vistaClase(cursoId, claseId) {
+    var cursados = almacen.leer("cursados", []);
+    if (cursados.indexOf(cursoId) < 0) almacen.guardar("cursados", cursados.concat([cursoId]));
     return cargarCurso(cursoId).then(function (c) {
       var i = -1;
       c.clases.forEach(function (x, k) { if (x.id === claseId) i = k; });
@@ -819,6 +823,11 @@
 
   var ESTADOS = { pendiente: "En revisión", activo: "Activa", pausado: "En pausa" };
   var ROLES = { participante: "Participante", relator: "Relator", admin: "Administrador" };
+  // Cada perfil contiene a los anteriores: administrador incluye relator, y relator incluye participante.
+  var ROLES_INCLUYE = {
+    relator: "el de participante: cursas las formaciones, guardas tu avance y recibes constancias.",
+    admin: "los de relator y participante: gestionas cuentas y constancias, usas la vista relator y también cursas las formaciones con tu propio avance y constancias.",
+  };
 
   function vistaPerfil() {
     var e = cuentaActual();
@@ -828,6 +837,7 @@
     var c = e.cuenta;
     var html = migas("Mi cuenta") + '<section class="tarjeta"><h1>Mi cuenta</h1>' +
       '<p class="estado-cuenta estado-' + esc(c.estado) + '">' + esc(ROLES[c.rol] || c.rol) + " · " + esc(ESTADOS[c.estado] || c.estado) + "</p>" +
+      (e.activo && ROLES_INCLUYE[c.rol] ? '<p class="ficha-nota">Tu perfil incluye ' + ROLES_INCLUYE[c.rol] + "</p>" : "") +
       (c.estado === "pendiente" ? '<p class="aviso">Tu cuenta está en revisión. Un relator o administrador la aprobará y te habilitará los cursos que solicites.</p>' : "") +
       (c.estado === "pausado" ? '<p class="aviso">Tu cuenta está en pausa. Conversa con tu relator o con la coordinación de Mi Ruta.</p>' : "") +
       '<form id="form-perfil" class="formulario"><label>Nombre y apellido<input name="nombre" value="' + esc(c.nombre) + '" required></label>' +
