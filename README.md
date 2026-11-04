@@ -44,6 +44,14 @@ python3 herramientas/dividir.py
 
 El script separa cada módulo en una clase por archivo (`contenido/liderazgo/`) y actualiza el índice. El programa del curso está en `contenido/liderazgo/programa.md`.
 
+Las formaciones para jóvenes (El Arte de Encontrarnos, Coordinar es servir y Camino de Discernimiento y Oración) se generan con:
+
+```
+python3 herramientas/formaciones.py ruta/a/contenido.json
+```
+
+El material ampliado de cada módulo está en `fuentes/formaciones/<curso>/m<N>.json`. Todo el texto pasa por `herramientas/generalizar.py`, que quita las referencias a la comunidad de origen para que los cursos sirvan a cualquier grupo de pastoral juvenil. Si el script se detiene con «Queda una referencia…», agrega la frase a la lista de reemplazos de ese archivo.
+
 ## Ver el sitio en el computador
 
 Como el sitio carga archivos, necesita un servidor local:
@@ -59,5 +67,7 @@ y luego abrir `http://localhost:8000`.
 En el repositorio: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`. El sitio queda en `https://iperezconus84-coder.github.io/estudio_agp/`.
 
 ## Créditos
+
+Las formaciones para jóvenes son una adaptación ampliada de los cursos de la Pastoral Juvenil Ágape (© 2026), publicados con licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es). Esta adaptación se comparte con la misma licencia.
 
 Usa [marked](https://github.com/markedjs/marked) (licencia MIT) para mostrar el contenido.

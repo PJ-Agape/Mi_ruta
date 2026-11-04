@@ -260,7 +260,7 @@
      "id": "m5-eval",
      "tipo": "evaluacion",
      "etiqueta": "Evaluación",
-     "titulo": "Aptitud y discernimiento del dirigente Ágape",
+     "titulo": "Aptitud y discernimiento del dirigente",
      "tiempo": "9 preguntas"
     }
    ]
@@ -270,7 +270,7 @@
    "numero": 6,
    "titulo": "La Eucaristía, corazón de nuestra Pastoral Juvenil",
    "semanas": "",
-   "intro": "Todo lo que vivimos en Ágape nace de la Eucaristía y conduce a ella. En este módulo vas a mirar cómo acompañar a los jóvenes hacia la misa sin juzgarlos, a entender cada parte de la celebración para vivirla y explicarla, a animar la liturgia con alegría y respeto, a proponer la adoración y a llevar a la vida lo que celebramos. Porque en esta materia nunca será suficiente.",
+   "intro": "Todo lo que vivimos en la pastoral juvenil nace de la Eucaristía y conduce a ella. En este módulo vas a mirar cómo acompañar a los jóvenes hacia la misa sin juzgarlos, a entender cada parte de la celebración para vivirla y explicarla, a animar la liturgia con alegría y respeto, a proponer la adoración y a llevar a la vida lo que celebramos. Porque en esta materia nunca será suficiente.",
    "clases": [
     {
      "id": "m6-u01",

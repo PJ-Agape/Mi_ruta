@@ -1,10 +1,11 @@
-"""Convierte las formaciones de agAPPe al formato del aula, con el material ampliado.
+"""Convierte formaciones de origen al formato del aula, con el material ampliado.
 
 Uso (desde la raíz del repositorio):
-    python3 herramientas/agape.py ruta/a/contenido.json
+    python3 herramientas/formaciones.py ruta/a/contenido.json
 
-Lee el contenido original de agAPPe (data/contenido.json) y, para cada curso
-transformado, los archivos de ampliación en fuentes/agape/<curso>/m<N>.json.
+Lee el contenido original (contenido.json) y, para cada curso transformado,
+los archivos de ampliación en fuentes/formaciones/<curso>/m<N>.json.
+Todo el texto pasa por generalizar.py, para que sirva a cualquier grupo.
 Genera:
   - contenido/<curso>/<id>.md            una unidad por archivo
   - datos/indice-<curso>.json            módulos, unidades y evaluaciones
@@ -15,11 +16,14 @@ import pathlib
 import re
 import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from generalizar import generalizar  # noqa: E402
+
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-FUENTES = RAIZ / "fuentes" / "agape"
+FUENTES = RAIZ / "fuentes" / "formaciones"
 
 CURSOS = {
-    # id en agAPPe -> id en el aula
+    # id de origen -> id en el aula
     "curso-dirigentes-agape": "arte-de-encontrarnos",
     "formacion-coordinadores": "coordinar-es-servir",
     "discernimiento-espiritual": "discernimiento-y-oracion",
@@ -27,7 +31,7 @@ CURSOS = {
 
 
 def md(texto):
-    """Pasa el HTML simple de agAPPe a markdown."""
+    """Pasa el HTML simple de origen a markdown."""
     t = texto or ""
     t = re.sub(r"<strong>(.*?)</strong>", r"**\1**", t, flags=re.S)
     t = re.sub(r"<em>(.*?)</em>", r"*\1*", t, flags=re.S)
@@ -126,7 +130,7 @@ def main():
                     print(f"  falta ampliación de {destino} {u['id']}: se omite")
                     continue
                 uid = "m{}-u{}".format(n, u["id"].split(".")[1].zfill(2))
-                (carpeta / f"{uid}.md").write_text(unidad_md(u, ex), encoding="utf-8")
+                (carpeta / f"{uid}.md").write_text(generalizar(unidad_md(u, ex), f"{destino}/{uid}"), encoding="utf-8")
                 clases.append({"id": uid, "tipo": "unidad", "numero": u["id"], "etiqueta": f"Unidad {u['id']}",
                                "titulo": md(u["title"]), "tiempo": "90 min"})
             preguntas = list((fase.get("quiz") or {}).get("questions", [])) + extra.get("evaluacion", [])
@@ -146,9 +150,9 @@ def main():
                 "semanas": "", "intro": md(extra.get("intro") or fase.get("intro", "")), "clases": clases,
             })
         (RAIZ / "datos" / f"indice-{destino}.json").write_text(
-            json.dumps(indice, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            generalizar(json.dumps(indice, ensure_ascii=False, indent=1), f"índice de {destino}") + "\n", encoding="utf-8")
         (RAIZ / "datos" / f"evaluaciones-{destino}.json").write_text(
-            json.dumps(evaluaciones, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            generalizar(json.dumps(evaluaciones, ensure_ascii=False, indent=1), f"evaluaciones de {destino}") + "\n", encoding="utf-8")
         total = sum(1 for m in indice["modulos"] for c in m["clases"] if c["tipo"] == "unidad")
         print(f"{destino}: {total} unidades, {len(evaluaciones)} evaluaciones")
 

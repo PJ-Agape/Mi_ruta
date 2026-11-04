@@ -18,7 +18,7 @@
     "opciones": [
      "Que cada uno lo plantee al equipo para ver quién gana.",
      "Conversarlo en privado, rezar, escuchar al equipo y, si no hay acuerdo, consultar a los asesores.",
-     "Decide el que lleva más tiempo en Ágape."
+     "Decide el que lleva más tiempo en el grupo."
     ],
     "correcta": 1,
     "explicacion": "Los desacuerdos de la dupla se conversan en privado y se disciernen, con ayuda de los asesores si es necesario."
@@ -112,7 +112,7 @@
    {
     "pregunta": "Una situación personal delicada de un joven, ¿en qué reunión se trata?",
     "opciones": [
-     "En la quincenal, con todo el equipo.",
+     "En la de programación, con todo el equipo.",
      "En la mensual, con los asesores, cuidando la confidencialidad.",
      "En el chat del equipo."
     ],
@@ -159,7 +159,7 @@
     "pregunta": "¿Cuándo conviene revisar el tablero de compromisos?",
     "opciones": [
      "Solo al final del año.",
-     "Al comienzo de cada reunión quincenal, y preguntando antes de cada fecha.",
+     "Al comienzo de cada reunión de equipo, y preguntando antes de cada fecha.",
      "Cuando algo sale mal."
     ],
     "correcta": 1,

@@ -14,7 +14,7 @@
     "explicacion": "Como Jesús en Emaús, el dirigente se acerca primero y camina al ritmo del otro. La confianza se construye antes de pedir participación."
    },
    {
-    "pregunta": "¿Cuál de estas frases describe mejor la identidad del dirigente de Ágape?",
+    "pregunta": "¿Cuál de estas frases describe mejor la identidad del dirigente de pastoral juvenil?",
     "opciones": [
      "Un joven creyente que, desde su bautismo, se hace puente entre los jóvenes y Jesús.",
      "Una autoridad que debe mantener la disciplina del grupo.",
@@ -262,7 +262,7 @@
   "aprobacion": 70,
   "preguntas": [
    {
-    "pregunta": "¿Cuál es el propósito principal del juego en un encuentro de Ágape?",
+    "pregunta": "¿Cuál es el propósito principal del juego en un encuentro juvenil?",
     "opciones": [
      "Pasar el rato cuando sobra tiempo.",
      "Romper el hielo, integrar y generar una experiencia común de la cual aprender y conversar.",
@@ -282,7 +282,7 @@
     "explicacion": "La cooperación educa en la lógica del Reino: lo que se comparte se multiplica y nadie es descartable."
    },
    {
-    "pregunta": "¿Cuál es el orden del método formativo de Ágape?",
+    "pregunta": "¿Cuál es el orden del método formativo que propone el curso?",
     "opciones": [
      "Iluminar, vivir, actuar, conversar.",
      "Charla, juego, oración.",
@@ -312,7 +312,7 @@
     "explicacion": "El centro del encuentro es la experiencia y el diálogo. La Palabra ilumina brevemente lo vivido y conduce a la acción."
    },
    {
-    "pregunta": "¿Cuál de estas actividades NO debería hacerse en un grupo de Ágape?",
+    "pregunta": "¿Cuál de estas actividades NO debería hacerse en un grupo juvenil?",
     "opciones": [
      "Un juego cooperativo en que el grupo cruza un obstáculo junto.",
      "Un castigo en que el equipo perdedor debe hacer algo humillante frente a todos.",
@@ -344,7 +344,7 @@
   ]
  },
  "m5-eval": {
-  "titulo": "Aptitud y discernimiento del dirigente Ágape",
+  "titulo": "Aptitud y discernimiento del dirigente",
   "aprobacion": 70,
   "preguntas": [
    {
@@ -398,7 +398,7 @@
     "explicacion": "Jesús acogió las dudas de Tomás mostrándole sus heridas. Las preguntas sinceras son oportunidades para madurar en la fe."
    },
    {
-    "pregunta": "¿Qué significa, en síntesis, ser dirigente en la Pastoral Juvenil Ágape?",
+    "pregunta": "¿Qué significa, en síntesis, ser dirigente en la pastoral juvenil?",
     "opciones": [
      "Tener un cargo para organizar y dar instrucciones.",
      "Ser el animador que más destaca en las actividades.",
