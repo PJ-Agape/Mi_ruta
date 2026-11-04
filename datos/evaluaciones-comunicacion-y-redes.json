@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Comunicación y redes para la pastoral",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo describe el papa el ambiente digital?",
+    "opciones": [
+     "Como una simple herramienta.",
+     "Como un lugar donde viven los jóvenes, con oportunidades y riesgos.",
+     "Como algo que la Iglesia debe evitar."
+    ],
+    "correcta": 1,
+    "explicacion": "Christus vivit 86-90."
+   },
+   {
+    "pregunta": "¿Cuáles son los tres filtros antes de publicar?",
+    "opciones": [
+     "¿Es largo? ¿Es bonito? ¿Es nuevo?",
+     "¿Es verdad? ¿Es bueno? ¿Es útil?",
+     "¿Tendrá muchos «me gusta»? ¿Es divertido? ¿Es rápido?"
+    ],
+    "correcta": 1,
+    "explicacion": "Si no pasa los tres, mejor no publicarlo."
+   },
+   {
+    "pregunta": "¿Qué va primero en un aviso?",
+    "opciones": [
+     "Una reflexión larga.",
+     "Lo más importante: qué, cuándo y dónde.",
+     "Muchos emojis."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo importante primero, con frases cortas."
+   },
+   {
+    "pregunta": "¿Cuál es un buen principio de diseño?",
+    "opciones": [
+     "Usar muchas tipografías y colores.",
+     "Jerarquía, contraste, pocos colores y espacio en blanco.",
+     "Llenar todo el espacio."
+    ],
+    "correcta": 1,
+    "explicacion": "Menos es más."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "opciones": [
+     "Nada, si son fotos grupales.",
+     "Autorización escrita de sus padres o apoderados.",
+     "Que el menor diga que sí por mensaje."
+    ],
+    "correcta": 1,
+    "explicacion": "Y se respeta a quien no quiere aparecer."
+   },
+   {
+    "pregunta": "¿Qué información de los menores NO se publica?",
+    "opciones": [
+     "El nombre del grupo.",
+     "Nombres completos, etiquetas y ubicación en tiempo real.",
+     "La fecha de la actividad."
+    ],
+    "correcta": 1,
+    "explicacion": "Permitiría identificarlos o ubicarlos."
+   },
+   {
+    "pregunta": "¿Cómo deben ser los grupos de mensajería con menores?",
+    "opciones": [
+     "Sin administradores para que sean más libres.",
+     "Con administradores adultos, normas claras y horarios razonables.",
+     "Con chats privados entre dirigentes y cada joven."
+    ],
+    "correcta": 1,
+    "explicacion": "La comunicación es grupal y transparente."
+   },
+   {
+    "pregunta": "Según Evangelii gaudium, ¿cómo crece la Iglesia?",
+    "opciones": [
+     "Por proselitismo.",
+     "Por atracción, por el testimonio de una comunidad que vive la alegría del Evangelio.",
+     "Por publicidad."
+    ],
+    "correcta": 1,
+    "explicacion": "La mejor comunicación es una vida comunitaria auténtica."
+   }
+  ]
+ }
+}

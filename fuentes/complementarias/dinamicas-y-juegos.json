@@ -1,0 +1,486 @@
+{
+ "id": "dinamicas-y-juegos",
+ "titulo": "Dinámicas y juegos",
+ "subtitulo": "Jugar para encontrarse, aprender y crecer",
+ "categoria": "Herramientas",
+ "publico": "Desde 13 años",
+ "descripcion": "Para quienes animan encuentros, retiros, campamentos y misiones: para qué sirve el juego en la pastoral, cómo diseñar y conducir una dinámica, un banco de dinámicas probadas y cómo organizar grandes juegos seguros e inclusivos. 4 unidades de 90 minutos y una evaluación final.",
+ "modulo": "Animar con el juego",
+ "intro": "El juego es uno de los lenguajes más naturales de los jóvenes. Bien usado, rompe el hielo, une al grupo, enseña y abre el corazón. Mal usado, puede aburrir, excluir o incluso humillar. Esta formación te ayuda a elegir, diseñar y conducir dinámicas con sentido.",
+ "unidades": [
+  {
+   "title": "¿Para qué jugar?",
+   "objective": "Comprender el valor del juego en la pastoral juvenil y distinguir los distintos tipos de dinámicas según su propósito.",
+   "intro": "En un encuentro juvenil, el juego no es un relleno para pasar el tiempo. Es una herramienta pastoral: ayuda a que las personas se conozcan, confíen, se rían, piensen y vivan experiencias que después se pueden compartir. En esta unidad vas a descubrir para qué sirve jugar y qué tipos de dinámicas existen.",
+   "sections": [
+    {
+     "title": "El valor del juego",
+     "body": "- **Rompe barreras:** ayuda a que los tímidos se integren y a que todos se relajen.\n- **Crea comunidad:** jugar juntos genera recuerdos y confianza.\n- **Enseña haciendo:** muchas veces se aprende más viviendo una experiencia que escuchando una charla.\n- **Revela:** en el juego aparecen actitudes, talentos y dificultades que después se pueden conversar.\n- **Alegra:** la alegría también es un signo del Evangelio."
+    },
+    {
+     "title": "Tipos de dinámicas",
+     "body": "- **De presentación:** para aprender nombres y conocerse.\n- **Rompehielos y energizantes:** para despertar, reír y activar al grupo.\n- **De integración y confianza:** para fortalecer los lazos y el trabajo en equipo.\n- **De reflexión:** para abrir una conversación profunda sobre un tema.\n- **Grandes juegos:** actividades largas para muchos participantes, como búsquedas del tesoro o juegos de pistas.\n\nCada tipo sirve para un momento distinto del encuentro."
+    },
+    {
+     "title": "Siempre con un propósito",
+     "body": "Antes de elegir una dinámica, pregúntate: **¿para qué?** ¿Para que se conozcan? ¿Para despertar al grupo después de almuerzo? ¿Para introducir el tema del día?\n\nUna dinámica bien elegida conecta con el **objetivo del encuentro**. Por ejemplo, un juego de confianza puede abrir un encuentro sobre la fe como confianza en Dios."
+    },
+    {
+     "title": "Lo que no se hace",
+     "body": "Algunos juegos dañan, aunque se presenten como «tradición» o «diversión»:\n\n- Juegos que **humillan o ridiculizan** a alguien.\n- **Bautizos o ritos de iniciación** para los nuevos.\n- Juegos con **comida desperdiciada**, mezclas asquerosas o sustancias.\n- Juegos con **contacto físico forzado** o connotación sexual.\n- Juegos que ponen en **riesgo físico** sin control.\n- Juegos que **excluyen** a quienes tienen alguna dificultad.\n\nEn un grupo cristiano, nadie debe pasarlo mal para que otros se rían."
+    }
+   ],
+   "bible": {
+    "ref": "Zacarías 8,4-5 · Las plazas llenas de niños que juegan",
+    "comment": "El profeta Zacarías anuncia la Jerusalén restaurada: ancianos sentados en las plazas y las calles llenas de niños y niñas que juegan. El juego es un signo de la paz y la alegría que Dios quiere para su pueblo."
+   },
+   "church": [
+    {
+     "source": "Evangelii gaudium 24",
+     "text": "La comunidad evangelizadora se involucra, acompaña, fructifica y festeja: la alegría y la fiesta son parte de la misión.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    },
+    {
+     "source": "Christus vivit 226-228",
+     "text": "El papa valora la música, el arte y el deporte como espacios en los que los jóvenes se encuentran, crecen y pueden abrirse a Dios.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué juego o dinámica recuerdas con más cariño? ¿Por qué?",
+    "¿Has participado en algún juego que te hizo sentir mal? ¿Qué pasó?",
+    "¿Para qué tipo de dinámica tienes más talento?",
+    "¿Qué te dice la imagen de las plazas llenas de niños jugando?"
+   ],
+   "activity": "Hagan una lista de las dinámicas que conoce el grupo y clasifíquenlas por tipo. Revisen si alguna de ellas debería dejar de usarse según los criterios de esta unidad.",
+   "prayer": "Señor de la alegría, que sueñas con plazas llenas de niños que juegan: bendice nuestros juegos y dinámicas. Que sirvan para encontrarnos, para reír juntos y para abrir el corazón a Ti. Que nunca nadie se sienta excluido o humillado en nuestro grupo. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, capítulo 7",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "La pastoral de los jóvenes."
+    }
+   ],
+   "comenzar": "Juega con el grupo, durante cinco minutos, cualquier juego sencillo que todos conozcan. Después pregunten: ¿qué cambió en el ambiente antes y después de jugar?",
+   "logros": [
+    "Explicar el valor pastoral del juego.",
+    "Distinguir los tipos de dinámicas según su propósito.",
+    "Reconocer los juegos que no deben hacerse."
+   ],
+   "profundizar": {
+    "titulo": "El juego también revela",
+    "texto": "Durante un juego aparecen actitudes que normalmente no se ven: quién lidera, quién se queda atrás, quién hace trampa, quién ayuda al que le cuesta, quién se frustra al perder.\n\nUn buen animador **observa** estas actitudes y, cuando corresponde, las usa para la reflexión: «¿Qué pasó cuando el equipo empezó a perder? ¿Se parece a algo que vivimos en el grupo?». Siempre con respeto, sin exponer a nadie."
+   },
+   "caso": {
+    "titulo": "El bautizo de los nuevos",
+    "texto": "En un campamento, los dirigentes mayores proponen hacer el «bautizo» de los nuevos, como se ha hecho siempre: lanzarles harina, huevos y agua mientras les hacen preguntas.",
+    "preguntas": [
+     "¿Por qué este tipo de rito no corresponde en un grupo cristiano?",
+     "¿Qué alternativa propondrías para dar la bienvenida a los nuevos?"
+    ]
+   },
+   "claves": [
+    [
+     "Dinámica",
+     "Actividad estructurada que busca un objetivo con el grupo."
+    ],
+    [
+     "Energizante",
+     "Juego breve para despertar y activar al grupo."
+    ],
+    [
+     "Rito de bienvenida",
+     "Gesto para acoger a los nuevos, que debe ser siempre respetuoso."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Las plazas llenas de niños jugando son signo de paz. ¿Qué espacio tiene la alegría en tu grupo?",
+    "orar": "Agradece a Dios por los momentos de alegría compartida en tu grupo.",
+    "vivir": "Propón un juego nuevo en el próximo encuentro."
+   },
+   "practica": [
+    "Hagan la lista de dinámicas conocidas.",
+    "Clasifíquenlas por tipo.",
+    "Identifiquen las que deberían dejar de usarse.",
+    "Propongan una bienvenida respetuosa para los nuevos."
+   ],
+   "idea": "Jugar con sentido: nadie pasa mal para que otros se rían."
+  },
+  {
+   "title": "Diseñar y conducir una dinámica",
+   "objective": "Aprender a preparar una dinámica completa y a conducirla con claridad, cuidando los tiempos y cerrando con una buena reflexión.",
+   "intro": "Una misma dinámica puede ser un éxito o un desastre según cómo se prepare y se conduzca. Explicar mal, no cuidar el tiempo o saltarse la reflexión final son errores frecuentes. En esta unidad vas a aprender a diseñar y conducir dinámicas como un buen animador.",
+   "sections": [
+    {
+     "title": "La ficha de una dinámica",
+     "body": "Antes de usar una dinámica, conviene tener claro:\n\n- **Nombre.**\n- **Objetivo:** para qué la usamos.\n- **Edad y número** de participantes.\n- **Espacio:** sala, patio, aire libre.\n- **Materiales.**\n- **Tiempo** estimado.\n- **Desarrollo:** los pasos.\n- **Variantes:** cómo adaptarla.\n- **Cierre:** preguntas para la reflexión."
+    },
+    {
+     "title": "Explicar bien",
+     "body": "- **Reúne al grupo** en círculo o donde todos te vean y te escuchen.\n- **Espera silencio** antes de hablar.\n- **Explica en pocas palabras,** paso a paso.\n- **Haz una demostración** con un voluntario.\n- **Pregunta si hay dudas** antes de empezar.\n- **Da una señal clara** para empezar y para terminar: un silbato, una palmada, una palabra."
+    },
+    {
+     "title": "Conducir el juego",
+     "body": "- **Ubícate** donde puedas ver a todos.\n- **Observa** quién participa, quién se queda fuera, si alguien lo está pasando mal.\n- **Anima** sin gritar todo el tiempo.\n- **Cuida las reglas** con justicia y buen humor.\n- **Mide el tiempo:** es mejor terminar cuando el grupo todavía lo está disfrutando que cuando ya se aburrió.\n- **Detén el juego** si hay riesgo o si alguien se lastima."
+    },
+    {
+     "title": "La reflexión final",
+     "body": "Muchas dinámicas pierden su sentido si no se conversan. Un esquema simple con tres preguntas:\n\n1. **¿Qué pasó?** Describir lo vivido.\n2. **¿Cómo se sintieron?** Expresar las emociones.\n3. **¿Qué aprendimos?** Relacionarlo con la vida, el grupo o la fe.\n\nLa reflexión debe ser breve y nunca exponer a nadie. No todos tienen que hablar."
+    }
+   ],
+   "bible": {
+    "ref": "Mateo 13,1-9.34 · Jesús enseña con parábolas",
+    "comment": "Jesús enseñaba con historias tomadas de la vida diaria: un sembrador, una semilla, una red, una moneda perdida. Usaba imágenes y experiencias para que la gente entendiera. Las dinámicas son, de algún modo, parábolas vividas: experiencias que abren a una verdad más profunda."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 237",
+     "text": "El estilo de Emaús propone partir de la vida de los jóvenes, escucharlos y acompañarlos a descubrir el sentido de lo que viven.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Evangelii gaudium 171",
+     "text": "Acompañar requiere el arte de escuchar, de modo que los participantes puedan expresar lo que viven.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Qué error has visto (o cometido) al explicar un juego?",
+    "¿Por qué crees que muchas veces se salta la reflexión final?",
+    "¿Cómo te das cuenta de que un juego ya se alargó demasiado?",
+    "¿Qué parábola de Jesús podría convertirse en una dinámica?"
+   ],
+   "activity": "En parejas, preparen la ficha completa de una dinámica y condúzcanla con el grupo. Al final, el grupo les da retroalimentación sobre la explicación, la conducción y la reflexión.",
+   "prayer": "Señor Jesús, que enseñabas con parábolas de la vida diaria: danos creatividad para animar, claridad para explicar y sensibilidad para escuchar. Que nuestras dinámicas sean semillas que caigan en tierra buena. Amén.",
+   "resources": [
+    {
+     "title": "Evangelii gaudium (Francisco, 2013)",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "note": "Números 169-173 sobre el acompañamiento."
+    }
+   ],
+   "comenzar": "Uno del grupo explica un juego sencillo sin preparación y los demás intentan jugarlo. Después conversen: ¿se entendió? ¿qué faltó en la explicación?",
+   "logros": [
+    "Preparar la ficha completa de una dinámica.",
+    "Explicar y conducir un juego con claridad.",
+    "Guiar una reflexión final con tres preguntas."
+   ],
+   "profundizar": {
+    "titulo": "Adaptar sobre la marcha",
+    "texto": "Ninguna dinámica sale exactamente como se planificó. Un buen animador sabe adaptar:\n\n- **Si hay menos personas,** reduce los equipos o el espacio.\n- **Si el grupo está muy cansado,** cambia a una dinámica más tranquila.\n- **Si está muy disperso,** usa un energizante breve antes.\n- **Si alguien no puede participar** por alguna razón, dale un rol: árbitro, cronometrista, observador.\n- **Si la reflexión no prende,** cambia la pregunta o pasa a conversar en parejas."
+   },
+   "caso": {
+    "titulo": "La dinámica sin cierre",
+    "texto": "En un encuentro sobre la confianza, el animador hace un juego muy entretenido de guías con ojos vendados. Cuando termina, dice: «Bueno, ahora pasemos al tema», y empieza una charla que no menciona el juego.",
+    "preguntas": [
+     "¿Qué se perdió?",
+     "¿Qué preguntas habrías hecho para unir el juego con el tema?"
+    ]
+   },
+   "claves": [
+    [
+     "Ficha de dinámica",
+     "Descripción ordenada de una dinámica: objetivo, materiales, tiempo, pasos y cierre."
+    ],
+    [
+     "Animador",
+     "Quien explica, conduce y cierra una dinámica."
+    ],
+    [
+     "Reflexión final",
+     "Conversación que ayuda a descubrir el sentido de lo vivido en el juego."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús enseñaba con imágenes de la vida diaria. ¿Qué experiencia de tu vida te ha enseñado algo de Dios?",
+    "orar": "Pide a Jesús creatividad para animar a tu grupo.",
+    "vivir": "Prepara la ficha de una dinámica para el próximo encuentro."
+   },
+   "practica": [
+    "Preparen la ficha en parejas.",
+    "Conduzcan la dinámica.",
+    "Guíen la reflexión con las tres preguntas.",
+    "Reciban retroalimentación del grupo."
+   ],
+   "idea": "Una dinámica sin reflexión es solo un juego; con reflexión, es una experiencia."
+  },
+  {
+   "title": "Banco de dinámicas",
+   "objective": "Conocer y practicar un conjunto de dinámicas probadas para distintos momentos y objetivos de un encuentro.",
+   "intro": "Todo animador necesita un repertorio de dinámicas a mano. En esta unidad encontrarás un banco de dinámicas sencillas, clasificadas por tipo, que funcionan con grupos juveniles. Úsalas como base y adáptalas a tu realidad.",
+   "sections": [
+    {
+     "title": "Presentación",
+     "body": "- **Nombre y gesto:** en círculo, cada uno dice su nombre con un gesto. El grupo repite el nombre y el gesto de todos los anteriores antes de decir el propio. Sirve para aprender nombres rápido.\n- **Telaraña:** en círculo, alguien sostiene la punta de un ovillo de lana, dice su nombre y algo de sí, y lanza el ovillo a otro sin soltar la hebra. Al final se forma una red. Reflexión: todos estamos conectados; si uno suelta, la red se debilita.\n- **Dos verdades y una mentira:** cada uno dice tres cosas de sí mismo; el grupo adivina cuál es falsa.\n- **Bingo humano:** cada participante recibe una tarjeta con casillas como «alguien que toca un instrumento» o «alguien que nació en otra región». Debe encontrar a quien cumpla cada una."
+    },
+    {
+     "title": "Energizantes",
+     "body": "- **Evolución:** todos empiezan como «huevos» agachados. Se juega piedra, papel o tijera con otro del mismo nivel: quien gana sube a «pollito», luego a «dinosaurio» y finalmente a «humano». Muy activo y divertido.\n- **Zip, zap, boing:** en círculo, se pasa una energía con palabras y gestos; quien se equivoca sale o hace una prenda simpática.\n- **El director de orquesta:** uno sale de la sala; el grupo elige a un «director» que hace movimientos que todos imitan. Quien vuelve debe adivinar quién dirige.\n- **Carrera de mímica:** equipos que deben adivinar palabras o personajes bíblicos representados con mímica."
+    },
+    {
+     "title": "Integración y confianza",
+     "body": "- **Cruzar el río:** el equipo debe cruzar un espacio usando solo algunas hojas de papel como «piedras», sin tocar el suelo. Exige cooperación y planificación.\n- **El lazarillo:** en parejas, uno con los ojos vendados y el otro lo guía solo con la voz por un recorrido seguro, sin obstáculos peligrosos. Después cambian. Reflexión: confiar y ser confiable.\n- **Construcción en silencio:** equipos que deben construir una torre con papel y cinta adhesiva sin hablar.\n- **Nudo humano:** en círculo, cada uno toma las manos de dos personas no contiguas y el grupo debe desenredarse sin soltarse. Solo con grupos que ya se conocen y con la opción de participar o no."
+    },
+    {
+     "title": "Reflexión",
+     "body": "- **Línea de vida:** cada uno dibuja una línea con momentos importantes de su vida y marca dónde sintió a Dios cerca. Se comparte en parejas, solo lo que cada uno quiera.\n- **El mural:** sobre un papel grande, el grupo responde con palabras o dibujos una pregunta como «¿Qué esperamos de este año?».\n- **Carta a mí mismo:** cada uno escribe una carta para leer al final del año. Se guarda cerrada.\n- **Ponerse en la escena:** se lee un pasaje del Evangelio y cada uno elige un personaje y comparte qué sentiría en su lugar.\n- **Semáforo:** frente a afirmaciones sobre un tema, cada uno se ubica en verde (de acuerdo), amarillo (dudoso) o rojo (en desacuerdo) y se conversa."
+    }
+   ],
+   "bible": {
+    "ref": "1 Corintios 12,12-21 · Un cuerpo, muchos miembros",
+    "comment": "Pablo compara la comunidad con un cuerpo: el ojo no puede decirle a la mano «no te necesito». Cada miembro es necesario. Muchas dinámicas de integración muestran justamente esto: el grupo solo logra el objetivo cuando todos participan y se cuidan."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 203",
+     "text": "Los mismos jóvenes son agentes de la pastoral juvenil, con su creatividad y sus propuestas.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Evangelii gaudium 24",
+     "text": "La comunidad evangelizadora sabe festejar cada pequeño paso.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Qué dinámica de este banco te gustaría probar primero?",
+    "¿Cuál adaptarías para tu grupo? ¿Cómo?",
+    "¿Qué dinámica conoces que podría sumarse al banco?",
+    "¿Qué te dice la imagen del cuerpo con muchos miembros?"
+   ],
+   "activity": "Prueben con el grupo una dinámica de cada tipo: presentación, energizante, integración y reflexión. Después evalúen cuál funcionó mejor y por qué.",
+   "prayer": "Señor, que nos hiciste un solo cuerpo con muchos miembros: ayúdanos a descubrir que cada uno es necesario. Que nuestras dinámicas nos unan, nos alegren y nos ayuden a encontrarte en los demás. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, capítulo 7",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "La pastoral de los jóvenes."
+    }
+   ],
+   "comenzar": "Escribe en tu cuaderno las tres dinámicas que más usas o que mejor conoces. ¿De qué tipo son? ¿Te faltan dinámicas de algún tipo?",
+   "logros": [
+    "Conocer dinámicas de presentación, energizantes, de integración y de reflexión.",
+    "Elegir la dinámica adecuada para cada momento.",
+    "Adaptar las dinámicas al propio grupo."
+   ],
+   "profundizar": {
+    "titulo": "Armar el propio banco",
+    "texto": "Cada grupo puede armar su propio banco de dinámicas:\n\n- Una **carpeta o documento compartido** con fichas.\n- Clasificadas por **tipo, edad y tiempo**.\n- Con **notas** de cómo funcionaron.\n- **Actualizado** cada vez que se prueba una nueva.\n\nAsí, cuando cambian los dirigentes, el conocimiento no se pierde."
+   },
+   "caso": {
+    "titulo": "Siempre la misma",
+    "texto": "En el grupo de Agustín, todos los encuentros empiezan con el mismo juego desde hace dos años. Los jóvenes ya lo hacen con desgano.",
+    "preguntas": [
+     "¿Qué le recomendarías a Agustín?",
+     "¿Cómo podría involucrar a los jóvenes en elegir y proponer dinámicas?"
+    ]
+   },
+   "claves": [
+    [
+     "Banco de dinámicas",
+     "Colección organizada de dinámicas con sus fichas."
+    ],
+    [
+     "Integración",
+     "Proceso por el cual las personas se sienten parte de un grupo."
+    ],
+    [
+     "Confianza",
+     "Seguridad en que el otro me cuidará; se construye con experiencias compartidas."
+    ]
+   ],
+   "lectio": {
+    "meditar": "El ojo no puede decirle a la mano «no te necesito». ¿Hay alguien en tu grupo a quien sientes que «no necesitas»?",
+    "orar": "Agradece a Dios por cada miembro de tu grupo y su aporte.",
+    "vivir": "Usa una dinámica nueva en el próximo encuentro."
+   },
+   "practica": [
+    "Prueben una dinámica de cada tipo.",
+    "Evalúen cuál funcionó mejor.",
+    "Inicien el banco de dinámicas del grupo.",
+    "Inviten a los jóvenes a proponer nuevas dinámicas."
+   ],
+   "idea": "Cada miembro es necesario para que el grupo funcione."
+  },
+  {
+   "title": "Grandes juegos, seguridad e inclusión",
+   "objective": "Organizar grandes juegos para muchos participantes con un objetivo pastoral, cuidando la seguridad y la inclusión de todos.",
+   "intro": "Los grandes juegos, como una búsqueda del tesoro, un juego de pistas o unas olimpiadas, son momentos que los jóvenes recuerdan por años. Pero requieren mucha preparación y cuidados especiales. En esta unidad vas a aprender a organizarlos bien.",
+   "sections": [
+    {
+     "title": "Tipos de grandes juegos",
+     "body": "- **Búsqueda del tesoro:** equipos que siguen pistas para encontrar algo escondido.\n- **Juego de postas o estaciones:** los equipos recorren distintas estaciones con desafíos; cada estación tiene un animador.\n- **Juego temático:** una historia que envuelve todo el juego, por ejemplo, el viaje de Pablo, el éxodo del pueblo de Israel o la vida de un santo.\n- **Olimpiadas:** competencias deportivas y recreativas entre equipos.\n\nTodos pueden tener un **objetivo pastoral**: trabajar en equipo, conocer una historia bíblica, descubrir valores."
+    },
+    {
+     "title": "Preparación",
+     "body": "- **Objetivo y temática** definidos.\n- **Recorrido del lugar** antes del juego, para detectar peligros.\n- **Equipos equilibrados** en edad y habilidades.\n- **Animadores por estación,** con instrucciones escritas.\n- **Reglas claras** y conocidas por todos.\n- **Tiempo total** y tiempo por estación.\n- **Materiales** listos y probados.\n- **Plan B** si llueve o falta gente."
+    },
+    {
+     "title": "Seguridad",
+     "body": "- **Límites del espacio** claros: nadie sale del perímetro acordado.\n- **Adultos responsables** distribuidos en el lugar.\n- **Equipos que nunca se separan:** nadie anda solo.\n- **Nada de carreras** en lugares con desniveles, vidrios u obstáculos.\n- **Juegos nocturnos:** solo en espacios conocidos y cerrados, con linternas, con adultos en puntos fijos y una señal clara para terminar. Ningún participante queda solo.\n- **Hidratación** y protección solar.\n- **Botiquín** y encargado de salud presentes.\n- **Conteo de participantes** al inicio y al final."
+    },
+    {
+     "title": "Inclusión",
+     "body": "- **Desafíos variados:** no solo físicos; también de ingenio, creatividad, conocimiento o arte, para que todos puedan destacar.\n- **Adaptaciones** para participantes con discapacidad o con limitaciones físicas.\n- **Roles para todos:** quien no puede correr puede ser estratega, lector de pistas o capitán.\n- **Competencia sana:** se celebra a todos los equipos, no solo al ganador.\n- **Nadie humillado** por perder o por equivocarse."
+    }
+   ],
+   "bible": {
+    "ref": "1 Corintios 9,24-27 · Corran para ganar",
+    "comment": "Pablo usa la imagen de los atletas que corren en el estadio para hablar de la vida cristiana: corren con disciplina y esfuerzo para ganar un premio. Pero el premio cristiano no es una medalla que se marchita, sino una corona que no se pierde. El juego puede enseñar esfuerzo y disciplina, sin olvidar lo que realmente importa."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 227-228",
+     "text": "El papa valora el deporte y las actividades recreativas como espacios donde los jóvenes crecen, se encuentran y pueden abrirse a la fe.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile, 2020)",
+     "text": "Las actividades con menores, incluidas las recreativas y nocturnas, deben organizarse con adultos responsables y criterios de cuidado.",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/"
+    }
+   ],
+   "questions": [
+    "¿Qué gran juego recuerdas con más cariño? ¿Qué lo hizo especial?",
+    "¿Qué riesgo has visto en juegos grandes que no se previno?",
+    "¿Cómo lograrías que un joven con dificultades físicas se sienta protagonista?",
+    "¿Qué te dice la imagen del premio que no se marchita?"
+   ],
+   "activity": "Diseñen como grupo un gran juego temático para el próximo encuentro o campamento: objetivo, historia, estaciones, reglas, seguridad e inclusión. Preséntenlo a los asesores antes de realizarlo.",
+   "prayer": "Señor, que nos invitas a correr hacia una meta que no se marchita: bendice nuestros juegos. Que en ellos aprendamos a trabajar juntos, a esforzarnos, a ganar con humildad y a perder con alegría. Cuida a cada participante y haz que nadie se quede atrás. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, capítulo 7",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "Números 227-228 sobre el deporte y la recreación."
+    }
+   ],
+   "comenzar": "Piensa en el último juego grande en que participaste. ¿Qué salió bien? ¿Qué salió mal? ¿Alguien quedó fuera o lo pasó mal?",
+   "logros": [
+    "Conocer distintos tipos de grandes juegos.",
+    "Preparar un gran juego con objetivo pastoral.",
+    "Cuidar la seguridad y la inclusión de todos los participantes."
+   ],
+   "profundizar": {
+    "titulo": "Ejemplo: el viaje de Pablo",
+    "texto": "Un gran juego temático de 90 minutos:\n\n- **Historia:** los equipos son grupos de misioneros que acompañan a Pablo en sus viajes.\n- **Estaciones:** Antioquía (desafío de trabajo en equipo), Filipos (canto en la cárcel: inventar una canción), Atenas (adivinanzas sobre Dios), Corinto (construir algo juntos), Malta (naufragio: cruzar el río con hojas de papel), Roma (llegada y lectura de una carta de Pablo).\n- **Pistas:** cada estación entrega un fragmento de una cita bíblica; al final, los equipos la arman y la leen.\n- **Cierre:** reflexión sobre la misión y la perseverancia.\n- **Cuidados:** espacio delimitado, animadores en cada estación, botiquín, agua."
+   },
+   "caso": {
+    "titulo": "El juego nocturno",
+    "texto": "En un campamento, los dirigentes organizan un juego nocturno en un bosque que no conocen bien. Dos jóvenes se separan de su equipo y se pierden durante media hora.",
+    "preguntas": [
+     "¿Qué medidas de seguridad faltaron?",
+     "¿Cómo debería organizarse un juego nocturno seguro?"
+    ]
+   },
+   "claves": [
+    [
+     "Gran juego",
+     "Actividad lúdica larga y para muchos participantes, muchas veces con una historia."
+    ],
+    [
+     "Estación",
+     "Lugar del recorrido donde un equipo enfrenta un desafío."
+    ],
+    [
+     "Perímetro",
+     "Límite del espacio de juego que nadie debe sobrepasar."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Corremos por un premio que no se marchita. ¿Qué metas persigues con más esfuerzo? ¿Valen la pena?",
+    "orar": "Pide a Dios que tu grupo aprenda a ganar con humildad y perder con alegría.",
+    "vivir": "Diseña con tu equipo el gran juego del próximo campamento o encuentro."
+   },
+   "practica": [
+    "Definan objetivo e historia.",
+    "Diseñen las estaciones con desafíos variados.",
+    "Revisen seguridad e inclusión.",
+    "Preséntenlo a los asesores."
+   ],
+   "idea": "En un buen juego, nadie se queda atrás."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Cuál es la pregunta clave antes de elegir una dinámica?",
+   "options": [
+    "¿Es la más divertida?",
+    "¿Para qué la usamos?",
+    "¿Es la más nueva?"
+   ],
+   "correct": 1,
+   "feedback": "Cada dinámica debe tener un propósito."
+  },
+  {
+   "q": "¿Cuál de estos juegos NO corresponde en un grupo cristiano?",
+   "options": [
+    "Nombre y gesto.",
+    "Un «bautizo» de los nuevos con harina y huevos.",
+    "Cruzar el río."
+   ],
+   "correct": 1,
+   "feedback": "Nadie debe pasarlo mal para que otros se rían."
+  },
+  {
+   "q": "¿Qué incluye una buena explicación de un juego?",
+   "options": [
+    "Muchas palabras para que no queden dudas.",
+    "Pocas palabras, paso a paso, con una demostración.",
+    "Empezar sin explicar y corregir sobre la marcha."
+   ],
+   "correct": 1,
+   "feedback": "Esperar silencio, explicar breve, demostrar y preguntar dudas."
+  },
+  {
+   "q": "¿Cuáles son las tres preguntas de la reflexión final?",
+   "options": [
+    "¿Quién ganó? ¿Quién perdió? ¿Quién hizo trampa?",
+    "¿Qué pasó? ¿Cómo se sintieron? ¿Qué aprendimos?",
+    "¿Les gustó? ¿Lo repetimos? ¿Cuándo?"
+   ],
+   "correct": 1,
+   "feedback": "Describir, sentir y aprender."
+  },
+  {
+   "q": "¿Cuándo conviene terminar una dinámica?",
+   "options": [
+    "Cuando el grupo ya está aburrido.",
+    "Cuando el grupo todavía la está disfrutando.",
+    "Cuando todos hayan ganado al menos una vez."
+   ],
+   "correct": 1,
+   "feedback": "Así queda un buen recuerdo y energía para lo que sigue."
+  },
+  {
+   "q": "¿Qué dinámica sirve para aprender nombres?",
+   "options": [
+    "Nombre y gesto.",
+    "Cruzar el río.",
+    "Semáforo."
+   ],
+   "correct": 0,
+   "feedback": "Es una dinámica de presentación."
+  },
+  {
+   "q": "¿Cuál es una regla de seguridad en un juego nocturno?",
+   "options": [
+    "Que cada uno busque las pistas solo.",
+    "Espacio conocido y delimitado, linternas, adultos en puntos fijos y nadie solo.",
+    "Jugar en un bosque desconocido para que sea más emocionante."
+   ],
+   "correct": 1,
+   "feedback": "Y contar a los participantes al inicio y al final."
+  },
+  {
+   "q": "¿Cómo se logra que un gran juego sea inclusivo?",
+   "options": [
+    "Haciendo solo desafíos físicos.",
+    "Con desafíos variados, adaptaciones y roles para todos.",
+    "Dejando fuera a quienes no pueden correr."
+   ],
+   "correct": 1,
+   "feedback": "Que todos puedan destacar en algo."
+  }
+ ]
+}

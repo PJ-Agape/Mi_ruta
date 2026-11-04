@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Dinámicas y juegos",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es la pregunta clave antes de elegir una dinámica?",
+    "opciones": [
+     "¿Es la más divertida?",
+     "¿Para qué la usamos?",
+     "¿Es la más nueva?"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada dinámica debe tener un propósito."
+   },
+   {
+    "pregunta": "¿Cuál de estos juegos NO corresponde en un grupo cristiano?",
+    "opciones": [
+     "Nombre y gesto.",
+     "Un «bautizo» de los nuevos con harina y huevos.",
+     "Cruzar el río."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie debe pasarlo mal para que otros se rían."
+   },
+   {
+    "pregunta": "¿Qué incluye una buena explicación de un juego?",
+    "opciones": [
+     "Muchas palabras para que no queden dudas.",
+     "Pocas palabras, paso a paso, con una demostración.",
+     "Empezar sin explicar y corregir sobre la marcha."
+    ],
+    "correcta": 1,
+    "explicacion": "Esperar silencio, explicar breve, demostrar y preguntar dudas."
+   },
+   {
+    "pregunta": "¿Cuáles son las tres preguntas de la reflexión final?",
+    "opciones": [
+     "¿Quién ganó? ¿Quién perdió? ¿Quién hizo trampa?",
+     "¿Qué pasó? ¿Cómo se sintieron? ¿Qué aprendimos?",
+     "¿Les gustó? ¿Lo repetimos? ¿Cuándo?"
+    ],
+    "correcta": 1,
+    "explicacion": "Describir, sentir y aprender."
+   },
+   {
+    "pregunta": "¿Cuándo conviene terminar una dinámica?",
+    "opciones": [
+     "Cuando el grupo ya está aburrido.",
+     "Cuando el grupo todavía la está disfrutando.",
+     "Cuando todos hayan ganado al menos una vez."
+    ],
+    "correcta": 1,
+    "explicacion": "Así queda un buen recuerdo y energía para lo que sigue."
+   },
+   {
+    "pregunta": "¿Qué dinámica sirve para aprender nombres?",
+    "opciones": [
+     "Nombre y gesto.",
+     "Cruzar el río.",
+     "Semáforo."
+    ],
+    "correcta": 0,
+    "explicacion": "Es una dinámica de presentación."
+   },
+   {
+    "pregunta": "¿Cuál es una regla de seguridad en un juego nocturno?",
+    "opciones": [
+     "Que cada uno busque las pistas solo.",
+     "Espacio conocido y delimitado, linternas, adultos en puntos fijos y nadie solo.",
+     "Jugar en un bosque desconocido para que sea más emocionante."
+    ],
+    "correcta": 1,
+    "explicacion": "Y contar a los participantes al inicio y al final."
+   },
+   {
+    "pregunta": "¿Cómo se logra que un gran juego sea inclusivo?",
+    "opciones": [
+     "Haciendo solo desafíos físicos.",
+     "Con desafíos variados, adaptaciones y roles para todos.",
+     "Dejando fuera a quienes no pueden correr."
+    ],
+    "correcta": 1,
+    "explicacion": "Que todos puedan destacar en algo."
+   }
+  ]
+ }
+}

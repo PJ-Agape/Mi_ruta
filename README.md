@@ -52,6 +52,14 @@ python3 herramientas/formaciones.py ruta/a/contenido.json
 
 El material ampliado de cada módulo está en `fuentes/formaciones/<curso>/m<N>.json`. Todo el texto pasa por `herramientas/generalizar.py`, que quita las referencias a la comunidad de origen para que los cursos sirvan a cualquier grupo de pastoral juvenil. Si el script se detiene con «Queda una referencia…», agrega la frase a la lista de reemplazos de ese archivo.
 
+Las formaciones complementarias (Liturgia, Fe, Misión y servicio, Cuidado y Herramientas) se escriben en `fuentes/complementarias/<curso>.json`, con la ficha del curso, sus unidades completas y la evaluación. Para generarlas:
+
+```
+python3 herramientas/complementarias.py
+```
+
+Después, agrega el id del curso a `datos/sitio.json` para que aparezca en la portada.
+
 ## Ver el sitio en el computador
 
 Como el sitio carga archivos, necesita un servidor local:
