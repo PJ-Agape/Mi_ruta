@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Santos jóvenes",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "Según el Concilio Vaticano II, ¿quiénes están llamados a la santidad?",
+    "opciones": [
+     "Solo los sacerdotes y religiosos.",
+     "Todos los fieles, en cualquier estado o condición.",
+     "Solo quienes hacen milagros."
+    ],
+    "correcta": 1,
+    "explicacion": "Lumen gentium 40 enseña el llamado universal a la santidad."
+   },
+   {
+    "pregunta": "¿Qué son los «santos de la puerta de al lado»?",
+    "opciones": [
+     "Santos que vivieron en los conventos.",
+     "Personas cercanas que reflejan la presencia de Dios en la vida cotidiana.",
+     "Imágenes de santos en la entrada de las iglesias."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una expresión de Gaudete et exsultate 7."
+   },
+   {
+    "pregunta": "¿Quién fue la primera santa chilena?",
+    "opciones": [
+     "Laura Vicuña.",
+     "Teresa de los Andes.",
+     "Gabriela Mistral."
+    ],
+    "correcta": 1,
+    "explicacion": "Juan Pablo II la canonizó en 1993."
+   },
+   {
+    "pregunta": "¿Qué obra fundó san Alberto Hurtado en 1944?",
+    "opciones": [
+     "El Hogar de Cristo.",
+     "Un colegio jesuita.",
+     "Una radio católica."
+    ],
+    "correcta": 0,
+    "explicacion": "El Hogar de Cristo acoge a personas en situación de calle."
+   },
+   {
+    "pregunta": "¿Qué decía Carlo Acutis sobre la Eucaristía?",
+    "opciones": [
+     "Que era un rito para los domingos.",
+     "Que era su autopista al cielo.",
+     "Que solo era para adultos."
+    ],
+    "correcta": 1,
+    "explicacion": "Iba a misa diariamente y adoraba al Santísimo."
+   },
+   {
+    "pregunta": "¿Cuál era el lema de Pier Giorgio Frassati?",
+    "opciones": [
+     "«Verso l'alto»: hacia lo alto.",
+     "«Ora et labora».",
+     "«Todo por amor»."
+    ],
+    "correcta": 0,
+    "explicacion": "Lo usaba como montañista y como camino espiritual."
+   },
+   {
+    "pregunta": "¿Qué frase repetía Chiara Badano durante su enfermedad?",
+    "opciones": [
+     "«No es justo».",
+     "«Si lo quieres tú, Jesús, lo quiero yo también».",
+     "«Contento, Señor, contento»."
+    ],
+    "correcta": 1,
+    "explicacion": "«Contento, Señor, contento» era de san Alberto Hurtado."
+   },
+   {
+    "pregunta": "Según esta formación, ¿qué hacer si estás pasando por algo muy difícil?",
+    "opciones": [
+     "Soportarlo en silencio como los santos.",
+     "Rezar y también pedir ayuda a la familia, a un adulto de confianza o a un profesional.",
+     "Esperar a que pase solo."
+    ],
+    "correcta": 1,
+    "explicacion": "La fe y la ayuda humana van juntas."
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Conocer la Biblia",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuántos libros tiene la Biblia católica?",
+    "opciones": [
+     "66",
+     "73",
+     "77"
+    ],
+    "correcta": 1,
+    "explicacion": "46 del Antiguo Testamento y 27 del Nuevo."
+   },
+   {
+    "pregunta": "¿Qué significa la cita Lucas 15,11-32?",
+    "opciones": [
+     "Lucas, versículo 15, capítulos 11 al 32.",
+     "Lucas, capítulo 15, versículos 11 al 32.",
+     "Libro 15 de Lucas, página 11."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero el libro, luego el capítulo y después los versículos."
+   },
+   {
+    "pregunta": "¿Qué enseña la Iglesia sobre los autores de la Biblia?",
+    "opciones": [
+     "Dios la dictó palabra por palabra sin intervención humana.",
+     "Dios es su autor a través de autores humanos inspirados por el Espíritu Santo.",
+     "Es solo una obra humana sobre Dios."
+    ],
+    "correcta": 1,
+    "explicacion": "Dei Verbum 11: Dios y los autores humanos, que escribieron con sus propias capacidades."
+   },
+   {
+    "pregunta": "¿Quién es el centro de toda la Escritura?",
+    "opciones": [
+     "Moisés.",
+     "Jesucristo.",
+     "El pueblo de Israel."
+    ],
+    "correcta": 1,
+    "explicacion": "Todo el Antiguo Testamento prepara su venida y el Nuevo lo anuncia."
+   },
+   {
+    "pregunta": "¿Qué relación hay entre la Escritura y la Tradición?",
+    "opciones": [
+     "Están unidas y brotan de la misma fuente.",
+     "La Tradición es más importante que la Escritura.",
+     "No tienen relación."
+    ],
+    "correcta": 0,
+    "explicacion": "Dei Verbum 9 enseña que ambas brotan de la misma fuente divina."
+   },
+   {
+    "pregunta": "¿Por qué es importante conocer el género literario de un texto?",
+    "opciones": [
+     "Para saber cuánto demora en leerse.",
+     "Para descubrir lo que el autor quiso decir.",
+     "No es importante."
+    ],
+    "correcta": 1,
+    "explicacion": "Dei Verbum 12 pide atender a los géneros literarios."
+   },
+   {
+    "pregunta": "¿Qué tipo de lenguaje usa el Apocalipsis?",
+    "opciones": [
+     "Un calendario exacto del fin del mundo.",
+     "Un lenguaje simbólico de visiones para sostener la esperanza.",
+     "Un relato histórico literal."
+    ],
+    "correcta": 1,
+    "explicacion": "Es un libro apocalíptico: usa símbolos para animar a los cristianos perseguidos."
+   },
+   {
+    "pregunta": "¿Cuál es una buena forma de empezar a leer la Biblia?",
+    "opciones": [
+     "Leer desde el Génesis hasta el Apocalipsis sin parar.",
+     "Abrir una página al azar cada día.",
+     "Empezar por un Evangelio, poco a poco y cada día."
+    ],
+    "correcta": 2,
+    "explicacion": "Marcos es una excelente puerta de entrada."
+   }
+  ]
+ }
+}
