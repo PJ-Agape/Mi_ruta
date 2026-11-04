@@ -223,7 +223,7 @@ CURSOS = [
   "publico": "Desde 14 años", "elige": 1,
   "obligatorios": ["voluntariado-y-doctrina-social", "ecologia-integral", "misiones-juveniles", "logistica", "buen-trato-y-prevencion"],
   "optativos": ["primeros-auxilios", "dinamicas-y-juegos"]},
- {"id": "diplomado-escritura", "titulo": "Diplomado en Sagrada Escritura", "subtitulo": "Antiguo y Nuevo Testamento para agentes de pastoral",
+ {"id": "diplomado-escritura", "aviso": "Material en revisión. Los contenidos de este diplomado están siendo revisados. Si encuentras un error o algo que deba precisarse, avísanos.", "titulo": "Diplomado en Sagrada Escritura", "subtitulo": "Antiguo y Nuevo Testamento para agentes de pastoral",
   "descripcion": "Nueve módulos para conocer, estudiar y rezar la Biblia: introducciones al Antiguo y al Nuevo Testamento, y exégesis del Pentateuco, los Profetas, los Sapienciales, los Sinópticos y Hechos, San Pablo, San Juan, y Hebreos y Apocalipsis. Cada módulo entrega su propia constancia y al completar los nueve se otorga el certificado del diplomado.",
   "publico": "Desde 17 años; agentes de pastoral, catequistas y animadores bíblicos", "elige": 0,
   "obligatorios": ESCRITURA, "optativos": [],
@@ -300,7 +300,7 @@ def main():
                  "modulos_n": len(c["obligatorios"]) + c["elige"],
                  "duracion": f"{horas_txt(horas_obl + horas_opt)} · {len(c['obligatorios'])} módulos" + (f" obligatorios y {c['elige']} optativo{'s' if c['elige'] > 1 else ''}" if c["elige"] else ""),
                  "modalidad": c.get("modalidad", "En línea, a tu ritmo"), "publico": c["publico"], "tipo": "curso", "orden": orden,
-                 "elige": c["elige"], "horas": horas_obl + horas_opt, "recursos": {}}
+                 "elige": c["elige"], "horas": horas_obl + horas_opt, "recursos": {}, **({"aviso": c["aviso"]} if "aviso" in c else {})}
         escribir(c["id"], ficha, mods, evals)
         lista.append(c["id"])
     for mid in COMPLEMENTARIAS:

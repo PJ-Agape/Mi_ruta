@@ -374,6 +374,7 @@
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
       html += '<section class="portada"><p class="subtitulo">' + (c.tipo === "curso" ? "Curso · " : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
+        (c.aviso ? '<p class="aviso revision">' + esc(c.aviso) + "</p>" : "") +
         (acceso(c) === "libre" ? barraProgreso(p) : "") +
         '<div class="botones">' +
         (siguiente && acceso(c) === "libre" ? '<a class="boton principal" href="#/clase/' + esc(c.id) + "/" + esc(siguiente.id) + '">' + (p.hechas ? "Continuar" : "Comenzar") + "</a>" : "") +

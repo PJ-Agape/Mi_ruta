@@ -13,5 +13,6 @@
   "orden": 6,
   "elige": 0,
   "horas": 270,
-  "recursos": {}
+  "recursos": {},
+  "aviso": "Material en revisión. Los contenidos de este diplomado están siendo revisados. Si encuentras un error o algo que deba precisarse, avísanos."
 }
