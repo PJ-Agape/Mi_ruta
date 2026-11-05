@@ -475,8 +475,9 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .ficha-editor label.boton { cursor: pointer; }
 
 /* Imagen de fondo del encabezado de inicio (la elige un administrador) */
-.portada-inicio.con-fondo { background-image: linear-gradient(180deg, rgba(11, 37, 102, .55), rgba(11, 37, 102, .82)), var(--fondo-inicio); background-size: cover; background-position: center; }
-.portada-inicio.con-fondo .portada-lema { color: #fff; }
+.portada-inicio.con-fondo { background-image: linear-gradient(180deg, rgba(11, 37, 102, .12), rgba(11, 37, 102, .45)), var(--fondo-inicio); background-size: cover; background-position: center; }
+.portada-inicio.con-fondo .firma { text-shadow: 0 1px 3px rgba(0, 0, 0, .6); }
+.portada-inicio.con-fondo .logo-titulo, .portada-inicio.con-fondo .portada-lema { color: #fff; text-shadow: 0 1px 3px rgba(0, 0, 0, .55), 0 0 18px rgba(0, 0, 0, .35); }
 .editar-fondo { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-top: 1.1rem; }
 .editar-fondo .boton { font-size: .82rem; padding: .35rem .8rem; cursor: pointer; }
 .editar-fondo .mensaje { color: #fff; font-size: .85rem; margin: 0; }
