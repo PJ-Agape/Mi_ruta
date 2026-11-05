@@ -12,6 +12,8 @@ rules_version = '2';
 //   - Las imágenes de la portada las ve cualquiera y solo las cambia un administrador.
 //   - El muro de cada formación lo leen y escriben sus inscritos y el equipo.
 //   - Las presentaciones en video las ve su autor y el equipo; solo el equipo las evalúa.
+//   - La agenda de cada formación la ven sus inscritos; la edita el equipo.
+//   - Las cuentas activas ven quién está en línea y pueden escribirse mensajes privados.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -150,6 +152,50 @@ service cloud.firestore {
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['borrado', 'texto'])
           && request.resource.data.borrado == true && request.resource.data.texto == '';
         allow delete: if esAdmin();
+      }
+
+      // Agenda de la formación: la ven sus inscritos y el equipo; la edita el equipo.
+      match /agenda/{id} {
+        allow read: if esEquipo() || inscrito(curso);
+        allow write: if esEquipo()
+          && request.resource.data.keys().hasOnly(['titulo', 'fecha', 'hora', 'tipo', 'detalle', 'borrado', 'por'])
+          && request.resource.data.titulo is string && request.resource.data.titulo.size() > 0 && request.resource.data.titulo.size() <= 140
+          && request.resource.data.fecha is string && request.resource.data.fecha.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+          && request.resource.data.detalle is string && request.resource.data.detalle.size() <= 1000;
+      }
+    }
+
+    // ---------- presencia (quién está en línea) ----------
+    // Cada persona publica su nombre, comunidad, rol, cursos y última conexión; la ven las cuentas activas.
+    match /presencia/{uid} {
+      allow read: if activo();
+      allow write: if activo() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['nombre', 'comunidad', 'rol', 'cursos', 'visto'])
+        && request.resource.data.rol == miCuenta().rol
+        && request.resource.data.cursos == miCuenta().cursos
+        && request.resource.data.nombre == miCuenta().nombre;
+    }
+
+    // ---------- mensajería entre personas ----------
+    // Id: «uidA__uidB» (ordenados). Solo las dos personas leen y escriben.
+    match /conversaciones/{id} {
+      allow get: if activo() && id.matches('.*' + request.auth.uid + '.*');
+      allow list: if activo() && request.auth.uid in resource.data.participantes;
+      allow create: if activo()
+        && request.resource.data.keys().hasOnly(['participantes', 'nombres', 'actualizado', 'leido'])
+        && request.resource.data.participantes.size() == 2
+        && request.auth.uid in request.resource.data.participantes
+        && id == request.resource.data.participantes[0] + '__' + request.resource.data.participantes[1];
+      allow update: if activo() && request.auth.uid in resource.data.participantes
+        && request.resource.data.participantes == resource.data.participantes
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['ultimo', 'actualizado', 'leido']);
+
+      match /mensajes/{msg} {
+        allow read: if activo() && request.auth.uid in get(/databases/$(database)/documents/conversaciones/$(id)).data.participantes;
+        allow create: if activo() && request.auth.uid in get(/databases/$(database)/documents/conversaciones/$(id)).data.participantes
+          && request.resource.data.keys().hasOnly(['uid', 'texto', 'creado'])
+          && request.resource.data.uid == request.auth.uid
+          && request.resource.data.texto is string && request.resource.data.texto.size() > 0 && request.resource.data.texto.size() <= 2000;
       }
     }
 

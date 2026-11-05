@@ -583,3 +583,58 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .rubrica-form .ancho, .rubrica-form .botones, .rubrica-form .mensaje { grid-column: 1 / -1; }
 .nota-calculada { font-weight: 700; align-self: center; }
 #form-video textarea { width: 100%; font: inherit; border: 1px solid var(--linea); border-radius: 10px; padding: .55rem .7rem; }
+
+/* Aula: pestañas de la formación */
+.pestanas-curso { display: flex; gap: .35rem; overflow-x: auto; margin: 1rem 0 .4rem; border-bottom: 2px solid var(--linea); }
+.pestanas-curso a { flex: none; padding: .6rem 1rem; font-weight: 600; color: var(--tinta-suave); text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+.pestanas-curso a:hover { color: var(--tinta); }
+.pestanas-curso a[aria-current="page"] { color: var(--tinta); border-bottom-color: var(--acento); }
+.portada-compacta { padding: 1.1rem 1.4rem; }
+.portada-compacta h1 { margin: .1rem 0 0; font-size: 1.6rem; }
+.muro-pestanas { margin-top: .8rem; }
+.como-debate ol { margin: .3rem 0 .4rem; padding-left: 1.2rem; }
+.recordatorio-debate { margin: 1rem 0 .4rem; padding: .6rem .9rem; border-radius: 12px; background: var(--primario-claro); font-size: .92rem; }
+.recordatorio-debate a { font-weight: 700; }
+
+/* Participantes */
+.personas { list-style: none; padding: 0; margin: .3rem 0 1rem; display: flex; flex-direction: column; gap: .4rem; }
+.persona { display: flex; align-items: center; gap: .7rem; padding: .55rem .8rem; border: 1px solid var(--linea); border-radius: 12px; background: #fff; }
+.persona-datos { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.persona-datos small { color: var(--tinta-suave); font-size: .82rem; }
+.punto { flex: none; width: 11px; height: 11px; border-radius: 50%; background: #c9cdd8; box-shadow: 0 0 0 3px #eef0f5; }
+.punto.on { background: #2fa86b; box-shadow: 0 0 0 3px #dff3e8; }
+
+/* Agenda */
+.agenda { list-style: none; padding: 0; margin: .4rem 0; display: flex; flex-direction: column; gap: .5rem; }
+.fecha { display: flex; gap: .8rem; align-items: flex-start; padding: .6rem .8rem; border: 1px solid var(--linea); border-left: 4px solid var(--primario); border-radius: 12px; background: #fff; }
+.fecha-entrega { border-left-color: var(--acento); }
+.fecha-evaluacion { border-left-color: #b03a2e; }
+.fecha-encuentro { border-left-color: #2fa86b; }
+.fecha-dia { flex: none; width: 3.2rem; text-align: center; font-size: .78rem; text-transform: uppercase; color: var(--tinta-suave); line-height: 1.1; }
+.fecha-dia b { display: block; font-family: var(--serif); font-size: 1.5rem; color: var(--tinta); }
+.fecha-datos { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+.fecha-tipo { font-size: .78rem; font-weight: 700; color: var(--acento); }
+.fecha-datos small { color: var(--tinta-suave); }
+.fecha-acciones { font-size: .82rem; }
+.agenda.pasadas .fecha { opacity: .7; }
+.form-fecha { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .6rem .8rem; }
+.form-fecha label { display: flex; flex-direction: column; gap: .2rem; font-size: .88rem; font-weight: 600; }
+.form-fecha input, .form-fecha select, .form-fecha textarea { font: inherit; font-weight: 400; border: 1px solid var(--linea); border-radius: 8px; padding: .4rem .55rem; }
+.form-fecha .ancho { grid-column: 1 / -1; }
+
+/* Mensajes */
+.insignia { display: inline-grid; place-items: center; min-width: 1.25rem; height: 1.25rem; padding: 0 .3rem; border-radius: 99px; background: var(--acento); color: #fff; font-size: .72rem; font-weight: 700; }
+.conversaciones { list-style: none; padding: 0; margin: .4rem 0 0; display: flex; flex-direction: column; gap: .4rem; }
+.conversaciones a { display: grid; grid-template-columns: 1fr auto; gap: .1rem .8rem; padding: .6rem .8rem; border: 1px solid var(--linea); border-radius: 12px; text-decoration: none; color: var(--tinta); background: #fff; }
+.conversaciones a span { grid-column: 1; color: var(--tinta-suave); font-size: .88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.conversaciones a time { grid-row: 1; grid-column: 2; font-size: .78rem; color: var(--tinta-suave); }
+.conversaciones a.nuevo { border-left: 4px solid var(--acento); }
+.conversaciones a.nuevo span { color: var(--tinta); font-weight: 600; }
+.chat h1 { margin-top: 0; font-size: 1.4rem; }
+.chat-mensajes { display: flex; flex-direction: column; gap: .4rem; max-height: 55vh; overflow-y: auto; padding: .6rem; background: var(--fondo); border-radius: 12px; }
+.burbuja { max-width: 80%; align-self: flex-start; background: #fff; border: 1px solid var(--linea); border-radius: 14px 14px 14px 4px; padding: .45rem .7rem; }
+.burbuja.mia { align-self: flex-end; background: var(--primario); color: #fff; border-color: var(--primario); border-radius: 14px 14px 4px 14px; }
+.burbuja p { margin: 0; }
+.burbuja time { display: block; font-size: .7rem; opacity: .7; margin-top: .15rem; }
+.chat-form { display: flex; gap: .5rem; margin-top: .6rem; align-items: flex-end; }
+.chat-form textarea { flex: 1; font: inherit; border: 1px solid var(--linea); border-radius: 10px; padding: .5rem .7rem; resize: vertical; }

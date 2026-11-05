@@ -454,6 +454,7 @@
           }).join("") : '<p class="seccion-bajada">' + (e.esRelator ? "Todavía no comienzas ninguna formación. Como " + (e.esAdmin ? "administrador" : "relator") + " puedes entrar a cualquiera: tu avance quedará aquí." : "Todavía no tienes cursos habilitados. Elige uno y solicita la inscripción.") + "</p>") + "</section>";
       }
 
+      if (Nube.habilitada && e.activo) html += '<section class="seccion-inicio" id="proximas-fechas"></section>';
       html += '<section class="seccion-inicio" id="areas-inicio"><h2 class="seccion-titulo">Áreas de formación</h2><div class="areas-lista">' +
         areas().map(function (a) {
           var img = TARJETAS && TARJETAS[claveArea(a.id)];
@@ -484,6 +485,7 @@
       pintar(html);
       activarFondos();
       activarFichas("#resultados-inicio .tile");
+      if (Nube.habilitada && e.activo) cargarProximasFechas(Array.from(new Set((e.cuenta.cursos || []).concat(e.esRelator ? almacen.leer("cursados", []) : []))).filter(function (id) { return sitio.cursos.indexOf(id) >= 0; }));
       var buscar = document.getElementById("buscar");
       buscar.addEventListener("input", function () {
         var q = buscar.value.trim().toLowerCase();
@@ -668,7 +670,7 @@
 
       var tipoAcceso = acceso(c);
       if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
-      if (tipoAcceso === "libre") html += '<section class="seccion-inicio muro-curso" id="muro-curso"></section>';
+      html += pestanasCurso(c, "contenido");
       html += bloqueAgappe(c);
       var vistoOpt = false;
       if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Algunos módulos se habilitan al completar otros; lo verás indicado en cada uno.</p>';
@@ -697,7 +699,6 @@
       });
       if (c.credito) html += '<p class="credito">' + esc(c.credito) + "</p>";
       pintar(html, c.titulo);
-      cargarResumenMuro(c);
       activarSolicitudes();
     });
   }
@@ -1043,14 +1044,14 @@
   function vistaMuro(cursoId, seccion, claseId) {
     return Promise.all([cargarCurso(cursoId), Foro.leer(cursoId), Foro.mensajes(cursoId)]).then(function (r) {
       var c = r[0], f = r[1] || {}, msgs = r[2] || [];
-      var base = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a> / Muro</nav>";
       var tipoAcceso = acceso(c);
-      if (tipoAcceso !== "libre") { pintar(base + '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>", "Muro"); activarSolicitudes(); return; }
+      if (tipoAcceso !== "libre") { location.hash = "#/curso/" + c.id; return; }
+      var base = cabeceraAula(c, "muro");
       var yo = yoForo();
       var preguntas = f.preguntas || {};
       seccion = seccion || "bienvenida";
-      var pest = [["bienvenida", "Bienvenida"], ["programa", "Programa y directrices"], ["debates", "Debates por sesión"]];
-      var html = base + '<header class="muro-cabecera"><h1>Muro del curso</h1><p class="seccion-bajada">' + esc(c.titulo) + "</p></header>" +
+      var pest = [["bienvenida", "Bienvenida y presentaciones"], ["programa", "Programa y directrices"], ["debates", "Debates por sesión"]];
+      var html = base +
         '<nav class="pestanas-inicio muro-pestanas">' + pest.map(function (p) {
           return '<a class="pestana-enlace" href="#/curso/' + esc(c.id) + "/muro/" + p[0] + '" aria-current="' + (seccion === p[0] || (seccion === "s" && p[0] === "debates")) + '">' + p[1] + "</a>";
         }).join("") + "</nav>";
@@ -1084,7 +1085,12 @@
       } else {
         var deb = debatibles(c);
         var mios = deb.filter(function (x) { return participoEn(msgs, yo.uid, x.id); }).length;
-        html += '<section class="tarjeta"><h2>Debates por sesión</h2><p class="seccion-bajada">Cada sesión tiene su pregunta para conversar.' + (f.obligatorio ? " <b>Participar es obligatorio para completar cada sesión.</b>" : "") + "</p>" +
+        html += '<section class="tarjeta como-debate"><h2>Cómo funcionan los debates</h2><ol>' +
+          "<li><b>Estudia la sesión</b> en la pestaña Contenido.</li>" +
+          "<li><b>Vuelve aquí</b> y entra al debate de esa sesión: verás la pregunta que propone tu relator.</li>" +
+          "<li><b>Comparte tu respuesta</b> y lee las de tus compañeros. Responde al menos a uno: así aprendemos juntos.</li></ol>" +
+          (f.obligatorio ? '<p class="aviso">En esta formación participar es obligatorio: hasta que escribas en el debate de una sesión, no podrás marcarla como completada.</p>' : "") + "</section>" +
+          '<section class="tarjeta"><h2>Debates por sesión</h2>' +
           (yo.equipo ? "" : '<p class="ficha-nota">Participaste en ' + mios + " de " + deb.length + " debates.</p>") +
           c.modulos.map(function (m) {
             var cls = m.clases.filter(function (x) { return x.tipo !== "evaluacion"; });
@@ -1132,9 +1138,10 @@
       var n = msgs.filter(function (m) { return m.hilo === cl.id; }).length;
       var yoSi = participoEn(msgs, yo.uid, cl.id);
       var pregunta = (f.preguntas || {})[cl.id] || PREGUNTA_DEF;
-      caja.innerHTML = '<h2>Debate de esta sesión</h2><p class="debate-pregunta">' + esc(pregunta) + "</p>" +
-        '<p class="ficha-nota">' + n + (n === 1 ? " mensaje" : " mensajes") + (yo.equipo ? "" : (yoSi ? " · Ya participaste" : (f.obligatorio ? " · Tu participación es obligatoria para completar la sesión" : ""))) + "</p>" +
-        '<div class="botones"><a class="boton' + (yoSi || yo.equipo ? "" : " principal") + '" href="#/curso/' + esc(c.id) + "/muro/s/" + esc(cl.id) + '">' + (yoSi || yo.equipo ? "Ver el debate" : "Participar en el debate") + "</a></div>";
+      void pregunta;
+      caja.className = "recordatorio-debate";
+      caja.innerHTML = "Esta sesión tiene un debate en el muro de la formación (" + n + (n === 1 ? " mensaje" : " mensajes") + ")" + (yo.equipo ? "" : (yoSi ? ". Ya participaste." : (f.obligatorio ? ". <b>Participar es obligatorio para completarla.</b>" : "."))) +
+        ' <a href="#/curso/' + esc(c.id) + "/muro/s/" + esc(cl.id) + '">' + (yoSi || yo.equipo ? "Ver el debate" : "Ir al debate") + "</a>";
       var marcar = document.getElementById("marcar");
       if (f.obligatorio && !yo.equipo && !yoSi && marcar && hechas(c.id).indexOf(cl.id) < 0) {
         marcar.disabled = true;
@@ -1321,6 +1328,209 @@
         });
       });
     });
+  }
+
+  /* ---------- aula de cada formación: pestañas, participantes, agenda ---------- */
+
+  function pestanasCurso(c, activa) {
+    if (acceso(c) !== "libre") return "";
+    var t = [["contenido", "Contenido", ""], ["muro", "Muro y debates", "/muro"], ["participantes", "Participantes", "/participantes"], ["agenda", "Agenda", "/agenda"]];
+    return '<nav class="pestanas-curso" aria-label="Secciones de la formación">' + t.map(function (x) {
+      return '<a href="#/curso/' + esc(c.id) + x[2] + '"' + (x[0] === activa ? ' aria-current="page"' : "") + ">" + x[1] + "</a>";
+    }).join("") + "</nav>";
+  }
+  // Encabezado compacto para las secciones del aula (muro, participantes, agenda).
+  function cabeceraAula(c, activa) {
+    var ar = areaDe(c.id);
+    var foto = TARJETAS && TARJETAS[c.id];
+    return '<nav class="migas"><a href="#/">Inicio</a>' + (ar ? ' / <a href="#/area/' + esc(ar.id) + '">' + esc(ar.titulo) + "</a>" : "") + ' / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>" +
+      '<section class="portada portada-compacta' + (foto ? ' portada-foto" style="--fondo-curso:url(\'' + esc(foto) + '\')' : "") + '"><p class="subtitulo">' + (c.tipo === "curso" ? (c.nivel === "diplomado" ? "Diplomado" : "Curso") : "Módulo") + "</p><h1>" + esc(c.titulo) + "</h1></section>" +
+      pestanasCurso(c, activa);
+  }
+
+  function haceCuanto(iso) {
+    if (!iso) return "sin conexión reciente";
+    var s = (Date.now() - new Date(iso).getTime()) / 1000;
+    if (s < 150) return "en línea";
+    if (s < 3600) return "hace " + Math.round(s / 60) + " min";
+    if (s < 86400) return "hace " + Math.round(s / 3600) + " h";
+    var d = Math.round(s / 86400);
+    return "hace " + d + (d === 1 ? " día" : " días");
+  }
+  function enLinea(iso) { return iso && (Date.now() - new Date(iso).getTime()) < 150000; }
+
+  function consultaN() {
+    var m = location.hash.match(/[?&]n=([^&]*)/);
+    return m ? decodeURIComponent(m[1]) : "";
+  }
+
+  function vistaParticipantes(cursoId) {
+    return Promise.all([cargarCurso(cursoId), cargarTarjetas()]).then(function (r) {
+      var c = r[0];
+      if (acceso(c) !== "libre") { location.hash = "#/curso/" + c.id; return; }
+      pintar(cabeceraAula(c, "participantes") + '<p class="cargando">Cargando participantes…</p>', "Participantes · " + c.titulo);
+      if (!Nube.habilitada) {
+        app.querySelector(".cargando").outerHTML = '<section class="tarjeta"><p>La lista de participantes y quién está en línea funciona con las cuentas de la plataforma (Firebase).</p></section>';
+        return;
+      }
+      var yo = Nube.miUid();
+      return Nube.personasDeCurso(c.id).then(function (ps) {
+        ps.sort(function (a, b) { return (enLinea(b.visto) - enLinea(a.visto)) || String(a.nombre).localeCompare(String(b.nombre)); });
+        var eq = ps.filter(function (x) { return x.rol === "relator" || x.rol === "admin"; });
+        var pa = ps.filter(function (x) { return x.rol !== "relator" && x.rol !== "admin"; });
+        var n = ps.filter(function (x) { return enLinea(x.visto); }).length;
+        function persona(x) {
+          var on = enLinea(x.visto);
+          return '<li class="persona"><span class="punto' + (on ? " on" : "") + '" aria-hidden="true"></span><span class="persona-datos"><b>' + esc(x.nombre || "Sin nombre") + (x.uid === yo ? " (tú)" : "") + "</b><small>" +
+            esc([x.comunidad, on ? "En línea" : "Desconectado · " + haceCuanto(x.visto)].filter(Boolean).join(" · ")) + "</small></span>" +
+            (x.uid !== yo ? '<a class="boton boton-chico" href="#/mensajes/' + esc(x.uid) + '?n=' + encodeURIComponent(x.nombre || "") + '">Escribir</a>' : "") + "</li>";
+        }
+        app.querySelector(".cargando").outerHTML = '<section class="tarjeta"><h2>Quiénes están en esta formación</h2><p class="seccion-bajada">' + n + (n === 1 ? " persona en línea" : " personas en línea") + " ahora.</p>" +
+          (eq.length ? '<h3>Equipo</h3><ul class="personas">' + eq.map(persona).join("") + "</ul>" : "") +
+          '<h3>Participantes</h3>' + (pa.length ? '<ul class="personas">' + pa.map(persona).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no hay participantes inscritos.</p>') +
+          '<p class="ficha-nota">«En línea» significa que tiene Mi Ruta abierto en este momento. La lista se actualiza al volver a abrir esta página.</p></section>';
+      });
+    });
+  }
+
+  /* agenda */
+  var Agenda = {
+    leer: function (c) {
+      if (Nube.habilitada) return Nube.agendaCurso(c);
+      try { return Promise.resolve((JSON.parse(localStorage.getItem("agp:agenda:" + c) || "[]")).filter(function (x) { return !x.borrado; }).map(function (x) { return Object.assign({ curso: c }, x); })); } catch (e) { return Promise.resolve([]); }
+    },
+    guardar: function (c, d) {
+      if (Nube.habilitada) return Nube.guardarFecha(c, d);
+      var l = JSON.parse(localStorage.getItem("agp:agenda:" + c) || "[]");
+      l.push(Object.assign({ id: "f" + Date.now(), borrado: false }, d)); localStorage.setItem("agp:agenda:" + c, JSON.stringify(l)); return Promise.resolve();
+    },
+    borrar: function (c, id) {
+      if (Nube.habilitada) return Nube.borrarFecha(c, id);
+      var l = JSON.parse(localStorage.getItem("agp:agenda:" + c) || "[]");
+      l.forEach(function (x) { if (x.id === id) x.borrado = true; }); localStorage.setItem("agp:agenda:" + c, JSON.stringify(l)); return Promise.resolve();
+    },
+  };
+  var TIPOS_FECHA = { entrega: "Entrega", encuentro: "Encuentro", evaluacion: "Evaluación", otro: "Otra fecha" };
+  function hoyISO() { var d = new Date(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function enlaceCalendario(x, titCurso) {
+    var d = x.fecha.replace(/-/g, ""), fin;
+    if (x.hora) { var h = x.hora.replace(":", "") + "00"; fin = d + "T" + String(Math.min(23, Number(x.hora.slice(0, 2)) + 1)).padStart(2, "0") + x.hora.slice(3) + "00"; d = d + "T" + h; }
+    else { var t = new Date(x.fecha + "T12:00:00"); t.setDate(t.getDate() + 1); fin = t.getFullYear() + String(t.getMonth() + 1).padStart(2, "0") + String(t.getDate()).padStart(2, "0"); }
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(x.titulo + " · " + titCurso) + "&dates=" + d + "/" + fin + "&details=" + encodeURIComponent((x.detalle || "") + "\n\nMi Ruta");
+  }
+  function fechaHTML(x, titCurso, cursoId, equipo) {
+    var p = x.fecha.split("-"), meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+    return '<li class="fecha fecha-' + esc(x.tipo || "otro") + '"><span class="fecha-dia"><b>' + Number(p[2]) + "</b>" + meses[Number(p[1]) - 1] + "</span>" +
+      '<span class="fecha-datos"><span class="fecha-tipo">' + esc(TIPOS_FECHA[x.tipo] || "Fecha") + (x.hora ? " · " + esc(x.hora) + " h" : "") + (cursoId ? "" : "") + "</span><b>" + esc(x.titulo) + "</b>" +
+      (x.detalle ? "<small>" + esc(x.detalle) + "</small>" : "") +
+      '<span class="fecha-acciones"><a href="' + esc(enlaceCalendario(x, titCurso)) + '" target="_blank" rel="noopener">Agregar a mi calendario</a>' +
+      (equipo ? ' · <button class="enlace-boton" type="button" data-borrar-fecha="' + esc(x.id) + '">Quitar</button>' : "") + "</span></span></li>";
+  }
+
+  function vistaAgenda(cursoId) {
+    return Promise.all([cargarCurso(cursoId), cargarTarjetas(), Agenda.leer(cursoId)]).then(function (r) {
+      var c = r[0], lista = (r[2] || []).sort(function (a, b) { return (a.fecha + (a.hora || "")).localeCompare(b.fecha + (b.hora || "")); });
+      if (acceso(c) !== "libre") { location.hash = "#/curso/" + c.id; return; }
+      var yo = yoForo(), hoy = hoyISO();
+      var prox = lista.filter(function (x) { return x.fecha >= hoy; }), pas = lista.filter(function (x) { return x.fecha < hoy; }).reverse();
+      var html = cabeceraAula(c, "agenda") + '<section class="tarjeta"><h2>Próximas fechas</h2>' +
+        (prox.length ? '<ul class="agenda">' + prox.map(function (x) { return fechaHTML(x, c.titulo, null, yo.equipo); }).join("") + "</ul>" : '<p class="seccion-bajada">No hay fechas próximas. ' + (yo.equipo ? "Agrega la primera abajo." : "Tu relator irá agregando las entregas y encuentros.") + "</p>") + "</section>";
+      if (yo.equipo) {
+        html += '<section class="tarjeta"><h2>Agregar una fecha</h2><form id="form-fecha" class="form-fecha">' +
+          '<label class="ancho">Título<input name="titulo" required maxlength="140" placeholder="Ej.: Entrega de la presentación del módulo 2"></label>' +
+          '<label>Fecha<input name="fecha" type="date" required></label><label>Hora (opcional)<input name="hora" type="time"></label>' +
+          '<label>Tipo<select name="tipo">' + Object.keys(TIPOS_FECHA).map(function (k) { return '<option value="' + k + '">' + TIPOS_FECHA[k] + "</option>"; }).join("") + "</select></label>" +
+          '<label class="ancho">Detalle (opcional)<textarea name="detalle" rows="2" maxlength="1000"></textarea></label>' +
+          '<div class="botones ancho"><button class="boton principal" type="submit">Agregar a la agenda</button></div><div class="mensaje ancho" aria-live="polite"></div></form></section>';
+      }
+      if (pas.length) html += '<section class="tarjeta"><details><summary>Fechas pasadas (' + pas.length + ")</summary>" + '<ul class="agenda pasadas">' + pas.map(function (x) { return fechaHTML(x, c.titulo, null, yo.equipo); }).join("") + "</ul></details></section>";
+      pintar(html, "Agenda · " + c.titulo);
+      var f = document.getElementById("form-fecha");
+      if (f) f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var msj = f.querySelector(".mensaje"); msj.className = "mensaje"; msj.textContent = "Guardando…";
+        Agenda.guardar(c.id, { titulo: f.titulo.value.trim(), fecha: f.fecha.value, hora: f.hora.value, tipo: f.tipo.value, detalle: f.detalle.value.trim() }).then(ruta)
+          .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+      app.querySelectorAll("[data-borrar-fecha]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          if (b.getAttribute("data-seguro") !== "1") { b.setAttribute("data-seguro", "1"); b.textContent = "¿Quitar? Confirmar"; return; }
+          Agenda.borrar(c.id, b.getAttribute("data-borrar-fecha")).then(ruta);
+        });
+      });
+    });
+  }
+
+  // Próximas fechas de mis formaciones (portada).
+  function cargarProximasFechas(ids) {
+    var caja = document.getElementById("proximas-fechas");
+    if (!caja || !ids.length) { if (caja) caja.remove(); return; }
+    var hoy = hoyISO();
+    Promise.all(ids.map(function (id) { return Promise.all([cargarCurso(id), Agenda.leer(id).catch(function () { return []; })]); })).then(function (rs) {
+      var todas = [];
+      rs.forEach(function (r) { (r[1] || []).forEach(function (x) { if (x.fecha >= hoy) todas.push(Object.assign({ cursoTitulo: r[0].titulo, cursoId: r[0].id }, x)); }); });
+      todas.sort(function (a, b) { return (a.fecha + (a.hora || "")).localeCompare(b.fecha + (b.hora || "")); });
+      if (!todas.length) { caja.remove(); return; }
+      caja.innerHTML = '<h2 class="seccion-titulo">Próximas fechas</h2><ul class="agenda">' + todas.slice(0, 5).map(function (x) {
+        return fechaHTML(x, x.cursoTitulo, x.cursoId, false).replace('<span class="fecha-tipo">', '<span class="fecha-tipo"><a href="#/curso/' + esc(x.cursoId) + '/agenda">' + esc(x.cursoTitulo) + "</a> · ");
+      }).join("") + "</ul>";
+    }).catch(function () { caja.remove(); });
+  }
+
+  /* mensajería */
+  var temporizadorChat = null;
+  function vistaMensajes(otro, otroNombre) {
+    clearTimeout(temporizadorChat);
+    if (!Nube.habilitada) { pintar(migas("Mensajes") + '<section class="tarjeta"><h1>Mensajes</h1><p>La mensajería funciona con las cuentas de la plataforma (Firebase).</p></section>', "Mensajes"); return Promise.resolve(); }
+    var e = cuentaActual();
+    if (!e.activo) { location.hash = "#/perfil"; return Promise.resolve(); }
+    var yo = Nube.miUid();
+    if (!otro) {
+      pintar(migas("Mensajes") + '<section class="tarjeta"><h1>Mensajes</h1><p class="cargando">Cargando…</p></section>', "Mensajes");
+      return Nube.misConversaciones().then(function (cs) {
+        cs = cs.filter(function (x) { return x.ultimo; }).sort(function (a, b) { return String(b.actualizado).localeCompare(String(a.actualizado)); });
+        app.querySelector(".cargando").outerHTML = (cs.length ? '<ul class="conversaciones">' + cs.map(function (x) {
+          var o = x.participantes.filter(function (p) { return p !== yo; })[0];
+          var nuevo = x.ultimo.uid !== yo && (!x.leido[yo] || x.leido[yo] < x.ultimo.fecha);
+          return '<li><a class="' + (nuevo ? "nuevo" : "") + '" href="#/mensajes/' + esc(o) + '?n=' + encodeURIComponent((x.nombres || {})[o] || "") + '"><b>' + esc((x.nombres || {})[o] || "Persona") + "</b><span>" + (x.ultimo.uid === yo ? "Tú: " : "") + esc(x.ultimo.texto) + "</span><time>" + esc(fechaCorta(x.ultimo.fecha)) + "</time></a></li>";
+        }).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no tienes conversaciones. Para escribirle a alguien, entra a una formación → <b>Participantes</b> → <b>Escribir</b>.</p>');
+      });
+    }
+    pintar(migas('<a href="#/mensajes">Mensajes</a> / ' + esc(otroNombre || "Conversación")) + '<section class="tarjeta chat"><h1>' + esc(otroNombre || "Conversación") + '</h1><div class="chat-mensajes"><p class="cargando">Cargando…</p></div>' +
+      '<form id="form-chat" class="chat-form"><textarea maxlength="2000" required placeholder="Escribe tu mensaje…" rows="2"></textarea><button class="boton principal" type="submit">Enviar</button></form><div class="mensaje" aria-live="polite"></div></section>', "Mensajes");
+    var form = document.getElementById("form-chat"), caja = app.querySelector(".chat-mensajes");
+    function cargar() {
+      return Nube.leerConversacion(otro, otroNombre).then(function (cv) {
+        var ms = cv.mensajes.sort(function (a, b) { return String(a.fecha).localeCompare(String(b.fecha)); });
+        caja.innerHTML = ms.length ? ms.map(function (m) {
+          return '<div class="burbuja' + (m.uid === yo ? " mia" : "") + '"><p>' + esc(m.texto).replace(/\n/g, "<br>") + "</p><time>" + esc(fechaCorta(m.fecha)) + "</time></div>";
+        }).join("") : '<p class="seccion-bajada">Escribe el primer mensaje.</p>';
+        caja.scrollTop = caja.scrollHeight;
+        actualizarBuzon();
+        if (location.hash.indexOf("#/mensajes/" + otro) === 0) temporizadorChat = setTimeout(cargar, 10000);
+      }).catch(function (er) { caja.innerHTML = '<p class="aviso error">' + esc(er.message) + "</p>"; });
+    }
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var ta = form.querySelector("textarea"), t = ta.value.trim();
+      if (!t) return;
+      form.querySelector("button").disabled = true;
+      Nube.enviarMensajePrivado(otro, t).then(function () { ta.value = ""; form.querySelector("button").disabled = false; clearTimeout(temporizadorChat); return cargar(); })
+        .catch(function (er) { form.querySelector("button").disabled = false; var m = app.querySelector(".chat + .mensaje, .chat .mensaje"); if (m) { m.className = "mensaje error"; m.textContent = er.message; } });
+    });
+    form.querySelector("textarea").addEventListener("keydown", function (ev) { if (ev.key === "Enter" && !ev.shiftKey) { ev.preventDefault(); form.requestSubmit(); } });
+    return cargar();
+  }
+
+  // Aviso de mensajes nuevos en la cabecera.
+  function actualizarBuzon() {
+    var b = document.getElementById("enlace-mensajes");
+    if (!b || !Nube.habilitada || !cuentaActual().activo) return;
+    var yo = Nube.miUid();
+    Nube.misConversaciones().then(function (cs) {
+      var n = cs.filter(function (x) { return x.ultimo && x.ultimo.uid !== yo && (!x.leido[yo] || x.leido[yo] < x.ultimo.fecha); }).length;
+      b.innerHTML = "Mensajes" + (n ? ' <span class="insignia">' + n + "</span>" : "");
+    }).catch(function () {});
   }
 
   /* ---------- evaluaciones ---------- */
@@ -1866,6 +2076,15 @@
       enlace.title = e.cuenta.nombre + (modoRelator() ? " · vista relator" : "");
     }
     if (pie) pie.textContent = e.activo ? "Tu avance se guarda en tu cuenta y te acompaña en todos tus dispositivos." : "Con tu cuenta, tu avance te acompaña en todos tus dispositivos.";
+    var em = document.getElementById("enlace-mensajes");
+    if (e.activo) {
+      if (!em) {
+        em = document.createElement("a");
+        em.id = "enlace-mensajes"; em.className = "cuenta-gestion"; em.href = "#/mensajes"; em.textContent = "Mensajes";
+        enlace.parentNode.insertBefore(em, enlace);
+      }
+      actualizarBuzon();
+    } else if (em) em.remove();
     if (e.esRelator) {
       if (!document.getElementById("enlace-gestion")) {
         var g = document.createElement("a");
@@ -1888,6 +2107,9 @@
     else if (partes[0] === "curso" && partes[1] && partes[2] === "sesiones") tarea = vistaSesiones(partes[1]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "muro") tarea = vistaMuro(partes[1], partes[3], partes[4]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "entregas") tarea = vistaEntregas(partes[1]);
+    else if (partes[0] === "curso" && partes[1] && partes[2] === "participantes") tarea = vistaParticipantes(partes[1]);
+    else if (partes[0] === "curso" && partes[1] && partes[2] === "agenda") tarea = vistaAgenda(partes[1]);
+    else if (partes[0] === "mensajes") tarea = vistaMensajes(partes[1] ? partes[1].split("?")[0] : "", consultaN());
     else if (partes[0] === "area" && partes[1]) tarea = vistaArea(partes[1]);
     else if (partes[0] === "curso" && partes[1]) tarea = vistaCurso(partes[1]);
     else if (partes[0] === "clase" && partes[1] && partes[2]) tarea = vistaClase(partes[1], partes[2]);

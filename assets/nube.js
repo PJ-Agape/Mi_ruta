@@ -13,6 +13,9 @@
      foros/{curso}      muro de cada formación: bienvenida, directrices, preguntas por sesión y si participar es obligatorio
      foros/{curso}/mensajes/{id}  mensajes del muro (hilo: bienvenida, programa o el id de una sesión)
      entregas/{curso~modulo~uid}  presentación final en video (enlace de YouTube) y su evaluación con rúbrica
+     presencia/{uid}    nombre, comunidad, rol, cursos y última señal de vida (para saber quién está en línea)
+     conversaciones/{a__b}  mensajería entre dos personas; mensajes en la subcolección «mensajes»
+     foros/{curso}/agenda/{id}  fechas de la formación (entregas, encuentros y otras)
 */
 
 const CONFIG = window.MIRUTA_CONFIG || {};
@@ -102,6 +105,7 @@ async function alCambiarUsuario(u) {
       try { await traerDatos(); } catch (e) { console.warn("Avance:", e); }
       fb.updateDoc(ref, { ultimoIngreso: fb.serverTimestamp() }).catch(() => {});
     }
+    latido();
   } catch (e) {
     console.warn("Cuenta:", e);
     status = "error"; ultimoError = traducir(e);
@@ -320,6 +324,88 @@ async function evaluarEntrega(id, evaluacion) {
   await conTiempo(fb.updateDoc(fb.doc(db, "entregas", id), { evaluacion: { ...evaluacion, por: usuario.uid, porNombre: (cuenta && cuenta.nombre) || "", fecha: new Date().toISOString() } }));
 }
 
+/* ---------- presencia: quién está en línea ---------- */
+
+let temporizadorLatido = null;
+function latido() {
+  clearTimeout(temporizadorLatido);
+  if (!usuario || status !== "activo" || !cuenta) return;
+  if (document.visibilityState !== "hidden") {
+    fb.setDoc(fb.doc(db, "presencia", usuario.uid), {
+      nombre: cuenta.nombre || "", comunidad: cuenta.comunidad || "", rol: cuenta.rol || "participante",
+      cursos: cuenta.cursos || [], visto: fb.serverTimestamp(),
+    }).catch((e) => console.warn("Presencia:", e));
+  }
+  temporizadorLatido = setTimeout(latido, 60000);
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") latido(); });
+
+function aFecha(x) { return x && x.toDate ? x.toDate().toISOString() : ""; }
+
+async function personasDeCurso(curso) {
+  const [ins, eq] = await Promise.all([
+    conTiempo(fb.getDocs(fb.query(fb.collection(db, "presencia"), fb.where("cursos", "array-contains", curso)))),
+    conTiempo(fb.getDocs(fb.query(fb.collection(db, "presencia"), fb.where("rol", "in", ["relator", "admin"])))),
+  ]);
+  const vistos = {};
+  [...ins.docs, ...eq.docs].forEach((d) => { const x = d.data(); vistos[d.id] = { uid: d.id, ...x, visto: aFecha(x.visto) }; });
+  return Object.values(vistos);
+}
+
+/* ---------- mensajería entre personas ---------- */
+
+const idConv = (a, b) => [a, b].sort().join("__");
+
+async function misConversaciones() {
+  const s = await conTiempo(fb.getDocs(fb.query(fb.collection(db, "conversaciones"), fb.where("participantes", "array-contains", usuario.uid))));
+  return s.docs.map((d) => {
+    const x = d.data();
+    const leido = {}; Object.keys(x.leido || {}).forEach((k) => { leido[k] = aFecha(x.leido[k]); });
+    return { id: d.id, ...x, actualizado: aFecha(x.actualizado), leido, ultimo: x.ultimo ? { ...x.ultimo, fecha: aFecha(x.ultimo.fecha) } : null };
+  });
+}
+
+async function leerConversacion(otro, otroNombre) {
+  const id = idConv(usuario.uid, otro);
+  const ref = fb.doc(db, "conversaciones", id);
+  let snap = await conTiempo(fb.getDoc(ref));
+  if (!snap.exists()) {
+    const nombres = {}; nombres[usuario.uid] = (cuenta && cuenta.nombre) || ""; nombres[otro] = otroNombre || "";
+    await conTiempo(fb.setDoc(ref, { participantes: [usuario.uid, otro].sort(), nombres, actualizado: fb.serverTimestamp(), leido: {} }));
+    snap = await conTiempo(fb.getDoc(ref));
+  }
+  const ms = await conTiempo(fb.getDocs(fb.collection(db, "conversaciones", id, "mensajes")));
+  const leido = {}; leido["leido." + usuario.uid] = fb.serverTimestamp();
+  fb.updateDoc(ref, leido).catch(() => {});
+  return { id, ...snap.data(), mensajes: ms.docs.map((d) => { const x = d.data(); return { id: d.id, ...x, fecha: aFecha(x.creado) || new Date().toISOString() }; }) };
+}
+
+async function enviarMensajePrivado(otro, texto) {
+  const id = idConv(usuario.uid, otro);
+  const ref = fb.doc(fb.collection(db, "conversaciones", id, "mensajes"));
+  await conTiempo(fb.setDoc(ref, { uid: usuario.uid, texto, creado: fb.serverTimestamp() }));
+  const cambio = { ultimo: { texto: texto.slice(0, 140), uid: usuario.uid, fecha: fb.serverTimestamp() }, actualizado: fb.serverTimestamp() };
+  cambio["leido." + usuario.uid] = fb.serverTimestamp();
+  await conTiempo(fb.updateDoc(fb.doc(db, "conversaciones", id), cambio));
+}
+
+/* ---------- agenda de cada formación ---------- */
+
+async function agendaCurso(curso) {
+  const s = await conTiempo(fb.getDocs(fb.collection(db, "foros", curso, "agenda")));
+  return s.docs.map((d) => ({ id: d.id, curso, ...d.data() })).filter((x) => !x.borrado);
+}
+
+async function guardarFecha(curso, datos) {
+  const ref = datos.id ? fb.doc(db, "foros", curso, "agenda", datos.id) : fb.doc(fb.collection(db, "foros", curso, "agenda"));
+  const x = { titulo: datos.titulo, fecha: datos.fecha, hora: datos.hora || "", tipo: datos.tipo || "otro", detalle: datos.detalle || "", borrado: false, por: usuario.uid };
+  await conTiempo(fb.setDoc(ref, x, { merge: true }));
+}
+
+async function borrarFecha(curso, id) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "foros", curso, "agenda", id), { borrado: true }));
+}
+
 /* ---------- gestión (relatores y administradores) ---------- */
 
 async function listarUsuarios() {
@@ -394,6 +480,14 @@ window.Nube = {
   enviarEntrega,
   entregasCurso,
   evaluarEntrega,
+  personasDeCurso,
+  misConversaciones,
+  leerConversacion,
+  enviarMensajePrivado,
+  agendaCurso,
+  guardarFecha,
+  borrarFecha,
+  miUid: () => (usuario ? usuario.uid : ""),
   listarUsuarios,
   actualizarUsuario,
   avanceDe,
