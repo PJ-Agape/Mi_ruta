@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Planificar la logística",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s1.md"
+     "archivo": "contenido/modulos/logistica/s1.md",
+     "debate": "**Caso: El retiro sin pan.** En un retiro de jóvenes, el sábado en la mañana descubren que nadie compró pan para el desayuno. Cada uno pensaba que lo haría otro.\n\n- ¿Qué falló?\n- ¿Cómo lo habría evitado una lista maestra?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Alimentación: menús, cantidades y manipulación segura",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s2.md"
+     "archivo": "contenido/modulos/logistica/s2.md",
+     "debate": "**Caso: El pollo del día anterior.** Para ahorrar tiempo, el equipo cocina el pollo el viernes en la noche y lo deja en ollas en la cocina del local, sin refrigerador, para servirlo el sábado al almuerzo.\n\n- ¿Qué riesgo hay?\n- ¿Cómo se podría organizar mejor?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Materiales e insumos: inventario, bodega y reposición",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s3.md"
+     "archivo": "contenido/modulos/logistica/s3.md",
+     "debate": "**Caso: Las tres cajas de plumones.** Antes de un retiro, tres dirigentes compran plumones por su cuenta porque no saben que en la bodega hay dos cajas sin abrir. Al mismo tiempo, falta el parlante, que alguien se llevó hace meses.\n\n- ¿Qué problemas muestra este caso?\n- ¿Qué sistema los habría evitado?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s4.md"
+     "archivo": "contenido/modulos/logistica/s4.md",
+     "debate": "**Caso: El bus que no llegó.** El día de la salida del campamento, el bus contratado por un conocido no llega. Hay 40 jóvenes y sus familias esperando en la puerta de la parroquia.\n\n- ¿Qué falló en la planificación?\n- ¿Qué harías en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Presupuesto, compras y rendición de cuentas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s5.md"
+     "archivo": "contenido/modulos/logistica/s5.md",
+     "debate": "**Caso: El saldo perdido.** Después de un campamento, quedaron $80.000 de saldo. Nadie sabe dónde están: el tesorero dice que los gastó en cosas del grupo, pero no tiene boletas.\n\n- ¿Qué falló?\n- ¿Qué normas pondrías para el próximo año?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-cierre",

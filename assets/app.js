@@ -1078,7 +1078,7 @@
         var cl = c.clases.filter(function (x) { return x.id === claseId; })[0];
         if (!cl) { location.hash = "#/curso/" + c.id + "/muro/debates"; return; }
         html += '<section class="tarjeta"><p class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · " + esc(cl.etiqueta || "") + "</p><h2>" + esc(cl.titulo) + "</h2>" +
-          textoEditable("pregunta:" + cl.id, "Pregunta para el debate", preguntas[cl.id] || PREGUNTA_DEF, yo, 3) +
+          textoEditable("pregunta:" + cl.id, "Para el debate", preguntas[cl.id] || cl.debate || PREGUNTA_DEF, yo, 9) +
           (f.obligatorio ? '<p class="aviso">La participación en este debate es obligatoria para completar la sesión.</p>' : "") +
           '<p><a class="boton" href="#/clase/' + esc(c.id) + "/" + esc(cl.id) + '">Ir a la sesión</a></p></section>' +
           '<section class="tarjeta"><h2>Debate</h2>' + hiloHTML(msgs, cl.id, "Comparte tu aporte o responde a un compañero.", yo) + "</section>";
@@ -1087,7 +1087,7 @@
         var mios = deb.filter(function (x) { return participoEn(msgs, yo.uid, x.id); }).length;
         html += '<section class="tarjeta como-debate"><h2>Cómo funcionan los debates</h2><ol>' +
           "<li><b>Estudia la sesión</b> en la pestaña Contenido.</li>" +
-          "<li><b>Vuelve aquí</b> y entra al debate de esa sesión: verás la pregunta que propone tu relator.</li>" +
+          "<li><b>Vuelve aquí</b> y entra al debate de esa sesión: verás un caso o una pregunta sobre lo que estudiaste.</li>" +
           "<li><b>Comparte tu respuesta</b> y lee las de tus compañeros. Responde al menos a uno: así aprendemos juntos.</li></ol>" +
           (f.obligatorio ? '<p class="aviso">En esta formación participar es obligatorio: hasta que escribas en el debate de una sesión, no podrás marcarla como completada.</p>' : "") + "</section>" +
           '<section class="tarjeta"><h2>Debates por sesión</h2>' +
@@ -1137,7 +1137,7 @@
       var f = r[0] || {}, msgs = (r[1] || []).filter(function (m) { return !m.borrado; }), yo = yoForo();
       var n = msgs.filter(function (m) { return m.hilo === cl.id; }).length;
       var yoSi = participoEn(msgs, yo.uid, cl.id);
-      var pregunta = (f.preguntas || {})[cl.id] || PREGUNTA_DEF;
+      var pregunta = (f.preguntas || {})[cl.id] || cl.debate || PREGUNTA_DEF;
       void pregunta;
       caja.className = "recordatorio-debate";
       caja.innerHTML = "Esta sesión tiene un debate en el muro de la formación (" + n + (n === 1 ? " mensaje" : " mensajes") + ")" + (yo.equipo ? "" : (yoSi ? ". Ya participaste." : (f.obligatorio ? ". <b>Participar es obligatorio para completarla.</b>" : "."))) +

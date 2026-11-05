@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Antes de actuar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s1.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s1.md",
+     "debate": "**Caso: Todos miran.** Durante un partido en una convivencia, un joven cae y se golpea la cabeza. Se forma un círculo de veinte personas alrededor. Todos opinan, nadie llama y alguien intenta levantarlo de inmediato.\n\n- ¿Qué errores se están cometiendo?\n- ¿Cómo debería organizarse el grupo en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Emergencias que ponen en riesgo la vida",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s2.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s2.md",
+     "debate": "**Caso: El abuelo en la misa.** Durante la misa del domingo, un señor mayor se desploma en su banca. No responde. Algunos jóvenes que sirven en la misa están cerca y no saben qué hacer.\n\n- ¿Cuáles son los primeros tres pasos?\n- ¿Cómo se pueden repartir las tareas entre varias personas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Lesiones frecuentes en actividades",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s3.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s3.md",
+     "debate": "**Caso: La pasta de dientes.** En un campamento, una joven se quema la mano con agua caliente al cocinar. Otra participante le dice que se ponga pasta de dientes porque «así se hace en su casa».\n\n- ¿Qué es lo correcto en este caso?\n- ¿Cuándo habría que buscar atención médica?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Situaciones médicas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s4.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s4.md",
+     "debate": "**Caso: El inhalador olvidado.** En una caminata, un joven con asma empieza a tener dificultad para respirar. Su inhalador quedó en la mochila, en el bus, a media hora de distancia. Nadie sabía que tenía asma.\n\n- ¿Qué falló en la preparación de la actividad?\n- ¿Qué hacer en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Prevenir: actividades seguras",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s5.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s5.md",
+     "debate": "**Caso: La salida improvisada.** Un sábado soleado, el grupo decide ir de improviso a un río cercano. Nadie lleva botiquín, no hay autorizaciones y solo un dirigente de 18 años acompaña a quince jóvenes.\n\n- ¿Qué riesgos ves?\n- ¿Qué habría que preparar para hacer esa salida de forma segura?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-cierre",

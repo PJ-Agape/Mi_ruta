@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "El dirigente: puente y amigo cercano",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-identidad/s1.md"
+     "archivo": "contenido/modulos/dj-identidad/s1.md",
+     "debate": "**Caso: El dirigente estrella.** Matías tiene 16 años, es simpático, toca guitarra y los más chicos lo adoran. Poco a poco, el grupo empezó a funcionar en torno a él: si Matías no va, nadie va. Él lo disfruta, pero un día se enferma por tres semanas y la asistencia cae a la mitad.\n\n- ¿Qué estaba haciendo bien Matías y qué se le olvidó?\n- ¿Qué tendría que cambiar para ser puente y no destino?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-identidad-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Mirar al joven con los ojos de Jesús",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-identidad/s2.md"
+     "archivo": "contenido/modulos/dj-identidad/s2.md",
+     "debate": "**Caso: El que se ríe de todo.** En el grupo está Benjamín, de 14 años, que se burla de todas las dinámicas y hace reír a los demás cuando hay un momento de oración. Varios dirigentes ya lo dan por perdido. Un día, al terminar, se queda ordenando sillas sin que nadie se lo pida.\n\n- ¿Qué podría haber detrás de la conducta de Benjamín?\n- ¿Qué «llama» se ve en el gesto de quedarse a ordenar? ¿Cómo la cuidarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-identidad-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Permanecer en Él: la Eucaristía en el centro",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-identidad/s3.md"
+     "archivo": "contenido/modulos/dj-identidad/s3.md",
+     "debate": "**Caso: «Igual rezo en mi casa».** Un joven de tu grupo te dice: «Yo creo en Dios, pero la misa me aburre. Igual rezo en mi casa, ¿para qué voy a ir?». Te das cuenta de que tú mismo has pensado lo mismo alguna vez.\n\n- ¿Qué le responderías sin sermonear?\n- ¿Qué de lo aprendido en esta unidad te ayuda a responderte a ti mismo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-identidad-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Orar y dejarse perdonar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-identidad/s4.md"
+     "archivo": "contenido/modulos/dj-identidad/s4.md",
+     "debate": "**Caso: Sequedad.** Javiera es dirigente hace un año. Últimamente prepara los temas en la micro, ya no reza sola y siente que habla de un Dios que hace tiempo no encuentra. Le da vergüenza contárselo a alguien, porque «se supone» que ella debería estar bien.\n\n- ¿Qué le dirías a Javiera?\n- ¿A quién podría pedirle acompañamiento? ¿A quién se lo pedirías tú?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-identidad-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "El descanso en el Señor",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-identidad/s5.md"
+     "archivo": "contenido/modulos/dj-identidad/s5.md",
+     "debate": "**Caso: Siempre disponible.** Valentina tiene 16 años y es dirigente, catequista y está en el coro. Responde mensajes del grupo hasta la una de la mañana y los fines de semana no para. Le está yendo mal en el colegio y anda irritable con todos, pero dice que «Dios le va a dar fuerzas».\n\n- ¿Qué señales de agotamiento ves en Valentina?\n- ¿Qué límites concretos le propondrías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-identidad-cierre",
@@ -87,7 +92,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Una biblioteca con una sola historia",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/conocer-la-biblia/s1.md"
+     "archivo": "contenido/modulos/conocer-la-biblia/s1.md",
+     "debate": "**Caso: La Biblia del velador.** Felipe recibió una Biblia en su primera comunión. Está en su velador desde hace años, casi sin abrir. Dice que le gustaría leerla, pero que «es muy larga y no sé por dónde empezar».\n\n- ¿Qué le recomendarías a Felipe para empezar?\n- ¿Qué libro no le recomendarías como primera lectura? ¿Por qué?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "conocer-la-biblia-s2",
@@ -96,7 +102,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Palabra de Dios en palabras humanas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/conocer-la-biblia/s2.md"
+     "archivo": "contenido/modulos/conocer-la-biblia/s2.md",
+     "debate": "**Caso: El versículo suelto.** Un compañero de curso le muestra a Tomás un versículo del Antiguo Testamento, sacado de contexto, y le dice: «¿Ves? Tu Dios es violento». Tomás no sabe qué responder.\n\n- ¿Qué criterio de interpretación le ayudaría a Tomás?\n- ¿Cómo podría responder con respeto y sin pelear?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "conocer-la-biblia-s3",
@@ -105,7 +112,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Leer bien: géneros y contexto",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/conocer-la-biblia/s3.md"
+     "archivo": "contenido/modulos/conocer-la-biblia/s3.md",
+     "debate": "**Caso: El Apocalipsis y el fin del mundo.** Sofía vio en internet un video que interpreta el Apocalipsis como un calendario exacto del fin del mundo, con fechas y personajes actuales. Quedó asustada.\n\n- ¿Qué género literario es el Apocalipsis y cómo se lee?\n- ¿Qué le dirías a Sofía para tranquilizarla con fundamento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "conocer-la-biblia-s4",
@@ -114,7 +122,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "La Biblia en la vida",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/conocer-la-biblia/s4.md"
+     "archivo": "contenido/modulos/conocer-la-biblia/s4.md",
+     "debate": "**Caso: La racha perdida.** Javiera empezó a leer un capítulo de la Biblia cada noche. Llevaba doce días seguidos cuando se enfermó y dejó de leer una semana. Ahora siente que «perdió la racha» y no ha vuelto a empezar.\n\n- ¿Qué le dirías a Javiera?\n- ¿Qué podría ayudarle a retomar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "conocer-la-biblia-s5",
@@ -123,7 +132,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Compartir la Palabra en grupo",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/conocer-la-biblia/s5.md"
+     "archivo": "contenido/modulos/conocer-la-biblia/s5.md",
+     "debate": "**Caso: La discusión.** En el momento de compartir, dos jóvenes empiezan a discutir si el milagro del texto «ocurrió de verdad». El resto se queda callado y el tiempo se acaba sin que nadie haya hablado de su vida.\n\n- ¿Qué podría haber hecho quien animaba?\n- ¿Dónde se puede conversar esa pregunta en otro momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "conocer-la-biblia-cierre",
@@ -155,7 +165,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Creer: la fe como respuesta",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/el-credo/s1.md"
+     "archivo": "contenido/modulos/el-credo/s1.md",
+     "debate": "**Caso: «Yo creo en Dios, pero no en la Iglesia».** En el grupo de catequesis de confirmación, una joven dice: «Yo creo en Dios a mi manera, no necesito a la Iglesia para eso».\n\n- ¿Qué hay de verdadero en lo que dice?\n- ¿Cómo le explicarías que la fe se recibe y se vive en comunidad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "el-credo-s2",
@@ -164,7 +175,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Dios Padre, creador",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/el-credo/s2.md"
+     "archivo": "contenido/modulos/el-credo/s2.md",
+     "debate": "**Caso: La pregunta del niño.** En la catequesis de primera comunión, un niño de nueve años pregunta: «Si Dios es bueno, ¿por qué se murió mi perro?». Los demás se ríen.\n\n- ¿Cómo responderías?\n- ¿Qué harías con las risas del grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "el-credo-s3",
@@ -173,7 +185,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Jesucristo, verdadero Dios y verdadero hombre",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/el-credo/s3.md"
+     "archivo": "contenido/modulos/el-credo/s3.md",
+     "debate": "**Caso: «Jesús fue un buen hombre, nada más».** Un apoderado de la catequesis comenta que para él Jesús fue un gran maestro, como Gandhi, pero que no cree que haya resucitado.\n\n- ¿Qué responderías con respeto?\n- ¿Qué textos del evangelio podrías compartir?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "el-credo-s4",
@@ -182,7 +195,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "El Espíritu Santo y la Iglesia",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/el-credo/s4.md"
+     "archivo": "contenido/modulos/el-credo/s4.md",
+     "debate": "**Caso: «La Iglesia es un edificio».** Al preguntar en la catequesis qué es la Iglesia, todos los niños señalan el templo de la parroquia.\n\n- ¿Qué dinámica usarías para ampliar esa idea?\n- ¿Cómo les ayudarías a descubrir que ellos también son Iglesia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "el-credo-s5",
@@ -191,7 +205,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "La vida eterna y la esperanza cristiana",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/el-credo/s5.md"
+     "archivo": "contenido/modulos/el-credo/s5.md",
+     "debate": "**Caso: El funeral.** Muere el papá de un niño de tu grupo de catequesis. Vas al funeral y, al verte, el niño te pregunta: «¿Mi papá me está mirando?».\n\n- ¿Qué le responderías?\n- ¿Cómo acompañarías al niño y al grupo en las semanas siguientes?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "el-credo-cierre",
@@ -223,7 +238,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Signos de la gracia: qué es un sacramento",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s1.md"
+     "archivo": "contenido/modulos/sacramentos/s1.md",
+     "debate": "**Caso: «Lo hago por mi abuela».** Un joven de confirmación dice que se va a confirmar solo para que su abuela esté contenta, pero que no cree mucho en eso.\n\n- ¿Qué le dirías?\n- ¿Cómo podría el camino de preparación ayudarle a descubrir un sentido propio?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s2",
@@ -232,7 +248,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "El Bautismo",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s2.md"
+     "archivo": "contenido/modulos/sacramentos/s2.md",
+     "debate": "**Caso: El padrino que no cumple.** Una familia quiere que el padrino de su hijo sea un tío muy querido que no está confirmado y que dice no creer en Dios.\n\n- ¿Qué criterios hay que considerar?\n- ¿Cómo conversarías con la familia sin herirla?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s3",
@@ -241,7 +258,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "La Confirmación",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s3.md"
+     "archivo": "contenido/modulos/sacramentos/s3.md",
+     "debate": "**Caso: La confirmación como despedida.** En la parroquia, después de la confirmación, casi ningún joven vuelve. Los catequistas sienten que su trabajo «termina ahí».\n\n- ¿Qué se podría cambiar en la preparación?\n- ¿Qué propuesta concreta podría ofrecer la parroquia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s4",
@@ -250,7 +268,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "La Eucaristía y la primera comunión",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s4.md"
+     "archivo": "contenido/modulos/sacramentos/s4.md",
+     "debate": "**Caso: La fiesta.** Una familia está más preocupada del vestido, la fiesta y los regalos de la primera comunión que de la preparación. El niño no ha ido a misa en todo el año.\n\n- ¿Cómo conversarías con la familia?\n- ¿Qué propuesta les harías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s5",
@@ -259,7 +278,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "La Reconciliación y el camino de iniciación cristiana",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s5.md"
+     "archivo": "contenido/modulos/sacramentos/s5.md",
+     "debate": "**Caso: El miedo.** Una niña llora antes de su primera confesión porque su hermano mayor le dijo que el sacerdote la iba a retar y que le contaría todo a sus papás.\n\n- ¿Cómo la tranquilizarías?\n- ¿Qué le explicarías sobre el sigilo y la misericordia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-cierre",
@@ -291,7 +311,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "¿Qué es la catequesis?",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ayudante-de-catequesis/s1.md"
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s1.md",
+     "debate": "**Caso: La catequesis como colegio.** En el grupo de confirmación donde ayuda Benjamín, cada encuentro es igual: el catequista dicta un tema, los jóvenes copian y al final hay una prueba. Varios ya están faltando.\n\n- ¿Qué le falta a esta catequesis?\n- ¿Qué podría proponer Benjamín, con respeto, al catequista?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ayudante-de-catequesis-s2",
@@ -300,7 +321,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Conocer a quienes acompañamos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ayudante-de-catequesis/s2.md"
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s2.md",
+     "debate": "**Caso: El que no quiere estar.** Martín, de 15 años, llega a la catequesis de confirmación porque su mamá lo obliga. Se sienta atrás, mira el celular y responde con monosílabos. El catequista le pide a la ayudante, Josefa, que intente acercarse a él.\n\n- ¿Qué podría hacer Josefa para acercarse a Martín?\n- ¿Qué no debería hacer?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ayudante-de-catequesis-s3",
@@ -309,7 +331,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Preparar y animar un encuentro",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ayudante-de-catequesis/s3.md"
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s3.md",
+     "debate": "**Caso: El juego que se alargó.** El ayudante, Tomás, anima el juego de acogida. Los niños están tan entretenidos que pasan 30 minutos y ya no queda tiempo para la Palabra ni para la oración.\n\n- ¿Qué debió hacer Tomás para cuidar el tiempo?\n- ¿Cómo podría acordar mejor con la catequista la próxima vez?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ayudante-de-catequesis-s4",
@@ -318,7 +341,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Las familias y la comunidad",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ayudante-de-catequesis/s4.md"
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s4.md",
+     "debate": "**Caso: El Día del Padre.** Para el Día del Padre, el catequista propone que cada niño haga una tarjeta para su papá. Una niña se queda quieta y luego dice en voz baja que su papá no vive con ella.\n\n- ¿Cómo podrías haber evitado esta situación?\n- ¿Qué harías en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ayudante-de-catequesis-s5",
@@ -327,7 +351,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Cuidar y crecer como ayudante",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ayudante-de-catequesis/s5.md"
+     "archivo": "contenido/modulos/ayudante-de-catequesis/s5.md",
+     "debate": "**Caso: El chat privado.** Una niña de la catequesis le pide a Antonia, la ayudante, su número de teléfono para «hablarle de cosas que no se atreve a contar en el grupo». Antonia quiere ayudarla y no sabe qué hacer.\n\n- ¿Por qué Antonia no debería abrir un chat privado con la niña?\n- ¿Qué podría hacer para ayudarla de manera segura?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ayudante-de-catequesis-cierre",
@@ -359,7 +384,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La alegría de jugar y celebrar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-metodologia/s1.md"
+     "archivo": "contenido/modulos/dj-metodologia/s1.md",
+     "debate": "**Caso: El castigo.** En una jornada, el equipo perdedor de una competencia debía comer una mezcla de ingredientes asquerosos frente a todos. Uno de los jóvenes se negó, lo abuchearon y terminó llorando en el baño. Los dirigentes dijeron que «era solo un juego».\n\n- ¿Qué falló en el diseño de esa actividad?\n- ¿Cómo transformarías esa competencia en un juego que forme?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-metodologia-s2",
@@ -368,7 +394,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Nadie se queda atrás: la cooperación",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-metodologia/s2.md"
+     "archivo": "contenido/modulos/dj-metodologia/s2.md",
+     "debate": "**Caso: Siempre los mismos.** En cada dinámica de equipos, los más rápidos y extrovertidos lo resuelven todo y el resto mira. Los dirigentes felicitan al equipo ganador. Dos jóvenes tímidas comentan que «nunca sirven para nada».\n\n- ¿Qué ingrediente cooperativo falta?\n- Rediseña la dinámica para que las dos jóvenes tengan un papel necesario.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-metodologia-s3",
@@ -377,7 +404,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "El método: vivir, conversar, iluminar y actuar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-metodologia/s3.md"
+     "archivo": "contenido/modulos/dj-metodologia/s3.md",
+     "debate": "**Caso: El encuentro sobre las redes sociales.** Un equipo quiere hacer un encuentro sobre el uso de redes sociales. Su plan: veinte minutos de exposición con datos, un video y un cierre con la frase «usen menos el celular». Tienen sesenta minutos.\n\n- ¿Qué momento del método falta y cuál sobra?\n- Reorganiza el encuentro en los cuatro momentos, con tiempos.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-metodologia-s4",
@@ -386,7 +414,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Descubrir a Dios en lo que vivimos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-metodologia/s4.md"
+     "archivo": "contenido/modulos/dj-metodologia/s4.md",
+     "debate": "**Caso: Quiero dejarlo todo.** Después de una semana mala en el colegio y una pelea en el equipo, Vicente escribe en el grupo de dirigentes: «Me salgo del grupo, esto no es para mí». Hace un mes decía que el grupo era lo mejor de su vida.\n\n- ¿Qué consejo de san Ignacio le darías a Vicente?\n- ¿Cómo podrías acompañarlo esta semana?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-metodologia-s5",
@@ -395,7 +424,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "El poder de los símbolos: orar con todo el ser",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-metodologia/s5.md"
+     "archivo": "contenido/modulos/dj-metodologia/s5.md",
+     "debate": "**Caso: Una oración que no conectó.** Un dirigente preparó una oración larguísima con cinco lecturas, tres cantos y una reflexión de diez minutos. Los jóvenes se distrajeron, algunos miraron el celular y al final nadie recordaba de qué se trató.\n\n- ¿Qué cambiarías para que esa oración fuera significativa?\n- ¿Qué signo sencillo podría haber ayudado?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-metodologia-cierre",
@@ -427,7 +457,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "El arte de escuchar y acompañar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-escucha/s1.md"
+     "archivo": "contenido/modulos/dj-escucha/s1.md",
+     "debate": "**Caso: El consejo apurado.** Sofía le cuenta a Antonia, su dirigente, que su mejor amiga la dejó de hablar. Antonia la interrumpe al primer minuto: «Ay, a mí me pasó lo mismo, lo que tienes que hacer es hablarle de frente». Sofía asiente, dice «sí, tienes razón» y cambia de tema. No vuelve a contarle nada.\n\n- ¿Qué obstáculos para escuchar aparecen en esta conversación?\n- Reescribe la respuesta de Antonia usando al menos dos herramientas de escucha activa.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-escucha-s2",
@@ -436,7 +467,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "La compasión de Jesús y los gestos sencillos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-escucha/s2.md"
+     "archivo": "contenido/modulos/dj-escucha/s2.md",
+     "debate": "**Caso: La capucha.** Durante tres encuentros seguidos, Fernanda llega con la capucha puesta, se sienta al fondo y no habla. Antes era de las que más participaban. Un dirigente le dice en voz alta: «¡Ya po, Feña, sácate esa capucha y participa!».\n\n- ¿Qué señales no verbales estaba dando Fernanda?\n- ¿Qué gesto o palabra podría haber elegido el dirigente?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-escucha-s3",
@@ -445,7 +477,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Poner palabras a lo que sentimos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-escucha/s3.md"
+     "archivo": "contenido/modulos/dj-escucha/s3.md",
+     "debate": "**Caso: «No me pasa nada».** Al terminar una dinámica, Diego rompe su hoja y se va al baño. Cuando vuelve, le preguntan qué le pasó y responde: «Nada, estoy bien». Otro joven comenta: «Es que es enojón».\n\n- ¿Qué emociones podría estar sintiendo Diego?\n- ¿Cómo podrías ayudarlo a ponerle nombre a lo que siente sin presionarlo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-escucha-s4",
@@ -454,7 +487,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Acompañar en el dolor",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-escucha/s4.md"
+     "archivo": "contenido/modulos/dj-escucha/s4.md",
+     "debate": "**Caso: Después del funeral.** Al papá de Camila (15 años) lo atropellaron hace un mes. El grupo la acompañó al funeral, pero ahora nadie sabe qué decirle y todos evitan el tema. Ella dejó de ir a los encuentros y en redes publica frases muy tristes.\n\n- ¿Qué podrían hacer los dirigentes para acompañarla?\n- ¿Qué señales te harían pedir ayuda a un adulto de inmediato?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-escucha-s5",
@@ -463,7 +497,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Saber cuándo pedir ayuda",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-escucha/s5.md"
+     "archivo": "contenido/modulos/dj-escucha/s5.md",
+     "debate": "**Caso: «No le digas a nadie».** Después de un encuentro, un joven de 15 años le muestra a su dirigente unas marcas en el brazo y le pide que no se lo cuente a nadie, especialmente a sus papás. El dirigente tiene 17 años y no sabe qué hacer.\n\n- ¿En qué color del semáforo está esta situación?\n- Escribe paso a paso qué debe hacer el dirigente, incluyendo qué decirle al joven.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-escucha-cierre",
@@ -495,7 +530,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "«¿A quién iremos?»: los jóvenes y la Eucaristía hoy",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-eucaristia/s1.md"
+     "archivo": "contenido/modulos/dj-eucaristia/s1.md",
+     "debate": "**Caso: El grupo que se va antes.** Varios jóvenes del grupo llegan a misa tarde, se sientan atrás y se van antes de la bendición final. Un dirigente quiere decirles frente a todos que eso es una falta de respeto.\n\n- ¿Qué podría estar detrás de esa conducta?\n- ¿Qué harías en vez de retarlos en público?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-eucaristia-s2",
@@ -504,7 +540,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "La misa, paso a paso",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-eucaristia/s2.md"
+     "archivo": "contenido/modulos/dj-eucaristia/s2.md",
+     "debate": "**Caso: «¿Por qué nos paramos y nos sentamos tanto?».** Una joven de 13 años, que va por primera vez a misa con el grupo, te pregunta al salir: «¿Por qué hay que pararse, sentarse y arrodillarse tantas veces? Me perdí».\n\n- ¿Cómo le explicarías en dos o tres frases el sentido de esas posturas?\n- ¿Qué podrías hacer la próxima vez para que no se pierda?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-eucaristia-s3",
@@ -513,7 +550,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Jóvenes que celebran: animar la liturgia",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-eucaristia/s3.md"
+     "archivo": "contenido/modulos/dj-eucaristia/s3.md",
+     "debate": "**Caso: La canción de moda.** El coro juvenil quiere cantar en la comunión una canción de amor que está de moda, porque «habla de entregarse y Jesús se entrega». El párroco les dice que no y ellos se molestan.\n\n- ¿Qué criterios no cumple esa elección?\n- ¿Cómo podrían conversar con el párroco y proponer una alternativa?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-eucaristia-s4",
@@ -522,7 +560,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Adorar: quedarse con Él",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-eucaristia/s4.md"
+     "archivo": "contenido/modulos/dj-eucaristia/s4.md",
+     "debate": "**Caso: «Es muy fome estar callado».** Cuando propones una adoración, un joven dice: «Es muy fome estar callado mirando algo». Varios se ríen, pero otros parecen interesados.\n\n- ¿Cómo responderías sin enojarte ni insistir demasiado?\n- ¿Qué adaptarías para que la primera experiencia sea positiva?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-eucaristia-s5",
@@ -531,7 +570,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Del altar a la vida: la misa nos envía",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-eucaristia/s5.md"
+     "archivo": "contenido/modulos/dj-eucaristia/s5.md",
+     "debate": "**Caso: Una acción solo para la foto.** Un grupo organiza una visita a un hogar de ancianos. Llegan, se sacan muchas fotos, cantan una canción y se van a los veinte minutos para alcanzar otra actividad. Una de las señoras pregunta si van a volver.\n\n- ¿Qué faltó en esa acción?\n- ¿Cómo la rediseñarías para que sea un encuentro y no un trámite?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-eucaristia-cierre",
@@ -563,7 +603,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Una cultura del buen trato",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md",
+     "debate": "**Caso: El dirigente indispensable.** En un grupo, todo gira en torno a un dirigente muy carismático. Todos lo admiran, nadie lo contradice, organiza actividades sin informar a los asesores y tiene conversaciones privadas con varios jóvenes por chat.\n\n- ¿Qué señales de riesgo hay en esta situación, aunque no haya ocurrido nada malo?\n- ¿Qué debería hacer el equipo de asesores?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s2",
@@ -572,7 +613,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Ambientes seguros",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md",
+     "debate": "**Caso: «Te llevo a tu casa».** Termina una actividad de noche y una joven de 14 años no tiene cómo volver. Un dirigente de 22 años le ofrece llevarla solo en su auto, «porque queda de camino».\n\n- ¿Qué regla está en juego?\n- ¿Qué alternativas tiene el grupo para resolver la situación de manera segura?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s3",
@@ -581,7 +623,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Escuchar y actuar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md",
+     "debate": "**Caso: La promesa.** Un joven de 15 años le cuenta a Andrea, dirigente de 18, que una persona adulta de su entorno lo hace sentir muy incómodo y le pide guardar secretos. Le ruega que no se lo diga a nadie porque tiene miedo.\n\n- ¿Qué debe responderle Andrea en ese momento?\n- ¿A quién debe avisar y cuándo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s4",
@@ -590,7 +633,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Reparar y acompañar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md",
+     "debate": "**Caso: El rumor.** En la parroquia se comienza a comentar que hubo una denuncia contra un adulto que trabajaba con jóvenes. En el grupo de WhatsApp aparecen nombres, opiniones y defensas apasionadas.\n\n- ¿Qué daño puede causar esta conversación?\n- ¿Qué deberían hacer los dirigentes del grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s5",
@@ -599,7 +643,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Cuidarnos entre todos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md",
+     "debate": "**Caso: El sticker.** En el grupo de WhatsApp de los jóvenes de la parroquia, alguien comparte un sticker con la cara de un compañero para burlarse de él. Varios lo reenvían y se ríen. El afectado sale del grupo.\n\n- ¿Qué tipo de situación es esta?\n- ¿Qué podrían hacer los demás jóvenes y los dirigentes?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-cierre",
@@ -631,7 +676,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Coordinar es servir, con la Eucaristía en el centro del equipo",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-coordinar/s1.md"
+     "archivo": "contenido/modulos/dj-coordinar/s1.md",
+     "debate": "**Caso: «Porque soy el coordinador».** En una reunión, varios dirigentes cuestionan el horario de una actividad. El coordinador corta la conversación: «Esto ya está decidido, y lo decidí yo porque soy el coordinador». Nadie vuelve a opinar, pero dos dirigentes no llegan a la actividad.\n\n- ¿Qué tipo de liderazgo ejerció el coordinador?\n- ¿Cómo podría haber conducido esa conversación?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-coordinar-s2",
@@ -640,7 +686,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Una dupla que camina junta",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-coordinar/s2.md"
+     "archivo": "contenido/modulos/dj-coordinar/s2.md",
+     "debate": "**Caso: Uno hace todo.** En la dupla de coordinación, Antonia prepara las reuniones, responde los mensajes y habla con el párroco. Felipe aparece en las actividades, pero casi no participa en la organización. Antonia está molesta, pero no le ha dicho nada.\n\n- ¿Qué faltó al comenzar la dupla?\n- ¿Cómo podría Antonia plantear el tema a Felipe?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-coordinar-s3",
@@ -649,7 +696,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "El año pastoral",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-coordinar/s3.md"
+     "archivo": "contenido/modulos/dj-coordinar/s3.md",
+     "debate": "**Caso: El calendario imposible.** La dupla presenta un calendario con 42 actividades para el año: encuentros semanales, tres retiros, cuatro campañas, dos paseos, una misión y una obra de teatro. El equipo tiene seis dirigentes, la mitad en cuarto medio.\n\n- ¿Qué riesgos tiene este calendario?\n- ¿Qué criterios usarías para reducirlo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-coordinar-s4",
@@ -658,7 +706,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "De la idea a la acción",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-coordinar/s4.md"
+     "archivo": "contenido/modulos/dj-coordinar/s4.md",
+     "debate": "**Caso: La campaña que no partió.** El equipo acordó con entusiasmo una campaña solidaria para invierno. Nadie quedó a cargo, no se fijaron fechas y nadie habló con la parroquia. En agosto, todos recuerdan que «íbamos a hacer una campaña».\n\n- ¿Cuál de las cinco preguntas de planificación faltó?\n- Reescribe la campaña como un plan con objetivo, responsables y plazos.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-coordinar-s5",
@@ -667,7 +716,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Administrar con transparencia",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-coordinar/s5.md"
+     "archivo": "contenido/modulos/dj-coordinar/s5.md",
+     "debate": "**Caso: La plata de la rifa.** Después de una rifa, la plata quedó en la mochila de una dirigente. Dos meses después, nadie sabe cuánto se juntó ni cuánto se gastó en la convivencia. Hay comentarios incómodos en el equipo.\n\n- ¿Qué reglas se rompieron?\n- ¿Cómo ordenarías la situación sin culpar a nadie?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dj-coordinar-cierre",
@@ -697,7 +747,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La santidad es para ti",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/santos-jovenes/s1.md"
+     "archivo": "contenido/modulos/santos-jovenes/s1.md",
+     "debate": "**Caso: «Yo no soy de esos».** En el grupo, alguien dice que todos están llamados a ser santos. Cristóbal se ríe y dice: «Yo no soy de esos. Me gusta el fútbol, juego videojuegos y a veces digo garabatos».\n\n- ¿Qué malentendido sobre la santidad tiene Cristóbal?\n- ¿Qué le dirías para que descubra su propio camino?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "santos-jovenes-s2",
@@ -706,7 +757,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Santos de Chile",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/santos-jovenes/s2.md"
+     "archivo": "contenido/modulos/santos-jovenes/s2.md",
+     "debate": "**Caso: Los santos «de antes».** En la presentación sobre los santos chilenos, Amanda dice: «Son bonitas historias, pero de hace cien años. Hoy todo es distinto: hay redes sociales, presión, ansiedad. Ellos no entenderían lo que vivimos».\n\n- ¿Qué tiene razón Amanda? ¿En qué se equivoca?\n- ¿Qué dificultades vivieron estos santos que se parecen a las de hoy?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "santos-jovenes-s3",
@@ -715,7 +767,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Santos de la era digital y de la montaña",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/santos-jovenes/s3.md"
+     "archivo": "contenido/modulos/santos-jovenes/s3.md",
+     "debate": "**Caso: La racha en el celular.** Gaspar pasa más de seis horas diarias en el celular. Al conocer la historia de Carlo Acutis dice: «Él era raro; yo jamás podría dejar el celular».\n\n- ¿Carlo dejó la tecnología? ¿Qué hizo en cambio?\n- ¿Qué paso pequeño podría dar Gaspar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "santos-jovenes-s4",
@@ -724,7 +777,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Santos de nuestra tierra y de la vida cotidiana",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/santos-jovenes/s4.md"
+     "archivo": "contenido/modulos/santos-jovenes/s4.md",
+     "debate": "**Caso: «Eso era antes».** En el grupo, un joven dice: «Los santos eran de otra época. Hoy nadie puede vivir así». Otra joven le responde que Sandra Sabattini murió en 1984, cuando sus papás eran adolescentes.\n\n- ¿Qué responderías tú?\n- ¿Conoces a alguien hoy que viva el Evangelio de forma admirable?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "santos-jovenes-s5",
@@ -733,7 +787,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Testigos hasta el final y tu propio camino",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/santos-jovenes/s5.md"
+     "archivo": "contenido/modulos/santos-jovenes/s5.md",
+     "debate": "**Caso: El patrono.** Al terminar la formación, Isidora no sabe qué santo elegir como patrono. Le gustan varios y siente que ninguno se parece completamente a ella.\n\n- ¿Es necesario que el patrono sea igual a ella?\n- ¿Qué criterios podría usar para elegir?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "santos-jovenes-cierre",
@@ -763,7 +818,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "¿Para qué jugar?",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md",
+     "debate": "**Caso: El bautizo de los nuevos.** En un campamento, los dirigentes mayores proponen hacer el «bautizo» de los nuevos, como se ha hecho siempre: lanzarles harina, huevos y agua mientras les hacen preguntas.\n\n- ¿Por qué este tipo de rito no corresponde en un grupo cristiano?\n- ¿Qué alternativa propondrías para dar la bienvenida a los nuevos?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s2",
@@ -772,7 +828,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Diseñar y conducir una dinámica",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md",
+     "debate": "**Caso: La dinámica sin cierre.** En un encuentro sobre la confianza, el animador hace un juego muy entretenido de guías con ojos vendados. Cuando termina, dice: «Bueno, ahora pasemos al tema», y empieza una charla que no menciona el juego.\n\n- ¿Qué se perdió?\n- ¿Qué preguntas habrías hecho para unir el juego con el tema?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s3",
@@ -781,7 +838,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Banco de dinámicas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md",
+     "debate": "**Caso: Siempre la misma.** En el grupo de Agustín, todos los encuentros empiezan con el mismo juego desde hace dos años. Los jóvenes ya lo hacen con desgano.\n\n- ¿Qué le recomendarías a Agustín?\n- ¿Cómo podría involucrar a los jóvenes en elegir y proponer dinámicas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s4",
@@ -790,7 +848,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Animar una jornada completa",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md",
+     "debate": "**Caso: La charla después del almuerzo.** En una jornada, el equipo programa una charla de una hora justo después de almuerzo. A los diez minutos, la mitad del grupo está con el celular y varios se quedan dormidos.\n\n- ¿Qué falló en el diseño?\n- ¿Cómo reorganizarías esa parte de la jornada?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s5",
@@ -799,7 +858,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Grandes juegos, seguridad e inclusión",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md",
+     "debate": "**Caso: El juego nocturno.** En un campamento, los dirigentes organizan un juego nocturno en un bosque que no conocen bien. Dos jóvenes se separan de su equipo y se pierden durante media hora.\n\n- ¿Qué medidas de seguridad faltaron?\n- ¿Cómo debería organizarse un juego nocturno seguro?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-cierre",
@@ -829,7 +889,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Comunicar con sentido",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md"
+     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md",
+     "debate": "**Caso: La cadena.** Al grupo de WhatsApp de los jóvenes llega una cadena que dice que, si no se reenvía a diez personas, «la Virgen no te va a proteger». Varios la reenvían «por si acaso».\n\n- ¿Qué problema tiene esta cadena desde la fe y desde la verdad?\n- ¿Qué podría hacer el administrador del grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s2",
@@ -838,7 +899,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Crear buenos contenidos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md"
+     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md",
+     "debate": "**Caso: El afiche imposible.** El afiche del retiro tiene seis tipografías, diez colores, tres fotos superpuestas, la dirección escrita en letra muy pequeña y la fecha escondida en una esquina. Nadie se inscribe.\n\n- ¿Qué principios de diseño no se respetaron?\n- ¿Cómo lo rediseñarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s3",
@@ -847,7 +909,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Cuidar a las personas en lo digital",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md"
+     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md",
+     "debate": "**Caso: La foto del campamento.** Después del campamento, un dirigente publica en su cuenta personal un álbum con cincuenta fotos, varias de niños en la piscina, etiquetados con su nombre y con la ubicación del lugar.\n\n- ¿Qué reglas de cuidado no se cumplieron?\n- ¿Qué debería hacerse ahora?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s4",
@@ -856,7 +919,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Contar un evento",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md"
+     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md",
+     "debate": "**Caso: La foto viral.** Durante una jornada, un joven sube una historia con un video gracioso de un niño de 9 años que se cae. El video se comparte mucho. La mamá del niño escribe molesta a la parroquia.\n\n- ¿Qué falló?\n- ¿Qué hay que hacer ahora?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s5",
@@ -865,7 +929,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Un plan de comunicación",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md"
+     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md",
+     "debate": "**Caso: La cuenta abandonada.** El grupo creó una cuenta en redes con mucho entusiasmo. Publicaron todos los días durante un mes y después nadie más se hizo cargo. La última publicación tiene ocho meses.\n\n- ¿Qué les faltó?\n- ¿Cómo evitarían que vuelva a pasar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-cierre",
@@ -895,7 +960,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "¿Qué son los primeros auxilios psicológicos?",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s1.md"
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s1.md",
+     "debate": "**Caso: El que siempre da consejos.** Después de un encuentro, una joven del grupo se pone a llorar porque sus padres se están separando. Un dirigente se sienta a su lado y, durante media hora, le cuenta cómo él vivió la separación de sus padres y le da diez consejos.\n\n- ¿Qué tenía de bueno la intención del dirigente?\n- ¿Qué habría sido más útil para la joven?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-psicologicos-s2",
@@ -904,7 +970,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "El protocolo ABCD",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s2.md"
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s2.md",
+     "debate": "**Caso: La noticia.** En medio de una jornada, Ignacio recibe un mensaje: su abuela fue trasladada de urgencia al hospital. Se pone pálido, empieza a respirar muy rápido y no sabe qué hacer. Tú estás a su lado.\n\n- ¿Cómo aplicarías cada letra del protocolo ABCD?\n- ¿A quién avisarías y en qué momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-psicologicos-s3",
@@ -913,7 +980,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Situaciones difíciles",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s3.md"
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s3.md",
+     "debate": "**Caso: El mensaje de noche.** A las once de la noche, un compañero del grupo te escribe: «Ya no aguanto más, creo que lo mejor sería desaparecer». Después no responde más.\n\n- ¿Qué haces en ese momento?\n- ¿A quién llamas y en qué orden?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-psicologicos-s4",
@@ -922,7 +990,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Cuando todo el grupo vive una crisis",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s4.md"
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s4.md",
+     "debate": "**Caso: El campamento.** En un campamento de verano, un joven sufre un accidente grave y es trasladado al hospital. El resto del grupo queda en el lugar, asustado, mientras corren versiones distintas por WhatsApp.\n\n- ¿Qué harías en las primeras horas?\n- ¿Cómo acompañarías al grupo en los días siguientes?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-psicologicos-s5",
@@ -931,7 +1000,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Cuidar al que cuida",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s5.md"
+     "archivo": "contenido/modulos/primeros-auxilios-psicologicos/s5.md",
+     "debate": "**Caso: La dirigente que no duerme.** Fernanda acompañó a una compañera del grupo durante una crisis muy fuerte. Ya pasaron dos semanas y la compañera está con ayuda profesional, pero Fernanda no puede dejar de pensar en eso, duerme mal y siente que debió hacer más.\n\n- ¿Qué le está pasando a Fernanda?\n- ¿Qué le recomendarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-psicologicos-cierre",
@@ -961,7 +1031,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Planificar la logística",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s1.md"
+     "archivo": "contenido/modulos/logistica/s1.md",
+     "debate": "**Caso: El retiro sin pan.** En un retiro de jóvenes, el sábado en la mañana descubren que nadie compró pan para el desayuno. Cada uno pensaba que lo haría otro.\n\n- ¿Qué falló?\n- ¿Cómo lo habría evitado una lista maestra?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s2",
@@ -970,7 +1041,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Alimentación: menús, cantidades y manipulación segura",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s2.md"
+     "archivo": "contenido/modulos/logistica/s2.md",
+     "debate": "**Caso: El pollo del día anterior.** Para ahorrar tiempo, el equipo cocina el pollo el viernes en la noche y lo deja en ollas en la cocina del local, sin refrigerador, para servirlo el sábado al almuerzo.\n\n- ¿Qué riesgo hay?\n- ¿Cómo se podría organizar mejor?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s3",
@@ -979,7 +1051,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Materiales e insumos: inventario, bodega y reposición",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s3.md"
+     "archivo": "contenido/modulos/logistica/s3.md",
+     "debate": "**Caso: Las tres cajas de plumones.** Antes de un retiro, tres dirigentes compran plumones por su cuenta porque no saben que en la bodega hay dos cajas sin abrir. Al mismo tiempo, falta el parlante, que alguien se llevó hace meses.\n\n- ¿Qué problemas muestra este caso?\n- ¿Qué sistema los habría evitado?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s4",
@@ -988,7 +1061,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s4.md"
+     "archivo": "contenido/modulos/logistica/s4.md",
+     "debate": "**Caso: El bus que no llegó.** El día de la salida del campamento, el bus contratado por un conocido no llega. Hay 40 jóvenes y sus familias esperando en la puerta de la parroquia.\n\n- ¿Qué falló en la planificación?\n- ¿Qué harías en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s5",
@@ -997,7 +1071,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Presupuesto, compras y rendición de cuentas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s5.md"
+     "archivo": "contenido/modulos/logistica/s5.md",
+     "debate": "**Caso: El saldo perdido.** Después de un campamento, quedaron $80.000 de saldo. Nadie sabe dónde están: el tesorero dice que los gastó en cosas del grupo, pero no tiene boletas.\n\n- ¿Qué falló?\n- ¿Qué normas pondrías para el próximo año?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-cierre",

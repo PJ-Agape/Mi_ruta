@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La fe que se hace caridad",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s1.md"
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s1.md",
+     "debate": "**Caso: Pasar de largo.** Camino al colegio, Ignacio ve todos los días a un hombre durmiendo en una plaza. Al principio le llamaba la atención; ahora ya ni lo mira.\n\n- ¿Por qué crees que nos acostumbramos al dolor ajeno?\n- ¿Qué podría hacer Ignacio de manera segura y concreta?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "voluntariado-y-doctrina-social-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Los principios de la doctrina social",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s2.md"
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s2.md",
+     "debate": "**Caso: «La política no es para cristianos».** En una conversación del grupo, alguien dice que los cristianos deben preocuparse solo de rezar y ayudar a los pobres, pero no meterse en temas sociales ni políticos porque «eso divide».\n\n- ¿Qué diría la doctrina social de la Iglesia?\n- ¿Cómo se puede comprometer con lo social sin convertir el grupo en un espacio partidista?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "voluntariado-y-doctrina-social-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Servir bien",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s3.md"
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s3.md",
+     "debate": "**Caso: La entrega de Navidad.** Un grupo juvenil organiza una entrega de regalos en Navidad en una población. Llegan con música, reparten bolsas, se sacan muchas fotos con los niños y se van en una hora. No vuelven en todo el año.\n\n- ¿Qué tiene de valioso esta acción?\n- ¿Qué podría mejorar según los criterios de esta unidad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "voluntariado-y-doctrina-social-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Dónde y cómo servir",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s4.md"
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s4.md",
+     "debate": "**Caso: El entusiasmo de marzo.** Un grupo de jóvenes se inscribe en marzo en un apoyo escolar para niños del barrio. En mayo ya van la mitad, y en julio quedan dos. Los niños preguntan por qué los demás no volvieron.\n\n- ¿Qué pudo haber fallado?\n- ¿Cómo podrían haber elegido y organizado mejor su compromiso?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "voluntariado-y-doctrina-social-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Un proyecto solidario",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s5.md"
+     "archivo": "contenido/modulos/voluntariado-y-doctrina-social/s5.md",
+     "debate": "**Caso: El proyecto gigante.** El grupo decide «terminar con el hambre en la comuna» y planifica diez actividades distintas en un mes. A las dos semanas, están agotados y solo han hecho una.\n\n- ¿Qué falló en el diseño del proyecto?\n- ¿Cómo reformularías el objetivo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "voluntariado-y-doctrina-social-cierre",
@@ -87,7 +92,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La creación, un regalo",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ecologia-integral/s1.md"
+     "archivo": "contenido/modulos/ecologia-integral/s1.md",
+     "debate": "**Caso: El paseo de curso.** En un paseo de curso a la playa, al terminar el día queda basura por todas partes: botellas, envoltorios, colillas. Nadie se hace cargo porque «para eso está la municipalidad».\n\n- ¿Qué actitud frente a la creación muestra esta situación?\n- ¿Qué podría hacer un joven cristiano en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ecologia-integral-s2",
@@ -96,7 +102,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Todo está conectado",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ecologia-integral/s2.md"
+     "archivo": "contenido/modulos/ecologia-integral/s2.md",
+     "debate": "**Caso: «Eso es tema de científicos».** En el grupo, alguien dice: «Esto del medio ambiente es tema de científicos y políticos. ¿Qué tiene que ver con la fe?».\n\n- ¿Qué responderías usando lo aprendido en esta unidad?\n- ¿Por qué el papa escribió una encíclica sobre este tema?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ecologia-integral-s3",
@@ -105,7 +112,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Ecología de la vida cotidiana",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ecologia-integral/s3.md"
+     "archivo": "contenido/modulos/ecologia-integral/s3.md",
+     "debate": "**Caso: La plaza de los columpios rotos.** Frente a la capilla hay una plaza con columpios rotos y basura. Los niños ya no van y los adultos dicen que es peligrosa. El grupo juvenil se pregunta si es su problema.\n\n- ¿Es tarea del grupo hacer algo?\n- ¿Qué primer paso podrían dar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ecologia-integral-s4",
@@ -114,7 +122,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Conversión ecológica",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ecologia-integral/s4.md"
+     "archivo": "contenido/modulos/ecologia-integral/s4.md",
+     "debate": "**Caso: La moda rápida.** Javiera compra ropa nueva casi todas las semanas por internet porque es barata. Usa cada prenda unas pocas veces y luego la bota. Dice que no tiene nada de malo porque «es su plata».\n\n- ¿Qué consecuencias tiene este hábito para la creación y para otras personas?\n- ¿Qué alternativas podría considerar Javiera?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ecologia-integral-s5",
@@ -123,7 +132,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Un proyecto por la casa común",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/ecologia-integral/s5.md"
+     "archivo": "contenido/modulos/ecologia-integral/s5.md",
+     "debate": "**Caso: El reciclaje que no funcionó.** El grupo instaló contenedores de reciclaje en la parroquia, pero nadie explicó qué iba en cada uno. A las dos semanas estaban todos mezclados y la empresa recolectora no los quiso llevar.\n\n- ¿Qué paso del proyecto faltó?\n- ¿Cómo lo resolverías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "ecologia-integral-cierre",
@@ -155,7 +165,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Enviados",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/misiones-juveniles/s1.md"
+     "archivo": "contenido/modulos/misiones-juveniles/s1.md",
+     "debate": "**Caso: Las fotos.** En la misión del año pasado, varios jóvenes publicaron fotos con niños de la localidad y comentarios como «tan pobres pero tan felices». Algunas familias se molestaron al verlas.\n\n- ¿Qué problema hay en esas publicaciones?\n- ¿Qué criterios debería acordar el grupo para este año?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "misiones-juveniles-s2",
@@ -164,7 +175,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Preparar la misión",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/misiones-juveniles/s2.md"
+     "archivo": "contenido/modulos/misiones-juveniles/s2.md",
+     "debate": "**Caso: La autorización que faltó.** A dos días de partir, el jefe de misión se da cuenta de que tres menores de edad no han entregado la autorización firmada de sus padres. Uno de ellos insiste: «Mi mamá me dio permiso por WhatsApp, da lo mismo».\n\n- ¿Por qué no da lo mismo?\n- ¿Qué debería hacer el jefe de misión?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "misiones-juveniles-s3",
@@ -173,7 +185,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Anunciar a Jesús",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/misiones-juveniles/s3.md"
+     "archivo": "contenido/modulos/misiones-juveniles/s3.md",
+     "debate": "**Caso: La puerta que se cierra.** En la primera casa, un señor les dice molesto que no cree en nada y que la Iglesia le ha hecho daño. Uno de los misioneros quiere responderle con argumentos; la otra se queda callada.\n\n- ¿Qué harías tú?\n- ¿Cómo se puede respetar a esa persona y, aun así, dejar una puerta abierta?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "misiones-juveniles-s4",
@@ -182,7 +195,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "En terreno",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/misiones-juveniles/s4.md"
+     "archivo": "contenido/modulos/misiones-juveniles/s4.md",
+     "debate": "**Caso: La señora que no quería rezar.** En una visita, una señora mayor les dice a Florencia y Andrés que está enojada con Dios porque su hijo murió el año pasado. No quiere rezar ni ir a la misa de la misión.\n\n- ¿Qué deberían hacer Florencia y Andrés?\n- ¿Qué no deberían decir?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "misiones-juveniles-s5",
@@ -191,7 +205,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Volver y continuar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/misiones-juveniles/s5.md"
+     "archivo": "contenido/modulos/misiones-juveniles/s5.md",
+     "debate": "**Caso: El bajón.** Después de una misión muy intensa, Vicente vuelve a su casa y siente un vacío enorme. Extraña al grupo y la sensación de hacer algo importante. En su casa y en el colegio todo le parece aburrido.\n\n- ¿Es normal lo que siente Vicente?\n- ¿Qué podría ayudarle a continuar la misión en su vida diaria?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "misiones-juveniles-cierre",
@@ -223,7 +238,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Planificar la logística",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s1.md"
+     "archivo": "contenido/modulos/logistica/s1.md",
+     "debate": "**Caso: El retiro sin pan.** En un retiro de jóvenes, el sábado en la mañana descubren que nadie compró pan para el desayuno. Cada uno pensaba que lo haría otro.\n\n- ¿Qué falló?\n- ¿Cómo lo habría evitado una lista maestra?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s2",
@@ -232,7 +248,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Alimentación: menús, cantidades y manipulación segura",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s2.md"
+     "archivo": "contenido/modulos/logistica/s2.md",
+     "debate": "**Caso: El pollo del día anterior.** Para ahorrar tiempo, el equipo cocina el pollo el viernes en la noche y lo deja en ollas en la cocina del local, sin refrigerador, para servirlo el sábado al almuerzo.\n\n- ¿Qué riesgo hay?\n- ¿Cómo se podría organizar mejor?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s3",
@@ -241,7 +258,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Materiales e insumos: inventario, bodega y reposición",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s3.md"
+     "archivo": "contenido/modulos/logistica/s3.md",
+     "debate": "**Caso: Las tres cajas de plumones.** Antes de un retiro, tres dirigentes compran plumones por su cuenta porque no saben que en la bodega hay dos cajas sin abrir. Al mismo tiempo, falta el parlante, que alguien se llevó hace meses.\n\n- ¿Qué problemas muestra este caso?\n- ¿Qué sistema los habría evitado?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s4",
@@ -250,7 +268,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Lugares y traslados: alojamiento, transporte y permisos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s4.md"
+     "archivo": "contenido/modulos/logistica/s4.md",
+     "debate": "**Caso: El bus que no llegó.** El día de la salida del campamento, el bus contratado por un conocido no llega. Hay 40 jóvenes y sus familias esperando en la puerta de la parroquia.\n\n- ¿Qué falló en la planificación?\n- ¿Qué harías en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-s5",
@@ -259,7 +278,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Presupuesto, compras y rendición de cuentas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/logistica/s5.md"
+     "archivo": "contenido/modulos/logistica/s5.md",
+     "debate": "**Caso: El saldo perdido.** Después de un campamento, quedaron $80.000 de saldo. Nadie sabe dónde están: el tesorero dice que los gastó en cosas del grupo, pero no tiene boletas.\n\n- ¿Qué falló?\n- ¿Qué normas pondrías para el próximo año?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "logistica-cierre",
@@ -291,7 +311,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Una cultura del buen trato",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s1.md",
+     "debate": "**Caso: El dirigente indispensable.** En un grupo, todo gira en torno a un dirigente muy carismático. Todos lo admiran, nadie lo contradice, organiza actividades sin informar a los asesores y tiene conversaciones privadas con varios jóvenes por chat.\n\n- ¿Qué señales de riesgo hay en esta situación, aunque no haya ocurrido nada malo?\n- ¿Qué debería hacer el equipo de asesores?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s2",
@@ -300,7 +321,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Ambientes seguros",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s2.md",
+     "debate": "**Caso: «Te llevo a tu casa».** Termina una actividad de noche y una joven de 14 años no tiene cómo volver. Un dirigente de 22 años le ofrece llevarla solo en su auto, «porque queda de camino».\n\n- ¿Qué regla está en juego?\n- ¿Qué alternativas tiene el grupo para resolver la situación de manera segura?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s3",
@@ -309,7 +331,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Escuchar y actuar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s3.md",
+     "debate": "**Caso: La promesa.** Un joven de 15 años le cuenta a Andrea, dirigente de 18, que una persona adulta de su entorno lo hace sentir muy incómodo y le pide guardar secretos. Le ruega que no se lo diga a nadie porque tiene miedo.\n\n- ¿Qué debe responderle Andrea en ese momento?\n- ¿A quién debe avisar y cuándo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s4",
@@ -318,7 +341,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Reparar y acompañar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s4.md",
+     "debate": "**Caso: El rumor.** En la parroquia se comienza a comentar que hubo una denuncia contra un adulto que trabajaba con jóvenes. En el grupo de WhatsApp aparecen nombres, opiniones y defensas apasionadas.\n\n- ¿Qué daño puede causar esta conversación?\n- ¿Qué deberían hacer los dirigentes del grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-s5",
@@ -327,7 +351,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Cuidarnos entre todos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md"
+     "archivo": "contenido/modulos/buen-trato-y-prevencion/s5.md",
+     "debate": "**Caso: El sticker.** En el grupo de WhatsApp de los jóvenes de la parroquia, alguien comparte un sticker con la cara de un compañero para burlarse de él. Varios lo reenvían y se ríen. El afectado sale del grupo.\n\n- ¿Qué tipo de situación es esta?\n- ¿Qué podrían hacer los demás jóvenes y los dirigentes?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "buen-trato-y-prevencion-cierre",
@@ -357,7 +382,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Antes de actuar",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s1.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s1.md",
+     "debate": "**Caso: Todos miran.** Durante un partido en una convivencia, un joven cae y se golpea la cabeza. Se forma un círculo de veinte personas alrededor. Todos opinan, nadie llama y alguien intenta levantarlo de inmediato.\n\n- ¿Qué errores se están cometiendo?\n- ¿Cómo debería organizarse el grupo en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s2",
@@ -366,7 +392,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Emergencias que ponen en riesgo la vida",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s2.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s2.md",
+     "debate": "**Caso: El abuelo en la misa.** Durante la misa del domingo, un señor mayor se desploma en su banca. No responde. Algunos jóvenes que sirven en la misa están cerca y no saben qué hacer.\n\n- ¿Cuáles son los primeros tres pasos?\n- ¿Cómo se pueden repartir las tareas entre varias personas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s3",
@@ -375,7 +402,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Lesiones frecuentes en actividades",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s3.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s3.md",
+     "debate": "**Caso: La pasta de dientes.** En un campamento, una joven se quema la mano con agua caliente al cocinar. Otra participante le dice que se ponga pasta de dientes porque «así se hace en su casa».\n\n- ¿Qué es lo correcto en este caso?\n- ¿Cuándo habría que buscar atención médica?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s4",
@@ -384,7 +412,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Situaciones médicas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s4.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s4.md",
+     "debate": "**Caso: El inhalador olvidado.** En una caminata, un joven con asma empieza a tener dificultad para respirar. Su inhalador quedó en la mochila, en el bus, a media hora de distancia. Nadie sabía que tenía asma.\n\n- ¿Qué falló en la preparación de la actividad?\n- ¿Qué hacer en ese momento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-s5",
@@ -393,7 +422,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Prevenir: actividades seguras",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/primeros-auxilios/s5.md"
+     "archivo": "contenido/modulos/primeros-auxilios/s5.md",
+     "debate": "**Caso: La salida improvisada.** Un sábado soleado, el grupo decide ir de improviso a un río cercano. Nadie lleva botiquín, no hay autorizaciones y solo un dirigente de 18 años acompaña a quince jóvenes.\n\n- ¿Qué riesgos ves?\n- ¿Qué habría que preparar para hacer esa salida de forma segura?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "primeros-auxilios-cierre",
@@ -423,7 +453,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "¿Para qué jugar?",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s1.md",
+     "debate": "**Caso: El bautizo de los nuevos.** En un campamento, los dirigentes mayores proponen hacer el «bautizo» de los nuevos, como se ha hecho siempre: lanzarles harina, huevos y agua mientras les hacen preguntas.\n\n- ¿Por qué este tipo de rito no corresponde en un grupo cristiano?\n- ¿Qué alternativa propondrías para dar la bienvenida a los nuevos?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s2",
@@ -432,7 +463,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Diseñar y conducir una dinámica",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s2.md",
+     "debate": "**Caso: La dinámica sin cierre.** En un encuentro sobre la confianza, el animador hace un juego muy entretenido de guías con ojos vendados. Cuando termina, dice: «Bueno, ahora pasemos al tema», y empieza una charla que no menciona el juego.\n\n- ¿Qué se perdió?\n- ¿Qué preguntas habrías hecho para unir el juego con el tema?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s3",
@@ -441,7 +473,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Banco de dinámicas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s3.md",
+     "debate": "**Caso: Siempre la misma.** En el grupo de Agustín, todos los encuentros empiezan con el mismo juego desde hace dos años. Los jóvenes ya lo hacen con desgano.\n\n- ¿Qué le recomendarías a Agustín?\n- ¿Cómo podría involucrar a los jóvenes en elegir y proponer dinámicas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s4",
@@ -450,7 +483,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Animar una jornada completa",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s4.md",
+     "debate": "**Caso: La charla después del almuerzo.** En una jornada, el equipo programa una charla de una hora justo después de almuerzo. A los diez minutos, la mitad del grupo está con el celular y varios se quedan dormidos.\n\n- ¿Qué falló en el diseño?\n- ¿Cómo reorganizarías esa parte de la jornada?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-s5",
@@ -459,7 +493,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Grandes juegos, seguridad e inclusión",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md"
+     "archivo": "contenido/modulos/dinamicas-y-juegos/s5.md",
+     "debate": "**Caso: El juego nocturno.** En un campamento, los dirigentes organizan un juego nocturno en un bosque que no conocen bien. Dos jóvenes se separan de su equipo y se pierden durante media hora.\n\n- ¿Qué medidas de seguridad faltaron?\n- ¿Cómo debería organizarse un juego nocturno seguro?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "dinamicas-y-juegos-cierre",

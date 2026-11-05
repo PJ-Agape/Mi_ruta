@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Libros, canon y versiones",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-1/s1.md"
+     "archivo": "contenido/modulos/se-1/s1.md",
+     "debate": "**Caso: La Biblia del vecino.** Un joven de tu grupo trae la Biblia de un vecino evangélico y nota que le faltan libros. Pregunta, preocupado, cuál es la verdadera.\n\n- ¿Cómo le explicarías la diferencia?\n- ¿Cómo hacerlo con respeto hacia los hermanos evangélicos?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-1-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "La historia de Israel: de los patriarcas al exilio",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-1/s2.md"
+     "archivo": "contenido/modulos/se-1/s2.md",
+     "debate": "**Caso: «¿Esto pasó de verdad?».** Un catequizando pregunta si las historias de Abraham y Moisés son reales o «cuentos».\n\n- ¿Cómo le explicarías la relación entre historia y fe en estos relatos?\n- ¿Qué no deberías decirle?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-1-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Del exilio a Jesús",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-1/s3.md"
+     "archivo": "contenido/modulos/se-1/s3.md",
+     "debate": "**Caso: La fiesta de Janucá.** Un joven ve en una serie una celebración judía con un candelabro de nueve brazos y pregunta si tiene algo que ver con la Biblia.\n\n- ¿Qué le contarías?\n- ¿Dónde aparece esta historia en la Biblia católica?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-1-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Cómo se formó el Antiguo Testamento",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-1/s4.md"
+     "archivo": "contenido/modulos/se-1/s4.md",
+     "debate": "**Caso: El mundo en seis días.** Un joven dice que no puede creer en la Biblia porque dice que el mundo se hizo en seis días y la ciencia habla de miles de millones de años.\n\n- ¿Qué tiene que ver el género literario con esta pregunta?\n- ¿Cómo responderías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-1-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Leer el Antiguo Testamento como cristianos",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-1/s5.md"
+     "archivo": "contenido/modulos/se-1/s5.md",
+     "debate": "**Caso: «Ese Dios no me gusta».** En un grupo de estudio bíblico, una joven dice que después de leer Josué prefiere no leer más el Antiguo Testamento porque Dios parece violento.\n\n- ¿Qué criterios le ofrecerías?\n- ¿Qué textos del Antiguo Testamento le recomendarías para equilibrar su mirada?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-1-cierre",
@@ -85,7 +90,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "El mundo de Jesús",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-2/s1.md"
+     "archivo": "contenido/modulos/se-2/s1.md",
+     "debate": "**Caso: Los fariseos malos.** En la catequesis, un niño dice que los fariseos eran «los malos» del evangelio.\n\n- ¿Qué hay de cierto y qué de injusto en esa idea?\n- ¿Cómo presentar a los fariseos con justicia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-2-s2",
@@ -94,7 +100,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "De Jesús a los evangelios",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-2/s2.md"
+     "archivo": "contenido/modulos/se-2/s2.md",
+     "debate": "**Caso: «Los evangelios se contradicen».** Un joven universitario dice que los evangelios no son confiables porque cuentan las cosas de forma distinta.\n\n- ¿Qué le responderías?\n- ¿Qué ejemplo usarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-2-s3",
@@ -103,7 +110,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Los libros del Nuevo Testamento",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-2/s3.md"
+     "archivo": "contenido/modulos/se-2/s3.md",
+     "debate": "**Caso: El evangelio secreto.** Un joven vio un documental sobre un «evangelio secreto» que, según el programa, la Iglesia escondió.\n\n- ¿Qué sabes de los apócrifos?\n- ¿Cómo responderías sin descalificar su curiosidad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-2-s4",
@@ -112,7 +120,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Las primeras comunidades",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-2/s4.md"
+     "archivo": "contenido/modulos/se-2/s4.md",
+     "debate": "**Caso: La comunidad dividida.** En una parroquia, un grupo antiguo y un grupo nuevo discuten sobre cómo deben hacerse las cosas. Cada uno se siente el verdadero.\n\n- ¿Qué enseña el concilio de Jerusalén para esta situación?\n- ¿Qué pasos podrían dar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-2-s5",
@@ -121,7 +130,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Cómo leer el Nuevo Testamento hoy",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-2/s5.md"
+     "archivo": "contenido/modulos/se-2/s5.md",
+     "debate": "**Caso: El versículo de WhatsApp.** En el chat familiar circula un versículo del Apocalipsis usado para anunciar que el fin del mundo será el próximo mes.\n\n- ¿Qué errores de interpretación hay?\n- ¿Cómo responderías con caridad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-2-cierre",
@@ -153,7 +163,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La cuestión sinóptica",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-3/s1.md"
+     "archivo": "contenido/modulos/se-3/s1.md",
+     "debate": "**Caso: «¿Cuál es el correcto?».** Al comparar los relatos de la tempestad, un participante pregunta cuál de los tres relatos es «el correcto».\n\n- ¿Cómo responderías?\n- ¿Qué aprendemos de las diferencias?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-3-s2",
@@ -162,7 +173,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Marcos: el evangelio del discípulo",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-3/s2.md"
+     "archivo": "contenido/modulos/se-3/s2.md",
+     "debate": "**Caso: El catequista que no sabe.** Un catequista confiesa que muchas veces no entiende los evangelios y siente que no debería enseñar.\n\n- ¿Qué le diría el evangelio de Marcos?\n- ¿Cómo podría seguir formándose?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-3-s3",
@@ -171,7 +183,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Mateo: Jesús, el Maestro y el Mesías de Israel",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-3/s3.md"
+     "archivo": "contenido/modulos/se-3/s3.md",
+     "debate": "**Caso: La corrección fraterna.** En un equipo de catequistas, uno llega siempre tarde y nadie le dice nada, pero todos lo critican a sus espaldas.\n\n- ¿Qué propone Mateo 18,15-17?\n- ¿Cómo aplicarlo con caridad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-3-s4",
@@ -180,7 +193,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Lucas: el evangelio de la misericordia",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-3/s4.md"
+     "archivo": "contenido/modulos/se-3/s4.md",
+     "debate": "**Caso: La fiesta del hermano mayor.** En el grupo juvenil vuelve un joven que se había alejado y tuvo problemas. Algunos dirigentes reclaman que «no es justo» recibirlo como si nada.\n\n- ¿Qué dice Lucas 15 a esos dirigentes?\n- ¿Cómo acogerlo bien sin ignorar lo que pasó?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-3-s5",
@@ -189,7 +203,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Hechos de los Apóstoles: el Espíritu impulsa la misión",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-3/s5.md"
+     "archivo": "contenido/modulos/se-3/s5.md",
+     "debate": "**Caso: La misión que da miedo.** Un grupo juvenil quiere hacer misión en un barrio difícil de su ciudad, pero varios dirigentes tienen miedo.\n\n- ¿Qué dirían los Hechos?\n- ¿Qué cuidados prudentes habría que tomar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-3-cierre",
@@ -221,7 +236,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "El Pentateuco: estructura y formación",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-4/s1.md"
+     "archivo": "contenido/modulos/se-4/s1.md",
+     "debate": "**Caso: Los dos relatos.** Un catequizando nota que en Génesis 1 el ser humano es creado al final y en Génesis 2, antes que los animales. Pregunta cuál es el verdadero.\n\n- ¿Cómo responderías?\n- ¿Qué enseña cada relato?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-4-s2",
@@ -230,7 +246,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Génesis 1–11: los orígenes",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-4/s2.md"
+     "archivo": "contenido/modulos/se-4/s2.md",
+     "debate": "**Caso: La manzana.** Un niño pregunta en la catequesis por qué Dios castigó a Adán por comerse una manzana.\n\n- ¿Qué hay que aclarar del texto?\n- ¿Cómo explicarías el sentido del relato?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-4-s3",
@@ -239,7 +256,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Génesis 12–50: los patriarcas",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-4/s3.md"
+     "archivo": "contenido/modulos/se-4/s3.md",
+     "debate": "**Caso: El favorito.** En una familia de tu grupo, los padres tienen un hijo preferido y los hermanos lo resienten.\n\n- ¿Qué enseña la historia de José?\n- ¿Cómo acompañarías a esa familia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-4-s4",
@@ -248,7 +266,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Éxodo: liberación y alianza",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-4/s4.md"
+     "archivo": "contenido/modulos/se-4/s4.md",
+     "debate": "**Caso: Los mandamientos como prohibiciones.** Un joven dice que la religión es «puros no». Cita los mandamientos como ejemplo.\n\n- ¿Cómo le presentarías el Decálogo desde Éxodo 20,2?\n- ¿Qué dijo Jesús sobre la Ley?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-4-s5",
@@ -257,7 +276,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Levítico, Números y Deuteronomio",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-4/s5.md"
+     "archivo": "contenido/modulos/se-4/s5.md",
+     "debate": "**Caso: «Libros aburridos».** En un grupo de estudio bíblico, varios dicen que el Levítico y los Números son aburridos e inútiles.\n\n- ¿Qué textos de estos libros les mostrarías?\n- ¿Cómo ayudarles a valorar la Ley?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-4-cierre",
@@ -289,7 +309,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "¿Qué es un profeta?",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-5/s1.md"
+     "archivo": "contenido/modulos/se-5/s1.md",
+     "debate": "**Caso: El profeta incómodo.** En la parroquia, una joven denuncia que una actividad excluye a los jóvenes con menos recursos. Algunos la acusan de ser conflictiva.\n\n- ¿Qué rasgos proféticos ves en ella?\n- ¿Cómo discernir una crítica profética de una simple queja?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-5-s2",
@@ -298,7 +319,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Los profetas del siglo VIII",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-5/s2.md"
+     "archivo": "contenido/modulos/se-5/s2.md",
+     "debate": "**Caso: Misa y justicia.** Un joven dice que en su parroquia hay muchas misas, pero nadie hace nada por las familias del campamento cercano.\n\n- ¿Qué diría Amós?\n- ¿Qué paso concreto podría dar el grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-5-s3",
@@ -307,7 +329,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Jeremías y la caída de Jerusalén",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-5/s3.md"
+     "archivo": "contenido/modulos/se-5/s3.md",
+     "debate": "**Caso: Dirigente cansado.** Un dirigente con años de servicio confiesa que ya no siente nada y que sigue solo por obligación.\n\n- ¿Qué le diría Jeremías?\n- ¿Qué acompañamiento necesita?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-5-s4",
@@ -316,7 +339,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Profetas del exilio: Ezequiel y el Segundo Isaías",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-5/s4.md"
+     "archivo": "contenido/modulos/se-5/s4.md",
+     "debate": "**Caso: La comunidad que se apaga.** Un grupo juvenil quedó con tres miembros y el ánimo por el suelo. Los dirigentes piensan cerrarlo.\n\n- ¿Qué diría Ezequiel 37?\n- ¿Qué pasos concretos podrían dar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-5-s5",
@@ -325,7 +349,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Profetas después del exilio y la esperanza mesiánica",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-5/s5.md"
+     "archivo": "contenido/modulos/se-5/s5.md",
+     "debate": "**Caso: El Jonás de hoy.** En el grupo, algunos no quieren invitar a jóvenes de un colegio rival porque «son pesados».\n\n- ¿Qué enseñanza tiene el libro de Jonás?\n- ¿Cómo lo aplicarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-5-cierre",
@@ -357,7 +382,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Pablo: vida y misión",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-6/s1.md"
+     "archivo": "contenido/modulos/se-6/s1.md",
+     "debate": "**Caso: El perseguidor.** Un joven del grupo se burlaba antes de los que iban a la parroquia y ahora quiere ser dirigente. Algunos desconfían de él.\n\n- ¿Qué enseña la historia de Pablo?\n- ¿Cómo acompañarlo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-6-s2",
@@ -366,7 +392,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Las cartas de Pablo: género, cronología y autoría",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-6/s2.md"
+     "archivo": "contenido/modulos/se-6/s2.md",
+     "debate": "**Caso: Filemón y Onésimo.** Un participante pregunta por qué Pablo no condenó directamente la esclavitud en la carta a Filemón.\n\n- ¿Qué dice realmente la carta?\n- ¿Qué semilla deja para el futuro?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-6-s3",
@@ -375,7 +402,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Gálatas y Romanos: justificados por la fe",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-6/s3.md"
+     "archivo": "contenido/modulos/se-6/s3.md",
+     "debate": "**Caso: La competencia espiritual.** En un grupo, algunos jóvenes comparan cuántas misas o retiros han hecho y miran en menos a los que hacen menos.\n\n- ¿Qué diría Pablo?\n- ¿Cómo orientarías al grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-6-s4",
@@ -384,7 +412,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Corintios: comunidad, carismas y amor",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-6/s4.md"
+     "archivo": "contenido/modulos/se-6/s4.md",
+     "debate": "**Caso: Los fans del dirigente.** En una parroquia, los jóvenes se dividen entre los que siguen a un dirigente carismático y los que siguen a otro.\n\n- ¿Qué diría Pablo en 1 Corintios 1–3?\n- ¿Qué podrían hacer los dirigentes?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-6-s5",
@@ -393,7 +422,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Filipenses, Tesalonicenses y la esperanza",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-6/s5.md"
+     "archivo": "contenido/modulos/se-6/s5.md",
+     "debate": "**Caso: El dirigente joven.** Una dirigente de 17 años siente que los adultos de la parroquia no la toman en serio.\n\n- ¿Qué le dice 1 Timoteo 4,12?\n- ¿Qué le pide a ella el mismo texto?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-6-cierre",
@@ -425,7 +455,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La sabiduría en Israel",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-7/s1.md"
+     "archivo": "contenido/modulos/se-7/s1.md",
+     "debate": "**Caso: Sabiduría de abuela.** En la catequesis, un niño dice que su abuela siempre dice refranes. El catequista quiere aprovecharlo.\n\n- ¿Cómo podría conectar los refranes con Proverbios?\n- ¿Qué actividad propondrías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-7-s2",
@@ -434,7 +465,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Los Salmos: la oración de Israel y de la Iglesia",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-7/s2.md"
+     "archivo": "contenido/modulos/se-7/s2.md",
+     "debate": "**Caso: El salmo de la venganza.** En un retiro, una joven que sufrió acoso lee el Salmo 58 y dice que siente que expresa lo que ella siente.\n\n- ¿Cómo acompañarías ese momento?\n- ¿Qué enseña la Iglesia sobre estos salmos?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-7-s3",
@@ -443,7 +475,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Proverbios y Eclesiástico: sabiduría para la vida cotidiana",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-7/s3.md"
+     "archivo": "contenido/modulos/se-7/s3.md",
+     "debate": "**Caso: El grupo de WhatsApp.** En el grupo juvenil, un comentario en el chat genera una pelea que dura días.\n\n- ¿Qué proverbios sobre la lengua podrían ayudar?\n- ¿Cómo los usarías sin moralizar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-7-s4",
@@ -452,7 +485,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Job y Eclesiastés: las preguntas difíciles",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-7/s4.md"
+     "archivo": "contenido/modulos/se-7/s4.md",
+     "debate": "**Caso: La explicación que duele.** En el funeral de un joven, alguien dice a la madre que «Dios necesitaba otro ángel».\n\n- ¿Qué diría el libro de Job?\n- ¿Qué podrías decir o hacer tú?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-7-s5",
@@ -461,7 +495,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Cantar de los Cantares y Sabiduría: el amor y la vida inmortal",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-7/s5.md"
+     "archivo": "contenido/modulos/se-7/s5.md",
+     "debate": "**Caso: La risa nerviosa.** Al leer un texto del Cantar en el grupo, varios jóvenes se ríen nerviosos y otros se incomodan.\n\n- ¿Cómo manejarías ese momento?\n- ¿Qué te ayudaría a presentar el texto con naturalidad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-7-cierre",
@@ -493,7 +528,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "El cuarto evangelio: autor, comunidad y propósito",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-8/s1.md"
+     "archivo": "contenido/modulos/se-8/s1.md",
+     "debate": "**Caso: «Juan inventó cosas».** Un participante dice que Juan no es confiable porque cuenta cosas distintas que los otros.\n\n- ¿Cómo explicarías el estilo de Juan?\n- ¿Qué aporta su mirada?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-8-s2",
@@ -502,7 +538,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "El prólogo y los signos",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-8/s2.md"
+     "archivo": "contenido/modulos/se-8/s2.md",
+     "debate": "**Caso: «¿Por qué Jesús no hace milagros hoy?».** Un adolescente pregunta en la catequesis por qué Jesús no hace hoy milagros como en el evangelio.\n\n- ¿Qué enseña el concepto de signo?\n- ¿Dónde podemos ver hoy signos de Dios?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-8-s3",
@@ -511,7 +548,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Los discursos y los «Yo soy»",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-8/s3.md"
+     "archivo": "contenido/modulos/se-8/s3.md",
+     "debate": "**Caso: El grupo que se queda sin gente.** Después de un retiro exigente, varios jóvenes dejan el grupo. Los dirigentes se preguntan si fueron demasiado exigentes.\n\n- ¿Qué enseña Juan 6,60-69?\n- ¿Cómo discernir entre exigencia evangélica y dureza?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-8-s4",
@@ -520,7 +558,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "El libro de la gloria: pasión y resurrección",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-8/s4.md"
+     "archivo": "contenido/modulos/se-8/s4.md",
+     "debate": "**Caso: La duda de Tomás.** Un joven confirmado dice que tiene muchas dudas de fe y que se siente mal por eso.\n\n- ¿Qué aporta el relato de Tomás?\n- ¿Cómo lo acompañarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-8-s5",
@@ -529,7 +568,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Las cartas de Juan: Dios es amor",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-8/s5.md"
+     "archivo": "contenido/modulos/se-8/s5.md",
+     "debate": "**Caso: El servicio sin amor.** Un dirigente organiza todo perfectamente, pero trata mal a los jóvenes y a sus compañeros.\n\n- ¿Qué diría la primera carta de Juan?\n- ¿Cómo se lo dirías tú?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-8-cierre",
@@ -561,7 +601,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "La Carta a los Hebreos: Cristo, sumo sacerdote",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-9/s1.md"
+     "archivo": "contenido/modulos/se-9/s1.md",
+     "debate": "**Caso: El joven que quiere dejar todo.** Un dirigente de 19 años dice que está cansado y quiere dejar el grupo y la Iglesia.\n\n- ¿Qué le diría la Carta a los Hebreos?\n- ¿Cómo lo acompañarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-9-s2",
@@ -570,7 +611,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Hebreos: la nueva alianza y la fe que persevera",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-9/s2.md"
+     "archivo": "contenido/modulos/se-9/s2.md",
+     "debate": "**Caso: La carrera.** Un grupo de dirigentes está desanimado porque trabajan mucho y no ven frutos.\n\n- ¿Qué les diría Hebreos 11–12?\n- ¿Qué testigos podrían recordarles?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-9-s3",
@@ -579,7 +621,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "El Apocalipsis: género y claves de lectura",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-9/s3.md"
+     "archivo": "contenido/modulos/se-9/s3.md",
+     "debate": "**Caso: El video del fin del mundo.** Un joven comparte un video que asegura que los acontecimientos actuales cumplen el Apocalipsis y que el fin llegará pronto. Varios del grupo están asustados.\n\n- ¿Qué claves de lectura les darías?\n- ¿Cómo transmitir la esperanza del libro?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-9-s4",
@@ -588,7 +631,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Apocalipsis: el Cordero y la Iglesia perseguida",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-9/s4.md"
+     "archivo": "contenido/modulos/se-9/s4.md",
+     "debate": "**Caso: La comunidad tibia.** En una parroquia todo funciona, pero nadie se entusiasma: «ni frío ni caliente».\n\n- ¿Qué dice la carta a Laodicea?\n- ¿Qué podría reavivar el primer amor?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-9-s5",
@@ -597,7 +641,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "Apocalipsis: cielo nuevo y tierra nueva",
      "tiempo": "90 min de clase + 3 h 30 min de estudio",
-     "archivo": "contenido/modulos/se-9/s5.md"
+     "archivo": "contenido/modulos/se-9/s5.md",
+     "debate": "**Caso: «El cielo es aburrido».** Un joven dice que no le interesa el cielo porque se lo imagina como estar sentado en una nube cantando para siempre.\n\n- ¿Qué imágenes del Apocalipsis ofrecerías?\n- ¿Cómo explicarías la vida eterna como plenitud?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "se-9-cierre",

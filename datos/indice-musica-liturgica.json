@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Cantar la misa, no cantar en la misa",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/musica-liturgica/s1.md"
+     "archivo": "contenido/modulos/musica-liturgica/s1.md",
+     "debate": "**Caso: El concierto.** El coro juvenil de una parroquia canta muy bien. Elige canciones con arreglos complejos que la comunidad no conoce, y el volumen de la batería y la guitarra eléctrica tapa cualquier otra voz. Al final de la misa, la gente aplaude al coro.\n\n- ¿Qué tiene de positivo este coro?\n- ¿Qué le falta para cumplir mejor su servicio litúrgico?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "musica-liturgica-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "Elegir los cantos",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/musica-liturgica/s2.md"
+     "archivo": "contenido/modulos/musica-liturgica/s2.md",
+     "debate": "**Caso: El Santo reemplazado.** El coro de jóvenes acostumbra cantar en lugar del Santo una canción muy bonita que habla del amor de Dios, pero que no tiene la letra del Santo. Un día el sacerdote les pide cambiarla.\n\n- ¿Por qué el sacerdote tiene razón?\n- ¿Qué podría hacer el coro con esa canción que tanto les gusta?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "musica-liturgica-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "Cantar los tiempos y las fiestas",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/musica-liturgica/s3.md"
+     "archivo": "contenido/modulos/musica-liturgica/s3.md",
+     "debate": "**Caso: La canción de los novios.** Una pareja pide que en su matrimonio, durante la comunión, se cante la canción romántica de moda. El coro no sabe qué responder.\n\n- ¿Qué criterios ayudan a responder?\n- ¿Qué alternativa podrían ofrecer a los novios?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "musica-liturgica-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "Ensayar y animar a la asamblea",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/musica-liturgica/s4.md"
+     "archivo": "contenido/modulos/musica-liturgica/s4.md",
+     "debate": "**Caso: El ensayo eterno.** El coro se junta el sábado a ensayar. Llegan a distintas horas, conversan media hora, prueban canciones nuevas que no se usarán el domingo y se van sin repasar la misa. El domingo, nadie sabe qué cantar en la comunión.\n\n- ¿Qué pasos del ensayo faltaron?\n- ¿Quién debería guiar el ensayo y cómo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "musica-liturgica-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "El coro como comunidad",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/musica-liturgica/s5.md"
+     "archivo": "contenido/modulos/musica-liturgica/s5.md",
+     "debate": "**Caso: Siempre la misma voz.** En el coro de Valentina, la misma persona canta todos los solos desde hace tres años porque «es la que mejor canta». Los nuevos se sienten de relleno y algunos han dejado de venir.\n\n- ¿Qué se está perdiendo el grupo?\n- ¿Cómo podría organizarse mejor sin desvalorizar a quien canta bien?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "musica-liturgica-cierre",

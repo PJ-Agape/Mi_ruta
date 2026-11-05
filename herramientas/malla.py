@@ -28,6 +28,7 @@ from talleres import TALLERES, EVAL_DJ  # noqa: E402
 from referencias import REFS  # noqa: E402
 import escritura_programa as EP  # noqa: E402
 from fichas import FICHAS, enlaces_agappe  # noqa: E402
+from debates import debate_md  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -336,6 +337,11 @@ def escribir(cid, ficha, mods, evals):
     else:
         ficha["contenidos"] = [{"titulo": c["titulo"], "tipo": "sesion"} for c in mods[0]["clases"]]
     (DATOS / f"curso-{cid}.json").write_text(json.dumps(ficha, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    for m in mods:
+        for cl in m["clases"]:
+            arch = R / cl.get("archivo", "")
+            if cl.get("tipo") != "evaluacion" and cl.get("archivo") and arch.is_file():
+                cl["debate"] = debate_md(arch.read_text(encoding="utf-8"), cl["titulo"])
     (DATOS / f"indice-{cid}.json").write_text(json.dumps({"curso": cid, "modulos": mods}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (DATOS / f"evaluaciones-{cid}.json").write_text(json.dumps(evals, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 

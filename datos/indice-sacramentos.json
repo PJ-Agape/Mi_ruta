@@ -19,7 +19,8 @@
      "etiqueta": "Sesión 1",
      "titulo": "Signos de la gracia: qué es un sacramento",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s1.md"
+     "archivo": "contenido/modulos/sacramentos/s1.md",
+     "debate": "**Caso: «Lo hago por mi abuela».** Un joven de confirmación dice que se va a confirmar solo para que su abuela esté contenta, pero que no cree mucho en eso.\n\n- ¿Qué le dirías?\n- ¿Cómo podría el camino de preparación ayudarle a descubrir un sentido propio?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s2",
@@ -28,7 +29,8 @@
      "etiqueta": "Sesión 2",
      "titulo": "El Bautismo",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s2.md"
+     "archivo": "contenido/modulos/sacramentos/s2.md",
+     "debate": "**Caso: El padrino que no cumple.** Una familia quiere que el padrino de su hijo sea un tío muy querido que no está confirmado y que dice no creer en Dios.\n\n- ¿Qué criterios hay que considerar?\n- ¿Cómo conversarías con la familia sin herirla?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s3",
@@ -37,7 +39,8 @@
      "etiqueta": "Sesión 3",
      "titulo": "La Confirmación",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s3.md"
+     "archivo": "contenido/modulos/sacramentos/s3.md",
+     "debate": "**Caso: La confirmación como despedida.** En la parroquia, después de la confirmación, casi ningún joven vuelve. Los catequistas sienten que su trabajo «termina ahí».\n\n- ¿Qué se podría cambiar en la preparación?\n- ¿Qué propuesta concreta podría ofrecer la parroquia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s4",
@@ -46,7 +49,8 @@
      "etiqueta": "Sesión 4",
      "titulo": "La Eucaristía y la primera comunión",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s4.md"
+     "archivo": "contenido/modulos/sacramentos/s4.md",
+     "debate": "**Caso: La fiesta.** Una familia está más preocupada del vestido, la fiesta y los regalos de la primera comunión que de la preparación. El niño no ha ido a misa en todo el año.\n\n- ¿Cómo conversarías con la familia?\n- ¿Qué propuesta les harías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-s5",
@@ -55,7 +59,8 @@
      "etiqueta": "Sesión 5",
      "titulo": "La Reconciliación y el camino de iniciación cristiana",
      "tiempo": "90 min",
-     "archivo": "contenido/modulos/sacramentos/s5.md"
+     "archivo": "contenido/modulos/sacramentos/s5.md",
+     "debate": "**Caso: El miedo.** Una niña llora antes de su primera confesión porque su hermano mayor le dijo que el sacerdote la iba a retar y que le contaría todo a sus papás.\n\n- ¿Cómo la tranquilizarías?\n- ¿Qué le explicarías sobre el sigilo y la misericordia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "sacramentos-cierre",
