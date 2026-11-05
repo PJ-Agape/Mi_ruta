@@ -28,6 +28,18 @@
     "Diseñar, presupuestar y evaluar proyectos pastorales.",
     "Llevar a cabo un proyecto real en su comunidad con asesoría."
   ],
+  "agappe": [
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "I · Fundamentos del liderazgo personal",

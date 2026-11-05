@@ -27,6 +27,23 @@
     "Preparar con su equipo las celebraciones del año litúrgico.",
     "Vivir el servicio litúrgico como camino de fe."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Cancionero Ágape",
+      "texto": "Acordes, cambio de tono, proyección y repertorios.",
+      "url": "https://pj-agape.github.io/#/cancionero"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Servidores del altar",

@@ -27,6 +27,23 @@
     "Preparar, vivir y evaluar una misión juvenil.",
     "Organizar la logística de una actividad con seguridad."
   ],
+  "agappe": [
+    {
+      "titulo": "Santo Rosario",
+      "texto": "Para rezarlo solo o con el grupo.",
+      "url": "https://pj-agape.github.io/#/oracion/rosario"
+    },
+    {
+      "titulo": "Cancionero Ágape",
+      "texto": "Acordes, cambio de tono, proyección y repertorios.",
+      "url": "https://pj-agape.github.io/#/cancionero"
+    },
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Voluntariado y doctrina social",

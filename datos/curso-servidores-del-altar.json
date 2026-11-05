@@ -22,6 +22,18 @@
     "Servir en cada momento de la misa.",
     "Trabajar en equipo con otros servidores."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Servir en el altar: un llamado",

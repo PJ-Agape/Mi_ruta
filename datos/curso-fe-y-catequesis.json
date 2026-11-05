@@ -26,6 +26,23 @@
     "Apoyar al catequista en la preparación y animación de encuentros.",
     "Cuidar a niños y adolescentes con criterios de buen trato."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    },
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Conocer la Biblia",

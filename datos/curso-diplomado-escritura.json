@@ -28,6 +28,23 @@
     "Realizar el análisis exegético de una perícopa por escrito.",
     "Usar la Biblia con fundamento en la catequesis, la predicación y los grupos bíblicos."
   ],
+  "agappe": [
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Sagrada Escritura I: Introducción al Antiguo Testamento",

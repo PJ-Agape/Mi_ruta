@@ -22,6 +22,18 @@
     "Cantar o recitar el salmo responsorial.",
     "Redactar y leer la oración universal."
   ],
+  "agappe": [
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Cuando se lee la Escritura, Dios habla",

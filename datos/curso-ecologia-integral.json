@@ -22,6 +22,18 @@
     "Proponer cambios de hábitos en el grupo.",
     "Diseñar un proyecto por la casa común."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "La creación, un regalo",

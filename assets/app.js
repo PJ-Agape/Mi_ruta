@@ -195,6 +195,22 @@
     return cl.semana ? "Semana " + cl.semana : (cl.tiempo || "");
   }
 
+  // Enlaces a las secciones de agAPPe que prolongan la formación en la práctica.
+  var AG = '<span class="ag-app" aria-label="agAPPe">ag<b>APP</b>e</span>';
+  function bloqueAgappe(c) {
+    if (!c.agappe || !c.agappe.length) return "";
+    return '<section class="agappe-enlaces"><h2 class="seccion-titulo">Vívelo en ' + AG + '</h2><p class="seccion-bajada">Lo que aprendes aquí lo practicas allá, con tu comunidad.</p><div class="agappe-lista">' +
+      c.agappe.map(function (x) {
+        return '<a class="agappe-item" href="' + esc(x.url) + '" target="_blank" rel="noopener"><b>' + esc(x.titulo) + "</b><span>" + esc(x.texto) + "</span></a>";
+      }).join("") + "</div></section>";
+  }
+  function franjaAgappe(c) {
+    if (!c.agappe || !c.agappe.length) return "";
+    return '<p class="agappe-franja">Practica en ' + AG + ": " + c.agappe.map(function (x) {
+      return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.titulo) + "</a>";
+    }).join(" · ") + "</p>";
+  }
+
   function navegacionClases(c, i) {
     var ant = c.clases[i - 1], sig = c.clases[i + 1];
     return '<nav class="navegacion">' +
@@ -572,6 +588,7 @@
 
       var tipoAcceso = acceso(c);
       if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
+      html += bloqueAgappe(c);
       var vistoOpt = false;
       if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Algunos módulos se habilitan al completar otros; lo verás indicado en cada uno.</p>';
       c.modulos.forEach(function (m) {
@@ -738,7 +755,7 @@
     html += '<div class="botones"><button class="boton ' + (hecha ? "hecho" : "principal") + '" id="marcar">' +
       (hecha ? "&#10003; Clase completada" : "Marcar como completada") + "</button></div>";
 
-    html += navegacionClases(c, i);
+    html += franjaAgappe(c) + navegacionClases(c, i);
 
     pintar(html, cl.titulo);
     activarClase(c, cl);
@@ -848,7 +865,7 @@
       '<div class="resultado" aria-live="polite"></div>' +
       '<div class="botones"><button type="submit" class="boton principal">Revisar respuestas</button>' +
       '<button type="button" class="boton" id="reintentar" hidden>Intentar de nuevo</button></div></form>';
-    html += navegacionClases(c, i);
+    html += franjaAgappe(c) + navegacionClases(c, i);
     pintar(html, ev.titulo);
 
     var form = document.getElementById("evaluacion");

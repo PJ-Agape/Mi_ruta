@@ -22,6 +22,23 @@
     "Distinguir géneros literarios y leer en contexto.",
     "Animar una lectura orante en grupo."
   ],
+  "agappe": [
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Una biblioteca con una sola historia",

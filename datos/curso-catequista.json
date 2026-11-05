@@ -27,6 +27,23 @@
     "Acompañar a catequizandos y familias en el camino de iniciación cristiana.",
     "Coordinarse con la comunidad y cuidar ambientes seguros."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Recemos juntos",
+      "texto": "Nuestras oraciones y las de siempre, en un solo lugar.",
+      "url": "https://pj-agape.github.io/#/oremus"
+    },
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Identidad y espiritualidad del agente pastoral",

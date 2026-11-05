@@ -22,6 +22,18 @@
     "Preparar ensayos y animar el canto de la asamblea.",
     "Vivir el coro como comunidad de servicio."
   ],
+  "agappe": [
+    {
+      "titulo": "Cancionero Ágape",
+      "texto": "Acordes, cambio de tono, proyección y repertorios.",
+      "url": "https://pj-agape.github.io/#/cancionero"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Cantar la misa, no cantar en la misa",

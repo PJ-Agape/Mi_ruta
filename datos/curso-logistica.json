@@ -23,6 +23,13 @@
     "Calcular menús, cantidades e insumos.",
     "Gestionar presupuesto, compras y rendición de cuentas."
   ],
+  "agappe": [
+    {
+      "titulo": "Credenciales",
+      "texto": "Tarjetas de solapa con foto y nombre para los encuentros.",
+      "url": "https://pj-agape.github.io/#/credenciales"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Planificar la logística",

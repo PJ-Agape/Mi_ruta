@@ -28,6 +28,23 @@
     "Planificar, coordinar y evaluar las actividades del grupo con su equipo.",
     "Crear ambientes seguros y actuar según los protocolos de buen trato."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    },
+    {
+      "titulo": "Cancionero Ágape",
+      "texto": "Acordes, cambio de tono, proyección y repertorios.",
+      "url": "https://pj-agape.github.io/#/cancionero"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Oración y discernimiento vocacional",

@@ -22,6 +22,18 @@
     "Animar una jornada completa.",
     "Adaptar juegos para que sean seguros e inclusivos."
   ],
+  "agappe": [
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    },
+    {
+      "titulo": "Juegos",
+      "texto": "Trivia, memorice, sopa de letras y más para el grupo.",
+      "url": "https://pj-agape.github.io/#/juegos"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "¿Para qué jugar?",

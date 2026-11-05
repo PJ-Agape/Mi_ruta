@@ -27,7 +27,7 @@ sys.path.insert(0, str(R / "herramientas" / "nuevas"))
 from talleres import TALLERES, EVAL_DJ  # noqa: E402
 from referencias import REFS  # noqa: E402
 import escritura_programa as EP  # noqa: E402
-from fichas import FICHAS  # noqa: E402
+from fichas import FICHAS, enlaces_agappe  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -322,6 +322,7 @@ def escribir(cid, ficha, mods, evals):
     if "descripcion" in ficha:
         ficha["descripcion"] = re.sub(r"\s*\d unidades de 90 minutos[^.]*\.", " Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.", ficha["descripcion"]).strip()
     ficha["ejes"], ficha["competencias"] = f["ejes"], f["competencias"]
+    ficha["agappe"] = enlaces_agappe(cid)
     if ficha["tipo"] == "curso":
         ficha["contenidos"] = [{"titulo": m["titulo"], "tipo": m["tipo"]} for m in mods]
     else:

@@ -22,6 +22,18 @@
     "Acompañar a familias y catequizandos en la preparación sacramental.",
     "Integrar la vida sacramental en la catequesis."
   ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Recemos juntos",
+      "texto": "Nuestras oraciones y las de siempre, en un solo lugar.",
+      "url": "https://pj-agape.github.io/#/oremus"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Signos de la gracia: qué es un sacramento",

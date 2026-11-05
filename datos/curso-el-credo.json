@@ -23,6 +23,18 @@
     "Fundamentar la fe en la Escritura y el Catecismo.",
     "Responder preguntas frecuentes sobre la fe."
   ],
+  "agappe": [
+    {
+      "titulo": "Recemos juntos",
+      "texto": "Nuestras oraciones y las de siempre, en un solo lugar.",
+      "url": "https://pj-agape.github.io/#/oremus"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Creer: la fe como respuesta",

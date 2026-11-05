@@ -123,3 +123,47 @@ FICHAS = {
         "competencias": ["Planificar la logística de jornadas, retiros y campamentos.", "Calcular menús, cantidades e insumos.", "Gestionar presupuesto, compras y rendición de cuentas."],
     },
 }
+
+
+# ---------------------------------------------------------------- Enlaces a agAPPe
+# Secciones de agAPPe (https://pj-agape.github.io) que prolongan cada formación en la práctica.
+AGAPPE = "https://pj-agape.github.io/#/"
+SECCIONES = {
+    "capilla": ("Capilla", "Un rato de oración, intenciones y el Santo Rosario.", "oracion"),
+    "evangelio": ("Evangelio del día", "Léelo y escúchalo cada día en la capilla.", "evangelio"),
+    "rosario": ("Santo Rosario", "Para rezarlo solo o con el grupo.", "oracion/rosario"),
+    "oremus": ("Recemos juntos", "Nuestras oraciones y las de siempre, en un solo lugar.", "oremus"),
+    "salmos": ("Oremos con los salmos", "Un salmo para cada momento y cómo rezarlo.", "salmos"),
+    "cancionero": ("Cancionero Ágape", "Acordes, cambio de tono, proyección y repertorios.", "cancionero"),
+    "dinamicas": ("Banco de dinámicas", "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).", "dinamicas"),
+    "juegos": ("Juegos", "Trivia, memorice, sopa de letras y más para el grupo.", "juegos"),
+    "difusion": ("Estudio de difusión", "Marcos de foto, historias, invitaciones y stickers.", "difusion"),
+    "credenciales": ("Credenciales", "Tarjetas de solapa con foto y nombre para los encuentros.", "credenciales"),
+}
+ENLACES = {
+    "dirigente-juvenil": ["capilla", "dinamicas", "cancionero"],
+    "diplomado": ["dinamicas", "capilla"],
+    "servicio-liturgico": ["capilla", "cancionero", "salmos"],
+    "fe-y-catequesis": ["capilla", "evangelio", "dinamicas"],
+    "mision-y-servicio": ["rosario", "cancionero", "dinamicas"],
+    "diplomado-escritura": ["evangelio", "salmos", "capilla"],
+    "catequista": ["capilla", "oremus", "dinamicas"],
+    "servidores-del-altar": ["capilla", "evangelio"],
+    "lectores-y-salmistas": ["evangelio", "salmos"],
+    "musica-liturgica": ["cancionero", "salmos"],
+    "conocer-la-biblia": ["evangelio", "salmos", "capilla"],
+    "santos-jovenes": ["capilla", "oremus"],
+    "el-credo": ["oremus", "capilla"],
+    "sacramentos": ["capilla", "oremus"],
+    "misiones-juveniles": ["rosario", "cancionero", "dinamicas"],
+    "ayudante-de-catequesis": ["dinamicas", "capilla"],
+    "voluntariado-y-doctrina-social": ["capilla", "oremus"],
+    "ecologia-integral": ["capilla", "salmos"],
+    "dinamicas-y-juegos": ["dinamicas", "juegos"],
+    "comunicacion-y-redes": ["difusion"],
+    "logistica": ["credenciales"],
+}
+
+
+def enlaces_agappe(cid):
+    return [{"titulo": SECCIONES[k][0], "texto": SECCIONES[k][1], "url": AGAPPE + SECCIONES[k][2]} for k in ENLACES.get(cid, [])]

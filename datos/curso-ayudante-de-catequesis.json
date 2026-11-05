@@ -22,6 +22,18 @@
     "Adaptar actividades a la edad de los catequizandos.",
     "Cuidar a los niños con criterios de buen trato."
   ],
+  "agappe": [
+    {
+      "titulo": "Banco de dinámicas",
+      "texto": "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).",
+      "url": "https://pj-agape.github.io/#/dinamicas"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "¿Qué es la catequesis?",
