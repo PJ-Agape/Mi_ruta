@@ -12,6 +12,7 @@
      tarjetas/{id}      imagen de la tarjeta de una formación en la portada (lectura pública; edita un admin)
      foros/{curso}      muro de cada formación: bienvenida, directrices, preguntas por sesión y si participar es obligatorio
      foros/{curso}/mensajes/{id}  mensajes del muro (hilo: bienvenida, programa o el id de una sesión)
+     entregas/{curso~modulo~uid}  presentación final en video (enlace de YouTube) y su evaluación con rúbrica
 */
 
 const CONFIG = window.MIRUTA_CONFIG || {};
@@ -292,6 +293,33 @@ async function borrarMensaje(cursoId, id) {
   await conTiempo(fb.updateDoc(fb.doc(db, "foros", cursoId, "mensajes", id), { borrado: true, texto: "" }));
 }
 
+/* ---------- presentaciones finales en video ---------- */
+
+const idEntrega = (curso, modulo, uid) => curso + "~" + modulo + "~" + uid;
+
+async function leerEntrega(curso, modulo) {
+  const snap = await conTiempo(fb.getDoc(fb.doc(db, "entregas", idEntrega(curso, modulo, usuario.uid))));
+  return snap.exists() ? snap.data() : null;
+}
+
+async function enviarEntrega(curso, modulo, url, comentario) {
+  await conTiempo(fb.setDoc(fb.doc(db, "entregas", idEntrega(curso, modulo, usuario.uid)), {
+    curso, modulo, uid: usuario.uid, nombre: (cuenta && cuenta.nombre) || "", url, comentario: comentario || "", enviado: fb.serverTimestamp(),
+  }, { merge: true }));
+}
+
+async function entregasCurso(curso) {
+  const s = await conTiempo(fb.getDocs(fb.query(fb.collection(db, "entregas"), fb.where("curso", "==", curso))));
+  return s.docs.map((d) => {
+    const x = d.data();
+    return { id: d.id, ...x, fecha: x.enviado && x.enviado.toDate ? x.enviado.toDate().toISOString() : "" };
+  });
+}
+
+async function evaluarEntrega(id, evaluacion) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "entregas", id), { evaluacion: { ...evaluacion, por: usuario.uid, porNombre: (cuenta && cuenta.nombre) || "", fecha: new Date().toISOString() } }));
+}
+
 /* ---------- gestión (relatores y administradores) ---------- */
 
 async function listarUsuarios() {
@@ -362,6 +390,10 @@ window.Nube = {
   mensajesCurso,
   publicarMensaje,
   borrarMensaje,
+  leerEntrega,
+  enviarEntrega,
+  entregasCurso,
+  evaluarEntrega,
   listarUsuarios,
   actualizarUsuario,
   avanceDe,

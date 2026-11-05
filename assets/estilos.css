@@ -556,3 +556,30 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .etiquetas.claras li { background: var(--fondo); color: var(--tinta); border: 1px solid var(--linea); }
 @media (max-width: 600px) { .debates-lista a { flex-direction: column; gap: .15rem; } }
 .tarjeta > h2:first-child, .tarjeta > .muro-texto:first-child > h3:first-child { margin-top: 0; }
+
+/* Presentación final en video */
+.video-final h2 { margin-top: 0; }
+.guia-youtube { margin: .8rem 0; border: 1px solid var(--linea); border-radius: 12px; padding: .5rem .8rem; background: #fff; }
+.guia-youtube summary { cursor: pointer; font-weight: 600; }
+.guia-youtube ol { margin: .6rem 0 .3rem; padding-left: 1.2rem; }
+.tabla-rubrica { overflow-x: auto; margin: .6rem 0; }
+.tabla-rubrica table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: .85rem; }
+.tabla-rubrica th, .tabla-rubrica td { border: 1px solid var(--linea); padding: .45rem .55rem; vertical-align: top; text-align: left; }
+.tabla-rubrica thead th { background: var(--primario-claro); }
+.tabla-rubrica tbody th small { display: block; font-weight: 400; color: var(--tinta-suave); }
+.estado-entrega { margin: .8rem 0 .4rem; }
+.evaluacion-video { border-left: 4px solid var(--acento); background: var(--fondo); border-radius: 0 12px 12px 0; padding: .6rem .9rem; margin: .6rem 0; }
+.evaluacion-video h3 { margin: 0 0 .3rem; font-size: 1rem; }
+.evaluacion-video ul { margin: 0; padding-left: 1.1rem; }
+.retro-video { margin: .5rem 0 0; font-style: italic; }
+.entrega { border: 1px solid var(--linea); border-radius: 12px; padding: .7rem .9rem; margin: .7rem 0; background: #fff; }
+.entrega header { display: flex; justify-content: space-between; gap: .6rem; flex-wrap: wrap; }
+.entrega header span { font-size: .85rem; color: var(--tinta-suave); }
+.enlace-boton { border: 0; background: none; color: var(--primario); text-decoration: underline; font: inherit; cursor: pointer; padding: 0; }
+.video-marco iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 10px; margin: .4rem 0; }
+.rubrica-form { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .5rem .8rem; margin-top: .5rem; }
+.rubrica-form label { display: flex; flex-direction: column; gap: .2rem; font-size: .85rem; font-weight: 600; }
+.rubrica-form select, .rubrica-form textarea { font: inherit; font-weight: 400; border: 1px solid var(--linea); border-radius: 8px; padding: .35rem .5rem; }
+.rubrica-form .ancho, .rubrica-form .botones, .rubrica-form .mensaje { grid-column: 1 / -1; }
+.nota-calculada { font-weight: 700; align-self: center; }
+#form-video textarea { width: 100%; font: inherit; border: 1px solid var(--linea); border-radius: 10px; padding: .55rem .7rem; }

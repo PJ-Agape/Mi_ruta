@@ -834,6 +834,7 @@
 
     if (ocultas) html += '<p class="aviso">Esta clase incluye una guía para el relator. Actívala con el interruptor «Vista relator» de la parte superior.</p>';
 
+    if (/-cierre$/.test(cl.id)) html += '<section class="tarjeta video-final" id="video-final"></section>';
     html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
     html += '<div class="botones"><button class="boton ' + (hecha ? "hecho" : "principal") + '" id="marcar">' +
       (hecha ? "&#10003; Clase completada" : "Marcar como completada") + "</button></div>";
@@ -843,6 +844,7 @@
     pintar(html, cl.titulo);
     activarClase(c, cl);
     cargarDebateClase(c, cl);
+    if (/-cierre$/.test(cl.id)) cargarVideoFinal(c, cl.modulo);
   }
 
   function activarClase(c, cl) {
@@ -1031,6 +1033,8 @@
           .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
       });
     });
+    var vi = document.getElementById("muro-video");
+    if (vi) vi.addEventListener("change", function () { Foro.guardar(c.id, { video: vi.checked }).then(ruta); });
     var ob = document.getElementById("muro-obligatorio");
     if (ob) ob.addEventListener("change", function () { Foro.guardar(c.id, { obligatorio: ob.checked }).then(ruta); });
     void yo;
@@ -1063,6 +1067,11 @@
           '<p><a class="boton" href="#/curso/' + esc(c.id) + '">Ver la formación completa</a></p></section>' +
           '<section class="tarjeta">' + textoEditable("directrices", "Directrices", f.directrices || directricesDef(f), yo, 8) +
           (yo.equipo ? '<label class="interruptor-muro"><input type="checkbox" id="muro-obligatorio"' + (f.obligatorio ? " checked" : "") + "> Participación obligatoria en los debates: sin participar, el participante no puede marcar la sesión como completada.</label>" : "") + "</section>" +
+          (f.video || yo.equipo ? '<section class="tarjeta"><h2>Presentación final en video</h2>' +
+            (yo.equipo ? '<label class="interruptor-muro"><input type="checkbox" id="muro-video"' + (f.video ? " checked" : "") + "> Pedir en cada módulo una presentación grabada en YouTube, evaluada con rúbrica.</label>" : "") +
+            (f.video ? '<p>Al cierre de cada módulo grabas una presentación de 3 a 5 minutos y envías el enlace de YouTube en la sesión de cierre. Tu relator la evalúa con esta rúbrica:</p>' + rubricaHTML() +
+              (yo.equipo ? "<h3>Consignas por módulo</h3>" + c.modulos.map(function (m) { return textoEditable("consigna:" + m.id, etiquetaModulo(m) + ". " + m.titulo, (f.consignas || {})[m.id] || consignaDef(m), yo, 6); }).join("") +
+                '<p><a class="boton principal" href="#/curso/' + esc(c.id) + '/entregas">Revisar presentaciones</a></p>' : "") : "") + "</section>" : "") +
           '<section class="tarjeta"><h2>Dudas sobre el programa</h2>' + hiloHTML(msgs, "programa", "Escribe tu duda sobre el programa o las directrices.", yo) + "</section>";
       } else if (seccion === "s" && claseId) {
         var cl = c.clases.filter(function (x) { return x.id === claseId; })[0];
@@ -1091,6 +1100,7 @@
       pintar(html, "Muro · " + c.titulo);
       activarMuro(c, function (id, texto) {
         if (id.indexOf("pregunta:") === 0) { var p = Object.assign({}, preguntas); p[id.slice(9)] = texto; return Foro.guardar(c.id, { preguntas: p }); }
+        if (id.indexOf("consigna:") === 0) { var q = Object.assign({}, f.consignas || {}); q[id.slice(9)] = texto; return Foro.guardar(c.id, { consignas: q }); }
         var cambio = {}; cambio[id] = texto; return Foro.guardar(c.id, cambio);
       });
     });
@@ -1134,6 +1144,185 @@
     }).catch(function () { caja.remove(); });
   }
 
+  /* ---------- presentación final en video (YouTube) ---------- */
+
+  var RUBRICA = [
+    { id: "contenido", nombre: "Dominio del contenido", peso: 30, niveles: [
+      "No se apoya en los contenidos del módulo o tiene errores importantes.",
+      "Menciona ideas del módulo de forma superficial o con errores.",
+      "Explica las ideas centrales, con pequeñas imprecisiones.",
+      "Explica con precisión las ideas centrales del módulo y las relaciona entre sí."] },
+    { id: "consigna", nombre: "Respuesta a la consigna y aplicación", peso: 30, niveles: [
+      "No responde a la consigna.",
+      "Responde parcialmente o con propuestas genéricas.",
+      "Responde la consigna con propuestas adecuadas, pero poco desarrolladas.",
+      "Responde por completo o resuelve el caso con propuestas concretas, realistas y fundamentadas."] },
+    { id: "orden", nombre: "Organización y claridad", peso: 20, niveles: [
+      "Sin estructura reconocible.",
+      "Desordenada o muy fuera del tiempo pedido.",
+      "Estructura reconocible, con algunos saltos o levemente fuera de tiempo.",
+      "Introducción, desarrollo y cierre claros; respeta el tiempo (3 a 5 minutos)."] },
+    { id: "comunicacion", nombre: "Comunicación", peso: 20, niveles: [
+      "No se entiende.",
+      "Cuesta seguirla: audio o imagen deficientes, o lectura textual.",
+      "Se entiende bien, con detalles mejorables.",
+      "Habla con claridad, buen volumen y lenguaje adecuado; mira a cámara; audio e imagen se entienden bien."] },
+  ];
+  var NIVELES = ["Insuficiente", "Suficiente", "Bueno", "Logrado"];
+  var APRUEBA_VIDEO = 70;
+  function notaRubrica(crit) {
+    var t = 0;
+    RUBRICA.forEach(function (r) { t += r.peso * (Number(crit[r.id]) || 0) / 4; });
+    return Math.round(t);
+  }
+  function consignaDef(m) {
+    return "Elige **una** de estas dos opciones y grábate en un video de **3 a 5 minutos**:\n\n" +
+      "**A. Pregunta de desarrollo.** Explica con tus palabras la idea central del módulo «" + m.titulo + "» y cómo cambia tu manera de servir. Da un ejemplo concreto de tu comunidad.\n\n" +
+      "**B. Resolver una problemática.** Toma el caso del taller de cierre de este módulo y explica qué harías, paso a paso, y por qué, apoyándote en lo visto en las sesiones.";
+  }
+  function rubricaHTML() {
+    return '<div class="tabla-rubrica"><table><thead><tr><th>Criterio</th>' + NIVELES.slice().reverse().map(function (n, k) { return "<th>" + n + " (" + (4 - k) + ")</th>"; }).join("") + "</tr></thead><tbody>" +
+      RUBRICA.map(function (r) {
+        return "<tr><th>" + esc(r.nombre) + "<small>" + r.peso + " %</small></th>" + r.niveles.slice().reverse().map(function (d) { return "<td>" + esc(d) + "</td>"; }).join("") + "</tr>";
+      }).join("") + '</tbody></table></div><p class="ficha-nota">Se aprueba con ' + APRUEBA_VIDEO + " % o más.</p>";
+  }
+  var GUIA_YOUTUBE = '<details class="guia-youtube"><summary>Cómo subir tu video a YouTube</summary><ol>' +
+    "<li>Entra a YouTube con tu cuenta de Google. Si no tienes canal, toca tu foto → <b>Crear un canal</b> (puede llevar tu nombre).</li>" +
+    "<li>Toca <b>Crear → Subir video</b> y elige tu grabación. Puedes grabar con el celular en horizontal, en un lugar silencioso y con buena luz.</li>" +
+    "<li>En <b>Visibilidad</b> elige <b>No listado</b>: solo lo ve quien tenga el enlace. No uses «Privado», porque tu relator no podría verlo.</li>" +
+    "<li>Toca <b>Compartir → Copiar enlace</b> y pégalo aquí abajo.</li></ol>" +
+    '<p class="ficha-nota">Cuida la privacidad: no muestres a otras personas sin su permiso, sobre todo a menores, ni datos personales. Si eres menor de edad, hazlo con un adulto responsable.</p></details>';
+
+  var Entregas = {
+    leer: function (c, m) {
+      if (Nube.habilitada) return Nube.leerEntrega(c, m);
+      return Promise.resolve(Entregas._local()[c + "~" + m + "~local"] || null);
+    },
+    enviar: function (c, m, url, com) {
+      if (Nube.habilitada) return Nube.enviarEntrega(c, m, url, com);
+      var t = Entregas._local(), id = c + "~" + m + "~local";
+      t[id] = Object.assign(t[id] || {}, { id: id, curso: c, modulo: m, uid: "local", nombre: "Tú", url: url, comentario: com, fecha: new Date().toISOString() });
+      localStorage.setItem("agp:entregas", JSON.stringify(t)); return Promise.resolve();
+    },
+    delCurso: function (c) {
+      if (Nube.habilitada) return Nube.entregasCurso(c);
+      var t = Entregas._local();
+      return Promise.resolve(Object.keys(t).map(function (k) { return Object.assign({ id: k }, t[k]); }).filter(function (x) { return x.curso === c; }));
+    },
+    evaluar: function (id, ev) {
+      if (Nube.habilitada) return Nube.evaluarEntrega(id, ev);
+      var t = Entregas._local();
+      t[id].evaluacion = Object.assign({}, ev, { porNombre: "Relator (prueba)", fecha: new Date().toISOString() });
+      localStorage.setItem("agp:entregas", JSON.stringify(t)); return Promise.resolve();
+    },
+    _local: function () { try { return JSON.parse(localStorage.getItem("agp:entregas") || "{}"); } catch (e) { return {}; } },
+  };
+  function esYoutube(u) { return /^https:\/\/(www\.|m\.)?(youtube\.com|youtu\.be)\/.+/.test(u); }
+  function idYoutube(u) {
+    var m = String(u).match(/(?:youtu\.be\/|v=|shorts\/|embed\/|live\/)([\w-]{11})/);
+    return m ? m[1] : "";
+  }
+  function estadoEntrega(e) {
+    if (!e) return "Sin enviar";
+    if (!e.evaluacion) return "Enviada, en revisión";
+    return (e.evaluacion.nota >= APRUEBA_VIDEO ? "Aprobada" : "Por mejorar") + " · " + e.evaluacion.nota + " %";
+  }
+
+  // Sección en la sesión de cierre de cada módulo.
+  function cargarVideoFinal(c, m) {
+    var caja = document.getElementById("video-final");
+    if (!caja) return;
+    Promise.all([Foro.leer(c.id), Entregas.leer(c.id, m.id)]).then(function (r) {
+      var f = r[0] || {}, e = r[1], yo = yoForo();
+      if (!f.video) { caja.remove(); return; }
+      var consigna = (f.consignas || {})[m.id] || consignaDef(m);
+      var ev = e && e.evaluacion;
+      var html = '<h2>Presentación final en video</h2><div class="texto">' + md(consigna) + "</div>" +
+        '<details class="guia-youtube"><summary>Rúbrica de evaluación</summary>' + rubricaHTML() + "</details>" + GUIA_YOUTUBE;
+      if (yo.equipo && Nube.habilitada) {
+        html += '<p><a class="boton principal" href="#/curso/' + esc(c.id) + '/entregas">Revisar las presentaciones de esta formación</a></p>';
+      } else {
+        html += '<p class="estado-entrega"><b>Estado:</b> ' + esc(estadoEntrega(e)) + "</p>";
+        if (ev) {
+          html += '<div class="evaluacion-video"><h3>Evaluación de ' + esc(ev.porNombre || "tu relator") + "</h3><ul>" + RUBRICA.map(function (rr) {
+            var n = Number(ev.criterios && ev.criterios[rr.id]) || 0;
+            return "<li><b>" + esc(rr.nombre) + ":</b> " + (n ? NIVELES[n - 1] + " (" + n + ")" : "—") + "</li>";
+          }).join("") + "</ul>" + (ev.retro ? '<p class="retro-video">' + esc(ev.retro).replace(/\n/g, "<br>") + "</p>" : "") + "</div>";
+        }
+        html += '<form id="form-video" class="formulario"><label>Enlace de tu video en YouTube<input name="url" type="url" required placeholder="https://youtu.be/…" value="' + esc(e ? e.url : "") + '"></label>' +
+          '<label>Comentario para tu relator (opcional)<textarea name="comentario" maxlength="1000" rows="2">' + esc(e ? e.comentario || "" : "") + "</textarea></label>" +
+          '<div class="botones"><button class="boton principal" type="submit">' + (e ? "Actualizar enlace" : "Enviar mi presentación") + '</button></div><div class="mensaje" aria-live="polite"></div></form>';
+      }
+      caja.innerHTML = html;
+      var form = document.getElementById("form-video");
+      if (form) form.addEventListener("submit", function (evt) {
+        evt.preventDefault();
+        var url = form.url.value.trim(), msj = form.querySelector(".mensaje");
+        if (!esYoutube(url)) { msj.className = "mensaje error"; msj.textContent = "Pega un enlace de YouTube (youtube.com o youtu.be)."; return; }
+        msj.className = "mensaje"; msj.textContent = "Enviando…";
+        Entregas.enviar(c.id, m.id, url, form.comentario.value.trim()).then(function () { cargarVideoFinal(c, m); })
+          .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+    }).catch(function () { caja.remove(); });
+  }
+
+  // Página del equipo para revisar y evaluar las presentaciones de una formación.
+  function vistaEntregas(cursoId) {
+    var yo = yoForo();
+    return Promise.all([cargarCurso(cursoId), Entregas.delCurso(cursoId)]).then(function (r) {
+      var c = r[0], lista = r[1] || [];
+      var base = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a> / Presentaciones</nav>";
+      if (!yo.equipo) { pintar(base + '<section class="tarjeta"><p>Esta página es para relatores y administradores.</p></section>', "Presentaciones"); return; }
+      var html = base + '<header class="muro-cabecera"><h1>Presentaciones en video</h1><p class="seccion-bajada">' + esc(c.titulo) + "</p></header>" +
+        '<details class="guia-youtube"><summary>Rúbrica</summary>' + rubricaHTML() + "</details>";
+      c.modulos.forEach(function (m) {
+        var es = lista.filter(function (x) { return x.modulo === m.id; }).sort(function (a, b) { return String(a.nombre).localeCompare(String(b.nombre)); });
+        html += '<section class="tarjeta"><h2>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + '</h2><p class="ficha-nota">' + es.length + (es.length === 1 ? " presentación" : " presentaciones") + "</p>" +
+          es.map(function (x) {
+            var ev = x.evaluacion || {}, crit = ev.criterios || {}, vid = idYoutube(x.url);
+            return '<article class="entrega" data-id="' + esc(x.id) + '"><header><b>' + esc(x.nombre || "Participante") + "</b><span>" + esc(estadoEntrega(x)) + "</span></header>" +
+              '<p><a href="' + esc(x.url) + '" target="_blank" rel="noopener">Abrir en YouTube</a>' + (vid ? ' · <button class="enlace-boton" type="button" data-ver="' + esc(vid) + '">Ver aquí</button>' : "") + "</p>" +
+              '<div class="video-marco" hidden></div>' +
+              (x.comentario ? '<p class="ficha-nota">Comentario: ' + esc(x.comentario) + "</p>" : "") +
+              '<form class="rubrica-form">' + RUBRICA.map(function (rr) {
+                return '<label>' + esc(rr.nombre) + " (" + rr.peso + ' %)<select name="' + rr.id + '"><option value="">—</option>' + [4, 3, 2, 1].map(function (n) {
+                  return '<option value="' + n + '"' + (Number(crit[rr.id]) === n ? " selected" : "") + ">" + n + " · " + NIVELES[n - 1] + "</option>";
+                }).join("") + "</select></label>";
+              }).join("") +
+              '<label class="ancho">Retroalimentación para el participante<textarea name="retro" rows="3" maxlength="2000">' + esc(ev.retro || "") + "</textarea></label>" +
+              '<div class="botones"><button class="boton principal" type="submit">Guardar evaluación</button><span class="nota-calculada"></span></div><div class="mensaje" aria-live="polite"></div></form></article>';
+          }).join("") + "</section>";
+      });
+      pintar(html, "Presentaciones · " + c.titulo);
+      app.querySelectorAll("[data-ver]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var marco = b.closest(".entrega").querySelector(".video-marco");
+          if (!marco.innerHTML) marco.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + esc(b.getAttribute("data-ver")) + '" title="Presentación" allowfullscreen loading="lazy"></iframe>';
+          marco.hidden = !marco.hidden;
+        });
+      });
+      app.querySelectorAll(".rubrica-form").forEach(function (f) {
+        var salida = f.querySelector(".nota-calculada");
+        function calc() {
+          var crit = {}; RUBRICA.forEach(function (rr) { crit[rr.id] = Number(f[rr.id].value) || 0; });
+          var completo = RUBRICA.every(function (rr) { return crit[rr.id]; });
+          salida.textContent = completo ? "Nota: " + notaRubrica(crit) + " % · " + (notaRubrica(crit) >= APRUEBA_VIDEO ? "aprobada" : "por mejorar") : "";
+          return { crit: crit, completo: completo };
+        }
+        f.addEventListener("change", calc); calc();
+        f.addEventListener("submit", function (evt) {
+          evt.preventDefault();
+          var x = calc(), msj = f.querySelector(".mensaje");
+          if (!x.completo) { msj.className = "mensaje error"; msj.textContent = "Evalúa los cuatro criterios."; return; }
+          msj.className = "mensaje"; msj.textContent = "Guardando…";
+          Entregas.evaluar(f.closest(".entrega").getAttribute("data-id"), { criterios: x.crit, nota: notaRubrica(x.crit), aprobado: notaRubrica(x.crit) >= APRUEBA_VIDEO, retro: f.retro.value.trim() })
+            .then(function () { msj.className = "mensaje ok"; msj.textContent = "Evaluación guardada."; })
+            .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+        });
+      });
+    });
+  }
+
   /* ---------- evaluaciones ---------- */
 
   function armarEvaluacion(c, cl, i, ev) {
@@ -1160,8 +1349,10 @@
       '<div class="resultado" aria-live="polite"></div>' +
       '<div class="botones"><button type="submit" class="boton principal">Revisar respuestas</button>' +
       '<button type="button" class="boton" id="reintentar" hidden>Intentar de nuevo</button></div></form>';
+    html += '<section class="tarjeta video-final" id="video-final"></section>';
     html += franjaAgappe(c) + navegacionClases(c, i);
     pintar(html, ev.titulo);
+    cargarVideoFinal(c, cl.modulo);
 
     var form = document.getElementById("evaluacion");
     var resultado = form.querySelector(".resultado");
@@ -1556,6 +1747,7 @@
         var pg = progresoCon(c, h);
         var html = '<li><b>' + esc(c.titulo) + "</b><span>" + pg.hechas + " de " + pg.total + " (" + pg.pct + "%)</span></li>";
         html += '<li class="sub" data-debates="' + esc(c.id) + '"><span>Participación en debates</span><span>…</span></li>';
+        html += '<li class="sub" data-videos="' + esc(c.id) + '" hidden><span>Presentaciones en video</span><span>…</span></li>';
         if (c.tipo === "curso") {
           c.modulos.forEach(function (m) {
             var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
@@ -1572,6 +1764,16 @@
         '<div class="emitir"><label>Emitir constancia de<select>' + opciones.map(function (o) { return '<option value="' + esc(o.valor) + '">' + esc(o.texto) + "</option>"; }).join("") + "</select></label>" +
         '<p class="ficha-nota">Antes de emitir, confirma que aprobó las evaluaciones, la asistencia y el trabajo final que pide la formación.</p>' +
         '<div class="botones"><button class="boton principal" data-paso="1">Emitir constancia</button></div><div class="mensaje" aria-live="polite"></div></div>';
+      caja.querySelectorAll("[data-videos]").forEach(function (li) {
+        var c = lista.filter(function (x) { return x.id === li.getAttribute("data-videos"); })[0];
+        Promise.all([Foro.leer(c.id), Entregas.delCurso(c.id)]).then(function (r) {
+          if (!r[0] || !r[0].video) return;
+          var es = (r[1] || []).filter(function (x) { return x.uid === u.uid; });
+          var ap = es.filter(function (x) { return x.evaluacion && x.evaluacion.nota >= APRUEBA_VIDEO; }).length;
+          li.hidden = false;
+          li.lastChild.innerHTML = ap + " aprobadas de " + c.modulos.length + " módulos · " + es.length + ' enviadas · <a href="#/curso/' + esc(c.id) + '/entregas">revisar</a>';
+        }).catch(function () {});
+      });
       caja.querySelectorAll("[data-debates]").forEach(function (li) {
         var c = lista.filter(function (x) { return x.id === li.getAttribute("data-debates"); })[0];
         Promise.all([Foro.leer(c.id), Foro.mensajes(c.id)]).then(function (r) {
@@ -1640,6 +1842,7 @@
     if (partes[0] === "curso" && partes[1] && partes[2] === "programa") tarea = vistaPrograma(partes[1]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "sesiones") tarea = vistaSesiones(partes[1]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "muro") tarea = vistaMuro(partes[1], partes[3], partes[4]);
+    else if (partes[0] === "curso" && partes[1] && partes[2] === "entregas") tarea = vistaEntregas(partes[1]);
     else if (partes[0] === "area" && partes[1]) tarea = vistaArea(partes[1]);
     else if (partes[0] === "curso" && partes[1]) tarea = vistaCurso(partes[1]);
     else if (partes[0] === "clase" && partes[1] && partes[2]) tarea = vistaClase(partes[1], partes[2]);

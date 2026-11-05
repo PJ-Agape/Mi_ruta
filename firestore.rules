@@ -11,6 +11,7 @@ rules_version = '2';
 //   - Las constancias se pueden verificar con su código, sin iniciar sesión.
 //   - Las imágenes de la portada las ve cualquiera y solo las cambia un administrador.
 //   - El muro de cada formación lo leen y escriben sus inscritos y el equipo.
+//   - Las presentaciones en video las ve su autor y el equipo; solo el equipo las evalúa.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -134,7 +135,7 @@ service cloud.firestore {
       // Configuración del muro: la ven quienes participan en la formación; la edita el equipo.
       allow read: if esEquipo() || inscrito(curso);
       allow write: if esEquipo()
-        && request.resource.data.keys().hasOnly(['bienvenida', 'directrices', 'obligatorio', 'preguntas', 'actualizado', 'por']);
+        && request.resource.data.keys().hasOnly(['bienvenida', 'directrices', 'obligatorio', 'preguntas', 'video', 'consignas', 'actualizado', 'por']);
 
       match /mensajes/{id} {
         allow read: if esEquipo() || inscrito(curso);
@@ -150,6 +151,31 @@ service cloud.firestore {
           && request.resource.data.borrado == true && request.resource.data.texto == '';
         allow delete: if esAdmin();
       }
+    }
+
+    // ---------- presentaciones finales en video ----------
+    // Id del documento: «curso~módulo~uid». Cada participante envía su enlace de YouTube; el equipo lo evalúa con la rúbrica.
+    function enlaceYoutube(url) {
+      return url is string && url.size() <= 300 && url.matches('^https://(www[.]|m[.])?(youtube[.]com|youtu[.]be)/.+');
+    }
+    match /entregas/{id} {
+      allow get: if conSesion() && (esEquipo() || id.matches('.*~' + request.auth.uid));
+      allow list: if esEquipo();
+      allow create: if conSesion() && request.resource.data.uid == request.auth.uid
+        && (esEquipo() || inscrito(request.resource.data.curso))
+        && id == request.resource.data.curso + '~' + request.resource.data.modulo + '~' + request.auth.uid
+        && request.resource.data.keys().hasOnly(['curso', 'modulo', 'uid', 'nombre', 'url', 'comentario', 'enviado'])
+        && enlaceYoutube(request.resource.data.url)
+        && request.resource.data.comentario is string && request.resource.data.comentario.size() <= 1000;
+      allow update: if
+        // El participante cambia su enlace o comentario (no toca la evaluación).
+        (conSesion() && resource.data.uid == request.auth.uid
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['url', 'comentario', 'enviado', 'nombre'])
+          && enlaceYoutube(request.resource.data.url)
+          && request.resource.data.comentario is string && request.resource.data.comentario.size() <= 1000)
+        // El equipo registra la evaluación con la rúbrica.
+        || (esEquipo() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['evaluacion']));
+      allow delete: if esAdmin();
     }
 
     // ---------- constancias ----------
