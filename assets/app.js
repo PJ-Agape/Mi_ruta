@@ -279,6 +279,18 @@
     }
     return p.then(function () { if (imagen) TARJETAS[id] = imagen; else delete TARJETAS[id]; });
   }
+  function guardarVelo(id, velo) {
+    var p;
+    if (Nube.habilitada) p = Nube.guardarVelo(id, velo);
+    else {
+      var t = leerTarjetasLocal(); t[id + ":velo"] = velo;
+      try { localStorage.setItem("agp:tarjetas", JSON.stringify(t)); p = Promise.resolve(); } catch (e) { p = Promise.reject(e); }
+    }
+    return p.then(function () { TARJETAS[id + ":velo"] = velo; });
+  }
+  function estiloVelo(v) { return "--velo-a:" + (v * 0.3).toFixed(3) + ";--velo-b:" + v.toFixed(3); }
+  var VELO_DEFECTO = 0.45;
+
   // Recorta la imagen al formato de la tarjeta (16:9) y la comprime para que pese poco.
   function prepararImagen(archivo, ancho, alto) {
     return new Promise(function (ok, no) {
@@ -311,12 +323,15 @@
       var e = cuentaActual();
       var invitado = Nube.habilitada && e.status === "invitado";
       var fondo = TARJETAS && TARJETAS[FONDO_INICIO];
-      var html = '<section class="portada portada-inicio' + (fondo ? " con-fondo" : "") + '"' + (fondo ? ' style="--fondo-inicio:url(\'' + esc(fondo) + '\')"' : "") + '><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
+      var velo = TARJETAS && typeof TARJETAS[FONDO_INICIO + ":velo"] === "number" ? TARJETAS[FONDO_INICIO + ":velo"] : VELO_DEFECTO;
+      var html = '<section class="portada portada-inicio' + (fondo ? " con-fondo" : "") + '"' + (fondo ? ' style="--fondo-inicio:url(\'' + esc(fondo) + '\');' + estiloVelo(velo) + '"' : "") + '><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
         '<p class="portada-lema">Formación para servir en la pastoral juvenil: cursos, diplomados y módulos con constancia, a tu ritmo y con tu comunidad.</p>' +
         '<label class="buscador">' + icono("buscar", "icono-buscar") + '<input id="buscar" type="search" placeholder="¿Qué quieres aprender?" autocomplete="off" aria-label="Buscar cursos y módulos"></label>' +
         (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") +
         (puedeEditarTarjetas() ? '<div class="editar-fondo"><label class="boton">' + (fondo ? "Cambiar fondo" : "Poner imagen de fondo") + '<input type="file" accept="image/*" id="fondo-inicio" hidden></label>' +
-          (fondo ? '<button class="boton" type="button" id="quitar-fondo">Quitar fondo</button>' : "") + '<span class="mensaje" aria-live="polite"></span></div>' : "") + "</section>";
+          (fondo ? '<button class="boton" type="button" id="quitar-fondo">Quitar fondo</button>' +
+            '<label class="control-velo">Velo <input type="range" id="velo-fondo" min="0" max="90" step="5" value="' + Math.round(velo * 100) + '"> <output>' + Math.round(velo * 100) + ' %</output></label>' : "") +
+          '<span class="mensaje" aria-live="polite"></span></div>' : "") + "</section>";
 
       if (Nube.habilitada && e.status === "pendiente") {
         var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
@@ -478,6 +493,23 @@
         prepararImagen(entradaFondo.files[0], 1600, 640).then(function (d) { return guardarTarjeta(FONDO_INICIO, d); }).then(ruta)
           .catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
       });
+      var rango = document.getElementById("velo-fondo");
+      if (rango) {
+        var portada = app.querySelector(".portada-inicio");
+        var salida = rango.parentNode.querySelector("output");
+        rango.addEventListener("input", function () {
+          var v = Number(rango.value) / 100;
+          portada.style.setProperty("--velo-a", (v * 0.3).toFixed(3));
+          portada.style.setProperty("--velo-b", v.toFixed(3));
+          salida.textContent = rango.value + " %";
+        });
+        rango.addEventListener("change", function () {
+          msjFondo.className = "mensaje"; msjFondo.textContent = "Guardando…";
+          guardarVelo(FONDO_INICIO, Number(rango.value) / 100)
+            .then(function () { msjFondo.textContent = "Guardado"; setTimeout(function () { msjFondo.textContent = ""; }, 1500); })
+            .catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
+        });
+      }
       var quitarFondo = document.getElementById("quitar-fondo");
       if (quitarFondo) quitarFondo.addEventListener("click", function () {
         guardarTarjeta(FONDO_INICIO, "").then(ruta).catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });

@@ -121,10 +121,11 @@ service cloud.firestore {
     match /tarjetas/{id} {
       allow read: if true;
       allow write: if esAdmin()
-        && request.resource.data.keys().hasOnly(['imagen', 'actualizado', 'por'])
-        && request.resource.data.imagen is string
-        && request.resource.data.imagen.size() <= 300000
-        && (request.resource.data.imagen == '' || request.resource.data.imagen.matches('^data:image/(webp|jpeg|png);base64,.*'));
+        && request.resource.data.keys().hasOnly(['imagen', 'actualizado', 'por', 'velo'])
+        && (!('velo' in request.resource.data) || (request.resource.data.velo is number && request.resource.data.velo >= 0 && request.resource.data.velo <= 0.9))
+        && request.resource.data.get('imagen', '') is string
+        && request.resource.data.get('imagen', '').size() <= 300000
+        && (request.resource.data.get('imagen', '') == '' || request.resource.data.get('imagen', '').matches('^data:image/(webp|jpeg|png);base64,.*'));
     }
 
     // ---------- constancias ----------

@@ -241,12 +241,21 @@ async function leerTarjetas() {
   if (!habilitada || !db) return {};
   const snap = await conTiempo(fb.getDocs(fb.collection(db, "tarjetas")));
   const r = {};
-  snap.docs.forEach((d) => { const x = d.data(); if (x.imagen) r[d.id] = x.imagen; });
+  snap.docs.forEach((d) => {
+    const x = d.data();
+    if (x.imagen) r[d.id] = x.imagen;
+    if (typeof x.velo === "number") r[d.id + ":velo"] = x.velo;
+  });
   return r;
 }
 
 async function guardarTarjeta(id, imagen) {
-  await conTiempo(fb.setDoc(fb.doc(db, "tarjetas", id), { imagen: imagen || "", actualizado: fb.serverTimestamp(), por: usuario.uid }));
+  await conTiempo(fb.setDoc(fb.doc(db, "tarjetas", id), { imagen: imagen || "", actualizado: fb.serverTimestamp(), por: usuario.uid }, { merge: true }));
+}
+
+// Opacidad del velo sobre la imagen (0 a 0,9).
+async function guardarVelo(id, velo) {
+  await conTiempo(fb.setDoc(fb.doc(db, "tarjetas", id), { velo, actualizado: fb.serverTimestamp(), por: usuario.uid }, { merge: true }));
 }
 
 /* ---------- gestión (relatores y administradores) ---------- */
@@ -313,6 +322,7 @@ window.Nube = {
   solicitarCurso,
   leerTarjetas,
   guardarTarjeta,
+  guardarVelo,
   listarUsuarios,
   actualizarUsuario,
   avanceDe,
