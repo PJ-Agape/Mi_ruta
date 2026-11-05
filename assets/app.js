@@ -260,6 +260,7 @@
   /* ---------- imágenes de las tarjetas (las edita un administrador) ---------- */
 
   var TARJETAS = null;
+  var FONDO_INICIO = "_portada"; // la imagen de fondo del encabezado se guarda junto a las de las tarjetas
   function puedeEditarTarjetas() { return !Nube.habilitada || cuentaActual().esAdmin; }
   function cargarTarjetas() {
     if (TARJETAS) return Promise.resolve(TARJETAS);
@@ -279,14 +280,14 @@
     return p.then(function () { if (imagen) TARJETAS[id] = imagen; else delete TARJETAS[id]; });
   }
   // Recorta la imagen al formato de la tarjeta (16:9) y la comprime para que pese poco.
-  function prepararImagen(archivo) {
+  function prepararImagen(archivo, ancho, alto) {
     return new Promise(function (ok, no) {
       if (!/^image\//.test(archivo.type)) return no(new Error("El archivo no es una imagen."));
       var url = URL.createObjectURL(archivo);
       var img = new Image();
       img.onload = function () {
         URL.revokeObjectURL(url);
-        var W = 640, H = 360, cv = document.createElement("canvas");
+        var W = ancho || 640, H = alto || 360, cv = document.createElement("canvas");
         cv.width = W; cv.height = H;
         var esc0 = Math.max(W / img.width, H / img.height);
         var w = img.width * esc0, h = img.height * esc0;
@@ -309,10 +310,13 @@
       var lista = r[0];
       var e = cuentaActual();
       var invitado = Nube.habilitada && e.status === "invitado";
-      var html = '<section class="portada portada-inicio"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
+      var fondo = TARJETAS && TARJETAS[FONDO_INICIO];
+      var html = '<section class="portada portada-inicio' + (fondo ? " con-fondo" : "") + '"' + (fondo ? ' style="--fondo-inicio:url(\'' + esc(fondo) + '\')"' : "") + '><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
         '<p class="portada-lema">Formación para servir en la pastoral juvenil: cursos, diplomados y módulos con constancia, a tu ritmo y con tu comunidad.</p>' +
         '<label class="buscador">' + icono("buscar", "icono-buscar") + '<input id="buscar" type="search" placeholder="¿Qué quieres aprender?" autocomplete="off" aria-label="Buscar cursos y módulos"></label>' +
-        (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") + "</section>";
+        (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") +
+        (puedeEditarTarjetas() ? '<div class="editar-fondo"><label class="boton">' + (fondo ? "Cambiar fondo" : "Poner imagen de fondo") + '<input type="file" accept="image/*" id="fondo-inicio" hidden></label>' +
+          (fondo ? '<button class="boton" type="button" id="quitar-fondo">Quitar fondo</button>' : "") + '<span class="mensaje" aria-live="polite"></span></div>' : "") + "</section>";
 
       if (Nube.habilitada && e.status === "pendiente") {
         var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
@@ -465,6 +469,20 @@
   }
 
   function activarInicio() {
+    var entradaFondo = document.getElementById("fondo-inicio");
+    if (entradaFondo) {
+      var msjFondo = app.querySelector(".editar-fondo .mensaje");
+      entradaFondo.addEventListener("change", function () {
+        if (!entradaFondo.files[0]) return;
+        msjFondo.className = "mensaje"; msjFondo.textContent = "Guardando…";
+        prepararImagen(entradaFondo.files[0], 1600, 640).then(function (d) { return guardarTarjeta(FONDO_INICIO, d); }).then(ruta)
+          .catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
+      });
+      var quitarFondo = document.getElementById("quitar-fondo");
+      if (quitarFondo) quitarFondo.addEventListener("click", function () {
+        guardarTarjeta(FONDO_INICIO, "").then(ruta).catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
+      });
+    }
     app.querySelectorAll("#oferta .tile").forEach(function (t) {
       t.addEventListener("click", function (ev) {
         var id = t.getAttribute("href").replace("#/curso/", "");
