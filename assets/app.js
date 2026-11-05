@@ -198,6 +198,7 @@
 
   // Enlaces a las secciones de agAPPe que prolongan la formación en la práctica.
   var AG = '<span class="ag-app" aria-label="agAPPe">ag<b>APP</b>e</span>';
+  var LOGO_AGAPPE = '<a class="logo-agappe" href="https://pj-agape.github.io/" target="_blank" rel="noopener" aria-label="agAPPe, Pastoral Juvenil Ágape"><img src="assets/agappe-logo.webp" alt="" width="36" height="36"><span><span class="ag-app" aria-hidden="true">ag<b>APP</b>e</span><small>Pastoral Juvenil Ágape</small></span></a>';
   function bloqueAgappe(c) {
     if (!c.agappe || !c.agappe.length) return "";
     return '<section class="agappe-enlaces"><h2 class="seccion-titulo">Vívelo en ' + AG + '</h2><p class="seccion-bajada">Lo que aprendes aquí lo practicas allá, con tu comunidad.</p><div class="agappe-lista">' +
@@ -521,7 +522,7 @@
       var f = fondoDe(claveArea(a.id));
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>' +
         '<section class="portada portada-area portada-inicio' + (f.fondo ? " con-fondo" : "") + '"' + f.attr + '>' +
-        (a.institucion ? '<p class="subtitulo">' + esc(a.institucion) + "</p>" : "") +
+        (a.institucion ? (a.institucion === "agAPPe" ? LOGO_AGAPPE : '<p class="subtitulo">' + esc(a.institucion) + "</p>") : "") +
         "<h1>" + esc(a.titulo) + "</h1>" + (a.descripcion ? '<p class="portada-lema">' + esc(a.descripcion) + "</p>" : "") +
         '<label class="buscador">' + icono("buscar", "icono-buscar") + '<input id="buscar" type="search" placeholder="Buscar en esta área" autocomplete="off" aria-label="Buscar en esta área"></label>' +
         editorFondo(claveArea(a.id), f.fondo, f.velo) + "</section>";
