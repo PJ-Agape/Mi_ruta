@@ -506,17 +506,15 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .agappe-franja { margin: 1.2rem 0 .2rem; padding: .6rem .9rem; border-radius: 12px; background: var(--primario-claro); font-size: .9rem; }
 .agappe-franja a { font-weight: 600; }
 
-/* Áreas de formación (portada) */
-.areas-lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin-top: .6rem; }
-.area-tarjeta { display: flex; flex-direction: column; background: var(--papel); border: 1px solid var(--linea); border-radius: 18px; overflow: hidden; text-decoration: none; color: var(--tinta); transition: transform .15s, box-shadow .15s; }
-.area-tarjeta:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(11, 37, 102, .12); color: var(--tinta); }
-.area-imagen { display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; }
-.area-sin-imagen { display: grid; place-items: center; background: linear-gradient(135deg, var(--noche), var(--primario)); color: #fff; }
-.area-sin-imagen svg { width: 48px; height: 48px; opacity: .85; }
-.area-cuerpo { display: flex; flex-direction: column; gap: .35rem; padding: 1rem 1.15rem 1.15rem; }
-.area-institucion { font-size: .85rem; font-weight: 700; color: var(--acento); }
-.area-titulo { font-family: var(--serif); font-size: 1.3rem; line-height: 1.2; }
-.area-desc { font-size: .92rem; color: var(--tinta-suave); }
-.area-cifras { font-size: .85rem; color: var(--tinta-suave); margin-top: .2rem; }
-.area-ir { margin-top: .5rem; align-self: flex-start; background: var(--acento); color: #fff; font-weight: 700; font-size: .9rem; padding: .45rem .95rem; border-radius: 999px; }
+/* Áreas de formación (portada): una línea por área */
+.areas-lista { display: flex; flex-direction: column; gap: .5rem; margin-top: .6rem; }
+.area-tarjeta { display: flex; align-items: center; gap: .85rem; background: var(--papel); border: 1px solid var(--linea); border-radius: 14px; padding: .55rem .9rem .55rem .55rem; text-decoration: none; color: var(--tinta); transition: box-shadow .15s, border-color .15s; }
+.area-tarjeta:hover { border-color: var(--acento); box-shadow: var(--sombra); color: var(--tinta); }
+.area-imagen { flex: none; width: 48px; height: 48px; border-radius: 10px; object-fit: cover; }
+.area-sin-imagen { display: grid; place-items: center; background: var(--primario-claro); color: var(--primario); }
+.area-sin-imagen svg { width: 24px; height: 24px; }
+.area-titulo { flex: 1; min-width: 0; font-size: 1rem; line-height: 1.25; }
+.area-cifras { flex: none; font-size: .82rem; color: var(--tinta-suave); }
+.area-ir { flex: none; font-size: 1.6rem; line-height: 1; color: var(--acento); }
+@media (max-width: 600px) { .area-cifras { display: none; } }
 .portada-area h1 { font-size: 1.9rem; margin: .1rem 0 .2rem; }

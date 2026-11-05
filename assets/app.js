@@ -460,11 +460,9 @@
           var cs = a.cursos.map(function (id) { return FICHAS_INICIO[id]; }).filter(Boolean);
           var n = { cursos: cs.filter(function (c) { return c.tipo === "curso" && c.nivel !== "diplomado"; }).length, dip: cs.filter(function (c) { return c.nivel === "diplomado"; }).length, mod: cs.filter(function (c) { return c.tipo !== "curso"; }).length };
           var cifras = [n.cursos ? n.cursos + (n.cursos === 1 ? " curso" : " cursos") : "", n.dip ? n.dip + (n.dip === 1 ? " diplomado" : " diplomados") : "", n.mod ? n.mod + (n.mod === 1 ? " módulo" : " módulos") : ""].filter(Boolean).join(" · ");
-          return '<a class="area-tarjeta' + (img ? " con-imagen" : "") + '" href="#/area/' + esc(a.id) + '">' +
+          return '<a class="area-tarjeta" href="#/area/' + esc(a.id) + '"' + (a.descripcion ? ' title="' + esc(a.descripcion) + '"' : "") + ">" +
             (img ? '<img class="area-imagen" src="' + esc(img) + '" alt="" loading="lazy">' : '<span class="area-imagen area-sin-imagen">' + icono("curso") + "</span>") +
-            '<span class="area-cuerpo">' + (a.institucion ? '<span class="area-institucion">' + esc(a.institucion) + "</span>" : "") +
-            '<b class="area-titulo">' + esc(a.titulo) + "</b>" + (a.descripcion ? '<span class="area-desc">' + esc(a.descripcion) + "</span>" : "") +
-            '<span class="area-cifras">' + esc(cifras) + '</span><span class="area-ir">Ver formaciones</span></span></a>';
+            '<b class="area-titulo">' + esc(a.titulo) + '</b><span class="area-cifras">' + esc(cifras) + '</span><span class="area-ir" aria-hidden="true">&rsaquo;</span></a>';
         }).join("") + "</div></section>" +
         '<section class="seccion-inicio" id="resultados-inicio" hidden><h2 class="seccion-titulo">Resultados</h2><div class="tiles">' + lista.map(tileHTML).join("") +
         '</div><p class="sin-resultados" hidden>No encontramos cursos ni módulos con esa búsqueda.</p></section>';
