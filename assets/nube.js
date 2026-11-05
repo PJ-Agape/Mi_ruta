@@ -10,6 +10,8 @@
      notas/{uid}        datos: { "bitacora:<clase>": "...", "plantilla:<clase>": {...}, ... } (privado)
      constancias/{folio} datos de la constancia emitida (lectura pública por folio)
      tarjetas/{id}      imagen de la tarjeta de una formación en la portada (lectura pública; edita un admin)
+     foros/{curso}      muro de cada formación: bienvenida, directrices, preguntas por sesión y si participar es obligatorio
+     foros/{curso}/mensajes/{id}  mensajes del muro (hilo: bienvenida, programa o el id de una sesión)
 */
 
 const CONFIG = window.MIRUTA_CONFIG || {};
@@ -258,6 +260,38 @@ async function guardarVelo(id, velo) {
   await conTiempo(fb.setDoc(fb.doc(db, "tarjetas", id), { velo, actualizado: fb.serverTimestamp(), por: usuario.uid }, { merge: true }));
 }
 
+/* ---------- muro de cada formación ---------- */
+
+async function leerForo(cursoId) {
+  const snap = await conTiempo(fb.getDoc(fb.doc(db, "foros", cursoId)));
+  return snap.exists() ? snap.data() : {};
+}
+
+async function guardarForo(cursoId, cambios) {
+  await conTiempo(fb.setDoc(fb.doc(db, "foros", cursoId), { ...cambios, actualizado: fb.serverTimestamp(), por: usuario.uid }, { merge: true }));
+}
+
+async function mensajesCurso(cursoId) {
+  const snap = await conTiempo(fb.getDocs(fb.collection(db, "foros", cursoId, "mensajes")));
+  return snap.docs.map((d) => {
+    const x = d.data();
+    return { id: d.id, ...x, fecha: x.creado && x.creado.toDate ? x.creado.toDate().toISOString() : new Date().toISOString() };
+  });
+}
+
+async function publicarMensaje(cursoId, hilo, texto) {
+  const ref = fb.doc(fb.collection(db, "foros", cursoId, "mensajes"));
+  await conTiempo(fb.setDoc(ref, {
+    hilo, texto, uid: usuario.uid, nombre: (cuenta && cuenta.nombre) || "", rol: (cuenta && cuenta.rol) || "participante",
+    creado: fb.serverTimestamp(), borrado: false,
+  }));
+  return ref.id;
+}
+
+async function borrarMensaje(cursoId, id) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "foros", cursoId, "mensajes", id), { borrado: true, texto: "" }));
+}
+
 /* ---------- gestión (relatores y administradores) ---------- */
 
 async function listarUsuarios() {
@@ -323,6 +357,11 @@ window.Nube = {
   leerTarjetas,
   guardarTarjeta,
   guardarVelo,
+  leerForo,
+  guardarForo,
+  mensajesCurso,
+  publicarMensaje,
+  borrarMensaje,
   listarUsuarios,
   actualizarUsuario,
   avanceDe,

@@ -668,6 +668,7 @@
 
       var tipoAcceso = acceso(c);
       if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
+      if (tipoAcceso === "libre") html += '<section class="seccion-inicio muro-curso" id="muro-curso"></section>';
       html += bloqueAgappe(c);
       var vistoOpt = false;
       if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Algunos módulos se habilitan al completar otros; lo verás indicado en cada uno.</p>';
@@ -696,6 +697,7 @@
       });
       if (c.credito) html += '<p class="credito">' + esc(c.credito) + "</p>";
       pintar(html, c.titulo);
+      cargarResumenMuro(c);
       activarSolicitudes();
     });
   }
@@ -832,6 +834,7 @@
 
     if (ocultas) html += '<p class="aviso">Esta clase incluye una guía para el relator. Actívala con el interruptor «Vista relator» de la parte superior.</p>';
 
+    html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
     html += '<div class="botones"><button class="boton ' + (hecha ? "hecho" : "principal") + '" id="marcar">' +
       (hecha ? "&#10003; Clase completada" : "Marcar como completada") + "</button></div>";
 
@@ -839,6 +842,7 @@
 
     pintar(html, cl.titulo);
     activarClase(c, cl);
+    cargarDebateClase(c, cl);
   }
 
   function activarClase(c, cl) {
@@ -917,6 +921,217 @@
       marcar.className = "boton " + (ahora ? "hecho" : "principal");
       marcar.innerHTML = ahora ? "&#10003; Clase completada" : "Marcar como completada";
     });
+  }
+
+  /* ---------- muro de cada formación ---------- */
+
+  // Con Firebase usa la nube; sin configuración, guarda en este navegador (para probar).
+  var Foro = {
+    leer: function (c) {
+      if (Nube.habilitada) return Nube.leerForo(c);
+      try { return Promise.resolve(JSON.parse(localStorage.getItem("agp:foro:" + c) || "{}")); } catch (e) { return Promise.resolve({}); }
+    },
+    guardar: function (c, cambios) {
+      if (Nube.habilitada) return Nube.guardarForo(c, cambios);
+      return Foro.leer(c).then(function (f) { localStorage.setItem("agp:foro:" + c, JSON.stringify(Object.assign(f, cambios))); });
+    },
+    mensajes: function (c) {
+      if (Nube.habilitada) return Nube.mensajesCurso(c);
+      try { return Promise.resolve(JSON.parse(localStorage.getItem("agp:foro-msg:" + c) || "[]")); } catch (e) { return Promise.resolve([]); }
+    },
+    publicar: function (c, hilo, texto) {
+      if (Nube.habilitada) return Nube.publicarMensaje(c, hilo, texto);
+      return Foro.mensajes(c).then(function (l) {
+        l.push({ id: "m" + Date.now(), hilo: hilo, texto: texto, uid: "local", nombre: modoRelator() ? "Relator (prueba)" : "Tú", rol: modoRelator() ? "relator" : "participante", fecha: new Date().toISOString(), borrado: false });
+        localStorage.setItem("agp:foro-msg:" + c, JSON.stringify(l));
+      });
+    },
+    borrar: function (c, id) {
+      if (Nube.habilitada) return Nube.borrarMensaje(c, id);
+      return Foro.mensajes(c).then(function (l) {
+        l.forEach(function (m) { if (m.id === id) { m.borrado = true; m.texto = ""; } });
+        localStorage.setItem("agp:foro-msg:" + c, JSON.stringify(l));
+      });
+    },
+  };
+
+  function yoForo() {
+    if (!Nube.habilitada) return { uid: "local", equipo: modoRelator() };
+    var e = cuentaActual();
+    return { uid: e.cuenta ? e.cuenta.uid : "", equipo: !!e.esRelator };
+  }
+  function debatibles(c) { return c.clases.filter(function (x) { return x.tipo !== "evaluacion"; }); }
+  var PREGUNTA_DEF = "¿Qué idea de esta sesión te parece más importante para tu servicio, y cómo la pondrías en práctica? Después, responde al aporte de algún compañero.";
+  function bienvenidaDef(c) {
+    return "¡Bienvenidos y bienvenidas a " + c.titulo + "! Este es el espacio de nuestra comunidad de curso. Para comenzar, preséntate: tu nombre, tu comunidad o parroquia, en qué sirves y qué esperas de esta formación.";
+  }
+  function directricesDef(f) {
+    return "- Avanza a tu ritmo, procurando completar al menos una sesión por semana.\n" +
+      "- Participa en el debate de cada sesión: comparte tu aporte y responde al de al menos un compañero." + (f.obligatorio ? " **La participación es obligatoria para completar cada sesión.**" : "") + "\n" +
+      "- Escribe con respeto y caridad: aquí todos aprendemos de todos.\n" +
+      "- Cuida la privacidad: no publiques datos personales ni situaciones de terceros, especialmente de menores.\n" +
+      "- Las dudas sobre el programa escríbelas en este mismo espacio; tu relator te responderá.\n" +
+      "- Para aprobar cada módulo: completar sus sesiones, el taller y la evaluación de cierre" + (f.obligatorio ? ", y participar en sus debates." : ".");
+  }
+  function fechaCorta(iso) {
+    try { return new Date(iso).toLocaleString("es-CL", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); } catch (e) { return ""; }
+  }
+  function participoEn(msgs, uid, hilo) {
+    return msgs.some(function (m) { return m.hilo === hilo && m.uid === uid && !m.borrado; });
+  }
+
+  function hiloHTML(msgs, hilo, placeholder, yo) {
+    var lista = msgs.filter(function (m) { return m.hilo === hilo; }).sort(function (a, b) { return String(a.fecha).localeCompare(String(b.fecha)); });
+    return '<div class="hilo">' + (lista.length ? lista.map(function (m) {
+      if (m.borrado) return '<article class="msg borrado"><p>Mensaje eliminado.</p></article>';
+      var propio = m.uid === yo.uid;
+      return '<article class="msg' + (m.rol === "relator" || m.rol === "admin" ? " msg-equipo" : "") + '"><header><b>' + esc(m.nombre || "Participante") + "</b>" +
+        (m.rol === "relator" || m.rol === "admin" ? '<span class="msg-rol">Relator</span>' : "") + "<time>" + esc(fechaCorta(m.fecha)) + "</time>" +
+        (propio || yo.equipo ? '<button class="msg-borrar" type="button" data-borrar="' + esc(m.id) + '">Borrar</button>' : "") + "</header>" +
+        "<p>" + esc(m.texto).replace(/\n/g, "<br>") + "</p></article>";
+    }).join("") : '<p class="seccion-bajada">Todavía no hay mensajes. ¡Sé el primero!</p>') + "</div>" +
+      '<form class="msg-form" data-hilo="' + esc(hilo) + '"><textarea maxlength="3000" required placeholder="' + esc(placeholder) + '"></textarea>' +
+      '<div class="botones"><button class="boton principal" type="submit">Publicar</button></div><div class="mensaje" aria-live="polite"></div></form>';
+  }
+
+  function textoEditable(id, titulo, texto, yo, filas) {
+    return '<div class="muro-texto" data-editable="' + esc(id) + '">' + (titulo ? "<h3>" + esc(titulo) + "</h3>" : "") +
+      '<div class="texto">' + md(texto) + "</div>" +
+      (yo.equipo ? '<div class="muro-editar" hidden><textarea rows="' + (filas || 5) + '">' + esc(texto) + '</textarea><div class="botones"><button class="boton principal" type="button" data-guardar>Guardar</button><button class="boton" type="button" data-cancelar>Cancelar</button></div><div class="mensaje" aria-live="polite"></div></div>' +
+        '<button class="boton boton-chico" type="button" data-editar>Editar</button>' : "") + "</div>";
+  }
+
+  function activarMuro(c, alGuardar) {
+    var yo = yoForo();
+    app.querySelectorAll(".msg-form").forEach(function (f) {
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var ta = f.querySelector("textarea"), msj = f.querySelector(".mensaje"), b = f.querySelector("button");
+        var texto = ta.value.trim();
+        if (!texto) return;
+        b.disabled = true; msj.className = "mensaje"; msj.textContent = "Publicando…";
+        Foro.publicar(c.id, f.getAttribute("data-hilo"), texto).then(ruta).catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+    });
+    app.querySelectorAll("[data-borrar]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        if (b.getAttribute("data-seguro") !== "1") { b.setAttribute("data-seguro", "1"); b.textContent = "¿Borrar? Confirmar"; return; }
+        Foro.borrar(c.id, b.getAttribute("data-borrar")).then(ruta).catch(function (er) { b.textContent = er.message; });
+      });
+    });
+    app.querySelectorAll("[data-editable]").forEach(function (box) {
+      var ed = box.querySelector(".muro-editar"), bEd = box.querySelector("[data-editar]");
+      if (!ed) return;
+      bEd.addEventListener("click", function () { ed.hidden = false; bEd.hidden = true; });
+      box.querySelector("[data-cancelar]").addEventListener("click", function () { ed.hidden = true; bEd.hidden = false; });
+      box.querySelector("[data-guardar]").addEventListener("click", function () {
+        var msj = ed.querySelector(".mensaje");
+        msj.className = "mensaje"; msj.textContent = "Guardando…";
+        alGuardar(box.getAttribute("data-editable"), ed.querySelector("textarea").value.trim()).then(ruta)
+          .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+    });
+    var ob = document.getElementById("muro-obligatorio");
+    if (ob) ob.addEventListener("change", function () { Foro.guardar(c.id, { obligatorio: ob.checked }).then(ruta); });
+    void yo;
+  }
+
+  function vistaMuro(cursoId, seccion, claseId) {
+    return Promise.all([cargarCurso(cursoId), Foro.leer(cursoId), Foro.mensajes(cursoId)]).then(function (r) {
+      var c = r[0], f = r[1] || {}, msgs = r[2] || [];
+      var base = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a> / Muro</nav>";
+      var tipoAcceso = acceso(c);
+      if (tipoAcceso !== "libre") { pintar(base + '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>", "Muro"); activarSolicitudes(); return; }
+      var yo = yoForo();
+      var preguntas = f.preguntas || {};
+      seccion = seccion || "bienvenida";
+      var pest = [["bienvenida", "Bienvenida"], ["programa", "Programa y directrices"], ["debates", "Debates por sesión"]];
+      var html = base + '<header class="muro-cabecera"><h1>Muro del curso</h1><p class="seccion-bajada">' + esc(c.titulo) + "</p></header>" +
+        '<nav class="pestanas-inicio muro-pestanas">' + pest.map(function (p) {
+          return '<a class="pestana-enlace" href="#/curso/' + esc(c.id) + "/muro/" + p[0] + '" aria-current="' + (seccion === p[0] || (seccion === "s" && p[0] === "debates")) + '">' + p[1] + "</a>";
+        }).join("") + "</nav>";
+
+      if (seccion === "bienvenida") {
+        html += '<section class="tarjeta">' + textoEditable("bienvenida", "Palabras del relator", f.bienvenida || bienvenidaDef(c), yo, 4) + "</section>" +
+          '<section class="tarjeta"><h2>Presentaciones</h2>' + hiloHTML(msgs, "bienvenida", "Preséntate: tu nombre, tu comunidad, en qué sirves y qué esperas de esta formación.", yo) + "</section>";
+      } else if (seccion === "programa") {
+        var cont = c.contenidos || [];
+        html += '<section class="tarjeta"><h2>Programa</h2><ul class="etiquetas claras"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
+          (c.descripcion ? "<p>" + esc(c.descripcion) + "</p>" : "") +
+          (c.competencias && c.competencias.length ? "<h3>Competencias</h3><ul>" + c.competencias.map(function (x) { return "<li>" + enfasis(x) + "</li>"; }).join("") + "</ul>" : "") +
+          (cont.length ? "<h3>" + (c.tipo === "curso" ? "Módulos" : "Sesiones") + '</h3><ol class="ficha-indice">' + cont.map(function (x) { return "<li>" + esc(x.titulo) + (x.tipo === "optativo" ? " (optativo)" : "") + "</li>"; }).join("") + "</ol>" : "") +
+          '<p><a class="boton" href="#/curso/' + esc(c.id) + '">Ver la formación completa</a></p></section>' +
+          '<section class="tarjeta">' + textoEditable("directrices", "Directrices", f.directrices || directricesDef(f), yo, 8) +
+          (yo.equipo ? '<label class="interruptor-muro"><input type="checkbox" id="muro-obligatorio"' + (f.obligatorio ? " checked" : "") + "> Participación obligatoria en los debates: sin participar, el participante no puede marcar la sesión como completada.</label>" : "") + "</section>" +
+          '<section class="tarjeta"><h2>Dudas sobre el programa</h2>' + hiloHTML(msgs, "programa", "Escribe tu duda sobre el programa o las directrices.", yo) + "</section>";
+      } else if (seccion === "s" && claseId) {
+        var cl = c.clases.filter(function (x) { return x.id === claseId; })[0];
+        if (!cl) { location.hash = "#/curso/" + c.id + "/muro/debates"; return; }
+        html += '<section class="tarjeta"><p class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · " + esc(cl.etiqueta || "") + "</p><h2>" + esc(cl.titulo) + "</h2>" +
+          textoEditable("pregunta:" + cl.id, "Pregunta para el debate", preguntas[cl.id] || PREGUNTA_DEF, yo, 3) +
+          (f.obligatorio ? '<p class="aviso">La participación en este debate es obligatoria para completar la sesión.</p>' : "") +
+          '<p><a class="boton" href="#/clase/' + esc(c.id) + "/" + esc(cl.id) + '">Ir a la sesión</a></p></section>' +
+          '<section class="tarjeta"><h2>Debate</h2>' + hiloHTML(msgs, cl.id, "Comparte tu aporte o responde a un compañero.", yo) + "</section>";
+      } else {
+        var deb = debatibles(c);
+        var mios = deb.filter(function (x) { return participoEn(msgs, yo.uid, x.id); }).length;
+        html += '<section class="tarjeta"><h2>Debates por sesión</h2><p class="seccion-bajada">Cada sesión tiene su pregunta para conversar.' + (f.obligatorio ? " <b>Participar es obligatorio para completar cada sesión.</b>" : "") + "</p>" +
+          (yo.equipo ? "" : '<p class="ficha-nota">Participaste en ' + mios + " de " + deb.length + " debates.</p>") +
+          c.modulos.map(function (m) {
+            var cls = m.clases.filter(function (x) { return x.tipo !== "evaluacion"; });
+            if (!cls.length) return "";
+            return "<h3>" + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + '</h3><ul class="debates-lista">' + cls.map(function (x) {
+              var n = msgs.filter(function (m2) { return m2.hilo === x.id && !m2.borrado; }).length;
+              var yoSi = participoEn(msgs, yo.uid, x.id);
+              return '<li><a href="#/curso/' + esc(c.id) + "/muro/s/" + esc(x.id) + '"><span>' + esc(x.etiqueta || "") + ". " + esc(x.titulo) + '</span><span class="debate-estado">' + n + (n === 1 ? " mensaje" : " mensajes") +
+                (yo.equipo ? "" : (yoSi ? ' · <b class="ok">Participaste</b>' : (f.obligatorio ? ' · <b class="pendiente">Pendiente</b>' : ""))) + "</span></a></li>";
+            }).join("") + "</ul>";
+          }).join("") + "</section>";
+      }
+      pintar(html, "Muro · " + c.titulo);
+      activarMuro(c, function (id, texto) {
+        if (id.indexOf("pregunta:") === 0) { var p = Object.assign({}, preguntas); p[id.slice(9)] = texto; return Foro.guardar(c.id, { preguntas: p }); }
+        var cambio = {}; cambio[id] = texto; return Foro.guardar(c.id, cambio);
+      });
+    });
+  }
+
+  // Resumen del muro en la página de la formación.
+  function cargarResumenMuro(c) {
+    var caja = document.getElementById("muro-curso");
+    if (!caja) return;
+    Promise.all([Foro.leer(c.id), Foro.mensajes(c.id)]).then(function (r) {
+      var f = r[0] || {}, msgs = (r[1] || []).filter(function (m) { return !m.borrado; }), yo = yoForo();
+      var deb = debatibles(c);
+      var nB = msgs.filter(function (m) { return m.hilo === "bienvenida"; }).length;
+      var mios = deb.filter(function (x) { return participoEn(msgs, yo.uid, x.id); }).length;
+      var u = "#/curso/" + esc(c.id) + "/muro/";
+      caja.innerHTML = '<h2 class="seccion-titulo">Muro del curso</h2><div class="muro-accesos">' +
+        '<a href="' + u + 'bienvenida"><b>Bienvenida y presentaciones</b><span>' + nB + (nB === 1 ? " presentación" : " presentaciones") + "</span></a>" +
+        '<a href="' + u + 'programa"><b>Programa y directrices</b><span>Lo que se espera de ti en esta formación</span></a>' +
+        '<a href="' + u + 'debates"><b>Debates por sesión</b><span>' + (yo.equipo ? deb.length + " debates" : "Participaste en " + mios + " de " + deb.length) + (f.obligatorio ? " · obligatorio" : "") + "</span></a></div>";
+    }).catch(function () { caja.remove(); });
+  }
+
+  // Debate de la sesión, al final de cada clase. Si es obligatorio, sin participar no se puede marcar como completada.
+  function cargarDebateClase(c, cl) {
+    var caja = document.getElementById("debate-clase");
+    if (!caja || cl.tipo === "evaluacion") { if (caja) caja.remove(); return; }
+    Promise.all([Foro.leer(c.id), Foro.mensajes(c.id)]).then(function (r) {
+      var f = r[0] || {}, msgs = (r[1] || []).filter(function (m) { return !m.borrado; }), yo = yoForo();
+      var n = msgs.filter(function (m) { return m.hilo === cl.id; }).length;
+      var yoSi = participoEn(msgs, yo.uid, cl.id);
+      var pregunta = (f.preguntas || {})[cl.id] || PREGUNTA_DEF;
+      caja.innerHTML = '<h2>Debate de esta sesión</h2><p class="debate-pregunta">' + esc(pregunta) + "</p>" +
+        '<p class="ficha-nota">' + n + (n === 1 ? " mensaje" : " mensajes") + (yo.equipo ? "" : (yoSi ? " · Ya participaste" : (f.obligatorio ? " · Tu participación es obligatoria para completar la sesión" : ""))) + "</p>" +
+        '<div class="botones"><a class="boton' + (yoSi || yo.equipo ? "" : " principal") + '" href="#/curso/' + esc(c.id) + "/muro/s/" + esc(cl.id) + '">' + (yoSi || yo.equipo ? "Ver el debate" : "Participar en el debate") + "</a></div>";
+      var marcar = document.getElementById("marcar");
+      if (f.obligatorio && !yo.equipo && !yoSi && marcar && hechas(c.id).indexOf(cl.id) < 0) {
+        marcar.disabled = true;
+        marcar.title = "Primero participa en el debate de esta sesión";
+        marcar.insertAdjacentHTML("afterend", '<span class="ficha-nota marcar-nota">Para completar esta sesión, primero participa en su debate.</span>');
+      }
+    }).catch(function () { caja.remove(); });
   }
 
   /* ---------- evaluaciones ---------- */
@@ -1340,6 +1555,7 @@
         var h = (datos["hechas:todo"] || []).concat(datos["hechas:" + c.id] || []);
         var pg = progresoCon(c, h);
         var html = '<li><b>' + esc(c.titulo) + "</b><span>" + pg.hechas + " de " + pg.total + " (" + pg.pct + "%)</span></li>";
+        html += '<li class="sub" data-debates="' + esc(c.id) + '"><span>Participación en debates</span><span>…</span></li>';
         if (c.tipo === "curso") {
           c.modulos.forEach(function (m) {
             var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
@@ -1356,6 +1572,15 @@
         '<div class="emitir"><label>Emitir constancia de<select>' + opciones.map(function (o) { return '<option value="' + esc(o.valor) + '">' + esc(o.texto) + "</option>"; }).join("") + "</select></label>" +
         '<p class="ficha-nota">Antes de emitir, confirma que aprobó las evaluaciones, la asistencia y el trabajo final que pide la formación.</p>' +
         '<div class="botones"><button class="boton principal" data-paso="1">Emitir constancia</button></div><div class="mensaje" aria-live="polite"></div></div>';
+      caja.querySelectorAll("[data-debates]").forEach(function (li) {
+        var c = lista.filter(function (x) { return x.id === li.getAttribute("data-debates"); })[0];
+        Promise.all([Foro.leer(c.id), Foro.mensajes(c.id)]).then(function (r) {
+          var deb = debatibles(c), msgs = r[1] || [];
+          var n = deb.filter(function (x) { return participoEn(msgs, u.uid, x.id); }).length;
+          var pres = msgs.some(function (m) { return m.hilo === "bienvenida" && m.uid === u.uid && !m.borrado; });
+          li.lastChild.textContent = n + " de " + deb.length + (r[0] && r[0].obligatorio ? " (obligatorio)" : "") + (pres ? " · se presentó" : " · sin presentación");
+        }).catch(function () { li.lastChild.textContent = "no disponible"; });
+      });
       var boton = caja.querySelector("[data-paso]");
       var select = caja.querySelector("select");
       var msj = caja.querySelector(".mensaje");
@@ -1414,6 +1639,7 @@
     actualizarCabecera();
     if (partes[0] === "curso" && partes[1] && partes[2] === "programa") tarea = vistaPrograma(partes[1]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "sesiones") tarea = vistaSesiones(partes[1]);
+    else if (partes[0] === "curso" && partes[1] && partes[2] === "muro") tarea = vistaMuro(partes[1], partes[3], partes[4]);
     else if (partes[0] === "area" && partes[1]) tarea = vistaArea(partes[1]);
     else if (partes[0] === "curso" && partes[1]) tarea = vistaCurso(partes[1]);
     else if (partes[0] === "clase" && partes[1] && partes[2]) tarea = vistaClase(partes[1], partes[2]);

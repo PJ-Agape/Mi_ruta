@@ -10,6 +10,7 @@ rules_version = '2';
 //   - Las notas personales (bitácora, plantillas) son privadas: nadie más las lee.
 //   - Las constancias se pueden verificar con su código, sin iniciar sesión.
 //   - Las imágenes de la portada las ve cualquiera y solo las cambia un administrador.
+//   - El muro de cada formación lo leen y escriben sus inscritos y el equipo.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -123,6 +124,32 @@ service cloud.firestore {
         && request.resource.data.get('imagen', '') is string
         && request.resource.data.get('imagen', '').size() <= 300000
         && (request.resource.data.get('imagen', '') == '' || request.resource.data.get('imagen', '').matches('^data:image/(webp|jpeg|png);base64,.*'));
+    }
+
+    // ---------- muro de cada formación ----------
+    function inscrito(curso) {
+      return activo() && curso in miCuenta().cursos;
+    }
+    match /foros/{curso} {
+      // Configuración del muro: la ven quienes participan en la formación; la edita el equipo.
+      allow read: if esEquipo() || inscrito(curso);
+      allow write: if esEquipo()
+        && request.resource.data.keys().hasOnly(['bienvenida', 'directrices', 'obligatorio', 'preguntas', 'actualizado', 'por']);
+
+      match /mensajes/{id} {
+        allow read: if esEquipo() || inscrito(curso);
+        allow create: if (esEquipo() || inscrito(curso))
+          && request.resource.data.keys().hasOnly(['hilo', 'texto', 'uid', 'nombre', 'rol', 'creado', 'borrado'])
+          && request.resource.data.uid == request.auth.uid
+          && request.resource.data.hilo is string && request.resource.data.hilo.size() <= 80
+          && request.resource.data.texto is string && request.resource.data.texto.size() > 0 && request.resource.data.texto.size() <= 3000
+          && request.resource.data.borrado == false;
+        // Quien escribió puede borrar su mensaje; el equipo puede borrar cualquiera (queda como «mensaje eliminado»).
+        allow update: if (resource.data.uid == request.auth.uid || esEquipo())
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['borrado', 'texto'])
+          && request.resource.data.borrado == true && request.resource.data.texto == '';
+        allow delete: if esAdmin();
+      }
     }
 
     // ---------- constancias ----------
