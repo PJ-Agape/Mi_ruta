@@ -2,10 +2,6 @@ rules_version = '2';
 
 // Reglas de seguridad de Mi Ruta.
 //
-// Antes de publicarlas, reemplaza tu_correo@gmail.com por el correo de Google
-// del primer administrador (en minúsculas). Debe ser el mismo que pongas en
-// assets/config.js, en «administradores».
-//
 // Resumen:
 //   - Cualquiera puede crear su cuenta, que queda «pendiente» y sin cursos.
 //   - Un relator o administrador aprueba cuentas, habilita cursos y emite constancias.
@@ -13,6 +9,7 @@ rules_version = '2';
 //   - Cada persona escribe solo su propio avance, y solo con la cuenta activa.
 //   - Las notas personales (bitácora, plantillas) son privadas: nadie más las lee.
 //   - Las constancias se pueden verificar con su código, sin iniciar sesión.
+//   - Las imágenes de la portada las ve cualquiera y solo las cambia un administrador.
 
 service cloud.firestore {
   match /databases/{database}/documents {
