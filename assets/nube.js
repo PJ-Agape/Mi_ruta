@@ -9,6 +9,7 @@
      avance/{uid}       datos: { "hechas:<curso>": [...], "eval:<curso>:<id>": {...} }
      notas/{uid}        datos: { "bitacora:<clase>": "...", "plantilla:<clase>": {...}, ... } (privado)
      constancias/{folio} datos de la constancia emitida (lectura pública por folio)
+     tarjetas/{id}      imagen de la tarjeta de una formación en la portada (lectura pública; edita un admin)
 */
 
 const CONFIG = window.MIRUTA_CONFIG || {};
@@ -234,6 +235,20 @@ async function subir() {
 
 window.addEventListener("pagehide", () => { if (Object.keys(cola).length) subir(); });
 
+/* ---------- imágenes de las tarjetas de la portada ---------- */
+
+async function leerTarjetas() {
+  if (!habilitada || !db) return {};
+  const snap = await conTiempo(fb.getDocs(fb.collection(db, "tarjetas")));
+  const r = {};
+  snap.docs.forEach((d) => { const x = d.data(); if (x.imagen) r[d.id] = x.imagen; });
+  return r;
+}
+
+async function guardarTarjeta(id, imagen) {
+  await conTiempo(fb.setDoc(fb.doc(db, "tarjetas", id), { imagen: imagen || "", actualizado: fb.serverTimestamp(), por: usuario.uid }));
+}
+
 /* ---------- gestión (relatores y administradores) ---------- */
 
 async function listarUsuarios() {
@@ -296,6 +311,8 @@ window.Nube = {
   salir,
   actualizarPerfil,
   solicitarCurso,
+  leerTarjetas,
+  guardarTarjeta,
   listarUsuarios,
   actualizarUsuario,
   avanceDe,

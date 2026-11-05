@@ -464,3 +464,12 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 }
 .ficha-dialogo .etiquetas { margin: .9rem 0 0; }
 .ficha-dialogo .etiquetas li { background: var(--fondo); color: var(--tinta); border: 1px solid var(--linea); }
+
+/* Imagen de las tarjetas de la portada */
+.tile.con-imagen { padding-top: 0; }
+.tile-imagen { display: block; width: calc(100% + 1.8rem); margin: 0 -.9rem .1rem; aspect-ratio: 16 / 9; object-fit: cover; background: var(--primario-claro); }
+.tile.con-imagen .tile-icono { margin-top: -1.9rem; position: relative; border: 3px solid var(--papel); background: var(--primario-claro); }
+.ficha-imagen { display: block; width: calc(100% + 2.8rem); margin: -1.4rem -1.4rem 1rem; aspect-ratio: 16 / 9; object-fit: cover; }
+.ficha-editor { margin-top: 1.2rem; padding: .9rem 1rem; border: 1px dashed var(--linea); border-radius: 12px; background: var(--fondo); }
+.ficha-editor h3 { margin-top: 0 !important; }
+.ficha-editor label.boton { cursor: pointer; }

@@ -116,6 +116,17 @@ service cloud.firestore {
       allow delete: if conSesion() && request.auth.uid == uid;
     }
 
+    // ---------- imágenes de las tarjetas de la portada ----------
+    // Cualquiera las ve; solo un administrador las cambia (imagen comprimida, máx. ~300 KB).
+    match /tarjetas/{id} {
+      allow read: if true;
+      allow write: if esAdmin()
+        && request.resource.data.keys().hasOnly(['imagen', 'actualizado', 'por'])
+        && request.resource.data.imagen is string
+        && request.resource.data.imagen.size() <= 300000
+        && (request.resource.data.imagen == '' || request.resource.data.imagen.matches('^data:image/(webp|jpeg|png);base64,.*'));
+    }
+
     // ---------- constancias ----------
     match /constancias/{folio} {
       // Cualquiera puede verificar una constancia si conoce su código.

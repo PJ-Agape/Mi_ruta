@@ -257,8 +257,56 @@
   }
   var ORDEN_AREAS = ["Liturgia", "Fe", "Sagrada Escritura", "Misión y servicio", "Cuidado", "Herramientas"];
 
+  /* ---------- imágenes de las tarjetas (las edita un administrador) ---------- */
+
+  var TARJETAS = null;
+  function puedeEditarTarjetas() { return !Nube.habilitada || cuentaActual().esAdmin; }
+  function cargarTarjetas() {
+    if (TARJETAS) return Promise.resolve(TARJETAS);
+    var p = Nube.habilitada && Nube.leerTarjetas ? Nube.leerTarjetas() : Promise.resolve(leerTarjetasLocal());
+    return p.catch(function (e) { console.warn("Tarjetas:", e); return {}; }).then(function (t) { TARJETAS = t || {}; return TARJETAS; });
+  }
+  function leerTarjetasLocal() { try { return JSON.parse(localStorage.getItem("agp:tarjetas") || "{}"); } catch (e) { return {}; } }
+  function guardarTarjeta(id, imagen) {
+    var p;
+    if (Nube.habilitada) p = Nube.guardarTarjeta(id, imagen);
+    else {
+      var t = leerTarjetasLocal();
+      if (imagen) t[id] = imagen; else delete t[id];
+      try { localStorage.setItem("agp:tarjetas", JSON.stringify(t)); p = Promise.resolve(); }
+      catch (e) { p = Promise.reject(new Error("No hay espacio para guardar la imagen en este navegador.")); }
+    }
+    return p.then(function () { if (imagen) TARJETAS[id] = imagen; else delete TARJETAS[id]; });
+  }
+  // Recorta la imagen al formato de la tarjeta (16:9) y la comprime para que pese poco.
+  function prepararImagen(archivo) {
+    return new Promise(function (ok, no) {
+      if (!/^image\//.test(archivo.type)) return no(new Error("El archivo no es una imagen."));
+      var url = URL.createObjectURL(archivo);
+      var img = new Image();
+      img.onload = function () {
+        URL.revokeObjectURL(url);
+        var W = 640, H = 360, cv = document.createElement("canvas");
+        cv.width = W; cv.height = H;
+        var esc0 = Math.max(W / img.width, H / img.height);
+        var w = img.width * esc0, h = img.height * esc0;
+        var ctx = cv.getContext("2d");
+        ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, W, H);
+        ctx.drawImage(img, (W - w) / 2, (H - h) / 2, w, h);
+        var tipo = cv.toDataURL("image/webp").indexOf("data:image/webp") === 0 ? "image/webp" : "image/jpeg";
+        var datos, q = 0.82;
+        do { datos = cv.toDataURL(tipo, q); q -= 0.12; } while (datos.length > 250000 && q > 0.3);
+        if (datos.length > 290000) return no(new Error("La imagen es demasiado pesada. Prueba con otra."));
+        ok(datos);
+      };
+      img.onerror = function () { URL.revokeObjectURL(url); no(new Error("No se pudo leer la imagen.")); };
+      img.src = url;
+    });
+  }
+
   function vistaInicio() {
-    return Promise.all(sitio.cursos.map(cargarCurso)).then(function (lista) {
+    return Promise.all([Promise.all(sitio.cursos.map(cargarCurso)), cargarTarjetas()]).then(function (r) {
+      var lista = r[0];
       var e = cuentaActual();
       var invitado = Nube.habilitada && e.status === "invitado";
       var html = '<section class="portada portada-inicio"><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
@@ -297,7 +345,9 @@
         var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
         var p = progreso(c);
         var texto = [c.titulo, c.subtitulo, c.categoria, c.descripcion].join(" ").toLowerCase();
-        return '<a class="tile tile-' + (c.tipo === "curso" ? (c.nivel || "curso") : "modulo") + '" href="#/curso/' + esc(c.id) + '" data-texto="' + esc(texto) + '">' +
+        var img = TARJETAS && TARJETAS[c.id];
+        return '<a class="tile tile-' + (c.tipo === "curso" ? (c.nivel || "curso") : "modulo") + (img ? " con-imagen" : "") + '" href="#/curso/' + esc(c.id) + '" data-texto="' + esc(texto) + '">' +
+          (img ? '<img class="tile-imagen" src="' + esc(img) + '" alt="" loading="lazy">' : "") +
           '<span class="tile-icono">' + icono(ic) + "</span>" +
           '<span class="tile-titulo">' + esc(c.titulo) + "</span>" +
           '<span class="tile-meta">' + esc(meta(c)) + "</span>" +
@@ -364,14 +414,20 @@
     d.id = "ficha-dialogo";
     d.className = "ficha-dialogo";
     d.setAttribute("aria-labelledby", "ficha-titulo");
+    var img = TARJETAS && TARJETAS[c.id];
+    var editor = puedeEditarTarjetas() ? '<div class="ficha-editor"><h3>Imagen de la tarjeta</h3>' +
+      '<p class="ficha-nota">Visible solo para administradores. Se recorta en formato horizontal (16:9) y se comprime automáticamente.</p>' +
+      '<div class="botones"><label class="boton">' + (img ? "Cambiar imagen" : "Subir imagen") + '<input type="file" accept="image/*" data-imagen hidden></label>' +
+      (img ? '<button class="boton" type="button" data-quitar-imagen>Quitar imagen</button>' : "") + '</div><div class="mensaje" aria-live="polite"></div></div>' : "";
     d.innerHTML = '<div class="ficha-cuerpo">' +
+      (img ? '<img class="ficha-imagen" src="' + esc(img) + '" alt="">' : "") +
       '<button class="ficha-cerrar" type="button" aria-label="Cerrar">&times;</button>' +
       '<div class="ficha-cabecera"><span class="tile-icono">' + icono(ic) + '</span><div><p class="ficha-tipo">' + tipo + (c.categoria && c.tipo !== "curso" ? " · " + esc(c.categoria) : "") + '</p><h2 id="ficha-titulo">' + esc(c.titulo) + "</h2></div></div>" +
       '<ul class="etiquetas">' + [c.duracion, c.modalidad, c.publico].filter(Boolean).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" +
       "<p>" + esc(c.descripcion || "") + "</p>" +
       (c.ejes && c.ejes.length ? '<h3>Ejes temáticos</h3><ul class="ficha-ejes">' + c.ejes.map(function (x) { return "<li>" + enfasis(x) + "</li>"; }).join("") + "</ul>" : "") +
       (c.competencias && c.competencias.length ? '<h3>Competencias que aporta</h3><ul class="ficha-competencias">' + c.competencias.map(function (x) { return "<li>" + enfasis(x) + "</li>"; }).join("") + "</ul>" : "") +
-      (cont.length ? "<h3>" + (c.tipo === "curso" ? "Módulos" : "Sesiones") + "</h3>" + indice : "") +
+      (cont.length ? "<h3>" + (c.tipo === "curso" ? "Módulos" : "Sesiones") + "</h3>" + indice : "") + editor +
       '</div><div class="ficha-acciones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">Ver la formación</a><button class="boton" type="button" data-cerrar>Cerrar</button></div>';
     document.body.appendChild(d);
     function cerrar() { d.close(); }
@@ -379,6 +435,31 @@
     d.querySelector("[data-cerrar]").addEventListener("click", cerrar);
     d.querySelector(".ficha-acciones a").addEventListener("click", cerrar);
     d.addEventListener("click", function (ev) { if (ev.target === d) cerrar(); });
+    function refrescar() {
+      app.querySelectorAll('.tile[href="#/curso/' + c.id + '"]').forEach(function (t) {
+        var viejo = t.querySelector(".tile-imagen");
+        if (viejo) viejo.remove();
+        t.classList.toggle("con-imagen", !!TARJETAS[c.id]);
+        if (TARJETAS[c.id]) { var im = document.createElement("img"); im.className = "tile-imagen"; im.alt = ""; im.src = TARJETAS[c.id]; t.insertBefore(im, t.firstChild); }
+      });
+      var pos = d.querySelector(".ficha-cuerpo").scrollTop;
+      d.close();
+      abrirFicha(c, origen);
+      var nuevo = document.getElementById("ficha-dialogo");
+      if (nuevo) nuevo.querySelector(".ficha-cuerpo").scrollTop = pos;
+    }
+    var entrada = d.querySelector("[data-imagen]");
+    if (entrada) entrada.addEventListener("change", function () {
+      var msj = d.querySelector(".ficha-editor .mensaje");
+      if (!entrada.files[0]) return;
+      msj.className = "mensaje"; msj.textContent = "Guardando…";
+      prepararImagen(entrada.files[0]).then(function (datos) { return guardarTarjeta(c.id, datos); }).then(refrescar)
+        .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+    });
+    var quitar = d.querySelector("[data-quitar-imagen]");
+    if (quitar) quitar.addEventListener("click", function () {
+      guardarTarjeta(c.id, "").then(refrescar).catch(function (er) { var msj = d.querySelector(".ficha-editor .mensaje"); msj.className = "mensaje error"; msj.textContent = er.message; });
+    });
     d.addEventListener("close", function () { d.remove(); if (origen && document.body.contains(origen)) origen.focus(); });
     if (d.showModal) d.showModal(); else location.hash = "#/curso/" + c.id;
   }
