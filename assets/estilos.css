@@ -485,3 +485,8 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .control-velo { display: inline-flex; align-items: center; gap: .45rem; color: #fff; font-size: .82rem; background: rgba(11, 37, 102, .55); border-radius: 99px; padding: .3rem .8rem; }
 .control-velo input { width: 120px; accent-color: var(--acento); }
 .control-velo output { min-width: 2.6em; font-variant-numeric: tabular-nums; }
+.portada .aviso.revision { background: #fff4ec; color: var(--tinta); }
+@media (max-width: 420px) {
+  .pestanas-inicio { gap: .3rem; }
+  .pestanas-inicio button { padding: .45rem .7rem; font-size: .9rem; }
+}

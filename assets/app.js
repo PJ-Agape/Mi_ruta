@@ -342,7 +342,7 @@
       } else if (Nube.habilitada && e.activo) {
         // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
         var cursados = almacen.leer("cursados", []);
-        var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && cursados.indexOf(c.id) >= 0 && progreso(c).hechas > 0); });
+        var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && (cursados.indexOf(c.id) >= 0 || c.tipo !== "curso") && progreso(c).hechas > 0); });
         html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
           (mios.length ? mios.map(function (c) {
             return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(progreso(c)) + "</a>";
@@ -559,7 +559,7 @@
       var h = hechas(c.id);
       var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0 && !moduloBloqueado(c, x.modulo); })[0];
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
-      html += '<section class="portada"><p class="subtitulo">' + (c.tipo === "curso" ? "Curso · " : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
+      html += '<section class="portada"><p class="subtitulo">' + (c.tipo === "curso" ? (c.nivel === "diplomado" ? "Diplomado · " : "Curso · ") : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         (c.aviso ? '<p class="aviso revision">' + esc(c.aviso) + "</p>" : "") +
         (acceso(c) === "libre" ? barraProgreso(p) : "") +

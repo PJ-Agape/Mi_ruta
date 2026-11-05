@@ -98,3 +98,7 @@ En el repositorio: **Settings → Pages → Build and deployment → Source: Dep
 Las formaciones para jóvenes son una adaptación ampliada de los cursos de la Pastoral Juvenil Ágape (© 2026), publicados con licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es). Esta adaptación se comparte con la misma licencia.
 
 Usa [marked](https://github.com/markedjs/marked) (licencia MIT) para mostrar el contenido.
+
+## Publicar cambios sin que el navegador muestre la versión anterior
+
+`index.html` carga `estilos.css`, `nube.js` y `app.js` con `?v=AAAAMMDDx`. Cada vez que cambies esos archivos, sube ese número (por ejemplo `20261105a` → `20261105b`) para que los navegadores descarguen la versión nueva.
