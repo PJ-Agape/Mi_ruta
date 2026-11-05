@@ -267,7 +267,11 @@
         (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") + "</section>";
 
       if (Nube.habilitada && e.status === "pendiente") {
-        html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión. Mientras tanto, explora la oferta y solicita la inscripción en lo que te interese.</p><div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
+        var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
+        html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión.</p>' +
+          (solic.length ? '<p><b>Solicitaste:</b> ' + solic.map(esc).join(", ") + '. Te habilitaremos apenas se apruebe tu cuenta.</p>'
+            : '<p>Todavía no solicitas ninguna formación. Elige una abajo, entra a ella y toca <b>Solicitar inscripción</b>.</p>') +
+          '<div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
       } else if (Nube.habilitada && e.activo) {
         // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
         var cursados = almacen.leer("cursados", []);
@@ -829,7 +833,10 @@
     admin: "los de relator y participante: gestionas cuentas y constancias, usas la vista relator y también cursas las formaciones con tu propio avance y constancias.",
   };
 
+  function tituloDe(id) { return cursos[id] && cursos[id].titulo ? cursos[id].titulo : id; }
+
   function vistaPerfil() {
+    if (!sitio.cursos.every(function (id) { return cursos[id]; })) return Promise.all(sitio.cursos.map(cargarCurso)).then(vistaPerfil);
     var e = cuentaActual();
     if (!Nube.habilitada) { location.hash = "#/"; return Promise.resolve(); }
     if (e.status === "invitado") { location.hash = "#/ingresar"; return Promise.resolve(); }
@@ -840,6 +847,8 @@
       (e.activo && ROLES_INCLUYE[c.rol] ? '<p class="ficha-nota">Tu perfil incluye ' + ROLES_INCLUYE[c.rol] + "</p>" : "") +
       (c.estado === "pendiente" ? '<p class="aviso">Tu cuenta está en revisión. Un relator o administrador la aprobará y te habilitará los cursos que solicites.</p>' : "") +
       (c.estado === "pausado" ? '<p class="aviso">Tu cuenta está en pausa. Conversa con tu relator o con la coordinación de Mi Ruta.</p>' : "") +
+      ((c.solicitudes || []).length ? '<p class="ficha-nota"><b>Formaciones solicitadas:</b> ' + c.solicitudes.map(function (id) { return esc(tituloDe(id)); }).join(", ") + "</p>" : "") +
+      ((c.cursos || []).length ? '<p class="ficha-nota"><b>Formaciones habilitadas:</b> ' + c.cursos.map(function (id) { return esc(tituloDe(id)); }).join(", ") + "</p>" : "") +
       '<form id="form-perfil" class="formulario"><label>Nombre y apellido<input name="nombre" value="' + esc(c.nombre) + '" required></label>' +
       '<label>Comunidad o parroquia<input name="comunidad" value="' + esc(c.comunidad) + '"></label>' +
       '<label>Correo<input value="' + esc(c.correo) + '" disabled></label>' +
@@ -992,12 +1001,18 @@
       function nombreCurso(id) { return porId[id] ? porId[id].titulo : id; }
 
       function fichaPendiente(u) {
-        var sol = (u.solicitudes || []);
+        var sol = (u.solicitudes || []).filter(function (id) { return porId[id]; });
+        var marcar = sol.length ? sol : [];
         return '<li class="ficha" data-uid="' + esc(u.uid) + '"><div class="ficha-cabeza"><b>' + esc(u.nombre) + '</b><span>' + esc(u.correo) + (u.comunidad ? " · " + esc(u.comunidad) : "") + "</span></div>" +
           (u.estado === "pendiente" ? '<p class="ficha-nota">Cuenta nueva, en revisión.</p>' : "") +
-          (sol.length ? '<p class="ficha-nota">Solicita: ' + sol.map(function (id) { return esc(nombreCurso(id)); }).join(", ") + "</p>" : "") +
-          '<div class="botones"><button class="boton principal" data-accion="aprobar">' + (u.estado === "pendiente" ? "Aprobar" : "Inscribir") + (sol.length ? " e inscribir" : "") + "</button>" +
-          (u.estado === "pendiente" ? '<button class="boton" data-accion="pausar">Rechazar</button>' : '<button class="boton" data-accion="descartar">Descartar solicitud</button>') + "</div></li>";
+          (sol.length ? '<p class="ficha-nota"><b>Solicita:</b> ' + sol.map(function (id) { return esc(nombreCurso(id)); }).join(", ") + "</p>"
+            : '<p class="ficha-nota">No ha solicitado ninguna formación. Elige abajo cuáles habilitar.</p>') +
+          '<details class="ficha-elegir"' + (sol.length ? "" : " open") + '><summary>Formaciones que se habilitarán (' + marcar.length + ')</summary>' +
+          '<fieldset class="ficha-cursos">' + lista.map(function (c) {
+            return '<label><input type="checkbox" value="' + esc(c.id) + '"' + (marcar.indexOf(c.id) >= 0 || (u.cursos || []).indexOf(c.id) >= 0 ? " checked" : "") + "> " + esc(c.titulo) + "</label>";
+          }).join("") + "</fieldset></details>" +
+          '<div class="botones"><button class="boton principal" data-accion="aprobar">' + (u.estado === "pendiente" ? "Aprobar" : "Inscribir") + " y habilitar</button>" +
+          (u.estado === "pendiente" ? '<button class="boton" data-accion="pausar">Rechazar</button>' : '<button class="boton" data-accion="descartar">Descartar solicitud</button>') + '</div><div class="mensaje" aria-live="polite"></div></li>';
       }
 
       function fichaParticipante(u) {
@@ -1042,6 +1057,12 @@
         }).catch(function (er) { caja.innerHTML = '<p class="aviso error">' + esc(er.message) + "</p>"; });
       });
 
+      app.querySelectorAll(".ficha-elegir").forEach(function (d) {
+        d.addEventListener("change", function () {
+          d.querySelector("summary").textContent = "Formaciones que se habilitarán (" + d.querySelectorAll("input:checked").length + ")";
+        });
+      });
+
       app.querySelectorAll(".ficha").forEach(function (li) {
         var uid = li.getAttribute("data-uid");
         var u = usuarios.filter(function (x) { return x.uid === uid; })[0];
@@ -1054,7 +1075,10 @@
           var evento = b.tagName === "SELECT" ? "change" : "click";
           b.addEventListener(evento, function () {
             if (accion === "aprobar") {
-              var cursosNuevos = Array.from(new Set((u.cursos || []).concat(u.solicitudes || [])));
+              var elegidos = li.querySelector(".ficha-elegir")
+                ? Array.from(li.querySelectorAll(".ficha-elegir input:checked")).map(function (x) { return x.value; })
+                : (u.solicitudes || []);
+              var cursosNuevos = Array.from(new Set((u.cursos || []).concat(elegidos)));
               hecho(Nube.actualizarUsuario(uid, { estado: "activo", cursos: cursosNuevos, solicitudes: [] }));
             } else if (accion === "descartar") {
               hecho(Nube.actualizarUsuario(uid, { solicitudes: [] }));

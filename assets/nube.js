@@ -170,8 +170,16 @@ async function actualizarPerfil({ nombre, comunidad }) {
 }
 
 async function solicitarCurso(cursoId) {
-  await fb.updateDoc(fb.doc(db, "usuarios", usuario.uid), { solicitudes: fb.arrayUnion(cursoId) });
-  cuenta = { ...cuenta, solicitudes: Array.from(new Set([...(cuenta.solicitudes || []), cursoId])) };
+  const ref = fb.doc(db, "usuarios", usuario.uid);
+  try {
+    await conTiempo(fb.updateDoc(ref, { solicitudes: fb.arrayUnion(cursoId) }));
+  } catch (e) {
+    throw new Error("No se pudo enviar la solicitud (" + traducir(e) + "). Avísale a tu relator.");
+  }
+  // Se relee la cuenta desde el servidor para confirmar que la solicitud quedó registrada.
+  const snap = await conTiempo(fb.getDoc(ref));
+  cuenta = { uid: usuario.uid, ...snap.data() };
+  if ((cuenta.solicitudes || []).indexOf(cursoId) < 0) throw new Error("La solicitud no quedó registrada. Vuelve a intentarlo o avísale a tu relator.");
   avisar();
 }
 
