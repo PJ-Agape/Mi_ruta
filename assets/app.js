@@ -1762,7 +1762,7 @@
       }).join("");
       caja.innerHTML = '<ul class="avance-lista">' + filas + "</ul>" +
         '<div class="emitir"><label>Emitir constancia de<select>' + opciones.map(function (o) { return '<option value="' + esc(o.valor) + '">' + esc(o.texto) + "</option>"; }).join("") + "</select></label>" +
-        '<p class="ficha-nota">Antes de emitir, confirma que aprobó las evaluaciones, la asistencia y el trabajo final que pide la formación.</p>' +
+        '<p class="ficha-nota">Solo se emite cuando el módulo está aprobado: todas sus sesiones y la evaluación de cierre, y además los debates y la presentación en video si la formación los exige. La plataforma lo revisa al emitir.</p>' +
         '<div class="botones"><button class="boton principal" data-paso="1">Emitir constancia</button></div><div class="mensaje" aria-live="polite"></div></div>';
       caja.querySelectorAll("[data-videos]").forEach(function (li) {
         var c = lista.filter(function (x) { return x.id === li.getAttribute("data-videos"); })[0];
@@ -1794,13 +1794,58 @@
         var partes = select.value.split("|");
         var c = lista.filter(function (x) { return x.id === partes[0]; })[0];
         var op = opciones.filter(function (o) { return o.valor === select.value; })[0];
-        Nube.emitirConstancia(datosConstancia(c, partes[1], u, op ? op.h : [])).then(function (folio) {
+        msj.className = "mensaje"; msj.textContent = "Revisando requisitos…";
+        requisitosAprobacion(c, partes[1], u, op ? op.h : []).then(function (faltan) {
+          if (faltan.length) {
+            var err = new Error("");
+            err.html = "<b>Todavía no se puede emitir: el módulo debe estar aprobado.</b><ul>" + faltan.map(function (f) { return "<li>" + esc(f) + "</li>"; }).join("") + "</ul>";
+            throw err;
+          }
+          return Nube.emitirConstancia(datosConstancia(c, partes[1], u, op ? op.h : []));
+        }).then(function (folio) {
           msj.className = "mensaje ok";
           msj.innerHTML = 'Constancia emitida: <a href="#/constancia/' + esc(folio) + '">' + esc(folio) + "</a>";
           boton.disabled = false; boton.setAttribute("data-paso", "1"); boton.textContent = "Emitir constancia";
-        }).catch(function (er) { boton.disabled = false; msj.className = "mensaje error"; msj.textContent = er.message; });
+        }).catch(function (er) {
+          boton.disabled = false; boton.setAttribute("data-paso", "1"); boton.textContent = "Emitir constancia";
+          msj.className = "mensaje error";
+          if (er.html) msj.innerHTML = er.html; else msj.textContent = er.message;
+        });
       });
     }).catch(function (er) { caja.innerHTML = '<p class="aviso error">' + esc(er.message) + "</p>"; });
+  }
+
+  // Un módulo está aprobado cuando: completó todas sus sesiones (incluida la evaluación de cierre),
+  // participó en sus debates si son obligatorios y su presentación en video está aprobada si se pide.
+  function requisitosAprobacion(c, alcance, u, h) {
+    return Promise.all([Foro.leer(c.id).catch(function () { return {}; }), Foro.mensajes(c.id).catch(function () { return []; }), Entregas.delCurso(c.id).catch(function () { return []; })]).then(function (r) {
+      var f = r[0] || {}, msgs = r[1] || [], ents = (r[2] || []).filter(function (x) { return x.uid === u.uid; });
+      function faltasModulo(m) {
+        var out = [], nombre = c.tipo === "curso" ? etiquetaModulo(m) + " (" + m.titulo + ")" : m.titulo;
+        var pend = m.clases.filter(function (x) { return h.indexOf(x.id) < 0; }).length;
+        if (pend) out.push(nombre + ": faltan " + pend + (pend === 1 ? " sesión" : " sesiones") + " (o la evaluación de cierre).");
+        if (f.obligatorio) {
+          var sinDebate = m.clases.filter(function (x) { return x.tipo !== "evaluacion" && !participoEn(msgs, u.uid, x.id); }).length;
+          if (sinDebate) out.push(nombre + ": falta participar en " + sinDebate + (sinDebate === 1 ? " debate." : " debates."));
+        }
+        if (f.video) {
+          var e = ents.filter(function (x) { return x.modulo === m.id; })[0];
+          if (!e) out.push(nombre + ": no ha enviado la presentación en video.");
+          else if (!e.evaluacion) out.push(nombre + ": la presentación en video está pendiente de evaluar.");
+          else if (e.evaluacion.nota < APRUEBA_VIDEO) out.push(nombre + ": la presentación en video no alcanza el " + APRUEBA_VIDEO + " % (" + e.evaluacion.nota + " %).");
+        }
+        return out;
+      }
+      if (c.tipo !== "curso") return faltasModulo(c.modulos[0]);
+      if (alcance !== "curso") return faltasModulo(c.modulos.filter(function (m) { return m.id === alcance; })[0]);
+      var faltan = [];
+      var obl = c.modulos.filter(function (m) { return m.tipo === "obligatorio"; });
+      var opt = c.modulos.filter(function (m) { return m.tipo === "optativo"; });
+      obl.forEach(function (m) { faltan = faltan.concat(faltasModulo(m)); });
+      var optOk = opt.filter(function (m) { return !faltasModulo(m).length; }).length;
+      if (c.elige && optOk < c.elige) faltan.push("Optativos: aprobó " + optOk + " de los " + c.elige + " que exige el curso.");
+      return faltan;
+    });
   }
 
   /* ---------- cabecera ---------- */
