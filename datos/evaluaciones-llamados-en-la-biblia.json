@@ -1,0 +1,109 @@
+{
+ "llamados-en-la-biblia-cierre": {
+  "titulo": "Cierre del módulo: Llamados en la Biblia",
+  "aprobacion": 70,
+  "taller": "Galería de llamados: cada participante elige un personaje bíblico del curso y prepara un monólogo de tres minutos en primera persona (cómo me llamó Dios, qué me pidió, cuál fue mi miedo y cómo respondí). Después de escuchar a todos, el grupo identifica en cada relato los cinco pasos del llamado. Para cerrar, cada uno escribe su propio relato de vocación con esos cinco pasos y lo entrega, sellado, a su relator o acompañante.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es la primera pregunta que Dios hace al ser humano en la Biblia?",
+    "opciones": [
+     "«¿Qué has hecho?»",
+     "«¿Dónde estás?»",
+     "«¿Quién eres?»"
+    ],
+    "correcta": 1,
+    "explicacion": "En Génesis 3,9, Dios sale a buscar a Adán con la pregunta «¿Dónde estás?»."
+   },
+   {
+    "pregunta": "Según la carta a los Hebreos, ¿cómo respondió Abraham al llamado de Dios?",
+    "opciones": [
+     "Esperó a tener todo claro antes de partir.",
+     "Salió sin saber a dónde iba.",
+     "Envió a otro en su lugar."
+    ],
+    "correcta": 1,
+    "explicacion": "Abraham es modelo de fe porque confió y se puso en camino (Hb 11,8)."
+   },
+   {
+    "pregunta": "¿Qué responde Dios a Moisés cuando pregunta «¿quién soy yo para ir?»?",
+    "opciones": [
+     "«Yo estaré contigo».",
+     "«Eres el más preparado».",
+     "«Si no vas, enviaré a otro»."
+    ],
+    "correcta": 0,
+    "explicacion": "Dios no responde con los méritos de Moisés, sino con su presencia (Ex 3,12)."
+   },
+   {
+    "pregunta": "¿Qué dijo Gedeón cuando Dios lo llamó a liberar a su pueblo?",
+    "opciones": [
+     "Que estaba listo para la batalla.",
+     "Que su clan era el más débil y él el más pequeño.",
+     "Que prefería que fuera Débora."
+    ],
+    "correcta": 1,
+    "explicacion": "Gedeón se sentía poca cosa, y Dios lo eligió igual (Jue 6,15)."
+   },
+   {
+    "pregunta": "¿Qué le dice Dios a Samuel al elegir a David?",
+    "opciones": [
+     "«Busca al más fuerte».",
+     "«El Señor mira el corazón».",
+     "«Elige al hijo mayor»."
+    ],
+    "correcta": 1,
+    "explicacion": "El hombre mira las apariencias, pero el Señor mira el corazón (1 Sam 16,7)."
+   },
+   {
+    "pregunta": "¿Cuál fue la excusa de Jeremías ante el llamado de Dios?",
+    "opciones": [
+     "Que era demasiado joven.",
+     "Que estaba enfermo.",
+     "Que no creía en Dios."
+    ],
+    "correcta": 0,
+    "explicacion": "Dios le responde: «No digas: soy demasiado joven… yo estoy contigo» (Jer 1,6-8)."
+   },
+   {
+    "pregunta": "¿Qué hizo Jonás cuando Dios lo envió a Nínive?",
+    "opciones": [
+     "Fue de inmediato.",
+     "Huyó en dirección contraria, hacia Tarsis.",
+     "Pidió que lo acompañara Elías."
+    ],
+    "correcta": 1,
+    "explicacion": "Jonás huyó, pero Dios insistió y Nínive se convirtió (Jon 1,3)."
+   },
+   {
+    "pregunta": "¿Qué hace María inmediatamente después de la Anunciación?",
+    "opciones": [
+     "Se queda en casa reflexionando.",
+     "Parte sin demora a servir a su prima Isabel.",
+     "Va al templo a contarlo a los sacerdotes."
+    ],
+    "correcta": 1,
+    "explicacion": "El sí de María se convierte enseguida en servicio (Lc 1,39)."
+   },
+   {
+    "pregunta": "¿Qué frase de Juan el Bautista resume su vocación de señalar a Jesús?",
+    "opciones": [
+     "«Yo soy el Mesías».",
+     "«Es necesario que él crezca y que yo disminuya».",
+     "«Síganme a mí»."
+    ],
+    "correcta": 1,
+    "explicacion": "Juan prepara el camino y lleva a otros hacia Jesús (Jn 3,30)."
+   },
+   {
+    "pregunta": "Según Marcos 3,14, ¿para qué eligió Jesús a los Doce?",
+    "opciones": [
+     "Para que estuvieran con él y para enviarlos.",
+     "Para que gobernaran Israel.",
+     "Para que escribieran los Evangelios."
+    ],
+    "correcta": 0,
+    "explicacion": "Primero estar con Jesús, después ser enviados: los dos movimientos de todo llamado."
+   }
+  ]
+ }
+}

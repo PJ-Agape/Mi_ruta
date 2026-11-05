@@ -1,0 +1,68 @@
+{
+  "id": "llamados-en-la-biblia",
+  "titulo": "Llamados en la Biblia",
+  "subtitulo": "De Adán a los apóstoles: cómo llama Dios y cómo le respondieron",
+  "descripcion": "Un recorrido por los grandes llamados de la Sagrada Escritura: Adán y Eva, Noé, Abraham y Sara, Moisés, Gedeón, Débora, Rut, Samuel, David, los profetas, Jonás, Ester, María, José, Juan el Bautista, los apóstoles, María Magdalena y Pablo. Para descubrir cómo llama Dios y reconocer ese llamado en la propia vida. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
+  "publico": "Desde 13 años",
+  "categoria": "Fe",
+  "nuevo": false,
+  "duracion": "6 sesiones · 9 horas",
+  "modalidad": "En línea, a tu ritmo",
+  "tipo": "complementaria",
+  "horas": 9,
+  "recursos": {},
+  "ejes": [
+    "Los primeros llamados: Adán y Eva, Noé, Abraham y Sara",
+    "Guías y profetas del pueblo de Dios",
+    "María, José y Juan el Bautista",
+    "Los apóstoles, las discípulas y Pablo"
+  ],
+  "competencias": [
+    "Narrar los principales relatos de vocación de la Biblia.",
+    "Reconocer los pasos de un llamado: iniciativa de Dios, resistencia, promesa y respuesta.",
+    "Leer la propia historia a la luz de los llamados bíblicos."
+  ],
+  "agappe": [
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
+  "contenidos": [
+    {
+      "titulo": "Llamados desde el principio",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Llamados a liberar y conducir",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Llamados a hablar en nombre de Dios",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Llamados en la plenitud de los tiempos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Llamados a seguir a Jesús",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
+}

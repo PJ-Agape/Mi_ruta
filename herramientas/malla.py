@@ -160,7 +160,7 @@ def dip(titulo, ses, cierre):
 
 
 D, A, C = "discernimiento-y-oracion", "arte-de-encontrarnos", "coordinar-es-servir"
-COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-liturgica", "conocer-la-biblia", "santos-jovenes",
+COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-liturgica", "conocer-la-biblia", "llamados-en-la-biblia", "santos-jovenes",
                    "el-credo", "sacramentos", "misiones-juveniles", "ayudante-de-catequesis", "voluntariado-y-doctrina-social",
                    "ecologia-integral", "buen-trato-y-prevencion", "primeros-auxilios", "primeros-auxilios-psicologicos",
                    "comunicacion-y-redes", "dinamicas-y-juegos", "logistica"]

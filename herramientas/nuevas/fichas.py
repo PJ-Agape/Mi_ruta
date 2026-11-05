@@ -74,6 +74,10 @@ FICHAS = {
         "ejes": ["Organización de la Biblia", "Palabra de Dios en palabras humanas", "Géneros y contexto", "La Biblia en la vida y en el grupo"],
         "competencias": ["Buscar y citar textos bíblicos.", "Distinguir géneros literarios y leer en contexto.", "Animar una lectura orante en grupo."],
     },
+    "llamados-en-la-biblia": {
+        "ejes": ["Los primeros llamados: Adán y Eva, Noé, Abraham y Sara", "Guías y profetas del pueblo de Dios", "María, José y Juan el Bautista", "Los apóstoles, las discípulas y Pablo"],
+        "competencias": ["Narrar los principales relatos de vocación de la Biblia.", "Reconocer los pasos de un llamado: iniciativa de Dios, resistencia, promesa y respuesta.", "Leer la propia historia a la luz de los llamados bíblicos."],
+    },
     "santos-jovenes": {
         "ejes": ["Llamado a la santidad", "Santos de Chile", "Testigos de nuestro tiempo", "El propio camino"],
         "competencias": ["Presentar la vida de santos jóvenes como modelos cercanos.", "Relacionar sus testimonios con la vida de los jóvenes de hoy.", "Proponer un camino personal de santidad."],
@@ -157,6 +161,7 @@ ENLACES = {
     "lectores-y-salmistas": ["evangelio", "salmos"],
     "musica-liturgica": ["cancionero", "salmos"],
     "conocer-la-biblia": ["evangelio", "salmos", "capilla"],
+    "llamados-en-la-biblia": ["evangelio", "salmos", "capilla"],
     "santos-jovenes": ["capilla", "oremus"],
     "el-credo": ["oremus", "capilla"],
     "sacramentos": ["capilla", "oremus"],

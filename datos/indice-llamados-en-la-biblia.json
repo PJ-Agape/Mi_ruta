@@ -1,0 +1,76 @@
+{
+ "curso": "llamados-en-la-biblia",
+ "modulos": [
+  {
+   "id": "llamados-en-la-biblia",
+   "numero": 1,
+   "titulo": "Llamados en la Biblia",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
+   "intro": "La Biblia está llena de personas a las que Dios llamó por su nombre: ancianos y jóvenes, valientes y miedosos, santos y pecadores. Casi todos dudaron, pusieron excusas o se sintieron poca cosa, y Dios les respondió con la misma promesa: «Yo estaré contigo». En esta formación recorrerás esos llamados, desde el Génesis hasta los apóstoles, y aprenderás a reconocer cómo Dios te llama también a ti.",
+   "clases": [
+    {
+     "id": "llamados-en-la-biblia-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Llamados desde el principio",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/llamados-en-la-biblia/s1.md",
+     "debate": "**Caso: ¿Y por qué yo?.** A Fernanda le piden que coordine el grupo de confirmación de su parroquia. Tiene 19 años, nunca ha coordinado nada y piensa que hay otros mejor preparados. Le responde al asesor: «Gracias, pero no soy la persona indicada».\n\n- ¿En qué se parece la reacción de Fernanda a la de los llamados de la Biblia?\n- ¿Qué le dirías a Fernanda a partir de la historia de Abraham y Sara?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-en-la-biblia-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Llamados a liberar y conducir",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/llamados-en-la-biblia/s2.md",
+     "debate": "**Caso: Nadie más quiere.** El grupo juvenil necesita a alguien que lidere la preparación de las misiones de verano. Todos miran a Benjamín, que es responsable y cercano, pero él dice: «Yo no sé hablar en público y me pongo nervioso. Mejor que lo haga otro».\n\n- ¿Qué tienen en común la excusa de Benjamín y la de Moisés?\n- ¿Qué «Aarón» podría acompañar a Benjamín para que pueda decir que sí?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-en-la-biblia-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Llamados a hablar en nombre de Dios",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/llamados-en-la-biblia/s3.md",
+     "debate": "**Caso: Jonás en el grupo.** En el grupo acuerdan visitar a un compañero que dejó de venir porque está pasando un mal momento. Le piden a Catalina que vaya, porque viven cerca. Pero a ella ese compañero le cae mal desde hace tiempo, así que inventa excusas y deja pasar las semanas.\n\n- ¿En qué se parece la actitud de Catalina a la de Jonás?\n- ¿Qué podría ayudarla a mirar a su compañero como Dios lo mira?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-en-la-biblia-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Llamados en la plenitud de los tiempos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/llamados-en-la-biblia/s4.md",
+     "debate": "**Caso: El sí que da miedo.** Ignacio aceptó ser catequista de confirmación con mucho entusiasmo. A las tres semanas se da cuenta de que es más difícil de lo que pensaba: los jóvenes no ponen atención y él siente que no sabe lo suficiente. Piensa en renunciar antes de que termine el primer mes.\n\n- ¿Qué le enseña la pregunta de María, «¿cómo será esto?», a Ignacio?\n- ¿Qué ayuda concreta necesitaría Ignacio para sostener su sí?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-en-la-biblia-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Llamados a seguir a Jesús",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/llamados-en-la-biblia/s5.md",
+     "debate": "**Caso: El joven que se fue triste.** A Diego lo invitan a sumarse al equipo de misiones de verano. Le entusiasma la idea, pero ese verano quería trabajar para comprarse un computador y además tiene planes con sus amigos. Dice que «este año no» y, aunque está seguro de su decisión, se queda inquieto.\n\n- ¿Qué tiene en común la situación de Diego con la del joven rico?\n- ¿Cómo discernir cuándo un «no» es prudente y cuándo es miedo a dejar algo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-en-la-biblia-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}
