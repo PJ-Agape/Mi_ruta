@@ -333,27 +333,116 @@
     });
   }
 
+  /* ---------- áreas de formación ---------- */
+
+  // Cada área agrupa formaciones (de una institución, una persona o un ámbito). Si sitio.json no trae áreas, todo va en una sola.
+  function areas() {
+    if (sitio.areas && sitio.areas.length) return sitio.areas;
+    return [{ id: "general", titulo: "Formaciones", descripcion: "", cursos: sitio.cursos }];
+  }
+  function areaDe(cursoId) {
+    return areas().filter(function (a) { return a.cursos.indexOf(cursoId) >= 0; })[0] || null;
+  }
+  function claveArea(id) { return "area-" + id; }
+
+  function metaTile(c) {
+    if (c.tipo === "curso") return (c.horas ? c.horas + " h · " : "") + (c.modulos_n || c.modulos.length) + " módulos";
+    return "6 sesiones · 9 h";
+  }
+  function tileHTML(c) {
+    var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
+    var p = progreso(c);
+    var a = areaDe(c.id);
+    var texto = [c.titulo, c.subtitulo, c.categoria, c.descripcion, a ? a.titulo : ""].join(" ").toLowerCase();
+    var img = TARJETAS && TARJETAS[c.id];
+    return '<a class="tile tile-' + (c.tipo === "curso" ? (c.nivel || "curso") : "modulo") + (img ? " con-imagen" : "") + '" href="#/curso/' + esc(c.id) + '" data-texto="' + esc(texto) + '">' +
+      (img ? '<img class="tile-imagen" src="' + esc(img) + '" alt="" loading="lazy">' : "") +
+      '<span class="tile-icono">' + icono(ic) + "</span>" +
+      '<span class="tile-titulo">' + esc(c.titulo) + "</span>" +
+      '<span class="tile-meta">' + esc(metaTile(c)) + "</span>" +
+      (p.hechas ? '<span class="tile-avance" style="--pct:' + p.pct + '%"></span>' : "") +
+      (c.nuevo ? '<span class="tile-nuevo">Nuevo</span>' : "") + "</a>";
+  }
+
+  // Editor de imagen de fondo (administradores): portada de inicio y portada de cada área.
+  function editorFondo(clave, fondo, velo) {
+    if (!puedeEditarTarjetas()) return "";
+    return '<div class="editar-fondo" data-clave="' + esc(clave) + '"><label class="boton">' + (fondo ? "Cambiar fondo" : "Poner imagen de fondo") + '<input type="file" accept="image/*" class="fondo-archivo" hidden></label>' +
+      (fondo ? '<button class="boton fondo-quitar" type="button">Quitar fondo</button>' +
+        '<label class="control-velo">Velo <input type="range" class="fondo-velo" min="0" max="90" step="5" value="' + Math.round(velo * 100) + '"> <output>' + Math.round(velo * 100) + ' %</output></label>' : "") +
+      '<span class="mensaje" aria-live="polite"></span></div>';
+  }
+  function fondoDe(clave) {
+    var fondo = TARJETAS && TARJETAS[clave];
+    var velo = TARJETAS && typeof TARJETAS[clave + ":velo"] === "number" ? TARJETAS[clave + ":velo"] : VELO_DEFECTO;
+    return { fondo: fondo, velo: velo, attr: fondo ? ' style="--fondo-inicio:url(\'' + esc(fondo) + '\');' + estiloVelo(velo) + '"' : "" };
+  }
+  function activarFondos() {
+    app.querySelectorAll(".editar-fondo").forEach(function (ed) {
+      var clave = ed.getAttribute("data-clave");
+      var msj = ed.querySelector(".mensaje");
+      var portada = ed.closest(".portada");
+      var archivo = ed.querySelector(".fondo-archivo");
+      archivo.addEventListener("change", function () {
+        if (!archivo.files[0]) return;
+        msj.className = "mensaje"; msj.textContent = "Guardando…";
+        prepararImagen(archivo.files[0], 1600, 640).then(function (d) { return guardarTarjeta(clave, d); }).then(ruta)
+          .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+      var quitar = ed.querySelector(".fondo-quitar");
+      if (quitar) quitar.addEventListener("click", function () {
+        guardarTarjeta(clave, "").then(ruta).catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+      var rango = ed.querySelector(".fondo-velo");
+      if (rango) {
+        var salida = rango.parentNode.querySelector("output");
+        rango.addEventListener("input", function () {
+          var v = Number(rango.value) / 100;
+          portada.style.setProperty("--velo-a", (v * 0.3).toFixed(3));
+          portada.style.setProperty("--velo-b", v.toFixed(3));
+          salida.textContent = rango.value + " %";
+        });
+        rango.addEventListener("change", function () {
+          msj.className = "mensaje"; msj.textContent = "Guardando…";
+          guardarVelo(clave, Number(rango.value) / 100)
+            .then(function () { msj.textContent = "Guardado"; setTimeout(function () { msj.textContent = ""; }, 1500); })
+            .catch(function (er) { msj.className = "mensaje error"; msj.textContent = er.message; });
+        });
+      }
+    });
+  }
+
+  function activarFichas(selector) {
+    app.querySelectorAll(selector).forEach(function (t) {
+      t.addEventListener("click", function (ev) {
+        var id = t.getAttribute("href").replace("#/curso/", "");
+        var c = FICHAS_INICIO[id];
+        if (!c || !window.HTMLDialogElement) return;
+        ev.preventDefault();
+        abrirFicha(c, t);
+      });
+    });
+  }
+
   function vistaInicio() {
     return Promise.all([Promise.all(sitio.cursos.map(cargarCurso)), cargarTarjetas()]).then(function (r) {
       var lista = r[0];
       var e = cuentaActual();
       var invitado = Nube.habilitada && e.status === "invitado";
-      var fondo = TARJETAS && TARJETAS[FONDO_INICIO];
-      var velo = TARJETAS && typeof TARJETAS[FONDO_INICIO + ":velo"] === "number" ? TARJETAS[FONDO_INICIO + ":velo"] : VELO_DEFECTO;
-      var html = '<section class="portada portada-inicio' + (fondo ? " con-fondo" : "") + '"' + (fondo ? ' style="--fondo-inicio:url(\'' + esc(fondo) + '\');' + estiloVelo(velo) + '"' : "") + '><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
-        '<p class="portada-lema">Formación para servir en la pastoral juvenil: cursos, diplomados y módulos con constancia, a tu ritmo y con tu comunidad.</p>' +
+      var f = fondoDe(FONDO_INICIO);
+      FICHAS_INICIO = {};
+      lista.forEach(function (c) { FICHAS_INICIO[c.id] = c; });
+      var html = '<section class="portada portada-inicio' + (f.fondo ? " con-fondo" : "") + '"' + f.attr + '><h1 class="logo-titulo">' + nombreConEstilo(sitio.nombre) + "</h1>" + FIRMA +
+        '<p class="portada-lema">Formación para servir: cursos, diplomados y módulos con constancia, a tu ritmo y con tu comunidad.</p>' +
         '<label class="buscador">' + icono("buscar", "icono-buscar") + '<input id="buscar" type="search" placeholder="¿Qué quieres aprender?" autocomplete="off" aria-label="Buscar cursos y módulos"></label>' +
         (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") +
-        (puedeEditarTarjetas() ? '<div class="editar-fondo"><label class="boton">' + (fondo ? "Cambiar fondo" : "Poner imagen de fondo") + '<input type="file" accept="image/*" id="fondo-inicio" hidden></label>' +
-          (fondo ? '<button class="boton" type="button" id="quitar-fondo">Quitar fondo</button>' +
-            '<label class="control-velo">Velo <input type="range" id="velo-fondo" min="0" max="90" step="5" value="' + Math.round(velo * 100) + '"> <output>' + Math.round(velo * 100) + ' %</output></label>' : "") +
-          '<span class="mensaje" aria-live="polite"></span></div>' : "") + "</section>";
+        editorFondo(FONDO_INICIO, f.fondo, f.velo) + "</section>";
 
       if (Nube.habilitada && e.status === "pendiente") {
         var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
         html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión.</p>' +
           (solic.length ? '<p><b>Solicitaste:</b> ' + solic.map(esc).join(", ") + '. Te habilitaremos apenas se apruebe tu cuenta.</p>'
-            : '<p>Todavía no solicitas ninguna formación. Elige una abajo, entra a ella y toca <b>Solicitar inscripción</b>.</p>') +
+            : '<p>Todavía no solicitas ninguna formación. Elige una, entra a ella y toca <b>Solicitar inscripción</b>.</p>') +
           '<div class="botones"><a class="boton" href="#/perfil">Mi cuenta</a></div></section>';
       } else if (Nube.habilitada && e.activo) {
         // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
@@ -362,74 +451,106 @@
         html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
           (mios.length ? mios.map(function (c) {
             return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(progreso(c)) + "</a>";
-          }).join("") : '<p class="seccion-bajada">' + (e.esRelator ? "Todavía no comienzas ninguna formación. Como " + (e.esAdmin ? "administrador" : "relator") + " puedes entrar a cualquiera: tu avance quedará aquí." : "Todavía no tienes cursos habilitados. Elige uno abajo y solicita la inscripción.") + "</p>") + "</section>";
+          }).join("") : '<p class="seccion-bajada">' + (e.esRelator ? "Todavía no comienzas ninguna formación. Como " + (e.esAdmin ? "administrador" : "relator") + " puedes entrar a cualquiera: tu avance quedará aquí." : "Todavía no tienes cursos habilitados. Elige uno y solicita la inscripción.") + "</p>") + "</section>";
       }
 
-      var cursosL = lista.filter(function (c) { return c.tipo === "curso" && c.nivel !== "diplomado"; });
-      var diplomados = lista.filter(function (c) { return c.nivel === "diplomado"; });
-      var modulos = lista.filter(function (c) { return c.tipo !== "curso"; });
-      var nuevos = lista.filter(function (c) { return c.nuevo; });
-
-      function meta(c) {
-        if (c.tipo === "curso") return (c.horas ? c.horas + " h · " : "") + (c.modulos_n || c.modulos.length) + " módulos";
-        return "6 sesiones · 9 h";
-      }
-      FICHAS_INICIO = {};
-      lista.forEach(function (c) { FICHAS_INICIO[c.id] = c; });
-      function tile(c) {
-        var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
-        var p = progreso(c);
-        var texto = [c.titulo, c.subtitulo, c.categoria, c.descripcion].join(" ").toLowerCase();
-        var img = TARJETAS && TARJETAS[c.id];
-        return '<a class="tile tile-' + (c.tipo === "curso" ? (c.nivel || "curso") : "modulo") + (img ? " con-imagen" : "") + '" href="#/curso/' + esc(c.id) + '" data-texto="' + esc(texto) + '">' +
-          (img ? '<img class="tile-imagen" src="' + esc(img) + '" alt="" loading="lazy">' : "") +
-          '<span class="tile-icono">' + icono(ic) + "</span>" +
-          '<span class="tile-titulo">' + esc(c.titulo) + "</span>" +
-          '<span class="tile-meta">' + esc(meta(c)) + "</span>" +
-          (p.hechas ? '<span class="tile-avance" style="--pct:' + p.pct + '%"></span>' : "") +
-          (c.nuevo ? '<span class="tile-nuevo">Nuevo</span>' : "") + "</a>";
-      }
-      function grupo(id, titulo, bajada, items) {
-        return '<section class="seccion-inicio grupo-tiles" data-grupo="' + id + '"><h2 class="seccion-titulo">' + titulo + "</h2>" +
-          (bajada ? '<p class="seccion-bajada">' + bajada + "</p>" : "") + '<div class="tiles">' + items.map(tile).join("") + "</div></section>";
-      }
-
-      html += '<nav class="pestanas-inicio" role="tablist">' +
-        [["todo", "Todo"], ["cursos", "Cursos"], ["diplomados", "Diplomados"], ["modulos", "Módulos"]].map(function (t, k) {
-          return '<button role="tab" data-ver="' + t[0] + '" aria-selected="' + (k === 0) + '">' + t[1] + "</button>";
-        }).join("") + "</nav>";
-
-      html += '<div id="oferta">';
-      if (nuevos.length) html += grupo("nuevos", "Nuevos", "", nuevos);
-      html += grupo("cursos", "Cursos", "Programas completos con módulos obligatorios y optativos. Al terminar recibes el certificado del curso.", cursosL);
-      html += grupo("diplomados", "Diplomados", "Formación de mayor profundidad. Cada módulo entrega su propia constancia.", diplomados);
-      var areas = ORDEN_AREAS.filter(function (a) { return modulos.some(function (c) { return c.categoria === a; }); });
-      html += '<section class="seccion-inicio" data-grupo="modulos"><h2 class="seccion-titulo">Módulos por área</h2><p class="seccion-bajada">Formaciones breves de seis sesiones que puedes tomar por separado. Si después te inscribes en un curso que las incluye, se te reconocen.</p>' +
-        areas.map(function (a) {
-          return '<div class="grupo-tiles area"><h3 class="categoria-titulo">' + icono(a, "icono-area") + esc(a) + '</h3><div class="tiles">' +
-            modulos.filter(function (c) { return c.categoria === a; }).map(tile).join("") + "</div></div>";
-        }).join("") + "</section>";
-      html += '<p class="sin-resultados" hidden>No encontramos cursos ni módulos con esa búsqueda.</p></div>';
+      html += '<section class="seccion-inicio" id="areas-inicio"><h2 class="seccion-titulo">Áreas de formación</h2><div class="areas-lista">' +
+        areas().map(function (a) {
+          var img = TARJETAS && TARJETAS[claveArea(a.id)];
+          var cs = a.cursos.map(function (id) { return FICHAS_INICIO[id]; }).filter(Boolean);
+          var n = { cursos: cs.filter(function (c) { return c.tipo === "curso" && c.nivel !== "diplomado"; }).length, dip: cs.filter(function (c) { return c.nivel === "diplomado"; }).length, mod: cs.filter(function (c) { return c.tipo !== "curso"; }).length };
+          var cifras = [n.cursos ? n.cursos + (n.cursos === 1 ? " curso" : " cursos") : "", n.dip ? n.dip + (n.dip === 1 ? " diplomado" : " diplomados") : "", n.mod ? n.mod + (n.mod === 1 ? " módulo" : " módulos") : ""].filter(Boolean).join(" · ");
+          return '<a class="area-tarjeta' + (img ? " con-imagen" : "") + '" href="#/area/' + esc(a.id) + '">' +
+            (img ? '<img class="area-imagen" src="' + esc(img) + '" alt="" loading="lazy">' : '<span class="area-imagen area-sin-imagen">' + icono("curso") + "</span>") +
+            '<span class="area-cuerpo">' + (a.institucion ? '<span class="area-institucion">' + esc(a.institucion) + "</span>" : "") +
+            '<b class="area-titulo">' + esc(a.titulo) + "</b>" + (a.descripcion ? '<span class="area-desc">' + esc(a.descripcion) + "</span>" : "") +
+            '<span class="area-cifras">' + esc(cifras) + '</span><span class="area-ir">Ver formaciones</span></span></a>';
+        }).join("") + "</div></section>" +
+        '<section class="seccion-inicio" id="resultados-inicio" hidden><h2 class="seccion-titulo">Resultados</h2><div class="tiles">' + lista.map(tileHTML).join("") +
+        '</div><p class="sin-resultados" hidden>No encontramos cursos ni módulos con esa búsqueda.</p></section>';
 
       html += '<section class="seccion-inicio como-funciona"><h2 class="seccion-titulo">Cómo funciona</h2><ol class="pasos">' +
         '<li><b>Crea tu cuenta</b><span>Con Google o con tu correo. Es gratis.</span></li>' +
-        '<li><b>Elige tu formación</b><span>Un curso, un diplomado o un módulo suelto, y solicita la inscripción.</span></li>' +
+        '<li><b>Elige tu formación</b><span>Entra a un área y elige un curso, un diplomado o un módulo suelto, y solicita la inscripción.</span></li>' +
         '<li><b>Tu relator te acompaña</b><span>Aprueba tu inscripción y te guía en los encuentros con tu comunidad.</span></li>' +
         '<li><b>Avanza y certifícate</b><span>Cada módulo aprobado entrega una constancia verificable con código.</span></li></ol></section>';
 
       html += '<section class="seccion-inicio ayuda"><h2 class="seccion-titulo">Preguntas frecuentes</h2>' +
         '<details><summary>¿Cuánto cuesta?</summary><p>Nada. Mi Ruta es una iniciativa de agAPPe y la formación es gratuita.</p></details>' +
+        '<details><summary>¿Qué es un área de formación?</summary><p>Un conjunto de formaciones de un mismo ámbito o de una misma institución. Dentro de cada área encontrarás sus cursos, diplomados y módulos.</p></details>' +
         '<details><summary>¿Qué diferencia hay entre un curso, un diplomado y un módulo?</summary><p>Un módulo es una formación de seis sesiones. Un curso reúne varios módulos (obligatorios y optativos) en un programa. Un diplomado es una formación más profunda, con constancia por cada módulo y un certificado final.</p></details>' +
         '<details><summary>¿Si ya aprobé un módulo, tengo que repetirlo en otro curso?</summary><p>No. Un módulo aprobado vale en todos los cursos que lo incluyen.</p></details>' +
         '<details><summary>¿Cómo se verifica una constancia?</summary><p>Cada constancia tiene un código. Cualquiera puede verificarla en esta página sin necesidad de cuenta.</p></details>' +
         '<details><summary>Soy menor de edad, ¿puedo inscribirme?</summary><p>Sí, cada formación indica la edad mínima. Crea tu cuenta con conocimiento de tus padres o tutores.</p></details>' +
         "</section>";
       pintar(html);
-      activarInicio();
+      activarFondos();
+      activarFichas("#resultados-inicio .tile");
+      var buscar = document.getElementById("buscar");
+      buscar.addEventListener("input", function () {
+        var q = buscar.value.trim().toLowerCase();
+        document.getElementById("areas-inicio").hidden = !!q;
+        var res = document.getElementById("resultados-inicio");
+        res.hidden = !q;
+        var hay = 0;
+        res.querySelectorAll(".tile").forEach(function (t) { var ok = !!q && t.getAttribute("data-texto").indexOf(q) >= 0; t.hidden = !ok; if (ok) hay++; });
+        res.querySelector(".sin-resultados").hidden = hay > 0;
+      });
+    });
+  }
+
+  function vistaArea(id) {
+    var a = areas().filter(function (x) { return x.id === id; })[0];
+    if (!a) { location.hash = "#/"; return Promise.resolve(); }
+    return Promise.all([Promise.all(a.cursos.map(cargarCurso)), cargarTarjetas()]).then(function (r) {
+      var lista = r[0];
+      FICHAS_INICIO = {};
+      lista.forEach(function (c) { FICHAS_INICIO[c.id] = c; });
+      var f = fondoDe(claveArea(a.id));
+      var html = '<nav class="migas"><a href="#/">Inicio</a></nav>' +
+        '<section class="portada portada-area portada-inicio' + (f.fondo ? " con-fondo" : "") + '"' + f.attr + '>' +
+        (a.institucion ? '<p class="subtitulo">' + esc(a.institucion) + "</p>" : "") +
+        "<h1>" + esc(a.titulo) + "</h1>" + (a.descripcion ? '<p class="portada-lema">' + esc(a.descripcion) + "</p>" : "") +
+        '<label class="buscador">' + icono("buscar", "icono-buscar") + '<input id="buscar" type="search" placeholder="Buscar en esta área" autocomplete="off" aria-label="Buscar en esta área"></label>' +
+        editorFondo(claveArea(a.id), f.fondo, f.velo) + "</section>";
+
+      var cursosL = lista.filter(function (c) { return c.tipo === "curso" && c.nivel !== "diplomado"; });
+      var diplomados = lista.filter(function (c) { return c.nivel === "diplomado"; });
+      var modulos = lista.filter(function (c) { return c.tipo !== "curso"; });
+      var nuevos = lista.filter(function (c) { return c.nuevo; });
+      function grupo(gid, titulo, bajada, items) {
+        if (!items.length) return "";
+        return '<section class="seccion-inicio grupo-tiles" data-grupo="' + gid + '"><h2 class="seccion-titulo">' + titulo + "</h2>" +
+          (bajada ? '<p class="seccion-bajada">' + bajada + "</p>" : "") + '<div class="tiles">' + items.map(tileHTML).join("") + "</div></section>";
+      }
+      var pest = [["todo", "Todo"]];
+      if (cursosL.length) pest.push(["cursos", "Cursos"]);
+      if (diplomados.length) pest.push(["diplomados", "Diplomados"]);
+      if (modulos.length) pest.push(["modulos", "Módulos"]);
+      html += '<nav class="pestanas-inicio" role="tablist">' + pest.map(function (t, k) {
+        return '<button role="tab" data-ver="' + t[0] + '" aria-selected="' + (k === 0) + '">' + t[1] + "</button>";
+      }).join("") + "</nav>";
+      html += '<div id="oferta">';
+      if (nuevos.length) html += grupo("nuevos", "Nuevos", "", nuevos);
+      html += grupo("cursos", "Cursos", "Programas completos con módulos obligatorios y optativos. Al terminar recibes el certificado del curso.", cursosL);
+      html += grupo("diplomados", "Diplomados", "Formación de mayor profundidad. Cada módulo entrega su propia constancia.", diplomados);
+      var temas = ORDEN_AREAS.filter(function (t) { return modulos.some(function (c) { return c.categoria === t; }); });
+      modulos.forEach(function (c) { if (temas.indexOf(c.categoria) < 0) temas.push(c.categoria); });
+      if (modulos.length) html += '<section class="seccion-inicio" data-grupo="modulos"><h2 class="seccion-titulo">Módulos por tema</h2><p class="seccion-bajada">Formaciones breves de seis sesiones que puedes tomar por separado. Si después te inscribes en un curso que las incluye, se te reconocen.</p>' +
+        temas.map(function (t) {
+          return '<div class="grupo-tiles area"><h3 class="categoria-titulo">' + icono(t, "icono-area") + esc(t) + '</h3><div class="tiles">' +
+            modulos.filter(function (c) { return c.categoria === t; }).map(tileHTML).join("") + "</div></div>";
+        }).join("") + "</section>";
+      html += '<p class="sin-resultados" hidden>No encontramos cursos ni módulos con esa búsqueda.</p></div>';
+      pintar(html, a.titulo);
+      activarFondos();
+      activarFichas("#oferta .tile");
+      activarOferta();
     });
   }
 
   var FICHAS_INICIO = {};
+
 
   function enfasis(t) { return esc(t).replace(/\*([^*]+)\*/g, "<em>$1</em>"); }
 
@@ -499,47 +620,7 @@
     if (d.showModal) d.showModal(); else location.hash = "#/curso/" + c.id;
   }
 
-  function activarInicio() {
-    var entradaFondo = document.getElementById("fondo-inicio");
-    if (entradaFondo) {
-      var msjFondo = app.querySelector(".editar-fondo .mensaje");
-      entradaFondo.addEventListener("change", function () {
-        if (!entradaFondo.files[0]) return;
-        msjFondo.className = "mensaje"; msjFondo.textContent = "Guardando…";
-        prepararImagen(entradaFondo.files[0], 1600, 640).then(function (d) { return guardarTarjeta(FONDO_INICIO, d); }).then(ruta)
-          .catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
-      });
-      var rango = document.getElementById("velo-fondo");
-      if (rango) {
-        var portada = app.querySelector(".portada-inicio");
-        var salida = rango.parentNode.querySelector("output");
-        rango.addEventListener("input", function () {
-          var v = Number(rango.value) / 100;
-          portada.style.setProperty("--velo-a", (v * 0.3).toFixed(3));
-          portada.style.setProperty("--velo-b", v.toFixed(3));
-          salida.textContent = rango.value + " %";
-        });
-        rango.addEventListener("change", function () {
-          msjFondo.className = "mensaje"; msjFondo.textContent = "Guardando…";
-          guardarVelo(FONDO_INICIO, Number(rango.value) / 100)
-            .then(function () { msjFondo.textContent = "Guardado"; setTimeout(function () { msjFondo.textContent = ""; }, 1500); })
-            .catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
-        });
-      }
-      var quitarFondo = document.getElementById("quitar-fondo");
-      if (quitarFondo) quitarFondo.addEventListener("click", function () {
-        guardarTarjeta(FONDO_INICIO, "").then(ruta).catch(function (er) { msjFondo.className = "mensaje error"; msjFondo.textContent = er.message; });
-      });
-    }
-    app.querySelectorAll("#oferta .tile").forEach(function (t) {
-      t.addEventListener("click", function (ev) {
-        var id = t.getAttribute("href").replace("#/curso/", "");
-        var c = FICHAS_INICIO[id];
-        if (!c || !window.HTMLDialogElement) return;
-        ev.preventDefault();
-        abrirFicha(c, t);
-      });
-    });
+  function activarOferta() {
     var pestanas = app.querySelectorAll("[data-ver]");
     var buscar = document.getElementById("buscar");
     var filtroVer = "todo";
@@ -576,7 +657,8 @@
       var p = progreso(c);
       var h = hechas(c.id);
       var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0 && !moduloBloqueado(c, x.modulo); })[0];
-      var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
+      var ar = areaDe(c.id);
+      var html = '<nav class="migas"><a href="#/">Inicio</a>' + (ar && areas().length ? ' / <a href="#/area/' + esc(ar.id) + '">' + esc(ar.titulo) + "</a>" : "") + "</nav>";
       html += '<section class="portada' + (foto ? ' portada-foto" style="--fondo-curso:url(\'' + esc(foto) + '\')' : "") + '"><p class="subtitulo">' + (c.tipo === "curso" ? (c.nivel === "diplomado" ? "Diplomado · " : "Curso · ") : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         (c.aviso ? '<p class="aviso revision">' + esc(c.aviso) + "</p>" : "") +
@@ -1334,6 +1416,7 @@
     actualizarCabecera();
     if (partes[0] === "curso" && partes[1] && partes[2] === "programa") tarea = vistaPrograma(partes[1]);
     else if (partes[0] === "curso" && partes[1] && partes[2] === "sesiones") tarea = vistaSesiones(partes[1]);
+    else if (partes[0] === "area" && partes[1]) tarea = vistaArea(partes[1]);
     else if (partes[0] === "curso" && partes[1]) tarea = vistaCurso(partes[1]);
     else if (partes[0] === "clase" && partes[1] && partes[2]) tarea = vistaClase(partes[1], partes[2]);
     else if (partes[0] === "ingresar") tarea = vistaIngresar();

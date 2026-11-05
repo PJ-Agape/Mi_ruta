@@ -26,5 +26,39 @@
     "comunicacion-y-redes",
     "dinamicas-y-juegos",
     "logistica"
+  ],
+  "areas": [
+    {
+      "id": "agentes-de-pastoral",
+      "titulo": "Formación integral para agentes de Pastoral",
+      "institucion": "agAPPe",
+      "descripcion": "Cursos, diplomados y módulos para quienes sirven en la pastoral juvenil y parroquial: fe, liturgia, Sagrada Escritura, liderazgo, misión, cuidado y herramientas para el servicio.",
+      "cursos": [
+        "dirigente-juvenil",
+        "diplomado",
+        "servicio-liturgico",
+        "fe-y-catequesis",
+        "mision-y-servicio",
+        "diplomado-escritura",
+        "catequista",
+        "servidores-del-altar",
+        "lectores-y-salmistas",
+        "musica-liturgica",
+        "conocer-la-biblia",
+        "santos-jovenes",
+        "el-credo",
+        "sacramentos",
+        "misiones-juveniles",
+        "ayudante-de-catequesis",
+        "voluntariado-y-doctrina-social",
+        "ecologia-integral",
+        "buen-trato-y-prevencion",
+        "primeros-auxilios",
+        "primeros-auxilios-psicologicos",
+        "comunicacion-y-redes",
+        "dinamicas-y-juegos",
+        "logistica"
+      ]
+    }
   ]
 }

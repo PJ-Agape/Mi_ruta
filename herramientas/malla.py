@@ -313,6 +313,14 @@ def main():
         escribir(mid, ficha, mods, m["evals"])
         lista.append(mid)
     sitio["cursos"] = lista
+    # Áreas de formación: cada una agrupa formaciones (de un ámbito, una institución o una persona).
+    sitio["areas"] = [{
+        "id": "agentes-de-pastoral",
+        "titulo": "Formación integral para agentes de Pastoral",
+        "institucion": "agAPPe",
+        "descripcion": "Cursos, diplomados y módulos para quienes sirven en la pastoral juvenil y parroquial: fe, liturgia, Sagrada Escritura, liderazgo, misión, cuidado y herramientas para el servicio.",
+        "cursos": lista,
+    }]
     (DATOS / "sitio.json").write_text(json.dumps(sitio, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{len(M)} módulos, {len(CURSOS)} cursos y {len(COMPLEMENTARIAS)} módulos sueltos")
 
