@@ -1348,47 +1348,27 @@
       pestanasCurso(c, activa);
   }
 
-  function haceCuanto(iso) {
-    if (!iso) return "sin conexión reciente";
-    var s = (Date.now() - new Date(iso).getTime()) / 1000;
-    if (s < 150) return "en línea";
-    if (s < 3600) return "hace " + Math.round(s / 60) + " min";
-    if (s < 86400) return "hace " + Math.round(s / 3600) + " h";
-    var d = Math.round(s / 86400);
-    return "hace " + d + (d === 1 ? " día" : " días");
-  }
-  function enLinea(iso) { return iso && (Date.now() - new Date(iso).getTime()) < 150000; }
-
-  function consultaN() {
-    var m = location.hash.match(/[?&]n=([^&]*)/);
-    return m ? decodeURIComponent(m[1]) : "";
-  }
-
   function vistaParticipantes(cursoId) {
     return Promise.all([cargarCurso(cursoId), cargarTarjetas()]).then(function (r) {
       var c = r[0];
       if (acceso(c) !== "libre") { location.hash = "#/curso/" + c.id; return; }
       pintar(cabeceraAula(c, "participantes") + '<p class="cargando">Cargando participantes…</p>', "Participantes · " + c.titulo);
       if (!Nube.habilitada) {
-        app.querySelector(".cargando").outerHTML = '<section class="tarjeta"><p>La lista de participantes y quién está en línea funciona con las cuentas de la plataforma (Firebase).</p></section>';
+        app.querySelector(".cargando").outerHTML = '<section class="tarjeta"><p>La lista de participantes funciona con las cuentas de la plataforma (Firebase).</p></section>';
         return;
       }
       var yo = Nube.miUid();
       return Nube.personasDeCurso(c.id).then(function (ps) {
-        ps.sort(function (a, b) { return (enLinea(b.visto) - enLinea(a.visto)) || String(a.nombre).localeCompare(String(b.nombre)); });
+        ps.sort(function (a, b) { return String(a.nombre).localeCompare(String(b.nombre)); });
         var eq = ps.filter(function (x) { return x.rol === "relator" || x.rol === "admin"; });
         var pa = ps.filter(function (x) { return x.rol !== "relator" && x.rol !== "admin"; });
-        var n = ps.filter(function (x) { return enLinea(x.visto); }).length;
         function persona(x) {
-          var on = enLinea(x.visto);
-          return '<li class="persona"><span class="punto' + (on ? " on" : "") + '" aria-hidden="true"></span><span class="persona-datos"><b>' + esc(x.nombre || "Sin nombre") + (x.uid === yo ? " (tú)" : "") + "</b><small>" +
-            esc([x.comunidad, on ? "En línea" : "Desconectado · " + haceCuanto(x.visto)].filter(Boolean).join(" · ")) + "</small></span>" +
+          return '<li class="persona"><span class="persona-datos"><b>' + esc(x.nombre || "Sin nombre") + (x.uid === yo ? " (tú)" : "") + "</b>" + (x.comunidad ? "<small>" + esc(x.comunidad) + "</small>" : "") + "</span>" +
             (x.uid !== yo ? '<a class="boton boton-chico" href="#/mensajes/' + esc(x.uid) + '?n=' + encodeURIComponent(x.nombre || "") + '">Escribir</a>' : "") + "</li>";
         }
-        app.querySelector(".cargando").outerHTML = '<section class="tarjeta"><h2>Quiénes están en esta formación</h2><p class="seccion-bajada">' + n + (n === 1 ? " persona en línea" : " personas en línea") + " ahora.</p>" +
+        app.querySelector(".cargando").outerHTML = '<section class="tarjeta"><h2>Quiénes están en esta formación</h2><p class="seccion-bajada">' + pa.length + (pa.length === 1 ? " participante" : " participantes") + ".</p>" +
           (eq.length ? '<h3>Equipo</h3><ul class="personas">' + eq.map(persona).join("") + "</ul>" : "") +
-          '<h3>Participantes</h3>' + (pa.length ? '<ul class="personas">' + pa.map(persona).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no hay participantes inscritos.</p>') +
-          '<p class="ficha-nota">«En línea» significa que tiene Mi Ruta abierto en este momento. La lista se actualiza al volver a abrir esta página.</p></section>';
+          '<h3>Participantes</h3>' + (pa.length ? '<ul class="personas">' + pa.map(persona).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no hay participantes inscritos.</p>') + "</section>";
       });
     });
   }

@@ -13,7 +13,7 @@ rules_version = '2';
 //   - El muro de cada formación lo leen y escriben sus inscritos y el equipo.
 //   - Las presentaciones en video las ve su autor y el equipo; solo el equipo las evalúa.
 //   - La agenda de cada formación la ven sus inscritos; la edita el equipo.
-//   - Las cuentas activas ven quién está en línea y pueden escribirse mensajes privados.
+//   - Las cuentas activas ven quiénes participan en cada formación y pueden escribirse mensajes privados.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -165,12 +165,12 @@ service cloud.firestore {
       }
     }
 
-    // ---------- presencia (quién está en línea) ----------
-    // Cada persona publica su nombre, comunidad, rol, cursos y última conexión; la ven las cuentas activas.
+    // ---------- directorio de participantes ----------
+    // Cada persona publica su nombre, comunidad, rol y cursos; lo ven las cuentas activas (lista de participantes).
     match /presencia/{uid} {
       allow read: if activo();
       allow write: if activo() && request.auth.uid == uid
-        && request.resource.data.keys().hasOnly(['nombre', 'comunidad', 'rol', 'cursos', 'visto'])
+        && request.resource.data.keys().hasOnly(['nombre', 'comunidad', 'rol', 'cursos'])
         && request.resource.data.rol == miCuenta().rol
         && request.resource.data.cursos == miCuenta().cursos
         && request.resource.data.nombre == miCuenta().nombre;
