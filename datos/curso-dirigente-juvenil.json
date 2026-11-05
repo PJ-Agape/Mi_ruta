@@ -2,17 +2,17 @@
   "id": "dirigente-juvenil",
   "titulo": "Dirigente juvenil",
   "subtitulo": "Discernir, animar, acompañar y coordinar un grupo de pastoral juvenil",
-  "descripcion": "La formación base para quienes quieren servir como dirigentes: parte por el discernimiento vocacional y recorre la identidad del agente pastoral, la vida de grupo, la escucha, la metodología, la Eucaristía, el buen trato y la coordinación del equipo.",
+  "descripcion": "La formación base para quienes quieren servir como dirigentes: recorre la identidad del agente pastoral, la vida de grupo, la escucha, la metodología, la Eucaristía, el buen trato y la coordinación del equipo.",
   "nivel": "curso",
   "nuevo": false,
-  "modulos_n": 12,
-  "duracion": "108 horas · 10 módulos obligatorios y 2 optativos",
+  "modulos_n": 11,
+  "duracion": "99 horas · 9 módulos obligatorios y 2 optativos",
   "modalidad": "En línea, a tu ritmo",
   "publico": "Desde 13 años",
   "tipo": "curso",
   "orden": 1,
   "elige": 2,
-  "horas": 108,
+  "horas": 99,
   "recursos": {},
   "ejes": [
     "Vocación y espiritualidad del dirigente",
@@ -46,10 +46,6 @@
     }
   ],
   "contenidos": [
-    {
-      "titulo": "Oración y discernimiento vocacional",
-      "tipo": "obligatorio"
-    },
     {
       "titulo": "Identidad y espiritualidad del agente pastoral",
       "tipo": "obligatorio"

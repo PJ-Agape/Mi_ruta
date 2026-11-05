@@ -638,3 +638,9 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .burbuja time { display: block; font-size: .7rem; opacity: .7; margin-top: .15rem; }
 .chat-form { display: flex; gap: .5rem; margin-top: .6rem; align-items: flex-end; }
 .chat-form textarea { flex: 1; font: inherit; border: 1px solid var(--linea); border-radius: 10px; padding: .5rem .7rem; resize: vertical; }
+
+/* Propedéutico: puerta de entrada en Inicio */
+.comienza-aqui { margin-top: 1.2rem; border-left: 4px solid var(--acento); }
+.comienza-aqui .subtitulo { margin: 0; color: var(--acento); font-weight: 700; font-size: .85rem; text-transform: none; }
+.comienza-aqui h2 { margin: .2rem 0 .4rem; }
+.comienza-aqui p { color: var(--tinta-suave); }

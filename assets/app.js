@@ -71,8 +71,9 @@
   /* ---------- acceso a los cursos ---------- */
 
   // libre | ingresar | pendiente | pausado | solicitar | solicitado | error
+  function esPropedeutico(c) { return !!(c && (c.propedeutico || (sitio && c.id === sitio.propedeutico))); }
   function acceso(curso) {
-    if (!Nube.habilitada) return "libre";
+    if (!Nube.habilitada || esPropedeutico(curso)) return "libre";
     var e = cuentaActual();
     if (e.status === "invitado") return "ingresar";
     if (e.status === "pendiente") return "pendiente";
@@ -347,7 +348,7 @@
 
   function metaTile(c) {
     if (c.tipo === "curso") return (c.horas ? c.horas + " h · " : "") + (c.modulos_n || c.modulos.length) + " módulos";
-    return "6 sesiones · 9 h";
+    return esPropedeutico(c) ? "4 encuentros · 4 h" : "6 sesiones · 9 h";
   }
   function tileHTML(c) {
     var ic = c.tipo === "curso" ? (c.nivel === "diplomado" ? "diplomado" : "curso") : c.categoria;
@@ -438,6 +439,16 @@
         (invitado ? '<div class="botones"><a class="boton principal" href="#/ingresar">Inscríbete</a><a class="boton" href="#/ingresar">Ingresar</a></div>' : "") +
         editorFondo(FONDO_INICIO, f.fondo, f.velo) + "</section>";
 
+      var prope = lista.filter(esPropedeutico)[0];
+      if (prope) {
+        var pp = progreso(prope);
+        if (pp.hechas < pp.total) {
+          html += '<section class="tarjeta comienza-aqui"><p class="subtitulo">Comienza aquí</p><h2>' + esc(prope.titulo) + "</h2>" +
+            "<p>Antes de elegir qué estudiar, la pregunta es para qué. Cuatro encuentros breves para descubrir a qué te llama Dios, conocer los caminos en la Iglesia y elegir tu ruta. Abierto para todos, sin inscripción.</p>" +
+            (pp.hechas ? barraProgreso(pp) : "") +
+            '<div class="botones"><a class="boton principal" href="#/curso/' + esc(prope.id) + '">' + (pp.hechas ? "Continuar" : "Comenzar") + "</a></div></section>";
+        }
+      }
       if (Nube.habilitada && e.status === "pendiente") {
         var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
         html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión.</p>' +
@@ -447,7 +458,7 @@
       } else if (Nube.habilitada && e.activo) {
         // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
         var cursados = almacen.leer("cursados", []);
-        var mios = lista.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && (cursados.indexOf(c.id) >= 0 || c.tipo !== "curso") && progreso(c).hechas > 0); });
+        var mios = lista.filter(function (c) { return (esPropedeutico(c) && progreso(c).hechas >= progreso(c).total) || (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && (cursados.indexOf(c.id) >= 0 || c.tipo !== "curso") && progreso(c).hechas > 0); });
         html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
           (mios.length ? mios.map(function (c) {
             return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(progreso(c)) + "</a>";
@@ -469,6 +480,7 @@
         '</div><p class="sin-resultados" hidden>No encontramos cursos ni módulos con esa búsqueda.</p></section>';
 
       html += '<section class="seccion-inicio como-funciona"><h2 class="seccion-titulo">Cómo funciona</h2><ol class="pasos">' +
+        '<li><b>Comienza aquí</b><span>Haz los cuatro encuentros de «Llamados»: descubre para qué te formas y qué camino quieres seguir.</span></li>' +
         '<li><b>Crea tu cuenta</b><span>Con Google o con tu correo. Es gratis.</span></li>' +
         '<li><b>Elige tu formación</b><span>Entra a un área y elige un curso, un diplomado o un módulo suelto, y solicita la inscripción.</span></li>' +
         '<li><b>Tu relator te acompaña</b><span>Aprueba tu inscripción y te guía en los encuentros con tu comunidad.</span></li>' +
@@ -485,7 +497,7 @@
       pintar(html);
       activarFondos();
       activarFichas("#resultados-inicio .tile");
-      if (Nube.habilitada && e.activo) cargarProximasFechas(Array.from(new Set((e.cuenta.cursos || []).concat(e.esRelator ? almacen.leer("cursados", []) : []))).filter(function (id) { return sitio.cursos.indexOf(id) >= 0; }));
+      if (Nube.habilitada && e.activo) cargarProximasFechas(Array.from(new Set((e.cuenta.cursos || []).concat(sitio.propedeutico ? [sitio.propedeutico] : [], e.esRelator ? almacen.leer("cursados", []) : []))).filter(function (id) { return sitio.cursos.indexOf(id) >= 0; }));
       var buscar = document.getElementById("buscar");
       buscar.addEventListener("input", function () {
         var q = buscar.value.trim().toLowerCase();
@@ -1334,6 +1346,7 @@
 
   function pestanasCurso(c, activa) {
     if (acceso(c) !== "libre") return "";
+    if (esPropedeutico(c) && Nube.habilitada && !cuentaActual().activo) return "";
     var t = [["contenido", "Contenido", ""], ["muro", "Muro y debates", "/muro"], ["participantes", "Participantes", "/participantes"], ["agenda", "Agenda", "/agenda"]];
     return '<nav class="pestanas-curso" aria-label="Secciones de la formación">' + t.map(function (x) {
       return '<a href="#/curso/' + esc(c.id) + x[2] + '"' + (x[0] === activa ? ' aria-current="page"' : "") + ">" + x[1] + "</a>";
@@ -1363,7 +1376,7 @@
         return;
       }
       var yo = Nube.miUid();
-      return Nube.personasDeCurso(c.id).then(function (ps) {
+      return Nube.personasDeCurso(c.id, esPropedeutico(c)).then(function (ps) {
         ps.sort(function (a, b) { return String(a.nombre).localeCompare(String(b.nombre)); });
         var eq = ps.filter(function (x) { return x.rol === "relator" || x.rol === "admin"; });
         var pa = ps.filter(function (x) { return x.rol !== "relator" && x.rol !== "admin"; });

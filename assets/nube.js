@@ -336,7 +336,12 @@ function latido() {
 
 function aFecha(x) { return x && x.toDate ? x.toDate().toISOString() : ""; }
 
-async function personasDeCurso(curso) {
+async function personasDeCurso(curso, todos) {
+  // El propedéutico está abierto a todas las cuentas activas: participan todos los del directorio.
+  if (todos) {
+    const snap = await conTiempo(fb.getDocs(fb.collection(db, "presencia")));
+    return snap.docs.map((d) => ({ uid: d.id, ...d.data() }));
+  }
   const [ins, eq] = await Promise.all([
     conTiempo(fb.getDocs(fb.query(fb.collection(db, "presencia"), fb.where("cursos", "array-contains", curso)))),
     conTiempo(fb.getDocs(fb.query(fb.collection(db, "presencia"), fb.where("rol", "in", ["relator", "admin"])))),

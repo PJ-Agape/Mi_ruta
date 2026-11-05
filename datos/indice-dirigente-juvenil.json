@@ -2,87 +2,14 @@
  "curso": "dirigente-juvenil",
  "modulos": [
   {
-   "id": "dj-discernimiento",
+   "id": "dj-identidad",
    "numero": 1,
-   "titulo": "Oración y discernimiento vocacional",
+   "titulo": "Identidad y espiritualidad del agente pastoral",
    "tipo": "obligatorio",
    "etiqueta": "Módulo 1",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [],
-   "intro": "",
-   "clases": [
-    {
-     "id": "dj-discernimiento-s1",
-     "tipo": "unidad",
-     "numero": 1,
-     "etiqueta": "Sesión 1",
-     "titulo": "Entrar en tu habitación secreta",
-     "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-discernimiento/s1.md",
-     "debate": "**Caso: «No me resulta».** Isidora intentó rezar en silencio cinco minutos, pero a los treinta segundos ya estaba pensando en sus amigas y en una serie que estaba viendo. Concluyó: «Esto del silencio no es para mí».\n\n- ¿Qué le dirías a Isidora sobre las distracciones?\n- ¿Qué le propondrías para su próximo intento?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
-    },
-    {
-     "id": "dj-discernimiento-s2",
-     "tipo": "unidad",
-     "numero": 2,
-     "etiqueta": "Sesión 2",
-     "titulo": "Orar con la Palabra: la lectio divina",
-     "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-discernimiento/s2.md",
-     "debate": "**Caso: Leer mucho, orar poco.** Benjamín decidió leer toda la Biblia en un año. Lee tres capítulos cada noche muy rápido para cumplir la meta, pero dice que no siente que Dios le hable.\n\n- ¿Qué diferencia hay entre leer la Biblia y orar con la Biblia?\n- ¿Qué le recomendarías cambiar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
-    },
-    {
-     "id": "dj-discernimiento-s3",
-     "tipo": "unidad",
-     "numero": 3,
-     "etiqueta": "Sesión 3",
-     "titulo": "Lo que se mueve en el corazón",
-     "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-discernimiento/s3.md",
-     "debate": "**Caso: Dos tardes.** Una tarde, Tomás acompañó como ayudante en una jornada con niños de su parroquia: terminó cansado, pero volvió a casa con una paz enorme. Otra tarde, pasó cinco horas jugando en línea y se acostó vacío e irritable, aunque «lo pasó bien».\n\n- ¿Cuál tarde fue consolación y cuál desolación? ¿Por qué?\n- ¿Qué podría estar diciéndole Dios a Tomás sobre el servicio?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
-    },
-    {
-     "id": "dj-discernimiento-s4",
-     "tipo": "unidad",
-     "numero": 4,
-     "etiqueta": "Sesión 4",
-     "titulo": "Decidir con Dios",
-     "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-discernimiento/s4.md",
-     "debate": "**Caso: El fútbol o el coro.** A Benjamín lo invitaron a la selección de fútbol del colegio, que entrena los sábados en la mañana. Ese es justo el horario del coro de la parroquia, donde participa hace dos años y tiene buenos amigos. Las dos cosas le gustan y no puede hacer ambas.\n\n- ¿Qué pasos del método podría aplicar Benjamín?\n- ¿Es posible que las dos opciones sean buenas? ¿Cómo decidir entonces?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
-    },
-    {
-     "id": "dj-discernimiento-s5",
-     "tipo": "unidad",
-     "numero": 5,
-     "etiqueta": "Sesión 5",
-     "titulo": "¿Me llama Dios a ser dirigente?",
-     "tiempo": "90 min",
-     "archivo": "contenido/modulos/dj-discernimiento/s5.md",
-     "debate": "**Caso: Martina y Joaquín.** Martina, de 14 años, quiere ser dirigente porque sus dos mejores amigas lo van a ser y no quiere quedarse fuera. Joaquín, de 16, fue invitado por su asesor porque «escucha muy bien a los demás», pero tiene dudas: es tímido y no se imagina hablando frente a un grupo.\n\n- ¿Qué señales de llamado ves en cada uno? ¿Qué motivaciones convendría purificar?\n- ¿Qué le dirías a Joaquín sobre su timidez? ¿Y a Martina sobre su motivación?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
-    },
-    {
-     "id": "dj-discernimiento-cierre",
-     "tipo": "evaluacion",
-     "numero": 6,
-     "etiqueta": "Sesión 6 · Cierre",
-     "titulo": "Cierre: taller práctico y evaluación",
-     "tiempo": "Taller y 9 preguntas"
-    }
-   ]
-  },
-  {
-   "id": "dj-identidad",
-   "numero": 2,
-   "titulo": "Identidad y espiritualidad del agente pastoral",
-   "tipo": "obligatorio",
-   "etiqueta": "Módulo 2",
-   "duracion": "6 sesiones · 9 horas",
-   "constancia": true,
-   "requiere": [
-    "dj-discernimiento"
-   ],
    "intro": "",
    "clases": [
     {
@@ -147,10 +74,10 @@
   },
   {
    "id": "dj-acogida",
-   "numero": 3,
+   "numero": 2,
    "titulo": "Acogida y vida de grupo",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 3",
+   "etiqueta": "Módulo 2",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -220,10 +147,10 @@
   },
   {
    "id": "dj-escucha",
-   "numero": 4,
+   "numero": 3,
    "titulo": "Escucha y acompañamiento",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 4",
+   "etiqueta": "Módulo 3",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -293,10 +220,10 @@
   },
   {
    "id": "dj-metodologia",
-   "numero": 5,
+   "numero": 4,
    "titulo": "Metodología y animación de grupos",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 5",
+   "etiqueta": "Módulo 4",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -366,10 +293,10 @@
   },
   {
    "id": "dj-eucaristia",
-   "numero": 6,
+   "numero": 5,
    "titulo": "Eucaristía y vida litúrgica del grupo",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 6",
+   "etiqueta": "Módulo 5",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -439,10 +366,10 @@
   },
   {
    "id": "buen-trato-y-prevencion",
-   "numero": 7,
+   "numero": 6,
    "titulo": "Buen trato y prevención",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 7",
+   "etiqueta": "Módulo 6",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -512,10 +439,10 @@
   },
   {
    "id": "dj-coordinar",
-   "numero": 8,
+   "numero": 7,
    "titulo": "Coordinar, planificar y administrar",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 8",
+   "etiqueta": "Módulo 7",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -585,10 +512,10 @@
   },
   {
    "id": "dj-conducir",
-   "numero": 9,
+   "numero": 8,
    "titulo": "Conducir el equipo",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 9",
+   "etiqueta": "Módulo 8",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -658,10 +585,10 @@
   },
   {
    "id": "dj-proyectar",
-   "numero": 10,
+   "numero": 9,
    "titulo": "Proyectar el grupo: cuidado, relevo y envío",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 10",
+   "etiqueta": "Módulo 9",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [

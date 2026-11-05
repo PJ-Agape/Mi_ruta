@@ -2,6 +2,7 @@
   "nombre": "Mi Ruta",
   "lema": "Tu camino de formación, paso a paso",
   "cursos": [
+    "llamados",
     "dirigente-juvenil",
     "diplomado",
     "servicio-liturgico",
@@ -60,5 +61,6 @@
         "logistica"
       ]
     }
-  ]
+  ],
+  "propedeutico": "llamados"
 }

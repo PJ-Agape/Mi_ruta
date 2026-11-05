@@ -2,6 +2,10 @@
 
 FICHAS = {
     # ---------------- Cursos y diplomados
+    "llamados": {
+        "ejes": ["Dios llama por el nombre", "Los caminos de la vocación: laicos, matrimonio, sacerdocio y vida consagrada", "Discernir sin miedo y con acompañamiento", "Una Iglesia sinodal y en salida"],
+        "competencias": ["Reconocer la propia vida como respuesta a un llamado de Dios.", "Valorar todas las vocaciones, incluidas el sacerdocio y la vida consagrada, como caminos posibles.", "Dar un primer paso concreto de formación y servicio, acompañado."],
+    },
     "dirigente-juvenil": {
         "ejes": ["Vocación y espiritualidad del dirigente", "Vida de grupo y acompañamiento", "Metodología y animación", "Liturgia y vida sacramental del grupo", "Organización, cuidado y relevo"],
         "competencias": ["Discernir y sostener su vocación de servicio con una vida de oración.",
@@ -141,6 +145,7 @@ SECCIONES = {
     "credenciales": ("Credenciales", "Tarjetas de solapa con foto y nombre para los encuentros.", "credenciales"),
 }
 ENLACES = {
+    "llamados": ["capilla", "oremus", "salmos"],
     "dirigente-juvenil": ["capilla", "dinamicas", "cancionero"],
     "diplomado": ["dinamicas", "capilla"],
     "servicio-liturgico": ["capilla", "cancionero", "salmos"],

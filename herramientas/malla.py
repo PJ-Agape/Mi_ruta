@@ -171,9 +171,24 @@ ESCRITURA = [f"se-{i}" for i in range(1, 10)]
 NUEVOS_IDS = set()  # formaciones destacadas como «Nuevo» en la portada (vacío: ninguna)
 
 
+# Puerta de entrada: propedéutico vocacional precargado para todos (no bloquea otras formaciones).
+PROPEDEUTICO = "llamados"
+TITULOS_PROPE = ["¿Para qué estoy aquí?", "Muchos caminos, un mismo llamado", "Escuchar y discernir sin miedo", "Una Iglesia que camina junta: elige tu ruta"]
+
+
+def propedeutico():
+    ses = [{"tipo": "unidad", "titulo": t, "tiempo": "60 min",
+            "texto": (R / "fuentes" / "propedeutico" / f"s{i}.md").read_text(encoding="utf-8")} for i, t in enumerate(TITULOS_PROPE, 1)]
+    return {"titulo": "Llamados: comienza tu ruta", "categoria": "Vocación", "sesiones": ses, "sin_cierre": True, "horas": 4,
+            "intro": "Antes de elegir qué estudiar, la pregunta es para qué. Estos cuatro encuentros son la puerta de entrada a Mi Ruta: descubrir que Dios te llama por tu nombre, conocer los caminos para responderle (el matrimonio y la familia, el sacerdocio, la vida consagrada, el servicio en la comunidad), aprender a discernir sin miedo y elegir el primer paso de tu formación en una Iglesia que camina junta.",
+            "ficha": {"subtitulo": "Propedéutico vocacional: para qué me formo y qué camino quiero seguir en la Iglesia",
+                      "descripcion": "La puerta de entrada a Mi Ruta, abierta para todos desde el primer día. Cuatro encuentros breves para descubrir tu vocación y la de todo cristiano, conocer los distintos caminos en la Iglesia, incluidos el sacerdocio y la vida consagrada, aprender a discernir sin miedo y elegir tu ruta de formación.",
+                      "publico": "Para todos, al comenzar en Mi Ruta"}}
+
+
 def modulos():
     M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA}
-    M["dj-discernimiento"] = dj("Oración y discernimiento vocacional", [U(D, f"m1-u0{i}") for i in range(1, 6)], "dj-discernimiento")
+    M[PROPEDEUTICO] = propedeutico()
     M["dj-identidad"] = dj("Identidad y espiritualidad del agente pastoral", [U(A, "m1-u01"), U(A, "m1-u02"), U(A, "m1-u05"), U(A, "m1-u06"), U(A, "m5-u01")], "dj-identidad")
     M["dj-acogida"] = dj("Acogida y vida de grupo", [U(A, "m2-u01"), U(A, "m2-u02"), U(A, "m2-u03"), U(A, "m2-u04"), U(A, "m1-u04")], "dj-acogida")
     M["dj-escucha"] = dj("Escucha y acompañamiento", [U(A, "m1-u03"), U(A, "m3-u01"), U(A, "m3-u02"), U(A, "m3-u04"), U(A, "m5-u04")], "dj-escucha")
@@ -200,9 +215,9 @@ def modulos():
 
 CURSOS = [
  {"id": "dirigente-juvenil", "titulo": "Dirigente juvenil", "subtitulo": "Discernir, animar, acompañar y coordinar un grupo de pastoral juvenil",
-  "descripcion": "La formación base para quienes quieren servir como dirigentes: parte por el discernimiento vocacional y recorre la identidad del agente pastoral, la vida de grupo, la escucha, la metodología, la Eucaristía, el buen trato y la coordinación del equipo.",
+  "descripcion": "La formación base para quienes quieren servir como dirigentes: recorre la identidad del agente pastoral, la vida de grupo, la escucha, la metodología, la Eucaristía, el buen trato y la coordinación del equipo.",
   "publico": "Desde 13 años", "elige": 2,
-  "obligatorios": ["dj-discernimiento", "dj-identidad", "dj-acogida", "dj-escucha", "dj-metodologia", "dj-eucaristia", "buen-trato-y-prevencion", "dj-coordinar", "dj-conducir", "dj-proyectar"],
+  "obligatorios": ["dj-identidad", "dj-acogida", "dj-escucha", "dj-metodologia", "dj-eucaristia", "buen-trato-y-prevencion", "dj-coordinar", "dj-conducir", "dj-proyectar"],
   "optativos": ["dinamicas-y-juegos", "primeros-auxilios", "comunicacion-y-redes", "primeros-auxilios-psicologicos", "logistica"]},
  {"id": "diplomado", "titulo": "Diplomado en liderazgo para equipos de pastoral juvenil", "subtitulo": "Conducir equipos, acompañar personas y gestionar proyectos",
   "descripcion": "Para dirigentes con experiencia que asumen la conducción de equipos. Ocho módulos con constancia propia: liderazgo personal, autoridad y decisiones, formación de equipos, gestión del tiempo y legado, comunicación y conflictos, planificación de proyectos, acompañamiento de personas y un proyecto integrador. Modalidad mixta: sesiones presenciales o en línea con el relator y trabajo personal.",
@@ -259,9 +274,11 @@ def escribir_modulo(mid, m):
     for i, s in enumerate(m["sesiones"], 1):
         sid = f"{mid}-s{i}"
         (carpeta / f"s{i}.md").write_text(corregir(mid, f"s{i}.md", s["texto"]), encoding="utf-8")
-        clases.append({"id": sid, "tipo": s["tipo"], "numero": i, "etiqueta": f"Sesión {i}", "titulo": s["titulo"],
+        clases.append({"id": sid, "tipo": s["tipo"], "numero": i, "etiqueta": f"{'Encuentro' if m.get('sin_cierre') else 'Sesión'} {i}", "titulo": s["titulo"],
                        "tiempo": s["tiempo"], "archivo": f"contenido/modulos/{mid}/s{i}.md"})
     cid = f"{mid}-cierre"
+    if m.get("sin_cierre"):
+        return clases, evals
     if "cierre" in m:
         s = m["cierre"]
         (carpeta / "cierre.md").write_text(corregir(mid, "cierre.md", s["texto"]), encoding="utf-8")
@@ -277,7 +294,7 @@ def escribir_modulo(mid, m):
 def main():
     M = modulos()
     for mid, m in M.items():
-        assert len(m["sesiones"]) == 5, mid
+        assert len(m["sesiones"]) == (4 if m.get("sin_cierre") else 5), mid
         m["clases"], m["evals"] = escribir_modulo(mid, m)
     sitio = leer_json(DATOS / "sitio.json")
     lista = []
@@ -305,6 +322,12 @@ def main():
                  "elige": c["elige"], "horas": horas_obl + horas_opt, "recursos": {}, **({"aviso": c["aviso"]} if "aviso" in c else {})}
         escribir(c["id"], ficha, mods, evals)
         lista.append(c["id"])
+    m = M[PROPEDEUTICO]
+    ficha = {"id": PROPEDEUTICO, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": False, "propedeutico": True,
+             "duracion": "4 encuentros · 4 horas", "modalidad": "En línea, a tu ritmo, o en grupo", "tipo": "complementaria", "horas": 4, "recursos": {}}
+    mods = [{"id": PROPEDEUTICO, "numero": 1, "titulo": m["titulo"], "tipo": "obligatorio", "etiqueta": "Propedéutico",
+             "duracion": "4 encuentros · 4 horas", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]
+    escribir(PROPEDEUTICO, ficha, mods, {})
     for mid in COMPLEMENTARIAS:
         m = M[mid]
         ficha = {"id": mid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": mid in NUEVOS_IDS,
@@ -313,7 +336,8 @@ def main():
                  "duracion": "6 sesiones · 9 horas", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]
         escribir(mid, ficha, mods, m["evals"])
         lista.append(mid)
-    sitio["cursos"] = lista
+    sitio["cursos"] = [PROPEDEUTICO] + lista
+    sitio["propedeutico"] = PROPEDEUTICO
     # Áreas de formación: cada una agrupa formaciones (de un ámbito, una institución o una persona).
     sitio["areas"] = [{
         "id": "agentes-de-pastoral",

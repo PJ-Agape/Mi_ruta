@@ -1,0 +1,58 @@
+{
+ "curso": "llamados",
+ "modulos": [
+  {
+   "id": "llamados",
+   "numero": 1,
+   "titulo": "Llamados: comienza tu ruta",
+   "tipo": "obligatorio",
+   "etiqueta": "Propedéutico",
+   "duracion": "4 encuentros · 4 horas",
+   "constancia": false,
+   "requiere": [],
+   "intro": "Antes de elegir qué estudiar, la pregunta es para qué. Estos cuatro encuentros son la puerta de entrada a Mi Ruta: descubrir que Dios te llama por tu nombre, conocer los caminos para responderle (el matrimonio y la familia, el sacerdocio, la vida consagrada, el servicio en la comunidad), aprender a discernir sin miedo y elegir el primer paso de tu formación en una Iglesia que camina junta.",
+   "clases": [
+    {
+     "id": "llamados-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Encuentro 1",
+     "titulo": "¿Para qué estoy aquí?",
+     "tiempo": "60 min",
+     "archivo": "contenido/modulos/llamados/s1.md",
+     "debate": "**Caso: «Solo vengo por mis amigos».** Tomás tiene 16 años y lleva un año en el grupo juvenil. Llegó porque iban sus amigos y se quedó porque lo pasa bien. Un día, en un retiro, el asesor les pregunta qué significa Jesús en su vida. Tomás se queda en blanco y piensa que tal vez no debería estar ahí.\n\n- ¿Está mal haber llegado al grupo por los amigos?\n- ¿Qué le dirías a Tomás para que descubra que Dios también lo está llamando a través de esa historia?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Encuentro 2",
+     "titulo": "Muchos caminos, un mismo llamado",
+     "tiempo": "60 min",
+     "archivo": "contenido/modulos/llamados/s2.md",
+     "debate": "**Caso: La pregunta de Javiera.** En una conversación del grupo, Javiera cuenta que a veces piensa en ser religiosa. Algunos se ríen y uno le dice: «¿Monja tú? Si eres la más carretera del grupo». Javiera cambia el tema y no vuelve a mencionarlo.\n\n- ¿Qué le pasó a Javiera en ese momento?\n- ¿Cómo debería reaccionar un grupo cristiano cuando alguien comparte una inquietud vocacional?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Encuentro 3",
+     "titulo": "Escuchar y discernir sin miedo",
+     "tiempo": "60 min",
+     "archivo": "contenido/modulos/llamados/s3.md",
+     "debate": "**Caso: La jornada vocacional.** Matías recibe una invitación a una jornada vocacional en el seminario. Le da curiosidad, pero piensa: «Si voy, todos van a creer que me voy a hacer cura, y mi familia se va a preocupar». Finalmente no va y se queda con la duda.\n\n- ¿Qué miedos influyeron en la decisión de Matías?\n- ¿Qué le ayudaría a vivir esa inquietud con más libertad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "llamados-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Encuentro 4",
+     "titulo": "Una Iglesia que camina junta: elige tu ruta",
+     "tiempo": "60 min",
+     "archivo": "contenido/modulos/llamados/s4.md",
+     "debate": "**Caso: El grupo que no se mueve.** En un grupo juvenil, la coordinadora prepara todos los encuentros, elige los temas y organiza las actividades. Los demás llegan, participan y se van. Cuando ella se cambia de ciudad, el grupo se desarma en dos meses.\n\n- ¿Qué faltó en ese grupo para que fuera una comunidad que camina junta?\n- ¿Qué podrías hacer tú, desde ya, para que tu grupo sea más sinodal y misionero?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    }
+   ]
+  }
+ ]
+}

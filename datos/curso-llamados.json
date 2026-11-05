@@ -1,0 +1,61 @@
+{
+  "id": "llamados",
+  "titulo": "Llamados: comienza tu ruta",
+  "subtitulo": "Propedéutico vocacional: para qué me formo y qué camino quiero seguir en la Iglesia",
+  "descripcion": "La puerta de entrada a Mi Ruta, abierta para todos desde el primer día. Cuatro encuentros breves para descubrir tu vocación y la de todo cristiano, conocer los distintos caminos en la Iglesia, incluidos el sacerdocio y la vida consagrada, aprender a discernir sin miedo y elegir tu ruta de formación.",
+  "publico": "Para todos, al comenzar en Mi Ruta",
+  "categoria": "Vocación",
+  "nuevo": false,
+  "propedeutico": true,
+  "duracion": "4 encuentros · 4 horas",
+  "modalidad": "En línea, a tu ritmo, o en grupo",
+  "tipo": "complementaria",
+  "horas": 4,
+  "recursos": {},
+  "ejes": [
+    "Dios llama por el nombre",
+    "Los caminos de la vocación: laicos, matrimonio, sacerdocio y vida consagrada",
+    "Discernir sin miedo y con acompañamiento",
+    "Una Iglesia sinodal y en salida"
+  ],
+  "competencias": [
+    "Reconocer la propia vida como respuesta a un llamado de Dios.",
+    "Valorar todas las vocaciones, incluidas el sacerdocio y la vida consagrada, como caminos posibles.",
+    "Dar un primer paso concreto de formación y servicio, acompañado."
+  ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Recemos juntos",
+      "texto": "Nuestras oraciones y las de siempre, en un solo lugar.",
+      "url": "https://pj-agape.github.io/#/oremus"
+    },
+    {
+      "titulo": "Oremos con los salmos",
+      "texto": "Un salmo para cada momento y cómo rezarlo.",
+      "url": "https://pj-agape.github.io/#/salmos"
+    }
+  ],
+  "contenidos": [
+    {
+      "titulo": "¿Para qué estoy aquí?",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Muchos caminos, un mismo llamado",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Escuchar y discernir sin miedo",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Una Iglesia que camina junta: elige tu ruta",
+      "tipo": "sesion"
+    }
+  ]
+}
