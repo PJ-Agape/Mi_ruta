@@ -4,7 +4,7 @@
   "subtitulo": "Antiguo y Nuevo Testamento para agentes de pastoral",
   "descripcion": "Nueve módulos para conocer, estudiar y rezar la Biblia: introducciones al Antiguo y al Nuevo Testamento, y exégesis del Pentateuco, los Profetas, los Sapienciales, los Sinópticos y Hechos, San Pablo, San Juan, y Hebreos y Apocalipsis. Cada módulo entrega su propia constancia y al completar los nueve se otorga el certificado del diplomado.",
   "nivel": "diplomado",
-  "nuevo": true,
+  "nuevo": false,
   "modulos_n": 9,
   "duracion": "270 horas · 9 módulos",
   "modalidad": "En línea, a tu ritmo",

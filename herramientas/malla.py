@@ -167,7 +167,7 @@ COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-litur
 
 ESCRITURA = [f"se-{i}" for i in range(1, 10)]
 # Lo que la portada muestra en «Nuevos».
-NUEVOS_IDS = {"diplomado-escritura", "catequista", "el-credo", "sacramentos", "logistica"}
+NUEVOS_IDS = set()  # formaciones destacadas como «Nuevo» en la portada (vacío: ninguna)
 
 
 def modulos():
