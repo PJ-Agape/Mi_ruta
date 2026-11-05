@@ -554,12 +554,14 @@
   }
 
   function vistaCurso(id) {
-    return cargarCurso(id).then(function (c) {
+    return Promise.all([cargarCurso(id), cargarTarjetas()]).then(function (r) {
+      var c = r[0];
+      var foto = TARJETAS && TARJETAS[c.id];
       var p = progreso(c);
       var h = hechas(c.id);
       var siguiente = c.clases.filter(function (x) { return h.indexOf(x.id) < 0 && !moduloBloqueado(c, x.modulo); })[0];
       var html = '<nav class="migas"><a href="#/">Inicio</a></nav>';
-      html += '<section class="portada"><p class="subtitulo">' + (c.tipo === "curso" ? (c.nivel === "diplomado" ? "Diplomado · " : "Curso · ") : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
+      html += '<section class="portada' + (foto ? ' portada-foto" style="--fondo-curso:url(\'' + esc(foto) + '\')' : "") + '"><p class="subtitulo">' + (c.tipo === "curso" ? (c.nivel === "diplomado" ? "Diplomado · " : "Curso · ") : (c.categoria ? esc(c.categoria) + " · " : (c.institucion ? esc(c.institucion) + " · " : ""))) + esc(c.subtitulo) + "</p><h1>" + esc(c.titulo) + "</h1><p>" + esc(c.descripcion) + "</p>" +
         '<ul class="etiquetas"><li>' + esc(c.duracion) + "</li><li>" + esc(c.modalidad) + "</li>" + (c.publico ? "<li>" + esc(c.publico) + "</li>" : "") + "</ul>" +
         (c.aviso ? '<p class="aviso revision">' + esc(c.aviso) + "</p>" : "") +
         (acceso(c) === "libre" ? barraProgreso(p) : "") +

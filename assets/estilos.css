@@ -490,3 +490,7 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
   .pestanas-inicio { gap: .3rem; }
   .pestanas-inicio button { padding: .45rem .7rem; font-size: .9rem; }
 }
+
+/* Encabezado de una formación con la misma foto de su tarjeta */
+.portada.portada-foto { background-image: linear-gradient(180deg, rgba(11, 37, 102, .55), rgba(11, 37, 102, .88) 70%), var(--fondo-curso); background-size: cover; background-position: center; }
+.portada.portada-foto > h1, .portada.portada-foto > p:not(.aviso) { text-shadow: 0 1px 3px rgba(0, 0, 0, .45); }
