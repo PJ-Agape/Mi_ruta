@@ -1348,6 +1348,11 @@
       pestanasCurso(c, activa);
   }
 
+  function consultaN() {
+    var m = location.hash.match(/[?&]n=([^&]*)/);
+    return m ? decodeURIComponent(m[1]) : "";
+  }
+
   function vistaParticipantes(cursoId) {
     return Promise.all([cargarCurso(cursoId), cargarTarjetas()]).then(function (r) {
       var c = r[0];
