@@ -682,3 +682,19 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
   .agappe-lista { grid-auto-flow: column; grid-auto-columns: 78%; grid-template-columns: none; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .4rem; }
   .agappe-item { scroll-snap-align: start; }
 }
+/* Cabecera compacta en teléfonos */
+.marca-nombre { white-space: nowrap; }
+.solo-angosto { display: none; }
+@media (max-width: 480px) {
+  .solo-ancho { display: none; }
+  .solo-angosto { display: inline; }
+  .cabecera-acciones { gap: .4rem; }
+  .cuenta-gestion { font-size: .76rem; }
+  #caja-relator { gap: .25rem; }
+  #caja-relator span { font-size: .74rem; }
+}
+@media (max-width: 400px) {
+  .marca-nombre { font-size: 1.05rem; }
+  .marca-sello { width: 28px; height: 28px; }
+  .cuenta-boton.avatar { width: 32px; height: 32px; font-size: .8rem; }
+}

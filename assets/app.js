@@ -885,7 +885,7 @@
         "<h2>" + esc(s.titulo) + "</h2>" + extra + md(s.cuerpo) + acciones + "</section>";
     }).join("");
 
-    if (ocultas) html += '<p class="aviso">Esta clase incluye una guía para el relator. Actívala con el interruptor «Vista relator» de la parte superior.</p>';
+    if (ocultas) html += '<p class="aviso">Esta clase incluye una guía para el relator. Si eres relator o administrador, actívala con el interruptor «Vista relator» de la parte superior.</p>';
 
     if (/-cierre$/.test(cl.id)) html += '<section class="tarjeta video-final" id="video-final"></section>';
     html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
@@ -2104,7 +2104,9 @@
     var pie = document.getElementById("pie-nota");
     if (!Nube.habilitada) { enlace.hidden = true; caja.hidden = false; return; }
     var e = cuentaActual();
-    caja.hidden = true;
+    // Relatores y administradores tienen el interruptor «Vista relator» en la cabecera (también en Mi cuenta).
+    caja.hidden = !e.esRelator;
+    if (e.esRelator) document.getElementById("modo-relator").checked = modoRelator();
     enlace.hidden = false;
     if (e.status === "invitado" || e.status === "error" && !e.cuenta) {
       enlace.textContent = "Ingresar"; enlace.href = "#/ingresar"; enlace.className = "cuenta-boton";
