@@ -95,6 +95,19 @@ UNIDADES = [
         "3. **Considera los traslados:** si el encuentro es a las 17:00 y tardas 30 minutos en llegar, tu compromiso empieza a las 16:30.\n"
         "4. **Deja márgenes:** entre una actividad y otra, al menos 15 minutos libres. Las agendas sin margen son las que producen atrasos en cadena.\n"
         "5. **Revisa al final de la semana** qué funcionó y qué no."),
+       ("Una sola agenda, siempre a mano",
+        "La mejor herramienta de gestión del tiempo es **una agenda que de verdad uses**. No importa si es el calendario del teléfono (Google Calendar, el de iPhone, Outlook) o una libreta, pero debe cumplir tres condiciones:\n\n"
+        "- **Una sola:** todo va al mismo lugar: clases, trabajo, familia, encuentros, reuniones y plazos. Con dos o tres agendas, siempre se olvida algo.\n"
+        "- **Siempre a mano:** si un compromiso no se anota en el momento en que se acepta, se pierde.\n"
+        "- **Con recordatorios:** el calendario del teléfono puede avisarte con anticipación, contando el tiempo de traslado.\n\n"
+        "Toma el hábito de **mirar tu agenda cada mañana** y de **planificar la semana** el domingo. Son cinco minutos que ahorran horas de atrasos y olvidos."),
+       ("Las herramientas de tu comunidad",
+        "Muchas comunidades ya tienen sus propias herramientas: una aplicación, un calendario compartido, un grupo de avisos oficial o un espacio de coordinación para el equipo. Usarlas **es parte de respetar el tiempo de los demás**, porque así nadie tiene que repetir la información ni perseguirte para confirmar.\n\n"
+        "- **Instala la app de tu comunidad** en la pantalla de inicio de tu teléfono, para tenerla a un toque.\n"
+        "- **Suscríbete a su agenda o calendario:** muchas permiten agregar sus fechas al calendario de tu teléfono, de modo que los cambios llegan solos y no dependes de un mensaje que se pierde en el chat.\n"
+        "- **Confirma tu asistencia ahí** cuando la herramienta lo permita, en vez de responder en el grupo.\n"
+        "- **Revisa primero la herramienta oficial** antes de preguntar «¿a qué hora era?».\n\n"
+        "Cuando todos usan las mismas herramientas, la información está en un solo lugar, siempre actualizada, y el equipo coordina mucho menos y acompaña mucho más. En la página de esta formación encontrarás accesos directos a la agenda y al espacio de coordinación de la comunidad."),
        ("Decir que no a tiempo",
         "Decir que sí a todo parece generosidad, pero termina en compromisos a medias, atrasos y cansancio. Quien no sabe decir que no, termina fallándole a alguien.\n\n"
         "- **Antes de aceptar,** revisa tu agenda: ¿tienes realmente el tiempo?\n"
@@ -110,8 +123,8 @@ UNIDADES = [
       ("¿Te pareces más a Marta o a María? ¿Qué te inquieta y agita?", "Presenta al Señor tu agenda de la semana y pregúntale qué es lo único necesario.", "Esta semana, bloquea en tu calendario un tiempo fijo de oración antes de cualquier otra cosa."),
       [("Laudato si' 225-226", LS, "La paz interior y la capacidad de vivir el momento presente sin la ansiedad de pasar a lo siguiente son parte de una espiritualidad sana.")],
       ["¿Qué tareas importantes y no urgentes estás postergando?", "¿Cuáles son las piedras grandes de tu semana?", "¿A qué deberías decir que no este mes?", "¿Cuánto margen dejas entre tus compromisos?"],
-      "Cada participante planifica su próxima semana: primero bloquea sus piedras grandes (estudio o trabajo, familia, descanso, oración y servicio), luego agrega los demás compromisos con sus tiempos de traslado y márgenes. En parejas, revisen la agenda del otro: ¿es realista? ¿dónde se va a producir un atraso?",
-      ["Lista tus piedras grandes.", "Bloquéalas en tu calendario.", "Agrega traslados y márgenes.", "Revisa tu agenda con un compañero."],
+      "Antes de empezar, cada participante instala en su teléfono la app de su comunidad (si la tiene) y se suscribe a su agenda para que las fechas lleguen a su calendario. Luego planifica su próxima semana: primero bloquea sus piedras grandes (estudio o trabajo, familia, descanso, oración y servicio), luego agrega los demás compromisos con sus tiempos de traslado y márgenes. En parejas, revisen la agenda del otro: ¿es realista? ¿dónde se va a producir un atraso?",
+      ["Instala la app de tu comunidad y suscríbete a su agenda.", "Lista tus piedras grandes y bloquéalas en tu calendario.", "Agrega traslados, márgenes y recordatorios.", "Revisa tu agenda con un compañero."],
       "Señor, como a Marta, a veces me inquieto y me agito por muchas cosas. Ayúdame a poner primero lo único necesario, a ordenar mi tiempo con sabiduría y a decir que no cuando hace falta, para servir con alegría y no a medias. Amén.",
       "Pon primero las piedras grandes: lo demás se acomoda.",
       ("El cansancio también es un tema pastoral",
@@ -133,7 +146,8 @@ UNIDADES = [
         "- **Tabla con tiempos:** cada tema con sus minutos.\n"
         "- **Hora de inicio y de término.**\n"
         "- **Qué leer o traer antes,** para no ocupar la reunión en eso.\n"
-        "- **Anticipación:** al menos tres o cuatro días antes, para que cada uno se organice."),
+        "- **Anticipación:** al menos tres o cuatro días antes, para que cada uno se organice.\n\n"
+        "Si tu equipo usa una aplicación de coordinación, convoca desde ahí: la convocatoria, la tabla, el acta y los acuerdos quedan en un solo lugar, y los acuerdos con responsable se transforman en tareas con plazo que todos pueden seguir."),
        ("Conducir con el reloj a la vista",
         "- **Empieza a la hora** con quienes están. No resumas lo tratado para los que llegan tarde: que lo pregunten al final.\n"
         "- **Nombra a alguien que cuide el tiempo,** que avise cuando quedan cinco minutos de cada tema.\n"
@@ -191,6 +205,13 @@ UNIDADES = [
         "- **Confirma** si vas o no vas, en el plazo pedido. El «visto» sin respuesta obliga a otro a perseguirte.\n"
         "- **Avisa apenas sepas** que vas a llegar tarde o no vas a poder cumplir algo. Un aviso a tiempo permite reorganizarse; uno de último minuto deja a otros en problemas.\n"
         "- **Responde en un plazo razonable** los mensajes que esperan una respuesta tuya, aunque sea para decir «lo reviso y te contesto el jueves»."),
+       ("Menos cadenas, más herramientas",
+        "Buena parte de los mensajes de un grupo existen porque la información no está en un lugar fijo: «¿a qué hora era?», «¿dónde es?», «¿quién va?». Cuando la comunidad usa sus herramientas, esos mensajes desaparecen:\n\n"
+        "- **Las fechas, en la agenda oficial** de la comunidad, no solo en el chat. El mensaje del grupo puede ser un recordatorio breve con el enlace.\n"
+        "- **La asistencia, confirmada en la herramienta** cuando lo permite, para que el equipo vea quién va sin tener que preguntar uno por uno.\n"
+        "- **Las tareas del equipo, en el tablero de coordinación,** con responsable y plazo, en vez de pedidos sueltos que se pierden.\n"
+        "- **Las consultas de las familias, en un buzón o canal oficial,** para que no dependan del teléfono personal de un dirigente.\n\n"
+        "Fomentar el uso de las herramientas propias de la comunidad no es burocracia: es cuidar el tiempo de todos."),
        ("El derecho al descanso",
         "Que podamos escribir a cualquier hora no significa que debamos hacerlo. Los dirigentes, los coordinadores y los asesores también necesitan desconectarse: estudiar, trabajar, estar con su familia, descansar y rezar.\n\n"
         "Una comunidad que respeta el tiempo de sus servidores **no espera respuestas inmediatas** fuera de horario y **no premia** al que contesta a medianoche. Cuidar el descanso del otro es también una forma de caridad.")],
@@ -205,7 +226,7 @@ UNIDADES = [
        ("Mensaje para la Jornada Mundial de las Comunicaciones Sociales 2019, «Somos miembros unos de otros»", None, "Francisco invita a que las redes sean un lugar de encuentro verdadero y no de aislamiento ni de ruido.")],
       ["¿Qué tipo de mensajes te hacen perder más tiempo?", "¿Tu grupo tiene normas? ¿Se respetan?", "¿Respondes a tiempo cuando alguien espera tu confirmación?", "¿Cómo cuidas el descanso de quienes coordinan?"],
       "En grupos, reescriban tres mensajes reales (o inventados) que hayan generado confusión, para que sean completos a la primera. Luego redacten las normas del grupo de WhatsApp de su comunidad (máximo seis) y el mensaje con que las propondrían al grupo.",
-      ["Reescriban tres mensajes confusos.", "Redacten las normas del grupo.", "Preparen el mensaje para proponerlas.", "Acuerden un horario de mensajes."],
+      ["Reescriban tres mensajes confusos.", "Redacten las normas del grupo.", "Decidan qué información irá en la agenda o app de la comunidad y no en el chat.", "Acuerden un horario de mensajes."],
       "Señor, que nuestras palabras sean claras y verdaderas, que nuestro sí sea sí y nuestro no sea no. Que sepamos avisar a tiempo, responder con responsabilidad y respetar el descanso de los demás, para que nuestra comunicación construya comunidad. Amén.",
       "Un mensaje completo a la primera ahorra diez mensajes después.",
       ("Audio, texto o llamada",
@@ -227,6 +248,9 @@ UNIDADES = [
         "- **Ponle fecha a cada paso** en tu calendario, no solo a la tarea completa.\n"
         "- **Pide a alguien que te pregunte** cómo vas: el acompañamiento también sirve para esto.\n"
         "- **Empieza por lo más difícil** cuando tienes más energía."),
+       ("Plazos a la vista de todos",
+        "Un plazo que solo está en la cabeza de una persona es un plazo en riesgo. Si el equipo usa un tablero de tareas (en una aplicación de coordinación, una planilla compartida o incluso una pizarra), cada compromiso queda con **responsable, plazo y estado** a la vista de todos.\n\n"
+        "Así, quien coordina no tiene que andar preguntando, quien está atrasado puede pedir ayuda a tiempo y el equipo ve cómo se avanza. Actualiza el estado de tus tareas apenas avances: es una forma silenciosa de cuidar el tiempo de los demás."),
        ("No sobrecargar a los demás",
         "Respetar el tiempo del otro también es no pedir a último minuto lo que podía pedirse con anticipación. Antes de encargar algo, pregúntate: ¿le estoy dando tiempo suficiente? ¿Sabe exactamente qué se espera y para cuándo? ¿Le estoy pidiendo demasiado a la misma persona?\n\n"
         "Los equipos sanos reparten las tareas, piden con anticipación y agradecen el tiempo que cada uno regala."),
@@ -262,6 +286,7 @@ EVALUACION = [
     q("¿Cuál es una buena práctica al conducir una reunión?", ["Alargarla hasta terminar todos los temas.", "Nombrar a alguien que cuide el tiempo y terminar a la hora.", "Resumir todo cada vez que alguien llega tarde."], 1, "Si un tema se alarga, se decide qué acortar, sin pasar la hora de término sin consultar."),
     q("Al programar las dinámicas de un encuentro, ¿qué conviene hacer?", ["Calcular justo lo que dura la actividad.", "Sumar alrededor de un 30 % más y considerar los tiempos muertos.", "No poner horarios."], 1, "Explicar, formar grupos y volver siempre toma más tiempo."),
     q("¿Qué debe incluir un aviso completo?", ["Solo el día.", "Qué, cuándo (con hora de término), dónde, qué llevar y hasta cuándo responder.", "Un audio explicativo."], 1, "Un mensaje completo a la primera ahorra muchos mensajes después."),
+    q("¿Por qué conviene usar la agenda o la app oficial de la comunidad?", ["Porque así la información está en un solo lugar, actualizada, y se necesitan menos mensajes.", "Porque reemplaza el encuentro en persona.", "No conviene: basta con el chat del grupo."], 0, "Las herramientas compartidas cuidan el tiempo de todos: nadie tiene que repetir ni perseguir información."),
     q("Si sabes que no vas a cumplir un plazo, ¿qué haces?", ["Esperar a ver si alguien se da cuenta.", "Avisar antes de que venza y proponer una alternativa.", "Avisar después de la fecha."], 1, "Renegociar a tiempo es responsabilidad; incumplir en silencio es descuido."),
     q("¿Qué significa respetar el tiempo de los procesos de las personas?", ["Exigir resultados rápidos.", "Acompañar con paciencia, sin apurar su crecimiento.", "Dejar de acompañar a quien avanza lento."], 1, "El tiempo es superior al espacio: importa más iniciar procesos que dominar resultados."),
 ]
@@ -269,7 +294,7 @@ EVALUACION = [
 TALLER = ("El pacto del tiempo: cada participante presenta su auditoría de una semana (cuánto tiempo dedicó a sus piedras grandes, dónde se le fue el tiempo "
           "y qué cambiará). Luego, el equipo completo acuerda y firma el pacto del tiempo de su comunidad, con acuerdos concretos sobre puntualidad (llegar, empezar "
           "y terminar a la hora), reuniones (convocatoria, tabla y guardián del tiempo), mensajes (aviso completo, horario y normas del grupo), plazos (avisar antes "
-          "de que venzan) y descanso. Definen cómo lo comunicarán a los jóvenes y a las familias, y cuándo lo evaluarán.")
+          "de que venzan) y descanso, junto con las herramientas oficiales que usará la comunidad (agenda, app, tablero de tareas, buzón). Definen cómo lo comunicarán a los jóvenes y a las familias, y cuándo lo evaluarán.")
 
 FORMACION = {
     "id": "gestion-del-tiempo",
@@ -279,7 +304,7 @@ FORMACION = {
     "publico": "Desde 13 años",
     "descripcion": "Una formación para aprender a gestionar el tiempo desde el respeto por el tiempo de los demás: la puntualidad como acogida, las prioridades personales, encuentros y reuniones que empiezan y terminan a la hora, mensajes que cuidan el tiempo y el descanso del otro, y compromisos cumplidos a tiempo sin apurar los procesos de las personas. 5 unidades de 90 minutos y una evaluación final.",
     "modulo": "El tiempo del otro",
-    "intro": "El tiempo es un don de Dios, y el tiempo de cada persona que viene a un encuentro, a una reunión o a una actividad es un regalo que nos confía. En esta formación aprenderás a ordenar tu propio tiempo para servir mejor, y sobre todo a cuidar el tiempo de los demás: llegar, empezar y terminar a la hora, preparar reuniones que no desgasten, comunicar con claridad, cumplir los plazos y respetar los tiempos de crecimiento de cada persona.",
+    "intro": "El tiempo es un don de Dios, y el tiempo de cada persona que viene a un encuentro, a una reunión o a una actividad es un regalo que nos confía. En esta formación aprenderás a ordenar tu propio tiempo para servir mejor, y sobre todo a cuidar el tiempo de los demás: llegar, empezar y terminar a la hora, preparar reuniones que no desgasten, comunicar con claridad, cumplir los plazos, aprovechar las herramientas de tu comunidad (agenda, app y espacio de coordinación) y respetar los tiempos de crecimiento de cada persona.",
     "unidades": UNIDADES,
     "evaluacion": EVALUACION,
     "taller": TALLER,

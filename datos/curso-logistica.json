@@ -25,6 +25,16 @@
   ],
   "agappe": [
     {
+      "titulo": "Agenda Ágape",
+      "texto": "Las fechas de la comunidad; suscríbete para tenerlas en el calendario de tu teléfono.",
+      "url": "https://pj-agape.github.io/#/agenda"
+    },
+    {
+      "titulo": "Coordinación",
+      "texto": "Tareas, reuniones y actas del equipo, con la misma cuenta.",
+      "url": "https://pj-agape.github.io/coordinacion/"
+    },
+    {
       "titulo": "Credenciales",
       "texto": "Tarjetas de solapa con foto y nombre para los encuentros.",
       "url": "https://pj-agape.github.io/#/credenciales"

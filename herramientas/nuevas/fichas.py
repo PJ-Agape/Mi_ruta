@@ -154,12 +154,14 @@ SECCIONES = {
     "dinamicas": ("Banco de dinámicas", "Rompehielos, juegos, oración y reflexión (con cuenta de equipo).", "dinamicas"),
     "juegos": ("Juegos", "Trivia, memorice, sopa de letras y más para el grupo.", "juegos"),
     "difusion": ("Estudio de difusión", "Marcos de foto, historias, invitaciones y stickers.", "difusion"),
+    "agenda": ("Agenda Ágape", "Las fechas de la comunidad; suscríbete para tenerlas en el calendario de tu teléfono.", "agenda"),
+    "coordinacion": ("Coordinación", "Tareas, reuniones y actas del equipo, con la misma cuenta.", "https://pj-agape.github.io/coordinacion/"),
     "credenciales": ("Credenciales", "Tarjetas de solapa con foto y nombre para los encuentros.", "credenciales"),
 }
 ENLACES = {
     "llamados": ["capilla", "oremus", "salmos"],
-    "herramientas-digitales": [],
-    "dirigente-juvenil": ["capilla", "dinamicas", "cancionero"],
+    "herramientas-digitales": ["agenda", "coordinacion"],
+    "dirigente-juvenil": ["agenda", "coordinacion", "capilla", "dinamicas", "cancionero"],
     "diplomado": ["dinamicas", "capilla"],
     "servicio-liturgico": ["capilla", "cancionero", "salmos"],
     "fe-y-catequesis": ["capilla", "evangelio", "dinamicas"],
@@ -180,10 +182,11 @@ ENLACES = {
     "ecologia-integral": ["capilla", "salmos"],
     "dinamicas-y-juegos": ["dinamicas", "juegos"],
     "comunicacion-y-redes": ["difusion"],
-    "gestion-del-tiempo": ["capilla"],
-    "logistica": ["credenciales"],
+    "gestion-del-tiempo": ["agenda", "coordinacion", "capilla"],
+    "logistica": ["agenda", "coordinacion", "credenciales"],
 }
 
 
 def enlaces_agappe(cid):
-    return [{"titulo": SECCIONES[k][0], "texto": SECCIONES[k][1], "url": AGAPPE + SECCIONES[k][2]} for k in ENLACES.get(cid, [])]
+    return [{"titulo": SECCIONES[k][0], "texto": SECCIONES[k][1],
+             "url": SECCIONES[k][2] if SECCIONES[k][2].startswith("http") else AGAPPE + SECCIONES[k][2]} for k in ENLACES.get(cid, [])]

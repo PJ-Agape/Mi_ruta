@@ -448,7 +448,7 @@
    "requiere": [
     "buen-trato-y-prevencion"
    ],
-   "intro": "El tiempo es un don de Dios, y el tiempo de cada persona que viene a un encuentro, a una reunión o a una actividad es un regalo que nos confía. En esta formación aprenderás a ordenar tu propio tiempo para servir mejor, y sobre todo a cuidar el tiempo de los demás: llegar, empezar y terminar a la hora, preparar reuniones que no desgasten, comunicar con claridad, cumplir los plazos y respetar los tiempos de crecimiento de cada persona.",
+   "intro": "El tiempo es un don de Dios, y el tiempo de cada persona que viene a un encuentro, a una reunión o a una actividad es un regalo que nos confía. En esta formación aprenderás a ordenar tu propio tiempo para servir mejor, y sobre todo a cuidar el tiempo de los demás: llegar, empezar y terminar a la hora, preparar reuniones que no desgasten, comunicar con claridad, cumplir los plazos, aprovechar las herramientas de tu comunidad (agenda, app y espacio de coordinación) y respetar los tiempos de crecimiento de cada persona.",
    "clases": [
     {
      "id": "gestion-del-tiempo-s1",
@@ -506,7 +506,7 @@
      "numero": 6,
      "etiqueta": "Sesión 6 · Cierre",
      "titulo": "Cierre: taller práctico y evaluación",
-     "tiempo": "Taller y 10 preguntas"
+     "tiempo": "Taller y 11 preguntas"
     }
    ]
   },

@@ -2,7 +2,7 @@
  "gestion-del-tiempo-cierre": {
   "titulo": "Cierre del módulo: El tiempo del otro: gestión del tiempo en la pastoral",
   "aprobacion": 70,
-  "taller": "El pacto del tiempo: cada participante presenta su auditoría de una semana (cuánto tiempo dedicó a sus piedras grandes, dónde se le fue el tiempo y qué cambiará). Luego, el equipo completo acuerda y firma el pacto del tiempo de su comunidad, con acuerdos concretos sobre puntualidad (llegar, empezar y terminar a la hora), reuniones (convocatoria, tabla y guardián del tiempo), mensajes (aviso completo, horario y normas del grupo), plazos (avisar antes de que venzan) y descanso. Definen cómo lo comunicarán a los jóvenes y a las familias, y cuándo lo evaluarán.",
+  "taller": "El pacto del tiempo: cada participante presenta su auditoría de una semana (cuánto tiempo dedicó a sus piedras grandes, dónde se le fue el tiempo y qué cambiará). Luego, el equipo completo acuerda y firma el pacto del tiempo de su comunidad, con acuerdos concretos sobre puntualidad (llegar, empezar y terminar a la hora), reuniones (convocatoria, tabla y guardián del tiempo), mensajes (aviso completo, horario y normas del grupo), plazos (avisar antes de que venzan) y descanso, junto con las herramientas oficiales que usará la comunidad (agenda, app, tablero de tareas, buzón). Definen cómo lo comunicarán a los jóvenes y a las familias, y cuándo lo evaluarán.",
   "preguntas": [
    {
     "pregunta": "¿Qué diferencia hay entre cronos y kairós?",
@@ -83,6 +83,16 @@
     ],
     "correcta": 1,
     "explicacion": "Un mensaje completo a la primera ahorra muchos mensajes después."
+   },
+   {
+    "pregunta": "¿Por qué conviene usar la agenda o la app oficial de la comunidad?",
+    "opciones": [
+     "Porque así la información está en un solo lugar, actualizada, y se necesitan menos mensajes.",
+     "Porque reemplaza el encuentro en persona.",
+     "No conviene: basta con el chat del grupo."
+    ],
+    "correcta": 0,
+    "explicacion": "Las herramientas compartidas cuidan el tiempo de todos: nadie tiene que repetir ni perseguir información."
    },
    {
     "pregunta": "Si sabes que no vas a cumplir un plazo, ¿qué haces?",

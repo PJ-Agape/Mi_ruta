@@ -25,7 +25,18 @@
     "Organizar la información del grupo de forma segura, ordenada y continua.",
     "Proteger los datos personales, especialmente los de menores de edad."
   ],
-  "agappe": [],
+  "agappe": [
+    {
+      "titulo": "Agenda Ágape",
+      "texto": "Las fechas de la comunidad; suscríbete para tenerlas en el calendario de tu teléfono.",
+      "url": "https://pj-agape.github.io/#/agenda"
+    },
+    {
+      "titulo": "Coordinación",
+      "texto": "Tareas, reuniones y actas del equipo, con la misma cuenta.",
+      "url": "https://pj-agape.github.io/coordinacion/"
+    }
+  ],
   "contenidos": [
     {
       "titulo": "Inicial: primeros pasos digitales",
