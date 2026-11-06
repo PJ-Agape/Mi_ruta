@@ -889,6 +889,7 @@
 
     if (/-cierre$/.test(cl.id)) html += '<section class="tarjeta video-final" id="video-final"></section>';
     html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
+    html += '<p class="reportar"><a href="#/sugerencias?desde=' + encodeURIComponent(location.hash) + '">¿Encontraste un error o tienes una sugerencia sobre esta sesión? Avísanos</a></p>';
     html += '<div class="botones"><button class="boton ' + (hecha ? "hecho" : "principal") + '" id="marcar">' +
       (hecha ? "&#10003; Clase completada" : "Marcar como completada") + "</button></div>";
 
@@ -1740,6 +1741,7 @@
       '<div class="botones">' +
       (e.activo ? '<a class="boton" href="#/mis-constancias">Mis constancias</a>' : "") +
       (e.esRelator ? '<a class="boton" href="#/gestion">Gestión</a>' : "") +
+      '<a class="boton" href="#/sugerencias">Sugerencias y problemas</a>' +
       '<button class="boton" id="salir">Salir</button></div>' +
       (e.esRelator ? '<label class="interruptor claro"><input type="checkbox" id="relator-perfil"' + (modoRelator() ? " checked" : "") + '> <span>Vista relator: mostrar las guías y todos los módulos</span></label>' : "") +
       "</section>";
@@ -1872,10 +1874,25 @@
 
   /* ---------- gestión ---------- */
 
-  function vistaGestion() {
+  function subnavGestion(activa) {
+    var e = cuentaActual();
+    var items = [["acompanar", "Acompañar"], ["cuentas", "Cuentas y solicitudes"]].concat(e.esAdmin ? [["sugerencias", "Sugerencias y problemas"]] : []);
+    return '<nav class="pestanas-curso" aria-label="Gestión">' + items.map(function (x) {
+      return '<a href="#/gestion/' + x[0] + '"' + (x[0] === activa ? ' class="activa" aria-current="page"' : "") + ">" + x[1] + "</a>";
+    }).join("") + "</nav>";
+  }
+
+  function vistaGestion(sub) {
     var e = cuentaActual();
     if (!e.esRelator) { location.hash = "#/"; return Promise.resolve(); }
-    pintar(migas("Gestión") + '<p class="cargando">Cargando participantes…</p>', "Gestión");
+    if (sub === "cuentas") return vistaCuentas();
+    if (sub === "sugerencias" && e.esAdmin) return vistaSoporteAdmin();
+    return vistaAcompanar();
+  }
+
+  function vistaCuentas() {
+    var e = cuentaActual();
+    pintar(migas("Gestión") + subnavGestion("cuentas") + '<p class="cargando">Cargando participantes…</p>', "Gestión");
     return Promise.all([Nube.listarUsuarios(), Promise.all(sitio.cursos.map(cargarCurso))]).then(function (r) {
       var usuarios = r[0], lista = r[1];
       var porId = {}; lista.forEach(function (c) { porId[c.id] = c; });
@@ -1920,7 +1937,7 @@
         return t.indexOf(filtro.toLowerCase()) >= 0;
       }).sort(function (a, b) { return String(a.nombre).localeCompare(String(b.nombre)); });
 
-      var html = migas("Gestión") + '<section class="portada"><h1>Gestión</h1><p>Aprueba cuentas, inscribe en cursos, revisa avances y emite constancias.</p>' +
+      var html = migas('<a href="#/gestion">Gestión</a> / Cuentas') + subnavGestion("cuentas") + '<section class="portada"><h1>Cuentas y solicitudes</h1><p>Aprueba cuentas, inscribe en cursos, revisa avances y emite constancias.</p>' +
         '<ul class="etiquetas"><li>' + usuarios.length + " cuentas</li><li>" + pendientes.length + " por revisar</li></ul></section>" +
         '<section class="tarjeta"><h2>Por revisar</h2>' + (pendientes.length ? '<ul class="fichas">' + pendientes.map(fichaPendiente).join("") + "</ul>" : '<p class="seccion-bajada">No hay solicitudes pendientes.</p>') + "</section>" +
         '<section class="tarjeta"><h2>Participantes</h2><label class="buscador">Buscar<input id="filtro" value="' + esc(filtro) + '" placeholder="Nombre, correo o comunidad"></label>' +
@@ -1929,7 +1946,7 @@
       pintar(html, "Gestión");
 
       var buscar = document.getElementById("filtro");
-      buscar.addEventListener("change", function () { almacen.guardar("gestion:filtro", buscar.value.trim()); vistaGestion(); });
+      buscar.addEventListener("change", function () { almacen.guardar("gestion:filtro", buscar.value.trim()); vistaCuentas(); });
 
       document.getElementById("ver-constancias").addEventListener("click", function () {
         var caja = document.getElementById("constancias-emitidas");
@@ -1952,7 +1969,7 @@
         var u = usuarios.filter(function (x) { return x.uid === uid; })[0];
         var msj = li.querySelector(".mensaje") || li;
         function hecho(promesa) {
-          promesa.then(vistaGestion).catch(function (er) { alertaEn(msj, er.message); });
+          promesa.then(vistaCuentas).catch(function (er) { alertaEn(msj, er.message); });
         }
         li.querySelectorAll("[data-accion]").forEach(function (b) {
           var accion = b.getAttribute("data-accion");
@@ -1982,6 +1999,217 @@
         });
       });
     });
+  }
+
+  /* ---------- panel de acompañamiento (relatores y administración) ---------- */
+
+  var DIAS_INACTIVO = 14;
+  function diasDesde(iso) { return iso ? Math.floor((Date.now() - new Date(iso).getTime()) / 86400000) : null; }
+  function haceTexto(iso) {
+    var d = diasDesde(iso);
+    if (d === null) return "sin registro";
+    return d <= 0 ? "hoy" : d === 1 ? "ayer" : "hace " + d + " días";
+  }
+  function nombreHilo(c, hilo) {
+    if (hilo === "bienvenida") return "Presentaciones";
+    if (hilo === "programa") return "Dudas del programa";
+    var cl = (c.clases || []).filter(function (x) { return x.id === hilo; })[0];
+    return cl ? "Debate: " + cl.titulo : "Debate";
+  }
+  function enlaceHilo(c, hilo) {
+    return "#/curso/" + encodeURIComponent(c.id) + "/muro/" + (hilo === "bienvenida" || hilo === "programa" ? hilo : "s/" + encodeURIComponent(hilo));
+  }
+
+  function vistaAcompanar() {
+    var e = cuentaActual();
+    var cab = migas("Gestión") + subnavGestion("acompanar");
+    pintar(cab + '<p class="cargando">Revisando mensajes, debates y avances…</p>', "Gestión");
+    var yo = Nube.miUid();
+    return Promise.all([
+      Nube.listarUsuarios(), Promise.all(sitio.cursos.map(cargarCurso)),
+      Nube.avances().catch(function () { return []; }),
+      Nube.misConversaciones().catch(function () { return []; }),
+      e.esAdmin ? Nube.todosSoportes().catch(function () { return []; }) : Promise.resolve([]),
+    ]).then(function (r) {
+      var usuarios = r[0], cursos = r[1], avs = r[2], convs = r[3], sops = r[4];
+      var misCursos = e.esAdmin ? cursos : cursos.filter(function (c) { return (e.cuenta.cursos || []).indexOf(c.id) >= 0 && !esPropedeutico(c); });
+      return Promise.all([
+        Promise.all(misCursos.map(function (c) { return Nube.mensajesCurso(c.id).catch(function () { return []; }); })),
+        Promise.all(misCursos.map(function (c) { return Nube.entregasCurso(c.id).catch(function () { return []; }); })),
+      ]).then(function (r2) {
+        var foros = r2[0], entregas = r2[1];
+        var limite = Date.now() - 60 * 86400000;
+
+        // Debates y dudas cuyo último mensaje es de un participante: esperan una respuesta del equipo.
+        var esperan = [];
+        misCursos.forEach(function (c, k) {
+          var porHilo = {};
+          foros[k].filter(function (m) { return !m.borrado; }).forEach(function (m) { (porHilo[m.hilo] = porHilo[m.hilo] || []).push(m); });
+          Object.keys(porHilo).forEach(function (h) {
+            var xs = porHilo[h].sort(function (a, b) { return String(a.fecha).localeCompare(String(b.fecha)); });
+            var ult = xs[xs.length - 1];
+            if (ult.rol === "relator" || ult.rol === "admin" || new Date(ult.fecha).getTime() < limite) return;
+            var sinRespuesta = 0;
+            for (var i = xs.length - 1; i >= 0 && xs[i].rol !== "relator" && xs[i].rol !== "admin"; i--) sinRespuesta++;
+            esperan.push({ c: c, hilo: h, ult: ult, n: sinRespuesta });
+          });
+        });
+        esperan.sort(function (a, b) { return String(a.ult.fecha).localeCompare(String(b.ult.fecha)); });
+
+        var porEvaluar = [];
+        misCursos.forEach(function (c, k) { entregas[k].filter(function (x) { return !x.evaluacion; }).forEach(function (x) { porEvaluar.push({ c: c, x: x }); }); });
+
+        var noLeidos = convs.filter(function (x) { return x.ultimo && x.ultimo.uid !== yo && (!x.leido[yo] || x.leido[yo] < x.ultimo.fecha); });
+
+        // Participantes a acompañar: inscritos que no han empezado o que dejaron de avanzar.
+        var avPor = {}; avs.forEach(function (a) { avPor[a.uid] = a; });
+        var sinEmpezar = [], detenidos = [];
+        usuarios.filter(function (u) { return u.estado === "activo" && u.rol === "participante"; }).forEach(function (u) {
+          var a = avPor[u.uid] || { datos: {}, actualizado: "" };
+          misCursos.forEach(function (c) {
+            if ((u.cursos || []).indexOf(c.id) < 0) return;
+            var hechas = (a.datos["hechas:" + c.id] || []).length, total = (c.clases || []).length;
+            if (!hechas) sinEmpezar.push({ u: u, c: c, a: a });
+            else if (hechas < total && (diasDesde(a.actualizado) || 0) > DIAS_INACTIVO) detenidos.push({ u: u, c: c, a: a, hechas: hechas, total: total });
+          });
+        });
+        detenidos.sort(function (x, y) { return String(x.a.actualizado).localeCompare(String(y.a.actualizado)); });
+        var pendientes = usuarios.filter(function (u) { return u.estado === "pendiente" || (u.estado === "activo" && (u.solicitudes || []).length); });
+        var sopNuevos = sops.filter(function (x) { return x.estado === "nuevo"; });
+
+        function escribir(u) {
+          return '<a class="boton mini" href="#/mensajes/' + encodeURIComponent(u.uid) + "?n=" + encodeURIComponent(u.nombre || "") + '">Escribir</a>';
+        }
+        function filaPersona(x, extra) {
+          return '<li class="acomp-fila"><div><b>' + esc(x.u.nombre || x.u.correo) + '</b><span class="acomp-meta">' + esc(x.c.titulo) + (extra ? " · " + extra : "") + "</span></div>" + escribir(x.u) + "</li>";
+        }
+        function bloque(id, titulo, n, cuerpo, vacio) {
+          return '<section class="tarjeta acomp" id="' + id + '"><h2>' + titulo + ' <span class="insignia' + (n ? "" : " cero") + '">' + n + "</span></h2>" + (n ? cuerpo : '<p class="seccion-bajada">' + vacio + "</p>") + "</section>";
+        }
+
+        var html = cab + '<section class="portada"><h1>Acompañar</h1><p>Las formaciones se cursan de forma autónoma. Tu tarea como ' + (e.esAdmin ? "administración o relator" : "relator") +
+          " es responder, animar el diálogo y orientar a cada participante. Aquí está lo que te espera hoy" + (e.esAdmin ? "" : " en tus formaciones") + ".</p></section>" +
+          '<div class="acomp-cifras">' +
+            '<a href="#/mensajes" class="acomp-cifra' + (noLeidos.length ? " alerta" : "") + '"><b>' + noLeidos.length + "</b><span>mensajes sin leer</span></a>" +
+            '<a href="#/gestion" data-ir="acomp-foro" class="acomp-cifra' + (esperan.length ? " alerta" : "") + '"><b>' + esperan.length + "</b><span>debates o dudas esperan respuesta</span></a>" +
+            '<a href="#/gestion" data-ir="acomp-entregas" class="acomp-cifra"><b>' + porEvaluar.length + "</b><span>videos por evaluar</span></a>" +
+            '<a href="#/gestion" data-ir="acomp-detenidos" class="acomp-cifra"><b>' + detenidos.length + "</b><span>participantes detenidos</span></a>" +
+            '<a href="#/gestion/cuentas" class="acomp-cifra' + (pendientes.length ? " alerta" : "") + '"><b>' + pendientes.length + "</b><span>solicitudes por revisar</span></a>" +
+            (e.esAdmin ? '<a href="#/gestion/sugerencias" class="acomp-cifra' + (sopNuevos.length ? " alerta" : "") + '"><b>' + sopNuevos.length + "</b><span>sugerencias o problemas nuevos</span></a>" : "") +
+          "</div>" +
+          '<details class="tarjeta guia-tutor"><summary><b>Cómo acompañar en Mi Ruta</b></summary>' +
+            "<p>Las sesiones están pensadas para que cada participante las curse a su ritmo. El relator no dicta clases: <b>acompaña</b>.</p><ul>" +
+            "<li><b>Responde los mensajes</b> dentro de 48 horas, aunque sea para decir «lo reviso y te contesto».</li>" +
+            "<li><b>Anima el foro:</b> da la bienvenida a cada presentación, responde las dudas del programa y en cada debate devuelve una pregunta que haga pensar más, nombrando a quien escribió.</li>" +
+            "<li><b>Orienta:</b> si alguien se detuvo, escríbele con cercanía, pregúntale cómo está y sugiérele el siguiente paso concreto.</li>" +
+            "<li><b>Evalúa a tiempo</b> los videos finales con la rúbrica, con una retroalimentación breve y alentadora.</li>" +
+            "<li><b>Avisa a la administración</b> los problemas de la plataforma o del contenido en <a href=\"#/sugerencias\">Sugerencias y problemas</a>.</li></ul></details>" +
+          bloque("acomp-foro", "Debates y dudas que esperan respuesta", esperan.length,
+            '<ul class="acomp-lista">' + esperan.map(function (x) {
+              return '<li class="acomp-fila"><div><b>' + esc(nombreHilo(x.c, x.hilo)) + '</b><span class="acomp-meta">' + esc(x.c.titulo) + " · " + esc(x.ult.nombre || "Participante") + " · " + haceTexto(x.ult.fecha) +
+                (x.n > 1 ? " · " + x.n + " mensajes sin respuesta" : "") + '</span><span class="acomp-extracto">' + esc(String(x.ult.texto || "").slice(0, 160)) + (String(x.ult.texto || "").length > 160 ? "…" : "") + "</span></div>" +
+                '<a class="boton mini principal" href="' + enlaceHilo(x.c, x.hilo) + '">Responder</a></li>';
+            }).join("") + "</ul>", "Nada pendiente en el foro. Puedes abrir un debate y dejar una pregunta para animar la conversación.") +
+          bloque("acomp-entregas", "Presentaciones en video por evaluar", porEvaluar.length,
+            '<ul class="acomp-lista">' + porEvaluar.map(function (x) {
+              return '<li class="acomp-fila"><div><b>' + esc(x.x.nombre || "Participante") + '</b><span class="acomp-meta">' + esc(x.c.titulo) + " · enviado " + haceTexto(x.x.fecha) + '</span></div><a class="boton mini" href="#/curso/' + encodeURIComponent(x.c.id) + '/entregas">Evaluar</a></li>';
+            }).join("") + "</ul>", "No hay videos pendientes de evaluación.") +
+          bloque("acomp-detenidos", "Participantes detenidos (más de " + DIAS_INACTIVO + " días sin avanzar)", detenidos.length,
+            '<ul class="acomp-lista">' + detenidos.slice(0, 40).map(function (x) { return filaPersona(x, x.hechas + " de " + x.total + " sesiones · última actividad " + haceTexto(x.a.actualizado)); }).join("") + "</ul>",
+            "Todos los que empezaron siguen avanzando.") +
+          bloque("acomp-sin", "Inscritos que aún no empiezan", sinEmpezar.length,
+            '<ul class="acomp-lista">' + sinEmpezar.slice(0, 40).map(function (x) { return filaPersona(x, "sin sesiones completadas"); }).join("") + "</ul>" +
+            (sinEmpezar.length > 40 ? '<p class="seccion-bajada">Y ' + (sinEmpezar.length - 40) + " más.</p>" : ""),
+            "Todos los inscritos ya empezaron.");
+        pintar(html, "Gestión");
+        app.querySelectorAll("[data-ir]").forEach(function (x) {
+          x.addEventListener("click", function (ev) {
+            ev.preventDefault();
+            var dest = document.getElementById(x.getAttribute("data-ir"));
+            if (dest) dest.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+        });
+      });
+    });
+  }
+
+  /* ---------- sugerencias y problemas ---------- */
+
+  var TIPOS_SOPORTE = { mejora: "Sugerencia de mejora", error: "Problema o error de la plataforma", contenido: "Error o mejora en el contenido de una formación", otro: "Otro" };
+  var ESTADOS_SOPORTE = { nuevo: "Recibido", revision: "En revisión", resuelto: "Resuelto", descartado: "No se hará por ahora" };
+
+  function vistaSugerencias() {
+    var e = cuentaActual();
+    var m = location.hash.match(/[?&]desde=([^&]*)/);
+    var desde = m ? decodeURIComponent(m[1]) : "";
+    var cab = migas("Sugerencias y problemas") + '<section class="portada"><h1>Sugerencias y problemas</h1><p>¿Encontraste un error, algo que no funciona o una idea para mejorar Mi Ruta o sus formaciones? Escríbele a la administración: cada mensaje se revisa y te responderemos aquí.</p></section>';
+    if (!Nube.habilitada || !e.cuenta) {
+      pintar(cab + '<section class="tarjeta"><p>Para enviar una sugerencia necesitas ingresar con tu cuenta.</p>' + (Nube.habilitada ? '<a class="boton principal" href="#/ingresar">Ingresar</a>' : "") + "</section>", "Sugerencias");
+      return Promise.resolve();
+    }
+    pintar(cab + '<p class="cargando">Cargando…</p>', "Sugerencias");
+    return Nube.misSoportes().catch(function () { return []; }).then(function (mios) {
+      mios.sort(function (a, b) { return String(b.creado).localeCompare(String(a.creado)); });
+      try { localStorage.setItem("miruta:soporte-visto", JSON.stringify(mios.filter(function (x) { return x.respuesta; }).map(function (x) { return x.id + x.respondido; }))); } catch (er) { /* sin almacenamiento */ }
+      var html = cab + '<section class="tarjeta"><h2>Escribir a la administración</h2><form id="form-soporte" class="formulario">' +
+        '<label>Tipo<select name="tipo">' + Object.keys(TIPOS_SOPORTE).map(function (k) { return '<option value="' + k + '"' + (desde && k === "contenido" ? " selected" : "") + ">" + TIPOS_SOPORTE[k] + "</option>"; }).join("") + "</select></label>" +
+        '<label>¿Qué pasó o qué propones?<textarea name="texto" maxlength="2000" required rows="5" placeholder="Cuéntanos con detalle: qué estabas haciendo, qué esperabas que pasara y qué pasó. Si es una idea, explica para qué serviría."></textarea></label>' +
+        (desde ? '<p class="seccion-bajada">Se adjuntará la página donde estabas: <code>' + esc(desde) + "</code></p>" : "") +
+        '<input type="hidden" name="pagina" value="' + esc(desde) + '">' +
+        '<div class="botones"><button class="boton principal" type="submit">Enviar</button></div><p class="mensaje" role="status"></p></form></section>' +
+        '<section class="tarjeta"><h2>Lo que has enviado</h2>' + (mios.length ? '<ul class="acomp-lista">' + mios.map(function (x) {
+          return '<li class="soporte-item"><div class="soporte-cab"><b>' + esc(TIPOS_SOPORTE[x.tipo] || x.tipo) + '</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
+            '<p class="soporte-texto">' + esc(x.texto) + '</p><span class="acomp-meta">' + esc(fechaLarga(x.creado)) + "</span>" +
+            (x.respuesta ? '<div class="soporte-respuesta"><b>Respuesta' + (x.respondidoPor ? " de " + esc(x.respondidoPor) : "") + ":</b> " + esc(x.respuesta) + "</div>" : "") + "</li>";
+        }).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no has enviado sugerencias.</p>') + "</section>";
+      pintar(html, "Sugerencias");
+      var f = document.getElementById("form-soporte");
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var b = f.querySelector("button"), msj = f.querySelector(".mensaje");
+        var texto = f.texto.value.trim();
+        if (texto.length < 5) { msj.className = "mensaje error"; msj.textContent = "Escribe un poco más de detalle."; return; }
+        b.disabled = true;
+        Nube.enviarSoporte({ tipo: f.tipo.value, texto: texto.slice(0, 2000), pagina: f.pagina.value.slice(0, 300) }).then(function () {
+          location.hash = "#/sugerencias"; vistaSugerencias();
+        }).catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = er.message; });
+      });
+    });
+  }
+
+  function vistaSoporteAdmin() {
+    var cab = migas('<a href="#/gestion">Gestión</a> / Sugerencias') + subnavGestion("sugerencias");
+    pintar(cab + '<p class="cargando">Cargando…</p>', "Gestión");
+    var filtro = almacen.leer("soporte:filtro", "abiertos");
+    return Nube.todosSoportes().then(function (xs) {
+      var F = { abiertos: function (x) { return x.estado === "nuevo" || x.estado === "revision"; }, resueltos: function (x) { return x.estado === "resuelto"; }, descartados: function (x) { return x.estado === "descartado"; }, todos: function () { return true; } };
+      if (!F[filtro]) filtro = "abiertos";
+      var lista = xs.filter(F[filtro]).sort(function (a, b) { return String(b.creado).localeCompare(String(a.creado)); });
+      var html = cab + '<section class="portada"><h1>Sugerencias y problemas</h1><p>Lo que participantes y relatores reportan sobre la plataforma y las formaciones. Responde aquí: cada persona ve tu respuesta en su página de sugerencias.</p></section>' +
+        '<div class="filtros-soporte">' + Object.keys(F).map(function (k) { return '<button class="boton mini' + (k === filtro ? " principal" : "") + '" data-filtro="' + k + '">' + k[0].toUpperCase() + k.slice(1) + " (" + xs.filter(F[k]).length + ")</button>"; }).join("") + "</div>" +
+        (lista.length ? lista.map(function (x) {
+          return '<section class="tarjeta soporte-admin" data-id="' + esc(x.id) + '"><div class="soporte-cab"><b>' + esc(TIPOS_SOPORTE[x.tipo] || x.tipo) + '</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
+            '<p class="acomp-meta">' + esc(x.nombre || "") + " · " + esc(ROLES[x.rol] || x.rol || "") + " · " + esc(x.correo || "") + " · " + esc(fechaLarga(x.creado)) + "</p>" +
+            '<p class="soporte-texto">' + esc(x.texto) + "</p>" + (x.pagina ? '<p class="acomp-meta">Página: <a href="' + esc(x.pagina) + '">' + esc(x.pagina) + "</a></p>" : "") +
+            '<form class="formulario soporte-form"><label>Estado<select name="estado">' + Object.keys(ESTADOS_SOPORTE).map(function (k) { return '<option value="' + k + '"' + (k === x.estado ? " selected" : "") + ">" + ESTADOS_SOPORTE[k] + "</option>"; }).join("") + "</select></label>" +
+            '<label>Respuesta (la verá quien escribió)<textarea name="respuesta" maxlength="2000" rows="3">' + esc(x.respuesta || "") + "</textarea></label>" +
+            '<div class="botones"><button class="boton principal" type="submit">Guardar</button></div><p class="mensaje" role="status"></p></form></section>';
+        }).join("") : '<section class="tarjeta"><p class="seccion-bajada">No hay mensajes en esta lista.</p></section>');
+      pintar(html, "Gestión");
+      app.querySelectorAll("[data-filtro]").forEach(function (b) { b.addEventListener("click", function () { almacen.guardar("soporte:filtro", b.getAttribute("data-filtro")); vistaSoporteAdmin(); }); });
+      app.querySelectorAll(".soporte-admin").forEach(function (sec) {
+        var f = sec.querySelector("form"), id = sec.getAttribute("data-id");
+        var orig = xs.filter(function (x) { return x.id === id; })[0];
+        f.addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          var cambios = { estado: f.estado.value };
+          var resp = f.respuesta.value.trim();
+          if (resp !== (orig.respuesta || "")) cambios.respuesta = resp.slice(0, 2000);
+          f.querySelector("button").disabled = true;
+          Nube.responderSoporte(id, cambios).then(vistaSoporteAdmin).catch(function (er) { var m = f.querySelector(".mensaje"); m.className = "mensaje error"; m.textContent = er.message; f.querySelector("button").disabled = false; });
+        });
+      });
+    }).catch(function (er) { pintar(cab + '<section class="tarjeta"><p class="aviso error">' + esc(er.message) + "</p></section>", "Gestión"); });
   }
 
   function mostrarAvance(caja, u, lista) {
@@ -2155,7 +2383,8 @@
     else if (partes[0] === "clase" && partes[1] && partes[2]) tarea = vistaClase(partes[1], partes[2]);
     else if (partes[0] === "ingresar") tarea = vistaIngresar();
     else if (partes[0] === "perfil") tarea = vistaPerfil();
-    else if (partes[0] === "gestion") tarea = vistaGestion();
+    else if (partes[0] === "gestion") tarea = vistaGestion(partes[1]);
+    else if (partes[0] && partes[0].split("?")[0] === "sugerencias") tarea = vistaSugerencias();
     else if (partes[0] === "mis-constancias") tarea = vistaMisConstancias();
     else if (partes[0] === "constancia" && partes[1]) tarea = vistaConstancia(partes[1]);
     else tarea = vistaInicio();

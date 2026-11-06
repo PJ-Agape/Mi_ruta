@@ -15,6 +15,7 @@ rules_version = '2';
 //   - La agenda de cada formación la ven sus inscritos; la edita el equipo.
 //   - Las cuentas activas ven quiénes participan en cada formación y pueden escribirse mensajes privados.
 //   - El propedéutico «Llamados» está abierto a toda cuenta activa, sin inscripción.
+//   - Cualquier cuenta puede enviar sugerencias o reportar problemas; solo la administración las lee y responde.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -223,6 +224,27 @@ service cloud.firestore {
           && request.resource.data.comentario is string && request.resource.data.comentario.size() <= 1000)
         // El equipo registra la evaluación con la rúbrica.
         || (esEquipo() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['evaluacion']));
+      allow delete: if esAdmin();
+    }
+
+    // ---------- sugerencias y problemas (canal con la administración) ----------
+    // Cualquier persona con cuenta escribe; ve solo lo suyo. La administración lee todo y responde.
+    match /soporte/{id} {
+      allow create: if conSesion() && tengoCuenta()
+        && request.resource.data.keys().hasOnly(['uid', 'nombre', 'correo', 'rol', 'tipo', 'texto', 'pagina', 'estado', 'respuesta', 'creado'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.tipo in ['mejora', 'error', 'contenido', 'otro']
+        && request.resource.data.texto is string && request.resource.data.texto.size() >= 5 && request.resource.data.texto.size() <= 2000
+        && request.resource.data.pagina is string && request.resource.data.pagina.size() <= 300
+        && textoCorto('nombre', 120) && textoCorto('correo', 200) && textoCorto('rol', 20)
+        && request.resource.data.estado == 'nuevo' && request.resource.data.respuesta == ''
+        && request.resource.data.creado == request.time;
+      allow get: if conSesion() && (resource.data.uid == request.auth.uid || esAdmin());
+      allow list: if conSesion() && (resource.data.uid == request.auth.uid || esAdmin());
+      allow update: if esAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['estado', 'respuesta', 'respondido', 'respondidoPor'])
+        && request.resource.data.estado in ['nuevo', 'revision', 'resuelto', 'descartado']
+        && request.resource.data.respuesta is string && request.resource.data.respuesta.size() <= 2000;
       allow delete: if esAdmin();
     }
 

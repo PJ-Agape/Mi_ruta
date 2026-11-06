@@ -421,6 +421,35 @@ async function avanceDe(uid) {
   return s.exists() ? (s.data().datos || {}) : {};
 }
 
+// Avance de todas las cuentas (solo el equipo): última actividad y sesiones hechas.
+async function avances() {
+  const s = await conTiempo(fb.getDocs(fb.collection(db, "avance")), 15000);
+  return s.docs.map((d) => { const x = d.data(); return { uid: d.id, datos: x.datos || {}, actualizado: aFecha(x.actualizado) }; });
+}
+
+/* ---------- sugerencias y problemas (canal con la administración) ---------- */
+async function enviarSoporte(datos) {
+  const ref = fb.doc(fb.collection(db, "soporte"));
+  await conTiempo(fb.setDoc(ref, {
+    uid: usuario.uid, nombre: (cuenta && cuenta.nombre) || "", correo: (usuario && usuario.email) || "", rol: (cuenta && cuenta.rol) || "participante",
+    tipo: datos.tipo, texto: datos.texto, pagina: datos.pagina || "", estado: "nuevo", respuesta: "", creado: fb.serverTimestamp(),
+  }));
+  return ref.id;
+}
+const filaSoporte = (d) => { const x = d.data(); return { id: d.id, ...x, creado: aFecha(x.creado), respondido: aFecha(x.respondido) }; };
+async function misSoportes() {
+  const s = await conTiempo(fb.getDocs(fb.query(fb.collection(db, "soporte"), fb.where("uid", "==", usuario.uid))));
+  return s.docs.map(filaSoporte);
+}
+async function todosSoportes() {
+  const s = await conTiempo(fb.getDocs(fb.collection(db, "soporte")));
+  return s.docs.map(filaSoporte);
+}
+async function responderSoporte(id, cambios) {
+  const extra = cambios.respuesta !== undefined ? { respondido: fb.serverTimestamp(), respondidoPor: (cuenta && cuenta.nombre) || "" } : {};
+  await conTiempo(fb.updateDoc(fb.doc(db, "soporte", id), { ...cambios, ...extra }));
+}
+
 function nuevoFolio() {
   const letras = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
   let r = "";
@@ -494,4 +523,9 @@ window.Nube = {
   leerConstancia,
   constanciasDe,
   todasLasConstancias,
+  avances,
+  enviarSoporte,
+  misSoportes,
+  todosSoportes,
+  responderSoporte,
 };
