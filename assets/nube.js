@@ -180,7 +180,7 @@ async function actualizarPerfil({ nombre, comunidad }) {
 async function solicitarCurso(cursoId) {
   const ref = fb.doc(db, "usuarios", usuario.uid);
   try {
-    await conTiempo(fb.updateDoc(ref, { solicitudes: fb.arrayUnion(cursoId) }));
+    await conTiempo(fb.updateDoc(ref, { solicitudes: fb.arrayUnion(cursoId), ["compromisos." + cursoId]: new Date().toISOString() }));
   } catch (e) {
     throw new Error("No se pudo enviar la solicitud (" + traducir(e) + "). Avísale a tu relator.");
   }

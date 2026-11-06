@@ -746,3 +746,13 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .confirmar-baja { text-align: left; border: 1px solid var(--linea); background: var(--acento-claro); border-radius: var(--radio); padding: 1rem; }
 .confirmar-baja p { margin: 0 0 .75rem; }
 .ficha-nota.alerta { color: #8a4b00; background: #fff4e0; border-radius: 8px; padding: .4rem .6rem; }
+
+/* Acuerdo antes de inscribirse */
+.compromiso { text-align: left; background: var(--papel); border: 1px solid var(--linea); border-left: 4px solid var(--dorado); border-radius: var(--radio); padding: 1rem 1.1rem; margin: 1rem 0; }
+.compromiso h3 { margin: 0 0 .5rem; font-family: var(--serif); font-size: 1.1rem; color: var(--tinta); }
+.compromiso p { margin: .4rem 0; }
+.compromiso ul { margin: .5rem 0; padding-left: 1.1rem; }
+.compromiso li { margin: .45rem 0; line-height: 1.45; }
+.compromiso-acepto { display: flex; gap: .6rem; align-items: flex-start; margin-top: .8rem; padding: .7rem .8rem; background: var(--primario-claro); border-radius: var(--radio); font-weight: 600; cursor: pointer; }
+.compromiso-acepto input { width: 1.15rem; height: 1.15rem; margin-top: .1rem; flex: none; }
+.acceso .botones .boton[disabled] { opacity: .45; cursor: not-allowed; }

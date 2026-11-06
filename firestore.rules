@@ -87,9 +87,11 @@ service cloud.firestore {
         );
 
       allow update: if
-        // La persona edita su nombre, comunidad y solicitudes de inscripción.
+        // La persona edita su nombre, comunidad y solicitudes de inscripción
+        // (con la fecha en que aceptó los compromisos de cada formación).
         (conSesion() && request.auth.uid == uid
-          && soloCambia(['nombre', 'comunidad', 'solicitudes', 'ultimoIngreso'])
+          && soloCambia(['nombre', 'comunidad', 'solicitudes', 'ultimoIngreso', 'compromisos'])
+          && request.resource.data.get('compromisos', {}) is map
           && textoCorto('nombre', 120) && textoCorto('comunidad', 160)
           && request.resource.data.solicitudes is list && request.resource.data.solicitudes.size() <= 30)
         // La persona deja formaciones (vencidas, anuladas o por baja voluntaria): solo puede quitar cursos y fechas,

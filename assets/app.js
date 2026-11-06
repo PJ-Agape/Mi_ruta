@@ -89,9 +89,9 @@
   function bloqueAcceso(curso, tipo) {
     var m = {
       ingresar: ["Ingresa para comenzar", "Crea tu cuenta o ingresa para inscribirte y guardar tu avance en todos tus dispositivos.", '<a class="boton principal" href="#/ingresar">Ingresar o crear cuenta</a>'],
-      pendiente: ["Tu cuenta está en revisión", "Un relator o administrador debe aprobar tu cuenta. Mientras tanto, puedes solicitar la inscripción en este curso.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
+      pendiente: ["Tu cuenta está en revisión", "Un relator o administrador debe aprobar tu cuenta. Mientras tanto, ya puedes pedir tu inscripción en esta formación.", compromiso(curso) + '<button class="boton principal" data-solicitar="' + esc(curso.id) + '"' + (esPropedeutico(curso) ? "" : " disabled") + '>Solicitar inscripción</button>'],
       pausado: ["Tu cuenta está en pausa", "Conversa con tu relator o con la coordinación de Mi Ruta.", ""],
-      solicitar: ["Inscríbete en este curso", "Al solicitar la inscripción, un relator la revisará y te habilitará el curso. Desde que te habiliten tendrás 1 semana para empezar y 2 meses para completar" + (curso.modulos && curso.modulos.length > 1 ? " cada módulo (contados desde que lo empiezas)" : " la formación") + "; si no, la inscripción se anula y se pierde el avance. Puedes llevar hasta 2 formaciones a la vez; si ves que no podrás partir, date de baja (no cuenta como anulación).", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
+      solicitar: ["Inscríbete en esta formación", "Cuando envíes tu solicitud, alguien del equipo la revisará y te habilitará la formación.", compromiso(curso) + '<button class="boton principal" data-solicitar="' + esc(curso.id) + '"' + (esPropedeutico(curso) ? "" : " disabled") + '>Solicitar inscripción</button>'],
       solicitado: ["Inscripción solicitada", "Tu solicitud está en revisión. Te habilitaremos el curso apenas sea aprobada.", ""],
       error: ["No pudimos verificar tu cuenta", "Revisa tu conexión y vuelve a intentar.", '<a class="boton" href="#/perfil">Ver mi cuenta</a>'],
     }[tipo];
@@ -101,7 +101,28 @@
     return '<div class="acceso"><h2>' + m[0] + "</h2><p>" + m[1] + "</p>" + (m[2] ? '<div class="botones">' + m[2] + "</div>" : "") + "</div>";
   }
 
+  // Lo que la persona acepta antes de pedir una formación, dicho como un acuerdo entre personas.
+  function compromiso(curso) {
+    if (esPropedeutico(curso)) return "";
+    var varios = curso.modulos && curso.modulos.length > 1;
+    return '<div class="compromiso"><h3>Antes de inscribirte, un acuerdo entre nosotros</h3>' +
+      "<p>Queremos que esta formación sea un camino que de verdad recorras. Para eso te pedimos algunas cosas:</p><ul>" +
+      "<li><b>Parte pronto.</b> Desde que te habilitemos, tienes una semana para hacer tu primera sesión. Si no alcanzas, liberamos tu cupo para que otra persona pueda tomarlo.</li>" +
+      "<li><b>Date el tiempo de terminar.</b> Cuentas con dos meses" + (varios ? " para cada módulo, desde que lo empiezas" : "") + ". Si el plazo se cumple sin terminar, la formación se cierra y el avance se pierde, así que vale la pena ir a buen ritmo.</li>" +
+      "<li><b>No te sobrecargues.</b> Puedes llevar hasta dos formaciones a la vez.</li>" +
+      "<li><b>Si la vida se complica, date de baja.</b> No pasa nada y no cuenta en tu contra; podrás volver cuando sea tu momento.</li>" +
+      "<li><b>Si se te anulan tres inscripciones seguidas</b>, antes de la siguiente conversaremos contigo, para ver juntos cómo acompañarte mejor.</li></ul>" +
+      "<p>Te lo pedimos por respeto al tiempo de quienes te acompañan, y porque lo que se aprende con constancia es lo que de verdad queda.</p>" +
+      '<label class="compromiso-acepto"><input type="checkbox" data-acepto="' + esc(curso.id) + '"> Me comprometo a recorrer esta formación así</label></div>';
+  }
+
   function activarSolicitudes() {
+    app.querySelectorAll("[data-acepto]").forEach(function (c) {
+      c.addEventListener("change", function () {
+        var b = app.querySelector('[data-solicitar="' + c.getAttribute("data-acepto") + '"]');
+        if (b) b.disabled = !c.checked;
+      });
+    });
     app.querySelectorAll("[data-solicitar]").forEach(function (b) {
       b.addEventListener("click", function () {
         b.disabled = true;
@@ -2104,7 +2125,7 @@
         var marcar = sol.length ? sol : [];
         return '<li class="ficha" data-uid="' + esc(u.uid) + '"><div class="ficha-cabeza"><b>' + esc(u.nombre) + '</b><span>' + esc(u.correo) + (u.comunidad ? " · " + esc(u.comunidad) : "") + "</span></div>" +
           (u.estado === "pendiente" ? '<p class="ficha-nota">Cuenta nueva, en revisión.</p>' : notaCupo(u)) +
-          (sol.length ? '<p class="ficha-nota"><b>Solicita:</b> ' + sol.map(function (id) { return esc(nombreCurso(id)); }).join(", ") + "</p>"
+          (sol.length ? '<p class="ficha-nota"><b>Solicita:</b> ' + sol.map(function (id) { return esc(nombreCurso(id)) + ((u.compromisos || {})[id] ? " (aceptó el acuerdo el " + esc(fechaLarga(u.compromisos[id])) + ")" : ""); }).join(", ") + "</p>"
             : '<p class="ficha-nota">No ha solicitado ninguna formación. Elige abajo cuáles habilitar.</p>') +
           '<details class="ficha-elegir"' + (sol.length ? "" : " open") + '><summary>Formaciones que se habilitarán (' + marcar.length + ')</summary>' +
           '<fieldset class="ficha-cursos">' + lista.map(function (c) {
