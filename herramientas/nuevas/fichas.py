@@ -130,6 +130,10 @@ FICHAS = {
         "ejes": ["El juego en la pastoral", "Diseño de dinámicas", "Banco de dinámicas", "Grandes juegos y seguridad"],
         "competencias": ["Diseñar y conducir una dinámica con objetivo claro.", "Animar una jornada completa.", "Adaptar juegos para que sean seguros e inclusivos."],
     },
+    "gestion-del-tiempo": {
+        "ejes": ["El tiempo como don", "Prioridades personales", "Encuentros y reuniones a la hora", "Mensajes que cuidan el tiempo", "Plazos y procesos"],
+        "competencias": ["Llegar, empezar y terminar a la hora como forma de acogida.", "Ordenar el propio tiempo con prioridades claras.", "Coordinar reuniones, mensajes y plazos que respeten el tiempo de los demás."],
+    },
     "logistica": {
         "ejes": ["Planificación logística", "Grilla de comidas y alimentación", "Materiales e inventario", "Lugares y traslados", "Presupuesto y rendición"],
         "competencias": ["Planificar la logística de jornadas, retiros y campamentos.", "Armar la grilla de comidas que ordena el programa, y calcular menús, cantidades e insumos.", "Gestionar presupuesto, compras y rendición de cuentas."],
@@ -176,6 +180,7 @@ ENLACES = {
     "ecologia-integral": ["capilla", "salmos"],
     "dinamicas-y-juegos": ["dinamicas", "juegos"],
     "comunicacion-y-redes": ["difusion"],
+    "gestion-del-tiempo": ["capilla"],
     "logistica": ["credenciales"],
 }
 

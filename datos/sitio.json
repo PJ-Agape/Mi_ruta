@@ -28,7 +28,8 @@
     "primeros-auxilios-psicologicos",
     "comunicacion-y-redes",
     "dinamicas-y-juegos",
-    "logistica"
+    "logistica",
+    "gestion-del-tiempo"
   ],
   "areas": [
     {
@@ -62,7 +63,8 @@
         "primeros-auxilios-psicologicos",
         "comunicacion-y-redes",
         "dinamicas-y-juegos",
-        "logistica"
+        "logistica",
+        "gestion-del-tiempo"
       ]
     }
   ],

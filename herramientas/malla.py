@@ -169,7 +169,7 @@ HERRAMIENTAS = ["hd-1", "hd-2", "hd-3"]
 COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-liturgica", "conocer-la-biblia", "llamados-en-la-biblia", "santos-jovenes",
                    "el-credo", "sacramentos", "misiones-juveniles", "ayudante-de-catequesis", "voluntariado-y-doctrina-social",
                    "ecologia-integral", "buen-trato-y-prevencion", "primeros-auxilios", "primeros-auxilios-psicologicos",
-                   "comunicacion-y-redes", "dinamicas-y-juegos", "logistica"]
+                   "comunicacion-y-redes", "dinamicas-y-juegos", "logistica", "gestion-del-tiempo"]
 
 
 ESCRITURA = [f"se-{i}" for i in range(1, 10)]

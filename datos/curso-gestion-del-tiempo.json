@@ -1,0 +1,59 @@
+{
+  "id": "gestion-del-tiempo",
+  "titulo": "El tiempo del otro: gestión del tiempo en la pastoral",
+  "subtitulo": "Puntualidad, prioridades, reuniones, mensajes y plazos que respetan a los demás",
+  "descripcion": "Una formación para aprender a gestionar el tiempo desde el respeto por el tiempo de los demás: la puntualidad como acogida, las prioridades personales, encuentros y reuniones que empiezan y terminan a la hora, mensajes que cuidan el tiempo y el descanso del otro, y compromisos cumplidos a tiempo sin apurar los procesos de las personas. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
+  "publico": "Desde 14 años",
+  "categoria": "Misión y servicio",
+  "nuevo": false,
+  "duracion": "6 sesiones · 9 horas",
+  "modalidad": "En línea, a tu ritmo",
+  "tipo": "complementaria",
+  "horas": 9,
+  "recursos": {},
+  "ejes": [
+    "El tiempo como don",
+    "Prioridades personales",
+    "Encuentros y reuniones a la hora",
+    "Mensajes que cuidan el tiempo",
+    "Plazos y procesos"
+  ],
+  "competencias": [
+    "Llegar, empezar y terminar a la hora como forma de acogida.",
+    "Ordenar el propio tiempo con prioridades claras.",
+    "Coordinar reuniones, mensajes y plazos que respeten el tiempo de los demás."
+  ],
+  "agappe": [
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    }
+  ],
+  "contenidos": [
+    {
+      "titulo": "El tiempo del otro es un don",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Ordenar mi tiempo para servir mejor",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Encuentros y reuniones que respetan el tiempo",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Mensajes que cuidan el tiempo del otro",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Compromisos, plazos y el tiempo de Dios",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
+}
