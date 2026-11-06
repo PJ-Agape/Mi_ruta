@@ -29,6 +29,7 @@ from referencias import REFS  # noqa: E402
 import escritura_programa as EP  # noqa: E402
 from fichas import FICHAS, enlaces_agappe  # noqa: E402
 from debates import debate_md  # noqa: E402
+import hd_taller as HDT  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -137,6 +138,10 @@ def complementaria(cid):
     preguntas = [{"pregunta": md(q["q"]), "opciones": [md(o) for o in q["options"]], "correcta": q["correct"],
                   "explicacion": md(q.get("feedback", ""))} for q in f["evaluacion"]]
     intro, taller, horas = f.get("intro", ""), f.get("taller") or TALLERES[cid], 9
+    if cid in HERRAMIENTAS:
+        for n, s in enumerate(ses, 1):
+            s["texto"] = s["texto"].rstrip() + "\n\n" + HDT.taller_md(cid, n) + "\n"
+            s["tiempo"] = "90 min + taller guiado"
     if cid in EP.PROGRAMA:
         for n, s in enumerate(ses, 1):
             s["texto"] = s["texto"].rstrip() + "\n\n" + EP.estudio_md(cid, n) + "\n"

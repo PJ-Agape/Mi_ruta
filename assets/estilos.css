@@ -653,3 +653,7 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .logo-agappe .ag-app, .portada .logo-agappe .ag-app { color: #0b2566; font-size: 1.32rem; }
 .portada .logo-agappe .ag-app b { background: #0b2566; box-shadow: 0 2px 3px -1px rgba(59, 42, 26, .3), 0 1px 1px rgba(59, 42, 26, .16); }
 .logo-agappe small { display: block; font-family: "Bricolage", system-ui, sans-serif; font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; color: #6b7da3; margin-top: 3px; }
+
+/* Bloques de código y estructuras de carpetas (talleres guiados) */
+.contenido pre, .tarjeta pre, [role=tabpanel] pre { background: #0b2566; color: #fff6e5; border-radius: 10px; padding: .8rem 1rem; overflow-x: auto; font-size: .82rem; line-height: 1.5; }
+.contenido pre code, .tarjeta pre code, [role=tabpanel] pre code { background: none; color: inherit; padding: 0; }
