@@ -92,9 +92,12 @@ service cloud.firestore {
           && soloCambia(['nombre', 'comunidad', 'solicitudes', 'ultimoIngreso'])
           && textoCorto('nombre', 120) && textoCorto('comunidad', 160)
           && request.resource.data.solicitudes is list && request.resource.data.solicitudes.size() <= 30)
-        // La persona deja formaciones vencidas: solo puede quitar cursos y fechas, nunca agregarlos ni cambiarlos.
+        // La persona deja formaciones (vencidas, anuladas o por baja voluntaria): solo puede quitar cursos y fechas,
+        // nunca agregarlos ni cambiarlos. El contador de anulaciones seguidas solo sube, o vuelve a 0 al empezar una formación.
         || (conSesion() && request.auth.uid == uid
-          && soloCambia(['cursos', 'inscripciones', 'vencidos'])
+          && soloCambia(['cursos', 'inscripciones', 'vencidos', 'anulaciones'])
+          && request.resource.data.get('anulaciones', 0) is int
+          && (request.resource.data.get('anulaciones', 0) == 0 || request.resource.data.get('anulaciones', 0) >= resource.data.get('anulaciones', 0))
           && request.resource.data.cursos is list && request.resource.data.cursos.hasOnly(resource.data.cursos)
           && request.resource.data.get('inscripciones', {}).diff(resource.data.get('inscripciones', {})).addedKeys().size() == 0
           && request.resource.data.get('inscripciones', {}).diff(resource.data.get('inscripciones', {})).changedKeys().size() == 0
@@ -102,7 +105,7 @@ service cloud.firestore {
           && request.resource.data.get('vencidos', {}).diff(resource.data.get('vencidos', {})).changedKeys().size() == 0)
         // Un relator aprueba, pausa e inscribe a participantes (no cambia roles ni toca a otros relatores).
         || (esEquipo() && !esAdmin() && resource.data.rol == 'participante'
-          && soloCambia(['estado', 'cursos', 'solicitudes', 'inscripciones', 'vencidos'])
+          && soloCambia(['estado', 'cursos', 'solicitudes', 'inscripciones', 'vencidos', 'anulaciones'])
           && request.resource.data.estado in ['pendiente', 'activo', 'pausado'])
         // Un administrador puede todo, salvo dejar un rol o estado inválido.
         || (esAdmin()

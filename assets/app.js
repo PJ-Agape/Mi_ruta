@@ -91,7 +91,7 @@
       ingresar: ["Ingresa para comenzar", "Crea tu cuenta o ingresa para inscribirte y guardar tu avance en todos tus dispositivos.", '<a class="boton principal" href="#/ingresar">Ingresar o crear cuenta</a>'],
       pendiente: ["Tu cuenta está en revisión", "Un relator o administrador debe aprobar tu cuenta. Mientras tanto, puedes solicitar la inscripción en este curso.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
       pausado: ["Tu cuenta está en pausa", "Conversa con tu relator o con la coordinación de Mi Ruta.", ""],
-      solicitar: ["Inscríbete en este curso", "Al solicitar la inscripción, un relator la revisará y te habilitará el curso. Desde que te habiliten tendrás 1 semana para empezar y 2 meses para completar" + (curso.modulos && curso.modulos.length > 1 ? " cada módulo (contados desde que lo empiezas)" : " la formación") + "; si no, la inscripción se anula y se pierde el avance.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
+      solicitar: ["Inscríbete en este curso", "Al solicitar la inscripción, un relator la revisará y te habilitará el curso. Desde que te habiliten tendrás 1 semana para empezar y 2 meses para completar" + (curso.modulos && curso.modulos.length > 1 ? " cada módulo (contados desde que lo empiezas)" : " la formación") + "; si no, la inscripción se anula y se pierde el avance. Puedes llevar hasta 2 formaciones a la vez; si ves que no podrás partir, date de baja (no cuenta como anulación).", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
       solicitado: ["Inscripción solicitada", "Tu solicitud está en revisión. Te habilitaremos el curso apenas sea aprobada.", ""],
       error: ["No pudimos verificar tu cuenta", "Revisa tu conexión y vuelve a intentar.", '<a class="boton" href="#/perfil">Ver mi cuenta</a>'],
     }[tipo];
@@ -171,6 +171,7 @@
     var lista = almacen.leer("hechas:todo", []).filter(function (x) { return x !== claseId; });
     if (valor) lista.push(claseId);
     almacen.guardar("hechas:todo", lista);
+    if (valor && (cuentaActual().cuenta || {}).anulaciones > 0 && Nube.reiniciarAnulaciones) Nube.reiniciarAnulaciones().catch(function () { /* se reintenta en la próxima sesión */ });
     // En cursos de varios módulos, el plazo de 2 meses de cada módulo corre desde su primera sesión.
     var c = cursos[cursoId];
     if (valor && c && c.modulos.length > 1) {
@@ -233,6 +234,24 @@
     });
     return { estado: "curso", modulos: mods };
   }
+  // Cupo de formaciones a la vez: 2; con 3 anulaciones seguidas por no empezar, 1 (hasta que empiece una).
+  var ANULACIONES_LIMITE = 3;
+  function cupoDe(u) { return (u && u.anulaciones || 0) >= ANULACIONES_LIMITE ? 1 : 2; }
+  // Formaciones que ocupan cupo: ni el propedéutico, ni las completas, ni las que ya son parte de otra en la lista
+  // (por ejemplo, Logística dentro del diplomado).
+  function activasDe(ids, porId, h) {
+    var cs = ids.map(function (id) { return porId[id]; }).filter(function (c) { return c && !esPropedeutico(c); });
+    return cs.filter(function (c) {
+      var p = progresoCon(c, h || []);
+      if (p.total && p.hechas >= p.total) return false;
+      var mias = c.clases.map(function (cl) { return cl.id; });
+      return !cs.some(function (o) {
+        if (o === c || o.clases.length <= c.clases.length) return false;
+        var suyas = o.clases.map(function (cl) { return cl.id; });
+        return mias.every(function (x) { return suyas.indexOf(x) >= 0; });
+      });
+    }).map(function (c) { return c.id; });
+  }
   function cuentaRegresiva(iso) {
     var ms = new Date(iso).getTime() - Date.now();
     if (ms <= 0) return "unos instantes";
@@ -283,7 +302,7 @@
     var vencidos = Object.keys(e.cuenta.vencidos || {});
     return Promise.all(mis.concat(vencidos).filter(function (id, i, a) { return a.indexOf(id) === i && sitio.cursos.indexOf(id) >= 0; }).map(function (id) { return cargarCurso(id).catch(function () { return null; }); }))
       .then(function (cs) {
-        var quitar = [], limpiar = [], avisos = [];
+        var quitar = [], limpiar = [], avisos = [], anuladas = 0;
         cs.filter(Boolean).forEach(function (c) {
           if (vencidos.indexOf(c.id) >= 0) { // el equipo la desactivó por vencimiento: se borra el avance
             borrarAvance(c.id, c.clases); limpiar.push(c.id);
@@ -294,7 +313,7 @@
           if (!pl || pl.estado === "completo") return;
           var ahora = Date.now();
           if (pl.estado === "empezar" && new Date(pl.limite).getTime() < ahora) {
-            quitar.push(c.id);
+            quitar.push(c.id); anuladas++;
             avisos.push("Se anuló tu inscripción en «" + c.titulo + "» porque no comenzaste dentro de la primera semana. Puedes volver a solicitarla cuando quieras.");
             return;
           }
@@ -311,10 +330,17 @@
             }
           });
         });
+        var extra = null;
+        if (anuladas) {
+          var total = (e.cuenta.anulaciones || 0) + anuladas;
+          extra = { anulaciones: total };
+          if (total >= ANULACIONES_LIMITE) avisos.push("Llevas " + total + " anulaciones seguidas por no empezar. Antes de tu próxima inscripción, el equipo conversará contigo, y podrás llevar una formación a la vez hasta que la empieces. Si no puedes partir, es mejor darse de baja: eso no cuenta como anulación.");
+          else if (total === ANULACIONES_LIMITE - 1) avisos.push("Es tu segunda anulación seguida. Antes de volver a inscribirte, piensa si este es tu momento. Si te inscribes y luego no puedes partir, usa «Darme de baja»: no cuenta como anulación.");
+        }
         if (avisos.length) {
           try { sessionStorage.setItem("miruta:avisos-plazo", JSON.stringify(avisos)); } catch (er) { /* sin almacenamiento */ }
         }
-        if (quitar.length || limpiar.length) return Nube.ajustarMisCursos(quitar, limpiar).catch(function (er) { console.warn("Plazos:", er); });
+        if (quitar.length || limpiar.length) return Nube.ajustarMisCursos(quitar, limpiar, extra).catch(function (er) { console.warn("Plazos:", er); });
       });
   }
   // Línea informativa en la página de la formación: hasta cuándo hay plazo.
@@ -866,6 +892,7 @@
             '<span class="semana">' + esc(duracionClase(cl)) + "</span></a></li>";
         }).join("") + "</ol>" + (plegable ? "</div></details>" : "</section>");
       });
+      if (aplicaPlazos(c)) html += '<section class="baja-curso"><button class="boton mini" type="button" data-baja="' + esc(c.id) + '">Darme de baja de esta formación</button></section>';
       if (c.credito) html += '<p class="credito">' + esc(c.credito) + "</p>";
       pintar(html, c.titulo);
       activarSolicitudes();
@@ -2041,9 +2068,32 @@
   function vistaCuentas() {
     var e = cuentaActual();
     pintar(migas("Gestión") + subnavGestion("cuentas") + '<p class="cargando">Cargando participantes…</p>', "Gestión");
-    return Promise.all([Nube.listarUsuarios(), Promise.all(sitio.cursos.map(cargarCurso))]).then(function (r) {
+    return Promise.all([Nube.listarUsuarios(), Promise.all(sitio.cursos.map(cargarCurso)), Nube.avances ? Nube.avances().catch(function () { return []; }) : []]).then(function (r) {
       var usuarios = r[0], lista = r[1];
       var porId = {}; lista.forEach(function (c) { porId[c.id] = c; });
+      var hechasPor = {};
+      (r[2] || []).forEach(function (a) {
+        var h = [];
+        Object.keys(a.datos || {}).forEach(function (k) { if (/^hechas:/.test(k) && Array.isArray(a.datos[k])) h = h.concat(a.datos[k]); });
+        hechasPor[a.uid] = h;
+      });
+      // Revisa el cupo de formaciones a la vez antes de inscribir (solo participantes; solo si se agregan formaciones).
+      function revisarCupo(u, nuevos) {
+        if (u.rol !== "participante") return "";
+        var h = hechasPor[u.uid] || [];
+        var antes = activasDe(u.cursos || [], porId, h), despues = activasDe(nuevos, porId, h);
+        var cupo = cupoDe(u);
+        if (despues.length <= cupo || despues.length <= antes.length) return "";
+        return u.nombre + " quedaría con " + despues.length + " formaciones activas y su cupo es de " + cupo + " a la vez" +
+          (cupo === 1 ? " (tiene " + u.anulaciones + " anulaciones seguidas por no empezar; conversa con la persona y habilita una sola)" : "") +
+          ". Activas ahora: " + (antes.length ? antes.map(nombreCurso).join(", ") : "ninguna") + ".";
+      }
+      function notaCupo(u) {
+        if (u.rol !== "participante") return "";
+        var act = activasDe(u.cursos || [], porId, hechasPor[u.uid] || []), cupo = cupoDe(u);
+        return ((u.anulaciones || 0) >= ANULACIONES_LIMITE ? '<p class="ficha-nota alerta"><b>Requiere conversación:</b> lleva ' + u.anulaciones + " anulaciones seguidas por no empezar. Conversa con la persona antes de inscribirla; mientras no empiece, puede llevar 1 formación a la vez.</p>" : "") +
+          '<p class="ficha-nota">Formaciones activas: ' + act.length + " de " + cupo + (act.length ? " (" + act.map(function (id) { return esc(nombreCurso(id)); }).join(", ") + ")" : "") + "</p>";
+      }
       var pendientes = usuarios.filter(function (u) { return u.estado === "pendiente" || (u.estado === "activo" && (u.solicitudes || []).length); });
       var filtro = almacen.leer("gestion:filtro", "");
 
@@ -2053,7 +2103,7 @@
         var sol = (u.solicitudes || []).filter(function (id) { return porId[id]; });
         var marcar = sol.length ? sol : [];
         return '<li class="ficha" data-uid="' + esc(u.uid) + '"><div class="ficha-cabeza"><b>' + esc(u.nombre) + '</b><span>' + esc(u.correo) + (u.comunidad ? " · " + esc(u.comunidad) : "") + "</span></div>" +
-          (u.estado === "pendiente" ? '<p class="ficha-nota">Cuenta nueva, en revisión.</p>' : "") +
+          (u.estado === "pendiente" ? '<p class="ficha-nota">Cuenta nueva, en revisión.</p>' : notaCupo(u)) +
           (sol.length ? '<p class="ficha-nota"><b>Solicita:</b> ' + sol.map(function (id) { return esc(nombreCurso(id)); }).join(", ") + "</p>"
             : '<p class="ficha-nota">No ha solicitado ninguna formación. Elige abajo cuáles habilitar.</p>') +
           '<details class="ficha-elegir"' + (sol.length ? "" : " open") + '><summary>Formaciones que se habilitarán (' + marcar.length + ')</summary>' +
@@ -2068,7 +2118,7 @@
         var cursosU = u.cursos || [];
         return '<li class="ficha" data-uid="' + esc(u.uid) + '"><details><summary><div class="ficha-cabeza"><b>' + esc(u.nombre) + '</b><span>' + esc(ROLES[u.rol] || u.rol) + " · " + esc(ESTADOS[u.estado] || u.estado) +
           (u.comunidad ? " · " + esc(u.comunidad) : "") + " · " + cursosU.length + (cursosU.length === 1 ? " curso" : " cursos") + "</span></div></summary>" +
-          '<div class="ficha-cuerpo"><p class="ficha-nota">' + esc(u.correo) + "</p>" +
+          '<div class="ficha-cuerpo"><p class="ficha-nota">' + esc(u.correo) + "</p>" + notaCupo(u) +
           '<fieldset class="ficha-cursos"><legend>Cursos habilitados</legend>' + lista.map(function (c) {
             return '<label><input type="checkbox" value="' + esc(c.id) + '"' + (cursosU.indexOf(c.id) >= 0 ? " checked" : "") + "> " + esc(c.titulo) + "</label>";
           }).join("") + "</fieldset>" +
@@ -2128,6 +2178,8 @@
                 ? Array.from(li.querySelectorAll(".ficha-elegir input:checked")).map(function (x) { return x.value; })
                 : (u.solicitudes || []);
               var cursosNuevos = Array.from(new Set((u.cursos || []).concat(elegidos)));
+              var excede = revisarCupo(u, cursosNuevos);
+              if (excede) { alertaEn(msj, excede); return; }
               hecho(Nube.actualizarUsuario(uid, Object.assign({ estado: "activo", cursos: cursosNuevos, solicitudes: [] }, fechasInscripcion(u, cursosNuevos))));
             } else if (accion === "descartar") {
               hecho(Nube.actualizarUsuario(uid, { solicitudes: [] }));
@@ -2137,6 +2189,8 @@
               hecho(Nube.actualizarUsuario(uid, { estado: "activo" }));
             } else if (accion === "guardar-cursos") {
               var marcados = Array.from(li.querySelectorAll(".ficha-cursos input:checked")).map(function (x) { return x.value; });
+              var excede2 = revisarCupo(u, marcados);
+              if (excede2) { alertaEn(msj, excede2); return; }
               hecho(Nube.actualizarUsuario(uid, Object.assign({ cursos: marcados, solicitudes: (u.solicitudes || []).filter(function (s) { return marcados.indexOf(s) < 0; }) }, fechasInscripcion(u, marcados))));
             } else if (accion === "rol") {
               hecho(Nube.actualizarUsuario(uid, { rol: b.value }));
@@ -2252,7 +2306,8 @@
           var x = ajustes[uid], quitar = x.quitar.concat(x.vencer);
           var ins = Object.assign({}, x.u.inscripciones || {}); quitar.forEach(function (c) { delete ins[c]; });
           var ven = Object.assign({}, x.u.vencidos || {}); x.vencer.forEach(function (c) { ven[c] = new Date().toISOString(); });
-          Nube.actualizarUsuario(uid, { cursos: (x.u.cursos || []).filter(function (c) { return quitar.indexOf(c) < 0; }), inscripciones: ins, vencidos: ven })
+          Nube.actualizarUsuario(uid, Object.assign({ cursos: (x.u.cursos || []).filter(function (c) { return quitar.indexOf(c) < 0; }), inscripciones: ins, vencidos: ven },
+            x.quitar.length ? { anulaciones: (x.u.anulaciones || 0) + x.quitar.length } : {}))
             .catch(function (er) { console.warn("Plazos de " + uid + ":", er); });
         });
         porVencer.sort(function (x, y) { return String(x.vence).localeCompare(String(y.vence)); });
@@ -2264,7 +2319,12 @@
         function escribir(u) {
           return '<a class="boton mini" href="#/mensajes/' + encodeURIComponent(u.uid) + "?n=" + encodeURIComponent(u.nombre || "") + '">Escribir</a>';
         }
-        function filaPersona(x, extra) {
+        var conversar = usuarios.filter(function (u) {
+          var x = ajustes[u.uid], n = (u.anulaciones || 0) + (x ? x.quitar.length : 0);
+          if (n >= ANULACIONES_LIMITE) { u.anulaciones = n; return u.estado === "activo" && u.rol === "participante"; }
+          return false;
+        });
+                function filaPersona(x, extra) {
           return '<li class="acomp-fila"><div><b>' + esc(x.u.nombre || x.u.correo) + '</b><span class="acomp-meta">' + esc(x.c.titulo) + (extra ? " · " + extra : "") + "</span></div>" + escribir(x.u) + "</li>";
         }
         function bloque(id, titulo, n, cuerpo, vacio) {
@@ -2310,7 +2370,10 @@
           bloque("acomp-sin", "Inscritos que aún no empiezan", sinEmpezar.length,
             '<ul class="acomp-lista">' + sinEmpezar.slice(0, 40).map(function (x) { return filaPersona(x, "sin sesiones completadas · se anula el " + esc(fechaLarga(x.limite))); }).join("") + "</ul>" +
             (sinEmpezar.length > 40 ? '<p class="seccion-bajada">Y ' + (sinEmpezar.length - 40) + " más.</p>" : ""),
-            "Todos los inscritos ya empezaron.");
+            "Todos los inscritos ya empezaron.") +
+          (conversar.length ? bloque("acomp-conversar", "Requieren conversación", conversar.length,
+            '<p class="seccion-bajada">Llevan ' + ANULACIONES_LIMITE + " o más anulaciones seguidas por no empezar. Conversa con cada uno antes de su próxima inscripción: mientras no empiece, puede llevar una formación a la vez.</p>" +
+            '<ul class="acomp-lista">' + conversar.map(function (u) { return '<li class="acomp-fila"><div><b>' + esc(u.nombre || u.correo) + '</b><span class="acomp-meta">' + u.anulaciones + " anulaciones seguidas</span></div>" + escribir(u) + "</li>"; }).join("") + "</ul>", "") : "");
         pintar(html, "Gestión");
         app.querySelectorAll("[data-ir]").forEach(function (x) {
           x.addEventListener("click", function (ev) {
@@ -2603,6 +2666,33 @@
 
   window.addEventListener("hashchange", ruta);
   document.addEventListener("click", function (ev) {
+    var t = ev.target;
+    if (t && t.getAttribute && t.getAttribute("data-baja")) {
+      var caja = t.closest(".baja-curso");
+      caja.innerHTML = '<div class="confirmar-baja"><p><b>¿Darte de baja de esta formación?</b> Se borrará tu avance en ella. Darse de baja no cuenta como anulación, y puedes volver a solicitarla cuando sea tu momento.</p>' +
+        '<div class="botones"><button class="boton principal" type="button" data-baja-ok="' + esc(t.getAttribute("data-baja")) + '">Sí, darme de baja</button><button class="boton" type="button" data-baja-no="1">Cancelar</button></div><div class="mensaje" aria-live="polite"></div></div>';
+      return;
+    }
+    if (t && t.getAttribute && t.getAttribute("data-baja-no")) { ruta(); return; }
+    if (t && t.getAttribute && t.getAttribute("data-baja-ok")) {
+      var id = t.getAttribute("data-baja-ok"), e = cuentaActual();
+      t.disabled = true;
+      var otros = (e.cuenta.cursos || []).filter(function (x) { return x !== id; });
+      Promise.all([cargarCurso(id)].concat(otros.map(function (x) { return cargarCurso(x).catch(function () { return null; }); }))).then(function (cs) {
+        var c = cs[0];
+        // No se borra el avance de sesiones que también son parte de otra formación en la que sigue inscrita.
+        var compartidas = {};
+        cs.slice(1).filter(Boolean).forEach(function (o) { o.clases.forEach(function (cl) { compartidas[cl.id] = true; }); });
+        borrarAvance(c.id, c.clases.filter(function (cl) { return !compartidas[cl.id]; }));
+        c.modulos.forEach(function (m) { almacen.guardar("plazo:" + c.id + ":" + m.id, null); });
+        almacen.guardar("plazo:" + c.id + ":reinicio", null);
+        return Nube.ajustarMisCursos([id], []).then(function () {
+          try { sessionStorage.setItem("miruta:avisos-plazo", JSON.stringify(["Te diste de baja de «" + c.titulo + "». Cuando sea tu momento, puedes volver a solicitarla."])); } catch (er) { /* sin almacenamiento */ }
+          location.hash = "#/";
+        });
+      }).catch(function (er) { t.disabled = false; alertaEn(t.closest(".confirmar-baja").querySelector(".mensaje"), er.message); });
+      return;
+    }
     if (ev.target && ev.target.id === "cerrar-avisos-plazo") {
       try { sessionStorage.removeItem("miruta:avisos-plazo"); } catch (er) { /* sin almacenamiento */ }
       var sec = ev.target.closest(".avisos-plazo"); if (sec) sec.remove();

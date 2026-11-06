@@ -739,3 +739,10 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .linea-plazo { font-size: .88rem; color: var(--tinta-suave); margin: .4rem 0 .8rem; }
 .avisos-plazo ul { margin: .4rem 0 .8rem; padding-left: 1.2rem; }
 .avisos-plazo li { margin: .3rem 0; }
+
+/* Darse de baja de una formación */
+.baja-curso { margin: 2rem 0 1rem; text-align: center; }
+.baja-curso .boton.mini { background: transparent; color: var(--tinta-suave); border-color: transparent; text-decoration: underline; }
+.confirmar-baja { text-align: left; border: 1px solid var(--linea); background: var(--acento-claro); border-radius: var(--radio); padding: 1rem; }
+.confirmar-baja p { margin: 0 0 .75rem; }
+.ficha-nota.alerta { color: #8a4b00; background: #fff4e0; border-radius: 8px; padding: .4rem .6rem; }

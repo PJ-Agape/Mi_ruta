@@ -452,15 +452,23 @@ async function responderSoporte(id, cambios) {
 
 /* ---------- plazos de inscripción ---------- */
 // La propia persona puede dejar formaciones vencidas (solo quitar, nunca agregar ni cambiar fechas).
-async function ajustarMisCursos(quitarCursos, quitarVencidos) {
+async function ajustarMisCursos(quitarCursos, quitarVencidos, extra) {
   if (!usuario || !cuenta) return;
   const quitar = quitarCursos || [], limpiar = quitarVencidos || [];
   const ins = { ...(cuenta.inscripciones || {}) }; quitar.forEach((c) => { delete ins[c]; });
   const ven = { ...(cuenta.vencidos || {}) }; limpiar.forEach((c) => { delete ven[c]; });
-  const cambios = { cursos: (cuenta.cursos || []).filter((c) => !quitar.includes(c)), inscripciones: ins, vencidos: ven };
+  const cambios = { cursos: (cuenta.cursos || []).filter((c) => !quitar.includes(c)), inscripciones: ins, vencidos: ven, ...(extra || {}) };
   await conTiempo(fb.updateDoc(fb.doc(db, "usuarios", usuario.uid), cambios));
   Object.assign(cuenta, cambios);
   latido();
+  avisar();
+}
+
+// Al empezar una formación se reinicia el contador de anulaciones seguidas.
+async function reiniciarAnulaciones() {
+  if (!usuario || !cuenta || !(cuenta.anulaciones > 0)) return;
+  await conTiempo(fb.updateDoc(fb.doc(db, "usuarios", usuario.uid), { anulaciones: 0 }));
+  cuenta.anulaciones = 0;
   avisar();
 }
 
@@ -543,4 +551,5 @@ window.Nube = {
   todosSoportes,
   responderSoporte,
   ajustarMisCursos,
+  reiniciarAnulaciones,
 };
