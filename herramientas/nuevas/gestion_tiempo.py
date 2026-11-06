@@ -276,7 +276,7 @@ FORMACION = {
     "titulo": "El tiempo del otro: gestión del tiempo en la pastoral",
     "subtitulo": "Puntualidad, prioridades, reuniones, mensajes y plazos que respetan a los demás",
     "categoria": "Misión y servicio",
-    "publico": "Desde 14 años",
+    "publico": "Desde 13 años",
     "descripcion": "Una formación para aprender a gestionar el tiempo desde el respeto por el tiempo de los demás: la puntualidad como acogida, las prioridades personales, encuentros y reuniones que empiezan y terminan a la hora, mensajes que cuidan el tiempo y el descanso del otro, y compromisos cumplidos a tiempo sin apurar los procesos de las personas. 5 unidades de 90 minutos y una evaluación final.",
     "modulo": "El tiempo del otro",
     "intro": "El tiempo es un don de Dios, y el tiempo de cada persona que viene a un encuentro, a una reunión o a una actividad es un regalo que nos confía. En esta formación aprenderás a ordenar tu propio tiempo para servir mejor, y sobre todo a cuidar el tiempo de los demás: llegar, empezar y terminar a la hora, preparar reuniones que no desgasten, comunicar con claridad, cumplir los plazos y respetar los tiempos de crecimiento de cada persona.",

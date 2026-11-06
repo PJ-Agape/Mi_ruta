@@ -561,6 +561,113 @@
    }
   ]
  },
+ "gestion-del-tiempo-cierre": {
+  "titulo": "Cierre del módulo: El tiempo del otro: gestión del tiempo en la pastoral",
+  "aprobacion": 70,
+  "taller": "El pacto del tiempo: cada participante presenta su auditoría de una semana (cuánto tiempo dedicó a sus piedras grandes, dónde se le fue el tiempo y qué cambiará). Luego, el equipo completo acuerda y firma el pacto del tiempo de su comunidad, con acuerdos concretos sobre puntualidad (llegar, empezar y terminar a la hora), reuniones (convocatoria, tabla y guardián del tiempo), mensajes (aviso completo, horario y normas del grupo), plazos (avisar antes de que venzan) y descanso. Definen cómo lo comunicarán a los jóvenes y a las familias, y cuándo lo evaluarán.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué diferencia hay entre cronos y kairós?",
+    "opciones": [
+     "Cronos es el tiempo del reloj; kairós, el tiempo oportuno o de gracia.",
+     "Son dos nombres del mismo tiempo.",
+     "Kairós es el tiempo libre y cronos el de trabajo."
+    ],
+    "correcta": 0,
+    "explicacion": "Gestionar bien el cronos deja espacio para el kairós."
+   },
+   {
+    "pregunta": "Si un encuentro de 30 personas empieza 20 minutos tarde, ¿cuánto tiempo de la comunidad se perdió?",
+    "opciones": [
+     "20 minutos.",
+     "Unas 10 horas (600 minutos).",
+     "Una hora."
+    ],
+    "correcta": 1,
+    "explicacion": "La impuntualidad se multiplica por todas las personas que esperan."
+   },
+   {
+    "pregunta": "Cuando un encuentro está citado a una hora y aún hay pocos, ¿qué conviene hacer?",
+    "opciones": [
+     "Esperar a que lleguen todos.",
+     "Empezar a la hora con quienes están.",
+     "Suspender el encuentro."
+    ],
+    "correcta": 1,
+    "explicacion": "Empezar a la hora honra a quienes llegaron y educa a los demás."
+   },
+   {
+    "pregunta": "En la matriz de urgente e importante, ¿qué cuadro conviene cuidar más?",
+    "opciones": [
+     "Urgente y no importante.",
+     "Importante y no urgente.",
+     "Ni urgente ni importante."
+    ],
+    "correcta": 1,
+    "explicacion": "Si se le da tiempo a lo importante no urgente, disminuyen las urgencias."
+   },
+   {
+    "pregunta": "¿Qué significa «primero las piedras grandes»?",
+    "opciones": [
+     "Hacer primero las tareas más pesadas físicamente.",
+     "Agendar primero lo que no puede faltar: estudio o trabajo, familia, descanso, oración y servicio.",
+     "Dejar lo importante para el final de la semana."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo demás se acomoda entre las prioridades."
+   },
+   {
+    "pregunta": "¿Cuál es una buena práctica al conducir una reunión?",
+    "opciones": [
+     "Alargarla hasta terminar todos los temas.",
+     "Nombrar a alguien que cuide el tiempo y terminar a la hora.",
+     "Resumir todo cada vez que alguien llega tarde."
+    ],
+    "correcta": 1,
+    "explicacion": "Si un tema se alarga, se decide qué acortar, sin pasar la hora de término sin consultar."
+   },
+   {
+    "pregunta": "Al programar las dinámicas de un encuentro, ¿qué conviene hacer?",
+    "opciones": [
+     "Calcular justo lo que dura la actividad.",
+     "Sumar alrededor de un 30 % más y considerar los tiempos muertos.",
+     "No poner horarios."
+    ],
+    "correcta": 1,
+    "explicacion": "Explicar, formar grupos y volver siempre toma más tiempo."
+   },
+   {
+    "pregunta": "¿Qué debe incluir un aviso completo?",
+    "opciones": [
+     "Solo el día.",
+     "Qué, cuándo (con hora de término), dónde, qué llevar y hasta cuándo responder.",
+     "Un audio explicativo."
+    ],
+    "correcta": 1,
+    "explicacion": "Un mensaje completo a la primera ahorra muchos mensajes después."
+   },
+   {
+    "pregunta": "Si sabes que no vas a cumplir un plazo, ¿qué haces?",
+    "opciones": [
+     "Esperar a ver si alguien se da cuenta.",
+     "Avisar antes de que venza y proponer una alternativa.",
+     "Avisar después de la fecha."
+    ],
+    "correcta": 1,
+    "explicacion": "Renegociar a tiempo es responsabilidad; incumplir en silencio es descuido."
+   },
+   {
+    "pregunta": "¿Qué significa respetar el tiempo de los procesos de las personas?",
+    "opciones": [
+     "Exigir resultados rápidos.",
+     "Acompañar con paciencia, sin apurar su crecimiento.",
+     "Dejar de acompañar a quien avanza lento."
+    ],
+    "correcta": 1,
+    "explicacion": "El tiempo es superior al espacio: importa más iniciar procesos que dominar resultados."
+   }
+  ]
+ },
  "dj-coordinar-cierre": {
   "titulo": "Cierre del módulo: Coordinar, planificar y administrar",
   "aprobacion": 70,

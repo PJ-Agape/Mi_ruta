@@ -438,15 +438,88 @@
    ]
   },
   {
-   "id": "dj-coordinar",
+   "id": "gestion-del-tiempo",
    "numero": 7,
-   "titulo": "Coordinar, planificar y administrar",
+   "titulo": "El tiempo del otro: gestión del tiempo en la pastoral",
    "tipo": "obligatorio",
    "etiqueta": "Módulo 7",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
     "buen-trato-y-prevencion"
+   ],
+   "intro": "El tiempo es un don de Dios, y el tiempo de cada persona que viene a un encuentro, a una reunión o a una actividad es un regalo que nos confía. En esta formación aprenderás a ordenar tu propio tiempo para servir mejor, y sobre todo a cuidar el tiempo de los demás: llegar, empezar y terminar a la hora, preparar reuniones que no desgasten, comunicar con claridad, cumplir los plazos y respetar los tiempos de crecimiento de cada persona.",
+   "clases": [
+    {
+     "id": "gestion-del-tiempo-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El tiempo del otro es un don",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/gestion-del-tiempo/s1.md",
+     "debate": "**Caso: La hora chilena.** El encuentro del grupo juvenil está citado a las 17:00. Los dirigentes llegan a las 17:15 y empiezan a las 17:40, «porque nunca llega nadie a la hora». Tres jóvenes nuevos que llegaron puntuales esperaron casi una hora sentados en la escalera. Uno de ellos no volvió.\n\n- ¿Qué mensaje recibieron los jóvenes que llegaron a la hora?\n- ¿Cómo podría el equipo romper este círculo desde el próximo sábado?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "gestion-del-tiempo-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Ordenar mi tiempo para servir mejor",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/gestion-del-tiempo/s2.md",
+     "debate": "**Caso: El dirigente que dice que sí a todo.** Tomás es dirigente, está en cuarto medio, juega fútbol y canta en el coro. Cuando le piden algo, siempre dice que sí. Este mes llegó tarde a tres encuentros, olvidó comprar los materiales del retiro y avisó a última hora que no podía ir a la reunión de equipo. Él siente que no le alcanza el tiempo; el equipo siente que no pueden contar con él.\n\n- ¿Qué le está pasando a Tomás?\n- ¿Cómo podría ordenar sus prioridades sin dejar de servir?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "gestion-del-tiempo-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Encuentros y reuniones que respetan el tiempo",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/gestion-del-tiempo/s3.md",
+     "debate": "**Caso: Los papás en el estacionamiento.** El encuentro de confirmación debía terminar a las 20:00. A las 20:00 recién empezó la oración final, y a las 20:25 terminó el compartir. Afuera, una decena de papás esperaba en los autos; algunos tenían que trabajar temprano al día siguiente. La catequista no entendía por qué varias familias se quejaron, si «la oración estuvo tan bonita».\n\n- ¿Qué faltó en la planificación del encuentro?\n- ¿Cómo se podría haber cuidado la oración final sin pasarse del horario?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "gestion-del-tiempo-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Mensajes que cuidan el tiempo del otro",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/gestion-del-tiempo/s4.md",
+     "debate": "**Caso: El grupo de las 200 notificaciones.** El grupo de WhatsApp de la pastoral juvenil tiene 60 personas. Un viernes, un aviso del encuentro del sábado queda enterrado entre stickers, felicitaciones de cumpleaños y una discusión sobre fútbol. Al día siguiente, la mitad no sabía que el lugar había cambiado y llegó a la parroquia equivocada.\n\n- ¿Qué falló en el uso del grupo?\n- ¿Qué normas propondrías para que no vuelva a pasar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "gestion-del-tiempo-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Compromisos, plazos y el tiempo de Dios",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/gestion-del-tiempo/s5.md",
+     "debate": "**Caso: El bus que nadie reservó.** Faltando tres semanas para las misiones, Camila se comprometió a cotizar y reservar el bus. Lo fue dejando para después y no avisó. Una semana antes, ya no había buses disponibles a un precio razonable, la cuota tuvo que subir y dos familias dijeron que no podían pagar.\n\n- ¿Quiénes pagaron el costo del plazo incumplido?\n- ¿Qué podría haber hecho Camila, y qué podría haber hecho el equipo, para evitarlo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "gestion-del-tiempo-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "dj-coordinar",
+   "numero": 8,
+   "titulo": "Coordinar, planificar y administrar",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 8",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "gestion-del-tiempo"
    ],
    "intro": "",
    "clases": [
@@ -512,10 +585,10 @@
   },
   {
    "id": "dj-conducir",
-   "numero": 8,
+   "numero": 9,
    "titulo": "Conducir el equipo",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 8",
+   "etiqueta": "Módulo 9",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [
@@ -585,10 +658,10 @@
   },
   {
    "id": "dj-proyectar",
-   "numero": 9,
+   "numero": 10,
    "titulo": "Proyectar el grupo: cuidado, relevo y envío",
    "tipo": "obligatorio",
-   "etiqueta": "Módulo 9",
+   "etiqueta": "Módulo 10",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [

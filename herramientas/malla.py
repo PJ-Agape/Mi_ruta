@@ -221,9 +221,9 @@ def modulos():
 
 CURSOS = [
  {"id": "dirigente-juvenil", "titulo": "Dirigente juvenil", "subtitulo": "Discernir, animar, acompañar y coordinar un grupo de pastoral juvenil",
-  "descripcion": "La formación base para quienes quieren servir como dirigentes: recorre la identidad del agente pastoral, la vida de grupo, la escucha, la metodología, la Eucaristía, el buen trato y la coordinación del equipo.",
+  "descripcion": "La formación base para quienes quieren servir como dirigentes: recorre la identidad del agente pastoral, la vida de grupo, la escucha, la metodología, la Eucaristía, el buen trato, la gestión del tiempo con respeto por el tiempo de los demás y la coordinación del equipo.",
   "publico": "Desde 13 años", "elige": 2,
-  "obligatorios": ["dj-identidad", "dj-acogida", "dj-escucha", "dj-metodologia", "dj-eucaristia", "buen-trato-y-prevencion", "dj-coordinar", "dj-conducir", "dj-proyectar"],
+  "obligatorios": ["dj-identidad", "dj-acogida", "dj-escucha", "dj-metodologia", "dj-eucaristia", "buen-trato-y-prevencion", "gestion-del-tiempo", "dj-coordinar", "dj-conducir", "dj-proyectar"],
   "optativos": ["dinamicas-y-juegos", "primeros-auxilios", "comunicacion-y-redes", "primeros-auxilios-psicologicos", "logistica"]},
  {"id": "diplomado", "titulo": "Diplomado en liderazgo para equipos de pastoral juvenil", "subtitulo": "Conducir equipos, acompañar personas y gestionar proyectos",
   "descripcion": "Para dirigentes con experiencia que asumen la conducción de equipos. Ocho módulos con constancia propia: liderazgo personal, autoridad y decisiones, formación de equipos, gestión del tiempo y legado, comunicación y conflictos, planificación de proyectos, acompañamiento de personas y un proyecto integrador. Modalidad mixta: sesiones presenciales o en línea con el relator y trabajo personal.",
