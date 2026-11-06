@@ -657,3 +657,28 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 /* Bloques de código y estructuras de carpetas (talleres guiados) */
 .contenido pre, .tarjeta pre, [role=tabpanel] pre { background: #0b2566; color: #fff6e5; border-radius: 10px; padding: .8rem 1rem; overflow-x: auto; font-size: .82rem; line-height: 1.5; }
 .contenido pre code, .tarjeta pre code, [role=tabpanel] pre code { background: none; color: inherit; padding: 0; }
+
+/* Módulos plegables en la página de una formación */
+.plegar-todo { display: flex; gap: .5rem; justify-content: flex-end; margin: 0 0 .6rem; }
+.modulo.plegable { padding: 0; overflow: hidden; }
+.modulo.plegable > summary.modulo-cab { list-style: none; display: flex; align-items: center; gap: .8rem; padding: 1rem 1.1rem; cursor: pointer; color: inherit; font-weight: inherit; margin: 0; }
+.modulo.plegable > summary.modulo-cab::-webkit-details-marker { display: none; }
+.modulo.plegable[open] > summary.modulo-cab { margin: 0; border-bottom: 1px solid var(--linea); }
+.modulo-cab-texto { flex: 1; min-width: 0; }
+.modulo-cab-texto h2 { font-size: 1.15rem; }
+.modulo.plegable .modulo-cab .semanas { margin: 0 0 .4rem; }
+.mini-barra { height: 5px; border-radius: 99px; background: var(--linea); overflow: hidden; max-width: 260px; }
+.mini-barra span { display: block; height: 100%; background: var(--ok); border-radius: 99px; }
+.estado-modulo { flex: 0 0 auto; font-size: .72rem; font-weight: 700; padding: 2px 9px; border-radius: 99px; background: var(--linea); color: var(--tinta-suave); }
+.estado-modulo.completo { background: var(--ok-claro); color: var(--ok); }
+.estado-modulo.curso { background: #e1ebfb; color: var(--primario); }
+.flecha { flex: 0 0 auto; width: 12px; height: 12px; border-right: 2px solid var(--primario); border-bottom: 2px solid var(--primario); transform: rotate(45deg); margin: 0 .3rem .3rem 0; transition: transform .2s; }
+.modulo.plegable[open] .flecha { transform: rotate(225deg); margin: .3rem .3rem 0 0; }
+.modulo-cuerpo { padding: .6rem 1.1rem 1rem; }
+.modulo.plegable .modulo-cuerpo details { margin-top: 0; }
+.plegar-todo .boton { padding: .3rem .8rem; font-size: .82rem; min-height: 0; }
+/* En el teléfono, los accesos a agAPPe van en una fila deslizable para no alargar la página */
+@media (max-width: 640px) {
+  .agappe-lista { grid-auto-flow: column; grid-auto-columns: 78%; grid-template-columns: none; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .4rem; }
+  .agappe-item { scroll-snap-align: start; }
+}

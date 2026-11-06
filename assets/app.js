@@ -686,6 +686,10 @@
       html += pestanasCurso(c, "contenido");
       html += bloqueAgappe(c);
       var vistoOpt = false;
+      // Con varios módulos, cada uno se pliega: se ve el nombre y el avance, y se despliega el listado de sesiones al tocarlo.
+      var plegable = c.modulos.length > 1;
+      var abiertos = plegable ? modulosAbiertos(c, siguiente) : null;
+      if (plegable) html += '<div class="plegar-todo"><button class="boton mini" type="button" data-plegar="abrir">Desplegar todos</button><button class="boton mini" type="button" data-plegar="cerrar">Plegar todos</button></div>';
       if (c.tipo === "curso") html += '<h2 class="seccion-titulo">Módulos obligatorios</h2><p class="seccion-bajada">Algunos módulos se habilitan al completar otros; lo verás indicado en cada uno.</p>';
       c.modulos.forEach(function (m) {
         var hm = m.clases.filter(function (x) { return h.indexOf(x.id) >= 0; }).length;
@@ -693,10 +697,16 @@
           vistoOpt = true;
           html += '<h2 class="seccion-titulo">Módulos optativos</h2><p class="seccion-bajada">Elige ' + (c.elige === 1 ? "uno" : c.elige) + '. Puedes cursarlos en cualquier momento.</p>';
         }
-        html += '<section class="tarjeta modulo"><h2>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</h2>" +
+        var cab = '<h2>' + esc(etiquetaModulo(m)) + ". " + esc(m.titulo) + "</h2>" +
           (m.semanas ? '<p class="semanas">Semanas ' + esc(m.semanas) + "</p>" : "") +
-          (m.duracion || m.constancia ? '<p class="semanas">' + [m.duracion ? esc(m.duracion) : "", m.constancia ? '<span class="chip-constancia">Constancia propia</span>' : ""].filter(Boolean).join(" · ") +
-            (m.constancia ? " · " + hm + " de " + m.clases.length + " completadas" : "") + "</p>" : "");
+          (m.duracion || m.constancia || plegable ? '<p class="semanas">' + [m.duracion ? esc(m.duracion) : "", m.constancia ? '<span class="chip-constancia">Constancia propia</span>' : ""].filter(Boolean).join(" · ") +
+            (m.constancia || plegable ? (m.duracion || m.constancia ? " · " : "") + hm + " de " + m.clases.length + " completadas" : "") + "</p>" : "");
+        if (plegable) {
+          var bloq = moduloBloqueado(c, m), estadoMod = hm >= m.clases.length ? ["completo", "Completo"] : bloq ? ["bloqueado", "Bloqueado"] : hm ? ["curso", "En curso"] : null;
+          html += '<details class="tarjeta modulo plegable" data-modulo="' + esc(m.id) + '"' + (abiertos[m.id] ? " open" : "") + '><summary class="modulo-cab"><div class="modulo-cab-texto">' + cab +
+            '<div class="mini-barra" aria-hidden="true"><span style="width:' + Math.round(100 * hm / Math.max(1, m.clases.length)) + '%"></span></div></div>' +
+            (estadoMod ? '<span class="estado-modulo ' + estadoMod[0] + '">' + estadoMod[1] + "</span>" : "") + '<span class="flecha" aria-hidden="true"></span></summary><div class="modulo-cuerpo">';
+        } else html += '<section class="tarjeta modulo">' + cab;
         if (m.intro) html += '<details><summary>' + (m.intro.indexOf("#### Objetivos") >= 0 ? "Programa del módulo: objetivos, bibliografía y evaluación" : "Sobre este módulo") + '</summary><div class="texto">' + md(m.intro) + "</div></details>";
         var bloqueo = moduloBloqueado(c, m);
         if (bloqueo) {
@@ -708,11 +718,40 @@
             '<span class="estado" aria-label="' + (hecha ? "Completada" : "Pendiente") + '">' + (hecha ? "&#10003;" : "") + "</span>" +
             '<span><span class="etiqueta-clase">' + esc(cl.etiqueta) + "</span>" + esc(cl.titulo) + "</span>" +
             '<span class="semana">' + esc(duracionClase(cl)) + "</span></a></li>";
-        }).join("") + "</ol></section>";
+        }).join("") + "</ol>" + (plegable ? "</div></details>" : "</section>");
       });
       if (c.credito) html += '<p class="credito">' + esc(c.credito) + "</p>";
       pintar(html, c.titulo);
       activarSolicitudes();
+      if (plegable) activarPlegables(c);
+    });
+  }
+
+  // Módulos abiertos: lo que la persona dejó abierto en esta formación; si no hay nada guardado,
+  // solo el módulo donde va (el de la próxima sesión), o el primero.
+  function claveAbiertos(c) { return "miruta:abiertos:" + c.id; }
+  function modulosAbiertos(c, siguiente) {
+    var guardado = null;
+    try { guardado = JSON.parse(sessionStorage.getItem(claveAbiertos(c)) || "null"); } catch (e) { guardado = null; }
+    var a = {};
+    if (guardado && guardado.length) { guardado.forEach(function (id) { a[id] = true; }); return a; }
+    var actual = siguiente ? siguiente.modulo : null;
+    var m = c.modulos.filter(function (x) { return x.id === (actual && actual.id || actual); })[0] || c.modulos[0];
+    if (m) a[m.id] = true;
+    return a;
+  }
+  function activarPlegables(c) {
+    var guardar = function () {
+      var ids = Array.prototype.map.call(document.querySelectorAll("details.plegable[open]"), function (d) { return d.getAttribute("data-modulo"); });
+      try { sessionStorage.setItem(claveAbiertos(c), JSON.stringify(ids.length ? ids : ["-"])); } catch (e) { /* sin almacenamiento */ }
+    };
+    Array.prototype.forEach.call(document.querySelectorAll("details.plegable"), function (d) { d.addEventListener("toggle", guardar); });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-plegar]"), function (b) {
+      b.addEventListener("click", function () {
+        var abrir = b.getAttribute("data-plegar") === "abrir";
+        Array.prototype.forEach.call(document.querySelectorAll("details.plegable"), function (d) { d.open = abrir; });
+        guardar();
+      });
     });
   }
 
