@@ -1440,7 +1440,7 @@
  "logistica-cierre": {
   "titulo": "Cierre del módulo: Logística de actividades pastorales",
   "aprobacion": 70,
-  "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
+  "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: primero la grilla de comidas y el horario base, y a partir de ella el programa de actividades; luego el cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
   "preguntas": [
    {
     "pregunta": "¿Por qué la logística es parte de la pastoral?",
@@ -1461,6 +1461,16 @@
     ],
     "correcta": 0,
     "explicacion": "Se cuenta hacia atrás desde la fecha."
+   },
+   {
+    "pregunta": "En un campamento de tres días, ¿qué conviene planificar primero?",
+    "opciones": [
+     "Las dinámicas y los temas",
+     "La grilla de comidas y el horario base",
+     "La lista de compras"
+    ],
+    "correcta": 1,
+    "explicacion": "Las comidas marcan el ritmo de la actividad: primero se fija la grilla de alimentación y luego se ubican las demás actividades en los bloques que quedan."
    },
    {
     "pregunta": "¿Cuánto conviene agregar a las cantidades de comida por imprevistos?",

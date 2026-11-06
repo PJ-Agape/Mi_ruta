@@ -131,8 +131,8 @@ FICHAS = {
         "competencias": ["Diseñar y conducir una dinámica con objetivo claro.", "Animar una jornada completa.", "Adaptar juegos para que sean seguros e inclusivos."],
     },
     "logistica": {
-        "ejes": ["Planificación logística", "Alimentación", "Materiales e inventario", "Lugares y traslados", "Presupuesto y rendición"],
-        "competencias": ["Planificar la logística de jornadas, retiros y campamentos.", "Calcular menús, cantidades e insumos.", "Gestionar presupuesto, compras y rendición de cuentas."],
+        "ejes": ["Planificación logística", "Grilla de comidas y alimentación", "Materiales e inventario", "Lugares y traslados", "Presupuesto y rendición"],
+        "competencias": ["Planificar la logística de jornadas, retiros y campamentos.", "Armar la grilla de comidas que ordena el programa, y calcular menús, cantidades e insumos.", "Gestionar presupuesto, compras y rendición de cuentas."],
     },
 }
 

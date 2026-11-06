@@ -4,10 +4,10 @@
  "subtitulo": "Comidas, insumos, materiales, lugares y presupuesto",
  "categoria": "Herramientas",
  "publico": "Desde 15 años",
- "descripcion": "Herramientas para organizar la logística de jornadas, retiros, campamentos y misiones: planificación, alimentación, materiales e inventario, lugares y traslados, y presupuesto con rendición de cuentas. 5 unidades de 90 minutos, un taller de cierre y una evaluación final.",
+ "descripcion": "Herramientas para organizar la logística de jornadas, retiros, campamentos y misiones: planificación, alimentación (la grilla de comidas que ordena todo el programa), materiales e inventario, lugares y traslados, y presupuesto con rendición de cuentas. 5 unidades de 90 minutos, un taller de cierre y una evaluación final.",
  "modulo": "Logística de actividades pastorales",
  "intro": "Una actividad pastoral puede tener un gran contenido y fracasar porque faltó comida, no llegó el bus o nadie sabía dónde estaban los materiales. La logística es una forma de servicio: cuando funciona, nadie la nota y todos pueden concentrarse en lo importante. En este módulo vas a aprender a organizarla.",
- "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
+ "taller": "En equipos, preparen el plan logístico completo de un campamento o una misión de tres días para 40 personas: primero la grilla de comidas y el horario base, y a partir de ella el programa de actividades; luego el cronograma de preparación, responsables, menú con lista de compras y cantidades, inventario de materiales, plan de traslados y alojamiento, presupuesto con fuentes de financiamiento y formato de rendición. Cada equipo presenta su plan y los demás revisan qué falta.",
  "unidades": [
   {
    "title": "Planificar la logística",
@@ -23,8 +23,12 @@
      "body": "Una forma práctica de ordenar el trabajo es dividirlo en áreas, cada una con un responsable:\n\n- **Alimentación:** menú, compras, cocina, agua.\n- **Materiales:** lo necesario para dinámicas, liturgia, talleres y aseo.\n- **Lugar y alojamiento:** reservas, permisos, distribución de espacios.\n- **Traslados:** transporte de personas y carga.\n- **Finanzas:** presupuesto, cuotas, compras y rendición.\n- **Salud y seguridad:** botiquín, fichas, plan de emergencia."
     },
     {
+     "title": "Primero, las comidas",
+     "body": "En toda actividad que dura más de un día o que incluye comidas (jornadas, retiros, campamentos, misiones), **el programa de alimentación marca el ritmo de todo lo demás**. Por eso se arma primero:\n\n1. **La grilla de comidas:** qué comidas hay cada día y a qué hora.\n2. **Los tiempos de cocina:** cuándo se cocina, quién cocina y cuánto tiempo antes de cada comida.\n3. **Después, el resto del programa:** encuentros, dinámicas, liturgia, descanso y traslados se ubican en los bloques que quedan entre comidas.\n\nSi se hace al revés, aparecen los problemas de siempre: una dinámica que se alarga y enfría el almuerzo, el equipo de cocina que se pierde todas las actividades importantes, una caminata sin colación o una misa a la hora en que había que poner la mesa. En la unidad 2 aprenderás a armar la grilla paso a paso."
+    },
+    {
      "title": "El cronograma hacia atrás",
-     "body": "Se parte desde la fecha de la actividad y se cuenta hacia atrás:\n\n- **8 a 6 semanas antes:** reservar lugar y transporte, definir presupuesto y cuota.\n- **4 semanas antes:** inscripciones, autorizaciones y fichas de salud.\n- **2 semanas antes:** menú definitivo y lista de compras; revisar inventario de materiales.\n- **1 semana antes:** compras no perecibles, confirmar transporte y lugar.\n- **2 días antes:** compras perecibles, armar cajas por área.\n- **El día:** revisión final con la lista.\n\nLos plazos se ajustan según el tamaño de la actividad."
+     "body": "Se parte desde la fecha de la actividad y se cuenta hacia atrás:\n\n- **8 a 6 semanas antes:** reservar lugar y transporte; armar la **grilla de comidas y el horario base**; definir presupuesto y cuota.\n- **4 semanas antes:** inscripciones, autorizaciones y fichas de salud.\n- **2 semanas antes:** menú definitivo y lista de compras; revisar inventario de materiales.\n- **1 semana antes:** compras no perecibles, confirmar transporte y lugar.\n- **2 días antes:** compras perecibles, armar cajas por área.\n- **El día:** revisión final con la lista.\n\nLos plazos se ajustan según el tamaño de la actividad."
     },
     {
      "title": "Listas y tableros",
@@ -46,9 +50,10 @@
     "¿Qué problema logístico recuerdas de alguna actividad pastoral?",
     "¿Quién se encarga hoy de la logística en tu grupo?",
     "¿Qué áreas suelen quedar sin responsable?",
-    "¿Qué herramienta usarían para la lista maestra?"
+    "¿Qué herramienta usarían para la lista maestra?",
+    "En las actividades de más de un día de tu grupo, ¿qué se programa primero: las actividades o las comidas? ¿Qué problemas ha traído?"
    ],
-   "activity": "Elijan la próxima actividad del grupo y armen su cronograma hacia atrás con las seis áreas, responsables y fechas. Usen una planilla compartida.",
+   "activity": "Elijan la próxima actividad del grupo. Si dura más de un día o incluye comidas, partan por la grilla de comidas y el horario base; después armen su cronograma hacia atrás con las seis áreas, responsables y fechas. Usen una planilla compartida.",
    "prayer": "Señor, que nos pides calcular antes de construir: danos orden, previsión y espíritu de servicio. Que nuestro trabajo en lo pequeño haga posible que otros te encuentren en lo grande. Amén.",
    "resources": [
     {
@@ -103,10 +108,14 @@
    "idea": "Lo que no está escrito, se olvida."
   },
   {
-   "title": "Alimentación: menús, cantidades y manipulación segura",
+   "title": "Alimentación: grilla de comidas, menús, cantidades y manipulación segura",
    "objective": "Planificar la alimentación de una actividad: menú, cantidades por persona, compras y manipulación segura de los alimentos.",
    "intro": "Comer bien es parte de una buena experiencia. Y una intoxicación puede arruinar un campamento entero. En esta unidad vas a aprender a planificar menús sencillos, calcular cantidades y cocinar de forma segura.",
    "sections": [
+    {
+     "title": "La grilla de alimentación: el esqueleto del programa",
+     "body": "La **grilla de alimentación** es una tabla con cada día de la actividad y cada comida, su horario, cuántas personas comen y quién cocina. Se arma **antes** que el resto del programa, porque las comidas son lo único que no se puede mover: la gente tiene hambre a la misma hora, la cocina necesita su tiempo y los alimentos se preparan con anticipación.\n\n**Paso a paso:**\n\n1. **Llegada y salida:** define la hora de llegada y de salida. Con eso sabes cuál es la **primera comida** (¿llegan a almorzar o después de almuerzo?) y la **última** (¿se van después del almuerzo o después de la once?).\n2. **Horarios fijos:** fija la hora de cada comida y respétala. Por ejemplo: desayuno 8:30, almuerzo 13:30, once 17:30 y cena 20:30. Agrega **colaciones** a media mañana o media tarde si hay mucha actividad física.\n3. **Comensales por comida:** cuenta cuántas personas comen en **cada** comida, no solo por día. Considera a quienes llegan tarde o se van antes, al equipo, a las visitas (el sacerdote que viene a celebrar la misa, los papás del cierre) y las restricciones alimentarias.\n4. **Tiempos de cocina:** cuenta hacia atrás desde cada comida. Un almuerzo para 40 personas puede necesitar 2 horas de preparación; el desayuno, unos 45 minutos. Esos bloques definen cuándo el equipo de cocina no puede estar en las actividades.\n5. **Turnos de cocina y lavado:** asigna los turnos de modo que **nadie se pierda los momentos centrales** (la charla principal, la Eucaristía, el fogón). Si los participantes ayudan, hazlo por grupos rotativos.\n6. **Comidas fuera:** si hay caminata, misión en terreno o traslado, la comida se transforma en **colación para llevar**, que se prepara antes y se transporta en buenas condiciones.\n7. **Recién ahora, el resto del programa:** ubica las actividades en los bloques entre comidas. Deja 15 a 20 minutos antes de cada comida para lavarse y poner la mesa, y evita dinámicas muy movidas justo después de almorzar.\n\n**Ejemplo: grilla de un campamento de 3 días (viernes a domingo, 40 personas)**\n\n| | Viernes | Sábado | Domingo |\n|---|---|---|---|\n| Desayuno 8:30 | (llegada 19:00) | 42 · turno A | 42 · turno C |\n| Colación 11:00 | | Para llevar a la caminata (42) | |\n| Almuerzo 13:30 | | 42 · turno B | 55 (llegan las familias) · equipo |\n| Once 17:30 | | 42 · turno C | (salida 16:00) |\n| Cena 20:30 | 40 · equipo | 43 (cena con el sacerdote) · turno A | |\n\nCon esta grilla, el programa del sábado se arma solo: actividad de la mañana entre el desayuno y la salida a caminar; caminata con colación; tarde entre el almuerzo y la once; misa y fogón después de la cena. Y el turno B sabe que el sábado en la mañana cocina y debe volver a tiempo de la caminata."
+    },
     {
      "title": "El menú",
      "body": "- **Sencillo y conocido:** platos que el equipo sepa preparar en grandes cantidades.\n- **Equilibrado:** incluir verduras, frutas, proteínas y carbohidratos.\n- **Adaptado al lugar:** si no hay refrigerador, priorizar alimentos que no necesiten frío.\n- **Considerando restricciones:** alergias, intolerancias, dietas vegetarianas o religiosas. Revisar las fichas de salud.\n- **Con agua siempre disponible.**"
@@ -121,7 +130,7 @@
     },
     {
      "title": "El equipo de cocina",
-     "body": "- **Un responsable** que conozca el menú y las cantidades.\n- **Turnos** de cocina y de lavado, para que nadie cargue con todo.\n- **Un horario** de comidas que se respete.\n- **Orden y aseo** de la cocina después de cada comida.\n- **Avisar** de inmediato si alguien presenta síntomas después de comer.\n\nCompartir la mesa también es un momento pastoral: bendecir los alimentos, comer juntos y agradecer."
+     "body": "- **Un responsable** que conozca el menú y las cantidades.\n- **Turnos** de cocina y de lavado, para que nadie cargue con todo.\n- **El horario de la grilla** de alimentación, que se respeta: si una actividad se alarga, se acorta la actividad, no la comida.\n- **Orden y aseo** de la cocina después de cada comida.\n- **Avisar** de inmediato si alguien presenta síntomas después de comer.\n\nCompartir la mesa también es un momento pastoral: bendecir los alimentos, comer juntos y agradecer."
     }
    ],
    "bible": {
@@ -141,12 +150,13 @@
     }
    ],
    "questions": [
+    "¿Qué problemas has visto cuando las comidas no se respetan o se programan al final?",
     "¿Cuál ha sido el mejor menú de campamento que recuerdas?",
     "¿Qué restricciones alimentarias hay en tu grupo?",
     "¿Qué prácticas de higiene se descuidan más en las actividades?",
     "¿Cómo evitar el desperdicio de comida?"
    ],
-   "activity": "Planifiquen el menú de un campamento de dos días para 30 personas: seis comidas, cantidades por plato, lista de compras total y turnos de cocina. Revisen las restricciones alimentarias de una ficha de ejemplo.",
+   "activity": "Planifiquen la alimentación de un campamento de dos días para 30 personas, en este orden: primero la grilla de comidas (horarios, comensales por comida, primera y última comida, colaciones y turnos de cocina); después, el menú de cada comida con cantidades por plato y la lista de compras total. Por último, ubiquen las actividades principales en los bloques libres de la grilla. Revisen las restricciones alimentarias de una ficha de ejemplo.",
    "prayer": "Señor, que preparaste el fuego y el pan para tus discípulos: bendice a quienes cocinan para otros. Que nuestra mesa sea lugar de encuentro, de cuidado y de gratitud, y que no desperdiciemos lo que a otros les falta. Amén.",
    "resources": [
     {
@@ -157,6 +167,7 @@
    ],
    "comenzar": "Calcula a ojo cuánto arroz crudo comprarías para 30 personas. Al final de la unidad, compáralo con la referencia.",
    "logros": [
+    "Armar la grilla de comidas que ordena el programa de la actividad.",
     "Planificar menús sencillos y equilibrados.",
     "Calcular cantidades por persona.",
     "Aplicar normas básicas de manipulación segura."
@@ -174,6 +185,10 @@
     ]
    },
    "claves": [
+    [
+     "Grilla de alimentación",
+     "Tabla con cada comida de la actividad, su horario, los comensales y el turno de cocina; ordena el resto del programa."
+    ],
     [
      "Perecible",
      "Alimento que se descompone rápido y necesita frío."
@@ -193,10 +208,10 @@
     "vivir": "Evita desperdiciar comida esta semana."
    },
    "practica": [
-    "Definan el menú.",
-    "Calculen las cantidades.",
-    "Armen la lista de compras.",
-    "Organicen los turnos."
+    "Armen la grilla de comidas.",
+    "Definan el menú de cada comida.",
+    "Calculen cantidades y la lista de compras.",
+    "Ubiquen las actividades entre comidas."
    ],
    "idea": "Cuidar la comida es cuidar a las personas."
   },
@@ -510,6 +525,16 @@
    ],
    "correct": 0,
    "feedback": "Se cuenta hacia atrás desde la fecha."
+  },
+  {
+   "q": "En un campamento de tres días, ¿qué conviene planificar primero?",
+   "options": [
+    "Las dinámicas y los temas",
+    "La grilla de comidas y el horario base",
+    "La lista de compras"
+   ],
+   "correct": 1,
+   "feedback": "Las comidas marcan el ritmo de la actividad: primero se fija la grilla de alimentación y luego se ubican las demás actividades en los bloques que quedan."
   },
   {
    "q": "¿Cuánto conviene agregar a las cantidades de comida por imprevistos?",

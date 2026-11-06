@@ -2,7 +2,7 @@
   "id": "logistica",
   "titulo": "Logística de actividades pastorales",
   "subtitulo": "Comidas, insumos, materiales, lugares y presupuesto",
-  "descripcion": "Herramientas para organizar la logística de jornadas, retiros, campamentos y misiones: planificación, alimentación, materiales e inventario, lugares y traslados, y presupuesto con rendición de cuentas. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
+  "descripcion": "Herramientas para organizar la logística de jornadas, retiros, campamentos y misiones: planificación, alimentación (la grilla de comidas que ordena todo el programa), materiales e inventario, lugares y traslados, y presupuesto con rendición de cuentas. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
   "publico": "Desde 15 años",
   "categoria": "Herramientas",
   "nuevo": false,
@@ -13,14 +13,14 @@
   "recursos": {},
   "ejes": [
     "Planificación logística",
-    "Alimentación",
+    "Grilla de comidas y alimentación",
     "Materiales e inventario",
     "Lugares y traslados",
     "Presupuesto y rendición"
   ],
   "competencias": [
     "Planificar la logística de jornadas, retiros y campamentos.",
-    "Calcular menús, cantidades e insumos.",
+    "Armar la grilla de comidas que ordena el programa, y calcular menús, cantidades e insumos.",
     "Gestionar presupuesto, compras y rendición de cuentas."
   ],
   "agappe": [
@@ -36,7 +36,7 @@
       "tipo": "sesion"
     },
     {
-      "titulo": "Alimentación: menús, cantidades y manipulación segura",
+      "titulo": "Alimentación: grilla de comidas, menús, cantidades y manipulación segura",
       "tipo": "sesion"
     },
     {

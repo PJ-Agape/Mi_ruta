@@ -966,7 +966,7 @@
      "tipo": "unidad",
      "numero": 2,
      "etiqueta": "Sesión 2",
-     "titulo": "Alimentación: menús, cantidades y manipulación segura",
+     "titulo": "Alimentación: grilla de comidas, menús, cantidades y manipulación segura",
      "tiempo": "90 min",
      "archivo": "contenido/modulos/logistica/s2.md",
      "debate": "**Caso: El pollo del día anterior.** Para ahorrar tiempo, el equipo cocina el pollo el viernes en la noche y lo deja en ollas en la cocina del local, sin refrigerador, para servirlo el sábado al almuerzo.\n\n- ¿Qué riesgo hay?\n- ¿Cómo se podría organizar mejor?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
@@ -1007,7 +1007,7 @@
      "numero": 6,
      "etiqueta": "Sesión 6 · Cierre",
      "titulo": "Cierre: taller práctico y evaluación",
-     "tiempo": "Taller y 10 preguntas"
+     "tiempo": "Taller y 11 preguntas"
     }
    ]
   }
