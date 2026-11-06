@@ -344,6 +344,10 @@
      "body": "Muchos problemas de tiempo vienen de lo que **no** se dijo:\n\n- **Confirma** si vas o no vas, en el plazo pedido. El «visto» sin respuesta obliga a otro a perseguirte.\n- **Avisa apenas sepas** que vas a llegar tarde o no vas a poder cumplir algo. Un aviso a tiempo permite reorganizarse; uno de último minuto deja a otros en problemas.\n- **Responde en un plazo razonable** los mensajes que esperan una respuesta tuya, aunque sea para decir «lo reviso y te contesto el jueves»."
     },
     {
+     "title": "¿Organizarse solo por WhatsApp? Pros y contras",
+     "body": "Muchos grupos se organizan únicamente por WhatsApp. Tiene ventajas reales, pero también costos que no siempre se ven:\n\n| A favor | En contra |\n|---|---|\n| **Todos lo tienen** y saben usarlo; no hay que aprender nada nuevo. | **La información se entierra:** un aviso importante queda sepultado bajo stickers, saludos y conversaciones. |\n| **Es inmediato:** sirve para avisos urgentes y coordinación del momento. | **No hay un lugar fijo** para fechas, documentos y acuerdos: hay que buscar hacia arriba o volver a preguntar. |\n| **Es cercano:** crea comunidad, permite saludar, compartir fotos y acompañar. | **Genera ruido y agotamiento:** decenas de notificaciones al día, a cualquier hora, que nadie alcanza a leer. |\n| **Es gratuito** y funciona con poca señal. | **Los compromisos se diluyen:** un «yo lo hago» en el chat no queda con responsable ni plazo, y se olvida. |\n| **Permite llegar rápido a muchas personas.** | **Depende de teléfonos personales:** si el dirigente cambia de número o deja el grupo, se pierde la historia y los contactos. |\n| | **Expone datos:** los números de todos quedan a la vista, incluidos los de menores, y cualquiera puede reenviar lo que se escribe. |\n| | **No sirve para confirmar ni contar:** saber quién va, quién pagó o quién trae qué exige revisar mensaje por mensaje. |\n\n**La conclusión no es dejar WhatsApp,** sino **usarlo para lo que sirve:** avisos breves, recordatorios con enlace, urgencias y cercanía. Lo que debe durar y ordenarse (fechas, inscripciones, confirmaciones, tareas, acuerdos, documentos y consultas de las familias) conviene llevarlo a las herramientas de la comunidad: una agenda, una app, un tablero de tareas o una carpeta compartida. Y si hay menores en los grupos, sigan las orientaciones de buen trato y prevención de su comunidad."
+    },
+    {
      "title": "Menos cadenas, más herramientas",
      "body": "Buena parte de los mensajes de un grupo existen porque la información no está en un lugar fijo: «¿a qué hora era?», «¿dónde es?», «¿quién va?». Cuando la comunidad usa sus herramientas, esos mensajes desaparecen:\n\n- **Las fechas, en la agenda oficial** de la comunidad, no solo en el chat. El mensaje del grupo puede ser un recordatorio breve con el enlace.\n- **La asistencia, confirmada en la herramienta** cuando lo permite, para que el equipo vea quién va sin tener que preguntar uno por uno.\n- **Las tareas del equipo, en el tablero de coordinación,** con responsable y plazo, en vez de pedidos sueltos que se pierden.\n- **Las consultas de las familias, en un buzón o canal oficial,** para que no dependan del teléfono personal de un dirigente.\n\nFomentar el uso de las herramientas propias de la comunidad no es burocracia: es cuidar el tiempo de todos."
     },
@@ -399,7 +403,8 @@
     "¿Qué tipo de mensajes te hacen perder más tiempo?",
     "¿Tu grupo tiene normas? ¿Se respetan?",
     "¿Respondes a tiempo cuando alguien espera tu confirmación?",
-    "¿Cómo cuidas el descanso de quienes coordinan?"
+    "¿Cómo cuidas el descanso de quienes coordinan?",
+    "Si tu grupo se organiza solo por WhatsApp, ¿qué ventajas quieres conservar y qué problemas quieres resolver?"
    ],
    "activity": "En grupos, reescriban tres mensajes reales (o inventados) que hayan generado confusión, para que sean completos a la primera. Luego redacten las normas del grupo de WhatsApp de su comunidad (máximo seis) y el mensaje con que las propondrían al grupo.",
    "practica": [
@@ -610,6 +615,16 @@
    ],
    "correct": 1,
    "feedback": "Un mensaje completo a la primera ahorra muchos mensajes después."
+  },
+  {
+   "q": "¿Para qué conviene usar los grupos de WhatsApp en la pastoral?",
+   "options": [
+    "Para todo: fechas, inscripciones, tareas y documentos.",
+    "Para avisos breves, recordatorios, urgencias y cercanía; lo que debe durar y ordenarse va en las herramientas de la comunidad.",
+    "Para nada: hay que prohibirlos."
+   ],
+   "correct": 1,
+   "feedback": "WhatsApp es inmediato y cercano, pero la información se entierra y los compromisos se diluyen; se complementa con agenda, app, tablero y carpeta compartida."
   },
   {
    "q": "¿Por qué conviene usar la agenda o la app oficial de la comunidad?",

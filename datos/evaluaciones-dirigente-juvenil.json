@@ -647,6 +647,16 @@
     "explicacion": "Un mensaje completo a la primera ahorra muchos mensajes después."
    },
    {
+    "pregunta": "¿Para qué conviene usar los grupos de WhatsApp en la pastoral?",
+    "opciones": [
+     "Para todo: fechas, inscripciones, tareas y documentos.",
+     "Para avisos breves, recordatorios, urgencias y cercanía; lo que debe durar y ordenarse va en las herramientas de la comunidad.",
+     "Para nada: hay que prohibirlos."
+    ],
+    "correcta": 1,
+    "explicacion": "WhatsApp es inmediato y cercano, pero la información se entierra y los compromisos se diluyen; se complementa con agenda, app, tablero y carpeta compartida."
+   },
+   {
     "pregunta": "¿Por qué conviene usar la agenda o la app oficial de la comunidad?",
     "opciones": [
      "Porque así la información está en un solo lugar, actualizada, y se necesitan menos mensajes.",
