@@ -32,7 +32,7 @@ const oyentes = [];
 const avisar = () => oyentes.forEach((f) => { try { f(); } catch (e) { console.warn(e); } });
 
 // Claves locales que se sincronizan y a qué documento van.
-const CLAVES_AVANCE = /^(hechas|eval):/;
+const CLAVES_AVANCE = /^(hechas|eval|plazo):/;
 const CLAVES_NOTAS = /^(bitacora|plantilla|tareas):/;
 
 function estado() {
@@ -450,6 +450,20 @@ async function responderSoporte(id, cambios) {
   await conTiempo(fb.updateDoc(fb.doc(db, "soporte", id), { ...cambios, ...extra }));
 }
 
+/* ---------- plazos de inscripción ---------- */
+// La propia persona puede dejar formaciones vencidas (solo quitar, nunca agregar ni cambiar fechas).
+async function ajustarMisCursos(quitarCursos, quitarVencidos) {
+  if (!usuario || !cuenta) return;
+  const quitar = quitarCursos || [], limpiar = quitarVencidos || [];
+  const ins = { ...(cuenta.inscripciones || {}) }; quitar.forEach((c) => { delete ins[c]; });
+  const ven = { ...(cuenta.vencidos || {}) }; limpiar.forEach((c) => { delete ven[c]; });
+  const cambios = { cursos: (cuenta.cursos || []).filter((c) => !quitar.includes(c)), inscripciones: ins, vencidos: ven };
+  await conTiempo(fb.updateDoc(fb.doc(db, "usuarios", usuario.uid), cambios));
+  Object.assign(cuenta, cambios);
+  latido();
+  avisar();
+}
+
 function nuevoFolio() {
   const letras = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
   let r = "";
@@ -528,4 +542,5 @@ window.Nube = {
   misSoportes,
   todosSoportes,
   responderSoporte,
+  ajustarMisCursos,
 };

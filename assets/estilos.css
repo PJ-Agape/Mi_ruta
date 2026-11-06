@@ -731,3 +731,11 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .filtros-soporte { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .8rem; }
 .reportar { text-align: center; font-size: .85rem; margin: 1rem 0; }
 .pie-enlaces a { color: inherit; }
+
+/* Plazos de inscripción */
+.alerta-plazo { background: #fde7dc; color: #7a2d0f; border-left: 4px solid var(--acento); border-radius: 12px; padding: .7rem 1rem; margin: .6rem 0; font-size: .92rem; }
+.alerta-plazo.empezar { background: #e1ebfb; color: #12357a; border-left-color: var(--primario); }
+.alerta-plazo .regresiva { font-weight: 800; white-space: nowrap; }
+.linea-plazo { font-size: .88rem; color: var(--tinta-suave); margin: .4rem 0 .8rem; }
+.avisos-plazo ul { margin: .4rem 0 .8rem; padding-left: 1.2rem; }
+.avisos-plazo li { margin: .3rem 0; }

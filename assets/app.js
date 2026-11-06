@@ -91,7 +91,7 @@
       ingresar: ["Ingresa para comenzar", "Crea tu cuenta o ingresa para inscribirte y guardar tu avance en todos tus dispositivos.", '<a class="boton principal" href="#/ingresar">Ingresar o crear cuenta</a>'],
       pendiente: ["Tu cuenta está en revisión", "Un relator o administrador debe aprobar tu cuenta. Mientras tanto, puedes solicitar la inscripción en este curso.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
       pausado: ["Tu cuenta está en pausa", "Conversa con tu relator o con la coordinación de Mi Ruta.", ""],
-      solicitar: ["Inscríbete en este curso", "Al solicitar la inscripción, un relator la revisará y te habilitará el curso.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
+      solicitar: ["Inscríbete en este curso", "Al solicitar la inscripción, un relator la revisará y te habilitará el curso. Desde que te habiliten tendrás 1 semana para empezar y 2 meses para completar" + (curso.modulos && curso.modulos.length > 1 ? " cada módulo (contados desde que lo empiezas)" : " la formación") + "; si no, la inscripción se anula y se pierde el avance.", '<button class="boton principal" data-solicitar="' + esc(curso.id) + '">Solicitar inscripción</button>'],
       solicitado: ["Inscripción solicitada", "Tu solicitud está en revisión. Te habilitaremos el curso apenas sea aprobada.", ""],
       error: ["No pudimos verificar tu cuenta", "Revisa tu conexión y vuelve a intentar.", '<a class="boton" href="#/perfil">Ver mi cuenta</a>'],
     }[tipo];
@@ -171,6 +171,12 @@
     var lista = almacen.leer("hechas:todo", []).filter(function (x) { return x !== claseId; });
     if (valor) lista.push(claseId);
     almacen.guardar("hechas:todo", lista);
+    // En cursos de varios módulos, el plazo de 2 meses de cada módulo corre desde su primera sesión.
+    var c = cursos[cursoId];
+    if (valor && c && c.modulos.length > 1) {
+      var m = c.clases.filter(function (cl) { return cl.id === claseId; }).map(function (cl) { return cl.modulo; })[0];
+      if (m && !almacen.leer("plazo:" + cursoId + ":" + m.id, null)) almacen.guardar("plazo:" + cursoId + ":" + m.id, new Date().toISOString());
+    }
   }
 
   // Un curso se completa con todos sus módulos obligatorios y la cantidad de optativos
@@ -191,6 +197,143 @@
   }
   function progreso(curso) { return progresoCon(curso, hechas(curso.id)); }
   function moduloCompleto(m, h) { return m.clases.every(function (c) { return h.indexOf(c.id) >= 0; }); }
+
+  /* ---------- plazos: 1 semana para empezar, 2 meses para completar ---------- */
+  // Formaciones de un módulo: 2 meses desde la inscripción. Cursos de varios módulos: 2 meses por módulo,
+  // desde que la persona empieza ese módulo. Quienes ya estaban inscritos al entrar la regla cuentan desde esa fecha.
+  var REGLA_DESDE = "2026-11-06T12:00:00-03:00";
+  var DIA = 86400000, SEMANA = 7 * DIA;
+  function masMeses(iso, n) { var d = new Date(iso); d.setMonth(d.getMonth() + n); return d.toISOString(); }
+  function maxIso(a, b) { return !a ? b : !b ? a : (a > b ? a : b); }
+  function aplicaPlazos(c) {
+    var e = cuentaActual();
+    return !!(Nube.habilitada && e.activo && !e.esRelator && c && !esPropedeutico(c) && (e.cuenta.cursos || []).indexOf(c.id) >= 0);
+  }
+  function fechaInscripcion(c) {
+    var ins = (cuentaActual().cuenta.inscripciones || {})[c.id];
+    return maxIso(ins, new Date(REGLA_DESDE).toISOString());
+  }
+  // Estado de plazos de una formación para la persona: «empezar», «completo», o vencimientos por módulo.
+  function plazosDe(c) {
+    if (!aplicaPlazos(c)) return null;
+    var h = hechas(c.id), ins = fechaInscripcion(c);
+    var p = progresoCon(c, h);
+    if (p.total && p.hechas >= p.total) return { estado: "completo" };
+    var empezado = c.clases.some(function (cl) { return h.indexOf(cl.id) >= 0; });
+    // Si un módulo venció y se reinició, la semana para (re)comenzar corre desde ese reinicio.
+    if (!empezado) { ins = maxIso(ins, almacen.leer("plazo:" + c.id + ":reinicio", null)); return { estado: "empezar", limite: new Date(new Date(ins).getTime() + SEMANA).toISOString(), inscripcion: ins }; }
+    if (c.modulos.length <= 1) return { estado: "curso", modulos: [{ m: c.modulos[0], inicio: ins, vence: masMeses(ins, 2) }] };
+    var mods = [];
+    c.modulos.forEach(function (m) {
+      if (moduloCompleto(m, h)) return;
+      var inicio = almacen.leer("plazo:" + c.id + ":" + m.id, null);
+      var tiene = m.clases.some(function (cl) { return h.indexOf(cl.id) >= 0; });
+      if (!inicio && tiene) inicio = maxIso(ins, new Date(REGLA_DESDE).toISOString());
+      if (inicio) mods.push({ m: m, inicio: inicio, vence: masMeses(inicio, 2) });
+    });
+    return { estado: "curso", modulos: mods };
+  }
+  function cuentaRegresiva(iso) {
+    var ms = new Date(iso).getTime() - Date.now();
+    if (ms <= 0) return "unos instantes";
+    var d = Math.floor(ms / DIA), hh = Math.floor(ms % DIA / 3600000), mm = Math.floor(ms % 3600000 / 60000);
+    var partes = [];
+    if (d) partes.push(d + (d === 1 ? " día" : " días"));
+    if (hh || d) partes.push(hh + (hh === 1 ? " hora" : " horas"));
+    partes.push(mm + (mm === 1 ? " minuto" : " minutos"));
+    return partes.length > 1 ? partes.slice(0, -1).join(", ") + " y " + partes[partes.length - 1] : partes[0];
+  }
+  // Avisos de una formación: para empezar (desde el primer día) y de vencimiento (la última semana).
+  function avisosPlazo(c, conTitulo) {
+    var pl = plazosDe(c);
+    if (!pl || pl.estado === "completo") return "";
+    var nombre = conTitulo ? " <b>" + esc(c.titulo) + "</b>" : "";
+    if (pl.estado === "empezar") {
+      return '<div class="alerta-plazo empezar" data-hasta="' + esc(pl.limite) + '"><b>Empieza a tiempo:</b> si no completas tu primera sesión' + (conTitulo ? " de" + nombre : "") +
+        ' dentro de <span class="regresiva">' + cuentaRegresiva(pl.limite) + "</span>, se anulará tu inscripción.</div>";
+    }
+    return pl.modulos.filter(function (x) { return new Date(x.vence).getTime() - Date.now() <= SEMANA; }).map(function (x) {
+      var esCurso = c.modulos.length <= 1;
+      return '<div class="alerta-plazo" data-hasta="' + esc(x.vence) + '">' + (esCurso ? "Tu curso" + nombre : "El " + esc(etiquetaModulo(x.m).toLowerCase()) + " «" + esc(x.m.titulo) + "»" + (conTitulo ? " de" + nombre : "")) +
+        ' quedará desactivado y perderás tu avance dentro de <span class="regresiva">' + cuentaRegresiva(x.vence) + "</span>.</div>";
+    }).join("");
+  }
+  setInterval(function () {
+    document.querySelectorAll(".alerta-plazo[data-hasta] .regresiva").forEach(function (s) {
+      s.textContent = cuentaRegresiva(s.parentNode.getAttribute("data-hasta"));
+    });
+  }, 30000);
+
+  // Borra el avance de las sesiones indicadas (y sus evaluaciones).
+  function borrarAvance(cursoId, clases) {
+    var ids = clases.map(function (cl) { return cl.id; });
+    almacen.guardar("hechas:todo", almacen.leer("hechas:todo", []).filter(function (x) { return ids.indexOf(x) < 0; }));
+    if (almacen.leer("hechas:" + cursoId, null)) almacen.guardar("hechas:" + cursoId, almacen.leer("hechas:" + cursoId, []).filter(function (x) { return ids.indexOf(x) < 0; }));
+    ids.forEach(function (id) { if (almacen.leer("eval:" + cursoId + ":" + id, null)) almacen.guardar("eval:" + cursoId + ":" + id, null); });
+  }
+
+  // Aplica las reglas al ingresar: anula inscripciones no iniciadas, desactiva formaciones vencidas
+  // y reinicia módulos vencidos. Lo hace la propia cuenta; el panel «Acompañar» lo aplica también desde el equipo.
+  var plazosRevisados = 0;
+  function revisarPlazos() {
+    var e = cuentaActual();
+    if (!Nube.habilitada || !e.activo || e.esRelator || !sitio || Date.now() - plazosRevisados < 5 * 60000) return null;
+    plazosRevisados = Date.now();
+    var mis = (e.cuenta.cursos || []).slice();
+    var vencidos = Object.keys(e.cuenta.vencidos || {});
+    return Promise.all(mis.concat(vencidos).filter(function (id, i, a) { return a.indexOf(id) === i && sitio.cursos.indexOf(id) >= 0; }).map(function (id) { return cargarCurso(id).catch(function () { return null; }); }))
+      .then(function (cs) {
+        var quitar = [], limpiar = [], avisos = [];
+        cs.filter(Boolean).forEach(function (c) {
+          if (vencidos.indexOf(c.id) >= 0) { // el equipo la desactivó por vencimiento: se borra el avance
+            borrarAvance(c.id, c.clases); limpiar.push(c.id);
+            if (mis.indexOf(c.id) < 0) avisos.push("Tu inscripción en «" + c.titulo + "» venció y se borró tu avance. Si quieres retomarla, vuelve a solicitarla.");
+            return;
+          }
+          var pl = plazosDe(c);
+          if (!pl || pl.estado === "completo") return;
+          var ahora = Date.now();
+          if (pl.estado === "empezar" && new Date(pl.limite).getTime() < ahora) {
+            quitar.push(c.id);
+            avisos.push("Se anuló tu inscripción en «" + c.titulo + "» porque no comenzaste dentro de la primera semana. Puedes volver a solicitarla cuando quieras.");
+            return;
+          }
+          (pl.modulos || []).forEach(function (x) {
+            if (new Date(x.vence).getTime() >= ahora) return;
+            borrarAvance(c.id, x.m.clases);
+            almacen.guardar("plazo:" + c.id + ":" + x.m.id, null);
+            if (c.modulos.length <= 1) {
+              quitar.push(c.id);
+              avisos.push("Tu curso «" + c.titulo + "» quedó desactivado porque se cumplieron los 2 meses sin completarlo, y se borró tu avance. Puedes volver a solicitarlo.");
+            } else {
+              almacen.guardar("plazo:" + c.id + ":reinicio", new Date(ahora).toISOString());
+              avisos.push("El " + etiquetaModulo(x.m).toLowerCase() + " «" + x.m.titulo + "» de «" + c.titulo + "» venció sin completarse y se borró su avance. Puedes volver a empezarlo: tendrás 2 meses desde tu primera sesión." + (c.clases.some(function (cl) { return almacen.leer("hechas:todo", []).indexOf(cl.id) >= 0; }) ? "" : " Retoma dentro de una semana para no perder la inscripción.") + "");
+            }
+          });
+        });
+        if (avisos.length) {
+          try { sessionStorage.setItem("miruta:avisos-plazo", JSON.stringify(avisos)); } catch (er) { /* sin almacenamiento */ }
+        }
+        if (quitar.length || limpiar.length) return Nube.ajustarMisCursos(quitar, limpiar).catch(function (er) { console.warn("Plazos:", er); });
+      });
+  }
+  // Línea informativa en la página de la formación: hasta cuándo hay plazo.
+  function lineaPlazo(c) {
+    var pl = plazosDe(c);
+    if (!pl || pl.estado === "completo") return "";
+    if (pl.estado === "empezar") return '<p class="linea-plazo">Tienes hasta el <b>' + esc(fechaLarga(pl.limite)) + "</b> para completar tu primera sesión. Después, " + (c.modulos.length > 1 ? "cada módulo tiene 2 meses desde que lo empiezas." : "tendrás 2 meses desde tu inscripción para terminar.") + "</p>";
+    if (!pl.modulos.length) return "";
+    return '<p class="linea-plazo">' + pl.modulos.map(function (x) {
+      return (c.modulos.length > 1 ? esc(etiquetaModulo(x.m)) + ": hasta el " : "Plazo para completar: hasta el ") + "<b>" + esc(fechaLarga(x.vence)) + "</b>";
+    }).join(" · ") + "</p>";
+  }
+  function avisosPendientes() {
+    var xs = [];
+    try { xs = JSON.parse(sessionStorage.getItem("miruta:avisos-plazo") || "[]"); } catch (er) { xs = []; }
+    if (!xs.length) return "";
+    return '<section class="tarjeta avisos-plazo"><h2>Avisos sobre tus plazos</h2><ul>' + xs.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") +
+      '</ul><button class="boton" type="button" id="cerrar-avisos-plazo">Entendido</button></section>';
+  }
 
   function duracionClase(cl) {
     return cl.semana ? "Semana " + cl.semana : (cl.tiempo || "");
@@ -450,6 +593,7 @@
             '<div class="botones"><a class="boton principal" href="#/curso/' + esc(prope.id) + '">' + (pp.hechas ? "Continuar" : "Comenzar") + "</a></div></section>";
         }
       }
+      html += avisosPendientes();
       if (Nube.habilitada && e.status === "pendiente") {
         var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
         html += '<section class="tarjeta acceso-inicio"><h2>Hola, ' + esc(e.cuenta.nombre) + '</h2><p>Tu cuenta está en revisión.</p>' +
@@ -460,7 +604,8 @@
         // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
         var cursados = almacen.leer("cursados", []);
         var mios = lista.filter(function (c) { return (esPropedeutico(c) && progreso(c).hechas >= progreso(c).total) || (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && (cursados.indexOf(c.id) >= 0 || c.tipo !== "curso") && progreso(c).hechas > 0); });
-        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' +
+        var alertas = mios.map(function (c) { return avisosPlazo(c, true); }).join("");
+        html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' + alertas +
           (mios.length ? mios.map(function (c) {
             return '<a class="mi-curso" href="#/curso/' + esc(c.id) + '"><span class="mi-curso-titulo">' + esc(c.titulo) + "</span>" + barraProgreso(progreso(c)) + "</a>";
           }).join("") : '<p class="seccion-bajada">' + (e.esRelator ? "Todavía no comienzas ninguna formación. Como " + (e.esAdmin ? "administrador" : "relator") + " puedes entrar a cualquiera: tu avance quedará aquí." : "Todavía no tienes cursos habilitados. Elige uno y solicita la inscripción.") + "</p>") + "</section>";
@@ -684,6 +829,7 @@
       var tipoAcceso = acceso(c);
       if (tipoAcceso !== "libre") html += '<section class="tarjeta">' + bloqueAcceso(c, tipoAcceso) + "</section>";
       html += pestanasCurso(c, "contenido");
+      html += avisosPlazo(c, false) + lineaPlazo(c);
       html += bloqueAgappe(c);
       var vistoOpt = false;
       // Con varios módulos, cada uno se pliega: se ve el nombre y el avance, y se despliega el listado de sesiones al tocarlo.
@@ -854,7 +1000,7 @@
     var pres = enlacePresentacion(rec.presentacion);
     var hecha = hechas(c.id).indexOf(cl.id) >= 0;
 
-    var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>";
+    var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>" + avisosPlazo(c, false);
     html += '<header class="clase-cabecera"><span class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · " + esc(cl.etiqueta) + "</span>" +
       "<h1>" + esc(cl.titulo) + '</h1><p class="meta">' + esc(duracionClase(cl)) + "</p></header>";
     if (intro) html += '<div class="texto">' + md(intro) + "</div>";
@@ -1808,7 +1954,9 @@
 
   function fechaLarga(iso) {
     var meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
-    var p = String(iso || "").split("-");
+    var t = String(iso || "");
+    if (t.indexOf("T") > 0) { var d = new Date(t); if (!isNaN(d)) t = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+    var p = t.split("-");
     return p.length === 3 ? Number(p[2]) + " de " + meses[Number(p[1]) - 1] + " de " + p[0] : "";
   }
 
@@ -1980,7 +2128,7 @@
                 ? Array.from(li.querySelectorAll(".ficha-elegir input:checked")).map(function (x) { return x.value; })
                 : (u.solicitudes || []);
               var cursosNuevos = Array.from(new Set((u.cursos || []).concat(elegidos)));
-              hecho(Nube.actualizarUsuario(uid, { estado: "activo", cursos: cursosNuevos, solicitudes: [] }));
+              hecho(Nube.actualizarUsuario(uid, Object.assign({ estado: "activo", cursos: cursosNuevos, solicitudes: [] }, fechasInscripcion(u, cursosNuevos))));
             } else if (accion === "descartar") {
               hecho(Nube.actualizarUsuario(uid, { solicitudes: [] }));
             } else if (accion === "pausar") {
@@ -1989,7 +2137,7 @@
               hecho(Nube.actualizarUsuario(uid, { estado: "activo" }));
             } else if (accion === "guardar-cursos") {
               var marcados = Array.from(li.querySelectorAll(".ficha-cursos input:checked")).map(function (x) { return x.value; });
-              hecho(Nube.actualizarUsuario(uid, { cursos: marcados, solicitudes: (u.solicitudes || []).filter(function (s) { return marcados.indexOf(s) < 0; }) }));
+              hecho(Nube.actualizarUsuario(uid, Object.assign({ cursos: marcados, solicitudes: (u.solicitudes || []).filter(function (s) { return marcados.indexOf(s) < 0; }) }, fechasInscripcion(u, marcados))));
             } else if (accion === "rol") {
               hecho(Nube.actualizarUsuario(uid, { rol: b.value }));
             } else if (accion === "avance") {
@@ -2063,16 +2211,52 @@
 
         // Participantes a acompañar: inscritos que no han empezado o que dejaron de avanzar.
         var avPor = {}; avs.forEach(function (a) { avPor[a.uid] = a; });
-        var sinEmpezar = [], detenidos = [];
+        var sinEmpezar = [], detenidos = [], porVencer = [], ajustes = {}, anuladas = 0, desactivadas = 0;
+        var ahora = Date.now(), reglaIso = new Date(REGLA_DESDE).toISOString();
         usuarios.filter(function (u) { return u.estado === "activo" && u.rol === "participante"; }).forEach(function (u) {
           var a = avPor[u.uid] || { datos: {}, actualizado: "" };
+          var h = a.datos["hechas:todo"] || [];
           misCursos.forEach(function (c) {
-            if ((u.cursos || []).indexOf(c.id) < 0) return;
-            var hechas = (a.datos["hechas:" + c.id] || []).length, total = (c.clases || []).length;
-            if (!hechas) sinEmpezar.push({ u: u, c: c, a: a });
-            else if (hechas < total && (diasDesde(a.actualizado) || 0) > DIAS_INACTIVO) detenidos.push({ u: u, c: c, a: a, hechas: hechas, total: total });
+            if ((u.cursos || []).indexOf(c.id) < 0 || esPropedeutico(c)) return;
+            var hc = h.concat(a.datos["hechas:" + c.id] || []);
+            var pr = progresoCon(c, hc);
+            if (pr.total && pr.hechas >= pr.total) return;
+            var ins = maxIso((u.inscripciones || {})[c.id], reglaIso);
+            if (!pr.hechas) {
+              var limite = new Date(maxIso(ins, a.datos["plazo:" + c.id + ":reinicio"])).getTime() + SEMANA;
+              if (limite < ahora) { (ajustes[u.uid] = ajustes[u.uid] || { u: u, quitar: [], vencer: [] }).quitar.push(c.id); anuladas++; }
+              else sinEmpezar.push({ u: u, c: c, a: a, limite: new Date(limite).toISOString() });
+              return;
+            }
+            // Vencimientos: formación de un módulo, desde la inscripción; cursos, cada módulo desde su primera sesión.
+            var vences = [];
+            if (c.modulos.length <= 1) vences.push({ m: null, vence: masMeses(ins, 2) });
+            else c.modulos.forEach(function (m) {
+              if (moduloCompleto(m, hc)) return;
+              var ini = a.datos["plazo:" + c.id + ":" + m.id] || (m.clases.some(function (cl) { return hc.indexOf(cl.id) >= 0; }) ? ins : null);
+              if (ini) vences.push({ m: m, vence: masMeses(ini, 2) });
+            });
+            vences.forEach(function (v) {
+              var t = new Date(v.vence).getTime();
+              if (t < ahora && !v.m) { (ajustes[u.uid] = ajustes[u.uid] || { u: u, quitar: [], vencer: [] }).vencer.push(c.id); desactivadas++; }
+              else if (t - ahora <= SEMANA) porVencer.push({ u: u, c: c, a: a, m: v.m, vence: v.vence });
+            });
+            if (!ajustes[u.uid] || ajustes[u.uid].vencer.indexOf(c.id) < 0) {
+              if ((diasDesde(a.actualizado) || 0) > DIAS_INACTIVO) detenidos.push({ u: u, c: c, a: a, hechas: pr.hechas, total: pr.total });
+            }
           });
         });
+        // Se aplican las reglas: inscripciones sin empezar en 1 semana se anulan; formaciones vencidas se desactivan
+        // (el avance lo borra la cuenta de la persona al ingresar, porque solo ella puede escribirlo).
+        Object.keys(ajustes).forEach(function (uid) {
+          var x = ajustes[uid], quitar = x.quitar.concat(x.vencer);
+          var ins = Object.assign({}, x.u.inscripciones || {}); quitar.forEach(function (c) { delete ins[c]; });
+          var ven = Object.assign({}, x.u.vencidos || {}); x.vencer.forEach(function (c) { ven[c] = new Date().toISOString(); });
+          Nube.actualizarUsuario(uid, { cursos: (x.u.cursos || []).filter(function (c) { return quitar.indexOf(c) < 0; }), inscripciones: ins, vencidos: ven })
+            .catch(function (er) { console.warn("Plazos de " + uid + ":", er); });
+        });
+        porVencer.sort(function (x, y) { return String(x.vence).localeCompare(String(y.vence)); });
+        sinEmpezar.sort(function (x, y) { return String(x.limite).localeCompare(String(y.limite)); });
         detenidos.sort(function (x, y) { return String(x.a.actualizado).localeCompare(String(y.a.actualizado)); });
         var pendientes = usuarios.filter(function (u) { return u.estado === "pendiente" || (u.estado === "activo" && (u.solicitudes || []).length); });
         var sopNuevos = sops.filter(function (x) { return x.estado === "nuevo"; });
@@ -2093,6 +2277,7 @@
             '<a href="#/mensajes" class="acomp-cifra' + (noLeidos.length ? " alerta" : "") + '"><b>' + noLeidos.length + "</b><span>mensajes sin leer</span></a>" +
             '<a href="#/gestion" data-ir="acomp-foro" class="acomp-cifra' + (esperan.length ? " alerta" : "") + '"><b>' + esperan.length + "</b><span>debates o dudas esperan respuesta</span></a>" +
             '<a href="#/gestion" data-ir="acomp-entregas" class="acomp-cifra"><b>' + porEvaluar.length + "</b><span>videos por evaluar</span></a>" +
+            '<a href="#/gestion" data-ir="acomp-vencer" class="acomp-cifra' + (porVencer.length ? " alerta" : "") + '"><b>' + porVencer.length + "</b><span>plazos por vencer esta semana</span></a>" +
             '<a href="#/gestion" data-ir="acomp-detenidos" class="acomp-cifra"><b>' + detenidos.length + "</b><span>participantes detenidos</span></a>" +
             '<a href="#/gestion/cuentas" class="acomp-cifra' + (pendientes.length ? " alerta" : "") + '"><b>' + pendientes.length + "</b><span>solicitudes por revisar</span></a>" +
             (e.esAdmin ? '<a href="#/gestion/sugerencias" class="acomp-cifra' + (sopNuevos.length ? " alerta" : "") + '"><b>' + sopNuevos.length + "</b><span>sugerencias o problemas nuevos</span></a>" : "") +
@@ -2102,6 +2287,7 @@
             "<li><b>Responde los mensajes</b> dentro de 48 horas, aunque sea para decir «lo reviso y te contesto».</li>" +
             "<li><b>Anima el foro:</b> da la bienvenida a cada presentación, responde las dudas del programa y en cada debate devuelve una pregunta que haga pensar más, nombrando a quien escribió.</li>" +
             "<li><b>Orienta:</b> si alguien se detuvo, escríbele con cercanía, pregúntale cómo está y sugiérele el siguiente paso concreto.</li>" +
+            "<li><b>Plazos:</b> cada inscripción tiene 1 semana para empezar y 2 meses para completarse (en los cursos, 2 meses por módulo desde que se empieza). Escribe antes de que venzan: la plataforma anula y desactiva automáticamente.</li>" +
             "<li><b>Evalúa a tiempo</b> los videos finales con la rúbrica, con una retroalimentación breve y alentadora.</li>" +
             "<li><b>Avisa a la administración</b> los problemas de la plataforma o del contenido en <a href=\"#/sugerencias\">Sugerencias y problemas</a>.</li></ul></details>" +
           bloque("acomp-foro", "Debates y dudas que esperan respuesta", esperan.length,
@@ -2114,11 +2300,15 @@
             '<ul class="acomp-lista">' + porEvaluar.map(function (x) {
               return '<li class="acomp-fila"><div><b>' + esc(x.x.nombre || "Participante") + '</b><span class="acomp-meta">' + esc(x.c.titulo) + " · enviado " + haceTexto(x.x.fecha) + '</span></div><a class="boton mini" href="#/curso/' + encodeURIComponent(x.c.id) + '/entregas">Evaluar</a></li>';
             }).join("") + "</ul>", "No hay videos pendientes de evaluación.") +
+          (anuladas || desactivadas ? '<p class="aviso">Se aplicaron las reglas de plazos: ' + [anuladas ? anuladas + (anuladas === 1 ? " inscripción anulada" : " inscripciones anuladas") + " por no empezar en 1 semana" : "", desactivadas ? desactivadas + (desactivadas === 1 ? " formación desactivada" : " formaciones desactivadas") + " por cumplirse los 2 meses" : ""].filter(Boolean).join(" y ") + ".</p>" : "") +
+          bloque("acomp-vencer", "Plazos que vencen en los próximos 7 días", porVencer.length,
+            '<ul class="acomp-lista">' + porVencer.map(function (x) { return filaPersona(x, (x.m ? esc(etiquetaModulo(x.m)) + " · " : "") + "vence el " + esc(fechaLarga(x.vence))); }).join("") + "</ul>",
+            "Nadie tiene un plazo por vencer esta semana.") +
           bloque("acomp-detenidos", "Participantes detenidos (más de " + DIAS_INACTIVO + " días sin avanzar)", detenidos.length,
             '<ul class="acomp-lista">' + detenidos.slice(0, 40).map(function (x) { return filaPersona(x, x.hechas + " de " + x.total + " sesiones · última actividad " + haceTexto(x.a.actualizado)); }).join("") + "</ul>",
             "Todos los que empezaron siguen avanzando.") +
           bloque("acomp-sin", "Inscritos que aún no empiezan", sinEmpezar.length,
-            '<ul class="acomp-lista">' + sinEmpezar.slice(0, 40).map(function (x) { return filaPersona(x, "sin sesiones completadas"); }).join("") + "</ul>" +
+            '<ul class="acomp-lista">' + sinEmpezar.slice(0, 40).map(function (x) { return filaPersona(x, "sin sesiones completadas · se anula el " + esc(fechaLarga(x.limite))); }).join("") + "</ul>" +
             (sinEmpezar.length > 40 ? '<p class="seccion-bajada">Y ' + (sinEmpezar.length - 40) + " más.</p>" : ""),
             "Todos los inscritos ya empezaron.");
         pintar(html, "Gestión");
@@ -2210,6 +2400,17 @@
         });
       });
     }).catch(function (er) { pintar(cab + '<section class="tarjeta"><p class="aviso error">' + esc(er.message) + "</p></section>", "Gestión"); });
+  }
+
+  // Fecha de inscripción de cada curso habilitado (las nuevas, hoy); al reinscribir se olvida un vencimiento anterior.
+  function fechasInscripcion(u, cursosNuevos) {
+    var ins = {}, ven = Object.assign({}, u.vencidos || {}), hoy = new Date().toISOString();
+    cursosNuevos.forEach(function (c) {
+      var nuevo = (u.cursos || []).indexOf(c) < 0;
+      ins[c] = nuevo ? hoy : ((u.inscripciones || {})[c] || hoy);
+      if (nuevo) delete ven[c];
+    });
+    return { inscripciones: ins, vencidos: ven };
   }
 
   function mostrarAvance(caja, u, lista) {
@@ -2368,6 +2569,8 @@
   /* ---------- enrutador ---------- */
 
   function ruta() {
+    var revision = revisarPlazos();
+    if (revision) return revision.then(ruta, ruta);
     var partes = (location.hash.replace(/^#\/?/, "") || "").split("/").filter(Boolean).map(decodeURIComponent);
     var tarea;
     actualizarCabecera();
@@ -2399,6 +2602,12 @@
   });
 
   window.addEventListener("hashchange", ruta);
+  document.addEventListener("click", function (ev) {
+    if (ev.target && ev.target.id === "cerrar-avisos-plazo") {
+      try { sessionStorage.removeItem("miruta:avisos-plazo"); } catch (er) { /* sin almacenamiento */ }
+      var sec = ev.target.closest(".avisos-plazo"); if (sec) sec.remove();
+    }
+  });
 
   // Al ingresar o salir, se vuelve a dibujar la vista. Después de ingresar, se va a la portada.
   Nube.alCambiar(function () {

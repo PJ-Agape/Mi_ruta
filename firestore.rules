@@ -15,6 +15,8 @@ rules_version = '2';
 //   - La agenda de cada formación la ven sus inscritos; la edita el equipo.
 //   - Las cuentas activas ven quiénes participan en cada formación y pueden escribirse mensajes privados.
 //   - El propedéutico «Llamados» está abierto a toda cuenta activa, sin inscripción.
+//   - Plazos: 1 semana para empezar y 2 meses para completar (por módulo en los cursos). La propia
+//     cuenta y el equipo aplican la regla; la persona solo puede quitar cursos vencidos, nunca agregarlos.
 //   - Cualquier cuenta puede enviar sugerencias o reportar problemas; solo la administración las lee y responde.
 
 service cloud.firestore {
@@ -90,9 +92,17 @@ service cloud.firestore {
           && soloCambia(['nombre', 'comunidad', 'solicitudes', 'ultimoIngreso'])
           && textoCorto('nombre', 120) && textoCorto('comunidad', 160)
           && request.resource.data.solicitudes is list && request.resource.data.solicitudes.size() <= 30)
+        // La persona deja formaciones vencidas: solo puede quitar cursos y fechas, nunca agregarlos ni cambiarlos.
+        || (conSesion() && request.auth.uid == uid
+          && soloCambia(['cursos', 'inscripciones', 'vencidos'])
+          && request.resource.data.cursos is list && request.resource.data.cursos.hasOnly(resource.data.cursos)
+          && request.resource.data.get('inscripciones', {}).diff(resource.data.get('inscripciones', {})).addedKeys().size() == 0
+          && request.resource.data.get('inscripciones', {}).diff(resource.data.get('inscripciones', {})).changedKeys().size() == 0
+          && request.resource.data.get('vencidos', {}).diff(resource.data.get('vencidos', {})).addedKeys().size() == 0
+          && request.resource.data.get('vencidos', {}).diff(resource.data.get('vencidos', {})).changedKeys().size() == 0)
         // Un relator aprueba, pausa e inscribe a participantes (no cambia roles ni toca a otros relatores).
         || (esEquipo() && !esAdmin() && resource.data.rol == 'participante'
-          && soloCambia(['estado', 'cursos', 'solicitudes'])
+          && soloCambia(['estado', 'cursos', 'solicitudes', 'inscripciones', 'vencidos'])
           && request.resource.data.estado in ['pendiente', 'activo', 'pausado'])
         // Un administrador puede todo, salvo dejar un rol o estado inválido.
         || (esAdmin()
