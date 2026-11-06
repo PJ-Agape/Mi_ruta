@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Inicial: primeros pasos digitales",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es la medida que más protege una cuenta?",
+    "opciones": [
+     "Cambiar el fondo de pantalla.",
+     "Activar la verificación en dos pasos.",
+     "Usar siempre la misma contraseña."
+    ],
+    "correcta": 1,
+    "explicacion": "La verificación en dos pasos pide un código adicional, además de la contraseña."
+   },
+   {
+    "pregunta": "¿Qué nombre de archivo es más útil para el grupo?",
+    "opciones": [
+     "documento final (2)",
+     "2026-04-12 Programa retiro Semana Santa",
+     "nuevo"
+    ],
+    "correcta": 1,
+    "explicacion": "La fecha en formato año-mes-día y una descripción clara ordenan y ayudan a encontrar."
+   },
+   {
+    "pregunta": "¿Por qué conviene usar estilos de título en un documento?",
+    "opciones": [
+     "Para que el texto se vea de colores.",
+     "Para dar un formato uniforme y poder crear un índice automático.",
+     "Para que el archivo pese menos."
+    ],
+    "correcta": 1,
+    "explicacion": "Los estilos ordenan el documento y permiten cambiar todos los títulos de una vez."
+   },
+   {
+    "pregunta": "¿Qué formato conviene para enviar una invitación terminada?",
+    "opciones": [
+     "PDF.",
+     "Documento editable.",
+     "Una foto de la pantalla."
+    ],
+    "correcta": 0,
+    "explicacion": "El PDF se ve igual en todos los equipos y no se modifica por error."
+   },
+   {
+    "pregunta": "¿Con qué signo empieza toda fórmula en una planilla?",
+    "opciones": [
+     "#",
+     "=",
+     "$"
+    ],
+    "correcta": 1,
+    "explicacion": "Toda fórmula empieza con el signo igual."
+   },
+   {
+    "pregunta": "Con la configuración de Chile, ¿cómo se separan los argumentos de una función?",
+    "opciones": [
+     "Con punto y coma.",
+     "Con punto.",
+     "Con espacio."
+    ],
+    "correcta": 0,
+    "explicacion": "Como la coma se usa para decimales, los argumentos se separan con punto y coma."
+   },
+   {
+    "pregunta": "¿Qué hace un filtro en una planilla?",
+    "opciones": [
+     "Borra las filas que no sirven.",
+     "Muestra solo las filas que cumplen una condición, sin borrar las demás.",
+     "Cambia el color de la tabla."
+    ],
+    "correcta": 1,
+    "explicacion": "Filtrar oculta temporalmente lo que no necesitas ver."
+   },
+   {
+    "pregunta": "¿Cuál es una buena regla para las diapositivas?",
+    "opciones": [
+     "Escribir todo lo que se va a decir.",
+     "Una idea por diapositiva, con letra grande.",
+     "Usar muchas animaciones."
+    ],
+    "correcta": 1,
+    "explicacion": "La presentación acompaña lo que dices; no lo reemplaza."
+   },
+   {
+    "pregunta": "Para escribir a muchas familias que no se conocen entre sí, ¿dónde pones sus direcciones?",
+    "opciones": [
+     "En Para.",
+     "En CC.",
+     "En CCO."
+    ],
+    "correcta": 2,
+    "explicacion": "La copia oculta protege las direcciones de todos."
+   },
+   {
+    "pregunta": "¿Qué permiso das a las familias para que vean un programa sin poder cambiarlo?",
+    "opciones": [
+     "Editor.",
+     "Lector.",
+     "Propietario."
+    ],
+    "correcta": 1,
+    "explicacion": "El lector solo puede ver el archivo."
+   }
+  ]
+ }
+}

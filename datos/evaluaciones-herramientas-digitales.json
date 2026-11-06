@@ -1,0 +1,323 @@
+{
+ "hd-1-cierre": {
+  "titulo": "Cierre del módulo: Inicial: primeros pasos digitales",
+  "aprobacion": 70,
+  "taller": "Kit de una actividad: cada participante prepara, para una actividad real de su grupo, una carpeta compartida con: la invitación en PDF (con estilos, lista e imagen), la planilla de inscritos con SUMA y CONTARA, una presentación de cinco diapositivas y el correo de invitación redactado con CCO y el enlace a la carpeta con permiso de lector. Al final, cada uno muestra su carpeta al grupo y recibe sugerencias.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cuál es la medida que más protege una cuenta?",
+    "opciones": [
+     "Cambiar el fondo de pantalla.",
+     "Activar la verificación en dos pasos.",
+     "Usar siempre la misma contraseña."
+    ],
+    "correcta": 1,
+    "explicacion": "La verificación en dos pasos pide un código adicional, además de la contraseña."
+   },
+   {
+    "pregunta": "¿Qué nombre de archivo es más útil para el grupo?",
+    "opciones": [
+     "documento final (2)",
+     "2026-04-12 Programa retiro Semana Santa",
+     "nuevo"
+    ],
+    "correcta": 1,
+    "explicacion": "La fecha en formato año-mes-día y una descripción clara ordenan y ayudan a encontrar."
+   },
+   {
+    "pregunta": "¿Por qué conviene usar estilos de título en un documento?",
+    "opciones": [
+     "Para que el texto se vea de colores.",
+     "Para dar un formato uniforme y poder crear un índice automático.",
+     "Para que el archivo pese menos."
+    ],
+    "correcta": 1,
+    "explicacion": "Los estilos ordenan el documento y permiten cambiar todos los títulos de una vez."
+   },
+   {
+    "pregunta": "¿Qué formato conviene para enviar una invitación terminada?",
+    "opciones": [
+     "PDF.",
+     "Documento editable.",
+     "Una foto de la pantalla."
+    ],
+    "correcta": 0,
+    "explicacion": "El PDF se ve igual en todos los equipos y no se modifica por error."
+   },
+   {
+    "pregunta": "¿Con qué signo empieza toda fórmula en una planilla?",
+    "opciones": [
+     "#",
+     "=",
+     "$"
+    ],
+    "correcta": 1,
+    "explicacion": "Toda fórmula empieza con el signo igual."
+   },
+   {
+    "pregunta": "Con la configuración de Chile, ¿cómo se separan los argumentos de una función?",
+    "opciones": [
+     "Con punto y coma.",
+     "Con punto.",
+     "Con espacio."
+    ],
+    "correcta": 0,
+    "explicacion": "Como la coma se usa para decimales, los argumentos se separan con punto y coma."
+   },
+   {
+    "pregunta": "¿Qué hace un filtro en una planilla?",
+    "opciones": [
+     "Borra las filas que no sirven.",
+     "Muestra solo las filas que cumplen una condición, sin borrar las demás.",
+     "Cambia el color de la tabla."
+    ],
+    "correcta": 1,
+    "explicacion": "Filtrar oculta temporalmente lo que no necesitas ver."
+   },
+   {
+    "pregunta": "¿Cuál es una buena regla para las diapositivas?",
+    "opciones": [
+     "Escribir todo lo que se va a decir.",
+     "Una idea por diapositiva, con letra grande.",
+     "Usar muchas animaciones."
+    ],
+    "correcta": 1,
+    "explicacion": "La presentación acompaña lo que dices; no lo reemplaza."
+   },
+   {
+    "pregunta": "Para escribir a muchas familias que no se conocen entre sí, ¿dónde pones sus direcciones?",
+    "opciones": [
+     "En Para.",
+     "En CC.",
+     "En CCO."
+    ],
+    "correcta": 2,
+    "explicacion": "La copia oculta protege las direcciones de todos."
+   },
+   {
+    "pregunta": "¿Qué permiso das a las familias para que vean un programa sin poder cambiarlo?",
+    "opciones": [
+     "Editor.",
+     "Lector.",
+     "Propietario."
+    ],
+    "correcta": 1,
+    "explicacion": "El lector solo puede ver el archivo."
+   }
+  ]
+ },
+ "hd-2-cierre": {
+  "titulo": "Cierre del módulo: Intermedio: colaborar y organizar",
+  "aprobacion": 70,
+  "taller": "Organizar una jornada de punta a punta: cada grupo planifica una jornada real de su pastoral usando todo el nivel. Crean el formulario de inscripción (solo con los datos necesarios) vinculado a una planilla con conteo de inscritos, pagos con lista desplegable y formato condicional; el programa en un documento colaborativo revisado en modo sugerencia; el evento en el calendario compartido con videollamada para la reunión de preparación; y el acta con acuerdos, responsables y plazos. Presentan el resultado al grupo.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué modo de Google Documentos permite proponer cambios sin modificar el texto directamente?",
+    "opciones": [
+     "Edición.",
+     "Sugerencia.",
+     "Visualización."
+    ],
+    "correcta": 1,
+    "explicacion": "En modo sugerencia los cambios quedan marcados para que el autor los acepte o rechace."
+   },
+   {
+    "pregunta": "¿Cuál es su equivalente en Word?",
+    "opciones": [
+     "Control de cambios.",
+     "Combinación de correspondencia.",
+     "Formato condicional."
+    ],
+    "correcta": 0,
+    "explicacion": "Revisar > Control de cambios funciona igual."
+   },
+   {
+    "pregunta": "¿Para qué sirve escribir @ y un nombre en un comentario?",
+    "opciones": [
+     "Para borrar el comentario.",
+     "Para avisar a esa persona.",
+     "Para cambiar el permiso del archivo."
+    ],
+    "correcta": 1,
+    "explicacion": "La mención envía una notificación a la persona."
+   },
+   {
+    "pregunta": "¿Cómo se envían las respuestas de un formulario de Google a una planilla?",
+    "opciones": [
+     "Copiándolas a mano.",
+     "Con «Vincular con Hojas de cálculo» en la pestaña Respuestas.",
+     "Imprimiendo el formulario."
+    ],
+    "correcta": 1,
+    "explicacion": "Así las respuestas llegan ordenadas a una planilla."
+   },
+   {
+    "pregunta": "¿Qué datos conviene pedir en un formulario?",
+    "opciones": [
+     "Todos los que se pueda, por si acaso.",
+     "Solo los necesarios para la actividad.",
+     "Siempre el RUT y la dirección."
+    ],
+    "correcta": 1,
+    "explicacion": "Pedir solo lo necesario protege a las personas y facilita el cuidado de los datos."
+   },
+   {
+    "pregunta": "¿Qué hace la fórmula =CONTAR.SI(D2:D40;\"Pagado\")?",
+    "opciones": [
+     "Suma los montos pagados.",
+     "Cuenta cuántas celdas dicen «Pagado».",
+     "Borra los pagados."
+    ],
+    "correcta": 1,
+    "explicacion": "CONTAR.SI cuenta las celdas que cumplen una condición."
+   },
+   {
+    "pregunta": "¿Qué indica $F$1 en una fórmula?",
+    "opciones": [
+     "Un monto en dólares.",
+     "Una referencia absoluta que no cambia al copiar.",
+     "Un error."
+    ],
+    "correcta": 1,
+    "explicacion": "Los signos de dólar fijan la celda al copiar la fórmula."
+   },
+   {
+    "pregunta": "¿Para qué sirve la validación de datos con lista desplegable?",
+    "opciones": [
+     "Para que los datos se escriban de manera uniforme.",
+     "Para proteger la planilla con contraseña.",
+     "Para imprimir la planilla."
+    ],
+    "correcta": 0,
+    "explicacion": "Así todos eligen entre las mismas opciones y las fórmulas funcionan."
+   },
+   {
+    "pregunta": "¿Qué se necesita para crear un índice automático?",
+    "opciones": [
+     "Escribir los números de página a mano.",
+     "Usar estilos de título.",
+     "Una plantilla de Excel."
+    ],
+    "correcta": 1,
+    "explicacion": "El índice se genera a partir de los estilos de título."
+   },
+   {
+    "pregunta": "¿Qué es lo más importante de un acta de reunión?",
+    "opciones": [
+     "La lista de quienes llegaron tarde.",
+     "Los acuerdos, con responsable y plazo.",
+     "El color del documento."
+    ],
+    "correcta": 1,
+    "explicacion": "Sin responsable y plazo, los acuerdos no se cumplen."
+   }
+  ]
+ },
+ "hd-3-cierre": {
+  "titulo": "Cierre del módulo: Avanzado: gestionar, analizar y automatizar",
+  "aprobacion": 70,
+  "taller": "Proyecto final: el sistema digital de la pastoral. Cada grupo diseña y presenta un sistema para su pastoral real que incluya: estructura de carpetas institucional con roles de acceso; planilla maestra de participantes con una vista filtrada por comunidad; un tablero con tabla dinámica y un gráfico con conclusión; una automatización documentada; una plantilla con la identidad del grupo revisada en accesibilidad; y el documento de traspaso. La presentación dura diez minutos y termina con tres decisiones pastorales que los datos les ayudaron a tomar.",
+  "preguntas": [
+   {
+    "pregunta": "¿Para qué sirve una tabla dinámica?",
+    "opciones": [
+     "Para resumir y agrupar muchos datos en una tabla configurable.",
+     "Para escribir con letras animadas.",
+     "Para proteger la planilla."
+    ],
+    "correcta": 0,
+    "explicacion": "La tabla dinámica resume miles de filas en segundos."
+   },
+   {
+    "pregunta": "En =BUSCARV(A2;Inscritos!A:D;3;FALSO), ¿qué significa FALSO?",
+    "opciones": [
+     "Que la fórmula está mala.",
+     "Que busque la coincidencia exacta.",
+     "Que devuelva un valor vacío."
+    ],
+    "correcta": 1,
+    "explicacion": "FALSO pide coincidencia exacta del valor buscado."
+   },
+   {
+    "pregunta": "¿Qué gráfico conviene para mostrar la asistencia mes a mes?",
+    "opciones": [
+     "Circular.",
+     "De líneas.",
+     "Ninguno."
+    ],
+    "correcta": 1,
+    "explicacion": "Las líneas muestran la evolución en el tiempo."
+   },
+   {
+    "pregunta": "¿Qué significa el principio de «una sola fuente de verdad»?",
+    "opciones": [
+     "Que cada dato se escribe en un solo lugar y las demás planillas leen desde ahí.",
+     "Que solo una persona puede usar la planilla.",
+     "Que se imprime una sola copia."
+    ],
+    "correcta": 0,
+    "explicacion": "Así, al corregir un dato, se corrige en todas partes."
+   },
+   {
+    "pregunta": "¿Qué función de Hojas de cálculo de Google trae datos de otra planilla?",
+    "opciones": [
+     "IMPORTRANGE.",
+     "SUMA.",
+     "CONTAR.SI."
+    ],
+    "correcta": 0,
+    "explicacion": "IMPORTRANGE conecta planillas sin copiar los datos."
+   },
+   {
+    "pregunta": "¿Cuál es una buena candidata para automatizar?",
+    "opciones": [
+     "Una conversación difícil con un joven.",
+     "Un aviso por correo cada vez que llega una inscripción.",
+     "Una carta de condolencias."
+    ],
+    "correcta": 1,
+    "explicacion": "Se automatiza lo repetitivo y sin criterio; lo personal, nunca."
+   },
+   {
+    "pregunta": "¿Qué precaución es importante con los scripts copiados de internet?",
+    "opciones": [
+     "Ejecutarlos de inmediato.",
+     "Entender qué hacen y qué permisos piden antes de autorizarlos.",
+     "Compartirlos con todos."
+    ],
+    "correcta": 1,
+    "explicacion": "Al autorizar un script, le das acceso a tu correo y tus archivos."
+   },
+   {
+    "pregunta": "¿Para qué sirve el texto alternativo de una imagen?",
+    "opciones": [
+     "Para que la imagen pese menos.",
+     "Para que los lectores de pantalla describan la imagen.",
+     "Para cambiarle el color."
+    ],
+    "correcta": 1,
+    "explicacion": "Así las personas con discapacidad visual acceden al contenido."
+   },
+   {
+    "pregunta": "¿De quién deberían ser los archivos de la pastoral?",
+    "opciones": [
+     "Del dirigente que los creó.",
+     "De la comunidad, en un espacio institucional.",
+     "De quien tenga el mejor computador."
+    ],
+    "correcta": 1,
+    "explicacion": "Los archivos son de la comunidad, no de una persona."
+   },
+   {
+    "pregunta": "¿Qué debe hacer un dirigente antes de dejar su servicio?",
+    "opciones": [
+     "Borrar sus archivos.",
+     "Transferir la propiedad de los archivos y dejar un documento de traspaso.",
+     "Cambiar la contraseña del grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Así la comunidad no pierde su memoria ni su información."
+   }
+  ]
+ }
+}

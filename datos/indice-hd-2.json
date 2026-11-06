@@ -1,0 +1,61 @@
+{
+ "curso": "hd-2",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Intermedio: colaborar y organizar",
+   "semanas": "",
+   "intro": "Con el nivel 1 aprobado. Aquí la pastoral empieza a trabajar como equipo en la nube: cada sesión resuelve una tarea real de organización.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Trabajar en equipo sobre el mismo archivo",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Formularios de inscripción",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Planillas que calculan por ti",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Documentos con estructura profesional",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Reuniones y agenda compartida",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Intermedio: colaborar y organizar",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}

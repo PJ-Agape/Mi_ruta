@@ -1,0 +1,605 @@
+{
+ "id": "hd-1",
+ "titulo": "Inicial: primeros pasos digitales",
+ "subtitulo": "Cuenta segura, nube ordenada, documentos, planillas, presentaciones y correo",
+ "categoria": "Herramientas",
+ "publico": "Desde 14 años",
+ "descripcion": "El nivel inicial del curso: cuidar tu cuenta y ordenar la nube, escribir documentos claros, crear planillas sencillas, preparar presentaciones que acompañan y comunicarte por correo compartiendo archivos con los permisos correctos. En Microsoft 365 y en Google Workspace.",
+ "modulo": "Inicial: primeros pasos digitales",
+ "intro": "Para empezar desde cero. Cada sesión es práctica: trabajarás con documentos y planillas reales de tu grupo, en Microsoft 365 o en Google Workspace, según lo que use tu comunidad.",
+ "unidades": [
+  {
+   "title": "Tu cuenta y la nube",
+   "objective": "Crear y proteger una cuenta, y ordenar archivos en la nube para que nada importante de la pastoral se pierda.",
+   "intro": "Antes de escribir un documento o armar una planilla, hay que tener dónde guardarlo y cómo encontrarlo. Esta sesión es la base de todo el curso: tu cuenta, su seguridad y una nube ordenada. En cada sesión verás los dos mundos: **Microsoft 365** (Word, Excel, PowerPoint, Outlook, OneDrive, Teams) y **Google Workspace** (Documentos, Hojas de cálculo, Presentaciones, Gmail, Drive, Meet). Trabaja con el que use tu comunidad; si no hay uno definido, cualquiera de los dos sirve: lo importante son las ideas, que valen para ambos.",
+   "comenzar": "Piensa en el último documento importante de tu grupo (una lista, un programa, una canción). ¿Dónde está guardado? ¿Podrías encontrarlo en menos de un minuto? Escríbelo.",
+   "logros": [
+    "Diferenciar las aplicaciones de escritorio, web y del teléfono.",
+    "Proteger una cuenta con una contraseña segura y verificación en dos pasos.",
+    "Crear una estructura de carpetas clara en Drive u OneDrive."
+   ],
+   "sections": [
+    {
+     "title": "Escritorio, web y teléfono",
+     "body": "Las herramientas de oficina existen en tres formas:\n\n- **Aplicaciones de escritorio:** Word, Excel y PowerPoint instalados en el computador. Son las más completas.\n- **Versiones web:** se usan desde el navegador, sin instalar nada: Google Documentos, Hojas de cálculo y Presentaciones, o Word, Excel y PowerPoint en la web. Guardan solas en la nube.\n- **Aplicaciones del teléfono:** útiles para revisar y hacer cambios rápidos.\n\nPara la pastoral, las versiones web suelen ser la mejor opción: son gratuitas con una cuenta, funcionan en cualquier computador y permiten trabajar en equipo."
+    },
+    {
+     "title": "Una cuenta segura",
+     "body": "Tu cuenta de Google o de Microsoft guarda correos, documentos y, a veces, datos de otras personas. Cuídala:\n\n- **Contraseña larga:** mejor una frase de varias palabras que una palabra corta con símbolos. No la reutilices en otros sitios.\n- **Verificación en dos pasos:** además de la contraseña, pide un código en el teléfono. Se activa en la configuración de seguridad de la cuenta y es la medida que más protege.\n- **No compartas tu contraseña,** ni siquiera con el asesor. Para trabajar en equipo se comparten archivos, no cuentas.\n- **Cierra sesión** en computadores de la parroquia o de otras personas."
+    },
+    {
+     "title": "La nube: Drive y OneDrive",
+     "body": "**Google Drive** y **OneDrive** guardan tus archivos en internet. Puedes abrirlos desde cualquier lugar y no se pierden si se echa a perder el computador.\n\nTres hábitos que ahorran horas:\n\n1. **Carpetas por tema y año:** por ejemplo, «Pastoral juvenil 2026», y dentro «Encuentros», «Retiros», «Tesorería», «Cantos».\n2. **Nombres que se entiendan:** «2026-04-12 Programa retiro Semana Santa» en vez de «documento final final (2)». Poner la fecha al inicio, en formato año-mes-día, ordena todo automáticamente.\n3. **Un solo original:** en vez de enviar copias por correo o WhatsApp, guarda el archivo en la carpeta y comparte el enlace."
+    },
+    {
+     "title": "Formatos que vas a encontrar",
+     "body": "- **.docx** (Word) y documentos de Google: textos.\n- **.xlsx** (Excel) y hojas de cálculo de Google: tablas y cálculos.\n- **.pptx** (PowerPoint) y presentaciones de Google: diapositivas.\n- **.pdf:** documento final que se ve igual en todos los equipos y no se modifica fácilmente. Ideal para enviar programas, invitaciones o autorizaciones.\n\nGoogle abre y guarda archivos de Office, y Office abre los de Google si los descargas en formato de Office. Desde cualquier programa puedes **descargar o guardar como PDF**."
+    }
+   ],
+   "caso": {
+    "titulo": "El computador de la parroquia",
+    "texto": "Durante un retiro, Javier revisó su correo en el computador de la parroquia y no cerró sesión. Una semana después, alguien envió desde su cuenta un mensaje de broma a todo el grupo, y también quedaron a la vista las fichas médicas de los participantes que él tenía en su Drive.",
+    "preguntas": [
+     "¿Qué hábitos de seguridad habrían evitado esta situación?",
+     "¿Por qué la seguridad de una cuenta personal es también un tema pastoral?"
+    ]
+   },
+   "claves": [
+    [
+     "Nube",
+     "Servicio que guarda tus archivos en internet para abrirlos desde cualquier dispositivo."
+    ],
+    [
+     "Verificación en dos pasos",
+     "Protección que pide un código adicional, además de la contraseña, para entrar a una cuenta."
+    ],
+    [
+     "PDF",
+     "Formato de documento final que se ve igual en todos los equipos."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 16,10 · Fiel en lo poco",
+    "comment": "Jesús enseña que quien es fiel en lo poco también lo es en lo mucho. Cuidar lo pequeño, como una contraseña o una carpeta ordenada, es parte de cuidar lo que la comunidad nos confía."
+   },
+   "lectio": {
+    "meditar": "¿Qué «cosas pequeñas» de tu servicio tiendes a descuidar?",
+    "orar": "Pide al Señor la fidelidad en los detalles, que también son una forma de amar.",
+    "vivir": "Esta semana, activa la verificación en dos pasos en tu cuenta y ordena una carpeta de tu grupo."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué tan segura es hoy tu cuenta principal? ¿Qué vas a cambiar?",
+    "¿Qué documentos importantes de tu grupo están dispersos en teléfonos o correos?",
+    "¿Qué estructura de carpetas le propondrías a tu equipo?",
+    "¿Quién más debería tener acceso a los archivos del grupo si tú no estás?"
+   ],
+   "activity": "Diseñen juntos, en un papelógrafo, la estructura de carpetas ideal para su grupo (año, áreas, subcarpetas). Después, una persona la crea en Drive u OneDrive y todos verifican que pueden entrar.",
+   "practica": [
+    "Activen la verificación en dos pasos en sus cuentas.",
+    "Dibujen la estructura de carpetas del grupo.",
+    "Créenla en Drive u OneDrive.",
+    "Suban tres documentos con nombres bien escritos."
+   ],
+   "prayer": "Señor, Tú nos confías personas, tiempos y bienes para servir. Ayúdanos a cuidar también lo que no se ve: la información, la privacidad y el orden de lo que hacemos. Que nuestro trabajo bien hecho sea una forma de servir a nuestros hermanos. Amén.",
+   "idea": "Lo que no está guardado y ordenado, para la comunidad no existe.",
+   "profundizar": {
+    "titulo": "Cuentas personales e institucionales",
+    "texto": "Lo ideal es que los archivos importantes de la pastoral (listas, autorizaciones, tesorería) no dependan de la cuenta personal de un dirigente que el próximo año puede cambiarse de ciudad. Si la parroquia tiene una cuenta institucional, úsenla. Si no, creen una carpeta principal cuyo dueño sea el asesor o la coordinación, y compártanla con quienes sirven cada año. En el nivel 3 verás cómo organizar esto a fondo."
+   },
+   "resources": [
+    {
+     "title": "Centro de ayuda de Google Drive",
+     "url": "https://support.google.com/drive",
+     "note": "Guías oficiales para subir, organizar y compartir archivos."
+    },
+    {
+     "title": "Ayuda de OneDrive (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/onedrive",
+     "note": "Guías oficiales de OneDrive en español."
+    }
+   ]
+  },
+  {
+   "title": "Escribir documentos que se entiendan",
+   "objective": "Crear documentos claros y bien presentados en Word o Google Documentos, y compartirlos como PDF.",
+   "intro": "Invitaciones, programas, actas, cartas a los padres: la pastoral escribe mucho. Un documento bien presentado se lee más y se entiende mejor. En esta sesión aprenderás lo básico para que tus textos se vean ordenados sin perder horas en el formato.",
+   "comenzar": "Busca un documento que hayas recibido de tu parroquia o colegio. ¿Qué lo hace fácil o difícil de leer? Anota dos cosas.",
+   "logros": [
+    "Dar formato básico a un texto: fuente, tamaño, negrita, alineación.",
+    "Usar estilos de título y listas.",
+    "Insertar imágenes y exportar a PDF."
+   ],
+   "sections": [
+    {
+     "title": "Lo básico del formato",
+     "body": "En **Word** y en **Google Documentos** las herramientas están arriba, en la barra de herramientas. Lo esencial:\n\n- **Fuente y tamaño:** una fuente legible (como Arial, Calibri o Roboto) en tamaño 11 o 12 para el texto.\n- **Negrita** para destacar lo importante, con moderación. Evita subrayar y escribir todo en mayúsculas: dificulta la lectura.\n- **Alineación:** a la izquierda para textos largos; centrado solo para títulos o invitaciones.\n- **Interlineado:** 1,15 o 1,5 hace que el texto respire."
+    },
+    {
+     "title": "Estilos de título",
+     "body": "En vez de agrandar y poner en negrita cada título a mano, usa los **estilos**: «Título 1», «Título 2», «Normal». En Word están en la pestaña **Inicio**; en Google Documentos, en el menú desplegable que dice «Texto normal».\n\nLos estilos dan un aspecto uniforme, permiten cambiar todos los títulos de una vez y, más adelante, sirven para crear un índice automático."
+    },
+    {
+     "title": "Listas, tablas e imágenes",
+     "body": "- **Listas con viñetas o numeradas:** para pasos, materiales o asistentes. Se crean con los botones de lista; nunca con guiones escritos a mano.\n- **Tablas:** para horarios o responsables (Insertar > Tabla). Mantenlas simples.\n- **Imágenes:** Insertar > Imagen. Usa fotos propias o de bancos con licencia libre, y no publiques fotos de menores sin autorización.\n\nUn truco: si escribes la letra de una canción, deja una línea en blanco entre estrofas en vez de usar muchos espacios."
+    },
+    {
+     "title": "Compartir como PDF",
+     "body": "Cuando el documento está listo para enviarse y no se va a editar, guárdalo como **PDF**:\n\n- En **Google Documentos:** Archivo > Descargar > Documento PDF.\n- En **Word:** Archivo > Guardar como > PDF, o Archivo > Exportar.\n\nEl PDF se ve igual en cualquier teléfono y evita que alguien lo modifique por error. Antes de enviarlo, revisa la ortografía: ambos programas subrayan en rojo las palabras dudosas."
+    }
+   ],
+   "caso": {
+    "titulo": "La invitación ilegible",
+    "texto": "Para el retiro de Pascua, Sofía hizo una invitación con cinco tipos de letra, todo en mayúsculas y colores fluorescentes. La envió como documento editable y un compañero, sin querer, borró la dirección del lugar. Varias familias llegaron tarde.",
+    "preguntas": [
+     "¿Qué errores de formato y de envío cometió Sofía?",
+     "¿Cómo debería haberse preparado y enviado la invitación?"
+    ]
+   },
+   "claves": [
+    [
+     "Estilo",
+     "Formato predefinido (título, subtítulo, texto normal) que se aplica de una vez y mantiene el documento uniforme."
+    ],
+    [
+     "Viñeta",
+     "Símbolo que encabeza cada elemento de una lista."
+    ],
+    [
+     "Exportar",
+     "Guardar un documento en otro formato, como PDF."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 1,1-4 · Escribir con orden",
+    "comment": "Lucas explica que investigó todo cuidadosamente desde el principio y decidió escribirlo de manera ordenada para que Teófilo conociera la solidez de lo que había aprendido. El orden al escribir es un servicio al que lee."
+   },
+   "lectio": {
+    "meditar": "¿Para quién escribes en tu servicio pastoral? ¿Piensas en quien va a leer?",
+    "orar": "Ofrece al Señor tu trabajo de escribir y comunicar.",
+    "vivir": "Esta semana, rehace un documento de tu grupo para que sea claro y ordenado."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué documentos escribe tu grupo con más frecuencia?",
+    "¿Qué hábito de formato vas a incorporar desde hoy?",
+    "¿Por qué crees que un documento claro es una forma de acogida?",
+    "¿Qué documento de tu grupo necesita una plantilla fija?"
+   ],
+   "activity": "Cada participante escribe en Word o Google Documentos una invitación a una actividad del grupo: título con estilo, datos en lista (fecha, hora, lugar, qué llevar), una imagen y la firma del equipo. Luego la exporta como PDF y la comparte con el grupo para comentarla.",
+   "practica": [
+    "Escribe el texto de la invitación.",
+    "Aplica estilos de título y una lista.",
+    "Inserta una imagen con derechos de uso.",
+    "Expórtala como PDF y compártela."
+   ],
+   "prayer": "Señor, Tú eres la Palabra que se hizo carne para comunicarte con nosotros. Que nuestras palabras escritas también sean claras, verdaderas y acogedoras, y ayuden a otros a acercarse a ti. Amén.",
+   "idea": "Un documento claro es una forma de cuidar al que lo lee.",
+   "profundizar": {
+    "titulo": "Menos es más",
+    "texto": "La tentación al empezar es usar muchos colores, letras y efectos. Pero los documentos que mejor comunican usan una o dos fuentes, pocos colores y mucho espacio en blanco. Si tu grupo tiene un logo o colores propios, úsalos siempre igual: eso da identidad."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Google Documentos",
+     "url": "https://support.google.com/docs",
+     "note": "Guías para dar formato, insertar elementos y descargar."
+    },
+    {
+     "title": "Ayuda de Word (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/word",
+     "note": "Tutoriales oficiales de Word en español."
+    }
+   ]
+  },
+  {
+   "title": "Planillas para ordenar al grupo",
+   "objective": "Usar Excel u Hojas de cálculo de Google para registrar datos del grupo y hacer cálculos sencillos.",
+   "intro": "Una planilla es una tabla inteligente: guarda datos, los ordena y hace cálculos por ti. Listas de asistencia, inscritos a un retiro, cuotas, materiales: casi todo lo que la pastoral necesita contar cabe en una planilla.",
+   "comenzar": "Haz una lista rápida de todo lo que tu grupo necesita contar o registrar durante el año (asistencia, cuotas, inscripciones, cumpleaños…).",
+   "logros": [
+    "Reconocer celdas, filas, columnas y hojas.",
+    "Ingresar datos ordenados y darles formato.",
+    "Usar SUMA, ordenar y filtrar."
+   ],
+   "sections": [
+    {
+     "title": "Celdas, filas y columnas",
+     "body": "Una planilla está formada por **columnas** (letras: A, B, C…) y **filas** (números: 1, 2, 3…). Cada cuadro es una **celda** y se nombra por su columna y fila: B3, D10. Un archivo puede tener varias **hojas**, como pestañas abajo.\n\nLa regla de oro: **una fila por persona o registro, una columna por dato**. Primera fila con los títulos (Nombre, Teléfono, Curso, Asistencia), y nada de celdas combinadas ni filas en blanco en medio."
+    },
+    {
+     "title": "Dar formato",
+     "body": "- **Primera fila en negrita** y con color de fondo suave.\n- **Ancho de columna:** doble clic en el borde entre dos letras ajusta el ancho al contenido.\n- **Formato de número:** fecha, moneda o porcentaje (en Excel, pestaña Inicio; en Google, menú Formato > Número).\n- **Inmovilizar la primera fila** para que los títulos se vean al bajar: en Google, Ver > Inmovilizar; en Excel, Vista > Inmovilizar paneles."
+    },
+    {
+     "title": "Primeras fórmulas",
+     "body": "Toda fórmula empieza con el signo **=**. Las más útiles para empezar:\n\n- `=SUMA(C2:C30)` suma los valores de C2 a C30.\n- `=PROMEDIO(C2:C30)` calcula el promedio.\n- `=CONTARA(A2:A30)` cuenta cuántas celdas tienen algo escrito (por ejemplo, cuántos inscritos hay).\n\n**Ojo con el separador:** con la configuración de Chile, las funciones separan sus argumentos con **punto y coma** (;) y los decimales con coma. Si una fórmula da error, revisa eso primero."
+    },
+    {
+     "title": "Ordenar y filtrar",
+     "body": "- **Ordenar:** selecciona la tabla y usa Datos > Ordenar (por apellido, por fecha, por curso).\n- **Filtrar:** Datos > Crear un filtro (Google) o Datos > Filtro (Excel). Aparecen flechas en los títulos para ver, por ejemplo, solo a quienes faltan por pagar.\n\nFiltrar no borra nada: solo oculta temporalmente lo que no necesitas ver."
+    }
+   ],
+   "caso": {
+    "titulo": "La lista en cinco lugares",
+    "texto": "En el grupo de Matías, la lista de inscritos al campamento está en un cuaderno, en dos chats de WhatsApp, en una nota del teléfono del coordinador y en una planilla desactualizada. Nadie sabe con certeza cuántos van ni quién ha pagado.",
+    "preguntas": [
+     "¿Qué problemas puede causar esta situación el día del campamento?",
+     "¿Cómo debería organizarse la información en una sola planilla?"
+    ]
+   },
+   "claves": [
+    [
+     "Celda",
+     "Cuadro de una planilla donde se escribe un dato; se nombra por su columna y fila, como B3."
+    ],
+    [
+     "Fórmula",
+     "Instrucción que empieza con = y calcula un resultado a partir de otras celdas."
+    ],
+    [
+     "Filtro",
+     "Herramienta que muestra solo las filas que cumplen una condición, sin borrar las demás."
+    ]
+   ],
+   "bible": {
+    "ref": "Números 1,1-3 · Contar al pueblo",
+    "comment": "Al inicio del libro de los Números, Dios pide a Moisés hacer un censo del pueblo por familias. Contar no es frialdad: es saber quiénes son, para que nadie quede fuera ni olvidado."
+   },
+   "lectio": {
+    "meditar": "Detrás de cada fila de una lista hay una persona. ¿A quién de tu grupo has dejado de ver?",
+    "orar": "Presenta al Señor a cada persona de tu grupo, por su nombre.",
+    "vivir": "Esta semana, revisa la lista de tu grupo y escribe a alguien que haya dejado de venir."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué información de tu grupo está hoy desordenada?",
+    "¿Qué columnas debería tener la planilla de tu grupo?",
+    "¿Quién debería poder ver esa planilla y quién no?",
+    "¿Cómo puede una lista ayudarte a no olvidar a nadie?"
+   ],
+   "activity": "En parejas, creen una planilla de asistencia del grupo con columnas para nombre, curso o edad, teléfono de contacto y una columna por encuentro del mes. Usen CONTARA para contar inscritos y SUMA para contar asistencias, y prueben ordenar y filtrar.",
+   "practica": [
+    "Escribe los títulos en la primera fila.",
+    "Ingresa al menos diez registros de ejemplo.",
+    "Agrega las fórmulas SUMA y CONTARA.",
+    "Ordena por apellido y filtra a quienes faltaron."
+   ],
+   "prayer": "Señor, Tú conoces a cada una de tus ovejas por su nombre. Que nuestras listas y planillas nos ayuden a no olvidar a nadie, a acompañar mejor y a servir con orden. Amén.",
+   "idea": "Una buena planilla ayuda a que nadie quede fuera.",
+   "profundizar": {
+    "titulo": "Datos personales con cuidado",
+    "texto": "Teléfonos, direcciones, fechas de nacimiento o información médica son **datos personales**. Guarda solo lo necesario, comparte la planilla solo con quienes la necesitan y no la publiques en grupos abiertos. Cuando se trata de menores de edad, el cuidado debe ser aún mayor."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Hojas de cálculo de Google",
+     "url": "https://support.google.com/docs/topic/9054603",
+     "note": "Guías oficiales de fórmulas, formato y filtros."
+    },
+    {
+     "title": "Ayuda de Excel (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/excel",
+     "note": "Tutoriales oficiales de Excel en español."
+    }
+   ]
+  },
+  {
+   "title": "Presentaciones que acompañan",
+   "objective": "Crear presentaciones sencillas y legibles en PowerPoint o Presentaciones de Google para encuentros, cantos y charlas.",
+   "intro": "Una presentación no es un documento en la pared: es un apoyo para lo que se dice. En la pastoral la usamos para encuentros, formaciones, cantos proyectados y reuniones de padres. Bien hecha, ayuda a concentrarse; mal hecha, distrae.",
+   "comenzar": "Recuerda una presentación que te haya aburrido y una que te haya gustado. ¿Qué diferencia había entre ellas? Escribe dos ideas.",
+   "logros": [
+    "Crear diapositivas con un diseño coherente.",
+    "Aplicar la regla de poca letra y una idea por diapositiva.",
+    "Proyectar cantos y presentar con seguridad."
+   ],
+   "sections": [
+    {
+     "title": "Lo básico",
+     "body": "En **PowerPoint** y en **Presentaciones de Google**:\n\n- **Nueva diapositiva:** botón «+» o Inicio > Nueva diapositiva.\n- **Diseño o tema:** elige uno sencillo al inicio y úsalo en toda la presentación.\n- **Diseños de diapositiva:** título, título y contenido, solo imagen. Usarlos mantiene todo alineado.\n- **Presentar:** botón «Presentación» o tecla F5."
+    },
+    {
+     "title": "Una idea por diapositiva",
+     "body": "Los errores más comunes son poner demasiado texto y leerlo en voz alta. Algunas reglas simples:\n\n- **Una idea por diapositiva,** con un título que la resuma.\n- **Pocas palabras:** frases cortas, no párrafos. Lo demás lo dices tú.\n- **Letra grande:** que se lea desde el fondo de la sala (mínimo 24 puntos).\n- **Buen contraste:** letra oscura sobre fondo claro, o al revés. Nunca amarillo sobre blanco.\n- **Imágenes que digan algo,** no de adorno."
+    },
+    {
+     "title": "Proyectar cantos",
+     "body": "Para la misa o los encuentros, proyectar la letra ayuda a que todos canten:\n\n- **Una estrofa por diapositiva,** con el coro en una diapositiva propia que se repite.\n- **Fondo oscuro y letra clara,** grande y sin efectos.\n- **Sin animaciones:** solo distraen.\n- Prueba antes el proyector y lleva la presentación también en un pendrive o descargada en el computador por si falla internet."
+    },
+    {
+     "title": "Presentar con seguridad",
+     "body": "- **Ensaya** al menos una vez con el proyector.\n- Usa el **modo presentador** si tu equipo lo permite: tú ves tus notas y el público solo la diapositiva.\n- Mira a las personas, no a la pantalla.\n- Lleva una diapositiva final con la idea principal o la pregunta para conversar."
+    }
+   ],
+   "caso": {
+    "titulo": "Veinte diapositivas de texto",
+    "texto": "En la reunión de apoderados de la catequesis, el coordinador presentó veinte diapositivas llenas de texto en letra pequeña y las leyó una por una. A los diez minutos, la mitad de los papás estaba mirando el teléfono.",
+    "preguntas": [
+     "¿Qué hizo que la presentación no funcionara?",
+     "¿Cómo la rehacerías en cinco diapositivas?"
+    ]
+   },
+   "claves": [
+    [
+     "Diapositiva",
+     "Cada una de las pantallas de una presentación."
+    ],
+    [
+     "Tema",
+     "Conjunto de colores, fuentes y fondos que da un aspecto uniforme a la presentación."
+    ],
+    [
+     "Modo presentador",
+     "Vista que muestra al expositor sus notas y la próxima diapositiva, mientras el público ve solo la actual."
+    ]
+   ],
+   "bible": {
+    "ref": "Habacuc 2,2 · «Escribe la visión con claridad»",
+    "comment": "Dios le pide al profeta Habacuc escribir la visión y grabarla claramente en tablas, para que pueda leerse con facilidad. Comunicar con claridad es parte del mensaje."
+   },
+   "lectio": {
+    "meditar": "¿Qué mensaje central quieres que tu grupo entienda este año?",
+    "orar": "Pide al Señor claridad para comunicar lo esencial.",
+    "vivir": "Esta semana, resume en una sola frase la idea principal de tu próximo encuentro."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Para qué usa presentaciones tu grupo?",
+    "¿Qué regla de esta sesión te cuesta más cumplir?",
+    "¿Cómo podrías apoyar mejor la oración o los cantos con una presentación?",
+    "¿Qué mensaje te gustaría transmitir en cinco diapositivas?"
+   ],
+   "activity": "Cada participante prepara una presentación de cinco diapositivas para un encuentro de su grupo: portada, tres ideas (una por diapositiva, con imagen) y una pregunta final. Además, una diapositiva con la letra de un canto en formato para proyectar. Luego presentan en dos minutos.",
+   "practica": [
+    "Elige un tema sencillo y aplícalo.",
+    "Crea las cinco diapositivas con una idea cada una.",
+    "Agrega una diapositiva de canto bien proyectable.",
+    "Presenta en dos minutos al grupo."
+   ],
+   "prayer": "Señor, que nuestras imágenes y palabras no te tapen, sino que te muestren. Ayúdanos a comunicar con sencillez, claridad y belleza lo que Tú haces en nuestra comunidad. Amén.",
+   "idea": "La presentación acompaña; el mensaje lo das tú.",
+   "profundizar": {
+    "titulo": "Imágenes y derechos",
+    "texto": "No todas las imágenes de internet se pueden usar libremente. Prefiere fotos propias, bancos de imágenes libres o las que ofrecen los mismos programas (Insertar > Imagen > Imágenes de archivo o de stock). Y no uses fotos de personas, especialmente de menores, sin su autorización."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Presentaciones de Google",
+     "url": "https://support.google.com/docs/topic/9052835",
+     "note": "Guías oficiales para crear y presentar."
+    },
+    {
+     "title": "Ayuda de PowerPoint (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/powerpoint",
+     "note": "Tutoriales oficiales de PowerPoint en español."
+    }
+   ]
+  },
+  {
+   "title": "Correo, calendario y compartir",
+   "objective": "Comunicarse por correo de forma clara y respetuosa, agendar actividades en un calendario y compartir archivos con los permisos correctos.",
+   "intro": "WhatsApp es rápido, pero no reemplaza todo. Para comunicaciones formales con la parroquia, los padres o instituciones, el correo sigue siendo la herramienta. Y para que el equipo trabaje sobre los mismos archivos, hay que aprender a compartir bien.",
+   "comenzar": "Revisa el último correo formal que enviaste o recibiste. ¿Tenía asunto claro? ¿Saludo y despedida? ¿Se entendía qué se pedía?",
+   "logros": [
+    "Redactar un correo formal claro y breve.",
+    "Usar CC y CCO correctamente.",
+    "Compartir archivos con permisos adecuados y crear un evento con invitados."
+   ],
+   "sections": [
+    {
+     "title": "Un buen correo",
+     "body": "En **Gmail** u **Outlook**, un buen correo tiene:\n\n- **Asunto claro:** «Autorización retiro 12 de abril» en vez de «Hola».\n- **Saludo** según la persona: «Estimado padre Juan», «Hola, familias de 1° de confirmación».\n- **Lo importante al principio:** qué necesitas y para cuándo.\n- **Texto breve,** en párrafos cortos.\n- **Despedida y firma** con nombre, servicio y comunidad."
+    },
+    {
+     "title": "Para, CC y CCO",
+     "body": "- **Para:** a quienes va dirigido el correo.\n- **CC (con copia):** quienes deben estar informados. Todos ven estas direcciones.\n- **CCO (con copia oculta):** nadie ve las direcciones de los demás.\n\nCuando escribas a muchas familias o personas que no se conocen entre sí, usa **CCO**: así proteges sus direcciones y evitas que alguien responda a todos por error. En Outlook, el campo CCO a veces hay que activarlo en las opciones del mensaje."
+    },
+    {
+     "title": "Adjuntar o compartir un enlace",
+     "body": "Adjuntar envía una **copia**: si después corriges algo, cada uno queda con una versión distinta. Compartir un **enlace** al archivo en Drive u OneDrive hace que todos vean siempre la versión actual.\n\nAl compartir, elige el permiso:\n\n- **Lector** (o «Puede ver»): solo mira.\n- **Comentarista:** puede dejar comentarios sin cambiar el texto (en Google).\n- **Editor** (o «Puede editar»): puede modificar.\n\nY elige a quién: personas específicas o «cualquier persona con el enlace». Para documentos con datos personales, nunca uses el enlace abierto."
+    },
+    {
+     "title": "El calendario del grupo",
+     "body": "En **Google Calendar** o el calendario de **Outlook** puedes crear un evento con fecha, hora, lugar y descripción, e **invitar** a otras personas con su correo. Ellos lo reciben, confirman asistencia y reciben recordatorios.\n\nTambién puedes crear un **calendario compartido** del grupo, en el que la coordinación agrega las fechas y todos las ven en su teléfono."
+    }
+   ],
+   "caso": {
+    "titulo": "Responder a todos",
+    "texto": "Para avisar del cambio de horario de la catequesis, una catequista envió un correo a ochenta familias poniendo todas las direcciones en «Para». Durante dos días, decenas de personas respondieron a todos con «gracias», «recibido» y preguntas personales, y algunas se molestaron porque su correo quedó a la vista.",
+    "preguntas": [
+     "¿Qué debería haber hecho la catequista?",
+     "¿Qué otros cuidados son importantes al escribir a muchas familias?"
+    ]
+   },
+   "claves": [
+    [
+     "CCO",
+     "Copia oculta: envía el correo sin que los destinatarios vean las direcciones de los demás."
+    ],
+    [
+     "Permiso",
+     "Nivel de acceso que das al compartir un archivo: lector, comentarista o editor."
+    ],
+    [
+     "Evento",
+     "Actividad agendada en un calendario, con fecha, hora, lugar e invitados."
+    ]
+   ],
+   "bible": {
+    "ref": "2 Juan 12 · Más que papel y tinta",
+    "comment": "El autor de la carta dice que tiene muchas cosas que escribir, pero que prefiere no hacerlo con papel y tinta, porque espera ir a verlos y hablar cara a cara. Los medios ayudan, pero el encuentro personal es insustituible."
+   },
+   "lectio": {
+    "meditar": "¿Con quién de tu grupo te comunicas solo por mensajes y deberías encontrarte en persona?",
+    "orar": "Da gracias por los medios que permiten comunicarse, y pide no perder el encuentro.",
+    "vivir": "Esta semana, cambia un mensaje por una conversación en persona o una llamada."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Cómo son hoy los correos que envías? ¿Qué mejorarías?",
+    "¿Por qué es importante proteger las direcciones de las familias?",
+    "¿Qué archivos de tu grupo deberían compartirse con enlace en vez de adjuntarse?",
+    "¿Qué fechas debería tener el calendario de tu grupo?"
+   ],
+   "activity": "En grupos, redacten un correo a las familias del grupo invitando a una actividad, con asunto, saludo, información clara y firma, usando CCO. Adjunten el enlace a la invitación en PDF con permiso de lector. Por último, creen el evento en el calendario e inviten a dos compañeros.",
+   "practica": [
+    "Redacta el correo con asunto claro.",
+    "Pon a los destinatarios en CCO.",
+    "Comparte la invitación con enlace de lector.",
+    "Crea el evento en el calendario con invitados."
+   ],
+   "prayer": "Señor, Tú te comunicas con nosotros con paciencia y cercanía. Que nuestros mensajes sean respetuosos, claros y cuidadosos de la intimidad de cada persona, y que nunca reemplacen el encuentro cara a cara. Amén.",
+   "idea": "Comparte enlaces, no copias; y protege siempre los datos de los demás.",
+   "profundizar": {
+    "titulo": "Correo, chat y videollamada",
+    "texto": "Cada medio sirve para algo distinto. El **chat** es para avisos breves y coordinación rápida. El **correo** es para comunicaciones formales, con documentos o dirigidas a instituciones y familias. La **videollamada** sirve cuando hay que conversar y decidir. Y los temas delicados se tratan **en persona**."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Gmail",
+     "url": "https://support.google.com/mail",
+     "note": "Guías oficiales de Gmail en español."
+    },
+    {
+     "title": "Ayuda de Outlook (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/outlook",
+     "note": "Tutoriales oficiales de Outlook en español."
+    }
+   ]
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Cuál es la medida que más protege una cuenta?",
+   "options": [
+    "Cambiar el fondo de pantalla.",
+    "Activar la verificación en dos pasos.",
+    "Usar siempre la misma contraseña."
+   ],
+   "correct": 1,
+   "feedback": "La verificación en dos pasos pide un código adicional, además de la contraseña."
+  },
+  {
+   "q": "¿Qué nombre de archivo es más útil para el grupo?",
+   "options": [
+    "documento final (2)",
+    "2026-04-12 Programa retiro Semana Santa",
+    "nuevo"
+   ],
+   "correct": 1,
+   "feedback": "La fecha en formato año-mes-día y una descripción clara ordenan y ayudan a encontrar."
+  },
+  {
+   "q": "¿Por qué conviene usar estilos de título en un documento?",
+   "options": [
+    "Para que el texto se vea de colores.",
+    "Para dar un formato uniforme y poder crear un índice automático.",
+    "Para que el archivo pese menos."
+   ],
+   "correct": 1,
+   "feedback": "Los estilos ordenan el documento y permiten cambiar todos los títulos de una vez."
+  },
+  {
+   "q": "¿Qué formato conviene para enviar una invitación terminada?",
+   "options": [
+    "PDF.",
+    "Documento editable.",
+    "Una foto de la pantalla."
+   ],
+   "correct": 0,
+   "feedback": "El PDF se ve igual en todos los equipos y no se modifica por error."
+  },
+  {
+   "q": "¿Con qué signo empieza toda fórmula en una planilla?",
+   "options": [
+    "#",
+    "=",
+    "$"
+   ],
+   "correct": 1,
+   "feedback": "Toda fórmula empieza con el signo igual."
+  },
+  {
+   "q": "Con la configuración de Chile, ¿cómo se separan los argumentos de una función?",
+   "options": [
+    "Con punto y coma.",
+    "Con punto.",
+    "Con espacio."
+   ],
+   "correct": 0,
+   "feedback": "Como la coma se usa para decimales, los argumentos se separan con punto y coma."
+  },
+  {
+   "q": "¿Qué hace un filtro en una planilla?",
+   "options": [
+    "Borra las filas que no sirven.",
+    "Muestra solo las filas que cumplen una condición, sin borrar las demás.",
+    "Cambia el color de la tabla."
+   ],
+   "correct": 1,
+   "feedback": "Filtrar oculta temporalmente lo que no necesitas ver."
+  },
+  {
+   "q": "¿Cuál es una buena regla para las diapositivas?",
+   "options": [
+    "Escribir todo lo que se va a decir.",
+    "Una idea por diapositiva, con letra grande.",
+    "Usar muchas animaciones."
+   ],
+   "correct": 1,
+   "feedback": "La presentación acompaña lo que dices; no lo reemplaza."
+  },
+  {
+   "q": "Para escribir a muchas familias que no se conocen entre sí, ¿dónde pones sus direcciones?",
+   "options": [
+    "En Para.",
+    "En CC.",
+    "En CCO."
+   ],
+   "correct": 2,
+   "feedback": "La copia oculta protege las direcciones de todos."
+  },
+  {
+   "q": "¿Qué permiso das a las familias para que vean un programa sin poder cambiarlo?",
+   "options": [
+    "Editor.",
+    "Lector.",
+    "Propietario."
+   ],
+   "correct": 1,
+   "feedback": "El lector solo puede ver el archivo."
+  }
+ ],
+ "taller": "Kit de una actividad: cada participante prepara, para una actividad real de su grupo, una carpeta compartida con: la invitación en PDF (con estilos, lista e imagen), la planilla de inscritos con SUMA y CONTARA, una presentación de cinco diapositivas y el correo de invitación redactado con CCO y el enlace a la carpeta con permiso de lector. Al final, cada uno muestra su carpeta al grupo y recibe sugerencias."
+}

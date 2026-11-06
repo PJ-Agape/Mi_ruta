@@ -1,0 +1,615 @@
+{
+ "id": "hd-2",
+ "titulo": "Intermedio: colaborar y organizar",
+ "subtitulo": "Trabajo en equipo, formularios, fórmulas, documentos estructurados y reuniones en línea",
+ "categoria": "Herramientas",
+ "publico": "Desde 14 años",
+ "descripcion": "El nivel intermedio: trabajar en equipo sobre los mismos archivos, crear formularios de inscripción cuidando los datos, hacer que las planillas calculen por ti, preparar documentos con estructura profesional y organizar la agenda y las reuniones en línea.",
+ "modulo": "Intermedio: colaborar y organizar",
+ "intro": "Con el nivel 1 aprobado. Aquí la pastoral empieza a trabajar como equipo en la nube: cada sesión resuelve una tarea real de organización.",
+ "unidades": [
+  {
+   "title": "Trabajar en equipo sobre el mismo archivo",
+   "objective": "Colaborar en documentos compartidos con comentarios, sugerencias e historial de versiones.",
+   "intro": "En la pastoral casi nada se hace solo. Las herramientas de la nube permiten que varias personas escriban el mismo documento a la vez, comenten, propongan cambios y recuperen versiones anteriores. Bien usadas, ahorran reuniones y evitan el caos de «¿cuál es la versión final?».",
+   "comenzar": "Piensa en la última vez que tu equipo preparó algo juntos (un programa, un retiro). ¿Cómo se pusieron de acuerdo en el texto? ¿Qué problemas hubo?",
+   "logros": [
+    "Editar un documento al mismo tiempo que otras personas.",
+    "Usar comentarios, menciones y sugerencias de cambio.",
+    "Revisar y restaurar versiones anteriores."
+   ],
+   "sections": [
+    {
+     "title": "Edición simultánea",
+     "body": "En **Google Documentos** y en **Word en la web** (o Word conectado a OneDrive), varias personas pueden escribir a la vez. Cada una aparece con un color o su foto, y los cambios se guardan solos.\n\nPara que funcione:\n\n- Compartan con permiso de **editor** solo a quienes van a escribir.\n- Repartan las partes: «Ana escribe la oración inicial, Pedro la dinámica».\n- No dupliquen el archivo: todos trabajan sobre el mismo enlace."
+    },
+    {
+     "title": "Comentarios y menciones",
+     "body": "Selecciona un texto y usa **Insertar comentario** (o el botón del globo de diálogo). Sirve para preguntar o proponer sin cambiar el texto.\n\nSi escribes **@** y el nombre o correo de alguien dentro del comentario, esa persona recibe un aviso. En Google, además puedes **asignar** el comentario como tarea. Cuando el tema está resuelto, marca el comentario como **resuelto** para que no estorbe."
+    },
+    {
+     "title": "Sugerencias y control de cambios",
+     "body": "Cuando revisas un texto de otra persona, es mejor **proponer** cambios que hacerlos directamente:\n\n- En **Google Documentos**, cambia el modo de «Edición» a **«Sugerencia»** (arriba a la derecha). Tus cambios aparecen en color y el autor los acepta o rechaza.\n- En **Word**, activa **Revisar > Control de cambios**. Funciona igual.\n\nAsí el autor mantiene el control de su texto y el equipo aprende de las correcciones."
+    },
+    {
+     "title": "Historial de versiones",
+     "body": "¿Alguien borró una parte por error? No hay que rehacer nada:\n\n- En **Google:** Archivo > Historial de versiones > Ver historial de versiones. Puedes ver quién cambió qué y restaurar una versión anterior. También puedes **poner nombre** a una versión importante («Versión aprobada por el párroco»).\n- En **Microsoft 365:** Archivo > Información > Historial de versiones, para archivos guardados en OneDrive o SharePoint."
+    }
+   ],
+   "caso": {
+    "titulo": "La versión final final",
+    "texto": "El equipo de misiones preparó el programa intercambiando archivos por correo. Al final había «programa misiones», «programa misiones corregido», «programa final» y «programa final ahora sí». Imprimieron el equivocado y faltaban dos actividades.",
+    "preguntas": [
+     "¿Cómo habría ayudado trabajar en un solo documento compartido?",
+     "¿Qué acuerdos de trabajo colaborativo propondrías a ese equipo?"
+    ]
+   },
+   "claves": [
+    [
+     "Edición colaborativa",
+     "Varias personas trabajan a la vez sobre el mismo archivo en la nube."
+    ],
+    [
+     "Mención",
+     "Uso de @ en un comentario para avisar a una persona."
+    ],
+    [
+     "Historial de versiones",
+     "Registro de los cambios de un archivo que permite ver y restaurar versiones anteriores."
+    ]
+   ],
+   "bible": {
+    "ref": "1 Corintios 12,12-21 · Un cuerpo, muchos miembros",
+    "comment": "Pablo compara a la comunidad con un cuerpo: el ojo no puede decirle a la mano «no te necesito». Cada miembro aporta lo suyo, y todos son necesarios para que el cuerpo funcione."
+   },
+   "lectio": {
+    "meditar": "¿Qué aporte tuyo necesita tu equipo? ¿Y qué aporte de otros te cuesta valorar?",
+    "orar": "Da gracias por cada persona de tu equipo, con su forma distinta de trabajar.",
+    "vivir": "Esta semana, pide la opinión de alguien de tu equipo sobre algo que estés preparando."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    },
+    {
+     "source": "Mensaje para la Jornada Mundial de las Comunicaciones Sociales 2019, «Somos miembros unos de otros»",
+     "url": null,
+     "text": "Francisco recuerda que la red puede ser un recurso para construir comunidad si se usa para el encuentro y la colaboración, y no para encerrarse."
+    }
+   ],
+   "questions": [
+    "¿Cómo trabaja hoy tu equipo los documentos en común?",
+    "¿Te cuesta más recibir o hacer correcciones? ¿Por qué?",
+    "¿Qué acuerdo de trabajo propondrías a tu equipo?",
+    "¿Qué documento de tu grupo debería tener una versión «aprobada» con nombre?"
+   ],
+   "activity": "En grupos de cuatro, preparen el programa de un encuentro en un solo documento compartido: cada uno escribe una parte al mismo tiempo, después cada uno revisa la parte de otro en modo sugerencia y deja un comentario con mención. Al final, aceptan o rechazan las sugerencias y nombran la versión final.",
+   "practica": [
+    "Compartan un documento con permiso de editor.",
+    "Escriban cada uno su parte al mismo tiempo.",
+    "Revisen en modo sugerencia y comenten con @.",
+    "Acepten cambios y nombren la versión final."
+   ],
+   "prayer": "Señor, Tú nos hiciste miembros de un mismo cuerpo. Enséñanos a trabajar juntos con humildad: a proponer sin imponer, a corregir con cariño y a recibir correcciones sin enojarnos. Que lo que construimos juntos sea más tuyo que nuestro. Amén.",
+   "idea": "Un solo archivo compartido vale más que diez copias por correo.",
+   "profundizar": {
+    "titulo": "Acuerdos del equipo digital",
+    "texto": "Para que la colaboración funcione, conviene acordar: dónde se guardan los archivos, quién es responsable de cada documento, cómo se nombran las versiones, cuándo se usa sugerencia y cuándo edición directa, y qué temas no se discuten en comentarios sino en persona."
+   },
+   "resources": [
+    {
+     "title": "Colaborar en Documentos de Google",
+     "url": "https://support.google.com/docs",
+     "note": "Comentarios, sugerencias e historial de versiones."
+    },
+    {
+     "title": "Coautoría en Word (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/word",
+     "note": "Trabajar con otros en un documento."
+    }
+   ]
+  },
+  {
+   "title": "Formularios de inscripción",
+   "objective": "Crear formularios en Google Forms o Microsoft Forms para inscripciones y encuestas, cuidando los datos personales.",
+   "intro": "Inscripciones a retiros, autorizaciones, encuestas de evaluación, votaciones: los formularios ahorran mucho trabajo porque las respuestas llegan solas y ordenadas a una planilla. Pero piden un cuidado especial, porque recogen datos de personas.",
+   "comenzar": "Piensa en la última inscripción que organizó tu grupo. ¿Cómo se recibieron los datos? ¿Cuánto tiempo tomó ordenarlos?",
+   "logros": [
+    "Crear un formulario con distintos tipos de pregunta.",
+    "Conectar las respuestas a una planilla.",
+    "Pedir solo los datos necesarios y con consentimiento."
+   ],
+   "sections": [
+    {
+     "title": "Crear el formulario",
+     "body": "**Google Forms** (forms.google.com) y **Microsoft Forms** (forms.office.com) funcionan de manera parecida:\n\n- Escribe un **título** y una **descripción** clara: qué es, fecha, lugar, costo y plazo de inscripción.\n- Agrega preguntas con el tipo adecuado: **respuesta corta** (nombre), **párrafo** (comentarios), **opción múltiple** (talla de polera), **casillas** (varias opciones), **desplegable**, **fecha**.\n- Marca como **obligatorias** solo las preguntas indispensables.\n- Usa **secciones** si el formulario es largo."
+    },
+    {
+     "title": "Las respuestas a una planilla",
+     "body": "Cada respuesta queda guardada en el formulario, pero lo más útil es enviarlas a una planilla:\n\n- En **Google Forms:** pestaña Respuestas > **Vincular con Hojas de cálculo**.\n- En **Microsoft Forms:** pestaña Respuestas > **Abrir en Excel**.\n\nAsí puedes ordenar, filtrar y contar inscritos con lo que aprendiste en el nivel 1. También puedes **cerrar** el formulario cuando se cumpla el plazo o se llenen los cupos."
+    },
+    {
+     "title": "Datos personales con responsabilidad",
+     "body": "Un formulario es una puerta de entrada a datos de otras personas. Algunas reglas:\n\n- **Pide solo lo necesario.** Si no vas a usar el RUT o la dirección, no lo pidas.\n- **Explica para qué** se usarán los datos y quién los verá.\n- **Datos sensibles,** como la salud (alergias, medicamentos), solo si son indispensables para cuidar a la persona, y con acceso restringido.\n- **Menores de edad:** las autorizaciones las completa un adulto responsable.\n- **Borra o archiva** los datos cuando ya no se necesiten.\n\nEn Chile, la Ley 19.628 protege la vida privada y los datos personales, y la Ley 21.719, publicada en 2024, la reemplaza con exigencias más estrictas. Más allá de la ley, es una forma de respeto."
+    },
+    {
+     "title": "Compartir y probar",
+     "body": "Antes de enviar el formulario, **pruébalo** tú mismo con el botón de vista previa (el ojo) y revisa que la respuesta llegue a la planilla. Luego comparte el **enlace** (puedes acortarlo) o un código QR para imprimir en un afiche.\n\nSi el formulario lo deben completar solo personas de tu organización, ambas herramientas permiten restringirlo; para familias, normalmente se deja abierto a cualquiera con el enlace."
+    }
+   ],
+   "caso": {
+    "titulo": "El formulario que pedía todo",
+    "texto": "Para inscribir al paseo de fin de año, un dirigente hizo un formulario que pedía RUT, dirección, nombre de los padres, previsión de salud, enfermedades y fotos. La planilla con las respuestas quedó compartida con «cualquier persona con el enlace» y ese enlace circuló en un grupo de WhatsApp abierto.",
+    "preguntas": [
+     "¿Qué datos eran realmente necesarios para un paseo?",
+     "¿Qué riesgos generó compartir así la planilla y cómo se corrige?"
+    ]
+   },
+   "claves": [
+    [
+     "Formulario",
+     "Página con preguntas que otras personas responden en línea; las respuestas se guardan ordenadas."
+    ],
+    [
+     "Dato sensible",
+     "Información personal especialmente delicada, como la salud."
+    ],
+    [
+     "Consentimiento",
+     "Autorización libre e informada de una persona, o de su adulto responsable, para usar sus datos."
+    ]
+   ],
+   "bible": {
+    "ref": "Mateo 7,12 · La regla de oro",
+    "comment": "Jesús resume la Ley y los Profetas en una frase: traten a los demás como quieren que los traten a ustedes. También vale para los datos: cuida la información de otros como quieres que cuiden la tuya."
+   },
+   "lectio": {
+    "meditar": "¿Cómo te sentirías si tus datos o los de tu familia circularan sin tu permiso?",
+    "orar": "Pide al Señor un corazón respetuoso de la intimidad de cada persona.",
+    "vivir": "Esta semana, revisa con quién están compartidas las planillas con datos de tu grupo."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué formularios necesitaría tu grupo durante el año?",
+    "¿Qué datos pide hoy tu grupo que no son necesarios?",
+    "¿Quién debería tener acceso a las respuestas?",
+    "¿Cómo explicarías a las familias para qué se usan sus datos?"
+   ],
+   "activity": "En parejas, creen el formulario de inscripción a un retiro con: descripción completa, nombre, edad, teléfono de un adulto responsable, alergias o cuidados especiales (opcional), talla de polera y una casilla de autorización. Vincúlenlo a una planilla, respóndanlo tres veces como prueba y cuenten los inscritos.",
+   "practica": [
+    "Escribe el título y la descripción del retiro.",
+    "Agrega solo las preguntas necesarias.",
+    "Vincula las respuestas a una planilla.",
+    "Prueba el formulario y cuenta los inscritos."
+   ],
+   "prayer": "Señor, cada persona que se inscribe en nuestras actividades nos confía algo de su vida. Ayúdanos a recibir esa confianza con respeto, a pedir solo lo necesario y a cuidar su intimidad como un tesoro. Amén.",
+   "idea": "Pide solo lo necesario y cuida lo que te confían.",
+   "profundizar": {
+    "titulo": "Encuestas para evaluar",
+    "texto": "Los formularios también sirven para evaluar: al final de un retiro o del año pastoral, una encuesta breve y anónima ayuda a escuchar a todos, incluso a quienes no hablan en el grupo. Pocas preguntas, una escala del 1 al 5 y una pregunta abierta suelen bastar."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Formularios de Google",
+     "url": "https://support.google.com/docs/topic/9055404",
+     "note": "Crear formularios, tipos de preguntas y respuestas."
+    },
+    {
+     "title": "Ayuda de Microsoft Forms",
+     "url": "https://support.microsoft.com/es-es/forms",
+     "note": "Tutoriales oficiales en español."
+    }
+   ]
+  },
+  {
+   "title": "Planillas que calculan por ti",
+   "objective": "Usar fórmulas condicionales, referencias absolutas, formato condicional y validación de datos para llevar la tesorería y los registros del grupo.",
+   "intro": "En el nivel 1 aprendiste a sumar y contar. Ahora vas a lograr que la planilla trabaje por ti: que cuente cuántos pagaron, sume solo los ingresos, marque en rojo a quien debe y no permita escribir datos equivocados.",
+   "comenzar": "Si llevas o has visto la tesorería de un grupo, ¿cómo se registra? ¿Es fácil saber cuánto hay en caja en este momento?",
+   "logros": [
+    "Usar CONTAR.SI y SUMAR.SI.",
+    "Entender las referencias absolutas.",
+    "Aplicar formato condicional y validación de datos."
+   ],
+   "sections": [
+    {
+     "title": "Contar y sumar con condiciones",
+     "body": "Dos funciones resuelven la mayoría de los cálculos del grupo:\n\n- `=CONTAR.SI(D2:D40;\"Pagado\")` cuenta cuántas celdas dicen «Pagado».\n- `=SUMAR.SI(B2:B100;\"Ingreso\";C2:C100)` suma los montos de la columna C solo cuando en la columna B dice «Ingreso».\n\nCon ellas puedes armar una **tesorería**: columnas Fecha, Tipo (Ingreso/Gasto), Detalle y Monto, y arriba un resumen con el total de ingresos, el total de gastos y el **saldo** (ingresos menos gastos)."
+    },
+    {
+     "title": "Referencias relativas y absolutas",
+     "body": "Cuando copias una fórmula hacia abajo, las referencias cambian solas: `=C2*2` pasa a `=C3*2`. Eso es una **referencia relativa**.\n\nA veces necesitas que una celda quede fija, por ejemplo la cuota del retiro en la celda F1. Para eso se usan signos de dólar: `=C2*$F$1`. Es una **referencia absoluta**. La tecla **F4**, con el cursor sobre la referencia, agrega los signos automáticamente."
+    },
+    {
+     "title": "Formato condicional",
+     "body": "El formato condicional cambia el color de una celda según su contenido. Por ejemplo, que las celdas con «Pendiente» se pinten de rojo y las de «Pagado», de verde.\n\n- En **Google:** Formato > Formato condicional.\n- En **Excel:** Inicio > Formato condicional.\n\nDe un vistazo se ve quién falta por pagar o quién no ha entregado la autorización."
+    },
+    {
+     "title": "Validación de datos",
+     "body": "Si cada uno escribe distinto («pagado», «PAGADO», «pago»), las fórmulas fallan. La **validación de datos** crea una lista desplegable con las opciones permitidas:\n\n- En **Google** y en **Excel:** Datos > Validación de datos > Lista (desplegable) con «Pagado, Pendiente, Becado».\n\nAsí los datos quedan uniformes y las fórmulas funcionan siempre."
+    }
+   ],
+   "caso": {
+    "titulo": "La caja que no cuadra",
+    "texto": "Al final del año, el tesorero del grupo no logra explicar una diferencia de dinero. Los gastos están anotados en un cuaderno, algunos ingresos en una planilla y otros en mensajes de WhatsApp. Algunos papás se molestan y surgen sospechas injustas.",
+    "preguntas": [
+     "¿Cómo habría ayudado una planilla de tesorería bien hecha?",
+     "¿Por qué la transparencia en el dinero es un tema pastoral y no solo administrativo?"
+    ]
+   },
+   "claves": [
+    [
+     "Referencia absoluta",
+     "Referencia a una celda que no cambia al copiar la fórmula; se escribe con $, como $F$1."
+    ],
+    [
+     "Formato condicional",
+     "Regla que cambia el aspecto de una celda según su valor."
+    ],
+    [
+     "Validación de datos",
+     "Regla que limita lo que se puede escribir en una celda, por ejemplo con una lista desplegable."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 14,28-30 · Calcular los gastos",
+    "comment": "Jesús pregunta quién, queriendo construir una torre, no se sienta primero a calcular los gastos para ver si tiene con qué terminarla. Planificar y cuidar los recursos también es sabiduría evangélica."
+   },
+   "lectio": {
+    "meditar": "¿Cómo cuidas los recursos que la comunidad pone en tus manos?",
+    "orar": "Pide al Señor honestidad y orden en el manejo de los bienes.",
+    "vivir": "Esta semana, ordena en una planilla los gastos e ingresos de tu última actividad."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Cómo se lleva hoy el dinero en tu grupo?",
+    "¿Qué información debería ver todo el grupo y cuál solo la coordinación?",
+    "¿Qué columnas tendría tu planilla de tesorería?",
+    "¿Qué otros registros de tu grupo podrían usar validación de datos?"
+   ],
+   "activity": "En parejas, armen la tesorería de un retiro: una hoja con movimientos (fecha, tipo con lista desplegable, detalle, monto) y una hoja de pagos de participantes (nombre, estado con lista desplegable y formato condicional). Arriba, un resumen con SUMAR.SI para ingresos y gastos, el saldo y CONTAR.SI para los pagados.",
+   "practica": [
+    "Crea la hoja de movimientos con validación de datos.",
+    "Crea la hoja de pagos con formato condicional.",
+    "Agrega el resumen con SUMAR.SI y CONTAR.SI.",
+    "Calcula el saldo y revisa que cuadre."
+   ],
+   "prayer": "Señor, todo lo que tenemos viene de ti y es para el bien de todos. Danos un corazón honesto y transparente para cuidar los recursos de la comunidad, y que nunca el dinero sea causa de división entre nosotros. Amén.",
+   "idea": "Las cuentas claras cuidan la confianza de la comunidad.",
+   "profundizar": {
+    "titulo": "Rendir cuentas",
+    "texto": "Una buena práctica es presentar al grupo y a la parroquia un resumen de ingresos y gastos al final de cada actividad grande y del año. La planilla permite hacerlo en minutos. Guarden también las boletas: pueden fotografiarse y subirse a una carpeta de la tesorería."
+   },
+   "resources": [
+    {
+     "title": "Funciones de Hojas de cálculo de Google",
+     "url": "https://support.google.com/docs/table/25273",
+     "note": "Lista oficial de funciones con ejemplos."
+    },
+    {
+     "title": "Funciones de Excel (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/excel",
+     "note": "Ayuda oficial de funciones en español."
+    }
+   ]
+  },
+  {
+   "title": "Documentos con estructura profesional",
+   "objective": "Usar plantillas, encabezados, índice automático, tablas y combinación de correspondencia para documentos más completos.",
+   "intro": "Un proyecto pastoral, un reglamento o un cuadernillo de retiro son documentos largos. Las herramientas avanzadas de Word y Documentos de Google hacen que se vean profesionales con poco esfuerzo, y permiten generar diplomas o credenciales para muchas personas de una sola vez.",
+   "comenzar": "¿Qué documento largo de tu grupo (cuadernillo, proyecto, reglamento) te gustaría mejorar? Anota qué le falta.",
+   "logros": [
+    "Crear y usar plantillas.",
+    "Agregar encabezado, pie de página, numeración e índice automático.",
+    "Generar documentos para muchas personas con combinación de correspondencia."
+   ],
+   "sections": [
+    {
+     "title": "Plantillas",
+     "body": "Una **plantilla** es un documento modelo que se reutiliza: el acta de reunión, la carta a los padres, el programa de encuentro.\n\n- En **Google Documentos:** crea el documento modelo, guárdalo en una carpeta «Plantillas» y usa Archivo > **Crear una copia** cada vez. (Las cuentas institucionales también tienen una galería de plantillas.)\n- En **Word:** Archivo > Guardar como > **Plantilla de Word (.dotx)**, o guarda el modelo en una carpeta compartida.\n\nLas plantillas dan identidad y ahorran tiempo."
+    },
+    {
+     "title": "Encabezado, pie e índice",
+     "body": "- **Encabezado y pie de página:** en Word, Insertar > Encabezado / Pie de página; en Google, Insertar > Encabezados y pies de página. Ahí van el logo, el nombre del grupo y la fecha.\n- **Números de página:** Insertar > Números de página.\n- **Índice automático:** si usaste estilos de título (nivel 1), en Word ve a Referencias > **Tabla de contenido**; en Google, Insertar > **Índice**. Se actualiza solo cuando cambias los títulos."
+    },
+    {
+     "title": "Tablas bien hechas",
+     "body": "Para horarios, responsables o materiales:\n\n- Primera fila como **encabezado**, en negrita y con fondo.\n- Columnas con ancho ajustado al contenido.\n- Pocos bordes y colores suaves.\n- Si la tabla es para calcular, mejor hazla en una planilla y pega el resultado."
+    },
+    {
+     "title": "Combinación de correspondencia",
+     "body": "¿Necesitas cuarenta diplomas, credenciales o cartas personalizadas? La **combinación de correspondencia** toma los nombres de una planilla y crea un documento para cada persona.\n\n- En **Word:** pestaña **Correspondencia** > Iniciar combinación > Seleccionar destinatarios (tu planilla de Excel) > Insertar campo combinado (por ejemplo, «Nombre») > Finalizar y combinar.\n- En **Google:** no viene incorporada en todas las cuentas; se hace con complementos de combinación de correspondencia (Extensiones > Complementos), o descargando el documento y la planilla para combinarlos en Word.\n\nRevisa siempre el resultado antes de imprimir."
+    }
+   ],
+   "caso": {
+    "titulo": "El cuadernillo de retiro",
+    "texto": "Cada año, el equipo rehace desde cero el cuadernillo del retiro de confirmación: copia textos de años anteriores, ajusta a mano los títulos y escribe el índice página por página. Siempre queda algún número de página equivocado y se pierden horas.",
+    "preguntas": [
+     "¿Qué herramientas de esta sesión resolverían esos problemas?",
+     "¿Qué partes del cuadernillo podrían quedar como plantilla para los próximos años?"
+    ]
+   },
+   "claves": [
+    [
+     "Plantilla",
+     "Documento modelo que se copia y reutiliza para crear otros del mismo tipo."
+    ],
+    [
+     "Índice automático",
+     "Tabla de contenidos que se genera a partir de los estilos de título y se actualiza sola."
+    ],
+    [
+     "Combinación de correspondencia",
+     "Herramienta que crea documentos personalizados para muchas personas a partir de una planilla."
+    ]
+   ],
+   "bible": {
+    "ref": "Éxodo 25,8-9 · Según el modelo",
+    "comment": "Dios pide a Moisés construir el santuario siguiendo con cuidado el modelo que le muestra. Trabajar con un buen modelo permite que la obra se haga bien y que otros puedan continuarla."
+   },
+   "lectio": {
+    "meditar": "¿Qué «modelos» te dejaron otros en tu servicio? ¿Qué modelos dejarás tú?",
+    "orar": "Da gracias por quienes sirvieron antes que tú y te dejaron un camino.",
+    "vivir": "Esta semana, transforma un documento que repites cada año en una plantilla."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué documentos de tu grupo se repiten cada año?",
+    "¿Qué plantillas crearías primero?",
+    "¿Para qué actividad necesitarías combinación de correspondencia?",
+    "¿Qué le dejarías preparado al equipo que venga después de ti?"
+   ],
+   "activity": "Cada participante crea una plantilla de acta de reunión con encabezado (logo y nombre del grupo), pie con número de página, estilos de título y una tabla de acuerdos (acuerdo, responsable, plazo). Después, en grupos, generan diplomas de participación para diez personas usando combinación de correspondencia en Word o un complemento en Google.",
+   "practica": [
+    "Crea la plantilla de acta con encabezado y pie.",
+    "Usa estilos de título y agrega un índice.",
+    "Prepara la planilla con diez nombres.",
+    "Genera los diplomas con combinación de correspondencia."
+   ],
+   "prayer": "Señor, Tú nos llamas a servir con lo mejor que tenemos. Que nuestro trabajo cuidadoso y ordenado facilite la tarea de otros y sea un regalo para quienes vendrán después de nosotros. Amén.",
+   "idea": "Una buena plantilla es un regalo para el equipo del próximo año.",
+   "profundizar": {
+    "titulo": "Identidad visual del grupo",
+    "texto": "Si el grupo define un logo, dos o tres colores y una fuente, y los usa en todas sus plantillas, todo lo que produce se reconoce de inmediato. En el nivel 3 verás cómo preparar un pequeño manual con esa identidad."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Documentos de Google",
+     "url": "https://support.google.com/docs",
+     "note": "Encabezados, índices y plantillas."
+    },
+    {
+     "title": "Combinar correspondencia en Word (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/word",
+     "note": "Guía oficial de combinación de correspondencia."
+    }
+   ]
+  },
+  {
+   "title": "Reuniones y agenda compartida",
+   "objective": "Organizar el calendario de la pastoral y realizar reuniones en línea efectivas con Meet o Teams, con actas y tareas claras.",
+   "intro": "Coordinar fechas entre estudios, trabajo y familias es uno de los grandes desafíos de cualquier equipo. Un calendario compartido y reuniones en línea bien hechas ahorran traslados y tiempo, siempre que no reemplacen el encuentro presencial que la comunidad necesita.",
+   "comenzar": "Piensa en la última reunión de tu equipo. ¿Empezó a la hora? ¿Se tomaron acuerdos claros? ¿Quedó escrito quién hacía qué?",
+   "logros": [
+    "Crear y compartir un calendario de la pastoral.",
+    "Convocar y dirigir una reunión en línea.",
+    "Registrar acuerdos y tareas en un acta compartida."
+   ],
+   "sections": [
+    {
+     "title": "Un calendario compartido",
+     "body": "En **Google Calendar** o en el calendario de **Outlook** puedes crear un calendario nuevo, por ejemplo «Pastoral juvenil 2026», y **compartirlo**:\n\n- Con el equipo, con permiso para **hacer cambios**.\n- Con los jóvenes o las familias, solo para **ver**.\n\nAgreguen todas las fechas del año: encuentros, retiros, misas especiales, reuniones de equipo y plazos. Cada persona lo ve en su teléfono junto a su propio calendario."
+    },
+    {
+     "title": "Convocar una reunión en línea",
+     "body": "Al crear un evento, puedes agregar una videollamada de **Google Meet** o de **Microsoft Teams** con un clic. Los invitados reciben el enlace.\n\nUna buena convocatoria incluye:\n\n- **Objetivo** de la reunión.\n- **Tabla** de temas con tiempos.\n- **Enlace** al acta o a los documentos que hay que leer antes.\n- **Duración** realista: mejor 45 minutos bien usados que dos horas."
+    },
+    {
+     "title": "Dirigir la reunión",
+     "body": "- Empieza y termina **a la hora**.\n- Comienza con una breve **oración**: también en línea se puede rezar juntos.\n- Pide **cámaras encendidas** si es posible, y micrófono apagado cuando no se habla.\n- Usa la **mano levantada** para pedir la palabra.\n- **Comparte la pantalla** para mirar juntos el documento.\n- Al final, repasa los **acuerdos**: qué, quién y para cuándo."
+    },
+    {
+     "title": "Acta y tareas",
+     "body": "Usa la plantilla de acta del nivel anterior en un documento compartido que se completa durante la reunión. La tabla de acuerdos es lo más importante: acuerdo, responsable y plazo.\n\nPara seguir las tareas, puedes asignar comentarios con @ en Google Documentos, o usar herramientas de tareas como **Google Tasks** o **Microsoft To Do / Planner**. Lo importante es que cada acuerdo tenga un nombre y una fecha."
+    }
+   ],
+   "caso": {
+    "titulo": "La reunión eterna",
+    "texto": "El equipo de catequesis se reúne por videollamada a las 21:00. Nadie preparó la tabla, tres personas llegan tarde, dos hablan al mismo tiempo y la conversación salta de un tema a otro. A las 23:00 se despiden sin acuerdos claros y con la sensación de haber perdido la noche.",
+    "preguntas": [
+     "¿Qué faltó antes, durante y después de esa reunión?",
+     "¿Cómo la organizarías para que dure una hora y termine con acuerdos?"
+    ]
+   },
+   "claves": [
+    [
+     "Calendario compartido",
+     "Calendario que varias personas pueden ver o editar."
+    ],
+    [
+     "Videollamada",
+     "Reunión en línea con audio y video, como Meet o Teams."
+    ],
+    [
+     "Acta",
+     "Registro escrito de una reunión, con asistentes, temas tratados y acuerdos."
+    ]
+   ],
+   "bible": {
+    "ref": "Éxodo 18,13-23 · El consejo de Jetró",
+    "comment": "Jetró ve a Moisés atendiendo solo al pueblo desde la mañana hasta la tarde y le dice que así se va a agotar. Le aconseja organizarse y repartir responsabilidades con personas capaces. Organizarse bien también es cuidar a las personas."
+   },
+   "lectio": {
+    "meditar": "¿Qué tareas de tu servicio podrías compartir con otros?",
+    "orar": "Pide al Señor la humildad de delegar y la sabiduría de organizarte.",
+    "vivir": "Esta semana, delega una tarea concreta con nombre y fecha."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": null,
+     "text": "Reflexión pastoral sobre la participación en las redes sociales: invita a pasar de la conexión al encuentro, y a que la presencia digital esté al servicio de la comunión."
+    }
+   ],
+   "questions": [
+    "¿Qué fechas debería tener el calendario de tu pastoral?",
+    "¿Qué te frustra de las reuniones de tu equipo?",
+    "¿Qué temas conviene tratar en línea y cuáles en persona?",
+    "¿Qué acuerdo de tu última reunión quedó sin responsable?"
+   ],
+   "activity": "Simulen una reunión en línea de 30 minutos: una persona convoca con objetivo, tabla y enlace al acta; otra la dirige con oración inicial y tiempos; otra completa el acta en vivo con la tabla de acuerdos. Al final, el grupo evalúa qué funcionó y qué mejorar.",
+   "practica": [
+    "Crea el calendario de la pastoral y compártelo.",
+    "Convoca la reunión con objetivo, tabla y enlace.",
+    "Dirige la reunión respetando los tiempos.",
+    "Completa el acta con acuerdos, responsables y plazos."
+   ],
+   "prayer": "Señor, que nuestras reuniones sean encuentros de hermanos y no solo trámites. Danos orden para aprovechar el tiempo, escucha para entendernos y compromiso para cumplir lo que acordamos. Que todo lo hagamos por amor a ti y a quienes servimos. Amén.",
+   "idea": "Una reunión termina bien cuando cada acuerdo tiene un responsable y una fecha.",
+   "profundizar": {
+    "titulo": "Lo virtual y lo presencial",
+    "texto": "Las reuniones en línea son útiles para coordinar y decidir, sobre todo cuando las distancias o los horarios lo hacen difícil. Pero la comunidad se construye en el encuentro: la oración juntos, la Eucaristía, el compartir. Una buena regla es usar lo virtual para lo operativo y reservar lo presencial para lo que necesita encuentro."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de Google Calendar",
+     "url": "https://support.google.com/calendar",
+     "note": "Crear y compartir calendarios."
+    },
+    {
+     "title": "Ayuda de Microsoft Teams",
+     "url": "https://support.microsoft.com/es-es/teams",
+     "note": "Reuniones y videollamadas en Teams."
+    }
+   ]
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué modo de Google Documentos permite proponer cambios sin modificar el texto directamente?",
+   "options": [
+    "Edición.",
+    "Sugerencia.",
+    "Visualización."
+   ],
+   "correct": 1,
+   "feedback": "En modo sugerencia los cambios quedan marcados para que el autor los acepte o rechace."
+  },
+  {
+   "q": "¿Cuál es su equivalente en Word?",
+   "options": [
+    "Control de cambios.",
+    "Combinación de correspondencia.",
+    "Formato condicional."
+   ],
+   "correct": 0,
+   "feedback": "Revisar > Control de cambios funciona igual."
+  },
+  {
+   "q": "¿Para qué sirve escribir @ y un nombre en un comentario?",
+   "options": [
+    "Para borrar el comentario.",
+    "Para avisar a esa persona.",
+    "Para cambiar el permiso del archivo."
+   ],
+   "correct": 1,
+   "feedback": "La mención envía una notificación a la persona."
+  },
+  {
+   "q": "¿Cómo se envían las respuestas de un formulario de Google a una planilla?",
+   "options": [
+    "Copiándolas a mano.",
+    "Con «Vincular con Hojas de cálculo» en la pestaña Respuestas.",
+    "Imprimiendo el formulario."
+   ],
+   "correct": 1,
+   "feedback": "Así las respuestas llegan ordenadas a una planilla."
+  },
+  {
+   "q": "¿Qué datos conviene pedir en un formulario?",
+   "options": [
+    "Todos los que se pueda, por si acaso.",
+    "Solo los necesarios para la actividad.",
+    "Siempre el RUT y la dirección."
+   ],
+   "correct": 1,
+   "feedback": "Pedir solo lo necesario protege a las personas y facilita el cuidado de los datos."
+  },
+  {
+   "q": "¿Qué hace la fórmula =CONTAR.SI(D2:D40;\"Pagado\")?",
+   "options": [
+    "Suma los montos pagados.",
+    "Cuenta cuántas celdas dicen «Pagado».",
+    "Borra los pagados."
+   ],
+   "correct": 1,
+   "feedback": "CONTAR.SI cuenta las celdas que cumplen una condición."
+  },
+  {
+   "q": "¿Qué indica $F$1 en una fórmula?",
+   "options": [
+    "Un monto en dólares.",
+    "Una referencia absoluta que no cambia al copiar.",
+    "Un error."
+   ],
+   "correct": 1,
+   "feedback": "Los signos de dólar fijan la celda al copiar la fórmula."
+  },
+  {
+   "q": "¿Para qué sirve la validación de datos con lista desplegable?",
+   "options": [
+    "Para que los datos se escriban de manera uniforme.",
+    "Para proteger la planilla con contraseña.",
+    "Para imprimir la planilla."
+   ],
+   "correct": 0,
+   "feedback": "Así todos eligen entre las mismas opciones y las fórmulas funcionan."
+  },
+  {
+   "q": "¿Qué se necesita para crear un índice automático?",
+   "options": [
+    "Escribir los números de página a mano.",
+    "Usar estilos de título.",
+    "Una plantilla de Excel."
+   ],
+   "correct": 1,
+   "feedback": "El índice se genera a partir de los estilos de título."
+  },
+  {
+   "q": "¿Qué es lo más importante de un acta de reunión?",
+   "options": [
+    "La lista de quienes llegaron tarde.",
+    "Los acuerdos, con responsable y plazo.",
+    "El color del documento."
+   ],
+   "correct": 1,
+   "feedback": "Sin responsable y plazo, los acuerdos no se cumplen."
+  }
+ ],
+ "taller": "Organizar una jornada de punta a punta: cada grupo planifica una jornada real de su pastoral usando todo el nivel. Crean el formulario de inscripción (solo con los datos necesarios) vinculado a una planilla con conteo de inscritos, pagos con lista desplegable y formato condicional; el programa en un documento colaborativo revisado en modo sugerencia; el evento en el calendario compartido con videollamada para la reunión de preparación; y el acta con acuerdos, responsables y plazos. Presentan el resultado al grupo."
+}

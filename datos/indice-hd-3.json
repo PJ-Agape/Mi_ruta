@@ -1,0 +1,61 @@
+{
+ "curso": "hd-3",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Avanzado: gestionar, analizar y automatizar",
+   "semanas": "",
+   "intro": "Con los niveles 1 y 2 aprobados. Para quienes coordinan o quieren llevar la gestión digital de su pastoral al siguiente nivel.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Analizar datos para decidir",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Conectar información sin duplicarla",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Automatizar tareas repetitivas",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Comunicar con identidad y para todos",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Cuidar la información de la pastoral",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Avanzado: gestionar, analizar y automatizar",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}

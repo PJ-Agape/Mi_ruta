@@ -6,6 +6,10 @@ FICHAS = {
         "ejes": ["Dios llama por el nombre", "Los caminos de la vocación: laicos, matrimonio, sacerdocio y vida consagrada", "Discernir sin miedo y con acompañamiento", "Una Iglesia sinodal y en salida"],
         "competencias": ["Reconocer la propia vida como respuesta a un llamado de Dios.", "Valorar todas las vocaciones, incluidas el sacerdocio y la vida consagrada, como caminos posibles.", "Dar un primer paso concreto de formación y servicio, acompañado."],
     },
+    "herramientas-digitales": {
+        "ejes": ["Cuenta segura y nube ordenada", "Documentos, planillas y presentaciones", "Trabajo colaborativo, formularios y reuniones en línea", "Análisis de datos, automatización y cuidado de la información"],
+        "competencias": ["Usar Microsoft 365 o Google Workspace con autonomía en tareas de la pastoral.", "Organizar la información del grupo de forma segura, ordenada y continua.", "Proteger los datos personales, especialmente los de menores de edad."],
+    },
     "dirigente-juvenil": {
         "ejes": ["Vocación y espiritualidad del dirigente", "Vida de grupo y acompañamiento", "Metodología y animación", "Liturgia y vida sacramental del grupo", "Organización, cuidado y relevo"],
         "competencias": ["Discernir y sostener su vocación de servicio con una vida de oración.",
@@ -150,6 +154,7 @@ SECCIONES = {
 }
 ENLACES = {
     "llamados": ["capilla", "oremus", "salmos"],
+    "herramientas-digitales": [],
     "dirigente-juvenil": ["capilla", "dinamicas", "cancionero"],
     "diplomado": ["dinamicas", "capilla"],
     "servicio-liturgico": ["capilla", "cancionero", "salmos"],

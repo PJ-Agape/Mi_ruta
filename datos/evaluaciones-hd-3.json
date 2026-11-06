@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Avanzado: gestionar, analizar y automatizar",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Para qué sirve una tabla dinámica?",
+    "opciones": [
+     "Para resumir y agrupar muchos datos en una tabla configurable.",
+     "Para escribir con letras animadas.",
+     "Para proteger la planilla."
+    ],
+    "correcta": 0,
+    "explicacion": "La tabla dinámica resume miles de filas en segundos."
+   },
+   {
+    "pregunta": "En =BUSCARV(A2;Inscritos!A:D;3;FALSO), ¿qué significa FALSO?",
+    "opciones": [
+     "Que la fórmula está mala.",
+     "Que busque la coincidencia exacta.",
+     "Que devuelva un valor vacío."
+    ],
+    "correcta": 1,
+    "explicacion": "FALSO pide coincidencia exacta del valor buscado."
+   },
+   {
+    "pregunta": "¿Qué gráfico conviene para mostrar la asistencia mes a mes?",
+    "opciones": [
+     "Circular.",
+     "De líneas.",
+     "Ninguno."
+    ],
+    "correcta": 1,
+    "explicacion": "Las líneas muestran la evolución en el tiempo."
+   },
+   {
+    "pregunta": "¿Qué significa el principio de «una sola fuente de verdad»?",
+    "opciones": [
+     "Que cada dato se escribe en un solo lugar y las demás planillas leen desde ahí.",
+     "Que solo una persona puede usar la planilla.",
+     "Que se imprime una sola copia."
+    ],
+    "correcta": 0,
+    "explicacion": "Así, al corregir un dato, se corrige en todas partes."
+   },
+   {
+    "pregunta": "¿Qué función de Hojas de cálculo de Google trae datos de otra planilla?",
+    "opciones": [
+     "IMPORTRANGE.",
+     "SUMA.",
+     "CONTAR.SI."
+    ],
+    "correcta": 0,
+    "explicacion": "IMPORTRANGE conecta planillas sin copiar los datos."
+   },
+   {
+    "pregunta": "¿Cuál es una buena candidata para automatizar?",
+    "opciones": [
+     "Una conversación difícil con un joven.",
+     "Un aviso por correo cada vez que llega una inscripción.",
+     "Una carta de condolencias."
+    ],
+    "correcta": 1,
+    "explicacion": "Se automatiza lo repetitivo y sin criterio; lo personal, nunca."
+   },
+   {
+    "pregunta": "¿Qué precaución es importante con los scripts copiados de internet?",
+    "opciones": [
+     "Ejecutarlos de inmediato.",
+     "Entender qué hacen y qué permisos piden antes de autorizarlos.",
+     "Compartirlos con todos."
+    ],
+    "correcta": 1,
+    "explicacion": "Al autorizar un script, le das acceso a tu correo y tus archivos."
+   },
+   {
+    "pregunta": "¿Para qué sirve el texto alternativo de una imagen?",
+    "opciones": [
+     "Para que la imagen pese menos.",
+     "Para que los lectores de pantalla describan la imagen.",
+     "Para cambiarle el color."
+    ],
+    "correcta": 1,
+    "explicacion": "Así las personas con discapacidad visual acceden al contenido."
+   },
+   {
+    "pregunta": "¿De quién deberían ser los archivos de la pastoral?",
+    "opciones": [
+     "Del dirigente que los creó.",
+     "De la comunidad, en un espacio institucional.",
+     "De quien tenga el mejor computador."
+    ],
+    "correcta": 1,
+    "explicacion": "Los archivos son de la comunidad, no de una persona."
+   },
+   {
+    "pregunta": "¿Qué debe hacer un dirigente antes de dejar su servicio?",
+    "opciones": [
+     "Borrar sus archivos.",
+     "Transferir la propiedad de los archivos y dejar un documento de traspaso.",
+     "Cambiar la contraseña del grupo."
+    ],
+    "correcta": 1,
+    "explicacion": "Así la comunidad no pierde su memoria ni su información."
+   }
+  ]
+ }
+}

@@ -1,0 +1,615 @@
+{
+ "id": "hd-3",
+ "titulo": "Avanzado: gestionar, analizar y automatizar",
+ "subtitulo": "Análisis de datos, información conectada, automatización, identidad visual y cuidado de la información",
+ "categoria": "Herramientas",
+ "publico": "Desde 14 años",
+ "descripcion": "El nivel avanzado: analizar datos para discernir, conectar la información sin duplicarla, automatizar tareas repetitivas, comunicar con identidad y accesibilidad, y cuidar la información de la pastoral para que no dependa de una sola persona.",
+ "modulo": "Avanzado: gestionar, analizar y automatizar",
+ "intro": "Con los niveles 1 y 2 aprobados. Para quienes coordinan o quieren llevar la gestión digital de su pastoral al siguiente nivel.",
+ "unidades": [
+  {
+   "title": "Analizar datos para decidir",
+   "objective": "Usar tablas dinámicas, búsquedas y gráficos para entender la realidad del grupo y tomar mejores decisiones.",
+   "intro": "Después de un año de encuentros, la pastoral tiene muchos datos: asistencia, inscripciones, edades, comunidades. Bien analizados, responden preguntas importantes: ¿quiénes se están yendo?, ¿qué actividades convocan más?, ¿en qué mes baja la participación? Esta sesión te enseña a convertir datos en información para discernir.",
+   "comenzar": "Escribe tres preguntas sobre tu grupo que te gustaría poder responder con datos (por ejemplo: ¿cuántos jóvenes nuevos llegaron este año?).",
+   "logros": [
+    "Crear tablas dinámicas para resumir datos.",
+    "Buscar información entre tablas con BUSCARV o BUSCARX.",
+    "Elegir y crear el gráfico adecuado."
+   ],
+   "sections": [
+    {
+     "title": "Tablas dinámicas",
+     "body": "Una **tabla dinámica** resume miles de filas en segundos. Por ejemplo, a partir de la planilla de asistencia del año, puede mostrar cuántas asistencias hubo por mes y por comunidad.\n\n- En **Google:** selecciona los datos y ve a Insertar > **Tabla dinámica**.\n- En **Excel:** Insertar > **Tabla dinámica**.\n\nLuego eliges qué va en **filas** (por ejemplo, mes), qué en **columnas** (comunidad) y qué se calcula en **valores** (contar o sumar). Puedes cambiarlo en un clic para mirar los datos desde otro ángulo. Para que funcione, los datos deben estar ordenados como enseñamos en el nivel 1: una fila por registro y títulos en la primera fila."
+    },
+    {
+     "title": "Buscar entre tablas",
+     "body": "Muchas veces la información está en dos tablas: en una, los inscritos con su RUT o correo; en otra, los pagos. Para traer un dato de una tabla a otra se usan funciones de búsqueda:\n\n- `=BUSCARV(A2;Inscritos!A:D;3;FALSO)` busca el valor de A2 en la primera columna de la hoja «Inscritos» y devuelve la tercera columna. FALSO significa que busque la coincidencia exacta.\n- **BUSCARX** (XLOOKUP en inglés), disponible en las versiones actuales de Excel y en Hojas de cálculo de Google, es más flexible: `=BUSCARX(A2;Inscritos!A:A;Inscritos!C:C)`.\n\nLa clave es tener un **identificador único** para cada persona, como el correo."
+    },
+    {
+     "title": "Gráficos que comunican",
+     "body": "Selecciona los datos (o la tabla dinámica) y ve a Insertar > **Gráfico**. Elige según lo que quieres mostrar:\n\n- **Columnas o barras:** comparar cantidades (asistencia por comunidad).\n- **Líneas:** evolución en el tiempo (asistencia por mes).\n- **Circular:** partes de un total, solo con pocas categorías.\n\nPon un **título que diga la conclusión** («La asistencia baja en junio») en vez de solo «Asistencia»."
+    },
+    {
+     "title": "Datos para discernir",
+     "body": "Los números no reemplazan el discernimiento pastoral, pero lo iluminan. Si los datos muestran que los jóvenes de 17 años dejan de venir, la pregunta no es solo cuántos, sino **por qué** y qué hacer. Usa los datos para conversar en el equipo, no para juzgar a personas."
+    }
+   ],
+   "caso": {
+    "titulo": "¿Por qué se van?",
+    "texto": "El equipo de pastoral siente que «cada vez vienen menos», pero nadie sabe desde cuándo ni quiénes. Algunos culpan a los horarios, otros a la música, otros al colegio. Tienen las listas de asistencia de dos años en planillas, pero nunca las han mirado juntas.",
+    "preguntas": [
+     "¿Qué análisis podrían hacer con esas planillas?",
+     "¿Cómo usarían los resultados para conversar y decidir sin culpar a nadie?"
+    ]
+   },
+   "claves": [
+    [
+     "Tabla dinámica",
+     "Herramienta que resume y agrupa grandes cantidades de datos en una tabla configurable."
+    ],
+    [
+     "BUSCARV / BUSCARX",
+     "Funciones que buscan un valor en una tabla y devuelven un dato relacionado."
+    ],
+    [
+     "Identificador único",
+     "Dato que distingue a cada registro sin repetirse, como un correo o un código."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 15,4-7 · La oveja perdida",
+    "comment": "El pastor que tiene cien ovejas y pierde una deja las noventa y nueve para buscarla. Contar no era frialdad: gracias a que conocía a sus ovejas, supo que faltaba una."
+   },
+   "lectio": {
+    "meditar": "¿Quién falta hoy en tu comunidad? ¿Lo has notado?",
+    "orar": "Pide al Señor un corazón de pastor que note las ausencias.",
+    "vivir": "Esta semana, identifica con los datos de tu grupo a alguien que dejó de venir y búscalo."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué preguntas sobre tu grupo podrías responder con datos?",
+    "¿Qué datos registra hoy tu grupo y cuáles faltan?",
+    "¿Cómo evitar que los datos se usen para juzgar en vez de acompañar?",
+    "¿Qué decisión de tu pastoral debería apoyarse en datos?"
+   ],
+   "activity": "En parejas, a partir de una planilla de asistencia de ejemplo de un año (con nombre, comunidad, fecha y asistencia), creen una tabla dinámica de asistencias por mes y comunidad, un gráfico de líneas con su conclusión como título, y traigan con BUSCARV o BUSCARX la edad de cada joven desde otra hoja.",
+   "practica": [
+    "Prepara los datos ordenados en una hoja.",
+    "Crea la tabla dinámica por mes y comunidad.",
+    "Haz un gráfico con un título que diga la conclusión.",
+    "Usa BUSCARV o BUSCARX para traer datos de otra hoja."
+   ],
+   "prayer": "Señor, Buen Pastor, que conoces a cada una de tus ovejas y sales a buscar a la que se pierde: danos tu mirada atenta. Que los datos que reunimos nos ayuden a notar ausencias, a escuchar mejor y a salir al encuentro de quienes se alejan. Amén.",
+   "idea": "Los datos ayudan a notar quién falta; el pastor sale a buscarlo.",
+   "profundizar": {
+    "titulo": "Errores comunes",
+    "texto": "Tres errores frecuentes al analizar: tener datos desordenados (celdas combinadas, filas vacías, nombres escritos de varias formas), sacar conclusiones de muy pocos casos y mostrar demasiados gráficos. Mejor un solo gráfico claro que diez confusos."
+   },
+   "resources": [
+    {
+     "title": "Tablas dinámicas en Hojas de cálculo de Google",
+     "url": "https://support.google.com/docs/topic/9054603",
+     "note": "Guía oficial de tablas dinámicas y gráficos."
+    },
+    {
+     "title": "Tablas dinámicas en Excel (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/excel",
+     "note": "Tutoriales oficiales en español."
+    }
+   ]
+  },
+  {
+   "title": "Conectar información sin duplicarla",
+   "objective": "Conectar planillas entre sí, filtrar y consolidar datos para mantener una sola fuente de información en la pastoral.",
+   "intro": "A medida que la pastoral crece, aparecen muchas planillas: una por comunidad, otra por actividad, otra de la parroquia. El riesgo es copiar y pegar datos de una a otra y que nunca coincidan. En esta sesión aprenderás a conectar la información para que haya una sola fuente confiable.",
+   "comenzar": "Haz una lista de las planillas que existen hoy en tu pastoral. ¿Cuáles repiten la misma información?",
+   "logros": [
+    "Aplicar el principio de una sola fuente de datos.",
+    "Usar funciones que filtran y extraen valores únicos.",
+    "Traer datos de otra planilla sin copiarlos."
+   ],
+   "sections": [
+    {
+     "title": "Una sola fuente de verdad",
+     "body": "El principio es simple: **cada dato se escribe en un solo lugar**. Si el teléfono de un joven está en tres planillas, tarde o temprano habrá tres teléfonos distintos.\n\nLo ideal es tener una **planilla maestra** (por ejemplo, el registro de participantes) y que las demás planillas lean desde ella en vez de copiarla. Así, cuando se corrige un dato, se corrige en todas partes."
+    },
+    {
+     "title": "Filtrar y extraer con fórmulas",
+     "body": "Algunas funciones devuelven no un número, sino una lista completa:\n\n- `=UNICOS(B2:B200)` (UNIQUE en inglés) entrega la lista de valores sin repetir, por ejemplo, todas las comunidades.\n- **FILTRAR** (FILTER en inglés) devuelve solo las filas que cumplen una condición, por ejemplo, solo los jóvenes de una comunidad. En Excel en español se llama FILTRAR; en Hojas de cálculo de Google suele mantener el nombre FILTER.\n- `=ORDENAR(...)` (SORT) entrega la lista ordenada.\n\nEstas funciones existen en Excel para Microsoft 365 y en Hojas de cálculo de Google. Si tu versión de Excel es antigua, puede que no las tenga."
+    },
+    {
+     "title": "Traer datos de otro archivo",
+     "body": "- En **Hojas de cálculo de Google:** `=IMPORTRANGE(\"enlace de la planilla\";\"Hoja1!A1:D200\")` trae un rango desde otra planilla. La primera vez pide **permitir el acceso**. Combinado con FILTER o QUERY, permite que cada comunidad vea solo sus datos a partir de la planilla maestra.\n- En **Excel:** puedes vincular celdas de otro libro, y para tareas más grandes usar **Power Query** (Datos > Obtener datos) para combinar y limpiar varias tablas.\n\nCuidado: traer datos de una planilla con información personal a otra también comparte esa información. Revisa quién tiene acceso a ambas."
+    },
+    {
+     "title": "Proteger lo importante",
+     "body": "En una planilla compartida, alguien puede borrar una fórmula sin querer. Para evitarlo:\n\n- **Protege hojas o rangos:** en Google, Datos > Proteger hojas y rangos; en Excel, Revisar > Proteger hoja.\n- Deja las fórmulas en hojas separadas de las de ingreso de datos.\n- Usa colores para distinguir las celdas donde se escribe de las que calculan."
+    }
+   ],
+   "caso": {
+    "titulo": "Tres listas, tres verdades",
+    "texto": "La parroquia tiene una lista de confirmandos, cada catequista tiene la suya y la secretaría lleva otra para los certificados. Cuando una joven cambia de comunidad, solo una de las listas se actualiza. El día de la confirmación, su nombre no aparece en el libro de la celebración.",
+    "preguntas": [
+     "¿Qué principio se rompió en esta situación?",
+     "¿Cómo organizarías la información para que no vuelva a pasar?"
+    ]
+   },
+   "claves": [
+    [
+     "Planilla maestra",
+     "Planilla principal donde cada dato se registra una sola vez y desde la que leen las demás."
+    ],
+    [
+     "IMPORTRANGE",
+     "Función de Hojas de cálculo de Google que trae datos de otra planilla."
+    ],
+    [
+     "Rango protegido",
+     "Parte de una planilla que solo algunas personas pueden modificar."
+    ]
+   ],
+   "bible": {
+    "ref": "Hechos 2,44-47 · Todo en común",
+    "comment": "La primera comunidad cristiana compartía lo que tenía, perseveraba unida y crecía cada día. Compartir bien la información, sin duplicarla ni perderla, también es una forma de vivir en comunión."
+   },
+   "lectio": {
+    "meditar": "¿Qué información de tu servicio guardas solo para ti y debería compartirse con el equipo?",
+    "orar": "Pide al Señor un espíritu de comunión y transparencia.",
+    "vivir": "Esta semana, junta en un solo lugar la información que tu equipo tiene repartida."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué información se duplica hoy en tu pastoral?",
+    "¿Cuál debería ser la planilla maestra de tu grupo?",
+    "¿Quién debería poder modificar cada parte?",
+    "¿Qué riesgos de privacidad ves al conectar planillas?"
+   ],
+   "activity": "En grupos, construyan una planilla maestra de participantes (identificador, nombre, comunidad, contacto) y, en otra planilla o hoja, una vista para una sola comunidad con FILTER o FILTRAR e IMPORTRANGE si usan Google. Protejan las celdas con fórmulas y prueben qué pasa al corregir un dato en la maestra.",
+   "practica": [
+    "Crea la planilla maestra con identificador único.",
+    "Crea una vista filtrada para una comunidad.",
+    "Protege las fórmulas y la hoja maestra.",
+    "Corrige un dato y comprueba que se actualiza en la vista."
+   ],
+   "prayer": "Señor, que nuestra comunidad sea como la primera Iglesia: unida, transparente y generosa. Ayúdanos a compartir lo que sabemos, a no guardar para nosotros lo que es de todos y a cuidar con responsabilidad lo que se nos confía. Amén.",
+   "idea": "Cada dato, en un solo lugar.",
+   "profundizar": {
+    "titulo": "Cuando una planilla ya no alcanza",
+    "texto": "Las planillas sirven para mucho, pero si la pastoral crece y maneja cientos de personas, inscripciones y certificados, puede ser momento de pensar en una base de datos o una aplicación hecha para eso. Un buen primer paso es tener las planillas bien ordenadas: facilita cualquier cambio futuro."
+   },
+   "resources": [
+    {
+     "title": "IMPORTRANGE (Google)",
+     "url": "https://support.google.com/docs/answer/3093340",
+     "note": "Ayuda oficial de la función IMPORTRANGE."
+    },
+    {
+     "title": "Power Query en Excel (Microsoft)",
+     "url": "https://support.microsoft.com/es-es/excel",
+     "note": "Introducción oficial a Power Query."
+    }
+   ]
+  },
+  {
+   "title": "Automatizar tareas repetitivas",
+   "objective": "Conocer las formas de automatizar tareas en Microsoft 365 y Google Workspace, y crear una primera automatización segura.",
+   "intro": "Enviar el mismo recordatorio cada semana, copiar las respuestas de un formulario a otra hoja, avisar al equipo cuando alguien se inscribe: son tareas que una máquina puede hacer por ti. Automatizar libera tiempo para lo que ninguna máquina puede hacer: acompañar a las personas.",
+   "comenzar": "Haz una lista de las tareas digitales que repites cada semana o cada mes en tu servicio. ¿Cuánto tiempo te toman?",
+   "logros": [
+    "Identificar tareas que conviene automatizar.",
+    "Conocer macros, Apps Script, Office Scripts y Power Automate.",
+    "Crear una automatización sencilla con criterios de seguridad."
+   ],
+   "sections": [
+    {
+     "title": "¿Qué conviene automatizar?",
+     "body": "Una tarea es buena candidata si es **repetitiva**, **siempre igual** y **no requiere criterio**. Por ejemplo:\n\n- Avisar por correo cuando llega una inscripción.\n- Enviar un recordatorio antes de cada encuentro.\n- Dar formato a una planilla que se descarga cada mes.\n\nNo conviene automatizar lo que requiere discernimiento o un trato personal: las respuestas delicadas, las felicitaciones sentidas o las conversaciones difíciles."
+    },
+    {
+     "title": "Lo que ya viene incorporado",
+     "body": "Antes de programar nada, revisa las funciones que ya existen:\n\n- **Formularios:** Google Forms y Microsoft Forms pueden avisarte por correo de cada respuesta nueva (en la configuración de respuestas).\n- **Calendario:** los eventos envían recordatorios automáticos a los invitados.\n- **Gmail y Outlook:** permiten crear **filtros o reglas** que ordenan correos, y programar el envío de un mensaje para más tarde.\n- **Planillas:** las notificaciones de cambios avisan cuando alguien modifica el archivo."
+    },
+    {
+     "title": "Macros y scripts",
+     "body": "Cuando lo incorporado no alcanza:\n\n- **Macros grabadas:** registran lo que haces y lo repiten. En Hojas de cálculo de Google, Extensiones > Macros > Grabar macro. En Excel de escritorio, Vista > Macros > Grabar macro.\n- **Google Apps Script** (Extensiones > Apps Script): pequeños programas en JavaScript que, por ejemplo, envían un correo con los datos de cada nueva inscripción.\n- **Office Scripts** (pestaña Automatizar en Excel para la web) y **Power Automate:** flujos que conectan aplicaciones de Microsoft, como «cuando llegue una respuesta de Forms, agrégala a Excel y avisa por Teams».\n\nEmpieza por lo más simple y pide ayuda a alguien con experiencia para lo demás."
+    },
+    {
+     "title": "Automatizar con responsabilidad",
+     "body": "- **Prueba primero** con tus propios datos o con una copia.\n- **No ejecutes scripts** copiados de internet sin entender qué hacen: al autorizarlos, les das acceso a tu correo y tus archivos.\n- **Revisa los permisos** que pide cada automatización.\n- **Deja escrito** qué hace cada automatización, quién la creó y cómo desactivarla, para que el equipo siguiente no herede algo que nadie entiende.\n- **No envíes correos masivos** automatizados a personas que no los pidieron."
+    }
+   ],
+   "caso": {
+    "titulo": "El recordatorio que nunca paró",
+    "texto": "Un dirigente programó un correo automático para recordar los encuentros del sábado. Al año siguiente se cambió de ciudad, el grupo cambió de día y nadie sabía cómo detener el correo. Durante meses, las familias siguieron recibiendo recordatorios equivocados.",
+    "preguntas": [
+     "¿Qué faltó al crear esa automatización?",
+     "¿Qué debería quedar documentado de cada automatización del grupo?"
+    ]
+   },
+   "claves": [
+    [
+     "Automatización",
+     "Tarea que se ejecuta sola según una regla o un horario."
+    ],
+    [
+     "Macro",
+     "Secuencia de acciones grabada que se puede repetir con un clic."
+    ],
+    [
+     "Script",
+     "Pequeño programa que realiza tareas en una aplicación, como Apps Script u Office Scripts."
+    ]
+   ],
+   "bible": {
+    "ref": "Marcos 6,30-32 · Vengan a descansar",
+    "comment": "Cuando los apóstoles vuelven de la misión, Jesús los invita a un lugar apartado a descansar un poco, porque eran tantos los que iban y venían que no tenían tiempo ni para comer. El buen uso del tiempo también incluye el descanso."
+   },
+   "lectio": {
+    "meditar": "¿Qué tareas te quitan tiempo que podrías dedicar a las personas o al descanso?",
+    "orar": "Presenta al Señor tu agenda y pídele sabiduría para usar bien el tiempo.",
+    "vivir": "Esta semana, automatiza o simplifica una tarea repetitiva, y usa ese tiempo para algo que importe."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    }
+   ],
+   "questions": [
+    "¿Qué tareas repetitivas de tu servicio podrías automatizar?",
+    "¿Cuáles nunca deberían automatizarse? ¿Por qué?",
+    "¿Qué riesgos ves en autorizar scripts desconocidos?",
+    "¿En qué usarías el tiempo que ganes?"
+   ],
+   "activity": "En parejas, elijan una automatización sencilla y háganla funcionar: activar el aviso por correo de nuevas respuestas en un formulario, grabar una macro que dé formato a una planilla de asistencia o crear una regla de correo que ordene los mensajes de la pastoral. Luego documenten en una ficha qué hace, quién la creó y cómo desactivarla.",
+   "practica": [
+    "Elige una tarea repetitiva.",
+    "Crea la automatización más simple que la resuelva.",
+    "Pruébala con datos de ejemplo.",
+    "Documenta qué hace y cómo desactivarla."
+   ],
+   "prayer": "Señor, Tú nos regalas el tiempo y nos invitas también a descansar. Ayúdanos a usar las herramientas para liberar tiempo, no para llenarnos de más tareas, y a dedicar lo que ganemos a las personas y a estar contigo. Amén.",
+   "idea": "Automatiza lo repetitivo para tener tiempo para lo personal.",
+   "profundizar": {
+    "titulo": "Asistentes con inteligencia artificial",
+    "texto": "Google Workspace y Microsoft 365 incorporan asistentes con inteligencia artificial (Gemini y Copilot) que pueden resumir documentos, proponer fórmulas o redactar borradores. Úsalos como ayuda, no como reemplazo: revisa siempre lo que producen, no les entregues datos personales de los jóvenes sin necesidad y no los uses para escribir lo que debe nacer de tu oración y tu experiencia."
+   },
+   "resources": [
+    {
+     "title": "Apps Script (Google)",
+     "url": "https://developers.google.com/apps-script",
+     "note": "Documentación oficial de Google Apps Script."
+    },
+    {
+     "title": "Power Automate (Microsoft)",
+     "url": "https://learn.microsoft.com/es-es/power-automate/",
+     "note": "Documentación oficial en español."
+    }
+   ]
+  },
+  {
+   "title": "Comunicar con identidad y para todos",
+   "objective": "Crear materiales con una identidad visual coherente y accesibles para todas las personas.",
+   "intro": "La pastoral comunica todo el tiempo: afiches, presentaciones, documentos, publicaciones. Cuando todo comparte una identidad, la comunidad se reconoce y se ve seria. Y cuando los materiales son accesibles, nadie queda fuera: ni quien ve poco, ni quien usa un lector de pantalla, ni quien tiene dificultades para leer.",
+   "comenzar": "Junta tres materiales recientes de tu grupo (un afiche, una presentación, un documento). ¿Parecen del mismo grupo? ¿Por qué sí o por qué no?",
+   "logros": [
+    "Definir una identidad visual sencilla para el grupo.",
+    "Crear plantillas de presentación con esa identidad.",
+    "Aplicar criterios básicos de accesibilidad."
+   ],
+   "sections": [
+    {
+     "title": "Una identidad visual sencilla",
+     "body": "No hace falta ser diseñador. Basta con acordar:\n\n- **Logo:** una versión principal y otra en blanco para fondos oscuros.\n- **Colores:** dos o tres, con su código (por ejemplo, #0B2566). Así se usan siempre los mismos.\n- **Fuentes:** una para títulos y otra para texto, disponibles en Office y en Google.\n- **Tono:** cómo habla el grupo: cercano, alegre, respetuoso.\n\nTodo esto cabe en una página: el **manual de identidad** del grupo."
+    },
+    {
+     "title": "Plantillas de presentación",
+     "body": "Con la identidad definida, crea una plantilla que todos usen:\n\n- En **PowerPoint:** Vista > **Patrón de diapositivas**. Ahí defines fondo, colores, fuentes y logo de todas las diapositivas.\n- En **Presentaciones de Google:** Diapositiva > **Editar tema**.\n\nGuárdala en la carpeta de plantillas compartida. Cada nueva presentación parte de ahí y conserva la identidad."
+    },
+    {
+     "title": "Accesibilidad: que nadie quede fuera",
+     "body": "- **Contraste suficiente** entre texto y fondo.\n- **Texto alternativo** en las imágenes (clic derecho > Texto alternativo): lo leen los lectores de pantalla.\n- **Estilos de título reales,** no solo letra grande: permiten navegar el documento.\n- **Letra grande y clara,** sin depender solo del color para dar información (no «lo rojo es obligatorio»).\n- **Subtítulos** en los videos.\n\nWord y PowerPoint tienen **Revisar > Comprobar accesibilidad**, que señala los problemas."
+    },
+    {
+     "title": "Video y multimedia",
+     "body": "Las presentaciones pueden incluir videos (Insertar > Video), audio o enlaces. Úsalos con moderación y prueba siempre que funcionen sin internet si el lugar no tiene buena conexión: descarga el video y llévalo en el computador.\n\nPara afiches y publicaciones en redes, muchas comunidades complementan Office y Google con herramientas de diseño en línea. Lo importante es mantener la misma identidad en todas."
+    }
+   ],
+   "caso": {
+    "titulo": "Cada uno a su manera",
+    "texto": "En una parroquia, cada grupo hace sus afiches como quiere: uno usa letra gótica, otro emojis por todas partes, otro fotos borrosas. En el diario mural parecen de lugares distintos y los fieles no saben qué actividades son de la parroquia.",
+    "preguntas": [
+     "¿Qué beneficios tendría una identidad común en esa parroquia?",
+     "¿Cómo lograrlo sin quitarle personalidad a cada grupo?"
+    ]
+   },
+   "claves": [
+    [
+     "Identidad visual",
+     "Conjunto de logo, colores, fuentes y estilo que hacen reconocible a un grupo."
+    ],
+    [
+     "Patrón de diapositivas",
+     "Modelo que define el diseño de todas las diapositivas de una presentación."
+    ],
+    [
+     "Texto alternativo",
+     "Descripción de una imagen que leen los lectores de pantalla."
+    ]
+   ],
+   "bible": {
+    "ref": "Isaías 40,9 · Anunciar con fuerza",
+    "comment": "El profeta invita a subir a un monte alto y alzar la voz con fuerza para anunciar la buena noticia: «Aquí está su Dios». Comunicar bien es parte de anunciar."
+   },
+   "lectio": {
+    "meditar": "¿Qué buena noticia quiere anunciar tu grupo? ¿Se nota en lo que comunica?",
+    "orar": "Pide al Señor creatividad y sencillez para anunciar el Evangelio.",
+    "vivir": "Esta semana, revisa la accesibilidad de un material de tu grupo y corrígela."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    },
+    {
+     "source": "Mensaje para la Jornada Mundial de las Comunicaciones Sociales 2024, «Inteligencia artificial y sabiduría del corazón»",
+     "url": null,
+     "text": "Francisco invita a usar las nuevas herramientas de comunicación con sabiduría del corazón, al servicio de una comunicación plenamente humana."
+    }
+   ],
+   "questions": [
+    "¿Cuál es hoy la identidad visual de tu grupo?",
+    "¿Qué colores, fuentes y tono la expresarían mejor?",
+    "¿Qué personas podrían estar quedando fuera de tus materiales?",
+    "¿Qué material de tu grupo rehacerías primero?"
+   ],
+   "activity": "En grupos, definan en una página el manual de identidad de su grupo (logo, colores con código, fuentes y tono). Luego creen una plantilla de presentación con el patrón de diapositivas o el editor de tema, y pasen una presentación existente por la comprobación de accesibilidad.",
+   "practica": [
+    "Define logo, colores, fuentes y tono.",
+    "Crea la plantilla con el patrón o el tema.",
+    "Agrega texto alternativo a las imágenes.",
+    "Revisa la accesibilidad y corrige lo que falte."
+   ],
+   "prayer": "Señor, Tú quieres que tu Palabra llegue a todos. Danos creatividad para comunicar con belleza y sencillez, y sensibilidad para que nadie quede fuera de nuestro anuncio. Que en todo lo que hacemos se reconozca tu rostro. Amén.",
+   "idea": "Una identidad común ayuda a reconocer a la comunidad; la accesibilidad, a que nadie quede fuera.",
+   "profundizar": {
+    "titulo": "Fotos y redes",
+    "texto": "Antes de publicar fotos de actividades, pide autorización, especialmente a los adultos responsables de menores de edad. Evita publicar nombres completos junto a fotos de menores, y no compartas ubicaciones en tiempo real. Una buena práctica es incluir la autorización de imagen en el formulario de inscripción."
+   },
+   "resources": [
+    {
+     "title": "Accesibilidad en Microsoft 365",
+     "url": "https://support.microsoft.com/es-es/accessibility",
+     "note": "Guías oficiales de accesibilidad."
+    },
+    {
+     "title": "Accesibilidad en Google Workspace",
+     "url": "https://support.google.com/docs/answer/6199477",
+     "note": "Hacer documentos y presentaciones más accesibles."
+    }
+   ]
+  },
+  {
+   "title": "Cuidar la información de la pastoral",
+   "objective": "Organizar la información de la pastoral para que sea segura, continua y no dependa de una sola persona.",
+   "intro": "Los equipos cambian cada año: dirigentes que se van a estudiar, coordinadores nuevos, asesores que son trasladados. Si la información está en cuentas personales, cada cambio es una pérdida. Esta sesión cierra el curso con la mirada más importante: cuidar la memoria y los datos de la comunidad.",
+   "comenzar": "Imagina que mañana el coordinador de tu grupo se cambia de ciudad. ¿Qué información se perdería? ¿Quién tendría acceso a los archivos?",
+   "logros": [
+    "Diseñar una estructura de información institucional.",
+    "Gestionar accesos y traspasos de responsabilidad.",
+    "Aplicar criterios de protección de datos y respaldo."
+   ],
+   "sections": [
+    {
+     "title": "De lo personal a lo institucional",
+     "body": "Lo ideal es que la pastoral tenga una **cuenta o espacio institucional**:\n\n- Si la parroquia o institución tiene **Google Workspace** o **Microsoft 365**, pidan un espacio para la pastoral: las **unidades compartidas** de Google o los **sitios de SharePoint y equipos de Teams** pertenecen a la organización, no a una persona.\n- Si solo hay cuentas gratuitas, creen una **cuenta del grupo** para ser dueña de la carpeta principal, con su acceso resguardado por el párroco o el asesor y la verificación en dos pasos en un teléfono de la parroquia.\n\nLa regla: **los archivos son de la comunidad, no de quien los creó.**"
+    },
+    {
+     "title": "Accesos y traspasos",
+     "body": "- **Acceso por roles:** el equipo de coordinación edita todo; los dirigentes, sus áreas; las familias solo ven lo publicado.\n- **Revisión anual:** al comienzo de cada año, revisen quién tiene acceso y quiten a quienes ya no sirven.\n- **Traspaso de propiedad:** antes de dejar un servicio, transfiere la propiedad de tus archivos a la cuenta institucional (en Google, Compartir > cambiar a **Propietario**; en las unidades compartidas esto no es necesario).\n- **Documento de traspaso:** una página con dónde está cada cosa, contraseñas guardadas en un lugar seguro (no en un documento abierto) y automatizaciones activas."
+    },
+    {
+     "title": "Datos personales y menores de edad",
+     "body": "La pastoral maneja datos delicados: fichas médicas, autorizaciones, contactos de familias, fotos de menores. Algunos criterios:\n\n- **Mínimo necesario:** guarda solo lo que se usa.\n- **Acceso restringido:** las fichas médicas, solo para responsables directos.\n- **Plazo:** elimina o archiva los datos de actividades terminadas.\n- **Nunca** en grupos abiertos ni con enlaces públicos.\n- Las orientaciones de la Iglesia para la protección de menores y la legislación chilena de datos personales deben guiar estas decisiones. Consulta los protocolos de tu diócesis."
+    },
+    {
+     "title": "Respaldo y memoria",
+     "body": "- **Respaldo:** la nube protege de un computador perdido, pero no de un borrado accidental de toda la carpeta. Descarga cada año una copia de los archivos importantes (Google Takeout o descarga de la carpeta) y guárdala en un lugar seguro.\n- **Memoria:** crea una carpeta de **memoria anual** con el programa del año, las evaluaciones, fotos autorizadas y aprendizajes. Es un regalo para quienes vengan después."
+    }
+   ],
+   "caso": {
+    "titulo": "El grupo que empezó de cero",
+    "texto": "La coordinadora de la pastoral juvenil se fue a estudiar a otra ciudad. Todos los archivos, la tesorería, las planillas y el correo del grupo estaban en su cuenta personal. Ella cambió la contraseña y, sin mala intención, dejó de responder. El nuevo equipo tuvo que empezar todo de cero, sin listas, sin historia y sin las autorizaciones del campamento.",
+    "preguntas": [
+     "¿Qué decisiones de organización habrían evitado esta situación?",
+     "¿Qué debería tener un buen documento de traspaso?"
+    ]
+   },
+   "claves": [
+    [
+     "Cuenta institucional",
+     "Cuenta que pertenece a la organización y no a una persona."
+    ],
+    [
+     "Unidad compartida",
+     "Espacio de Google Workspace cuyos archivos pertenecen a la organización."
+    ],
+    [
+     "Respaldo",
+     "Copia de seguridad de la información, guardada aparte."
+    ]
+   ],
+   "bible": {
+    "ref": "Mateo 25,14-21 · Los talentos",
+    "comment": "El señor confía sus bienes a sus servidores y, al volver, alaba a quienes los hicieron fructificar: «Bien, servidor bueno y fiel; has sido fiel en lo poco». Los talentos no son para enterrarlos, sino para cuidarlos, hacerlos crecer y entregarlos."
+   },
+   "lectio": {
+    "meditar": "¿Qué talentos te ha confiado tu comunidad? ¿Cómo los vas a entregar cuando termine tu servicio?",
+    "orar": "Da gracias por todo lo que has recibido en este curso y ofrece tus capacidades al servicio de la comunidad.",
+    "vivir": "Esta semana, empieza el documento de traspaso de tu servicio, aunque no pienses dejarlo pronto."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un espacio donde los jóvenes viven, se informan y se encuentran; ofrece grandes oportunidades de comunicación y también riesgos que requieren discernimiento."
+    },
+    {
+     "source": "Antiqua et nova (Dicasterio para la Doctrina de la Fe y Dicasterio para la Cultura y la Educación, 2025)",
+     "url": null,
+     "text": "Nota sobre la relación entre la inteligencia artificial y la inteligencia humana, que recuerda que la tecnología debe estar siempre al servicio de la dignidad de la persona."
+    }
+   ],
+   "questions": [
+    "¿De quién son hoy los archivos de tu pastoral?",
+    "¿Qué pasaría si mañana dejas tu servicio?",
+    "¿Qué datos delicados maneja tu grupo y cómo los protege?",
+    "¿Qué memoria del año te gustaría dejar al próximo equipo?"
+   ],
+   "activity": "En grupos, diseñen el plan digital de su pastoral: estructura de carpetas institucional con roles de acceso, una lista de los datos personales que manejan con su nivel de acceso y su plazo de eliminación, y el modelo de documento de traspaso. Preséntenlo al grupo como propuesta para su parroquia.",
+   "practica": [
+    "Dibuja la estructura de carpetas institucional con roles.",
+    "Haz el inventario de datos personales y sus accesos.",
+    "Define el plan de respaldo anual.",
+    "Redacta el modelo de documento de traspaso."
+   ],
+   "prayer": "Señor, gracias por los talentos que nos confías y por las herramientas que nos permiten servir mejor. Que no las usemos para lucirnos, sino para cuidar a las personas, dar continuidad a la misión y entregar a otros lo que recibimos. Haznos servidores buenos y fieles. Amén.",
+   "idea": "La información de la pastoral es de la comunidad: cuídala y entrégala mejor de lo que la recibiste.",
+   "profundizar": {
+    "titulo": "Lo digital al servicio de la misión",
+    "texto": "Todo lo aprendido en estos tres niveles tiene un solo propósito: que la pastoral funcione mejor para que haya más tiempo y energía para lo esencial, que es el encuentro con Jesús y con los demás. Una pastoral bien organizada no es más fría: es más libre para amar."
+   },
+   "resources": [
+    {
+     "title": "Unidades compartidas de Google",
+     "url": "https://support.google.com/a/users/answer/7212025",
+     "note": "Qué son y cómo se usan."
+    },
+    {
+     "title": "Google Takeout",
+     "url": "https://takeout.google.com",
+     "note": "Descargar una copia de tus datos de Google."
+    }
+   ]
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Para qué sirve una tabla dinámica?",
+   "options": [
+    "Para resumir y agrupar muchos datos en una tabla configurable.",
+    "Para escribir con letras animadas.",
+    "Para proteger la planilla."
+   ],
+   "correct": 0,
+   "feedback": "La tabla dinámica resume miles de filas en segundos."
+  },
+  {
+   "q": "En =BUSCARV(A2;Inscritos!A:D;3;FALSO), ¿qué significa FALSO?",
+   "options": [
+    "Que la fórmula está mala.",
+    "Que busque la coincidencia exacta.",
+    "Que devuelva un valor vacío."
+   ],
+   "correct": 1,
+   "feedback": "FALSO pide coincidencia exacta del valor buscado."
+  },
+  {
+   "q": "¿Qué gráfico conviene para mostrar la asistencia mes a mes?",
+   "options": [
+    "Circular.",
+    "De líneas.",
+    "Ninguno."
+   ],
+   "correct": 1,
+   "feedback": "Las líneas muestran la evolución en el tiempo."
+  },
+  {
+   "q": "¿Qué significa el principio de «una sola fuente de verdad»?",
+   "options": [
+    "Que cada dato se escribe en un solo lugar y las demás planillas leen desde ahí.",
+    "Que solo una persona puede usar la planilla.",
+    "Que se imprime una sola copia."
+   ],
+   "correct": 0,
+   "feedback": "Así, al corregir un dato, se corrige en todas partes."
+  },
+  {
+   "q": "¿Qué función de Hojas de cálculo de Google trae datos de otra planilla?",
+   "options": [
+    "IMPORTRANGE.",
+    "SUMA.",
+    "CONTAR.SI."
+   ],
+   "correct": 0,
+   "feedback": "IMPORTRANGE conecta planillas sin copiar los datos."
+  },
+  {
+   "q": "¿Cuál es una buena candidata para automatizar?",
+   "options": [
+    "Una conversación difícil con un joven.",
+    "Un aviso por correo cada vez que llega una inscripción.",
+    "Una carta de condolencias."
+   ],
+   "correct": 1,
+   "feedback": "Se automatiza lo repetitivo y sin criterio; lo personal, nunca."
+  },
+  {
+   "q": "¿Qué precaución es importante con los scripts copiados de internet?",
+   "options": [
+    "Ejecutarlos de inmediato.",
+    "Entender qué hacen y qué permisos piden antes de autorizarlos.",
+    "Compartirlos con todos."
+   ],
+   "correct": 1,
+   "feedback": "Al autorizar un script, le das acceso a tu correo y tus archivos."
+  },
+  {
+   "q": "¿Para qué sirve el texto alternativo de una imagen?",
+   "options": [
+    "Para que la imagen pese menos.",
+    "Para que los lectores de pantalla describan la imagen.",
+    "Para cambiarle el color."
+   ],
+   "correct": 1,
+   "feedback": "Así las personas con discapacidad visual acceden al contenido."
+  },
+  {
+   "q": "¿De quién deberían ser los archivos de la pastoral?",
+   "options": [
+    "Del dirigente que los creó.",
+    "De la comunidad, en un espacio institucional.",
+    "De quien tenga el mejor computador."
+   ],
+   "correct": 1,
+   "feedback": "Los archivos son de la comunidad, no de una persona."
+  },
+  {
+   "q": "¿Qué debe hacer un dirigente antes de dejar su servicio?",
+   "options": [
+    "Borrar sus archivos.",
+    "Transferir la propiedad de los archivos y dejar un documento de traspaso.",
+    "Cambiar la contraseña del grupo."
+   ],
+   "correct": 1,
+   "feedback": "Así la comunidad no pierde su memoria ni su información."
+  }
+ ],
+ "taller": "Proyecto final: el sistema digital de la pastoral. Cada grupo diseña y presenta un sistema para su pastoral real que incluya: estructura de carpetas institucional con roles de acceso; planilla maestra de participantes con una vista filtrada por comunidad; un tablero con tabla dinámica y un gráfico con conclusión; una automatización documentada; una plantilla con la identidad del grupo revisada en accesibilidad; y el documento de traspaso. La presentación dura diez minutos y termina con tres decisiones pastorales que los datos les ayudaron a tomar."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "herramientas-digitales",
+  "titulo": "Herramientas digitales para la Pastoral",
+  "subtitulo": "Microsoft 365 y Google Workspace en tres niveles",
+  "descripcion": "Para quienes organizan, comunican y coordinan en la pastoral: documentos, planillas, presentaciones, correo, formularios, trabajo colaborativo, análisis de datos y automatización, en Microsoft 365 y Google Workspace. Tres niveles progresivos (inicial, intermedio y avanzado), cada uno con su propia constancia.",
+  "nivel": "curso",
+  "nuevo": false,
+  "modulos_n": 3,
+  "duracion": "27 horas · 3 módulos",
+  "modalidad": "En línea, a tu ritmo, con práctica en computador",
+  "publico": "Desde 14 años",
+  "tipo": "curso",
+  "orden": 7,
+  "elige": 0,
+  "horas": 27,
+  "recursos": {},
+  "ejes": [
+    "Cuenta segura y nube ordenada",
+    "Documentos, planillas y presentaciones",
+    "Trabajo colaborativo, formularios y reuniones en línea",
+    "Análisis de datos, automatización y cuidado de la información"
+  ],
+  "competencias": [
+    "Usar Microsoft 365 o Google Workspace con autonomía en tareas de la pastoral.",
+    "Organizar la información del grupo de forma segura, ordenada y continua.",
+    "Proteger los datos personales, especialmente los de menores de edad."
+  ],
+  "agappe": [],
+  "contenidos": [
+    {
+      "titulo": "Inicial: primeros pasos digitales",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Intermedio: colaborar y organizar",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Avanzado: gestionar, analizar y automatizar",
+      "tipo": "obligatorio"
+    }
+  ]
+}

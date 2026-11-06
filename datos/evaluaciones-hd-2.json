@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Intermedio: colaborar y organizar",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué modo de Google Documentos permite proponer cambios sin modificar el texto directamente?",
+    "opciones": [
+     "Edición.",
+     "Sugerencia.",
+     "Visualización."
+    ],
+    "correcta": 1,
+    "explicacion": "En modo sugerencia los cambios quedan marcados para que el autor los acepte o rechace."
+   },
+   {
+    "pregunta": "¿Cuál es su equivalente en Word?",
+    "opciones": [
+     "Control de cambios.",
+     "Combinación de correspondencia.",
+     "Formato condicional."
+    ],
+    "correcta": 0,
+    "explicacion": "Revisar > Control de cambios funciona igual."
+   },
+   {
+    "pregunta": "¿Para qué sirve escribir @ y un nombre en un comentario?",
+    "opciones": [
+     "Para borrar el comentario.",
+     "Para avisar a esa persona.",
+     "Para cambiar el permiso del archivo."
+    ],
+    "correcta": 1,
+    "explicacion": "La mención envía una notificación a la persona."
+   },
+   {
+    "pregunta": "¿Cómo se envían las respuestas de un formulario de Google a una planilla?",
+    "opciones": [
+     "Copiándolas a mano.",
+     "Con «Vincular con Hojas de cálculo» en la pestaña Respuestas.",
+     "Imprimiendo el formulario."
+    ],
+    "correcta": 1,
+    "explicacion": "Así las respuestas llegan ordenadas a una planilla."
+   },
+   {
+    "pregunta": "¿Qué datos conviene pedir en un formulario?",
+    "opciones": [
+     "Todos los que se pueda, por si acaso.",
+     "Solo los necesarios para la actividad.",
+     "Siempre el RUT y la dirección."
+    ],
+    "correcta": 1,
+    "explicacion": "Pedir solo lo necesario protege a las personas y facilita el cuidado de los datos."
+   },
+   {
+    "pregunta": "¿Qué hace la fórmula =CONTAR.SI(D2:D40;\"Pagado\")?",
+    "opciones": [
+     "Suma los montos pagados.",
+     "Cuenta cuántas celdas dicen «Pagado».",
+     "Borra los pagados."
+    ],
+    "correcta": 1,
+    "explicacion": "CONTAR.SI cuenta las celdas que cumplen una condición."
+   },
+   {
+    "pregunta": "¿Qué indica $F$1 en una fórmula?",
+    "opciones": [
+     "Un monto en dólares.",
+     "Una referencia absoluta que no cambia al copiar.",
+     "Un error."
+    ],
+    "correcta": 1,
+    "explicacion": "Los signos de dólar fijan la celda al copiar la fórmula."
+   },
+   {
+    "pregunta": "¿Para qué sirve la validación de datos con lista desplegable?",
+    "opciones": [
+     "Para que los datos se escriban de manera uniforme.",
+     "Para proteger la planilla con contraseña.",
+     "Para imprimir la planilla."
+    ],
+    "correcta": 0,
+    "explicacion": "Así todos eligen entre las mismas opciones y las fórmulas funcionan."
+   },
+   {
+    "pregunta": "¿Qué se necesita para crear un índice automático?",
+    "opciones": [
+     "Escribir los números de página a mano.",
+     "Usar estilos de título.",
+     "Una plantilla de Excel."
+    ],
+    "correcta": 1,
+    "explicacion": "El índice se genera a partir de los estilos de título."
+   },
+   {
+    "pregunta": "¿Qué es lo más importante de un acta de reunión?",
+    "opciones": [
+     "La lista de quienes llegaron tarde.",
+     "Los acuerdos, con responsable y plazo.",
+     "El color del documento."
+    ],
+    "correcta": 1,
+    "explicacion": "Sin responsable y plazo, los acuerdos no se cumplen."
+   }
+  ]
+ }
+}

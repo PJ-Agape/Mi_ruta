@@ -1,0 +1,61 @@
+{
+ "curso": "hd-1",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Inicial: primeros pasos digitales",
+   "semanas": "",
+   "intro": "Para empezar desde cero. Cada sesión es práctica: trabajarás con documentos y planillas reales de tu grupo, en Microsoft 365 o en Google Workspace, según lo que use tu comunidad.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Tu cuenta y la nube",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Escribir documentos que se entiendan",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Planillas para ordenar al grupo",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Presentaciones que acompañan",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Correo, calendario y compartir",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Inicial: primeros pasos digitales",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}

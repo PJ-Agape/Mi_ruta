@@ -160,6 +160,7 @@ def dip(titulo, ses, cierre):
 
 
 D, A, C = "discernimiento-y-oracion", "arte-de-encontrarnos", "coordinar-es-servir"
+HERRAMIENTAS = ["hd-1", "hd-2", "hd-3"]
 COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-liturgica", "conocer-la-biblia", "llamados-en-la-biblia", "santos-jovenes",
                    "el-credo", "sacramentos", "misiones-juveniles", "ayudante-de-catequesis", "voluntariado-y-doctrina-social",
                    "ecologia-integral", "buen-trato-y-prevencion", "primeros-auxilios", "primeros-auxilios-psicologicos",
@@ -187,7 +188,7 @@ def propedeutico():
 
 
 def modulos():
-    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA}
+    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA + HERRAMIENTAS}
     M[PROPEDEUTICO] = propedeutico()
     M["dj-identidad"] = dj("Identidad y espiritualidad del agente pastoral", [U(A, "m1-u01"), U(A, "m1-u02"), U(A, "m1-u05"), U(A, "m1-u06"), U(A, "m5-u01")], "dj-identidad")
     M["dj-acogida"] = dj("Acogida y vida de grupo", [U(A, "m2-u01"), U(A, "m2-u02"), U(A, "m2-u03"), U(A, "m2-u04"), U(A, "m1-u04")], "dj-acogida")
@@ -245,6 +246,11 @@ CURSOS = [
   "publico": "Desde 17 años; agentes de pastoral, catequistas y animadores bíblicos", "elige": 0,
   "obligatorios": ESCRITURA, "optativos": [],
   "requiere": {"se-3": ["se-2"], "se-4": ["se-1"], "se-5": ["se-1"], "se-6": ["se-2"], "se-7": ["se-1"], "se-8": ["se-2"], "se-9": ["se-2"]}},
+ {"id": "herramientas-digitales", "titulo": "Herramientas digitales para la Pastoral", "subtitulo": "Microsoft 365 y Google Workspace en tres niveles",
+  "descripcion": "Para quienes organizan, comunican y coordinan en la pastoral: documentos, planillas, presentaciones, correo, formularios, trabajo colaborativo, análisis de datos y automatización, en Microsoft 365 y Google Workspace. Tres niveles progresivos (inicial, intermedio y avanzado), cada uno con su propia constancia.",
+  "publico": "Desde 14 años", "elige": 0, "modalidad": "En línea, a tu ritmo, con práctica en computador",
+  "obligatorios": HERRAMIENTAS, "optativos": [],
+  "requiere": {"hd-2": ["hd-1"], "hd-3": ["hd-1", "hd-2"]}},
  {"id": "catequista", "titulo": "Catequista y agente de pastoral", "subtitulo": "Transmitir la fe y servir en la comunidad",
   "descripcion": "Forma catequistas con mirada de agente de pastoral: conocen la fe y los sacramentos, preparan y animan la catequesis, acompañan personas, animan grupos y coordinan con la comunidad.",
   "publico": "Desde 16 años", "elige": 2,
