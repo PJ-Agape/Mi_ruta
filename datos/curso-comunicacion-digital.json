@@ -1,0 +1,54 @@
+{
+  "id": "comunicacion-digital",
+  "titulo": "Comunicación digital para la Pastoral",
+  "subtitulo": "Redes sociales, contenidos y gestión en tres niveles",
+  "descripcion": "Para quienes comunican en su grupo o parroquia: sentido de la comunicación cristiana, plataformas y formatos, identidad visual, cuidado de las personas, escritura, diseño, fotografía y video, community manager, calendario editorial, programación, moderación, crisis y métricas. Tres niveles progresivos, cada uno con su propia constancia y un taller guiado en cada sesión.",
+  "nivel": "curso",
+  "nuevo": false,
+  "modulos_n": 3,
+  "duracion": "27 horas · 3 módulos",
+  "modalidad": "En línea, a tu ritmo, con práctica en tus propias cuentas",
+  "publico": "Desde 14 años",
+  "tipo": "curso",
+  "orden": 8,
+  "elige": 0,
+  "horas": 27,
+  "recursos": {},
+  "ejes": [
+    "Comunicar con sentido, plataformas e identidad",
+    "Textos, diseño, fotografía y video",
+    "Community manager y calendario editorial",
+    "Programación, moderación, crisis y métricas"
+  ],
+  "competencias": [
+    "Crear contenidos de calidad para redes con herramientas gratuitas.",
+    "Gestionar la comunicación del grupo en equipo, con calendario, programación y métricas.",
+    "Cuidar a las personas: imagen de menores, datos personales, moderación y protocolos de crisis."
+  ],
+  "agappe": [
+    {
+      "titulo": "Estudio de difusión",
+      "texto": "Marcos de foto, historias, invitaciones y stickers.",
+      "url": "https://pj-agape.github.io/#/difusion"
+    },
+    {
+      "titulo": "Coordinación",
+      "texto": "Tareas, reuniones y actas del equipo, con la misma cuenta.",
+      "url": "https://pj-agape.github.io/coordinacion/"
+    }
+  ],
+  "contenidos": [
+    {
+      "titulo": "Comunicación y redes · Nivel 1: comunicar con sentido",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Comunicación y redes · Nivel 2: crear contenidos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Comunicación y redes · Nivel 3: gestionar la comunicación",
+      "tipo": "obligatorio"
+    }
+  ]
+}

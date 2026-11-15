@@ -30,6 +30,7 @@ import escritura_programa as EP  # noqa: E402
 from fichas import FICHAS, enlaces_agappe  # noqa: E402
 from debates import debate_md  # noqa: E402
 import hd_taller as HDT  # noqa: E402
+import comunicacion_digital as CD  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -142,6 +143,10 @@ def complementaria(cid):
         for n, s in enumerate(ses, 1):
             s["texto"] = s["texto"].rstrip() + "\n\n" + HDT.taller_md(cid, n) + "\n"
             s["tiempo"] = "90 min + taller guiado"
+    if cid in CD.IDS:
+        for n, s in enumerate(ses, 1):
+            s["texto"] = s["texto"].rstrip() + "\n\n" + CD.taller_md(cid, n) + "\n"
+            s["tiempo"] = "90 min + taller guiado"
     if cid in EP.PROGRAMA:
         for n, s in enumerate(ses, 1):
             s["texto"] = s["texto"].rstrip() + "\n\n" + EP.estudio_md(cid, n) + "\n"
@@ -166,6 +171,7 @@ def dip(titulo, ses, cierre):
 
 D, A, C = "discernimiento-y-oracion", "arte-de-encontrarnos", "coordinar-es-servir"
 HERRAMIENTAS = ["hd-1", "hd-2", "hd-3"]
+COMUNICACION = ["redes-2", "redes-3"]  # niveles 2 y 3; el nivel 1 es «comunicacion-y-redes»
 COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-liturgica", "conocer-la-biblia", "llamados-en-la-biblia", "santos-jovenes",
                    "el-credo", "sacramentos", "misiones-juveniles", "ayudante-de-catequesis", "voluntariado-y-doctrina-social",
                    "ecologia-integral", "buen-trato-y-prevencion", "primeros-auxilios", "primeros-auxilios-psicologicos",
@@ -193,7 +199,7 @@ def propedeutico():
 
 
 def modulos():
-    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA + HERRAMIENTAS}
+    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA + HERRAMIENTAS + COMUNICACION}
     M[PROPEDEUTICO] = propedeutico()
     M["dj-identidad"] = dj("Identidad y espiritualidad del agente pastoral", [U(A, "m1-u01"), U(A, "m1-u02"), U(A, "m1-u05"), U(A, "m1-u06"), U(A, "m5-u01")], "dj-identidad")
     M["dj-acogida"] = dj("Acogida y vida de grupo", [U(A, "m2-u01"), U(A, "m2-u02"), U(A, "m2-u03"), U(A, "m2-u04"), U(A, "m1-u04")], "dj-acogida")
@@ -256,6 +262,11 @@ CURSOS = [
   "publico": "Desde 14 años", "elige": 0, "modalidad": "En línea, a tu ritmo, con práctica en computador",
   "obligatorios": HERRAMIENTAS, "optativos": [],
   "requiere": {"hd-2": ["hd-1"], "hd-3": ["hd-1", "hd-2"]}},
+ {"id": "comunicacion-digital", "titulo": "Comunicación digital para la Pastoral", "subtitulo": "Redes sociales, contenidos y gestión en tres niveles",
+  "descripcion": "Para quienes comunican en su grupo o parroquia: sentido de la comunicación cristiana, plataformas y formatos, identidad visual, cuidado de las personas, escritura, diseño, fotografía y video, community manager, calendario editorial, programación, moderación, crisis y métricas. Tres niveles progresivos, cada uno con su propia constancia y un taller guiado en cada sesión.",
+  "publico": "Desde 14 años", "elige": 0, "modalidad": "En línea, a tu ritmo, con práctica en tus propias cuentas",
+  "obligatorios": ["comunicacion-y-redes"] + COMUNICACION, "optativos": [],
+  "requiere": {"redes-2": ["comunicacion-y-redes"], "redes-3": ["comunicacion-y-redes", "redes-2"]}},
  {"id": "catequista", "titulo": "Catequista y agente de pastoral", "subtitulo": "Transmitir la fe y servir en la comunidad",
   "descripcion": "Forma catequistas con mirada de agente de pastoral: conocen la fe y los sacramentos, preparan y animan la catequesis, acompañan personas, animan grupos y coordinan con la comunidad.",
   "publico": "Desde 16 años", "elige": 2,

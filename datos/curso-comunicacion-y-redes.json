@@ -1,8 +1,8 @@
 {
   "id": "comunicacion-y-redes",
-  "titulo": "Comunicación y redes para la pastoral",
-  "subtitulo": "Comunicar con sentido, belleza y cuidado",
-  "descripcion": "Para quienes manejan las redes, los grupos de mensajería o los afiches de su grupo: para qué comunica una comunidad cristiana, cómo crear buenos contenidos, cómo cuidar a las personas en el mundo digital y cómo armar un plan de comunicación. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
+  "titulo": "Comunicación y redes · Nivel 1: comunicar con sentido",
+  "subtitulo": "Propósito, plataformas, formatos, identidad y cuidado de las personas",
+  "descripcion": "Para quienes manejan las redes, los grupos de mensajería o los afiches de su grupo: para qué comunica una comunidad cristiana, qué ofrece cada plataforma, qué formatos y medidas usar, cómo construir la identidad visual y el tono de voz, y cómo cuidar a las personas en lo digital.",
   "publico": "Desde 14 años",
   "categoria": "Herramientas",
   "nuevo": false,
@@ -13,14 +13,15 @@
   "recursos": {},
   "ejes": [
     "Comunicar con sentido",
-    "Creación de contenidos",
-    "Cuidado en lo digital",
-    "Plan de comunicación"
+    "Mapa de plataformas",
+    "Tipos de contenido y formatos",
+    "Identidad visual y tono de voz",
+    "Cuidado de las personas en lo digital"
   ],
   "competencias": [
-    "Crear contenidos claros para redes y afiches.",
-    "Cuidar la imagen y los datos de las personas en lo digital.",
-    "Elaborar un plan de comunicación para el grupo."
+    "Explicar para qué comunica una comunidad cristiana y elegir sus plataformas.",
+    "Planificar contenidos por pilares y formatos con las medidas correctas.",
+    "Definir la identidad del grupo y cuidar la imagen y los datos de las personas."
   ],
   "agappe": [
     {
@@ -35,19 +36,19 @@
       "tipo": "sesion"
     },
     {
-      "titulo": "Crear buenos contenidos",
+      "titulo": "Un mapa de las plataformas",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Tipos de contenido y formatos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Identidad visual y tono de voz",
       "tipo": "sesion"
     },
     {
       "titulo": "Cuidar a las personas en lo digital",
-      "tipo": "sesion"
-    },
-    {
-      "titulo": "Contar un evento",
-      "tipo": "sesion"
-    },
-    {
-      "titulo": "Un plan de comunicación",
       "tipo": "sesion"
     },
     {

@@ -1,0 +1,604 @@
+{
+ "id": "redes-2",
+ "titulo": "Comunicación y redes · Nivel 2: crear contenidos",
+ "subtitulo": "Textos, diseño con Canva, fotografía, video vertical y cobertura de eventos",
+ "categoria": "Herramientas",
+ "publico": "Desde 14 años",
+ "descripcion": "El nivel de producción: escribir textos con gancho y llamado a la acción, diseñar piezas claras en Canva, fotografiar y editar con el celular, grabar y editar video vertical con subtítulos y música permitida, y cubrir un evento de principio a fin.",
+ "modulo": "Comunicación y redes · Nivel 2: crear contenidos",
+ "intro": "Con el nivel 1 aprobado. Aquí se aprende haciendo: cada sesión produce una pieza real para tu grupo.",
+ "unidades": [
+  {
+   "title": "Escribir para redes",
+   "objective": "Escribir textos breves, claros y atractivos para redes: un gancho que detiene, un contenido que aporta y un llamado a la acción.",
+   "intro": "En redes, la gente decide en **un segundo** si sigue leyendo. Por eso escribir para redes es un oficio distinto a escribir una carta o un acta. En esta sesión vas a aprender la estructura básica de un buen texto, cómo usar hashtags, cómo escribir para que todos puedan leer y cómo usar la inteligencia artificial sin renunciar a tu propia voz.",
+   "comenzar": "Copia el texto de la última invitación que publicó tu grupo. Léelo como si no conocieras al grupo: ¿te dan ganas de ir? ¿Sabes exactamente qué hacer?",
+   "logros": [
+    "Escribir textos con gancho, contenido y llamado a la acción.",
+    "Usar hashtags, menciones y emojis con criterio.",
+    "Escribir de forma accesible y usar la IA como asistente, no como autor."
+   ],
+   "sections": [
+    {
+     "title": "Gancho, contenido y llamado",
+     "body": "Todo texto en redes tiene tres partes:\n\n1. **Gancho** (la primera línea): una pregunta, una frase fuerte o un dato que haga detenerse. Es lo único que se ve antes del «más».\n2. **Contenido:** lo que aportas, en frases cortas y párrafos de una o dos líneas.\n3. **Llamado a la acción:** qué tiene que hacer quien lee: inscribirse, guardar, compartir, comentar, venir.\n\n| Antes | Después |\n|---|---|\n| «Se invita a todos los jóvenes al encuentro del sábado a las 17:00 en el salón.» | «¿Cuándo fue la última vez que alguien te preguntó cómo estás de verdad? Este sábado, 17:00, salón parroquial: conversa, juega y reza con nosotros. Trae a un amigo.» |"
+    },
+    {
+     "title": "Hashtags, menciones y emojis",
+     "body": "- **Hashtags:** pocos y pertinentes (tres a cinco). Uno propio del grupo para encontrar todo lo suyo y alguno amplio (#PastoralJuvenil, el de la diócesis o de una jornada). Escríbelos con mayúscula en cada palabra (#JovenesDeFe) para que los lectores de pantalla los lean bien.\n- **Menciones:** etiqueta a la parroquia, a la diócesis o a quien corresponde; nunca a menores de edad.\n- **Emojis:** con mesura, para ordenar o dar tono, no para reemplazar palabras. Un texto lleno de emojis cansa y es difícil de leer para quien usa lector de pantalla.\n- **Ortografía:** un error en una invitación resta credibilidad. Lee en voz alta antes de publicar."
+    },
+    {
+     "title": "Escribir para todos",
+     "body": "- Frases de **menos de veinte palabras**.\n- Una idea por párrafo.\n- Palabras sencillas; si usas un término de Iglesia (adviento, lectio, confirmación), explícalo cuando el público no lo conozca.\n- La información práctica siempre en el mismo orden: **qué, cuándo, dónde, para quién, cómo inscribirse**.\n- Repite en el texto lo que va escrito en la imagen.\n- Describe la imagen con **texto alternativo**."
+    },
+    {
+     "title": "La inteligencia artificial como asistente",
+     "body": "Las herramientas de IA pueden ayudar a corregir, resumir, proponer títulos o adaptar un texto a otro formato. Úsalas con criterio:\n\n- La idea, el mensaje y la revisión final **son tuyos**. El papa León XIV pide no renunciar al propio pensamiento.\n- **Verifica** todo dato, cita bíblica o frase de un santo que proponga la IA: suelen inventar.\n- **Nunca** ingreses datos personales de jóvenes en una herramienta de IA.\n- No inventes testimonios ni pongas palabras en boca de personas reales.\n- Si una imagen fue generada con IA, dilo."
+    }
+   ],
+   "caso": {
+    "titulo": "El texto perfecto que nadie leyó",
+    "texto": "Para invitar a un retiro, un dirigente escribe un texto de doce líneas que empieza con la historia de la parroquia y recién al final dice la fecha. No incluye cómo inscribirse. La publicación tiene muchos «me gusta», pero solo se inscriben cuatro personas.",
+    "preguntas": [
+     "¿Qué falló en la estructura?",
+     "Reescriban el texto con gancho, contenido y llamado a la acción en no más de seis líneas."
+    ]
+   },
+   "claves": [
+    [
+     "Gancho",
+     "Primera línea de un texto, pensada para que la persona se detenga a leer."
+    ],
+    [
+     "Llamado a la acción",
+     "Indicación clara de lo que se espera que haga quien lee."
+    ],
+    [
+     "Hashtag",
+     "Palabra o frase precedida de # que agrupa publicaciones sobre un mismo tema."
+    ]
+   ],
+   "bible": {
+    "ref": "Proverbios 25,11 · Una palabra dicha a tiempo",
+    "comment": "«Como manzanas de oro en bandeja de plata es la palabra dicha a su tiempo». Escribir bien no es adornar: es encontrar la palabra justa para la persona y el momento."
+   },
+   "lectio": {
+    "meditar": "¿Qué palabra necesitan escuchar hoy los jóvenes de tu comunidad?",
+    "orar": "Pide el don de la palabra justa, ni de más ni de menos.",
+    "vivir": "Esta semana, reescribe una invitación del grupo con gancho, contenido y llamado."
+   },
+   "church": [
+    {
+     "source": "León XIV, Mensaje para la LX Jornada Mundial de las Comunicaciones Sociales (2026)",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "text": "«Custodiar voces y rostros humanos»: advierte que los algoritmos premian las emociones rápidas y castigan la reflexión, alerta sobre los riesgos de la inteligencia artificial y pide no renunciar al propio pensamiento."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    }
+   ],
+   "questions": [
+    "¿Qué textos de tu grupo funcionan mejor? ¿Por qué?",
+    "¿Qué gancho usarías para invitar a alguien que nunca ha venido?",
+    "¿Qué términos de Iglesia habría que explicar a tu público?",
+    "¿Cómo usan hoy la IA en tu equipo y qué límites pondrían?"
+   ],
+   "activity": "Cada participante trae una invitación antigua del grupo y la reescribe con la estructura de gancho, contenido y llamado. Las leen en voz alta y el grupo vota cuál detendría más a un joven que no conoce la pastoral.",
+   "practica": [
+    "Elijan tres textos antiguos del grupo.",
+    "Reescríbanlos con la estructura.",
+    "Revisen accesibilidad y hashtags.",
+    "Guarden las mejores fórmulas en un banco de textos."
+   ],
+   "prayer": "Señor, Palabra que se hizo carne: enséñanos a escribir con verdad y con belleza, a decir lo esencial y a invitar con alegría. Que nuestras palabras abran puertas y nunca las cierren. Amén.",
+   "idea": "La primera línea decide si alguien lee la segunda.",
+   "profundizar": {
+    "titulo": "Un banco de textos",
+    "texto": "Guarden en un documento compartido los textos que funcionaron: invitaciones, agradecimientos, respuestas a preguntas frecuentes, mensajes para fechas litúrgicas. No es para copiar siempre lo mismo, sino para no empezar desde cero y mantener el tono del grupo."
+   },
+   "resources": [
+    {
+     "title": "Mensajes para la Jornada Mundial de las Comunicaciones Sociales",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "note": "Criterios de la Iglesia sobre comunicación e inteligencia artificial."
+    }
+   ]
+  },
+  {
+   "title": "Diseño gráfico con Canva",
+   "objective": "Aplicar principios básicos de diseño para crear piezas claras y atractivas en Canva, respetando la identidad del grupo y los derechos de autor.",
+   "intro": "No hace falta ser diseñador para hacer un buen afiche. Hace falta conocer unos pocos principios y practicarlos. En esta sesión vas a aprender a ordenar la información, usar el contraste y el espacio, trabajar con Canva y conseguir imágenes que puedas usar legalmente.",
+   "comenzar": "Busca en tu teléfono un afiche (de cualquier tema) que te haya llamado la atención. ¿Qué es lo primero que miraste? ¿Por qué?",
+   "logros": [
+    "Aplicar jerarquía, contraste, alineación y espacio en blanco.",
+    "Crear y adaptar diseños en Canva con la identidad del grupo.",
+    "Usar imágenes y tipografías respetando sus licencias."
+   ],
+   "sections": [
+    {
+     "title": "Cuatro principios que ordenan todo",
+     "body": "1. **Jerarquía:** lo más importante, más grande. Un afiche tiene **un** mensaje principal; el resto es secundario.\n2. **Contraste:** entre el texto y el fondo, entre lo importante y lo secundario. Si todo destaca, nada destaca.\n3. **Alineación:** todo alineado a una línea invisible (izquierda o centro). Los elementos «sueltos» se ven desordenados.\n4. **Proximidad y espacio:** lo que va junto, cerca (fecha con hora); entre bloques, aire. El espacio vacío no es desperdicio: hace respirar la pieza.\n\nPrueba rápida: mira tu diseño desde lejos o achicado. Si en tres segundos no se entiende qué es y cuándo, hay que simplificar."
+    },
+    {
+     "title": "Trabajar en Canva",
+     "body": "- **Plantillas:** sirven como punto de partida, pero cámbialas con los colores y fuentes del grupo para que no se vean «de plantilla».\n- **Tamaños:** elige el formato correcto desde el inicio (publicación de Instagram, historia, documento A4). Cambiar el tamaño automáticamente es una función de pago; con la cuenta gratuita, crea una copia en el nuevo tamaño y reacomoda.\n- **Equipo:** se puede compartir un diseño para editarlo entre varios, igual que un documento.\n- **Descargar:** PNG para redes; PDF para imprimir; MP4 si el diseño tiene animación.\n- **Canva para organizaciones sin fines de lucro:** ofrece las funciones de pago gratis a organizaciones que cumplan sus requisitos. La aceptación de organizaciones religiosas es evaluada caso a caso; si la parroquia está inscrita como organización sin fines de lucro, puede postular. La versión gratuita alcanza para casi todo."
+    },
+    {
+     "title": "Imágenes y tipografías: lo que sí y lo que no",
+     "body": "- **No** uses imágenes buscadas en Google: casi siempre tienen derechos de autor.\n- **Sí** usa tus propias fotos, los elementos gratuitos de Canva o bancos de imágenes libres (por ejemplo, Unsplash o Pexels), revisando su licencia.\n- Las **imágenes religiosas** también tienen autor: una ilustración moderna de Jesús o de un santo puede tener derechos; pinturas antiguas de museos suelen ser de dominio público.\n- Evita imágenes que estereotipen o ridiculicen.\n- Tipografías: las de Canva y Google Fonts pueden usarse libremente en diseños."
+    },
+    {
+     "title": "Piezas que siempre necesitarás",
+     "body": "| Pieza | Medida | Claves |\n|---|---|---|\n| Invitación para el perfil | 1080 × 1440 (3:4) | Título breve, fecha y hora grandes, logo pequeño |\n| Historia | 1080 × 1920 (9:16) | Dejar libre la zona superior e inferior, donde la aplicación pone sus botones |\n| Carrusel | 1080 × 1440 cada lámina | Primera lámina con gancho; una idea por lámina; la última con llamado a la acción |\n| Afiche impreso | A4 o carta | Datos completos y un código QR con el enlace de inscripción |\n| Portada de video | 1080 × 1920 | Título legible al tamaño de una miniatura |"
+    }
+   ],
+   "caso": {
+    "titulo": "El afiche con todo",
+    "texto": "Para la fiesta de la parroquia, el grupo hace un afiche con seis fotos, cuatro tipografías, el horario completo de once actividades y tres logos. Lo imprimen y lo publican. Nadie entiende a qué hora es la misa juvenil, que era lo que querían destacar.",
+    "preguntas": [
+     "¿Qué principios se rompieron?",
+     "¿Cómo dividirían esta información en varias piezas?"
+    ]
+   },
+   "claves": [
+    [
+     "Jerarquía visual",
+     "Orden de importancia de los elementos de un diseño, marcado por el tamaño, el color y la posición."
+    ],
+    [
+     "Contraste",
+     "Diferencia visible entre elementos que permite distinguirlos y leerlos."
+    ],
+    [
+     "Licencia",
+     "Permiso que indica cómo se puede usar una imagen, una música o una tipografía."
+    ]
+   ],
+   "bible": {
+    "ref": "Éxodo 31,1-5 · Besalel, lleno del espíritu de Dios",
+    "comment": "Para construir la Tienda del encuentro, Dios llena a Besalel de sabiduría, inteligencia y habilidad para toda clase de trabajos artísticos. La belleza bien hecha también es un servicio a Dios y a la comunidad."
+   },
+   "lectio": {
+    "meditar": "¿Qué talento artístico tienes que podrías poner al servicio de la comunidad?",
+    "orar": "Agradece por quienes en tu comunidad cuidan la belleza: músicos, decoradores, diseñadores.",
+    "vivir": "Esta semana, mejora un diseño del grupo aplicando los cuatro principios."
+   },
+   "church": [
+    {
+     "source": "Inter mirifica (Concilio Vaticano II, 1963)",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html",
+     "text": "El Concilio reconoce los medios de comunicación como dones de Dios que deben usarse según la verdad y para el bien de las personas."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    }
+   ],
+   "questions": [
+    "¿Qué afiche del grupo funcionó mejor y por qué?",
+    "¿Qué principio de diseño les cuesta más?",
+    "¿Dónde consiguen hoy las imágenes que usan?",
+    "¿Quién del grupo tiene talento para el diseño y podría formar a otros?"
+   ],
+   "activity": "Tomen un afiche antiguo del grupo y rediséñenlo en parejas aplicando los cuatro principios y el manual de identidad. Comparen el antes y el después y expliquen cada cambio.",
+   "practica": [
+    "Elijan un afiche antiguo.",
+    "Rediséñenlo con los cuatro principios.",
+    "Creen su versión en historia.",
+    "Comparen y expliquen los cambios."
+   ],
+   "prayer": "Dios creador, que hiciste el mundo con orden y belleza: haz que nuestros diseños sean claros, verdaderos y bellos, para que lleven a otros al encuentro contigo y con la comunidad. Amén.",
+   "idea": "Un buen diseño se entiende en tres segundos.",
+   "profundizar": {
+    "titulo": "El código QR",
+    "texto": "En los afiches impresos, un **código QR** lleva directo al formulario o al canal del grupo. Canva tiene una aplicación para crearlo. Pruébalo siempre con dos teléfonos antes de imprimir, y usa un enlace que no vaya a cambiar."
+   },
+   "resources": [
+    {
+     "title": "Canva",
+     "url": "https://www.canva.com",
+     "note": "Diseño gratuito con plantillas para redes, afiches y documentos."
+    },
+    {
+     "title": "Canva para organizaciones sin fines de lucro: requisitos",
+     "url": "https://www.canva.com/canva-for-nonprofits/eligibility-guidelines/",
+     "note": "Condiciones para postular a las funciones de pago sin costo."
+    }
+   ]
+  },
+  {
+   "title": "Fotografía con el celular",
+   "objective": "Tomar y editar fotografías de calidad con el teléfono, cuidando la luz, la composición y la dignidad de las personas, también en celebraciones litúrgicas.",
+   "intro": "La mayoría de las fotos de un grupo se toman con el celular, y eso basta para tener fotos muy buenas. La diferencia no está en el equipo, sino en la **mirada**: dónde está la luz, qué se deja dentro del cuadro y qué momento se elige. En esta sesión vas a aprender a fotografiar y editar con el teléfono.",
+   "comenzar": "Busca en tu galería la mejor foto que hayas tomado de tu grupo. ¿Por qué te gusta? ¿Qué la hace distinta de las demás?",
+   "logros": [
+    "Usar la luz y la composición para mejorar las fotos.",
+    "Fotografiar personas, grupos y celebraciones con respeto.",
+    "Editar fotos de forma sencilla y natural."
+   ],
+   "sections": [
+    {
+     "title": "La luz manda",
+     "body": "- Prefiere **luz natural**: cerca de una ventana o al aire libre en sombra.\n- La luz **de lado** da volumen a los rostros; la luz dura del mediodía produce sombras fuertes en los ojos.\n- Evita el **contraluz** (la persona delante de una ventana o del sol) salvo que busques una silueta.\n- En interiores oscuros, apaga el flash si puedes y busca la zona más iluminada; el modo nocturno del teléfono ayuda si las personas están quietas.\n- Antes de cada sesión: **limpia el lente** con un paño. Una huella en el lente arruina más fotos que cualquier otra cosa."
+    },
+    {
+     "title": "Composición",
+     "body": "- **Regla de los tercios:** activa la cuadrícula de la cámara y ubica lo importante en las líneas o cruces, no siempre al centro.\n- **Acércate** con los pies, no con el zoom digital, que pierde calidad.\n- **Altura de los ojos:** fotografía a las personas a su altura, no desde arriba.\n- **Fondo limpio:** revisa que no haya basura, cables o personas en situaciones incómodas detrás.\n- **Momentos, no poses:** las mejores fotos de un grupo son de personas conversando, riendo, rezando, trabajando juntas. Usa la ráfaga para capturar el instante.\n- Toma la misma escena en **vertical y horizontal**: servirá para historias y para el archivo."
+    },
+    {
+     "title": "Fotografiar celebraciones y personas con respeto",
+     "body": "- En la **liturgia**, pide permiso al sacerdote o a quien coordina antes de fotografiar. No uses flash, no te muevas por el presbiterio y no fotografíes durante la consagración ni la comunión en primer plano. Mejor pocas fotos discretas desde un costado o el fondo.\n- En momentos de **oración personal**, confesión o emoción fuerte, no se fotografía.\n- Con **menores de edad**, aplica las reglas del nivel 1: autorización, fotos grupales, sin etiquetas ni ubicación en tiempo real.\n- Si alguien pide que no lo fotografíen, se respeta siempre."
+    },
+    {
+     "title": "Editar sin exagerar",
+     "body": "El editor que trae el teléfono basta para casi todo; aplicaciones gratuitas como Snapseed o Lightroom móvil dan más control.\n\n1. **Recorta y endereza:** el horizonte derecho y nada sobrante.\n2. **Exposición y contraste:** un poco más de luz si la foto quedó oscura.\n3. **Temperatura:** corrige si la foto quedó demasiado amarilla o azul.\n4. **Nada de filtros exagerados** ni retoques que cambien los rostros: mostramos a las personas como son.\n5. Mantén un **estilo parecido** en todas las fotos, según el manual de identidad."
+    }
+   ],
+   "caso": {
+    "titulo": "Cien fotos y ninguna sirve",
+    "texto": "Después de una jornada, el encargado de fotos entrega cien imágenes: casi todas de espaldas al sol, con el dedo en una esquina o de gente posando en fila. Las pocas buenas muestran a menores sin autorización.",
+    "preguntas": [
+     "¿Qué habría que haber planificado antes de la jornada?",
+     "¿Qué tres reglas le darían al próximo fotógrafo?"
+    ]
+   },
+   "claves": [
+    [
+     "Regla de los tercios",
+     "Dividir la imagen en tres partes horizontales y verticales y ubicar lo importante en sus líneas o cruces."
+    ],
+    [
+     "Contraluz",
+     "Situación en que la luz principal está detrás del sujeto, que queda oscuro."
+    ],
+    [
+     "Ráfaga",
+     "Serie de fotos tomadas muy seguidas para capturar el mejor instante."
+    ]
+   ],
+   "bible": {
+    "ref": "Marcos 10,21 · Jesús lo miró con amor",
+    "comment": "Antes de hablarle al joven rico, Jesús «fijó en él su mirada y lo amó». Fotografiar a una persona es mirarla: la cámara de un cristiano debería mirar como Jesús, con respeto y con amor, nunca para exponer o ridiculizar."
+   },
+   "lectio": {
+    "meditar": "¿Cómo miras a las personas cuando las fotografías?",
+    "orar": "Pide una mirada que descubra lo bueno de cada persona.",
+    "vivir": "Esta semana, toma diez fotos de la vida de tu comunidad aplicando lo aprendido."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Normas de conducta para quienes sirven en la Iglesia, incluidas las comunicaciones con niños, niñas y adolescentes, que deben ser transparentes y por canales institucionales."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    }
+   ],
+   "questions": [
+    "¿Quién toma hoy las fotos de tu grupo? ¿Con qué criterios?",
+    "¿Qué momentos de su grupo merecen ser fotografiados y cuáles no?",
+    "¿Qué acuerdos tienen con el párroco sobre fotos en la liturgia?",
+    "¿Cómo guardan y ordenan las fotos después de una actividad?"
+   ],
+   "activity": "Salgan en parejas durante treinta minutos a fotografiar la parroquia y su gente aplicando luz, composición y respeto. Elijan las tres mejores fotos de cada pareja, edítenlas y preséntenlas explicando qué decisiones tomaron.",
+   "practica": [
+    "Activen la cuadrícula de la cámara.",
+    "Tomen fotos aplicando luz y composición.",
+    "Elijan y editen las tres mejores.",
+    "Preséntenlas y expliquen sus decisiones."
+   ],
+   "prayer": "Señor Jesús, que miraste con amor a cada persona: danos una mirada limpia y respetuosa. Que nuestras fotos muestren la belleza de tu Iglesia y la dignidad de cada uno de tus hijos. Amén.",
+   "idea": "La mejor cámara es una mirada que respeta.",
+   "profundizar": {
+    "titulo": "Ordenar el archivo",
+    "texto": "Después de cada actividad, guarden las fotos elegidas en la carpeta compartida con el nombre «año-mes-día actividad» y borren las malas, las repetidas y las que no tienen autorización. Un archivo ordenado es la memoria del grupo y ahorra horas cuando se necesita una foto meses después."
+   },
+   "resources": []
+  },
+  {
+   "title": "Video vertical y edición",
+   "objective": "Planificar, grabar y editar videos verticales breves con buena imagen, buen audio, subtítulos y música usada legalmente.",
+   "intro": "El video vertical corto es hoy el formato que más llega a quienes todavía no conocen al grupo. Un buen video de 30 segundos se planifica, se graba con cuidado y se edita con sencillez. En esta sesión vas a aprender el proceso completo, del guion a la publicación, con aplicaciones gratuitas.",
+   "comenzar": "Recuerda un video corto que hayas visto hasta el final esta semana. ¿Qué pasaba en los primeros tres segundos que te hizo quedarte?",
+   "logros": [
+    "Escribir un guion breve con gancho, desarrollo y cierre.",
+    "Grabar con buena imagen y buen audio usando el teléfono.",
+    "Editar con subtítulos y música permitida en CapCut o Edits."
+   ],
+   "sections": [
+    {
+     "title": "Del guion al plan de tomas",
+     "body": "Un video corto tiene tres momentos:\n\n1. **Gancho (0 a 3 segundos):** una pregunta, una imagen llamativa o una frase directa. Si no engancha aquí, se pierde.\n2. **Desarrollo (10 a 40 segundos):** una sola idea, contada con imágenes y pocas palabras.\n3. **Cierre (3 a 5 segundos):** el llamado a la acción o una frase que quede.\n\nEscribe el guion en dos columnas: **lo que se ve** y **lo que se escucha**. Luego haz una lista de tomas: cada escena, desde dónde se graba y quién aparece. Así se graba en veinte minutos lo que improvisado toma dos horas."
+    },
+    {
+     "title": "Grabar bien con el teléfono",
+     "body": "- Graba siempre en **vertical**, en la mejor calidad disponible (1080p o más, 30 cuadros por segundo).\n- **Estabilidad:** apoya el teléfono, usa un trípode simple o sostén con ambas manos cerca del cuerpo.\n- **Luz:** las mismas reglas que en la fotografía; la cara iluminada desde el frente o de lado.\n- **Audio:** es más importante que la imagen. Graba en un lugar silencioso, con el teléfono cerca de quien habla (a un brazo de distancia) o con un micrófono de solapa sencillo.\n- Graba cada toma **dos o tres veces** y deja un segundo antes y después para poder cortar."
+    },
+    {
+     "title": "Editar en CapCut o Edits",
+     "body": "Dos aplicaciones gratuitas para el teléfono:\n\n- **CapCut:** muy completa, con plantillas, subtítulos automáticos y versión para computador.\n- **Edits:** la aplicación de edición de Instagram; gratuita, sin marca de agua, con subtítulos automáticos y estadísticas de los reels publicados desde ella.\n\nPasos básicos en cualquiera:\n\n1. Importa los clips en orden.\n2. **Corta** los silencios y errores: ritmo ágil, sin perder claridad.\n3. Agrega **subtítulos automáticos** y corrígelos palabra por palabra.\n4. Agrega texto en pantalla para el gancho y el llamado a la acción.\n5. Ajusta el volumen: la voz siempre por encima de la música.\n6. Exporta en 1080 × 1920."
+    },
+    {
+     "title": "Música y derechos",
+     "body": "- Usa la **biblioteca de música de cada plataforma** al publicar: tiene licencias para usarse dentro de ella.\n- Una canción comercial puesta en el video antes de subirlo puede hacer que la plataforma **silencie o bloquee** el video. En YouTube, un Short de más de un minuto con un reclamo de derechos activo puede quedar bloqueado.\n- Los **cantos litúrgicos** también tienen autores y editoriales; si el grupo graba su propia versión de un canto con derechos, pide permiso o usa música de dominio público o propia.\n- Las bibliotecas de audio libre (por ejemplo, la de YouTube Studio) ofrecen pistas que se pueden usar sin costo."
+    }
+   ],
+   "caso": {
+    "titulo": "El video eterno",
+    "texto": "Para invitar a la misa juvenil, el grupo graba un video de cuatro minutos: dos minutos de saludo de cada dirigente, música fuerte que tapa las voces y sin subtítulos. Lo ven veinte personas, casi todas del grupo, y la mayoría lo abandona en los primeros segundos.",
+    "preguntas": [
+     "¿Qué falló en el guion, el audio y la edición?",
+     "Escriban un guion de 30 segundos para el mismo objetivo."
+    ]
+   },
+   "claves": [
+    [
+     "Plan de tomas",
+     "Lista ordenada de las escenas que hay que grabar, con encuadre y personas."
+    ],
+    [
+     "Subtítulos",
+     "Texto sincronizado con lo que se dice; permite ver el video sin sonido y lo hace accesible."
+    ],
+    [
+     "Biblioteca de música",
+     "Colección de canciones con licencia que una plataforma ofrece para usar en sus publicaciones."
+    ]
+   ],
+   "bible": {
+    "ref": "Juan 1,39 · Vengan y vean",
+    "comment": "Cuando dos discípulos preguntan a Jesús dónde vive, no les da una explicación: les dice «vengan y vean». Un buen video de invitación hace lo mismo: no explica todo, muestra lo suficiente para despertar el deseo de venir."
+   },
+   "lectio": {
+    "meditar": "¿Qué tendría que «ver» un joven para animarse a venir a tu grupo?",
+    "orar": "Pide que el grupo sea un lugar que vale la pena mostrar.",
+    "vivir": "Esta semana, graba y edita un video de 30 segundos que diga «ven y ve»."
+   },
+   "church": [
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "León XIV, Mensaje para la LX Jornada Mundial de las Comunicaciones Sociales (2026)",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "text": "«Custodiar voces y rostros humanos»: advierte que los algoritmos premian las emociones rápidas y castigan la reflexión, alerta sobre los riesgos de la inteligencia artificial y pide no renunciar al propio pensamiento."
+    }
+   ],
+   "questions": [
+    "¿Qué videos de su grupo funcionaron y por qué?",
+    "¿Quién se anima a hablar frente a la cámara?",
+    "¿Con qué aplicación editarían y quién sabe usarla?",
+    "¿Qué música usan hoy y tienen derecho a usarla?"
+   ],
+   "activity": "En grupos de tres, escriban un guion de 30 segundos para invitar a la próxima actividad, hagan el plan de tomas, grábenlo en veinte minutos y edítenlo con subtítulos. Presenten los videos y elijan uno para publicar.",
+   "practica": [
+    "Escriban el guion en dos columnas.",
+    "Hagan el plan de tomas.",
+    "Graben y editen con subtítulos.",
+    "Presenten y elijan el mejor."
+   ],
+   "prayer": "Señor Jesús, que invitaste a tus primeros discípulos con un «vengan y vean»: ayúdanos a mostrar con verdad y alegría lo que vivimos, para que otros se animen a encontrarte. Amén.",
+   "idea": "Vengan y vean: muestra lo suficiente para despertar el deseo.",
+   "profundizar": {
+    "titulo": "Formatos que funcionan en un grupo",
+    "texto": "- **Un minuto de Evangelio:** un joven comenta en una frase el Evangelio del domingo.\n- **Pregunta en la calle (o en el patio):** una pregunta y varias respuestas breves, con permiso de cada persona.\n- **Detrás de cámara:** cómo se prepara un encuentro o un retiro.\n- **Testimonio:** una experiencia en 30 segundos.\n- **Antes y después:** el salón vacío y el salón lleno."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de YouTube: música y derechos de autor en Shorts",
+     "url": "https://support.google.com/youtube",
+     "note": "Información oficial sobre música, derechos y Content ID."
+    }
+   ]
+  },
+  {
+   "title": "Contar un evento",
+   "objective": "Planificar y realizar la cobertura comunicacional de una actividad: antes, durante y después, con roles definidos y cuidando a las personas.",
+   "intro": "Una jornada, una misión o una fiesta patronal son oportunidades para contar lo que vive la comunidad. Una buena cobertura no se improvisa: se organiza un pequeño equipo, se definen los contenidos y se cuida a las personas. En esta sesión vas a juntar todo lo aprendido en el nivel para cubrir un evento real.",
+   "comenzar": "Piensa en la última actividad grande de tu grupo. ¿Qué se publicó antes, durante y después? ¿Qué faltó contar?",
+   "logros": [
+    "Planificar la comunicación de un evento en tres tiempos.",
+    "Organizar un equipo de cobertura con roles claros.",
+    "Publicar después del evento con fotos, video y agradecimientos."
+   ],
+   "sections": [
+    {
+     "title": "Antes: planificar",
+     "body": "- **Objetivo:** ¿para qué vamos a comunicar este evento? (convocar, dar a conocer, agradecer, dejar memoria).\n- **Calendario de piezas:** anuncio (dos o tres semanas antes), recordatorios, cuenta regresiva, la víspera.\n- **Equipo:** fotógrafo, quien graba video, quien publica historias, quien escribe y quien revisa.\n- **Lista de tomas:** los momentos que no pueden faltar (llegada, oración, actividad central, misa, grupo final).\n- **Autorizaciones** de imagen revisadas y lista de quiénes no aparecen.\n- Batería y espacio en los teléfonos, cargadores y un trípode."
+    },
+    {
+     "title": "Durante: registrar sin interrumpir",
+     "body": "- El equipo de comunicación **también participa**: no se trata de grabarlo todo, sino de captar lo esencial.\n- **No interrumpir** la oración, la liturgia ni los momentos personales.\n- **Historias con criterio:** algunas imágenes generales sin ubicación exacta; lo que muestre a menores o el lugar preciso se publica **después**.\n- Toma notas de frases, testimonios y datos (cuántos participaron, de dónde vinieron) para el resumen.\n- Graba clips cortos para el video resumen."
+    },
+    {
+     "title": "Después: contar y agradecer",
+     "body": "- En las **48 horas** siguientes, un carrusel con las mejores fotos y un texto que cuente lo vivido.\n- Un **video resumen** de 30 a 60 segundos.\n- **Agradecimientos** a quienes sirvieron, a la parroquia y a quienes ayudaron (etiquetando a las instituciones, no a menores).\n- Un testimonio breve de algún participante, con su permiso.\n- Fotos ordenadas en la carpeta del grupo y compartidas con las familias por un canal privado si corresponde."
+    },
+    {
+     "title": "Evaluar la cobertura",
+     "body": "Al terminar, el equipo se pregunta:\n\n- ¿Logramos el objetivo de comunicación?\n- ¿Qué publicaciones tuvieron más respuesta y por qué?\n- ¿Alguien se sintió expuesto o incómodo?\n- ¿Qué faltó registrar?\n\nAnoten las respuestas en una hoja: será la guía para la próxima actividad."
+    }
+   ],
+   "caso": {
+    "titulo": "La misión sin memoria",
+    "texto": "Durante una semana de misión, treinta jóvenes visitan casas, animan liturgias y juegan con niños. Nadie se encarga de la comunicación. Al volver, la parroquia pide fotos para agradecer a los bienhechores y solo hay imágenes borrosas en los teléfonos de dos jóvenes, la mitad con niños del sector sin autorización.",
+    "preguntas": [
+     "¿Qué habría que haber organizado antes de partir?",
+     "¿Cómo contarían ahora la misión cuidando a las personas?"
+    ]
+   },
+   "claves": [
+    [
+     "Cobertura",
+     "Registro y difusión de un evento antes, durante y después de que ocurre."
+    ],
+    [
+     "Video resumen",
+     "Video breve que cuenta lo esencial de una actividad con sus mejores momentos."
+    ],
+    [
+     "Lista de tomas",
+     "Momentos que no pueden faltar en el registro de un evento."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 1,1-4 · Contar con orden",
+    "comment": "Lucas explica a Teófilo que, después de investigar todo con cuidado, decidió escribirle un relato ordenado para que conozca la solidez de lo que ha recibido. Contar bien lo que vive una comunidad también es anunciar."
+   },
+   "lectio": {
+    "meditar": "¿Qué historia de tu comunidad merece ser contada y aún nadie la ha contado?",
+    "orar": "Agradece por lo vivido en la última actividad de tu grupo.",
+    "vivir": "Esta semana, publica un agradecimiento por una actividad reciente."
+   },
+   "church": [
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Normas de conducta para quienes sirven en la Iglesia, incluidas las comunicaciones con niños, niñas y adolescentes, que deben ser transparentes y por canales institucionales."
+    }
+   ],
+   "questions": [
+    "¿Cómo se comunicó la última actividad grande del grupo?",
+    "¿Quiénes podrían formar el equipo de cobertura?",
+    "¿Qué momentos no se deben fotografiar en sus actividades?",
+    "¿Cómo comparten las fotos con las familias?"
+   ],
+   "activity": "Planifiquen la cobertura de la próxima actividad real del grupo: objetivo, calendario de piezas, equipo con roles, lista de tomas y revisión de autorizaciones. Ejecútenla y evalúenla después.",
+   "practica": [
+    "Definan el objetivo de comunicación.",
+    "Repartan roles y hagan la lista de tomas.",
+    "Revisen autorizaciones.",
+    "Publiquen después y evalúen."
+   ],
+   "prayer": "Señor, que nos regalas momentos de encuentro y misión: ayúdanos a contarlos con verdad, agradecimiento y cuidado, para que tu obra en nosotros sea conocida y alabada. Amén.",
+   "idea": "Contar bien lo que vivimos también es anunciar.",
+   "profundizar": {
+    "titulo": "Plantilla de cobertura",
+    "texto": "Una hoja simple con: nombre del evento, objetivo, fechas de publicación, responsables por rol, lista de tomas, personas sin autorización y espacio para la evaluación. Guárdenla como plantilla en la carpeta del grupo y dupliquen una copia para cada actividad."
+   },
+   "resources": [
+    {
+     "title": "Hacia una plena presencia",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "note": "Criterios para contar lo vivido sin exponer a las personas."
+    }
+   ]
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué tres partes tiene un buen texto para redes?",
+   "options": [
+    "Saludo, historia y despedida.",
+    "Gancho, contenido y llamado a la acción.",
+    "Título, hashtags y emojis."
+   ],
+   "correct": 1,
+   "feedback": "La primera línea decide si alguien lee la segunda."
+  },
+  {
+   "q": "¿Cómo conviene escribir un hashtag de varias palabras?",
+   "options": [
+    "todo en minúscula: #jovenesdefe",
+    "Con mayúscula en cada palabra: #JovenesDeFe",
+    "Con espacios: #jovenes de fe"
+   ],
+   "correct": 1,
+   "feedback": "Así los lectores de pantalla lo leen correctamente."
+  },
+  {
+   "q": "¿Qué no se debe hacer con una herramienta de inteligencia artificial?",
+   "options": [
+    "Pedirle ideas de títulos.",
+    "Ingresar datos personales de jóvenes o inventar testimonios.",
+    "Pedirle que revise la ortografía."
+   ],
+   "correct": 1,
+   "feedback": "La IA es asistente; la responsabilidad y la verdad son nuestras."
+  },
+  {
+   "q": "¿Qué principio de diseño se aplica al poner lo más importante más grande?",
+   "options": [
+    "Jerarquía.",
+    "Repetición.",
+    "Rotación."
+   ],
+   "correct": 0,
+   "feedback": "Un afiche tiene un mensaje principal."
+  },
+  {
+   "q": "¿Dónde conviene conseguir imágenes para los diseños del grupo?",
+   "options": [
+    "En cualquier resultado de Google.",
+    "Fotos propias, elementos gratuitos de Canva o bancos de imágenes libres, revisando la licencia.",
+    "Copiando los afiches de otras parroquias."
+   ],
+   "correct": 1,
+   "feedback": "Casi todas las imágenes de internet tienen derechos de autor."
+  },
+  {
+   "q": "¿Qué hace la regla de los tercios?",
+   "options": [
+    "Divide la imagen en tercios para ubicar lo importante en sus líneas o cruces.",
+    "Obliga a tomar tres fotos de cada cosa.",
+    "Pide que aparezcan tres personas."
+   ],
+   "correct": 0,
+   "feedback": "Activa la cuadrícula de la cámara para usarla."
+  },
+  {
+   "q": "¿Qué corresponde al fotografiar una misa?",
+   "options": [
+    "Usar flash para que se vea bien.",
+    "Pedir permiso, no usar flash y no fotografiar en primer plano la consagración.",
+    "Subir al presbiterio para mejores ángulos."
+   ],
+   "correct": 1,
+   "feedback": "La liturgia no se interrumpe por una foto."
+  },
+  {
+   "q": "¿Qué es lo más importante al grabar a alguien hablando?",
+   "options": [
+    "Que tenga muchos efectos.",
+    "Un buen audio: lugar silencioso y teléfono cerca de quien habla.",
+    "Que dure al menos cinco minutos."
+   ],
+   "correct": 1,
+   "feedback": "Un mal audio hace abandonar el video aunque la imagen sea buena."
+  },
+  {
+   "q": "¿Cuál es la forma más segura de poner música a un reel?",
+   "options": [
+    "Usar la biblioteca de música de la plataforma.",
+    "Agregar cualquier canción comercial antes de subirlo.",
+    "Grabar la radio de fondo."
+   ],
+   "correct": 0,
+   "feedback": "Esas canciones tienen licencia para usarse dentro de la plataforma."
+  },
+  {
+   "q": "Durante un campamento con menores, ¿cuándo se publica una foto que muestra el lugar exacto?",
+   "options": [
+    "En vivo, para que las familias vean.",
+    "Después de la actividad.",
+    "Nunca se publican fotos de campamentos."
+   ],
+   "correct": 1,
+   "feedback": "La ubicación en tiempo real expone a los menores."
+  }
+ ],
+ "taller": "Proyecto final del nivel 2: la campaña de una actividad real. Cada equipo produce, con la identidad del grupo, un texto de invitación con gancho y llamado, un carrusel de cinco láminas, una historia, un video vertical de 30 a 45 segundos con subtítulos y música permitida, y el plan de cobertura del evento. Después de la actividad presentan el carrusel resumen, los agradecimientos y la evaluación de la cobertura."
+}

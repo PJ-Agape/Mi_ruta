@@ -1214,109 +1214,109 @@
   ]
  },
  "comunicacion-y-redes-cierre": {
-  "titulo": "Cierre del módulo: Comunicación y redes para la pastoral",
+  "titulo": "Cierre del módulo: Comunicación y redes · Nivel 1: comunicar con sentido",
   "aprobacion": 70,
-  "taller": "Cada equipo presenta el plan de comunicación de su grupo para los próximos tres meses (objetivos, públicos, canales, calendario y roles) y una pieza de muestra: una publicación, una historia o un afiche. Los demás revisan que cuide la imagen y los datos de las personas.",
+  "taller": "Proyecto final del nivel 1: el diagnóstico y la base de la comunicación del grupo. Cada equipo entrega: el inventario de cuentas con sus administradores y decisiones; los cinco pilares con quince ideas de publicación y su formato; el manual de identidad de una página; y los tres documentos de cuidado (autorización de imagen, normas de mensajería y protocolo de comentarios). La presentación dura diez minutos ante los asesores y termina con una decisión concreta para el próximo mes.",
   "preguntas": [
    {
-    "pregunta": "¿Cómo describe el papa el ambiente digital?",
+    "pregunta": "¿Qué propone el documento vaticano «Hacia una plena presencia»?",
     "opciones": [
-     "Como una simple herramienta.",
-     "Como un lugar donde viven los jóvenes, con oportunidades y riesgos.",
-     "Como algo que la Iglesia debe evitar."
+     "Abandonar las redes sociales.",
+     "Ser prójimos en lo digital, reflexivos y no reactivos.",
+     "Conseguir la mayor cantidad posible de seguidores."
     ],
     "correcta": 1,
-    "explicacion": "Christus vivit 86-90."
+    "explicacion": "Se inspira en el buen samaritano y pide una presencia atenta a las personas."
    },
    {
-    "pregunta": "¿Cuáles son los tres filtros antes de publicar?",
+    "pregunta": "¿Qué advierte el papa León XIV sobre los algoritmos en su mensaje de 2026?",
     "opciones": [
-     "¿Es largo? ¿Es bonito? ¿Es nuevo?",
-     "¿Es verdad? ¿Es bueno? ¿Es útil?",
-     "¿Tendrá muchos «me gusta»? ¿Es divertido? ¿Es rápido?"
+     "Que son neutrales.",
+     "Que premian las emociones rápidas y castigan la reflexión.",
+     "Que solo afectan a los adultos."
     ],
     "correcta": 1,
-    "explicacion": "Si no pasa los tres, mejor no publicarlo."
+    "explicacion": "Por eso pide no renunciar al propio pensamiento."
    },
    {
-    "pregunta": "¿Qué va primero en un aviso?",
+    "pregunta": "Si la cuenta de un grupo solo publica invitaciones, ¿qué le falta?",
     "opciones": [
-     "Una reflexión larga.",
-     "Lo más importante: qué, cuándo y dónde.",
-     "Muchos emojis."
+     "Más invitaciones.",
+     "Equilibrar con otros propósitos: anunciar, formar, hacer comunidad y servir.",
+     "Publicar a medianoche."
     ],
     "correcta": 1,
-    "explicacion": "Lo importante primero, con frases cortas."
+    "explicacion": "La convocatoria no debería superar un tercio de lo publicado."
    },
    {
-    "pregunta": "¿Cuál es un buen principio de diseño?",
+    "pregunta": "¿Qué herramienta de WhatsApp conviene para avisos a muchas personas cuidando su privacidad?",
     "opciones": [
-     "Usar muchas tipografías y colores.",
-     "Jerarquía, contraste, pocos colores y espacio en blanco.",
-     "Llenar todo el espacio."
+     "Un grupo abierto donde todos escriben.",
+     "Un canal o el grupo de avisos de una comunidad.",
+     "Mensajes privados uno a uno desde el teléfono de un dirigente."
     ],
     "correcta": 1,
-    "explicacion": "Menos es más."
+    "explicacion": "En los canales los seguidores no ven a los demás."
    },
    {
-    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "pregunta": "¿Por qué conviene una cuenta profesional en Instagram o TikTok?",
     "opciones": [
-     "Nada, si son fotos grupales.",
-     "Autorización escrita de sus padres o apoderados.",
-     "Que el menor diga que sí por mensaje."
+     "Porque es de pago y da más alcance.",
+     "Porque es gratis y permite ver estadísticas y programar publicaciones.",
+     "Porque elimina los comentarios."
     ],
     "correcta": 1,
-    "explicacion": "Y se respeta a quien no quiere aparecer."
+    "explicacion": "Las cuentas personales no pueden programar ni conectarse a la mayoría de las herramientas."
    },
    {
-    "pregunta": "¿Qué información de los menores NO se publica?",
+    "pregunta": "¿Qué proporción usan las historias, los reels, TikTok y los Shorts?",
     "opciones": [
-     "El nombre del grupo.",
-     "Nombres completos, etiquetas y ubicación en tiempo real.",
-     "La fecha de la actividad."
+     "16:9",
+     "1:1",
+     "9:16"
     ],
-    "correcta": 1,
-    "explicacion": "Permitiría identificarlos o ubicarlos."
+    "correcta": 2,
+    "explicacion": "Vertical, 1080 × 1920 píxeles."
    },
    {
-    "pregunta": "¿Cómo deben ser los grupos de mensajería con menores?",
+    "pregunta": "¿Qué formato es más adecuado para enseñar algo paso a paso?",
     "opciones": [
-     "Sin administradores para que sean más libres.",
-     "Con administradores adultos, normas claras y horarios razonables.",
-     "Con chats privados entre dirigentes y cada joven."
+     "El carrusel.",
+     "Una historia sin texto.",
+     "Un audio de una hora."
     ],
-    "correcta": 1,
-    "explicacion": "La comunicación es grupal y transparente."
+    "correcta": 0,
+    "explicacion": "Es además el formato que más se guarda y se comparte."
    },
    {
-    "pregunta": "Según Evangelii gaudium, ¿cómo crece la Iglesia?",
+    "pregunta": "¿Cuántas tipografías se recomiendan en una identidad visual?",
     "opciones": [
-     "Por proselitismo.",
-     "Por atracción, por el testimonio de una comunidad que vive la alegría del Evangelio.",
-     "Por publicidad."
+     "Una por cada afiche.",
+     "Dos: una para títulos y otra para textos.",
+     "Al menos cinco."
     ],
     "correcta": 1,
-    "explicacion": "La mejor comunicación es una vida comunitaria auténtica."
+    "explicacion": "Más de dos produce desorden."
    },
    {
-    "pregunta": "¿Qué se necesita para publicar fotos de menores de edad?",
+    "pregunta": "¿Qué se necesita para publicar la imagen de un menor de edad?",
     "opciones": [
-     "Nada, si es una actividad de la Iglesia",
-     "Autorización escrita de sus padres o tutores",
-     "Que el menor esté de acuerdo"
+     "Que el menor diga que sí.",
+     "Autorización escrita de sus padres o apoderados, y respetar si no quiere aparecer.",
+     "Nada, si la foto es bonita."
     ],
     "correcta": 1,
-    "explicacion": "La autorización de los padres o tutores es indispensable."
+    "explicacion": "Además, sin etiquetas ni ubicación en tiempo real."
    },
    {
-    "pregunta": "¿Qué conviene al publicar después de un evento?",
+    "pregunta": "¿Qué hacer si un joven menor de edad escribe por privado a un dirigente adulto?",
     "opciones": [
-     "Subir todas las fotos",
-     "Elegir pocas imágenes buenas y un texto breve",
-     "Esperar un mes"
+     "Conversar largamente por privado.",
+     "Responder brevemente y llevar la conversación a un canal institucional o con otro adulto presente.",
+     "Bloquearlo."
     ],
     "correcta": 1,
-    "explicacion": "Menos y mejor comunica más."
+    "explicacion": "La comunicación con menores debe ser transparente y por canales institucionales."
    }
   ]
  },

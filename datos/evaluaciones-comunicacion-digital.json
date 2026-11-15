@@ -1,0 +1,323 @@
+{
+ "comunicacion-y-redes-cierre": {
+  "titulo": "Cierre del módulo: Comunicación y redes · Nivel 1: comunicar con sentido",
+  "aprobacion": 70,
+  "taller": "Proyecto final del nivel 1: el diagnóstico y la base de la comunicación del grupo. Cada equipo entrega: el inventario de cuentas con sus administradores y decisiones; los cinco pilares con quince ideas de publicación y su formato; el manual de identidad de una página; y los tres documentos de cuidado (autorización de imagen, normas de mensajería y protocolo de comentarios). La presentación dura diez minutos ante los asesores y termina con una decisión concreta para el próximo mes.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué propone el documento vaticano «Hacia una plena presencia»?",
+    "opciones": [
+     "Abandonar las redes sociales.",
+     "Ser prójimos en lo digital, reflexivos y no reactivos.",
+     "Conseguir la mayor cantidad posible de seguidores."
+    ],
+    "correcta": 1,
+    "explicacion": "Se inspira en el buen samaritano y pide una presencia atenta a las personas."
+   },
+   {
+    "pregunta": "¿Qué advierte el papa León XIV sobre los algoritmos en su mensaje de 2026?",
+    "opciones": [
+     "Que son neutrales.",
+     "Que premian las emociones rápidas y castigan la reflexión.",
+     "Que solo afectan a los adultos."
+    ],
+    "correcta": 1,
+    "explicacion": "Por eso pide no renunciar al propio pensamiento."
+   },
+   {
+    "pregunta": "Si la cuenta de un grupo solo publica invitaciones, ¿qué le falta?",
+    "opciones": [
+     "Más invitaciones.",
+     "Equilibrar con otros propósitos: anunciar, formar, hacer comunidad y servir.",
+     "Publicar a medianoche."
+    ],
+    "correcta": 1,
+    "explicacion": "La convocatoria no debería superar un tercio de lo publicado."
+   },
+   {
+    "pregunta": "¿Qué herramienta de WhatsApp conviene para avisos a muchas personas cuidando su privacidad?",
+    "opciones": [
+     "Un grupo abierto donde todos escriben.",
+     "Un canal o el grupo de avisos de una comunidad.",
+     "Mensajes privados uno a uno desde el teléfono de un dirigente."
+    ],
+    "correcta": 1,
+    "explicacion": "En los canales los seguidores no ven a los demás."
+   },
+   {
+    "pregunta": "¿Por qué conviene una cuenta profesional en Instagram o TikTok?",
+    "opciones": [
+     "Porque es de pago y da más alcance.",
+     "Porque es gratis y permite ver estadísticas y programar publicaciones.",
+     "Porque elimina los comentarios."
+    ],
+    "correcta": 1,
+    "explicacion": "Las cuentas personales no pueden programar ni conectarse a la mayoría de las herramientas."
+   },
+   {
+    "pregunta": "¿Qué proporción usan las historias, los reels, TikTok y los Shorts?",
+    "opciones": [
+     "16:9",
+     "1:1",
+     "9:16"
+    ],
+    "correcta": 2,
+    "explicacion": "Vertical, 1080 × 1920 píxeles."
+   },
+   {
+    "pregunta": "¿Qué formato es más adecuado para enseñar algo paso a paso?",
+    "opciones": [
+     "El carrusel.",
+     "Una historia sin texto.",
+     "Un audio de una hora."
+    ],
+    "correcta": 0,
+    "explicacion": "Es además el formato que más se guarda y se comparte."
+   },
+   {
+    "pregunta": "¿Cuántas tipografías se recomiendan en una identidad visual?",
+    "opciones": [
+     "Una por cada afiche.",
+     "Dos: una para títulos y otra para textos.",
+     "Al menos cinco."
+    ],
+    "correcta": 1,
+    "explicacion": "Más de dos produce desorden."
+   },
+   {
+    "pregunta": "¿Qué se necesita para publicar la imagen de un menor de edad?",
+    "opciones": [
+     "Que el menor diga que sí.",
+     "Autorización escrita de sus padres o apoderados, y respetar si no quiere aparecer.",
+     "Nada, si la foto es bonita."
+    ],
+    "correcta": 1,
+    "explicacion": "Además, sin etiquetas ni ubicación en tiempo real."
+   },
+   {
+    "pregunta": "¿Qué hacer si un joven menor de edad escribe por privado a un dirigente adulto?",
+    "opciones": [
+     "Conversar largamente por privado.",
+     "Responder brevemente y llevar la conversación a un canal institucional o con otro adulto presente.",
+     "Bloquearlo."
+    ],
+    "correcta": 1,
+    "explicacion": "La comunicación con menores debe ser transparente y por canales institucionales."
+   }
+  ]
+ },
+ "redes-2-cierre": {
+  "titulo": "Cierre del módulo: Comunicación y redes · Nivel 2: crear contenidos",
+  "aprobacion": 70,
+  "taller": "Proyecto final del nivel 2: la campaña de una actividad real. Cada equipo produce, con la identidad del grupo, un texto de invitación con gancho y llamado, un carrusel de cinco láminas, una historia, un video vertical de 30 a 45 segundos con subtítulos y música permitida, y el plan de cobertura del evento. Después de la actividad presentan el carrusel resumen, los agradecimientos y la evaluación de la cobertura.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué tres partes tiene un buen texto para redes?",
+    "opciones": [
+     "Saludo, historia y despedida.",
+     "Gancho, contenido y llamado a la acción.",
+     "Título, hashtags y emojis."
+    ],
+    "correcta": 1,
+    "explicacion": "La primera línea decide si alguien lee la segunda."
+   },
+   {
+    "pregunta": "¿Cómo conviene escribir un hashtag de varias palabras?",
+    "opciones": [
+     "todo en minúscula: #jovenesdefe",
+     "Con mayúscula en cada palabra: #JovenesDeFe",
+     "Con espacios: #jovenes de fe"
+    ],
+    "correcta": 1,
+    "explicacion": "Así los lectores de pantalla lo leen correctamente."
+   },
+   {
+    "pregunta": "¿Qué no se debe hacer con una herramienta de inteligencia artificial?",
+    "opciones": [
+     "Pedirle ideas de títulos.",
+     "Ingresar datos personales de jóvenes o inventar testimonios.",
+     "Pedirle que revise la ortografía."
+    ],
+    "correcta": 1,
+    "explicacion": "La IA es asistente; la responsabilidad y la verdad son nuestras."
+   },
+   {
+    "pregunta": "¿Qué principio de diseño se aplica al poner lo más importante más grande?",
+    "opciones": [
+     "Jerarquía.",
+     "Repetición.",
+     "Rotación."
+    ],
+    "correcta": 0,
+    "explicacion": "Un afiche tiene un mensaje principal."
+   },
+   {
+    "pregunta": "¿Dónde conviene conseguir imágenes para los diseños del grupo?",
+    "opciones": [
+     "En cualquier resultado de Google.",
+     "Fotos propias, elementos gratuitos de Canva o bancos de imágenes libres, revisando la licencia.",
+     "Copiando los afiches de otras parroquias."
+    ],
+    "correcta": 1,
+    "explicacion": "Casi todas las imágenes de internet tienen derechos de autor."
+   },
+   {
+    "pregunta": "¿Qué hace la regla de los tercios?",
+    "opciones": [
+     "Divide la imagen en tercios para ubicar lo importante en sus líneas o cruces.",
+     "Obliga a tomar tres fotos de cada cosa.",
+     "Pide que aparezcan tres personas."
+    ],
+    "correcta": 0,
+    "explicacion": "Activa la cuadrícula de la cámara para usarla."
+   },
+   {
+    "pregunta": "¿Qué corresponde al fotografiar una misa?",
+    "opciones": [
+     "Usar flash para que se vea bien.",
+     "Pedir permiso, no usar flash y no fotografiar en primer plano la consagración.",
+     "Subir al presbiterio para mejores ángulos."
+    ],
+    "correcta": 1,
+    "explicacion": "La liturgia no se interrumpe por una foto."
+   },
+   {
+    "pregunta": "¿Qué es lo más importante al grabar a alguien hablando?",
+    "opciones": [
+     "Que tenga muchos efectos.",
+     "Un buen audio: lugar silencioso y teléfono cerca de quien habla.",
+     "Que dure al menos cinco minutos."
+    ],
+    "correcta": 1,
+    "explicacion": "Un mal audio hace abandonar el video aunque la imagen sea buena."
+   },
+   {
+    "pregunta": "¿Cuál es la forma más segura de poner música a un reel?",
+    "opciones": [
+     "Usar la biblioteca de música de la plataforma.",
+     "Agregar cualquier canción comercial antes de subirlo.",
+     "Grabar la radio de fondo."
+    ],
+    "correcta": 0,
+    "explicacion": "Esas canciones tienen licencia para usarse dentro de la plataforma."
+   },
+   {
+    "pregunta": "Durante un campamento con menores, ¿cuándo se publica una foto que muestra el lugar exacto?",
+    "opciones": [
+     "En vivo, para que las familias vean.",
+     "Después de la actividad.",
+     "Nunca se publican fotos de campamentos."
+    ],
+    "correcta": 1,
+    "explicacion": "La ubicación en tiempo real expone a los menores."
+   }
+  ]
+ },
+ "redes-3-cierre": {
+  "titulo": "Cierre del módulo: Comunicación y redes · Nivel 3: gestionar la comunicación",
+  "aprobacion": 70,
+  "taller": "Proyecto final del nivel 3: el sistema de comunicación del grupo. Cada equipo presenta: el equipo de comunicación con roles, turnos y registro de accesos; el plan de una página; el calendario editorial del próximo mes en una hoja de cálculo compartida, con una semana ya programada; las normas de comunidad, la tabla de moderación y el protocolo de crisis con contactos; y el primer informe mensual con tres decisiones. La presentación dura quince minutos ante los asesores y el párroco.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué hace un community manager pastoral ante un joven que pide ayuda por una situación de riesgo?",
+    "opciones": [
+     "Lo resuelve por mensajes privados.",
+     "Agradece, no promete secreto y avisa de inmediato a un adulto responsable según el protocolo.",
+     "Lo ignora porque no es su tarea."
+    ],
+    "correcta": 1,
+    "explicacion": "La red no reemplaza el acompañamiento ni los protocolos."
+   },
+   {
+    "pregunta": "¿Cuál es la forma correcta de dar acceso a la cuenta del grupo a un nuevo integrante?",
+    "opciones": [
+     "Enviarle la contraseña por WhatsApp.",
+     "Agregarlo con su propio usuario desde el portafolio comercial u otra opción de accesos por persona.",
+     "Prestarle el teléfono del coordinador."
+    ],
+    "correcta": 1,
+    "explicacion": "Los accesos por persona se pueden quitar cuando deja el servicio."
+   },
+   {
+    "pregunta": "¿Qué conviene usar como columna vertebral del calendario editorial de un grupo pastoral?",
+    "opciones": [
+     "Las tendencias del momento.",
+     "El año litúrgico, junto con las fechas de la parroquia y del grupo.",
+     "Los cumpleaños de los dirigentes."
+    ],
+    "correcta": 1,
+    "explicacion": "La Iglesia ya tiene un calendario que da sentido."
+   },
+   {
+    "pregunta": "¿Qué es mejor para un grupo?",
+    "opciones": [
+     "Diez publicaciones una semana y luego un mes sin nada.",
+     "Tres publicaciones por semana sostenidas todo el año.",
+     "Publicar solo cuando hay actividades."
+    ],
+    "correcta": 1,
+    "explicacion": "La constancia importa más que el volumen."
+   },
+   {
+    "pregunta": "¿Con cuánta anticipación permite TikTok Studio programar un video?",
+    "opciones": [
+     "Hasta un año.",
+     "Entre 15 minutos y 10 días.",
+     "No permite programar."
+    ],
+    "correcta": 1,
+    "explicacion": "Para más anticipación se necesita otra herramienta."
+   },
+   {
+    "pregunta": "¿Qué incluye el plan gratuito de Buffer (a noviembre de 2026)?",
+    "opciones": [
+     "Redes ilimitadas.",
+     "Hasta 3 canales y 10 publicaciones en cola por canal.",
+     "Solo correo electrónico."
+    ],
+    "correcta": 1,
+    "explicacion": "La cola se libera a medida que se publican las piezas."
+   },
+   {
+    "pregunta": "¿Qué nunca se debe automatizar?",
+    "opciones": [
+     "La publicación de piezas ya revisadas.",
+     "El acompañamiento personal y las respuestas a temas de sufrimiento o de fe.",
+     "Un mensaje de bienvenida."
+    ],
+    "correcta": 1,
+    "explicacion": "Se automatiza lo repetitivo; las personas nunca."
+   },
+   {
+    "pregunta": "Ante una acusación grave en los comentarios, ¿qué corresponde?",
+    "opciones": [
+     "Borrarla y no decir nada a nadie.",
+     "No responder improvisadamente, avisar al párroco y a los asesores y seguir las orientaciones de la diócesis.",
+     "Defender al acusado en los comentarios."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una crisis de nivel 3: un solo vocero y sin borrar evidencia."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una métrica de vanidad?",
+    "opciones": [
+     "Número de seguidores.",
+     "Inscritos que llegaron por redes.",
+     "Retención de un video."
+    ],
+    "correcta": 0,
+    "explicacion": "Se ve bien, pero dice poco sobre el fruto real."
+   },
+   {
+    "pregunta": "¿Qué pregunta conviene agregar a los formularios de inscripción para medir el aporte de las redes?",
+    "opciones": [
+     "¿Cuál es tu color favorito?",
+     "¿Cómo te enteraste?",
+     "¿Cuántos seguidores tienes?"
+    ],
+    "correcta": 1,
+    "explicacion": "Conecta la comunicación digital con la participación real."
+   }
+  ]
+ }
+}

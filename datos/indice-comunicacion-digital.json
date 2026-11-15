@@ -1,0 +1,223 @@
+{
+ "curso": "comunicacion-digital",
+ "modulos": [
+  {
+   "id": "comunicacion-y-redes",
+   "numero": 1,
+   "titulo": "Comunicación y redes · Nivel 1: comunicar con sentido",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "El primer nivel del programa Comunicación digital para la Pastoral. Cada sesión termina con un taller guiado sobre las cuentas reales de tu grupo.",
+   "clases": [
+    {
+     "id": "comunicacion-y-redes-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Comunicar con sentido",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s1.md",
+     "debate": "**Caso: La cadena del domingo.** Un viernes en la noche llega al grupo de dirigentes un audio que asegura que el obispo prohibió las misas juveniles. Antes de que alguien lo verifique, tres dirigentes lo reenvían a sus grupos y uno lo publica en la cuenta de la pastoral con un comentario indignado. El lunes se aclara que el audio era falso.\n\n- ¿Qué filtros se saltaron?\n- ¿Qué debería hacer ahora el grupo en su cuenta y en los grupos donde se reenvió?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "comunicacion-y-redes-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Un mapa de las plataformas",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s2.md",
+     "debate": "**Caso: Siete cuentas y nadie a cargo.** Una pastoral tiene cuenta de Instagram, de TikTok, dos páginas de Facebook (una antigua), un canal de YouTube con tres videos, un grupo de WhatsApp de 300 personas y un correo cuya contraseña nadie recuerda. Los mensajes de los jóvenes quedan sin respuesta durante semanas.\n\n- ¿Qué cuentas cerrarían, cuáles fusionarían y cuáles mantendrían?\n- ¿Cómo reorganizarían el grupo de WhatsApp de 300 personas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "comunicacion-y-redes-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Tipos de contenido y formatos",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s3.md",
+     "debate": "**Caso: Siempre el mismo afiche.** La cuenta de un grupo publica cada semana el mismo tipo de afiche: fondo de color, título grande y la hora del encuentro. Llevan dos años así. Tienen 180 seguidores, la mayoría del mismo grupo, y casi nadie interactúa.\n\n- ¿Qué pilares y formatos les faltan?\n- Propongan tres publicaciones distintas para la próxima semana.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "comunicacion-y-redes-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Identidad visual y tono de voz",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s4.md",
+     "debate": "**Caso: Cada uno con su estilo.** En un grupo, cinco dirigentes hacen los afiches. Uno usa fondos negros con letras doradas; otra, colores pastel; otro, fotos con muchos filtros. Una familia comenta que no sabía que las cinco actividades del mes eran del mismo grupo.\n\n- ¿Qué problema genera la falta de identidad?\n- ¿Qué decisiones mínimas tendría que tomar este grupo para la próxima semana?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "comunicacion-y-redes-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidar a las personas en lo digital",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/comunicacion-y-redes/s5.md",
+     "debate": "**Caso: La foto del campamento.** Durante un campamento, un dirigente sube en vivo a las historias del grupo una foto de los participantes en la piscina, con la ubicación del recinto. Una mamá escribe preocupada: su hija no tenía autorización de imagen y además la foto mostraba el lugar exacto donde estaban.\n\n- ¿Qué reglas se rompieron?\n- ¿Qué debe hacer el grupo ahora con la familia y con la publicación?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "comunicacion-y-redes-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "redes-2",
+   "numero": 2,
+   "titulo": "Comunicación y redes · Nivel 2: crear contenidos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "comunicacion-y-redes"
+   ],
+   "intro": "Con el nivel 1 aprobado. Aquí se aprende haciendo: cada sesión produce una pieza real para tu grupo.",
+   "clases": [
+    {
+     "id": "redes-2-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Escribir para redes",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-2/s1.md",
+     "debate": "**Caso: El texto perfecto que nadie leyó.** Para invitar a un retiro, un dirigente escribe un texto de doce líneas que empieza con la historia de la parroquia y recién al final dice la fecha. No incluye cómo inscribirse. La publicación tiene muchos «me gusta», pero solo se inscriben cuatro personas.\n\n- ¿Qué falló en la estructura?\n- Reescriban el texto con gancho, contenido y llamado a la acción en no más de seis líneas.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-2-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Diseño gráfico con Canva",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-2/s2.md",
+     "debate": "**Caso: El afiche con todo.** Para la fiesta de la parroquia, el grupo hace un afiche con seis fotos, cuatro tipografías, el horario completo de once actividades y tres logos. Lo imprimen y lo publican. Nadie entiende a qué hora es la misa juvenil, que era lo que querían destacar.\n\n- ¿Qué principios se rompieron?\n- ¿Cómo dividirían esta información en varias piezas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-2-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Fotografía con el celular",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-2/s3.md",
+     "debate": "**Caso: Cien fotos y ninguna sirve.** Después de una jornada, el encargado de fotos entrega cien imágenes: casi todas de espaldas al sol, con el dedo en una esquina o de gente posando en fila. Las pocas buenas muestran a menores sin autorización.\n\n- ¿Qué habría que haber planificado antes de la jornada?\n- ¿Qué tres reglas le darían al próximo fotógrafo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-2-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Video vertical y edición",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-2/s4.md",
+     "debate": "**Caso: El video eterno.** Para invitar a la misa juvenil, el grupo graba un video de cuatro minutos: dos minutos de saludo de cada dirigente, música fuerte que tapa las voces y sin subtítulos. Lo ven veinte personas, casi todas del grupo, y la mayoría lo abandona en los primeros segundos.\n\n- ¿Qué falló en el guion, el audio y la edición?\n- Escriban un guion de 30 segundos para el mismo objetivo.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-2-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Contar un evento",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-2/s5.md",
+     "debate": "**Caso: La misión sin memoria.** Durante una semana de misión, treinta jóvenes visitan casas, animan liturgias y juegan con niños. Nadie se encarga de la comunicación. Al volver, la parroquia pide fotos para agradecer a los bienhechores y solo hay imágenes borrosas en los teléfonos de dos jóvenes, la mitad con niños del sector sin autorización.\n\n- ¿Qué habría que haber organizado antes de partir?\n- ¿Cómo contarían ahora la misión cuidando a las personas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-2-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "redes-3",
+   "numero": 3,
+   "titulo": "Comunicación y redes · Nivel 3: gestionar la comunicación",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "comunicacion-y-redes",
+    "redes-2"
+   ],
+   "intro": "Con los niveles 1 y 2 aprobados. Para quienes coordinan la comunicación de su grupo o parroquia.",
+   "clases": [
+    {
+     "id": "redes-3-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El community manager pastoral",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-3/s1.md",
+     "debate": "**Caso: La única que sabía.** Durante tres años, Catalina manejó todas las redes de la pastoral desde su teléfono. Se fue a estudiar a otra ciudad y dejó de responder. Nadie más tenía la contraseña ni sabía el correo de recuperación. Las cuentas quedaron congeladas y los jóvenes siguieron escribiendo sin respuesta.\n\n- ¿Qué tendría que haber existido desde el principio?\n- ¿Qué pasos darían hoy para recuperar y ordenar las cuentas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-3-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Estrategia y calendario editorial",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-3/s2.md",
+     "debate": "**Caso: Todo a última hora.** En un grupo, las invitaciones se diseñan la noche anterior, nadie revisa y dos veces se publicó la hora equivocada. En diciembre no publicaron nada para el Adviento porque «nadie se acordó». El equipo está cansado y siente que comunicar es una carga.\n\n- ¿Qué cambiaría si tuvieran un calendario editorial?\n- ¿Qué tres fechas del próximo mes deberían estar ya planificadas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-3-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Programar y automatizar",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-3/s3.md",
+     "debate": "**Caso: El chiste del lunes.** Un grupo programa para el lunes a las 9:00 un video humorístico sobre el regreso a clases. El domingo en la noche fallece un joven muy querido de la parroquia. Nadie revisa la programación y el video se publica mientras la comunidad está de duelo.\n\n- ¿Qué hábito habría evitado esto?\n- ¿Qué deberían publicar ahora y cómo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-3-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Comunidad, moderación y crisis",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-3/s4.md",
+     "debate": "**Caso: El comentario de las 23:00.** Una noche aparece en la publicación del retiro un comentario anónimo que acusa a un dirigente de un trato inadecuado con un joven. En minutos hay quince respuestas. Uno de los administradores quiere borrarlo y otro quiere responder defendiendo al dirigente.\n\n- ¿En qué nivel de crisis está esta situación?\n- ¿Qué pasos deberían seguir esa misma noche y al día siguiente?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-3-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Medir, evaluar y mejorar",
+     "tiempo": "90 min + taller guiado",
+     "archivo": "contenido/modulos/redes-3/s5.md",
+     "debate": "**Caso: Cinco mil vistas, cero inscritos.** Un video gracioso de un grupo alcanzó cinco mil vistas, muchas más que cualquier otra publicación. El equipo lo celebró y decidió hacer solo videos de humor. Tres meses después, las cuentas crecían, pero la asistencia a los encuentros no había cambiado.\n\n- ¿Qué métricas estaban mirando y cuáles no?\n- ¿Qué decisiones tomarían a partir de los datos completos?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "redes-3-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

@@ -1,604 +1,635 @@
 {
  "id": "comunicacion-y-redes",
- "titulo": "Comunicación y redes para la pastoral",
- "subtitulo": "Comunicar con sentido, belleza y cuidado",
+ "titulo": "Comunicación y redes · Nivel 1: comunicar con sentido",
+ "subtitulo": "Propósito, plataformas, formatos, identidad y cuidado de las personas",
  "categoria": "Herramientas",
  "publico": "Desde 14 años",
- "descripcion": "Para quienes manejan las redes, los grupos de mensajería o los afiches de su grupo: para qué comunica una comunidad cristiana, cómo crear buenos contenidos, cómo cuidar a las personas en el mundo digital y cómo armar un plan de comunicación. 5 unidades de 90 minutos y una evaluación final.",
- "modulo": "Comunicar el Evangelio en lo digital",
- "intro": "Hoy los grupos juveniles se comunican por redes sociales, mensajería y afiches digitales. Bien usadas, estas herramientas convocan, informan y anuncian. Mal usadas, pueden exponer o dañar a las personas. Esta formación entrega criterios y técnicas para comunicar bien y con cuidado.",
+ "descripcion": "Para quienes manejan las redes, los grupos de mensajería o los afiches de su grupo: para qué comunica una comunidad cristiana, qué ofrece cada plataforma, qué formatos y medidas usar, cómo construir la identidad visual y el tono de voz, y cómo cuidar a las personas en lo digital.",
+ "modulo": "Comunicación y redes · Nivel 1: comunicar con sentido",
+ "intro": "El primer nivel del programa Comunicación digital para la Pastoral. Cada sesión termina con un taller guiado sobre las cuentas reales de tu grupo.",
  "unidades": [
   {
    "title": "Comunicar con sentido",
-   "objective": "Comprender para qué comunica una comunidad cristiana y qué estilo de comunicación nace del Evangelio.",
-   "intro": "Antes de abrir una aplicación de diseño o publicar algo, conviene preguntarse: ¿para qué comunicamos? Una comunidad cristiana no busca seguidores por sí mismos: busca encontrarse, anunciar y servir. En esta unidad vas a descubrir el sentido de la comunicación en la pastoral.",
+   "objective": "Comprender para qué comunica una comunidad cristiana y qué estilo de comunicación nace del Evangelio, antes de abrir cualquier aplicación.",
+   "intro": "Este programa tiene tres niveles. En este primero vas a entender el ecosistema: para qué comunicamos, qué plataformas existen, qué formatos sirven, cómo construir una identidad y cómo cuidar a las personas. En el segundo aprenderás a producir contenidos (texto, diseño, foto y video) y en el tercero a gestionar la comunicación como equipo: calendario, programación, comunidad y métricas. Partimos por la pregunta de fondo: ¿para qué comunicamos?",
+   "comenzar": "Abre la última publicación que hizo tu grupo (o tú mismo) en redes. Escribe en una línea: ¿para qué se publicó?, ¿a quién estaba dirigida?, ¿qué esperaba que hiciera quien la viera?",
+   "logros": [
+    "Explicar para qué comunica una comunidad cristiana.",
+    "Reconocer los rasgos de un estilo de comunicación que nace del Evangelio.",
+    "Identificar los riesgos del ambiente digital: algoritmos, desinformación e inteligencia artificial."
+   ],
    "sections": [
     {
-     "title": "El continente digital",
-     "body": "El papa Francisco dice que el ambiente digital no es solo un medio, sino un **lugar donde los jóvenes viven**: allí se informan, se relacionan, se expresan y construyen su identidad (Christus vivit 86-87).\n\nPor eso la Iglesia está llamada a estar presente también allí, no para llenar de contenidos, sino para **crear encuentro** y llevar una palabra de esperanza."
+     "title": "Un lugar donde se vive",
+     "body": "El ambiente digital no es solo un conjunto de herramientas: es un **lugar donde los jóvenes viven**. Allí se informan, se relacionan, se expresan y construyen parte de su identidad (Christus vivit 86-87). Por eso la Iglesia no se pregunta si debe estar, sino **cómo** estar.\n\nEl Dicasterio para la Comunicación lo plantea con la parábola del buen samaritano: en las redes también hay personas heridas al borde del camino, y la pregunta cristiana no es cuántos nos siguen, sino **de quién me hago prójimo** (*Hacia una plena presencia*, 2023)."
     },
     {
-     "title": "Para qué comunica un grupo",
-     "body": "- **Convocar:** invitar a encuentros, misas y actividades.\n- **Informar:** fechas, horarios, lugares, cambios.\n- **Anunciar:** compartir el Evangelio, una frase, una oración, un testimonio.\n- **Hacer comunidad:** mostrar la vida del grupo y hacer sentir parte a quienes participan.\n- **Servir:** difundir campañas solidarias o necesidades de la comunidad."
+     "title": "Cinco propósitos de la comunicación de un grupo",
+     "body": "Toda publicación debería responder al menos a uno de estos propósitos:\n\n1. **Convocar:** invitar a encuentros, misas, retiros y actividades.\n2. **Informar:** fechas, horarios, lugares, cambios, inscripciones.\n3. **Anunciar:** compartir la Palabra, una oración, un testimonio, la belleza de la fe.\n4. **Hacer comunidad:** mostrar la vida del grupo, agradecer, celebrar, hacer sentir parte.\n5. **Servir:** difundir campañas solidarias y necesidades de la comunidad.\n\nUn error frecuente es comunicar **solo para convocar**: si la cuenta del grupo es un tablero de avisos, nadie la sigue por gusto. Una buena comunicación alterna los cinco propósitos."
     },
     {
      "title": "Un estilo que nace del Evangelio",
-     "body": "- **Verdad:** no exagerar, no inventar, verificar antes de compartir.\n- **Respeto:** cuidar la dignidad de todos, también de quienes piensan distinto.\n- **Belleza:** cuidar la calidad de lo que publicamos.\n- **Esperanza:** proponer más que criticar; mostrar lo bueno que ocurre.\n- **Cercanía:** lenguaje sencillo, con el tono de los jóvenes, sin perder la profundidad."
+     "body": "- **Verdad:** no exagerar, no inventar, verificar antes de compartir.\n- **Respeto:** cuidar la dignidad de todos, también de quienes piensan distinto.\n- **Belleza:** la calidad también comunica; lo descuidado dice «no nos importa».\n- **Esperanza:** proponer más que criticar; contar lo bueno que ocurre.\n- **Cercanía:** el lenguaje de los jóvenes, sin perder profundidad.\n- **Presencia, no reacción:** el documento vaticano pide ser **reflexivos, no reactivos**, y preguntarnos si buscamos seguidores para nosotros o para Cristo."
     },
     {
-     "title": "Riesgos del mundo digital",
-     "body": "El mismo papa advierte que el ambiente digital también puede ser lugar de **soledad, manipulación, explotación y violencia**: noticias falsas, discursos de odio, acoso, dependencia, comparación constante (Christus vivit 88-90).\n\nUna comunidad cristiana que comunica está llamada a ser un **espacio distinto**: donde se dice la verdad, se cuida a las personas y no se busca el aplauso a cualquier costo."
+     "title": "Algoritmos, desinformación e inteligencia artificial",
+     "body": "Las redes no son neutras ni gratuitas: pagamos con atención y con datos. Sus **algoritmos** deciden qué ve cada persona y, como advierte el papa León XIV en su mensaje de 2026 para la Jornada de las Comunicaciones, tienden a **premiar las emociones rápidas y castigar la reflexión**, empujando a la polarización.\n\nA eso se suman la **desinformación**, los **bots** y los contenidos creados con **inteligencia artificial** que imitan voces y rostros reales. El papa pide custodiar las voces y los rostros humanos y **no renunciar al propio pensamiento**.\n\nPara un grupo pastoral, esto se traduce en hábitos concretos: verificar antes de compartir, no usar la IA para inventar testimonios o imágenes de personas reales, y decir cuándo una imagen fue generada con IA."
     }
+   ],
+   "caso": {
+    "titulo": "La cadena del domingo",
+    "texto": "Un viernes en la noche llega al grupo de dirigentes un audio que asegura que el obispo prohibió las misas juveniles. Antes de que alguien lo verifique, tres dirigentes lo reenvían a sus grupos y uno lo publica en la cuenta de la pastoral con un comentario indignado. El lunes se aclara que el audio era falso.",
+    "preguntas": [
+     "¿Qué filtros se saltaron?",
+     "¿Qué debería hacer ahora el grupo en su cuenta y en los grupos donde se reenvió?"
+    ]
+   },
+   "claves": [
+    [
+     "Algoritmo",
+     "Conjunto de reglas con que una plataforma decide qué contenido mostrar a cada persona y en qué orden."
+    ],
+    [
+     "Desinformación",
+     "Información falsa o engañosa que circula como si fuera verdadera, con o sin intención."
+    ],
+    [
+     "Presencia plena",
+     "Estar en lo digital como prójimos: atentos a las personas, reflexivos y no reactivos."
+    ]
    ],
    "bible": {
     "ref": "Efesios 4,25.29 · Palabras que construyen",
-    "comment": "Pablo pide decir la verdad unos a otros y que no salga de nuestra boca ninguna palabra mala, sino solo palabras buenas que edifiquen y hagan bien a quienes las escuchan. Un buen criterio para todo lo que escribimos o publicamos."
+    "comment": "Pablo pide decir la verdad unos a otros y que de nuestra boca solo salgan palabras buenas, que edifiquen y hagan bien a quien las escucha. Es un criterio para todo lo que escribimos, publicamos o reenviamos."
+   },
+   "lectio": {
+    "meditar": "¿Qué palabras tuyas en redes construyeron y cuáles dañaron?",
+    "orar": "Pide al Señor un corazón que piense antes de publicar.",
+    "vivir": "Esta semana, antes de reenviar algo, aplica los tres filtros: ¿es verdad?, ¿es bueno?, ¿es útil?"
    },
    "church": [
     {
      "source": "Christus vivit 86-90",
-     "text": "El ambiente digital es un lugar donde viven los jóvenes, con grandes oportunidades y también con riesgos de soledad, manipulación y violencia.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un lugar donde los jóvenes viven, se informan y se relacionan; ofrece grandes oportunidades y también riesgos de soledad, manipulación y violencia."
     },
     {
-     "source": "Inter mirifica (Concilio Vaticano II, 1963)",
-     "text": "El Concilio reconoce los medios de comunicación como dones de Dios que deben usarse según la verdad y para el bien de las personas.",
-     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html"
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "León XIV, Mensaje para la LX Jornada Mundial de las Comunicaciones Sociales (2026)",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "text": "«Custodiar voces y rostros humanos»: advierte que los algoritmos premian las emociones rápidas y castigan la reflexión, alerta sobre los riesgos de la inteligencia artificial y pide no renunciar al propio pensamiento."
     }
    ],
    "questions": [
     "¿Cómo se comunica hoy tu grupo? ¿Qué funciona y qué no?",
-    "¿Para qué te gustaría que comunicara tu grupo?",
-    "¿Qué publicaciones de cuentas católicas te gustan? ¿Por qué?",
-    "¿Qué riesgos del mundo digital has visto de cerca?"
+    "¿Cuál de los cinco propósitos falta en la comunicación de tu grupo?",
+    "¿Qué cuentas católicas te gustan y por qué?",
+    "¿Qué te inquieta de los algoritmos y la inteligencia artificial?"
    ],
-   "activity": "Revisen juntos las redes y los grupos de mensajería de su comunidad. Clasifiquen las últimas diez publicaciones según su propósito (convocar, informar, anunciar, hacer comunidad, servir). ¿Qué propósito falta?",
-   "prayer": "Señor, Palabra eterna del Padre, que te hiciste cercano para comunicarnos tu amor: haznos buenos comunicadores. Que lo que publiquemos sea verdadero, bello y bueno. Que nuestras redes sean lugares de encuentro y de esperanza, y nunca de división ni de daño. Amén.",
+   "activity": "Revisen juntos las últimas veinte publicaciones del grupo (redes y grupos de mensajería). Clasifíquenlas según los cinco propósitos y dibujen un gráfico de barras en un papelógrafo. ¿Qué propósito domina? ¿Cuál falta?",
+   "practica": [
+    "Reúnan las últimas veinte publicaciones del grupo.",
+    "Clasifíquenlas según los cinco propósitos.",
+    "Identifiquen el propósito que falta.",
+    "Propongan tres publicaciones para equilibrar."
+   ],
+   "prayer": "Señor, Palabra eterna del Padre, que te hiciste cercano para comunicarnos tu amor: haznos buenos comunicadores. Que lo que publiquemos sea verdadero, bello y bueno; que nuestras redes sean lugares de encuentro y de esperanza, y nunca de división ni de daño. Amén.",
+   "idea": "Comunicamos para encontrarnos, no para acumular seguidores.",
+   "profundizar": {
+    "titulo": "Antes de publicar, tres filtros",
+    "texto": "1. **¿Es verdad?** ¿Lo verifiqué en una fuente confiable (el sitio de la diócesis, de la parroquia, un medio serio)?\n2. **¿Es bueno?** ¿Hace bien o puede dañar a alguien?\n3. **¿Es útil?** ¿Aporta algo a quien lo va a ver?\n\nSi no pasa los tres, mejor no publicarlo ni reenviarlo."
+   },
    "resources": [
+    {
+     "title": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "note": "Reflexión pastoral completa sobre la presencia cristiana en las redes sociales."
+    },
+    {
+     "title": "Mensajes del papa para la Jornada Mundial de las Comunicaciones Sociales",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "note": "Incluye el mensaje de 2026, «Custodiar voces y rostros humanos»."
+    },
     {
      "title": "Christus vivit (Francisco, 2019)",
      "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
      "note": "Números 86-106, sobre el ambiente digital."
     }
-   ],
-   "comenzar": "Revisa la última publicación que compartiste en tus redes. ¿Para qué la publicaste? ¿Construía algo bueno? Responde con honestidad.",
+   ]
+  },
+  {
+   "title": "Un mapa de las plataformas",
+   "objective": "Conocer para qué sirve cada plataforma en la pastoral y elegir pocas, bien atendidas, según los objetivos y el público del grupo.",
+   "intro": "Instagram, TikTok, Facebook, YouTube, WhatsApp, Threads, Spotify... No hace falta estar en todas. Hace falta estar **bien** donde está tu gente. En esta sesión vas a recorrer las principales plataformas, qué ofrece cada una a un grupo pastoral y cómo decidir dónde estar.",
+   "comenzar": "Haz una lista de todas las cuentas y grupos digitales que tiene tu grupo hoy (redes, grupos de mensajería, correos). ¿Quién administra cada una? ¿Alguna está abandonada?",
    "logros": [
-    "Explicar para qué comunica una comunidad cristiana.",
-    "Reconocer un estilo de comunicación que nace del Evangelio.",
-    "Identificar los riesgos del ambiente digital."
+    "Describir la función pastoral de las principales plataformas.",
+    "Distinguir grupos, comunidades y canales de WhatsApp.",
+    "Elegir las plataformas del grupo con criterios claros."
    ],
-   "profundizar": {
-    "titulo": "Antes de publicar, tres filtros",
-    "texto": "Una regla sencilla antes de publicar o reenviar algo:\n\n1. **¿Es verdad?** ¿Lo verifiqué en una fuente confiable?\n2. **¿Es bueno?** ¿Hace bien o daña a alguien?\n3. **¿Es útil?** ¿Aporta algo a quien lo va a ver?\n\nSi no pasa los tres filtros, mejor no publicarlo."
-   },
+   "sections": [
+    {
+     "title": "Las plataformas, una por una",
+     "body": "| Plataforma | Para qué sirve en la pastoral | Público principal | Formatos clave |\n|---|---|---|---|\n| **Instagram** | Identidad del grupo, convocatoria, formación breve, comunidad | Adolescentes y jóvenes | Carrusel, reel, historias, transmisión en vivo |\n| **TikTok** | Llegar a jóvenes que no conocen el grupo; testimonio y humor sano | Adolescentes | Video vertical corto, carrusel de fotos |\n| **Facebook** | Familias, adultos y comunidad parroquial; eventos | Padres, abuelos, parroquia | Publicaciones, eventos, transmisión de misas |\n| **YouTube** | Archivo duradero: charlas, misas, cantos, tutoriales; Shorts para lo breve | Todos; muy usado para buscar | Video largo, Shorts, en vivo |\n| **WhatsApp** | Coordinación y avisos directos | Todos | Grupos, comunidades, canales |\n| **Threads / X** | Conversación pública breve; útil para seguir noticias de la Iglesia | Jóvenes adultos | Texto corto |\n| **Spotify u otras de pódcast** | Oraciones, reflexiones y conversaciones en audio | Jóvenes y adultos | Pódcast, listas de música |\n\nUna regla práctica: **Instagram o TikTok para llegar, WhatsApp para organizar, YouTube o Facebook para guardar y para las familias.**"
+    },
+    {
+     "title": "WhatsApp: grupos, comunidades y canales",
+     "body": "- **Grupo:** todos escriben. Sirve para equipos pequeños que conversan (por ejemplo, el equipo de dirigentes).\n- **Comunidad:** reúne varios grupos bajo un mismo nombre e incluye un **grupo de avisos** donde solo publican los administradores. Ideal para una pastoral con varios subgrupos (confirmación, dirigentes, música, familias).\n- **Canal:** comunicación de una vía; los seguidores no ven a los demás ni sus números. Ideal para avisos públicos y una frase del Evangelio diaria, cuidando la privacidad.\n\nCon menores de edad, prefiere **canales y grupos de avisos** antes que grupos abiertos, y nunca conversaciones privadas entre un adulto y un menor."
+    },
+    {
+     "title": "Cuenta personal, de creador o institucional",
+     "body": "La cuenta del grupo debe ser **institucional**: a nombre de la pastoral, con un correo que no dependa de una sola persona y con más de un administrador.\n\nEn Instagram y TikTok conviene convertirla en **cuenta profesional** (de creador o de empresa): es gratis, permite ver estadísticas, programar publicaciones y conectar herramientas de gestión. Las cuentas personales no pueden programar ni conectarse a la mayoría de esas herramientas.\n\nRecuerda la **edad mínima**: Instagram, TikTok y Facebook exigen 13 años. Un grupo de catequesis infantil no debe tener redes propias dirigidas a los niños: la comunicación se hace con sus familias."
+    },
+    {
+     "title": "Cómo elegir dónde estar",
+     "body": "Hazte cuatro preguntas:\n\n1. **¿Dónde está nuestro público?** Pregúntaselo a los jóvenes, no lo supongas.\n2. **¿Qué queremos lograr?** Convocar, formar, acompañar a familias, guardar memoria.\n3. **¿Cuánto tiempo real tenemos?** Una cuenta bien atendida vale más que cuatro abandonadas.\n4. **¿Quién la va a sostener?** Si no hay al menos dos personas responsables, no abras la cuenta.\n\nPara la mayoría de los grupos basta con **dos redes y un canal de mensajería** bien cuidados."
+    }
+   ],
    "caso": {
-    "titulo": "La cadena",
-    "texto": "Al grupo de WhatsApp de los jóvenes llega una cadena que dice que, si no se reenvía a diez personas, «la Virgen no te va a proteger». Varios la reenvían «por si acaso».",
+    "titulo": "Siete cuentas y nadie a cargo",
+    "texto": "Una pastoral tiene cuenta de Instagram, de TikTok, dos páginas de Facebook (una antigua), un canal de YouTube con tres videos, un grupo de WhatsApp de 300 personas y un correo cuya contraseña nadie recuerda. Los mensajes de los jóvenes quedan sin respuesta durante semanas.",
     "preguntas": [
-     "¿Qué problema tiene esta cadena desde la fe y desde la verdad?",
-     "¿Qué podría hacer el administrador del grupo?"
+     "¿Qué cuentas cerrarían, cuáles fusionarían y cuáles mantendrían?",
+     "¿Cómo reorganizarían el grupo de WhatsApp de 300 personas?"
     ]
    },
    "claves": [
     [
-     "Continente digital",
-     "El ambiente digital entendido como un lugar donde se vive, no solo como una herramienta."
+     "Cuenta profesional",
+     "Cuenta gratuita de Instagram o TikTok que da acceso a estadísticas, programación y herramientas de gestión."
     ],
     [
-     "Noticia falsa",
-     "Información inventada o engañosa que se difunde como si fuera verdad."
+     "Comunidad de WhatsApp",
+     "Conjunto de grupos bajo un mismo nombre, con un grupo de avisos donde solo publican los administradores."
     ],
     [
-     "Comunicación pastoral",
-     "Comunicación al servicio del encuentro, el anuncio y la comunidad."
+     "Canal",
+     "Espacio de comunicación de una vía, donde los seguidores no ven a los demás."
     ]
    ],
-   "lectio": {
-    "meditar": "Solo palabras que edifiquen. ¿Tus mensajes y publicaciones construyen o destruyen?",
-    "orar": "Pide a Dios que tus palabras, también las digitales, hagan bien.",
-    "vivir": "Esta semana, aplica los tres filtros antes de publicar o reenviar cualquier cosa."
-   },
-   "practica": [
-    "Revisen las últimas diez publicaciones del grupo.",
-    "Clasifíquenlas según su propósito.",
-    "Identifiquen qué falta.",
-    "Propongan una publicación para el propósito que falta."
-   ],
-   "idea": "Comunicamos para encontrarnos, no para acumular seguidores."
-  },
-  {
-   "title": "Crear buenos contenidos",
-   "objective": "Aprender técnicas básicas para escribir, fotografiar, diseñar y grabar contenidos claros, atractivos y accesibles.",
-   "intro": "No hace falta ser profesional para comunicar bien. Con algunas técnicas sencillas, un grupo puede hacer afiches claros, fotos bonitas y videos que se ven hasta el final. En esta unidad vas a aprender lo básico de cada formato.",
-   "sections": [
-    {
-     "title": "Escribir claro",
-     "body": "- **Lo más importante primero:** qué, cuándo, dónde.\n- **Frases cortas** y palabras sencillas.\n- **Un mensaje por publicación.**\n- **Invitar a una acción:** «Inscríbete», «Te esperamos», «Comparte».\n- **Revisar ortografía** antes de publicar.\n\nEjemplo: «Encuentro de jóvenes: este sábado a las 17:00 en el salón parroquial. ¡Trae a un amigo!» es mejor que un párrafo largo con la misma información escondida."
-    },
-    {
-     "title": "Fotos que comunican",
-     "body": "- **Luz natural:** de preferencia de día, con la luz de frente a las personas, no detrás.\n- **Encuadre:** acercarse; evitar fotos donde las personas se ven pequeñas y lejanas.\n- **Regla de los tercios:** imaginar la pantalla dividida en tres partes y ubicar lo importante en las líneas.\n- **Momentos reales:** risas, conversaciones, oración, más que poses.\n- **Pocas y buenas:** mejor cinco fotos bien elegidas que cincuenta parecidas."
-    },
-    {
-     "title": "Diseño sencillo",
-     "body": "- **Jerarquía:** lo más importante, más grande.\n- **Contraste:** texto claro sobre fondo oscuro, o al revés.\n- **Dos tipografías como máximo.**\n- **Pocos colores,** idealmente los mismos siempre, para que el grupo sea reconocible.\n- **Espacio en blanco:** no llenar todo.\n- **Sin saturar** de adornos, efectos ni emojis.\n\nHay aplicaciones gratuitas con plantillas que facilitan el trabajo; conviene crear una plantilla propia del grupo."
-    },
-    {
-     "title": "Videos cortos y accesibilidad",
-     "body": "**Videos:**\n\n- **Formato vertical** para redes.\n- **Los primeros segundos** deben captar la atención.\n- **Subtítulos:** muchas personas ven los videos sin sonido.\n- **Sonido claro** y sin ruido de fondo.\n- **Breves:** menos de un minuto suele funcionar mejor.\n\n**Accesibilidad:** agregar texto alternativo a las imágenes, subtítulos a los videos y buen contraste, para que también puedan disfrutarlos personas con discapacidad visual o auditiva.\n\n**Derechos de autor:** usar música, imágenes y tipografías con permiso o con licencias libres. No usar contenido ajeno como si fuera propio."
-    }
-   ],
    "bible": {
-    "ref": "Habacuc 2,2 · Escríbelo claro",
-    "comment": "Dios le dice al profeta Habacuc que escriba la visión y la grabe claramente en tablillas, para que se pueda leer de corrido. Comunicar con claridad no es un detalle técnico: es una forma de respeto por quien recibe el mensaje."
+    "ref": "Hechos 17,22-23 · Pablo en el Areópago",
+    "comment": "En Atenas, Pablo no empieza hablando en su propio idioma religioso: observa la ciudad, encuentra un altar «al Dios desconocido» y parte desde ahí. Comunicar bien exige conocer el lugar donde está la gente y hablar en su lenguaje."
+   },
+   "lectio": {
+    "meditar": "¿Dónde están hoy los jóvenes que no llegan a tu grupo?",
+    "orar": "Pide la mirada atenta de Pablo, que sabe leer la cultura de su tiempo.",
+    "vivir": "Pregunta esta semana a tres jóvenes qué redes usan y para qué."
    },
    "church": [
     {
-     "source": "Christus vivit 104-106",
-     "text": "El papa presenta a Carlo Acutis como ejemplo de un joven que usó su talento digital para comunicar el Evangelio con creatividad.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un lugar donde los jóvenes viven, se informan y se relacionan; ofrece grandes oportunidades y también riesgos de soledad, manipulación y violencia."
     },
     {
-     "source": "Evangelii gaudium 167",
-     "text": "Anima a usar la vía de la belleza para transmitir la fe, valorando nuevas expresiones artísticas y lenguajes.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
     }
    ],
    "questions": [
-    "¿Qué afiche o publicación de tu grupo podría mejorar con estas técnicas?",
-    "¿Qué formato te gusta más crear: texto, foto, diseño o video?",
-    "¿Tu grupo usa música o imágenes con permiso?",
-    "¿Qué te dice la idea de que la belleza también comunica la fe?"
+    "¿En qué plataformas está tu grupo y por qué?",
+    "¿Qué plataforma usan los jóvenes que tu grupo no está aprovechando?",
+    "¿Qué cuenta habría que cerrar o reorganizar?",
+    "¿Quiénes podrían ser los administradores de las cuentas del grupo?"
    ],
-   "activity": "Elijan una actividad próxima del grupo y creen en parejas un afiche y un video corto para invitar, aplicando las técnicas de esta unidad. Presenten los resultados y elijan juntos los mejores.",
-   "prayer": "Señor, fuente de toda belleza: bendice la creatividad de nuestro grupo. Que nuestros textos, imágenes y videos sean claros, bellos y verdaderos, y que a través de ellos otros jóvenes se sientan invitados a conocerte. Amén.",
+   "activity": "Hagan el inventario de todas las cuentas y grupos digitales del grupo en una tabla con: plataforma, nombre, para qué sirve, administradores, correo de recuperación y estado (activa, abandonada, duplicada). Decidan qué hacer con cada una.",
+   "practica": [
+    "Hagan el inventario de cuentas.",
+    "Respondan las cuatro preguntas para elegir.",
+    "Decidan qué cuentas mantener, fusionar o cerrar.",
+    "Definan dos administradores por cuenta."
+   ],
+   "prayer": "Señor, Tú saliste al encuentro de la gente en los caminos, las casas y las plazas. Danos sabiduría para estar donde están los jóvenes, sin dispersarnos, y para cuidar cada espacio que abrimos en tu nombre. Amén.",
+   "idea": "Mejor pocas cuentas bien cuidadas que muchas abandonadas.",
+   "profundizar": {
+    "titulo": "Una sola fuente oficial",
+    "texto": "Elijan **un lugar oficial** donde siempre esté la información correcta (por ejemplo, el canal o el grupo de avisos) y hagan que todo lo demás apunte ahí. Así, cuando cambia un horario, se corrige en un solo lugar y nadie queda con el dato antiguo."
+   },
    "resources": [
     {
-     "title": "Evangelii gaudium (Francisco, 2013)",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
-     "note": "Número 167, la vía de la belleza."
+     "title": "Centro de aprendizaje de Comunidades de WhatsApp",
+     "url": "https://www.whatsapp.com/communities/learning?lang=es_LA",
+     "note": "Guías oficiales para administrar comunidades, roles y normas."
+    },
+    {
+     "title": "Ayuda de YouTube",
+     "url": "https://support.google.com/youtube",
+     "note": "Guías oficiales para crear un canal y subir videos y Shorts."
+    }
+   ]
+  },
+  {
+   "title": "Tipos de contenido y formatos",
+   "objective": "Distinguir los tipos de contenido y los formatos de cada plataforma, con sus medidas actuales, y planificar una mezcla equilibrada a partir de pilares de contenido.",
+   "intro": "No basta con saber qué decir: hay que elegir **cómo** decirlo. Un mismo mensaje puede ser un carrusel, un video de 30 segundos, una historia con encuesta o una transmisión en vivo. En esta sesión vas a conocer los formatos, sus medidas y una forma ordenada de planificar: los pilares de contenido.",
+   "comenzar": "Piensa en un contenido de una cuenta (de cualquier tema) que hayas guardado o compartido hace poco. ¿Qué formato era? ¿Por qué lo guardaste?",
+   "logros": [
+    "Definir los pilares de contenido de un grupo pastoral.",
+    "Elegir el formato adecuado para cada mensaje.",
+    "Usar las medidas correctas para cada formato."
+   ],
+   "sections": [
+    {
+     "title": "Pilares de contenido",
+     "body": "Los **pilares** son los grandes temas sobre los que tu grupo publica con regularidad. Dan orden y evitan el «¿qué publicamos hoy?». Para un grupo pastoral funcionan bien cinco:\n\n| Pilar | Ejemplos |\n|---|---|\n| **Fe y oración** | Evangelio del domingo, una oración breve, un santo joven, tiempo litúrgico |\n| **Formación** | Una idea de la Biblia o del Catecismo explicada en un carrusel, respuestas a preguntas frecuentes |\n| **Vida del grupo** | Fotos de encuentros (con autorización), testimonios, detrás de cámara, cumpleaños del grupo |\n| **Convocatoria** | Invitaciones, inscripciones, recordatorios |\n| **Servicio** | Campañas solidarias, voluntariado, necesidades de la comunidad |\n\nUna mezcla sana: que la convocatoria **no supere un tercio** de lo que publican."
+    },
+    {
+     "title": "Formatos y para qué sirve cada uno",
+     "body": "- **Publicación de una imagen:** un mensaje simple y potente (una frase, una invitación).\n- **Carrusel** (varias imágenes que se deslizan): enseñar paso a paso, contar una historia, resumir un encuentro. Es el formato que más se **guarda** y se comparte.\n- **Video vertical corto** (reels, TikTok, Shorts): llegar a personas nuevas; testimonio, invitación, humor sano, «un minuto de Evangelio».\n- **Historias:** el día a día; duran 24 horas, salvo que se guarden como destacadas. Encuestas, preguntas y cuentas regresivas generan conversación.\n- **Transmisión en vivo:** oración, misa, charla o conversación con un invitado.\n- **Colaboración:** una publicación compartida con otra cuenta (la parroquia, otro grupo) que aparece en ambos perfiles.\n- **Audio:** pódcast u oraciones para escuchar en el camino."
+    },
+    {
+     "title": "Medidas que conviene conocer",
+     "body": "| Formato | Proporción | Tamaño en píxeles |\n|---|---|---|\n| Publicación vertical de Instagram (la que hoy prioriza) | 3:4 | 1080 × 1440 |\n| Publicación vertical clásica (sigue funcionando) | 4:5 | 1080 × 1350 |\n| Cuadrada | 1:1 | 1080 × 1080 |\n| Historias, reels, TikTok y Shorts | 9:16 | 1080 × 1920 |\n| Video horizontal de YouTube | 16:9 | 1920 × 1080 |\n\nDuraciones de referencia: un carrusel de Instagram admite hasta **20** imágenes o videos; los **Shorts** de YouTube llegan hasta **3 minutos**; los reels pueden ser más largos, pero Instagram no recomienda a públicos nuevos los que pasan de 3 minutos. En la práctica, los videos que mejor funcionan para un grupo duran **entre 15 y 60 segundos**.\n\nRegla de oro: deja el texto importante **al centro**, lejos de los bordes, porque cada plataforma recorta distinto."
+    },
+    {
+     "title": "Un mensaje, varios formatos",
+     "body": "Para un retiro, por ejemplo:\n\n1. **Video de 20 segundos** con un joven que invita (para llegar).\n2. **Carrusel** con fecha, lugar, costo, qué llevar y cómo inscribirse (para informar y guardar).\n3. **Historias** con cuenta regresiva y enlace de inscripción (para recordar).\n4. **Aviso en el canal o la comunidad de WhatsApp** con el mismo enlace (para las familias).\n5. **Después:** carrusel de fotos y un testimonio en video (para hacer comunidad).\n\nAsí un solo tema alimenta una semana de contenidos sin repetir lo mismo."
     }
    ],
-   "comenzar": "Busca en tu teléfono un afiche o publicación que te haya llamado la atención esta semana (no necesariamente religioso). ¿Qué tiene que lo hace efectivo? Anota tres cosas.",
-   "logros": [
-    "Escribir mensajes claros con lo importante primero.",
-    "Tomar fotos y diseñar piezas sencillas con buena calidad.",
-    "Crear videos cortos accesibles y respetar los derechos de autor."
-   ],
-   "profundizar": {
-    "titulo": "La identidad visual del grupo",
-    "texto": "Un grupo se reconoce más fácil si siempre comunica con el mismo estilo:\n\n- **Un logo o nombre** escrito siempre igual.\n- **Dos o tres colores** propios.\n- **Una o dos tipografías.**\n- **Plantillas** para avisos, frases y fotos.\n- **Un tono:** cercano, alegre, respetuoso.\n\nConviene escribir estas decisiones en una hoja y compartirla con todos los que publican."
-   },
    "caso": {
-    "titulo": "El afiche imposible",
-    "texto": "El afiche del retiro tiene seis tipografías, diez colores, tres fotos superpuestas, la dirección escrita en letra muy pequeña y la fecha escondida en una esquina. Nadie se inscribe.",
+    "titulo": "Siempre el mismo afiche",
+    "texto": "La cuenta de un grupo publica cada semana el mismo tipo de afiche: fondo de color, título grande y la hora del encuentro. Llevan dos años así. Tienen 180 seguidores, la mayoría del mismo grupo, y casi nadie interactúa.",
     "preguntas": [
-     "¿Qué principios de diseño no se respetaron?",
-     "¿Cómo lo rediseñarías?"
+     "¿Qué pilares y formatos les faltan?",
+     "Propongan tres publicaciones distintas para la próxima semana."
     ]
    },
    "claves": [
     [
-     "Jerarquía visual",
-     "Ordenar los elementos para que lo más importante se vea primero."
+     "Pilar de contenido",
+     "Tema grande sobre el que un grupo publica con regularidad."
     ],
     [
-     "Accesibilidad",
-     "Que los contenidos puedan ser percibidos y comprendidos por todas las personas."
+     "Carrusel",
+     "Publicación con varias imágenes o videos que se deslizan; ideal para enseñar y resumir."
     ],
     [
-     "Licencia libre",
-     "Permiso para usar una obra según ciertas condiciones."
+     "Proporción",
+     "Relación entre el ancho y el alto de una imagen o video, por ejemplo 9:16."
     ]
    ],
-   "lectio": {
-    "meditar": "Escribir claro para que se pueda leer de corrido. ¿Qué mensaje importante necesitas comunicar con más claridad en tu vida?",
-    "orar": "Ofrece a Dios tus talentos creativos.",
-    "vivir": "Rediseña un afiche o publicación del grupo con lo aprendido."
+   "bible": {
+    "ref": "Marcos 4,33-34 · Jesús hablaba en parábolas",
+    "comment": "Jesús anunciaba la Palabra «según podían entender», con imágenes de la vida diaria: semillas, redes, panes, ovejas. Elegir el formato adecuado no es marketing: es la misma lógica de adaptar el anuncio a quien escucha."
    },
-   "practica": [
-    "Elijan una actividad próxima.",
-    "Creen el afiche y el video en parejas.",
-    "Presenten y elijan los mejores.",
-    "Definan la identidad visual del grupo."
+   "lectio": {
+    "meditar": "¿Qué «parábola» de hoy usarías para hablar de Dios a un joven?",
+    "orar": "Pide creatividad para encontrar formas nuevas de anunciar lo de siempre.",
+    "vivir": "Esta semana, transforma un mismo mensaje en dos formatos distintos."
+   },
+   "church": [
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "Inter mirifica (Concilio Vaticano II, 1963)",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html",
+     "text": "El Concilio reconoce los medios de comunicación como dones de Dios que deben usarse según la verdad y para el bien de las personas."
+    }
    ],
-   "idea": "Claro, bello y verdadero."
+   "questions": [
+    "¿Qué pilares tiene hoy, sin saberlo, la comunicación de tu grupo?",
+    "¿Qué formato usan poco y podrían aprovechar?",
+    "¿Qué tema se presta para un carrusel?",
+    "¿Quién del grupo podría animarse a hablar frente a la cámara?"
+   ],
+   "activity": "Definan los cinco pilares de su grupo y, para cada uno, escriban tres ideas concretas de publicación con su formato. Tendrán quince ideas listas para el calendario del próximo mes.",
+   "practica": [
+    "Definan los pilares del grupo.",
+    "Escriban tres ideas por pilar.",
+    "Asignen un formato a cada idea.",
+    "Revisen que la convocatoria no supere un tercio."
+   ],
+   "prayer": "Señor Jesús, que hablaste con parábolas sencillas y profundas: enséñanos a contar tu Buena Noticia con creatividad, en los lenguajes de hoy, sin perder la verdad de lo que anunciamos. Amén.",
+   "idea": "Un buen mensaje merece el formato correcto.",
+   "profundizar": {
+    "titulo": "Reciclar sin repetir",
+    "texto": "Un buen contenido puede **reutilizarse**: el carrusel de formación se convierte en un video corto; la charla del retiro, en tres Shorts; la oración, en una historia y en un audio. Lleva un registro de los contenidos que funcionaron para volver a usarlos en otro formato meses después."
+   },
+   "resources": [
+    {
+     "title": "Ayuda de YouTube: Shorts",
+     "url": "https://support.google.com/youtube",
+     "note": "Información oficial sobre duración y formatos de Shorts."
+    }
+   ]
+  },
+  {
+   "title": "Identidad visual y tono de voz",
+   "objective": "Construir la identidad visual y el tono de voz del grupo, y resumirlos en un manual de una página que todos puedan usar.",
+   "intro": "Cuando ves un afiche de lejos y sabes de inmediato que es de tu grupo, eso es **identidad**. No depende de tener un diseñador: depende de decidir unos pocos elementos y usarlos siempre. En esta sesión vas a definir el logo, los colores, las tipografías, el estilo de fotos y la forma de hablar de tu grupo.",
+   "comenzar": "Mira las últimas seis publicaciones de tu grupo juntas. ¿Parecen de la misma cuenta o de seis cuentas distintas?",
+   "logros": [
+    "Definir los elementos de la identidad visual de un grupo.",
+    "Describir un tono de voz coherente con el Evangelio y con el público.",
+    "Elaborar un manual de identidad de una página."
+   ],
+   "sections": [
+    {
+     "title": "Los cinco elementos de la identidad visual",
+     "body": "1. **Logo:** con una versión principal, una versión simple (solo el símbolo) y una versión en un solo color (blanco o negro) para fondos complicados. Si el grupo no tiene logo, un nombre bien escrito con una tipografía fija ya es una identidad.\n2. **Colores:** dos o tres colores principales y uno o dos neutros (blanco, gris, negro). Anota su código (por ejemplo, #1351A4) para usar siempre exactamente el mismo.\n3. **Tipografías:** una para títulos y otra para textos. Más de dos produce desorden.\n4. **Estilo de fotos:** luz natural, personas reales, colores cálidos o sobrios; lo que elijan, que sea siempre parecido.\n5. **Elementos gráficos:** una forma, un marco o un detalle que se repita (una línea, una esquina, un ícono).\n\nSi el grupo pertenece a una parroquia o colegio, la identidad debe **convivir** con la institucional: se puede usar el logo parroquial en un rincón y respetar sus colores."
+    },
+    {
+     "title": "Tono de voz",
+     "body": "El tono de voz es **cómo habla** la cuenta. Defínanlo con tres adjetivos y sus límites:\n\n| Somos | Pero no |\n|---|---|\n| Cercanos | Vulgares ni burlescos |\n| Alegres y esperanzadores | Superficiales ni ingenuos |\n| Claros | Simplistas ni infantiles |\n\nDecidan también detalles prácticos: ¿tuteamos o hablamos de «ustedes»?, ¿usamos emojis y cuántos?, ¿cómo firmamos las respuestas?, ¿qué palabras evitamos (por ejemplo, expresiones que excluyen o ridiculizan)?"
+    },
+    {
+     "title": "Accesibilidad: que todos puedan ver y leer",
+     "body": "- **Contraste:** texto oscuro sobre fondo claro o al revés; evita amarillo sobre blanco o rojo sobre verde.\n- **Tamaño:** en una pieza vertical, el texto principal debería leerse sin hacer zoom.\n- **No todo en la imagen:** repite lo esencial (fecha, hora, lugar) en el texto de la publicación, porque los lectores de pantalla no leen el texto dentro de una imagen.\n- **Texto alternativo:** describe la imagen para las personas ciegas (Instagram y Facebook lo permiten en la configuración avanzada de la publicación).\n- **Subtítulos** en todos los videos."
+    },
+    {
+     "title": "El manual de una página",
+     "body": "Un manual de identidad no tiene que ser un libro. Una sola página con:\n\n- el logo en sus versiones y lo que **no** se debe hacer (deformarlo, cambiarle colores);\n- los códigos de color;\n- las dos tipografías;\n- tres fotos de ejemplo del estilo;\n- el tono de voz con sus adjetivos y límites;\n- los datos fijos: nombre exacto de las cuentas, horarios, lugar de encuentro.\n\nGuárdenlo en la carpeta compartida del grupo y compártanlo con cualquiera que vaya a diseñar algo. En Canva, el **kit de marca** guarda logos, colores y fuentes para usarlos con un clic (el kit completo es una función de pago)."
+    }
+   ],
+   "caso": {
+    "titulo": "Cada uno con su estilo",
+    "texto": "En un grupo, cinco dirigentes hacen los afiches. Uno usa fondos negros con letras doradas; otra, colores pastel; otro, fotos con muchos filtros. Una familia comenta que no sabía que las cinco actividades del mes eran del mismo grupo.",
+    "preguntas": [
+     "¿Qué problema genera la falta de identidad?",
+     "¿Qué decisiones mínimas tendría que tomar este grupo para la próxima semana?"
+    ]
+   },
+   "claves": [
+    [
+     "Identidad visual",
+     "Conjunto de elementos gráficos que hacen reconocible a un grupo: logo, colores, tipografías y estilo."
+    ],
+    [
+     "Tono de voz",
+     "Manera estable de escribir y hablar de una cuenta, definida con adjetivos y límites."
+    ],
+    [
+     "Texto alternativo",
+     "Descripción de una imagen que leen los lectores de pantalla para personas con discapacidad visual."
+    ]
+   ],
+   "bible": {
+    "ref": "Mateo 5,14-16 · Una luz que se ve",
+    "comment": "Jesús dice que no se enciende una lámpara para esconderla, sino para ponerla donde ilumine a todos. Una identidad clara no es vanidad: ayuda a que la luz de una comunidad se reconozca y llegue a quien la necesita."
+   },
+   "lectio": {
+    "meditar": "¿Qué quieres que la gente reconozca cuando ve algo de tu grupo?",
+    "orar": "Pide que la identidad del grupo refleje la luz del Evangelio y no solo una marca.",
+    "vivir": "Esta semana, comparte con tu equipo una propuesta de tres colores y dos tipografías."
+   },
+   "church": [
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "Inter mirifica (Concilio Vaticano II, 1963)",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html",
+     "text": "El Concilio reconoce los medios de comunicación como dones de Dios que deben usarse según la verdad y para el bien de las personas."
+    }
+   ],
+   "questions": [
+    "¿Qué identidad tiene hoy, de hecho, tu grupo?",
+    "¿Qué tres adjetivos describen cómo quieren hablar?",
+    "¿Qué detalles de accesibilidad están olvidando?",
+    "¿Quién se hace cargo de cuidar la identidad?"
+   ],
+   "activity": "Armen el manual de identidad de una página: logo, colores con su código, tipografías, tres fotos de ejemplo, tono de voz y datos fijos. Preséntenlo a los asesores para su aprobación.",
+   "practica": [
+    "Elijan colores y tipografías.",
+    "Definan el tono de voz con adjetivos y límites.",
+    "Armen el manual de una página.",
+    "Compártanlo en la carpeta del grupo."
+   ],
+   "prayer": "Señor, que nos llamas luz del mundo: que todo lo que comunicamos sea reconocible por su verdad, su belleza y su bondad. Que nuestra identidad apunte siempre a Ti y no a nosotros. Amén.",
+   "idea": "La identidad no es decorado: es coherencia.",
+   "profundizar": {
+    "titulo": "Cuando el grupo cambia de dirigentes",
+    "texto": "La identidad sobrevive a las personas si está **escrita y guardada**. Al traspasar el servicio, el manual de identidad, las plantillas y los accesos a las cuentas se entregan junto con el resto de los documentos del grupo. Así el próximo equipo no empieza de cero."
+   },
+   "resources": [
+    {
+     "title": "Canva",
+     "url": "https://www.canva.com",
+     "note": "Herramienta gratuita de diseño con plantillas y kit de marca (algunas funciones son de pago)."
+    }
+   ]
   },
   {
    "title": "Cuidar a las personas en lo digital",
-   "objective": "Aplicar reglas de cuidado en las comunicaciones del grupo: imagen de menores, datos personales, grupos de mensajería y manejo de comentarios.",
-   "intro": "Comunicar bien también es cuidar. Una foto mal publicada puede exponer a un niño; un grupo de mensajería sin reglas puede volverse un lugar de conflictos o de riesgo. En esta unidad vas a conocer las reglas de cuidado que todo grupo pastoral debería seguir.",
+   "objective": "Aplicar reglas de cuidado en toda la comunicación del grupo: imagen de menores, datos personales, mensajería, comentarios y salud digital.",
+   "intro": "Comunicar bien es, antes que nada, **cuidar a las personas**. Una foto mal publicada, un dato expuesto o un mensaje privado inadecuado pueden hacer mucho daño. En esta sesión vas a revisar las reglas básicas que toda comunicación pastoral debe cumplir, a la luz de las orientaciones de la Iglesia en Chile y de la nueva ley de datos personales.",
+   "comenzar": "Piensa en una foto tuya que alguien publicó sin preguntarte. ¿Cómo te sentiste? Escríbelo en una línea.",
+   "logros": [
+    "Aplicar reglas para publicar imágenes de menores de edad.",
+    "Cuidar los datos personales según la ley chilena.",
+    "Establecer normas para mensajería y comentarios."
+   ],
    "sections": [
     {
-     "title": "Imagen de menores",
-     "body": "- **Autorización escrita** de los padres o apoderados para publicar fotos o videos de menores de edad. Conviene pedirla al inicio del año.\n- **Respetar a quien no quiere aparecer,** aunque tenga autorización.\n- **Sin nombres completos, etiquetas ni ubicación en tiempo real** de los menores.\n- **Evitar fotos** en las que se vea el uniforme del colegio o información que permita ubicarlos.\n- **Nunca** publicar fotos en traje de baño, en situaciones íntimas o que puedan avergonzar a alguien.\n- **Preferir fotos grupales** a primeros planos de un menor."
+     "title": "Imagen de niños, niñas y adolescentes",
+     "body": "- **Autorización escrita** de padres o apoderados para publicar imágenes de menores, renovada cada año y guardada por el grupo.\n- Respeta a quien **no quiere aparecer**, aunque tenga autorización.\n- Prefiere **fotos grupales**, de espaldas o de manos y actividades, antes que primeros planos de un menor.\n- **No etiquetes** a menores ni pongas su nombre completo, colegio o dirección.\n- **No publiques en tiempo real** la ubicación de una actividad con menores: publica después.\n- Nada de fotos en situaciones que puedan avergonzar: durmiendo, en traje de baño, llorando, cambiándose de ropa.\n- Revisa el **fondo** de la foto: patentes, direcciones, documentos, otras personas."
     },
     {
-     "title": "Datos personales",
-     "body": "- **No publicar** teléfonos, direcciones ni correos de los participantes.\n- **Formularios de inscripción:** pedir solo los datos necesarios y guardarlos de manera segura.\n- **Listas de contactos:** solo las manejan los responsables.\n- **Contraseñas** de las cuentas del grupo: compartidas solo con los responsables y cambiadas cuando alguien deja el equipo."
+     "title": "Datos personales y la ley 21.719",
+     "body": "La ley 21.719 moderniza la protección de datos personales en Chile y crea una Agencia que podrá fiscalizar y sancionar. Su entrada en vigencia está fijada para el **1 de diciembre de 2026**, aunque en el Congreso se tramita un proyecto para postergarla: revisa la fecha vigente.\n\nMás allá de la fecha, las buenas prácticas son las mismas:\n\n- Pide **solo los datos necesarios** (en una inscripción, no hace falta el RUT si no se usa).\n- Explica **para qué** se piden y **quién** los verá.\n- Los datos de salud de una ficha médica son **datos sensibles**: acceso restringido a quienes los necesitan.\n- Nunca publiques ni reenvíes listas con teléfonos, correos o direcciones.\n- **Borra** lo que ya no se necesita después de la actividad."
     },
     {
-     "title": "Grupos de mensajería",
-     "body": "- **Administradores adultos responsables** en los grupos con menores de edad.\n- **Normas claras** fijadas al comienzo: para qué es el grupo, horarios, respeto, nada de cadenas ni contenidos inapropiados.\n- **Horarios razonables:** sin mensajes de madrugada.\n- **Sin chats privados** entre dirigentes adultos y menores; la comunicación es grupal y transparente.\n- **Grupos separados** cuando conviene: uno para jóvenes con sus asesores y otro para apoderados."
+     "title": "Mensajería y redes: reglas para dirigentes",
+     "body": "Las orientaciones de la Iglesia en Chile para el servicio eclesial piden que la comunicación con menores sea **transparente y por canales institucionales**:\n\n- Nada de conversaciones **privadas** entre un adulto o dirigente mayor de edad y un menor; si un joven escribe por privado, se responde brevemente y se lleva la conversación a un canal del grupo o con otro adulto presente.\n- Los grupos con menores tienen **al menos dos adultos** administradores y normas escritas.\n- **Horarios razonables:** no se envían mensajes de madrugada.\n- No se agrega a nadie a un grupo **sin su permiso** (y el de su familia, si es menor).\n- Lo que se escribe en un grupo pastoral, se escribe como si lo leyeran los padres y el párroco."
     },
     {
-     "title": "Comentarios y conflictos",
-     "body": "- **Responder con respeto,** aunque el comentario sea agresivo.\n- **No discutir en público:** si hace falta, se conversa en privado o en persona.\n- **Eliminar** comentarios ofensivos, discriminatorios o que expongan a alguien, y explicar la norma.\n- **Si alguien publica algo que daña a otro,** se actúa rápido: se elimina, se conversa con las personas involucradas y se informa a los asesores.\n- **Si hay acoso o amenazas,** se guardan las pruebas y se avisa a los adultos responsables."
+     "title": "Comentarios, conflictos y salud digital",
+     "body": "Ante comentarios ofensivos o discusiones: **no respondas en caliente**; si hay que contestar, hazlo con calma, una sola vez, y lleva la conversación a privado o a un encuentro personal. Los comentarios con insultos, datos personales o acoso se ocultan o eliminan.\n\nY cuida también a quienes comunican: el equipo de redes **no tiene que estar disponible todo el día**. Definan horarios de respuesta, turnos y tiempos sin pantalla. Un grupo que habla de cuidado debe practicarlo con sus propios voluntarios."
     }
    ],
+   "caso": {
+    "titulo": "La foto del campamento",
+    "texto": "Durante un campamento, un dirigente sube en vivo a las historias del grupo una foto de los participantes en la piscina, con la ubicación del recinto. Una mamá escribe preocupada: su hija no tenía autorización de imagen y además la foto mostraba el lugar exacto donde estaban.",
+    "preguntas": [
+     "¿Qué reglas se rompieron?",
+     "¿Qué debe hacer el grupo ahora con la familia y con la publicación?"
+    ]
+   },
+   "claves": [
+    [
+     "Autorización de imagen",
+     "Permiso escrito de los padres o apoderados para publicar imágenes de un menor de edad."
+    ],
+    [
+     "Dato sensible",
+     "Dato personal que exige especial protección, como la información de salud."
+    ],
+    [
+     "Canal institucional",
+     "Medio de comunicación del grupo, transparente y con más de un adulto responsable."
+    ]
+   ],
    "bible": {
-    "ref": "Santiago 3,2-10 · El poder de la lengua",
-    "comment": "Santiago compara la lengua con el pequeño timón que dirige un barco grande, o con una chispa que incendia un bosque. Con ella bendecimos a Dios y maldecimos a las personas, hechas a su imagen. Hoy podríamos decir lo mismo de un mensaje o una publicación."
+    "ref": "Mateo 18,10 · No desprecien a ninguno de estos pequeños",
+    "comment": "Jesús pone a los pequeños en el centro y advierte que nadie los desprecie. Cuidar su imagen, sus datos y su intimidad en lo digital es una forma concreta de obedecer esta palabra."
+   },
+   "lectio": {
+    "meditar": "¿A quién de tu grupo podría dañar una publicación descuidada?",
+    "orar": "Pide por los niños, niñas y adolescentes que han sido dañados en el mundo digital.",
+    "vivir": "Esta semana, revisa las publicaciones del grupo y retira las que no cumplan las reglas de cuidado."
    },
    "church": [
     {
-     "source": "Christus vivit 88-90",
-     "text": "El ambiente digital puede ser lugar de acoso, manipulación y exposición, especialmente para los jóvenes.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Normas de conducta para quienes sirven en la Iglesia, incluidas las comunicaciones con niños, niñas y adolescentes, que deben ser transparentes y por canales institucionales."
     },
     {
-     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile, 2020)",
-     "text": "Incluye criterios para la comunicación digital y el uso de imágenes de menores en la pastoral.",
-     "url": "https://www.iglesia.cl/prevenirabusos/ise/"
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un lugar donde los jóvenes viven, se informan y se relacionan; ofrece grandes oportunidades y también riesgos de soledad, manipulación y violencia."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
     }
    ],
    "questions": [
-    "¿Tu grupo pide autorización para publicar fotos de menores?",
-    "¿Qué normas tiene hoy el grupo de mensajería de tu comunidad?",
-    "¿Has visto algún conflicto en redes que se manejó mal? ¿Cómo debió manejarse?",
-    "¿Qué te dice la imagen de la chispa que incendia un bosque?"
+    "¿Tiene tu grupo autorizaciones de imagen vigentes?",
+    "¿Qué datos personales piden y dónde se guardan?",
+    "¿Qué normas tiene el grupo de mensajería?",
+    "¿Cómo cuidan el descanso de quienes manejan las redes?"
    ],
-   "activity": "Redacten las normas del grupo de mensajería y el formulario de autorización para fotos de menores. Revísenlos con los asesores y preséntenlos a las familias.",
-   "prayer": "Señor, que nos diste la palabra para bendecir: que nuestros mensajes y publicaciones nunca hieran ni expongan a nadie. Danos prudencia para cuidar la imagen y la intimidad de cada persona, especialmente de los más pequeños. Amén.",
+   "activity": "Redacten tres documentos: la autorización de imagen para las familias, las normas del grupo de mensajería y el protocolo de comentarios. Revísenlos con los asesores antes de usarlos.",
+   "practica": [
+    "Redacten la autorización de imagen.",
+    "Redacten las normas de mensajería.",
+    "Definan el protocolo de comentarios.",
+    "Preséntenlos a asesores y familias."
+   ],
+   "prayer": "Señor Jesús, que abrazaste a los niños y defendiste a los pequeños: haznos custodios atentos de cada persona que se nos confía, también en el mundo digital. Que nunca nuestra comunicación exponga ni dañe a nadie. Amén.",
+   "idea": "Comunicar bien es cuidar a cada persona.",
+   "profundizar": {
+    "titulo": "Retirar y reparar",
+    "texto": "Si se publicó algo que no debía, se **retira de inmediato**, se avisa a la persona o familia afectada, se pide perdón y se revisa qué falló para que no se repita. Si la situación involucra un posible abuso o un riesgo para un menor, se informa al párroco y se siguen los protocolos de la diócesis."
+   },
    "resources": [
     {
      "title": "Integridad en el Servicio Eclesial",
-     "url": "https://www.iglesia.cl/prevenirabusos/ise/",
-     "note": "Orientaciones de buen trato y prevención."
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "note": "Orientaciones de la Conferencia Episcopal de Chile."
+    },
+    {
+     "title": "Ley 21.719 en la Biblioteca del Congreso Nacional",
+     "url": "https://www.bcn.cl/balance-legislativo/detalle/ficha_LEY_21719_2024-12-13",
+     "note": "Resumen y estado de la ley de protección de datos personales."
     }
-   ],
-   "comenzar": "Busca tu nombre en internet y revisa qué información tuya aparece. ¿Te sorprende algo? ¿Hay algo que preferirías que no estuviera?",
-   "logros": [
-    "Publicar imágenes de menores solo con autorización y cuidado.",
-    "Proteger los datos personales.",
-    "Administrar grupos de mensajería y manejar comentarios y conflictos."
-   ],
-   "profundizar": {
-    "titulo": "Modelo de normas para un grupo de mensajería",
-    "texto": "1. Este grupo es para informar sobre las actividades y compartir la vida del grupo.\n2. Escribimos entre las 9:00 y las 22:00.\n3. Nos tratamos con respeto: sin burlas, insultos ni discriminación.\n4. No compartimos cadenas, noticias sin verificar ni contenidos inapropiados.\n5. No compartimos fotos de otros sin su permiso.\n6. Los administradores pueden eliminar mensajes que no cumplan estas normas.\n7. Si algo te incomoda, escríbele a un administrador o a un asesor."
-   },
-   "caso": {
-    "titulo": "La foto del campamento",
-    "texto": "Después del campamento, un dirigente publica en su cuenta personal un álbum con cincuenta fotos, varias de niños en la piscina, etiquetados con su nombre y con la ubicación del lugar.",
-    "preguntas": [
-     "¿Qué reglas de cuidado no se cumplieron?",
-     "¿Qué debería hacerse ahora?"
-    ]
-   },
-   "claves": [
-    [
-     "Autorización de imagen",
-     "Permiso escrito de los padres para publicar fotos o videos de un menor."
-    ],
-    [
-     "Datos personales",
-     "Información que permite identificar o ubicar a una persona."
-    ],
-    [
-     "Administrador",
-     "Persona responsable de las normas y el cuidado de un grupo o cuenta."
-    ]
-   ],
-   "lectio": {
-    "meditar": "Con la misma lengua bendecimos y maldecimos. ¿Qué uso le das a tus palabras en lo digital?",
-    "orar": "Pide perdón por algún mensaje que haya herido a alguien.",
-    "vivir": "Revisa la configuración de privacidad de tus redes sociales."
-   },
-   "practica": [
-    "Redacten las normas del grupo de mensajería.",
-    "Redacten el formulario de autorización de imagen.",
-    "Revísenlos con los asesores.",
-    "Preséntenlos a las familias."
-   ],
-   "idea": "Comunicar bien es cuidar a cada persona."
-  },
-  {
-   "title": "Contar un evento",
-   "objective": "Planificar y realizar la cobertura comunicacional de una actividad: antes, durante y después, cuidando a las personas.",
-   "intro": "Una jornada, una misión o una fiesta patronal son oportunidades para contar lo que vive la comunidad. Pero una buena cobertura no se improvisa. En esta unidad vas a aprender a organizar un equipo de comunicación para un evento.",
-   "sections": [
-    {
-     "title": "Antes: planificar",
-     "body": "- **Definir qué se quiere contar:** ¿qué es lo más importante de este evento?\n- **Elegir los canales:** historias, publicaciones, mensaje a las familias, nota en el boletín parroquial.\n- **Repartir roles:** quién toma fotos, quién graba, quién escribe, quién publica.\n- **Revisar autorizaciones de imagen,** sobre todo de menores de edad.\n- **Anunciar el evento** con la información clave: qué, cuándo, dónde, para quién."
-    },
-    {
-     "title": "Durante: registrar",
-     "body": "- **Fotos de momentos, no solo de poses:** manos trabajando, rostros atentos, el lugar.\n- **Videos breves** de 10 a 20 segundos.\n- **Frases de los participantes,** con su permiso.\n- **Respetar los momentos sagrados:** no fotografiar con flash durante la consagración ni interrumpir la oración.\n- **No publicar en tiempo real** lo que no se ha revisado."
-    },
-    {
-     "title": "Después: contar",
-     "body": "- **Elegir pocas imágenes buenas** en vez de muchas regulares.\n- **Escribir un texto breve** que cuente qué se vivió y por qué importa.\n- **Agradecer** a quienes hicieron posible el evento.\n- **Publicar dentro de las 48 horas,** mientras el evento está fresco.\n- **Guardar el material ordenado** para el archivo del grupo."
-    },
-    {
-     "title": "Cuidar a las personas",
-     "body": "- **No publicar imágenes de menores** sin autorización escrita de sus padres o tutores.\n- **Evitar fotos** que puedan avergonzar a alguien.\n- **No etiquetar** a menores ni mostrar datos que permitan ubicarlos.\n- **Retirar de inmediato** una imagen si alguien lo pide.\n- **Pensar antes de publicar:** ¿le gustaría a esta persona verse así?"
-    }
-   ],
-   "bible": {
-    "ref": "Lucas 1,1-4 · Escribir todo ordenadamente",
-    "comment": "Lucas dice que investigó todo cuidadosamente desde el principio para escribirlo ordenadamente, para que Teófilo conozca la solidez de lo que le enseñaron. Contar bien lo que vive la comunidad, con verdad y orden, es una forma de evangelizar."
-   },
-   "church": [
-    {
-     "source": "Inter mirifica (Concilio Vaticano II, 1963)",
-     "text": "Los medios de comunicación pueden servir al anuncio del Evangelio cuando se usan con verdad, respeto a las personas y sentido del bien común.",
-     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html"
-    },
-    {
-     "source": "Christus vivit 87",
-     "text": "El ambiente digital es un lugar de encuentro y comunicación, pero también de riesgos que exigen cuidar a las personas.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
-    }
-   ],
-   "questions": [
-    "¿Qué evento reciente de tu grupo valdría la pena contar?",
-    "¿Qué fotos de actividades pasadas te parecen buenas? ¿Por qué?",
-    "¿Tu grupo pide autorización para publicar imágenes de menores?",
-    "¿Qué momentos de una celebración no deberían fotografiarse?"
-   ],
-   "activity": "Planifiquen la cobertura del próximo evento del grupo: objetivo, canales, roles, autorizaciones y una pauta de fotos. Después del evento, publiquen y evalúen juntos el resultado.",
-   "prayer": "Señor, que inspiraste a Lucas a contar con cuidado tu historia: ayúdanos a contar con verdad y alegría lo que vive nuestra comunidad. Que nuestras imágenes y palabras cuiden siempre la dignidad de cada persona. Amén.",
-   "resources": [
-    {
-     "title": "Inter mirifica",
-     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html",
-     "note": "Decreto del Concilio sobre los medios de comunicación."
-    }
-   ],
-   "comenzar": "Busca en tus redes la publicación de un evento parroquial o juvenil que te haya gustado. ¿Qué la hace buena?",
-   "logros": [
-    "Planificar la cobertura de un evento.",
-    "Registrar y publicar con calidad.",
-    "Cuidar la imagen y los datos de las personas."
-   ],
-   "profundizar": {
-    "titulo": "La pauta de fotos",
-    "texto": "Una lista de las fotos que no pueden faltar ayuda a no olvidar nada: el lugar y el ambiente, la acogida, un momento de oración, el trabajo en grupos, la foto grupal final, los organizadores, un detalle simbólico."
-   },
-   "caso": {
-    "titulo": "La foto viral",
-    "texto": "Durante una jornada, un joven sube una historia con un video gracioso de un niño de 9 años que se cae. El video se comparte mucho. La mamá del niño escribe molesta a la parroquia.",
-    "preguntas": [
-     "¿Qué falló?",
-     "¿Qué hay que hacer ahora?"
-    ]
-   },
-   "claves": [
-    [
-     "Cobertura",
-     "Registro y difusión de un evento."
-    ],
-    [
-     "Autorización de imagen",
-     "Permiso para publicar la imagen de una persona."
-    ],
-    [
-     "Pauta",
-     "Lista planificada de lo que se registrará."
-    ]
-   ],
-   "lectio": {
-    "meditar": "Escribir ordenadamente. ¿Qué historia de tu comunidad merece ser contada?",
-    "orar": "Reza por quienes comunican en la Iglesia.",
-    "vivir": "Revisa tus publicaciones antiguas y retira alguna que pueda incomodar a otros."
-   },
-   "practica": [
-    "Definan el objetivo.",
-    "Repartan roles.",
-    "Revisen autorizaciones.",
-    "Publiquen y evalúen."
-   ],
-   "idea": "Contar bien lo que vivimos también es anunciar."
-  },
-  {
-   "title": "Un plan de comunicación",
-   "objective": "Diseñar un plan de comunicación sencillo para el grupo, con objetivos, públicos, canales, calendario y responsables.",
-   "intro": "Muchos grupos comunican de forma improvisada: publican cuando se acuerdan y nadie sabe quién se encarga. Un plan sencillo ordena el trabajo, reparte las tareas y mejora los resultados. En esta unidad vas a armar el plan de comunicación de tu grupo.",
-   "sections": [
-    {
-     "title": "Objetivos y públicos",
-     "body": "- **Objetivos:** ¿qué queremos lograr? Por ejemplo, que más jóvenes del barrio conozcan el grupo, que las familias estén informadas o que los participantes se sientan parte.\n- **Públicos:** ¿a quiénes queremos llegar? Jóvenes del grupo, jóvenes que no vienen, familias, la parroquia.\n\nCada público necesita un mensaje y un canal distinto."
-    },
-    {
-     "title": "Canales",
-     "body": "- **Mensajería:** para informar a quienes ya participan y a las familias.\n- **Redes sociales:** para mostrar la vida del grupo e invitar a otros.\n- **Afiches impresos:** en la parroquia, el colegio o el barrio.\n- **Avisos en la misa:** breves y claros.\n- **Boca a boca:** sigue siendo el canal más efectivo. Una invitación personal vale más que cien publicaciones.\n\nNo hace falta estar en todas partes: mejor pocos canales bien cuidados."
-    },
-    {
-     "title": "Calendario y roles",
-     "body": "- **Calendario mensual:** qué se publica, en qué canal y qué día. Incluye los tiempos litúrgicos, las actividades del grupo y fechas especiales.\n- **Roles:** quién escribe, quién diseña, quién saca fotos, quién revisa y quién publica.\n- **Revisión:** antes de publicar, otra persona revisa ortografía, datos y cuidado de las personas.\n- **Aprobación:** los contenidos sensibles se consultan con los asesores."
-    },
-    {
-     "title": "Evaluar y corregir",
-     "body": "- **Cada cierto tiempo** revisen qué publicaciones funcionaron mejor y cuáles no.\n- **Los números no lo son todo:** lo importante es si se cumplieron los objetivos (si vino más gente, si las familias se enteraron).\n- **Si se publica algo con un error,** se corrige rápido y con transparencia.\n- **Si algo genera daño o conflicto,** se elimina, se pide disculpas si corresponde y se informa a los asesores."
-    }
-   ],
-   "bible": {
-    "ref": "Hechos 2,42-47 · Una comunidad que atrae",
-    "comment": "La primera comunidad cristiana perseveraba en la enseñanza de los apóstoles, la fracción del pan y la oración, compartía sus bienes y vivía con alegría. Y cada día el Señor agregaba nuevos miembros. La mejor comunicación de un grupo es una vida comunitaria auténtica: lo demás ayuda a mostrarla."
-   },
-   "church": [
-    {
-     "source": "Evangelii gaudium 14-15",
-     "text": "La Iglesia no crece por proselitismo sino por atracción: por el testimonio de una comunidad que vive la alegría del Evangelio.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
-    },
-    {
-     "source": "Christus vivit 87",
-     "text": "La presencia en el ambiente digital es una oportunidad para el encuentro y el anuncio, si se vive con criterio.",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
-    }
-   ],
-   "questions": [
-    "¿Qué objetivo de comunicación es más urgente para tu grupo?",
-    "¿Qué públicos están desatendidos?",
-    "¿Qué canal funciona mejor en tu comunidad?",
-    "¿Qué te dice que la primera comunidad atrajera por su manera de vivir?"
-   ],
-   "activity": "Armen el plan de comunicación del grupo en una página: objetivos, públicos, canales, calendario del próximo mes y responsables. Preséntenlo a los asesores y pónganlo en marcha.",
-   "prayer": "Señor, que agregabas cada día nuevos miembros a la primera comunidad: haz que nuestro grupo viva de tal manera que otros quieran conocerte. Bendice nuestro plan de comunicación y a quienes lo llevarán adelante. Que todo lo que mostremos sea verdadero. Amén.",
-   "resources": [
-    {
-     "title": "Evangelii gaudium (Francisco, 2013)",
-     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
-     "note": "Números 14-15: la Iglesia crece por atracción."
-    }
-   ],
-   "comenzar": "Piensa cómo llegaste tú a tu grupo. ¿Te invitó alguien? ¿Viste una publicación? ¿Fue por la parroquia o el colegio? Pregunta lo mismo a tres compañeros.",
-   "logros": [
-    "Definir objetivos y públicos de comunicación.",
-    "Elegir canales adecuados.",
-    "Armar un calendario con roles y evaluar los resultados."
-   ],
-   "profundizar": {
-    "titulo": "Un mes de ejemplo",
-    "texto": "- **Semana 1:** frase del Evangelio del domingo (redes), aviso del encuentro (mensajería).\n- **Semana 2:** fotos del encuentro anterior con autorización (redes), invitación a la actividad solidaria (afiche y mensajería).\n- **Semana 3:** testimonio breve de un joven (video corto), recordatorio de la actividad (mensajería).\n- **Semana 4:** fotos de la actividad solidaria (redes), aviso del próximo mes (mensajería y misa).\n\nCuatro publicaciones bien hechas al mes pueden ser suficientes."
-   },
-   "caso": {
-    "titulo": "La cuenta abandonada",
-    "texto": "El grupo creó una cuenta en redes con mucho entusiasmo. Publicaron todos los días durante un mes y después nadie más se hizo cargo. La última publicación tiene ocho meses.",
-    "preguntas": [
-     "¿Qué les faltó?",
-     "¿Cómo evitarían que vuelva a pasar?"
-    ]
-   },
-   "claves": [
-    [
-     "Plan de comunicación",
-     "Documento que ordena objetivos, públicos, canales, calendario y responsables."
-    ],
-    [
-     "Público",
-     "Grupo de personas al que se quiere llegar con un mensaje."
-    ],
-    [
-     "Calendario editorial",
-     "Planificación de qué se publica, dónde y cuándo."
-    ]
-   ],
-   "lectio": {
-    "meditar": "La comunidad atraía por su manera de vivir. ¿Qué mostraría de tu grupo una cámara que lo siguiera un mes entero?",
-    "orar": "Reza por los jóvenes que todavía no conocen tu grupo.",
-    "vivir": "Invita personalmente a un amigo a la próxima actividad."
-   },
-   "practica": [
-    "Definan objetivos y públicos.",
-    "Elijan los canales.",
-    "Armen el calendario del próximo mes.",
-    "Asignen responsables y preséntenlo a los asesores."
-   ],
-   "idea": "La mejor comunicación es una comunidad que vive lo que anuncia."
+   ]
   }
  ],
  "evaluacion": [
   {
-   "q": "¿Cómo describe el papa el ambiente digital?",
+   "q": "¿Qué propone el documento vaticano «Hacia una plena presencia»?",
    "options": [
-    "Como una simple herramienta.",
-    "Como un lugar donde viven los jóvenes, con oportunidades y riesgos.",
-    "Como algo que la Iglesia debe evitar."
+    "Abandonar las redes sociales.",
+    "Ser prójimos en lo digital, reflexivos y no reactivos.",
+    "Conseguir la mayor cantidad posible de seguidores."
    ],
    "correct": 1,
-   "feedback": "Christus vivit 86-90."
+   "feedback": "Se inspira en el buen samaritano y pide una presencia atenta a las personas."
   },
   {
-   "q": "¿Cuáles son los tres filtros antes de publicar?",
+   "q": "¿Qué advierte el papa León XIV sobre los algoritmos en su mensaje de 2026?",
    "options": [
-    "¿Es largo? ¿Es bonito? ¿Es nuevo?",
-    "¿Es verdad? ¿Es bueno? ¿Es útil?",
-    "¿Tendrá muchos «me gusta»? ¿Es divertido? ¿Es rápido?"
+    "Que son neutrales.",
+    "Que premian las emociones rápidas y castigan la reflexión.",
+    "Que solo afectan a los adultos."
    ],
    "correct": 1,
-   "feedback": "Si no pasa los tres, mejor no publicarlo."
+   "feedback": "Por eso pide no renunciar al propio pensamiento."
   },
   {
-   "q": "¿Qué va primero en un aviso?",
+   "q": "Si la cuenta de un grupo solo publica invitaciones, ¿qué le falta?",
    "options": [
-    "Una reflexión larga.",
-    "Lo más importante: qué, cuándo y dónde.",
-    "Muchos emojis."
+    "Más invitaciones.",
+    "Equilibrar con otros propósitos: anunciar, formar, hacer comunidad y servir.",
+    "Publicar a medianoche."
    ],
    "correct": 1,
-   "feedback": "Lo importante primero, con frases cortas."
+   "feedback": "La convocatoria no debería superar un tercio de lo publicado."
   },
   {
-   "q": "¿Cuál es un buen principio de diseño?",
+   "q": "¿Qué herramienta de WhatsApp conviene para avisos a muchas personas cuidando su privacidad?",
    "options": [
-    "Usar muchas tipografías y colores.",
-    "Jerarquía, contraste, pocos colores y espacio en blanco.",
-    "Llenar todo el espacio."
+    "Un grupo abierto donde todos escriben.",
+    "Un canal o el grupo de avisos de una comunidad.",
+    "Mensajes privados uno a uno desde el teléfono de un dirigente."
    ],
    "correct": 1,
-   "feedback": "Menos es más."
+   "feedback": "En los canales los seguidores no ven a los demás."
   },
   {
-   "q": "¿Qué se necesita para publicar fotos de menores de edad?",
+   "q": "¿Por qué conviene una cuenta profesional en Instagram o TikTok?",
    "options": [
-    "Nada, si son fotos grupales.",
-    "Autorización escrita de sus padres o apoderados.",
-    "Que el menor diga que sí por mensaje."
+    "Porque es de pago y da más alcance.",
+    "Porque es gratis y permite ver estadísticas y programar publicaciones.",
+    "Porque elimina los comentarios."
    ],
    "correct": 1,
-   "feedback": "Y se respeta a quien no quiere aparecer."
+   "feedback": "Las cuentas personales no pueden programar ni conectarse a la mayoría de las herramientas."
   },
   {
-   "q": "¿Qué información de los menores NO se publica?",
+   "q": "¿Qué proporción usan las historias, los reels, TikTok y los Shorts?",
    "options": [
-    "El nombre del grupo.",
-    "Nombres completos, etiquetas y ubicación en tiempo real.",
-    "La fecha de la actividad."
+    "16:9",
+    "1:1",
+    "9:16"
    ],
-   "correct": 1,
-   "feedback": "Permitiría identificarlos o ubicarlos."
+   "correct": 2,
+   "feedback": "Vertical, 1080 × 1920 píxeles."
   },
   {
-   "q": "¿Cómo deben ser los grupos de mensajería con menores?",
+   "q": "¿Qué formato es más adecuado para enseñar algo paso a paso?",
    "options": [
-    "Sin administradores para que sean más libres.",
-    "Con administradores adultos, normas claras y horarios razonables.",
-    "Con chats privados entre dirigentes y cada joven."
+    "El carrusel.",
+    "Una historia sin texto.",
+    "Un audio de una hora."
    ],
-   "correct": 1,
-   "feedback": "La comunicación es grupal y transparente."
+   "correct": 0,
+   "feedback": "Es además el formato que más se guarda y se comparte."
   },
   {
-   "q": "Según Evangelii gaudium, ¿cómo crece la Iglesia?",
+   "q": "¿Cuántas tipografías se recomiendan en una identidad visual?",
    "options": [
-    "Por proselitismo.",
-    "Por atracción, por el testimonio de una comunidad que vive la alegría del Evangelio.",
-    "Por publicidad."
+    "Una por cada afiche.",
+    "Dos: una para títulos y otra para textos.",
+    "Al menos cinco."
    ],
    "correct": 1,
-   "feedback": "La mejor comunicación es una vida comunitaria auténtica."
+   "feedback": "Más de dos produce desorden."
   },
   {
-   "q": "¿Qué se necesita para publicar fotos de menores de edad?",
+   "q": "¿Qué se necesita para publicar la imagen de un menor de edad?",
    "options": [
-    "Nada, si es una actividad de la Iglesia",
-    "Autorización escrita de sus padres o tutores",
-    "Que el menor esté de acuerdo"
+    "Que el menor diga que sí.",
+    "Autorización escrita de sus padres o apoderados, y respetar si no quiere aparecer.",
+    "Nada, si la foto es bonita."
    ],
    "correct": 1,
-   "feedback": "La autorización de los padres o tutores es indispensable."
+   "feedback": "Además, sin etiquetas ni ubicación en tiempo real."
   },
   {
-   "q": "¿Qué conviene al publicar después de un evento?",
+   "q": "¿Qué hacer si un joven menor de edad escribe por privado a un dirigente adulto?",
    "options": [
-    "Subir todas las fotos",
-    "Elegir pocas imágenes buenas y un texto breve",
-    "Esperar un mes"
+    "Conversar largamente por privado.",
+    "Responder brevemente y llevar la conversación a un canal institucional o con otro adulto presente.",
+    "Bloquearlo."
    ],
    "correct": 1,
-   "feedback": "Menos y mejor comunica más."
+   "feedback": "La comunicación con menores debe ser transparente y por canales institucionales."
   }
- ]
+ ],
+ "taller": "Proyecto final del nivel 1: el diagnóstico y la base de la comunicación del grupo. Cada equipo entrega: el inventario de cuentas con sus administradores y decisiones; los cinco pilares con quince ideas de publicación y su formato; el manual de identidad de una página; y los tres documentos de cuidado (autorización de imagen, normas de mensajería y protocolo de comentarios). La presentación dura diez minutos ante los asesores y termina con una decisión concreta para el próximo mes."
 }

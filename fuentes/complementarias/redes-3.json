@@ -1,0 +1,634 @@
+{
+ "id": "redes-3",
+ "titulo": "Comunicación y redes · Nivel 3: gestionar la comunicación",
+ "subtitulo": "Community manager, calendario editorial, programación, moderación, crisis y métricas",
+ "categoria": "Herramientas",
+ "publico": "Desde 14 años",
+ "descripcion": "El nivel de gestión: organizar el equipo y las cuentas, planificar con un calendario editorial basado en el año litúrgico, programar y automatizar con criterio, moderar la comunidad y responder a crisis, y medir para tomar decisiones pastorales.",
+ "modulo": "Comunicación y redes · Nivel 3: gestionar la comunicación",
+ "intro": "Con los niveles 1 y 2 aprobados. Para quienes coordinan la comunicación de su grupo o parroquia.",
+ "unidades": [
+  {
+   "title": "El community manager pastoral",
+   "objective": "Comprender el rol de quien gestiona la comunidad digital de un grupo y organizar un equipo de comunicación con cuentas institucionales seguras.",
+   "intro": "En los niveles anteriores aprendiste a entender el ecosistema y a producir contenidos. Ahora toca **gestionar**: organizar un equipo, planificar, programar, cuidar la conversación y medir. El primer paso es entender el rol del *community manager*: no es quien hace todo, sino quien cuida que la comunidad digital del grupo esté viva, ordenada y bien atendida.",
+   "comenzar": "Escribe quiénes hacen hoy cada tarea de comunicación de tu grupo: diseñar, publicar, responder mensajes, sacar fotos. ¿Recae todo en una o dos personas?",
+   "logros": [
+    "Describir las tareas de un community manager pastoral.",
+    "Organizar un equipo de comunicación con roles y turnos.",
+    "Administrar cuentas institucionales con accesos por persona y sin compartir contraseñas."
+   ],
+   "sections": [
+    {
+     "title": "Qué hace un community manager",
+     "body": "El *community manager* (gestor de comunidad) es la persona que **cuida la comunidad digital** del grupo. Sus tareas:\n\n- **Escuchar:** leer comentarios y mensajes, percibir qué inquieta a los jóvenes.\n- **Conversar:** responder con el tono del grupo, a tiempo y con criterio.\n- **Publicar:** según el calendario editorial, no según la inspiración del momento.\n- **Moderar:** aplicar las normas de la comunidad.\n- **Coordinar:** con el equipo de contenidos, con los dirigentes y con la parroquia.\n- **Medir y aprender:** revisar qué funciona y proponer mejoras.\n\nEn pastoral, además, es un **puente**: lo que escucha en redes (una pregunta, un dolor, un joven que pide ayuda) se lleva a quien corresponde, porque la red no reemplaza el acompañamiento personal."
+    },
+    {
+     "title": "Un equipo, no un héroe",
+     "body": "Ninguna comunicación pastoral sostenible depende de una sola persona. Un equipo básico:\n\n| Rol | Tarea | Tiempo semanal aproximado |\n|---|---|---|\n| Coordinación | Calendario, revisión final, enlace con asesores y párroco | 2 horas |\n| Community manager | Publicar, responder, moderar | 3 horas, repartidas en turnos |\n| Contenidos | Textos, diseños y videos | 3 horas |\n| Fotografía y cobertura | Registro de actividades | Según actividades |\n| Asesor adulto | Acompañar, revisar temas sensibles, cuidar a menores | 1 hora |\n\nDefinan **turnos de respuesta** (por ejemplo, de lunes a viernes, de 9:00 a 21:00) y respuestas tipo para las preguntas frecuentes. El equipo también tiene derecho a descansar."
+    },
+    {
+     "title": "Cuentas institucionales y accesos",
+     "body": "- La cuenta pertenece a la **pastoral**, no a una persona. Su correo de registro debe ser institucional o de la coordinación, y el teléfono de recuperación, de un adulto responsable.\n- **Verificación en dos pasos** activada en todas las cuentas.\n- **No se comparte la contraseña:** se dan accesos por persona. En Facebook e Instagram, el **portafolio comercial de Meta** (Meta Business Suite) permite agregar personas con acceso total o parcial a la página y a la cuenta de Instagram, y quitarlo cuando dejan el servicio. TikTok, YouTube y otras plataformas tienen opciones parecidas o herramientas de gestión que lo permiten.\n- Lleva un **registro de accesos**: quién tiene acceso a qué y desde cuándo.\n- Al terminar un servicio, se **retiran los accesos** y se cambia la contraseña de las cuentas compartidas que no admitan accesos por persona."
+    },
+    {
+     "title": "Límites del community manager",
+     "body": "- No responde temas de **doctrina, moral o situaciones personales graves** por comentarios: agradece, acoge y deriva a una conversación con el asesor o el sacerdote.\n- Ante un **pedido de ayuda** (riesgo de autolesión, abuso, violencia), no improvisa: sigue el protocolo del grupo y avisa de inmediato a un adulto responsable.\n- No mantiene conversaciones privadas con menores de edad (normas de Integridad en el Servicio Eclesial).\n- No habla en nombre de la parroquia o la diócesis sobre temas que no le corresponden."
+    }
+   ],
+   "caso": {
+    "titulo": "La única que sabía",
+    "texto": "Durante tres años, Catalina manejó todas las redes de la pastoral desde su teléfono. Se fue a estudiar a otra ciudad y dejó de responder. Nadie más tenía la contraseña ni sabía el correo de recuperación. Las cuentas quedaron congeladas y los jóvenes siguieron escribiendo sin respuesta.",
+    "preguntas": [
+     "¿Qué tendría que haber existido desde el principio?",
+     "¿Qué pasos darían hoy para recuperar y ordenar las cuentas?"
+    ]
+   },
+   "claves": [
+    [
+     "Community manager",
+     "Persona que cuida la comunidad digital de una organización: escucha, conversa, publica, modera y mide."
+    ],
+    [
+     "Portafolio comercial de Meta",
+     "Espacio de Meta Business Suite para administrar páginas de Facebook y cuentas de Instagram con accesos por persona."
+    ],
+    [
+     "Registro de accesos",
+     "Lista de quiénes tienen acceso a cada cuenta, con qué permisos y desde cuándo."
+    ]
+   ],
+   "bible": {
+    "ref": "Éxodo 18,13-23 · El consejo de Jetró",
+    "comment": "Moisés atendía solo a todo el pueblo, de la mañana a la noche. Jetró le dice: «No está bien lo que haces; te agotarás tú y el pueblo». Le aconseja elegir colaboradores y repartir las tareas. La comunicación de una comunidad también se sostiene en equipo."
+   },
+   "lectio": {
+    "meditar": "¿Qué tarea de comunicación cargas solo y deberías compartir?",
+    "orar": "Pide por quienes sostienen la comunicación de tu comunidad, para que no se agoten.",
+    "vivir": "Esta semana, invita a una persona nueva a sumarse al equipo de comunicación."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Normas de conducta para quienes sirven en la Iglesia, incluidas las comunicaciones con niños, niñas y adolescentes, que deben ser transparentes y por canales institucionales."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    }
+   ],
+   "questions": [
+    "¿Quién cumple hoy el rol de community manager en tu grupo?",
+    "¿Qué roles faltan en su equipo?",
+    "¿Quién tiene acceso a las cuentas y cómo lo tiene?",
+    "¿Qué temas no deberían responderse por comentarios?"
+   ],
+   "activity": "Diseñen el equipo de comunicación del grupo: roles, personas, tiempo semanal y turnos de respuesta. Completen el registro de accesos de todas las cuentas y definan un plan para dejar cada cuenta con al menos dos administradores.",
+   "practica": [
+    "Definan roles y personas.",
+    "Establezcan turnos de respuesta.",
+    "Completen el registro de accesos.",
+    "Preparen las respuestas tipo."
+   ],
+   "prayer": "Señor, que formaste una comunidad de discípulos y les repartiste la misión: haz de nuestro equipo de comunicación una pequeña comunidad que escucha, sirve y se cuida, para que nadie cargue solo con lo que es de todos. Amén.",
+   "idea": "La comunicación de una comunidad es tarea de un equipo, no de un héroe.",
+   "profundizar": {
+    "titulo": "Respuestas tipo",
+    "texto": "Preparen un documento con respuestas para las preguntas más frecuentes: horarios, cómo inscribirse, edad para participar, costo de un retiro, cómo hablar con un sacerdote. Cada respuesta se personaliza con el nombre de quien pregunta, pero ya tiene el dato correcto y el tono del grupo. Ahorra tiempo y evita errores."
+   },
+   "resources": [
+    {
+     "title": "Meta Business Suite",
+     "url": "https://www.facebook.com/business/tools/meta-business-suite",
+     "note": "Herramienta gratuita de Meta para administrar Facebook e Instagram con accesos por persona."
+    }
+   ]
+  },
+  {
+   "title": "Estrategia y calendario editorial",
+   "objective": "Elaborar un plan de comunicación simple y un calendario editorial mensual basado en objetivos, públicos, pilares y el año litúrgico.",
+   "intro": "Publicar «cuando se puede» agota al equipo y desorienta a la comunidad. Un **calendario editorial** permite pensar con calma, repartir tareas y publicar con constancia. En esta sesión vas a construir el plan de comunicación de tu grupo y el calendario del próximo mes en una hoja de cálculo.",
+   "comenzar": "Mira el calendario del próximo mes: ¿qué fechas litúrgicas, parroquiales y del grupo vienen? Anota todas las que se te ocurran.",
+   "logros": [
+    "Formular objetivos y públicos de comunicación.",
+    "Construir un calendario editorial mensual con el año litúrgico como columna vertebral.",
+    "Organizar un flujo de producción y aprobación."
+   ],
+   "sections": [
+    {
+     "title": "El plan en una página",
+     "body": "Un plan de comunicación cabe en una página:\n\n1. **Objetivos** (dos o tres, concretos): por ejemplo, «que cada actividad tenga al menos 15 jóvenes nuevos inscritos por redes» o «publicar un contenido de formación cada semana».\n2. **Públicos:** jóvenes del grupo, jóvenes que no vienen, familias, comunidad parroquial. Cada uno tiene canales y mensajes distintos.\n3. **Pilares** (del nivel 1) y su proporción.\n4. **Canales** elegidos y su función.\n5. **Frecuencia realista:** mejor tres publicaciones por semana sostenidas todo el año que una semana de diez publicaciones y un mes en silencio. La constancia importa más que el volumen.\n6. **Equipo y responsables.**\n7. **Cómo se evaluará** (sesión 5)."
+    },
+    {
+     "title": "El año litúrgico como columna vertebral",
+     "body": "La Iglesia ya tiene un calendario: úsenlo como base.\n\n| Tiempo o fecha | Ideas de contenido |\n|---|---|\n| Adviento | Una vela por semana, preparación personal, campaña solidaria |\n| Navidad | Saludos, testimonios de servicio, misa de Nochebuena |\n| Cuaresma | Serie semanal sobre oración, ayuno y limosna; vía crucis juvenil |\n| Semana Santa y Pascua | Programa de celebraciones, alegría pascual durante cincuenta días |\n| Pentecostés | Dones del Espíritu, confirmación |\n| Mes de María (en Chile, del 8 de noviembre al 8 de diciembre) | Una oración diaria breve, rosario juvenil |\n| Fiesta patronal y aniversarios | Historia de la parroquia y del grupo |\n\nA esto se suman las fechas del grupo (inicio de año, retiros, misiones, cierre) y las de la diócesis."
+    },
+    {
+     "title": "La planilla del calendario",
+     "body": "Un calendario editorial funciona muy bien en una hoja de cálculo compartida con estas columnas:\n\n| Fecha | Red | Formato | Pilar | Tema | Texto | Recurso | Responsable | Estado |\n|---|---|---|---|---|---|---|---|---|\n\nLa columna **Estado** usa una lista desplegable: *idea, en producción, en revisión, programado, publicado*. Así todo el equipo sabe en qué va cada pieza.\n\nAgreguen una pestaña **Banco de ideas** donde cualquiera anota propuestas, y otra con las **fechas fijas** del año."
+    },
+    {
+     "title": "Flujo de producción y aprobación",
+     "body": "1. **Planificación mensual** (una reunión de 45 minutos a fin de mes): se llena el calendario del mes siguiente.\n2. **Producción** (semana a semana): cada responsable prepara su pieza con al menos **tres días** de anticipación.\n3. **Revisión:** otra persona revisa ortografía, datos, identidad y cuidado de las personas; los temas sensibles los revisa el asesor.\n4. **Programación** (sesión 3).\n5. **Publicación y respuesta** a comentarios.\n\nDejen siempre **espacio para lo imprevisto**: una noticia de la Iglesia, un duelo en la comunidad, una actividad que cambia de fecha."
+    }
+   ],
+   "caso": {
+    "titulo": "Todo a última hora",
+    "texto": "En un grupo, las invitaciones se diseñan la noche anterior, nadie revisa y dos veces se publicó la hora equivocada. En diciembre no publicaron nada para el Adviento porque «nadie se acordó». El equipo está cansado y siente que comunicar es una carga.",
+    "preguntas": [
+     "¿Qué cambiaría si tuvieran un calendario editorial?",
+     "¿Qué tres fechas del próximo mes deberían estar ya planificadas?"
+    ]
+   },
+   "claves": [
+    [
+     "Calendario editorial",
+     "Planificación de qué se publica, cuándo, dónde, en qué formato y quién es responsable."
+    ],
+    [
+     "Estado",
+     "Etapa en que está una pieza: idea, en producción, en revisión, programado o publicado."
+    ],
+    [
+     "Banco de ideas",
+     "Lista abierta de propuestas de contenido para usar en futuros calendarios."
+    ]
+   ],
+   "bible": {
+    "ref": "Eclesiastés 3,1 · Cada cosa a su tiempo",
+    "comment": "«Todo tiene su momento, y cada cosa su tiempo bajo el cielo». Planificar no es quitarle espacio al Espíritu: es prepararse para que cada mensaje llegue en su momento oportuno."
+   },
+   "lectio": {
+    "meditar": "¿Qué mensaje necesita tu comunidad en este tiempo litúrgico?",
+    "orar": "Pide la sabiduría de vivir cada tiempo de la Iglesia con profundidad.",
+    "vivir": "Esta semana, anota en el calendario las fechas litúrgicas y del grupo del próximo mes."
+   },
+   "church": [
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un lugar donde los jóvenes viven, se informan y se relacionan; ofrece grandes oportunidades y también riesgos de soledad, manipulación y violencia."
+    }
+   ],
+   "questions": [
+    "¿Cuáles serían los dos objetivos de comunicación de su grupo?",
+    "¿Qué frecuencia pueden sostener de verdad?",
+    "¿Qué fechas litúrgicas suelen olvidar?",
+    "¿Quién revisaría las piezas antes de publicarlas?"
+   ],
+   "activity": "Redacten el plan de comunicación de una página y construyan en una hoja de cálculo compartida el calendario editorial del próximo mes, con al menos doce publicaciones, sus responsables y estados.",
+   "practica": [
+    "Redacten el plan de una página.",
+    "Marquen las fechas litúrgicas y del grupo.",
+    "Llenen el calendario del próximo mes.",
+    "Acuerden el flujo de revisión."
+   ],
+   "prayer": "Señor del tiempo, que nos regalas cada día como oportunidad de gracia: ayúdanos a planificar con sabiduría y a dejar espacio para tus sorpresas. Que nuestra comunicación acompañe el ritmo de tu Iglesia. Amén.",
+   "idea": "La constancia importa más que el volumen.",
+   "profundizar": {
+    "titulo": "Una reunión editorial mensual",
+    "texto": "Agenda fija: 1) revisar las métricas del mes (sesión 5); 2) repasar las fechas del mes siguiente; 3) llenar el calendario con el banco de ideas; 4) asignar responsables; 5) revisar pendientes. Cuarenta y cinco minutos, con hora de inicio y de término."
+   },
+   "resources": []
+  },
+  {
+   "title": "Programar y automatizar",
+   "objective": "Programar publicaciones en las principales plataformas con herramientas gratuitas y decidir con criterio qué automatizar y qué no.",
+   "intro": "Programar es dejar listas las publicaciones para que salgan solas en la fecha y hora elegidas. Libera al equipo de estar pendiente del teléfono y permite publicar con constancia. En esta sesión vas a conocer las herramientas gratuitas para programar y a distinguir lo que conviene automatizar de lo que siempre debe ser personal.",
+   "comenzar": "¿A qué hora publica hoy tu grupo? ¿Depende de cuándo alguien tenga tiempo, o de cuándo los jóvenes están conectados?",
+   "logros": [
+    "Programar publicaciones en Meta Business Suite, TikTok y YouTube.",
+    "Comparar herramientas gratuitas de gestión para varias redes.",
+    "Decidir qué automatizar y qué mantener personal."
+   ],
+   "sections": [
+    {
+     "title": "Herramientas nativas (gratuitas)",
+     "body": "| Herramienta | Qué programa | Requisitos y límites |\n|---|---|---|\n| **Meta Business Suite** | Publicaciones, reels e historias de Facebook e Instagram | Cuenta profesional de Instagram conectada a una página de Facebook; programa con varias semanas de anticipación |\n| **Instagram (aplicación)** | Publicaciones y reels | Cuenta profesional; opción «Programar» en la configuración avanzada al publicar |\n| **TikTok Studio** (web) | Videos | Programa desde 15 minutos hasta 10 días antes |\n| **YouTube Studio** | Videos y Shorts | Al subir, elegir visibilidad «Programar» y la fecha |\n| **WhatsApp** | No programa mensajes de forma nativa | Se preparan con anticipación en un documento |\n\nLas herramientas nativas son gratuitas, confiables y suficientes para la mayoría de los grupos."
+    },
+    {
+     "title": "Herramientas para varias redes",
+     "body": "Cuando el grupo publica en varias redes, una herramienta de gestión centraliza el calendario. Planes gratuitos de referencia (a noviembre de 2026; revisa sus páginas porque cambian):\n\n- **Buffer:** hasta 3 canales y 10 publicaciones programadas en cola por canal (al publicarse una, se libera el espacio).\n- **Metricool:** 1 marca y 20 publicaciones al mes en el plan gratuito, sin X ni LinkedIn; incluye estadísticas básicas.\n\nVentajas: un solo calendario, vista previa, estadísticas juntas. Precauciones: conectar cuentas institucionales con el correo institucional, revisar qué permisos se otorgan y desconectar las cuentas cuando ya no se usen."
+    },
+    {
+     "title": "Qué automatizar y qué no",
+     "body": "**Sí conviene automatizar:**\n\n- La publicación de piezas ya revisadas (programación).\n- Una **respuesta automática de bienvenida** en los mensajes de la página, que diga cuándo se responde y dónde está la información básica.\n- Respuestas guardadas para preguntas frecuentes.\n- El flujo de una inscripción: formulario, planilla y aviso al responsable (visto en el curso de Herramientas digitales).\n\n**Nunca se automatiza:**\n\n- El acompañamiento de una persona, una conversación difícil, un pésame.\n- Respuestas a temas personales, de fe o de sufrimiento.\n- La revisión humana de lo que se publica.\n\nLa inteligencia artificial puede ayudar a redactar borradores, pero una persona del equipo revisa y firma todo."
+    },
+    {
+     "title": "Antes de que salga lo programado",
+     "body": "Lo programado sale aunque el mundo haya cambiado. Por eso:\n\n- Revisen el **calendario de la semana** cada lunes.\n- Si ocurre una **tragedia, un duelo en la comunidad o una noticia grave** de la Iglesia, **pausen** las publicaciones programadas que puedan sonar fuera de lugar.\n- Si cambia una fecha u hora, **corrijan la pieza programada** en todas las redes.\n- Verifiquen que los enlaces funcionen."
+    }
+   ],
+   "caso": {
+    "titulo": "El chiste del lunes",
+    "texto": "Un grupo programa para el lunes a las 9:00 un video humorístico sobre el regreso a clases. El domingo en la noche fallece un joven muy querido de la parroquia. Nadie revisa la programación y el video se publica mientras la comunidad está de duelo.",
+    "preguntas": [
+     "¿Qué hábito habría evitado esto?",
+     "¿Qué deberían publicar ahora y cómo?"
+    ]
+   },
+   "claves": [
+    [
+     "Programar",
+     "Dejar lista una publicación para que salga sola en una fecha y hora elegidas."
+    ],
+    [
+     "Herramienta de gestión",
+     "Aplicación que reúne varias redes en un calendario para programar, responder y medir."
+    ],
+    [
+     "Respuesta automática",
+     "Mensaje que se envía solo cuando alguien escribe por primera vez a la cuenta."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 14,28-30 · Calcular antes de construir",
+    "comment": "Jesús habla de quien quiere construir una torre y primero se sienta a calcular si tiene con qué terminarla. Programar es calcular con anticipación; y también saber detenerse cuando la realidad cambia."
+   },
+   "lectio": {
+    "meditar": "¿Qué tareas te quitan tiempo que podría ser para las personas?",
+    "orar": "Pide sabiduría para usar las herramientas sin que reemplacen el encuentro.",
+    "vivir": "Esta semana, programa las publicaciones de los próximos siete días."
+   },
+   "church": [
+    {
+     "source": "León XIV, Mensaje para la LX Jornada Mundial de las Comunicaciones Sociales (2026)",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "text": "«Custodiar voces y rostros humanos»: advierte que los algoritmos premian las emociones rápidas y castigan la reflexión, alerta sobre los riesgos de la inteligencia artificial y pide no renunciar al propio pensamiento."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    }
+   ],
+   "questions": [
+    "¿Qué herramienta de programación les conviene según sus redes?",
+    "¿Qué podrían automatizar sin perder cercanía?",
+    "¿Qué nunca deberían automatizar?",
+    "¿Quién revisa la programación cada semana?"
+   ],
+   "activity": "Programen juntos una semana completa de publicaciones del calendario editorial en las redes del grupo, configuren la respuesta automática de bienvenida y acuerden el protocolo para pausar lo programado ante una emergencia.",
+   "practica": [
+    "Elijan la herramienta de programación.",
+    "Programen una semana de publicaciones.",
+    "Configuren la respuesta automática.",
+    "Acuerden el protocolo de pausa."
+   ],
+   "prayer": "Señor, que nos das herramientas para servir mejor: que la técnica nos libere tiempo para las personas y nunca reemplace el encuentro, la escucha y la presencia. Amén.",
+   "idea": "Se automatiza lo repetitivo; las personas nunca.",
+   "profundizar": {
+    "titulo": "La mejor hora para publicar",
+    "texto": "Las estadísticas de Instagram, Facebook y TikTok muestran en qué días y horas están conectados los seguidores. Empieza por ahí, prueba durante un mes y ajusta. Para un grupo juvenil suelen funcionar las tardes de días de semana y el momento previo a una actividad, pero lo que vale son los datos de tu propia cuenta."
+   },
+   "resources": [
+    {
+     "title": "Meta Business Suite",
+     "url": "https://www.facebook.com/business/tools/meta-business-suite",
+     "note": "Programación gratuita para Facebook e Instagram."
+    },
+    {
+     "title": "Programador de videos de TikTok",
+     "url": "https://ads.tiktok.com/business/es-LA/blog/introducing-video-scheduler-now-you-can-plan-tiktoks-in-advance",
+     "note": "Anuncio oficial: programación de 15 minutos a 10 días."
+    },
+    {
+     "title": "Ayuda de YouTube Studio",
+     "url": "https://support.google.com/youtube",
+     "note": "Cómo programar videos y Shorts."
+    },
+    {
+     "title": "Planes de Buffer",
+     "url": "https://buffer.com/pricing",
+     "note": "Plan gratuito y de pago."
+    },
+    {
+     "title": "Planes de Metricool",
+     "url": "https://metricool.com/es/premium/",
+     "note": "Plan gratuito y de pago."
+    }
+   ]
+  },
+  {
+   "title": "Comunidad, moderación y crisis",
+   "objective": "Animar la conversación de la comunidad digital, moderar con criterios claros y responder a una crisis de comunicación sin improvisar.",
+   "intro": "Una cuenta no es una cartelera: es una **comunidad** que conversa. Hay que animarla, cuidarla y, a veces, poner límites. Y alguna vez llegará un momento difícil: un comentario muy ofensivo, un error propio publicado, una noticia grave. En esta sesión vas a preparar al equipo para todo eso.",
+   "comenzar": "Recuerda un comentario negativo o una discusión en las redes de tu grupo o de tu parroquia. ¿Cómo se respondió? ¿Qué te habría gustado que se hiciera?",
+   "logros": [
+    "Animar la participación de la comunidad digital.",
+    "Moderar comentarios y mensajes con normas claras.",
+    "Aplicar un protocolo de crisis por niveles."
+   ],
+   "sections": [
+    {
+     "title": "Animar la conversación",
+     "body": "- **Responder pronto** (idealmente dentro del mismo día) y siempre con el nombre de la persona.\n- **Hacer preguntas** en las publicaciones y en las historias (encuestas, cajas de preguntas).\n- **Dar las gracias** y destacar los aportes de la comunidad (con permiso).\n- **Compartir** lo que publican otros grupos, la parroquia y la diócesis.\n- **Conectar** lo digital con lo presencial: cada conversación en redes es una oportunidad para invitar a un encuentro real."
+    },
+    {
+     "title": "Normas de comunidad y moderación",
+     "body": "Publiquen las **normas de la comunidad** (en una publicación fijada o destacada): respeto, sin insultos, sin publicidad, sin datos personales.\n\nCriterios para moderar:\n\n| Situación | Acción |\n|---|---|\n| Crítica respetuosa | Se agradece y se responde con calma |\n| Pregunta difícil o de fe | Se agradece y se invita a conversar en persona |\n| Insulto, burla o discurso de odio | Se oculta o elimina |\n| Datos personales de alguien | Se elimina de inmediato |\n| Acoso reiterado | Se restringe o bloquea a la cuenta |\n| Publicidad o estafa | Se elimina y se bloquea |\n\nLas plataformas permiten filtrar palabras ofensivas automáticamente: actívenlo. Y recuerden la Palabra: «prontos para escuchar, lentos para hablar, lentos para enojarse»."
+    },
+    {
+     "title": "Mensajes privados y protección de menores",
+     "body": "- Los mensajes que llegan a la cuenta del grupo se responden **desde la cuenta del grupo**, nunca desde la cuenta personal de un dirigente.\n- Con menores de edad, respuestas **breves e informativas**; todo lo personal se lleva a un espacio presencial con adultos responsables.\n- Si un joven cuenta una situación de **riesgo, abuso o autolesión**, no se investiga ni se promete secreto: se agradece la confianza, se avisa de inmediato al asesor o al adulto responsable y se siguen los protocolos de la diócesis.\n- Nunca se borra un mensaje que pueda ser **evidencia** de una situación grave."
+    },
+    {
+     "title": "Protocolo de crisis por niveles",
+     "body": "| Nivel | Ejemplo | Qué hacer |\n|---|---|---|\n| **1. Molestia** | Quejas por un cambio de horario | Responder con información y amabilidad |\n| **2. Error propio** | Dato equivocado, foto sin autorización, publicación inoportuna | Corregir o retirar de inmediato, reconocer el error y pedir disculpas con sencillez |\n| **3. Crisis grave** | Acusación seria, posible abuso, tragedia en la comunidad, noticia que involucra a la parroquia | **No responder improvisadamente**; pausar lo programado; avisar al párroco y a los asesores; seguir las orientaciones de la diócesis; un solo vocero autorizado |\n\nEn una crisis grave, el equipo de redes **no es vocero**: comunica solo lo que la autoridad pastoral decide, con verdad y respeto por las víctimas."
+    }
+   ],
+   "caso": {
+    "titulo": "El comentario de las 23:00",
+    "texto": "Una noche aparece en la publicación del retiro un comentario anónimo que acusa a un dirigente de un trato inadecuado con un joven. En minutos hay quince respuestas. Uno de los administradores quiere borrarlo y otro quiere responder defendiendo al dirigente.",
+    "preguntas": [
+     "¿En qué nivel de crisis está esta situación?",
+     "¿Qué pasos deberían seguir esa misma noche y al día siguiente?"
+    ]
+   },
+   "claves": [
+    [
+     "Moderar",
+     "Aplicar las normas de una comunidad digital: responder, ocultar, eliminar, restringir o bloquear."
+    ],
+    [
+     "Vocero",
+     "Única persona autorizada para hablar en nombre de la institución en una situación de crisis."
+    ],
+    [
+     "Normas de comunidad",
+     "Reglas públicas de convivencia de un espacio digital."
+    ]
+   ],
+   "bible": {
+    "ref": "Santiago 1,19-20 · Prontos para escuchar",
+    "comment": "«Que cada uno sea pronto para escuchar, lento para hablar y lento para enojarse, porque la ira del hombre no realiza la justicia de Dios». Es el mejor manual de moderación que existe."
+   },
+   "lectio": {
+    "meditar": "¿Cuándo has respondido en redes con enojo? ¿Qué pasó?",
+    "orar": "Pide un corazón sereno para responder a quienes critican o atacan.",
+    "vivir": "Esta semana, responde con paciencia a un comentario difícil o espera un día antes de hacerlo."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Normas de conducta para quienes sirven en la Iglesia, incluidas las comunicaciones con niños, niñas y adolescentes, que deben ser transparentes y por canales institucionales."
+    },
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "León XIV, Mensaje para la LX Jornada Mundial de las Comunicaciones Sociales (2026)",
+     "url": "https://www.vatican.va/content/leo-xiv/es/messages/communications.html",
+     "text": "«Custodiar voces y rostros humanos»: advierte que los algoritmos premian las emociones rápidas y castigan la reflexión, alerta sobre los riesgos de la inteligencia artificial y pide no renunciar al propio pensamiento."
+    }
+   ],
+   "questions": [
+    "¿Tienen normas de comunidad publicadas?",
+    "¿Qué comentarios les cuesta más moderar?",
+    "¿Saben a quién avisar ante una situación grave?",
+    "¿Quién sería el vocero en una crisis de su parroquia?"
+   ],
+   "activity": "Redacten las normas de comunidad del grupo, la tabla de moderación y el protocolo de crisis por niveles con los nombres y teléfonos de las personas a quienes avisar. Practiquen con tres casos simulados, uno de cada nivel.",
+   "practica": [
+    "Redacten las normas de comunidad.",
+    "Completen la tabla de moderación.",
+    "Escriban el protocolo de crisis con contactos.",
+    "Practiquen con casos simulados."
+   ],
+   "prayer": "Señor, que respondiste con mansedumbre a quienes te acusaban y con firmeza ante la injusticia: danos serenidad para escuchar, prudencia para responder y valentía para proteger siempre a los más débiles. Amén.",
+   "idea": "Prontos para escuchar, lentos para hablar.",
+   "profundizar": {
+    "titulo": "Pedir disculpas en redes",
+    "texto": "Una buena disculpa es breve: reconoce el error sin excusas («publicamos un horario equivocado»), repara («el horario correcto es...») y agradece la paciencia. No se borra la conversación como si nada hubiera pasado, salvo que la publicación exponga a alguien."
+   },
+   "resources": [
+    {
+     "title": "Centro de aprendizaje de Comunidades de WhatsApp",
+     "url": "https://www.whatsapp.com/communities/learning?lang=es_LA",
+     "note": "Módulos sobre normas, conflictos y miembros difíciles."
+    },
+    {
+     "title": "Hacia una plena presencia",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "note": "Criterios cristianos para la conversación en redes."
+    }
+   ]
+  },
+  {
+   "title": "Medir, evaluar y mejorar",
+   "objective": "Leer las estadísticas de las redes, distinguir las métricas que importan de las de vanidad y elaborar un informe mensual que ayude a tomar decisiones pastorales.",
+   "intro": "Medir no es obsesionarse con los «me gusta». Es saber si la comunicación está cumpliendo su propósito: que más jóvenes se encuentren con Jesús y con la comunidad. En esta sesión vas a leer las estadísticas de las redes, elegir los indicadores que importan y armar un informe mensual breve para el equipo y los asesores.",
+   "comenzar": "Si tuvieras que demostrar que la comunicación de tu grupo sirve, ¿qué número o qué historia mostrarías?",
+   "logros": [
+    "Distinguir métricas útiles de métricas de vanidad.",
+    "Encontrar las estadísticas de cada plataforma.",
+    "Elaborar un informe mensual con decisiones."
+   ],
+   "sections": [
+    {
+     "title": "Métricas que importan",
+     "body": "| Métrica | Qué dice | Para qué sirve |\n|---|---|---|\n| **Alcance** | Cuántas cuentas distintas vieron el contenido | Saber si llegamos más allá del grupo |\n| **Interacciones** | Comentarios, compartidos, guardados, respuestas | Saber si el contenido conversa |\n| **Guardados y compartidos** | Contenido que la gente quiere conservar o recomendar | Detectar lo que realmente aporta |\n| **Retención de video** | Hasta qué segundo se ve un video | Mejorar los ganchos y la duración |\n| **Mensajes recibidos** | Personas que escriben para preguntar | Medir el interés concreto |\n| **Inscripciones y asistencia** | Cuántos llegaron por redes | La métrica pastoral más importante |\n\nLas **métricas de vanidad** (número de seguidores, «me gusta») se ven bien, pero dicen poco. Mil seguidores que nunca vienen valen menos que cien que participan."
+    },
+    {
+     "title": "Dónde están las estadísticas",
+     "body": "- **Instagram:** en el perfil profesional, **Panel profesional** o **Estadísticas**; y en cada publicación, «Ver estadísticas».\n- **Facebook e Instagram juntos:** en Meta Business Suite, sección **Estadísticas**.\n- **TikTok:** en TikTok Studio, **Estadísticas**, con datos de cada video y de los seguidores.\n- **YouTube:** en YouTube Studio, **Estadísticas**, con retención de público por video.\n- **Herramientas de gestión** como Metricool reúnen varias redes en un solo panel.\n\nPara la métrica pastoral, agrega en los formularios de inscripción la pregunta **«¿Cómo te enteraste?»**."
+    },
+    {
+     "title": "El informe mensual",
+     "body": "Una hoja de cálculo con una fila por mes y estas columnas basta:\n\n- Publicaciones realizadas frente a planificadas.\n- Alcance total.\n- Interacciones totales.\n- Contenido con más guardados y compartidos (y por qué creemos que funcionó).\n- Video con mejor retención.\n- Mensajes recibidos.\n- Inscritos que llegaron por redes.\n- **Tres decisiones** para el mes siguiente.\n\nSe presenta en la reunión editorial en cinco minutos. Lo importante no son los números, sino las **decisiones** que provocan."
+    },
+    {
+     "title": "Evaluar con sentido pastoral",
+     "body": "Una vez al semestre, el equipo y los asesores se preguntan:\n\n1. ¿Nuestra comunicación ayudó a que más jóvenes se acercaran al grupo y a Jesús?\n2. ¿Cuidamos a las personas en todo lo que publicamos?\n3. ¿El equipo está sano, o alguien está agotado?\n4. ¿Qué debemos dejar de hacer?\n5. ¿Qué historia de este semestre resume lo mejor de nuestra comunicación?\n\nAl final, la mejor comunicación es **una comunidad que vive lo que anuncia**."
+    }
+   ],
+   "caso": {
+    "titulo": "Cinco mil vistas, cero inscritos",
+    "texto": "Un video gracioso de un grupo alcanzó cinco mil vistas, muchas más que cualquier otra publicación. El equipo lo celebró y decidió hacer solo videos de humor. Tres meses después, las cuentas crecían, pero la asistencia a los encuentros no había cambiado.",
+    "preguntas": [
+     "¿Qué métricas estaban mirando y cuáles no?",
+     "¿Qué decisiones tomarían a partir de los datos completos?"
+    ]
+   },
+   "claves": [
+    [
+     "Alcance",
+     "Número de cuentas distintas que vieron un contenido."
+    ],
+    [
+     "Retención",
+     "Proporción de un video que el público ve antes de abandonarlo."
+    ],
+    [
+     "Métrica de vanidad",
+     "Número que se ve bien pero no ayuda a tomar decisiones."
+    ]
+   ],
+   "bible": {
+    "ref": "Lucas 13,6-9 · La higuera",
+    "comment": "El dueño busca fruto en la higuera y no lo encuentra. El viñador pide un año más: cavar alrededor, abonarla y esperar. Evaluar no es condenar: es mirar el fruto con honestidad, cuidar lo que hace falta y darle tiempo a crecer."
+   },
+   "lectio": {
+    "meditar": "¿Qué fruto concreto esperas de la comunicación de tu grupo?",
+    "orar": "Pide paciencia para sembrar y honestidad para evaluar.",
+    "vivir": "Esta semana, revisa las estadísticas de una red del grupo y anota una decisión."
+   },
+   "church": [
+    {
+     "source": "Hacia una plena presencia (Dicasterio para la Comunicación, 2023)",
+     "url": "https://www.vatican.va/roman_curia/dpc/documents/20230528_dpc-verso-piena-presenza_es.html",
+     "text": "Reflexión pastoral sobre las redes sociales que, a partir de la parábola del buen samaritano, invita a ser prójimos también en lo digital, a ser reflexivos y no reactivos, y a preguntarnos si buscamos seguidores para nosotros o para Cristo."
+    },
+    {
+     "source": "Christus vivit 86-90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "text": "El ambiente digital es un lugar donde los jóvenes viven, se informan y se relacionan; ofrece grandes oportunidades y también riesgos de soledad, manipulación y violencia."
+    }
+   ],
+   "questions": [
+    "¿Qué métricas miran hoy y cuáles deberían mirar?",
+    "¿Cómo saben si alguien llegó al grupo por redes?",
+    "¿Quién se encargaría del informe mensual?",
+    "¿Qué dejarían de hacer después de evaluar?"
+   ],
+   "activity": "Preparen el informe del último mes con los indicadores de la sesión, presenten los resultados al equipo en cinco minutos y acuerden tres decisiones. Agreguen la pregunta «¿Cómo te enteraste?» al formulario de la próxima actividad.",
+   "practica": [
+    "Reúnan las estadísticas del mes.",
+    "Completen el informe mensual.",
+    "Presenten y acuerden tres decisiones.",
+    "Agreguen la pregunta al formulario."
+   ],
+   "prayer": "Señor de la mies, que nos envías a sembrar sin garantizarnos los frutos: danos honestidad para evaluar, humildad para corregir y esperanza para seguir sembrando. Que todo lo que comuniquemos lleve a otros a encontrarte. Amén.",
+   "idea": "La mejor comunicación es una comunidad que vive lo que anuncia.",
+   "profundizar": {
+    "titulo": "Pequeños experimentos",
+    "texto": "Para mejorar, prueben una cosa a la vez durante un mes: otra hora de publicación, ganchos con pregunta en vez de afirmación, carruseles más cortos. Comparen con el mes anterior y quédense con lo que funcionó. Así se aprende de los datos propios y no de recetas generales."
+   },
+   "resources": [
+    {
+     "title": "Planes de Metricool",
+     "url": "https://metricool.com/es/premium/",
+     "note": "Estadísticas de varias redes en un solo panel (plan gratuito con límites)."
+    },
+    {
+     "title": "Ayuda de YouTube Studio",
+     "url": "https://support.google.com/youtube",
+     "note": "Cómo leer la retención de público."
+    }
+   ]
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Qué hace un community manager pastoral ante un joven que pide ayuda por una situación de riesgo?",
+   "options": [
+    "Lo resuelve por mensajes privados.",
+    "Agradece, no promete secreto y avisa de inmediato a un adulto responsable según el protocolo.",
+    "Lo ignora porque no es su tarea."
+   ],
+   "correct": 1,
+   "feedback": "La red no reemplaza el acompañamiento ni los protocolos."
+  },
+  {
+   "q": "¿Cuál es la forma correcta de dar acceso a la cuenta del grupo a un nuevo integrante?",
+   "options": [
+    "Enviarle la contraseña por WhatsApp.",
+    "Agregarlo con su propio usuario desde el portafolio comercial u otra opción de accesos por persona.",
+    "Prestarle el teléfono del coordinador."
+   ],
+   "correct": 1,
+   "feedback": "Los accesos por persona se pueden quitar cuando deja el servicio."
+  },
+  {
+   "q": "¿Qué conviene usar como columna vertebral del calendario editorial de un grupo pastoral?",
+   "options": [
+    "Las tendencias del momento.",
+    "El año litúrgico, junto con las fechas de la parroquia y del grupo.",
+    "Los cumpleaños de los dirigentes."
+   ],
+   "correct": 1,
+   "feedback": "La Iglesia ya tiene un calendario que da sentido."
+  },
+  {
+   "q": "¿Qué es mejor para un grupo?",
+   "options": [
+    "Diez publicaciones una semana y luego un mes sin nada.",
+    "Tres publicaciones por semana sostenidas todo el año.",
+    "Publicar solo cuando hay actividades."
+   ],
+   "correct": 1,
+   "feedback": "La constancia importa más que el volumen."
+  },
+  {
+   "q": "¿Con cuánta anticipación permite TikTok Studio programar un video?",
+   "options": [
+    "Hasta un año.",
+    "Entre 15 minutos y 10 días.",
+    "No permite programar."
+   ],
+   "correct": 1,
+   "feedback": "Para más anticipación se necesita otra herramienta."
+  },
+  {
+   "q": "¿Qué incluye el plan gratuito de Buffer (a noviembre de 2026)?",
+   "options": [
+    "Redes ilimitadas.",
+    "Hasta 3 canales y 10 publicaciones en cola por canal.",
+    "Solo correo electrónico."
+   ],
+   "correct": 1,
+   "feedback": "La cola se libera a medida que se publican las piezas."
+  },
+  {
+   "q": "¿Qué nunca se debe automatizar?",
+   "options": [
+    "La publicación de piezas ya revisadas.",
+    "El acompañamiento personal y las respuestas a temas de sufrimiento o de fe.",
+    "Un mensaje de bienvenida."
+   ],
+   "correct": 1,
+   "feedback": "Se automatiza lo repetitivo; las personas nunca."
+  },
+  {
+   "q": "Ante una acusación grave en los comentarios, ¿qué corresponde?",
+   "options": [
+    "Borrarla y no decir nada a nadie.",
+    "No responder improvisadamente, avisar al párroco y a los asesores y seguir las orientaciones de la diócesis.",
+    "Defender al acusado en los comentarios."
+   ],
+   "correct": 1,
+   "feedback": "Es una crisis de nivel 3: un solo vocero y sin borrar evidencia."
+  },
+  {
+   "q": "¿Cuál de estas es una métrica de vanidad?",
+   "options": [
+    "Número de seguidores.",
+    "Inscritos que llegaron por redes.",
+    "Retención de un video."
+   ],
+   "correct": 0,
+   "feedback": "Se ve bien, pero dice poco sobre el fruto real."
+  },
+  {
+   "q": "¿Qué pregunta conviene agregar a los formularios de inscripción para medir el aporte de las redes?",
+   "options": [
+    "¿Cuál es tu color favorito?",
+    "¿Cómo te enteraste?",
+    "¿Cuántos seguidores tienes?"
+   ],
+   "correct": 1,
+   "feedback": "Conecta la comunicación digital con la participación real."
+  }
+ ],
+ "taller": "Proyecto final del nivel 3: el sistema de comunicación del grupo. Cada equipo presenta: el equipo de comunicación con roles, turnos y registro de accesos; el plan de una página; el calendario editorial del próximo mes en una hoja de cálculo compartida, con una semana ya programada; las normas de comunidad, la tabla de moderación y el protocolo de crisis con contactos; y el primer informe mensual con tres decisiones. La presentación dura quince minutos ante los asesores y el párroco."
+}

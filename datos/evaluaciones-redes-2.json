@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Comunicación y redes · Nivel 2: crear contenidos",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué tres partes tiene un buen texto para redes?",
+    "opciones": [
+     "Saludo, historia y despedida.",
+     "Gancho, contenido y llamado a la acción.",
+     "Título, hashtags y emojis."
+    ],
+    "correcta": 1,
+    "explicacion": "La primera línea decide si alguien lee la segunda."
+   },
+   {
+    "pregunta": "¿Cómo conviene escribir un hashtag de varias palabras?",
+    "opciones": [
+     "todo en minúscula: #jovenesdefe",
+     "Con mayúscula en cada palabra: #JovenesDeFe",
+     "Con espacios: #jovenes de fe"
+    ],
+    "correcta": 1,
+    "explicacion": "Así los lectores de pantalla lo leen correctamente."
+   },
+   {
+    "pregunta": "¿Qué no se debe hacer con una herramienta de inteligencia artificial?",
+    "opciones": [
+     "Pedirle ideas de títulos.",
+     "Ingresar datos personales de jóvenes o inventar testimonios.",
+     "Pedirle que revise la ortografía."
+    ],
+    "correcta": 1,
+    "explicacion": "La IA es asistente; la responsabilidad y la verdad son nuestras."
+   },
+   {
+    "pregunta": "¿Qué principio de diseño se aplica al poner lo más importante más grande?",
+    "opciones": [
+     "Jerarquía.",
+     "Repetición.",
+     "Rotación."
+    ],
+    "correcta": 0,
+    "explicacion": "Un afiche tiene un mensaje principal."
+   },
+   {
+    "pregunta": "¿Dónde conviene conseguir imágenes para los diseños del grupo?",
+    "opciones": [
+     "En cualquier resultado de Google.",
+     "Fotos propias, elementos gratuitos de Canva o bancos de imágenes libres, revisando la licencia.",
+     "Copiando los afiches de otras parroquias."
+    ],
+    "correcta": 1,
+    "explicacion": "Casi todas las imágenes de internet tienen derechos de autor."
+   },
+   {
+    "pregunta": "¿Qué hace la regla de los tercios?",
+    "opciones": [
+     "Divide la imagen en tercios para ubicar lo importante en sus líneas o cruces.",
+     "Obliga a tomar tres fotos de cada cosa.",
+     "Pide que aparezcan tres personas."
+    ],
+    "correcta": 0,
+    "explicacion": "Activa la cuadrícula de la cámara para usarla."
+   },
+   {
+    "pregunta": "¿Qué corresponde al fotografiar una misa?",
+    "opciones": [
+     "Usar flash para que se vea bien.",
+     "Pedir permiso, no usar flash y no fotografiar en primer plano la consagración.",
+     "Subir al presbiterio para mejores ángulos."
+    ],
+    "correcta": 1,
+    "explicacion": "La liturgia no se interrumpe por una foto."
+   },
+   {
+    "pregunta": "¿Qué es lo más importante al grabar a alguien hablando?",
+    "opciones": [
+     "Que tenga muchos efectos.",
+     "Un buen audio: lugar silencioso y teléfono cerca de quien habla.",
+     "Que dure al menos cinco minutos."
+    ],
+    "correcta": 1,
+    "explicacion": "Un mal audio hace abandonar el video aunque la imagen sea buena."
+   },
+   {
+    "pregunta": "¿Cuál es la forma más segura de poner música a un reel?",
+    "opciones": [
+     "Usar la biblioteca de música de la plataforma.",
+     "Agregar cualquier canción comercial antes de subirlo.",
+     "Grabar la radio de fondo."
+    ],
+    "correcta": 0,
+    "explicacion": "Esas canciones tienen licencia para usarse dentro de la plataforma."
+   },
+   {
+    "pregunta": "Durante un campamento con menores, ¿cuándo se publica una foto que muestra el lugar exacto?",
+    "opciones": [
+     "En vivo, para que las familias vean.",
+     "Después de la actividad.",
+     "Nunca se publican fotos de campamentos."
+    ],
+    "correcta": 1,
+    "explicacion": "La ubicación en tiempo real expone a los menores."
+   }
+  ]
+ }
+}

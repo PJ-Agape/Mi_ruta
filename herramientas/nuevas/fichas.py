@@ -123,8 +123,12 @@ FICHAS = {
         "competencias": ["Brindar primera ayuda psicológica con el protocolo ABCD.", "Reconocer cuándo derivar a un profesional.", "Cuidarse y cuidar al equipo después de una crisis."],
     },
     "comunicacion-y-redes": {
-        "ejes": ["Comunicar con sentido", "Creación de contenidos", "Cuidado en lo digital", "Plan de comunicación"],
-        "competencias": ["Crear contenidos claros para redes y afiches.", "Cuidar la imagen y los datos de las personas en lo digital.", "Elaborar un plan de comunicación para el grupo."],
+        "ejes": ["Comunicar con sentido", "Mapa de plataformas", "Tipos de contenido y formatos", "Identidad visual y tono de voz", "Cuidado de las personas en lo digital"],
+        "competencias": ["Explicar para qué comunica una comunidad cristiana y elegir sus plataformas.", "Planificar contenidos por pilares y formatos con las medidas correctas.", "Definir la identidad del grupo y cuidar la imagen y los datos de las personas."],
+    },
+    "comunicacion-digital": {
+        "ejes": ["Comunicar con sentido, plataformas e identidad", "Textos, diseño, fotografía y video", "Community manager y calendario editorial", "Programación, moderación, crisis y métricas"],
+        "competencias": ["Crear contenidos de calidad para redes con herramientas gratuitas.", "Gestionar la comunicación del grupo en equipo, con calendario, programación y métricas.", "Cuidar a las personas: imagen de menores, datos personales, moderación y protocolos de crisis."],
     },
     "dinamicas-y-juegos": {
         "ejes": ["El juego en la pastoral", "Diseño de dinámicas", "Banco de dinámicas", "Grandes juegos y seguridad"],
@@ -182,6 +186,7 @@ ENLACES = {
     "ecologia-integral": ["capilla", "salmos"],
     "dinamicas-y-juegos": ["dinamicas", "juegos"],
     "comunicacion-y-redes": ["difusion"],
+    "comunicacion-digital": ["difusion", "coordinacion"],
     "gestion-del-tiempo": ["agenda", "coordinacion", "capilla"],
     "logistica": ["agenda", "coordinacion", "credenciales"],
 }

@@ -684,13 +684,13 @@
   {
    "id": "comunicacion-y-redes",
    "numero": 2,
-   "titulo": "Comunicación y redes para la pastoral",
+   "titulo": "Comunicación y redes · Nivel 1: comunicar con sentido",
    "tipo": "optativo",
    "etiqueta": "Optativo",
    "duracion": "6 sesiones · 9 horas",
    "constancia": true,
    "requiere": [],
-   "intro": "Hoy los grupos juveniles se comunican por redes sociales, mensajería y afiches digitales. Bien usadas, estas herramientas convocan, informan y anuncian. Mal usadas, pueden exponer o dañar a las personas. Esta formación entrega criterios y técnicas para comunicar bien y con cuidado.",
+   "intro": "El primer nivel del programa Comunicación digital para la Pastoral. Cada sesión termina con un taller guiado sobre las cuentas reales de tu grupo.",
    "clases": [
     {
      "id": "comunicacion-y-redes-s1",
@@ -698,49 +698,49 @@
      "numero": 1,
      "etiqueta": "Sesión 1",
      "titulo": "Comunicar con sentido",
-     "tiempo": "90 min",
+     "tiempo": "90 min + taller guiado",
      "archivo": "contenido/modulos/comunicacion-y-redes/s1.md",
-     "debate": "**Caso: La cadena.** Al grupo de WhatsApp de los jóvenes llega una cadena que dice que, si no se reenvía a diez personas, «la Virgen no te va a proteger». Varios la reenvían «por si acaso».\n\n- ¿Qué problema tiene esta cadena desde la fe y desde la verdad?\n- ¿Qué podría hacer el administrador del grupo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+     "debate": "**Caso: La cadena del domingo.** Un viernes en la noche llega al grupo de dirigentes un audio que asegura que el obispo prohibió las misas juveniles. Antes de que alguien lo verifique, tres dirigentes lo reenvían a sus grupos y uno lo publica en la cuenta de la pastoral con un comentario indignado. El lunes se aclara que el audio era falso.\n\n- ¿Qué filtros se saltaron?\n- ¿Qué debería hacer ahora el grupo en su cuenta y en los grupos donde se reenvió?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s2",
      "tipo": "unidad",
      "numero": 2,
      "etiqueta": "Sesión 2",
-     "titulo": "Crear buenos contenidos",
-     "tiempo": "90 min",
+     "titulo": "Un mapa de las plataformas",
+     "tiempo": "90 min + taller guiado",
      "archivo": "contenido/modulos/comunicacion-y-redes/s2.md",
-     "debate": "**Caso: El afiche imposible.** El afiche del retiro tiene seis tipografías, diez colores, tres fotos superpuestas, la dirección escrita en letra muy pequeña y la fecha escondida en una esquina. Nadie se inscribe.\n\n- ¿Qué principios de diseño no se respetaron?\n- ¿Cómo lo rediseñarías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+     "debate": "**Caso: Siete cuentas y nadie a cargo.** Una pastoral tiene cuenta de Instagram, de TikTok, dos páginas de Facebook (una antigua), un canal de YouTube con tres videos, un grupo de WhatsApp de 300 personas y un correo cuya contraseña nadie recuerda. Los mensajes de los jóvenes quedan sin respuesta durante semanas.\n\n- ¿Qué cuentas cerrarían, cuáles fusionarían y cuáles mantendrían?\n- ¿Cómo reorganizarían el grupo de WhatsApp de 300 personas?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s3",
      "tipo": "unidad",
      "numero": 3,
      "etiqueta": "Sesión 3",
-     "titulo": "Cuidar a las personas en lo digital",
-     "tiempo": "90 min",
+     "titulo": "Tipos de contenido y formatos",
+     "tiempo": "90 min + taller guiado",
      "archivo": "contenido/modulos/comunicacion-y-redes/s3.md",
-     "debate": "**Caso: La foto del campamento.** Después del campamento, un dirigente publica en su cuenta personal un álbum con cincuenta fotos, varias de niños en la piscina, etiquetados con su nombre y con la ubicación del lugar.\n\n- ¿Qué reglas de cuidado no se cumplieron?\n- ¿Qué debería hacerse ahora?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+     "debate": "**Caso: Siempre el mismo afiche.** La cuenta de un grupo publica cada semana el mismo tipo de afiche: fondo de color, título grande y la hora del encuentro. Llevan dos años así. Tienen 180 seguidores, la mayoría del mismo grupo, y casi nadie interactúa.\n\n- ¿Qué pilares y formatos les faltan?\n- Propongan tres publicaciones distintas para la próxima semana.\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s4",
      "tipo": "unidad",
      "numero": 4,
      "etiqueta": "Sesión 4",
-     "titulo": "Contar un evento",
-     "tiempo": "90 min",
+     "titulo": "Identidad visual y tono de voz",
+     "tiempo": "90 min + taller guiado",
      "archivo": "contenido/modulos/comunicacion-y-redes/s4.md",
-     "debate": "**Caso: La foto viral.** Durante una jornada, un joven sube una historia con un video gracioso de un niño de 9 años que se cae. El video se comparte mucho. La mamá del niño escribe molesta a la parroquia.\n\n- ¿Qué falló?\n- ¿Qué hay que hacer ahora?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+     "debate": "**Caso: Cada uno con su estilo.** En un grupo, cinco dirigentes hacen los afiches. Uno usa fondos negros con letras doradas; otra, colores pastel; otro, fotos con muchos filtros. Una familia comenta que no sabía que las cinco actividades del mes eran del mismo grupo.\n\n- ¿Qué problema genera la falta de identidad?\n- ¿Qué decisiones mínimas tendría que tomar este grupo para la próxima semana?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-s5",
      "tipo": "unidad",
      "numero": 5,
      "etiqueta": "Sesión 5",
-     "titulo": "Un plan de comunicación",
-     "tiempo": "90 min",
+     "titulo": "Cuidar a las personas en lo digital",
+     "tiempo": "90 min + taller guiado",
      "archivo": "contenido/modulos/comunicacion-y-redes/s5.md",
-     "debate": "**Caso: La cuenta abandonada.** El grupo creó una cuenta en redes con mucho entusiasmo. Publicaron todos los días durante un mes y después nadie más se hizo cargo. La última publicación tiene ocho meses.\n\n- ¿Qué les faltó?\n- ¿Cómo evitarían que vuelva a pasar?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+     "debate": "**Caso: La foto del campamento.** Durante un campamento, un dirigente sube en vivo a las historias del grupo una foto de los participantes en la piscina, con la ubicación del recinto. Una mamá escribe preocupada: su hija no tenía autorización de imagen y además la foto mostraba el lugar exacto donde estaban.\n\n- ¿Qué reglas se rompieron?\n- ¿Qué debe hacer el grupo ahora con la familia y con la publicación?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
     },
     {
      "id": "comunicacion-y-redes-cierre",

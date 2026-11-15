@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Comunicación y redes · Nivel 3: gestionar la comunicación",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué hace un community manager pastoral ante un joven que pide ayuda por una situación de riesgo?",
+    "opciones": [
+     "Lo resuelve por mensajes privados.",
+     "Agradece, no promete secreto y avisa de inmediato a un adulto responsable según el protocolo.",
+     "Lo ignora porque no es su tarea."
+    ],
+    "correcta": 1,
+    "explicacion": "La red no reemplaza el acompañamiento ni los protocolos."
+   },
+   {
+    "pregunta": "¿Cuál es la forma correcta de dar acceso a la cuenta del grupo a un nuevo integrante?",
+    "opciones": [
+     "Enviarle la contraseña por WhatsApp.",
+     "Agregarlo con su propio usuario desde el portafolio comercial u otra opción de accesos por persona.",
+     "Prestarle el teléfono del coordinador."
+    ],
+    "correcta": 1,
+    "explicacion": "Los accesos por persona se pueden quitar cuando deja el servicio."
+   },
+   {
+    "pregunta": "¿Qué conviene usar como columna vertebral del calendario editorial de un grupo pastoral?",
+    "opciones": [
+     "Las tendencias del momento.",
+     "El año litúrgico, junto con las fechas de la parroquia y del grupo.",
+     "Los cumpleaños de los dirigentes."
+    ],
+    "correcta": 1,
+    "explicacion": "La Iglesia ya tiene un calendario que da sentido."
+   },
+   {
+    "pregunta": "¿Qué es mejor para un grupo?",
+    "opciones": [
+     "Diez publicaciones una semana y luego un mes sin nada.",
+     "Tres publicaciones por semana sostenidas todo el año.",
+     "Publicar solo cuando hay actividades."
+    ],
+    "correcta": 1,
+    "explicacion": "La constancia importa más que el volumen."
+   },
+   {
+    "pregunta": "¿Con cuánta anticipación permite TikTok Studio programar un video?",
+    "opciones": [
+     "Hasta un año.",
+     "Entre 15 minutos y 10 días.",
+     "No permite programar."
+    ],
+    "correcta": 1,
+    "explicacion": "Para más anticipación se necesita otra herramienta."
+   },
+   {
+    "pregunta": "¿Qué incluye el plan gratuito de Buffer (a noviembre de 2026)?",
+    "opciones": [
+     "Redes ilimitadas.",
+     "Hasta 3 canales y 10 publicaciones en cola por canal.",
+     "Solo correo electrónico."
+    ],
+    "correcta": 1,
+    "explicacion": "La cola se libera a medida que se publican las piezas."
+   },
+   {
+    "pregunta": "¿Qué nunca se debe automatizar?",
+    "opciones": [
+     "La publicación de piezas ya revisadas.",
+     "El acompañamiento personal y las respuestas a temas de sufrimiento o de fe.",
+     "Un mensaje de bienvenida."
+    ],
+    "correcta": 1,
+    "explicacion": "Se automatiza lo repetitivo; las personas nunca."
+   },
+   {
+    "pregunta": "Ante una acusación grave en los comentarios, ¿qué corresponde?",
+    "opciones": [
+     "Borrarla y no decir nada a nadie.",
+     "No responder improvisadamente, avisar al párroco y a los asesores y seguir las orientaciones de la diócesis.",
+     "Defender al acusado en los comentarios."
+    ],
+    "correcta": 1,
+    "explicacion": "Es una crisis de nivel 3: un solo vocero y sin borrar evidencia."
+   },
+   {
+    "pregunta": "¿Cuál de estas es una métrica de vanidad?",
+    "opciones": [
+     "Número de seguidores.",
+     "Inscritos que llegaron por redes.",
+     "Retención de un video."
+    ],
+    "correcta": 0,
+    "explicacion": "Se ve bien, pero dice poco sobre el fruto real."
+   },
+   {
+    "pregunta": "¿Qué pregunta conviene agregar a los formularios de inscripción para medir el aporte de las redes?",
+    "opciones": [
+     "¿Cuál es tu color favorito?",
+     "¿Cómo te enteraste?",
+     "¿Cuántos seguidores tienes?"
+    ],
+    "correcta": 1,
+    "explicacion": "Conecta la comunicación digital con la participación real."
+   }
+  ]
+ }
+}

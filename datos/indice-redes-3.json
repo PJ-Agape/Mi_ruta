@@ -1,0 +1,61 @@
+{
+ "curso": "redes-3",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Comunicación y redes · Nivel 3: gestionar la comunicación",
+   "semanas": "",
+   "intro": "Con los niveles 1 y 2 aprobados. Para quienes coordinan la comunicación de su grupo o parroquia.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "El community manager pastoral",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Estrategia y calendario editorial",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Programar y automatizar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Comunidad, moderación y crisis",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Medir, evaluar y mejorar",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Comunicación y redes · Nivel 3: gestionar la comunicación",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}
