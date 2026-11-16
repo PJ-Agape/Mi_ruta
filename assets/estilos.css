@@ -756,3 +756,9 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .compromiso-acepto { display: flex; gap: .6rem; align-items: flex-start; margin-top: .8rem; padding: .7rem .8rem; background: var(--primario-claro); border-radius: var(--radio); font-weight: 600; cursor: pointer; }
 .compromiso-acepto input { width: 1.15rem; height: 1.15rem; margin-top: .1rem; flex: none; }
 .acceso .botones .boton[disabled] { opacity: .45; cursor: not-allowed; }
+
+/* Apunte de clase descargable */
+.apunte-pdf { display: flex; flex-wrap: wrap; gap: .8rem 1rem; align-items: center; justify-content: space-between; border-left: 4px solid var(--acento); margin: 1.2rem 0; }
+.apunte-pdf h3 { margin: 0 0 .2rem; font-family: var(--serif); color: var(--tinta); }
+.apunte-pdf p { margin: 0; color: var(--tinta-suave); font-size: .92rem; }
+.apunte-pdf > div { flex: 1 1 15rem; }

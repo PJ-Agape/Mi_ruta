@@ -1081,6 +1081,8 @@
 
     if (ocultas) html += '<p class="aviso">Esta clase incluye una guía para el relator. Si eres relator o administrador, actívala con el interruptor «Vista relator» de la parte superior.</p>';
 
+    if (cl.apunte) html += '<section class="tarjeta apunte-pdf"><div><h3>Apunte de clase</h3><p>Material de profundización de esta sesión, explicado desde cero: para leer con calma, descargar o imprimir.</p></div>' +
+      '<a class="boton principal" href="' + esc(cl.apunte) + '" target="_blank" rel="noopener" download>Descargar apunte (PDF)</a></section>';
     if (/-cierre$/.test(cl.id)) html += '<section class="tarjeta video-final" id="video-final"></section>';
     html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
     html += '<p class="reportar"><a href="#/sugerencias?desde=' + encodeURIComponent(location.hash) + '">¿Encontraste un error o tienes una sugerencia sobre esta sesión? Avísanos</a></p>';

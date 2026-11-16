@@ -304,6 +304,8 @@ def escribir_modulo(mid, m):
         (carpeta / f"s{i}.md").write_text(corregir(mid, f"s{i}.md", s["texto"]), encoding="utf-8")
         clases.append({"id": sid, "tipo": s["tipo"], "numero": i, "etiqueta": f"{'Encuentro' if m.get('sin_cierre') else 'Sesión'} {i}", "titulo": s["titulo"],
                        "tiempo": s["tiempo"], "archivo": f"contenido/modulos/{mid}/s{i}.md"})
+        if (R / "apuntes" / f"{mid}-s{i}.pdf").exists():  # apunte de profundización (herramientas/apuntes.py)
+            clases[-1]["apunte"] = f"apuntes/{mid}-s{i}.pdf"
     cid = f"{mid}-cierre"
     if m.get("sin_cierre"):
         return clases, evals
