@@ -1,0 +1,61 @@
+{
+ "curso": "ise-2",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Profundización ISE · Parte 2: autoridad, poder y ambientes sanos",
+   "semanas": "",
+   "intro": "Con la parte 1 aprobada. Es el corazón del documento: léela con calma y convérsala con tu equipo.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Comunidad fraterna: la autoridad como servicio (orientación 9)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "El poder en la relación de servicio (orientación 10)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Fronteras físicas y emocionales (orientación 11)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Acompañar con resguardos (orientación 12)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "La política de prevención y las estructuras de apoyo (orientación 13 y consideraciones finales)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Profundización ISE · Parte 2: autoridad, poder y ambientes sanos",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}

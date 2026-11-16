@@ -1,0 +1,668 @@
+{
+ "id": "ise-1",
+ "titulo": "Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+ "subtitulo": "El documento y sus orientaciones 1 a 8",
+ "categoria": "Cuidado",
+ "publico": "Desde 14 años; para todos los que tienen un servicio en la Iglesia",
+ "descripcion": "Qué es el documento Integridad en el Servicio Eclesial, de dónde viene y a quién se dirige; y sus orientaciones sobre el testimonio, la justicia social y el trato justo, las relaciones laborales, la administración transparente de los bienes, las relaciones respetuosas y la valoración de la diversidad.",
+ "modulo": "Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+ "intro": "Primera parte del curso. Ten el documento a mano: cada sesión estudia una o dos orientaciones, estándar por estándar, con casos de la vida pastoral.",
+ "unidades": [
+  {
+   "title": "El ISE: qué es, de dónde viene y a quién se dirige",
+   "objective": "Conocer el origen, la naturaleza, los destinatarios y la estructura del documento Integridad en el Servicio Eclesial, para leerlo y aplicarlo con criterio.",
+   "intro": "Este curso recorre, orientación por orientación, el documento **Integridad en el Servicio Eclesial (ISE)**, que la Conferencia Episcopal de Chile entregó en 2020 a todo el Pueblo de Dios. Tiene tres partes: en esta primera verás el origen del documento y sus orientaciones sobre testimonio, justicia y buen trato; en la segunda, las que tratan de la autoridad, el poder y los ambientes sanos; y en la tercera, cómo responder a denuncias, la calidad del servicio y el cuidado de uno mismo. Ten el documento a mano: lo leerás por tramos en cada sesión.",
+   "comenzar": "Antes de leer nada: escribe tres conductas que, a tu juicio, nunca deberían darse en alguien que sirve en la Iglesia, y tres que siempre deberían darse. Guarda la lista; la revisarás al final del curso.",
+   "logros": [
+    "Explicar el origen y el proceso de elaboración del ISE.",
+    "Distinguir qué es y qué no es el documento, y a quiénes se dirige.",
+    "Ubicar cualquier orientación dentro de sus seis grupos y citarla correctamente."
+   ],
+   "sections": [
+    {
+     "title": "De dónde viene",
+     "body": "En 2018 la Iglesia en Chile vivió una de las crisis más profundas de su historia por los abusos cometidos en su interior y por la forma en que se los había tratado. El papa Francisco escribió ese año una carta al Pueblo de Dios que peregrina en Chile (31 de mayo) y otra a toda la Iglesia (20 de agosto). A fines de julio, los obispos se reunieron en una asamblea extraordinaria en Punta de Tralca, reconocieron sus faltas ante las víctimas y, el 3 de agosto, se comprometieron, entre otras medidas, a elaborar un texto sobre la integridad de quienes sirven en la Iglesia.\n\nEl documento se construyó con un **proceso participativo** entre noviembre de 2018 y marzo de 2020: aportaron unas 600 personas consagradas, 62 miembros de diez consejos diocesanos de prevención y 950 laicos. La 120ª Asamblea Plenaria lo aprobó en abril de 2020 y fue promulgado el **16 de julio de 2020**, solemnidad de la Virgen del Carmen, por el decreto 621/2020."
+    },
+    {
+     "title": "Qué es y qué no es",
+     "body": "El propio texto lo dice con claridad: **no es una ley ni un código de conducta**. Son *orientaciones al Pueblo de Dios para el ejercicio del servicio en la Iglesia*, que cada obispo o superior religioso aplica en la forma que determine y que las comunidades pueden adaptar a su realidad.\n\nSu presentación explica el motivo: los criterios mínimos de conducta de quien sirve en la Iglesia no pueden depender del arbitrio de cada uno ni darse por supuestos como «sentido común». Por eso el ISE los pone por escrito, como un **estándar compartido de buen trato**.\n\nLa palabra *integridad* apunta a la coherencia: que la forma de servir corresponda a la condición de discípulo de Jesús. No se trata solo de evitar delitos, sino de un modo completo de servir.\n\n*El ISE fue aprobado «ad experimentum» por tres años (2020-2022). Revisa en el sitio de prevención de la Conferencia Episcopal y en tu diócesis cuál es la versión y las normas vigentes hoy.*"
+    },
+    {
+     "title": "A quién se dirige",
+     "body": "A **obispos, sacerdotes, diáconos, personas consagradas y laicos que realizan un servicio pastoral encomendado por una autoridad responsable, sea remunerado o voluntario**. Un catequista, una dirigente juvenil, un animador de coro, un ministro de comunión, quien atiende la secretaría parroquial o coordina la ayuda fraterna: todos están incluidos.\n\nEl documento distingue dos tipos de orientaciones:\n\n- **Comunes:** valen para todo bautizado que sirve.\n- **Particulares:** se dirigen a ministros ordenados, miembros de la vida consagrada o autoridades eclesiásticas. Aparecen al final de algunas listas, señaladas como tales.\n\nEn este curso se indicará siempre cuándo una indicación es particular."
+    },
+    {
+     "title": "Cómo está organizado",
+     "body": "El ISE contiene **20 orientaciones** agrupadas en seis áreas. Cada orientación se despliega en estándares de conducta identificados con una letra, de modo que se puede citar con precisión: «ISE 11.d» es la orientación 11, letra d.\n\n| Grupo | Tema | Orientaciones | En este curso |\n|---|---|---|---|\n| A | Testimonio | 1 y 2 | Parte 1 |\n| B | Compromiso con la justicia y la equidad | 3 a 6 | Parte 1 |\n| C | Encuentro con otros (buen trato) | 7 a 9 | Partes 1 y 2 |\n| D | Ambientes sanos y prevención de situaciones abusivas | 10 a 15 | Partes 2 y 3 |\n| E | Calidad y organización del servicio pastoral | 16 a 19 | Parte 3 |\n| F | Cuidado de sí mismo | 20 | Parte 3 |\n\nEl texto cierra con unas **consideraciones finales** sobre las estructuras, normas y estándares que lo acompañan, y con un apartado sobre la **ruptura de la comunión y las medidas para restablecerla**.\n\nSu marco son los cuatro principios de las líneas guía *Cuidado y Esperanza* (2015): protección de los menores, integridad en el ministerio, transparencia y rendición de cuentas, y colaboración con la sociedad y las autoridades."
+    }
+   ],
+   "caso": {
+    "titulo": "«Eso es de sentido común»",
+    "texto": "En una reunión de coordinación, el párroco propone estudiar el ISE con todos los agentes pastorales. Un catequista con veinte años de servicio responde: «Yo no necesito que me digan cómo tratar a la gente; eso es de sentido común. Estos documentos son para los que hicieron cosas malas». Varios asienten.",
+    "preguntas": [
+     "¿Qué responde la presentación del ISE a la idea del «sentido común»?",
+     "¿Qué pierde una comunidad cuando sus criterios de trato no están escritos ni conversados?"
+    ]
+   },
+   "claves": [
+    [
+     "Integridad",
+     "Coherencia entre la condición de discípulo de Jesús y la forma concreta de servir."
+    ],
+    [
+     "Orientación",
+     "Cada uno de los veinte criterios del ISE; no es una ley, sino una guía que las comunidades hacen propia."
+    ],
+    [
+     "Ad experimentum",
+     "Aprobación por un período de prueba, tras el cual el texto se evalúa y se revisa."
+    ]
+   ],
+   "bible": {
+    "ref": "Filipenses 4,5.8-9 · Que su bondad sea conocida por todos",
+    "comment": "La presentación del ISE se abre con esta palabra de Pablo: que la bondad de los cristianos sea reconocida por todo el mundo, y que tengan en cuenta todo lo verdadero, noble, justo y amable. El documento quiere ayudar a que esa bondad sea visible en la manera de servir."
+   },
+   "lectio": {
+    "meditar": "¿Tu forma de servir deja ver la bondad del Evangelio?",
+    "orar": "Pide perdón por las veces en que la Iglesia, y tú en ella, no han cuidado a quienes se les confiaron.",
+    "vivir": "Esta semana, lee la presentación y la introducción del ISE y subraya lo que no sabías."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial, Presentación e Introducción",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Explica el origen del documento en los compromisos de los obispos de 2018, su elaboración participativa y su naturaleza: orientaciones, no una ley ni un código de conducta."
+    },
+    {
+     "source": "Francisco, Carta al Pueblo de Dios que peregrina en Chile (31 de mayo de 2018)",
+     "url": "https://www.vatican.va/content/francesco/es/letters/2018/documents/papa-francesco_20180531_lettera-popolodidio-cile.pdf",
+     "text": "Pide un «nunca más» a la cultura del abuso y al sistema de encubrimiento que la hace posible, y recuerda que la renovación de la Iglesia necesita la participación de todo el Pueblo de Dios."
+    },
+    {
+     "source": "Francisco, Carta al Pueblo de Dios (20 de agosto de 2018)",
+     "url": "https://www.vatican.va/content/francesco/es/letters/2018/documents/papa-francesco_20180820_lettera-popolo-didio.html",
+     "text": "Parte de la frase de san Pablo «si un miembro sufre, todos sufren con él». Reconoce los abusos sexuales, de poder y de conciencia, pide decir no a toda forma de clericalismo y llama a todo el Pueblo de Dios a construir una cultura del cuidado."
+    }
+   ],
+   "questions": [
+    "¿Conocías este documento? ¿Cómo llegó (o no llegó) a tu comunidad?",
+    "¿Qué diferencia práctica hay entre una ley y una orientación?",
+    "¿Por qué crees que se consultó a tantas personas para escribirlo?",
+    "¿Qué esperas de este curso?"
+   ],
+   "activity": "Lean en grupo el índice del ISE y repartan los seis grupos de orientaciones. Cada equipo lee solo los títulos de sus orientaciones y explica al resto, en dos minutos, de qué trata su grupo y por qué importa.",
+   "practica": [
+    "Descarga el ISE y guarda el archivo.",
+    "Lee la presentación y la introducción.",
+    "Ubica las 20 orientaciones en sus seis grupos.",
+    "Averigua si tu diócesis o parroquia tiene normas propias que lo apliquen."
+   ],
+   "prayer": "Señor Jesús, que viniste a servir y no a ser servido: mira a tu Iglesia que peregrina en Chile. Sana las heridas que hemos causado, danos un corazón humilde para aprender y haz que nuestro servicio refleje tu bondad. Amén.",
+   "idea": "La integridad no se supone: se aprende, se conversa y se cuida entre todos.",
+   "profundizar": {
+    "titulo": "Cómo leer el ISE en este curso",
+    "texto": "Cada sesión toma una o dos orientaciones. Primero léelas en el documento; luego vuelve a esta sesión, que las explica con ejemplos de la vida pastoral. Al citar, usa la forma breve (ISE 7.c). Y recuerda: el ISE **no reemplaza** las normas canónicas, las leyes del país ni los protocolos de tu diócesis; los supone y remite a ellos."
+   },
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial (texto completo)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "note": "El documento de la Conferencia Episcopal de Chile que estudia este curso."
+    },
+    {
+     "title": "Integridad en el Servicio Eclesial · sitio del documento",
+     "url": "https://www.iglesia.cl/prevenirabusos/ise/",
+     "note": "Página de la Conferencia Episcopal de Chile dedicada al ISE."
+    },
+    {
+     "title": "Carta al Pueblo de Dios que peregrina en Chile",
+     "url": "https://www.vatican.va/content/francesco/es/letters/2018/documents/papa-francesco_20180531_lettera-popolodidio-cile.pdf",
+     "note": "Carta del papa Francisco del 31 de mayo de 2018."
+    },
+    {
+     "title": "Prevención de abusos · Conferencia Episcopal de Chile",
+     "url": "https://www.iglesia.cl/prevenirabusos/",
+     "note": "Sitio oficial con los documentos, las buenas prácticas y los canales de denuncia."
+    }
+   ]
+  },
+  {
+   "title": "Testimonio: servir como Jesús (orientaciones 1 y 2)",
+   "objective": "Comprender las orientaciones 1 y 2 del ISE, sobre el testimonio del amor de Dios en la acogida y sobre el servicio al desarrollo de la comunidad y de cada persona.",
+   "intro": "El ISE no comienza por las prohibiciones, sino por el **testimonio**. Antes de hablar de límites y prevención, recuerda para qué servimos: para que otros experimenten el amor de Dios. Las dos primeras orientaciones describen el estilo de acogida de quien sirve y su tarea de hacer crecer a la comunidad y a cada uno de sus miembros.",
+   "comenzar": "Recuerda a una persona de Iglesia cuyo modo de tratarte te acercó a Dios, y a otra cuyo trato te alejó. ¿Qué hacía concretamente cada una?",
+   "logros": [
+    "Explicar los estándares de la orientación 1 sobre acogida y testimonio.",
+    "Explicar los estándares de la orientación 2 sobre el desarrollo de la comunidad.",
+    "Reconocer conductas cotidianas que menoscaban o excluyen."
+   ],
+   "sections": [
+    {
+     "title": "Orientación 1: ser testimonio del amor de Dios en el servicio y en la acogida",
+     "body": "Sus estándares piden a quien sirve:\n\n- **a.** Actuar de modo coherente con el Evangelio y promover la misión de la Iglesia.\n- **b.** No menoscabar a nadie, ni con palabras ni con acciones.\n- **c.** Acoger a todos, en especial a quienes se sienten marginados, y acercarse a quienes se han alejado.\n- **d.** Evitar toda discriminación negativa, sobre todo hacia personas vulnerables o en una relación de poder desigual.\n- **e.** Respetar las espiritualidades legítimas y la diversidad de carismas.\n- **f.** Responder con empatía al encuentro de culturas y acoger con respeto a las minorías.\n- **g.** Promover el diálogo con otras confesiones religiosas y con organizaciones sociales y culturales.\n- **h.** Resolver los conflictos con diálogo y escucha, recurriendo a mediadores capacitados si hace falta.\n- **i.** Servir según el modelo de Jesucristo, entregando lo mejor de sí."
+    },
+    {
+     "title": "La acogida, en concreto",
+     "body": "Menoscabar no es solo insultar. También menoscaba el comentario irónico sobre la ropa de un joven, la corrección hecha en público, el apodo que el otro no eligió, ignorar sistemáticamente a alguien en las reuniones o hablar de una familia «complicada» delante de otros.\n\nY acoger no es solo saludar: es que la persona nueva tenga con quién sentarse, que quien vuelve después de años no reciba un reproche, que el migrante, la persona con discapacidad, el que piensa distinto o vive una situación familiar difícil encuentren un lugar real.\n\nEl estándar **1.h** es muy práctico: los conflictos en una comunidad son normales; lo que el ISE pide es no resolverlos con silencios, bandos o imposiciones, sino conversando, y con ayuda de un tercero preparado cuando no se logra."
+    },
+    {
+     "title": "Orientación 2: servir al desarrollo de la comunidad y de cada uno de sus miembros",
+     "body": "- **a.** Contribuir al desarrollo de cada persona, respetando sus carismas, espiritualidades, cualificaciones y ministerios.\n- **b.** Promover la participación activa, para que nadie se sienta excluido o menospreciado.\n- **c.** Mostrar en el trato respeto por el rol de cada persona.\n- **d.** Ante cambios o sucesos inesperados, crear instancias comunitarias para expresar su impacto.\n\nServir no es hacer que la comunidad dependa de uno, sino hacer **crecer a otros**. Un coordinador que lo decide todo, un catequista que no deja espacio a su ayudante o un dirigente que no forma a nadie que lo releve sirven mal aunque trabajen mucho."
+    },
+    {
+     "title": "Cuando algo sacude a la comunidad",
+     "body": "El estándar **2.d** nació de la experiencia: cuando ocurre algo que golpea a una comunidad (el traslado repentino de un sacerdote, una denuncia, una muerte, el cierre de un grupo), el silencio y los rumores hacen más daño que la noticia misma.\n\nEl ISE pide abrir **espacios comunitarios** para decir lo que se siente y preguntar lo que se necesita saber: una asamblea, una reunión con el consejo, un momento de oración con tiempo para hablar. No se trata de revelar lo que debe permanecer reservado, sino de no dejar a la gente sola con su desconcierto."
+    }
+   ],
+   "caso": {
+    "titulo": "El chiste de siempre",
+    "texto": "En un grupo juvenil, el animador recibe cada sábado a Matías, que tartamudea, con una imitación «en buena onda». Todos ríen, también Matías. Con las semanas, Matías deja de opinar en las reuniones y un día no vuelve. Cuando alguien lo comenta, el animador dice: «Pero si él se reía, nunca dijo que le molestara».",
+    "preguntas": [
+     "¿Qué estándares de la orientación 1 están en juego?",
+     "¿Por qué la risa de Matías no demuestra que estuviera cómodo?",
+     "¿Qué tendría que hacer el grupo ahora?"
+    ]
+   },
+   "claves": [
+    [
+     "Menoscabar",
+     "Disminuir a una persona con palabras, gestos, bromas u omisiones."
+    ],
+    [
+     "Discriminación negativa",
+     "Trato desigual e injusto hacia una persona por su condición, origen, opinión u otra característica."
+    ],
+    [
+     "Mediador",
+     "Tercero preparado que ayuda a dos partes en conflicto a escucharse y llegar a acuerdos."
+    ]
+   ],
+   "bible": {
+    "ref": "Juan 13,34-35 · En esto conocerán que son mis discípulos",
+    "comment": "Jesús deja como señal de sus discípulos el amor que se tengan unos a otros. No dice que los reconocerán por sus actividades ni por sus conocimientos: el trato es el primer anuncio."
+   },
+   "lectio": {
+    "meditar": "¿Quién se ha sentido acogido gracias a ti? ¿Quién se ha sentido disminuido?",
+    "orar": "Pide la gracia de mirar a cada persona como la mira Jesús.",
+    "vivir": "Esta semana, acércate a alguien que haya dejado de participar y pregúntale cómo está, sin reproches."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial, orientaciones 1 y 2",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Piden coherencia con el Evangelio, no menoscabar a nadie, acoger a los marginados, resolver los conflictos con diálogo y hacer crecer a la comunidad y a cada uno de sus miembros."
+    },
+    {
+     "source": "Evangelii gaudium 47",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "text": "La Iglesia está llamada a ser la casa abierta del Padre, donde hay lugar para cada uno con su vida a cuestas."
+    },
+    {
+     "source": "Lumen gentium 32",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_sp.html",
+     "text": "En la Iglesia existe una verdadera igualdad entre todos en cuanto a la dignidad y a la acción común de edificar el Cuerpo de Cristo."
+    }
+   ],
+   "questions": [
+    "¿Qué bromas, apodos o costumbres de tu grupo podrían estar menoscabando a alguien?",
+    "¿Quiénes son hoy los «marginados» de tu comunidad?",
+    "¿Cómo se resuelven los conflictos en tu grupo: conversando, callando o formando bandos?",
+    "¿A quién estás ayudando a crecer en su servicio?"
+   ],
+   "activity": "Hagan el «mapa de la acogida» de su comunidad: en un papelógrafo, anoten qué vive una persona nueva desde que llega a la puerta hasta que termina su primer encuentro. Marquen los momentos donde podría sentirse sola, juzgada o ignorada y propongan un cambio para cada uno.",
+   "practica": [
+    "Lee en el ISE las orientaciones 1 y 2.",
+    "Elige un estándar que tu comunidad vive bien y uno que le cuesta.",
+    "Observa durante una semana las bromas y comentarios de tu grupo.",
+    "Propón un gesto concreto de acogida."
+   ],
+   "prayer": "Señor, que acogiste a todos sin distinción y no apagaste la mecha humeante: enséñanos a recibir a cada persona como a ti mismo, a no disminuir a nadie y a alegrarnos cuando otros crecen. Amén.",
+   "idea": "El trato es el primer anuncio del Evangelio.",
+   "profundizar": {
+    "titulo": "Una pregunta para revisar cualquier actividad",
+    "texto": "Al evaluar un encuentro, además de «¿salió bien?», pregunten: **¿alguien quedó fuera?** Quien no pudo pagar, quien no entendió, quien no fue invitado a hablar, quien se fue sin que nadie lo notara. Esa sola pregunta, hecha con constancia, pone en práctica buena parte de las orientaciones 1 y 2."
+   },
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial (texto completo)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "note": "El documento de la Conferencia Episcopal de Chile que estudia este curso."
+    }
+   ]
+  },
+  {
+   "title": "Justicia: un mundo más justo y un trato justo (orientaciones 3 y 4)",
+   "objective": "Comprender las orientaciones 3 y 4 del ISE, que vinculan el servicio eclesial con la justicia social y con el trato justo en las relaciones personales.",
+   "intro": "El segundo grupo de orientaciones se titula *compromiso con la justicia y la equidad*. Parte de lo grande, la construcción de un mundo más justo, y baja a lo cotidiano: cómo se trata a cada persona, cómo se habla, a quién se prefiere. Para el ISE, quien sirve en la Iglesia no puede desentenderse de la pobreza que lo rodea ni tratar con injusticia a quienes tiene cerca.",
+   "comenzar": "Piensa en tu comunidad: ¿quiénes son hoy las personas más pobres o excluidas de tu sector? ¿Las conoces por su nombre?",
+   "logros": [
+    "Explicar los estándares de la orientación 3 sobre justicia social.",
+    "Explicar los estándares de la orientación 4 sobre trato justo y lenguaje.",
+    "Identificar formas de favoritismo y lenguaje hiriente en la vida pastoral."
+   ],
+   "sections": [
+    {
+     "title": "Orientación 3: aportar a la construcción de un mundo más justo y a escala humana",
+     "body": "- **a.** Considerar las dimensiones política, económica y cultural, para cambiar los factores que producen pobreza e inequidad.\n- **b.** Defender a los pobres y marginados, con atención a las nuevas formas de exclusión.\n- **c.** Escuchar con empatía las necesidades socioeconómicas de las personas y derivarlas a los organismos competentes.\n- **d.** Crear y apoyar programas para personas en situación de pobreza o marginación.\n- **e.** Asociarse, según la propia identidad, con entidades que influyen en las políticas en favor de los más vulnerables.\n- **f.** Contribuir a un desarrollo sostenible y respetuoso de la tierra como casa común."
+    },
+    {
+     "title": "De la ayuda ocasional a la justicia",
+     "body": "La orientación 3 pide más que repartir una caja de alimentos en Navidad. Pide **mirar las causas**: por qué esa familia no llega a fin de mes, qué derechos tiene y no conoce, qué redes del Estado, del municipio o de la Iglesia pueden acompañarla.\n\nEl estándar **3.c** es clave para cualquier agente pastoral: no somos asistentes sociales ni tenemos que resolverlo todo, pero sí escuchar y **saber derivar**: al consultorio, a la oficina municipal, a Cáritas o a la pastoral social, a una fundación. Una comunidad que tiene a mano su lista de redes sirve mejor que una que improvisa.\n\nY el **3.f** recuerda que el cuidado de la casa común es parte de la justicia: también se revisa cómo usa la comunidad el agua, la energía, los desechables y sus compras."
+    },
+    {
+     "title": "Orientación 4: servir con justicia en las relaciones personales",
+     "body": "- **a.** Practicar y fomentar un trato justo con todas las personas atendidas.\n- **b.** Conocer y respetar la doctrina social de la Iglesia en las relaciones con trabajadores y voluntarios.\n- **c.** No discriminar arbitrariamente y usar un lenguaje respetuoso, sin sarcasmo ni menosprecio.\n\nEs una orientación breve y exigente. El **trato justo** se juega en lo pequeño: quién recibe siempre los encargos visibles, a quién se le perdona todo y a quién nada, quién es escuchado en la reunión, a qué familia se atiende mejor porque colabora más."
+    },
+    {
+     "title": "El lenguaje también hace justicia",
+     "body": "El ISE menciona expresamente el **sarcasmo** y el **menosprecio**. Formas frecuentes en la vida pastoral:\n\n- la ironía como estilo habitual («¡milagro, llegaste a la hora!»);\n- corregir a alguien delante de todos;\n- hablar de los jóvenes o de los pobres como «esa gente»;\n- comparar («tu hermana sí era responsable»);\n- atribuir culpas sin escuchar.\n\nNada de esto es delito, y por eso mismo pasa inadvertido. Pero va formando un ambiente donde unos pueden humillar y otros deben aguantar. Y ese ambiente, como se verá en la parte 2, es terreno fértil para abusos mayores."
+    }
+   ],
+   "caso": {
+    "titulo": "Los preferidos",
+    "texto": "En una parroquia, las lecturas de la misa, los viajes a encuentros diocesanos y los cargos del consejo recaen siempre en las mismas tres familias, amigas del coordinador. Cuando una señora nueva pregunta cómo puede participar, le responden: «Aquí siempre lo hemos hecho así; primero hay que hacer méritos». Ella no vuelve a preguntar.",
+    "preguntas": [
+     "¿Qué estándares de la orientación 4 se incumplen?",
+     "¿Qué criterios transparentes podrían usarse para repartir servicios y oportunidades?"
+    ]
+   },
+   "claves": [
+    [
+     "Equidad",
+     "Dar a cada persona lo que le corresponde, considerando su situación, sin privilegios arbitrarios."
+    ],
+    [
+     "Derivar",
+     "Orientar y acompañar a una persona hacia la institución o el profesional que puede atender su necesidad."
+    ],
+    [
+     "Doctrina social de la Iglesia",
+     "Enseñanza de la Iglesia sobre la dignidad humana, el trabajo, el bien común y la justicia en la sociedad."
+    ]
+   ],
+   "bible": {
+    "ref": "Miqueas 6,8 · Practicar la justicia, amar con ternura, caminar humildemente",
+    "comment": "El profeta resume lo que Dios pide: practicar la justicia, amar la misericordia y caminar humildemente con Dios. Las tres cosas van juntas: una piedad sin justicia no es la que Dios quiere."
+   },
+   "lectio": {
+    "meditar": "¿Dónde has sido injusto en el trato, quizá sin notarlo?",
+    "orar": "Presenta al Señor a las personas más pobres de tu sector, por su nombre.",
+    "vivir": "Esta semana, averigua qué redes de ayuda existen en tu comuna y anótalas."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial, orientaciones 3 y 4",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Piden atender a las causas de la pobreza, defender a los marginados, derivar a los organismos competentes, cuidar la casa común y tratar a todos con justicia, sin sarcasmo ni menosprecio."
+    },
+    {
+     "source": "Evangelii gaudium 187-188",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+     "text": "Cada cristiano y cada comunidad están llamados a ser instrumentos de Dios para la liberación y la promoción de los pobres, lo que incluye tanto resolver las causas estructurales de la pobreza como los gestos sencillos de solidaridad."
+    },
+    {
+     "source": "Laudato si' 49",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+     "text": "Un verdadero planteo ecológico se convierte siempre en un planteo social, que escucha tanto el clamor de la tierra como el clamor de los pobres."
+    }
+   ],
+   "questions": [
+    "¿Qué hace hoy tu comunidad por las personas más pobres? ¿Es ayuda ocasional o acompañamiento?",
+    "¿Tienen una lista de redes a las que derivar?",
+    "¿Hay «preferidos» en tu grupo? ¿Cómo se reparten los servicios?",
+    "¿Qué expresiones sarcásticas o de menosprecio son habituales entre ustedes?"
+   ],
+   "activity": "Construyan el **directorio de redes** de su comunidad: consultorio, oficinas municipales, pastoral social o Cáritas, fundaciones, líneas de ayuda. Para cada una, anoten dirección, teléfono, horario y a quién atiende. Déjenlo en la secretaría y en la carpeta compartida del grupo.",
+   "practica": [
+    "Lee en el ISE las orientaciones 3 y 4.",
+    "Arma el directorio de redes de tu sector.",
+    "Revisa cómo se reparten los servicios en tu grupo.",
+    "Elimina una expresión hiriente de tu forma de hablar."
+   ],
+   "prayer": "Dios de justicia, que escuchas el clamor de los pobres: abre nuestros ojos a quienes sufren cerca de nosotros, haznos justos en el trato de cada día y limpios en nuestras palabras. Amén.",
+   "idea": "No hay servicio íntegro sin justicia en lo grande y en lo pequeño.",
+   "profundizar": {
+    "titulo": "Criterios transparentes",
+    "texto": "Para evitar favoritismos, pongan por escrito cómo se eligen los servicios visibles: turnos rotativos de lectores, criterios para asignar cupos a un encuentro (por ejemplo, quién no ha ido antes), convocatorias abiertas para los cargos. Cuando el criterio es conocido, nadie necesita «hacer méritos» ante una persona."
+   },
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial (texto completo)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "note": "El documento de la Conferencia Episcopal de Chile que estudia este curso."
+    },
+    {
+     "title": "Compendio de la Doctrina Social de la Iglesia",
+     "url": "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_sp.html",
+     "note": "Síntesis oficial de la enseñanza social de la Iglesia."
+    }
+   ]
+  },
+  {
+   "title": "Trabajo y bienes: justicia laboral y transparencia (orientaciones 5 y 6)",
+   "objective": "Comprender las orientaciones 5 y 6 del ISE, sobre la justicia en las relaciones laborales del servicio pastoral y la administración responsable y transparente de los bienes.",
+   "intro": "Una comunidad cristiana también es, muchas veces, **empleadora** y **administradora de dinero ajeno**: tiene secretarias, sacristanes, auxiliares, profesores; recibe colectas, donaciones y aportes para actividades. El ISE dedica dos orientaciones a estos temas, porque en ellos se juega buena parte de la credibilidad de la Iglesia.",
+   "comenzar": "¿Sabes cuánto dinero recaudó tu grupo o comunidad el año pasado y en qué se gastó? ¿Dónde podrías averiguarlo?",
+   "logros": [
+    "Explicar los estándares de la orientación 5 sobre relaciones laborales.",
+    "Explicar los estándares de la orientación 6 sobre administración de bienes.",
+    "Aplicar prácticas básicas de transparencia en el dinero de un grupo pastoral."
+   ],
+   "sections": [
+    {
+     "title": "Orientación 5: justicia en las relaciones laborales de servicio pastoral",
+     "body": "- **a.** Promover el cumplimiento de la legislación laboral en la Iglesia.\n- **b.** Reforzar el cumplimiento de las normas de privacidad, antidiscriminación y seguridad laboral.\n- **c.** Como empleador, ofrecer remuneraciones justas, acordes al desempeño y a las normas vigentes.\n- **d.** Seleccionar al personal mediante convocatorias abiertas, con roles claros y condiciones sanas, que se modifican en diálogo.\n- **e.** Facilitar el acceso a capacitación y desarrollo, con supervisión profesional.\n\nLa Iglesia enseña desde hace más de un siglo que el trabajador merece un salario justo, contrato, descanso y seguridad. El ISE pide que esa enseñanza se cumpla **puertas adentro**: contratos escritos, cotizaciones al día, horarios respetados, funciones definidas."
+    },
+    {
+     "title": "Trabajadores y voluntarios",
+     "body": "En la vida parroquial las fronteras se confunden: la secretaria que «como es de confianza» trabaja los domingos sin pago, el sacristán al que se llama a cualquier hora, el joven que cuida el salón «a cambio de una propina».\n\nDos criterios ayudan:\n\n- Quien es **trabajador** tiene todos los derechos que la ley le reconoce, y la buena voluntad no los reemplaza.\n- Quien es **voluntario** merece también un trato justo (orientación 4.b): tareas claras, tiempos acordados, formación, reconocimiento y la libertad de decir que no.\n\nEl estándar **5.d** pide además que los cargos remunerados no se entreguen «a dedo» a parientes o amigos, sino con convocatorias abiertas y descripciones de cargo."
+    },
+    {
+     "title": "Orientación 6: responsabilidad en la administración y uso de los bienes materiales",
+     "body": "- **a.** Administrar los bienes según el Evangelio, el carisma de la comunidad y criterios de justicia y transparencia.\n- **b.** Elaborar un presupuesto anual y llevar registros precisos.\n- **c.** Distinguir y transparentar los bienes personales respecto de los de la Iglesia.\n- **d.** Rendir cuentas al menos una vez al año, de forma responsable y transparente.\n- **e.** Entregar informes de la administración a las autoridades competentes.\n- **f.** Cumplir las obligaciones tributarias, según el derecho canónico y las leyes del Estado.\n- **g.** *(Particular para ministros y consagrados)* Observar las normas eclesiásticas sobre administración de bienes.\n\nEl derecho de la Iglesia ya pedía a los administradores actuar con la diligencia de un buen padre de familia y rendir cuentas a los fieles de lo que estos entregan (cánones 1284 y 1287). El ISE lo extiende como criterio a toda comunidad."
+    },
+    {
+     "title": "Transparencia en un grupo pequeño",
+     "body": "No hace falta ser una parroquia grande para aplicar la orientación 6. En cualquier grupo que maneje dinero:\n\n1. **Nunca una sola persona** cuenta, guarda y gasta: al menos dos cuentan la colecta o la recaudación y firman el monto.\n2. El dinero del grupo **no se mezcla** con el personal: ni en la misma billetera ni en la cuenta bancaria personal de un dirigente, salvo acuerdo conocido por todos y por el menor tiempo posible.\n3. Todo ingreso y todo gasto se **anota** con fecha y respaldo (boleta, comprobante, foto).\n4. Se **rinde cuenta** a la comunidad después de cada actividad y al cierre del año.\n5. El tesorero **rota** y entrega la información completa a quien lo sucede.\n\nLa transparencia no es desconfianza: protege a la comunidad y protege, antes que a nadie, a quien administra."
+    }
+   ],
+   "caso": {
+    "titulo": "La rifa del retiro",
+    "texto": "Un grupo juvenil organiza una rifa para financiar su retiro. La tesorera, una dirigente muy querida, guarda el dinero en su cuenta personal «para que esté seguro». Después del retiro, varios preguntan cuánto se juntó y cuánto sobró. Ella se ofende: «¿Desconfían de mí después de todo lo que hago?». Nunca se presenta un informe.",
+    "preguntas": [
+     "¿Qué estándares de la orientación 6 no se cumplieron?",
+     "¿Cómo habría protegido a la propia tesorera una rendición de cuentas?",
+     "¿Qué acuerdos debería tomar el grupo para la próxima actividad?"
+    ]
+   },
+   "claves": [
+    [
+     "Rendición de cuentas",
+     "Informe claro y verificable de lo recibido y lo gastado, presentado a la comunidad y a la autoridad."
+    ],
+    [
+     "Convocatoria abierta",
+     "Proceso público de selección para un cargo, con requisitos y funciones conocidos por todos."
+    ],
+    [
+     "Presupuesto",
+     "Previsión anual de ingresos y gastos que orienta el uso de los bienes."
+    ]
+   ],
+   "bible": {
+    "ref": "2 Corintios 8,20-21 · Bien ante el Señor y ante los hombres",
+    "comment": "Al organizar una gran colecta para los pobres de Jerusalén, Pablo se preocupa de que nadie pueda criticar su administración y la encarga a varios hermanos de confianza: quiere hacer el bien no solo ante el Señor, sino también ante los hombres."
+   },
+   "lectio": {
+    "meditar": "¿Cómo tratas a quienes trabajan en tu comunidad? ¿Y el dinero que no es tuyo?",
+    "orar": "Agradece por quienes sirven con su trabajo diario en tu parroquia, a veces sin ser vistos.",
+    "vivir": "Esta semana, pide o prepara la rendición de cuentas de la última actividad de tu grupo."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial, orientaciones 5 y 6",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Piden cumplir la legislación laboral, pagar remuneraciones justas, seleccionar con convocatorias abiertas, llevar presupuesto y registros, separar los bienes personales de los de la Iglesia y rendir cuentas al menos una vez al año."
+    },
+    {
+     "source": "Compendio de la Doctrina Social de la Iglesia 301-302",
+     "url": "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_sp.html",
+     "text": "Enumera los derechos de los trabajadores, entre ellos la justa remuneración, el descanso y ambientes de trabajo que no dañen su salud ni su integridad moral."
+    },
+    {
+     "source": "Código de Derecho Canónico, cánones 1284 y 1287",
+     "url": "https://www.vatican.va/archive/ESL0506/_INDEX.HTM",
+     "text": "Los administradores de bienes eclesiásticos deben cumplir su función con la diligencia de un buen padre de familia y rendir cuentas a los fieles de los bienes que estos entregan a la Iglesia."
+    }
+   ],
+   "questions": [
+    "¿Quiénes trabajan remuneradamente en tu comunidad? ¿Conoces sus condiciones?",
+    "¿Se pide a los voluntarios más de lo que es justo?",
+    "¿Quién maneja el dinero de tu grupo y cómo se rinde cuenta?",
+    "¿Qué resistencia aparece cuando alguien pregunta por las platas?"
+   ],
+   "activity": "Diseñen la **hoja de rendición** de su grupo: una planilla con fecha, concepto, ingreso, egreso, respaldo y saldo, y un formato de informe de media página para presentar a la comunidad después de cada actividad. Úsenla con la última actividad realizada.",
+   "practica": [
+    "Lee en el ISE las orientaciones 5 y 6.",
+    "Averigua cómo rinde cuentas tu parroquia.",
+    "Crea la planilla de ingresos y gastos de tu grupo.",
+    "Acuerda que dos personas cuenten siempre el dinero."
+   ],
+   "prayer": "Señor, dueño de todo bien, que nos confías lo que es de tus pobres: haznos administradores fieles y transparentes, y empleadores justos, para que nadie tropiece por nuestra causa. Amén.",
+   "idea": "La transparencia protege a la comunidad y a quien administra.",
+   "profundizar": {
+    "titulo": "Si descubres una irregularidad",
+    "texto": "No la calles ni la comentes por los pasillos. Reúne los datos, habla primero con la persona responsable y, si no hay respuesta, con el consejo económico o el párroco; si la irregularidad los involucra o no se corrige, corresponde informar al obispado. Guardar silencio por lealtad mal entendida daña a toda la comunidad."
+   },
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial (texto completo)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "note": "El documento de la Conferencia Episcopal de Chile que estudia este curso."
+    },
+    {
+     "title": "Código de Derecho Canónico",
+     "url": "https://www.vatican.va/archive/ESL0506/_INDEX.HTM",
+     "note": "Libro V, sobre los bienes temporales de la Iglesia."
+    }
+   ]
+  },
+  {
+   "title": "Buen trato: relaciones respetuosas y valoración de la diversidad (orientaciones 7 y 8)",
+   "objective": "Comprender las orientaciones 7 y 8 del ISE sobre las relaciones personales armoniosas y respetuosas y sobre la aceptación y valoración de las diferencias.",
+   "intro": "El tercer grupo del ISE se titula *encuentro con otros (buen trato)*. La expresión «buen trato» se ha vuelto central en la Iglesia chilena: no basta con evitar el maltrato; hay que construir activamente relaciones sanas. Esta sesión estudia las dos primeras orientaciones del grupo; la tercera, sobre la comunidad y la autoridad, abre la parte 2.",
+   "comenzar": "Escribe cinco palabras que describan cómo te gusta que te traten cuando llegas a un lugar nuevo. Luego marca cuáles de ellas ofreces tú a los demás.",
+   "logros": [
+    "Explicar los estándares de la orientación 7 sobre relaciones personales.",
+    "Explicar los estándares de la orientación 8 sobre diversidad.",
+    "Reconocer señales de manipulación, dependencia y conflicto de interés en una relación de servicio."
+   ],
+   "sections": [
+    {
+     "title": "Orientación 7: cultivar relaciones personales armoniosas y respetuosas",
+     "body": "- **a.** Relacionarse con humildad y respeto, buscando el bien del otro.\n- **b.** Establecer vínculos horizontales y fraternos, orientados al bien común.\n- **c.** Mantener una comunicación clara y oportuna con colaboradores, destinatarios, superiores y comunidad.\n- **d.** Estar alerta ante los conflictos de interés, la ganancia personal, la manipulación y la dependencia.\n- **e.** Tratar a todos con justicia y equidad, y gestionar los reclamos con métodos coherentes."
+    },
+    {
+     "title": "Cuatro alertas del estándar 7.d",
+     "body": "El ISE nombra cuatro riesgos que todo agente pastoral debe saber reconocer **en sí mismo**:\n\n| Riesgo | Cómo se ve |\n|---|---|\n| **Conflicto de interés** | Decido algo de la comunidad que me beneficia a mí o a los míos |\n| **Ganancia personal** | Uso mi servicio para obtener dinero, prestigio, contactos o afecto |\n| **Manipulación** | Consigo que el otro haga lo que quiero usando la culpa, el miedo, el halago o «la voluntad de Dios» |\n| **Dependencia** | El otro ya no decide sin mí, o yo necesito que me necesite |\n\nLa manipulación y la dependencia son especialmente serias en un contexto religioso, porque pueden disfrazarse de dirección espiritual, de cariño o de obediencia. Frases como «si no vienes, le fallas a Dios», «solo yo te entiendo» o «no le cuentes a nadie lo que conversamos» son señales de alarma."
+    },
+    {
+     "title": "Comunicación clara y reclamos",
+     "body": "El estándar **7.c** pide comunicación **clara y oportuna**: avisar los cambios a tiempo, decir las cosas a quien corresponde y no a sus espaldas, responder los mensajes, explicar las decisiones.\n\nY el **7.e** pide algo poco habitual en las comunidades: una **forma conocida de recibir reclamos**. Si alguien se siente mal tratado, ¿a quién se lo dice?, ¿quién lo escucha?, ¿qué pasa después? Cuando no hay camino, el reclamo se convierte en rumor, en alejamiento silencioso o en estallido.\n\nUn camino simple: una persona designada para escuchar (distinta del coordinador), un plazo para responder y el compromiso de no tomar represalias."
+    },
+    {
+     "title": "Orientación 8: aceptar y valorar la diversidad y las diferencias",
+     "body": "- **a.** Responder con sensibilidad a los problemas que surgen por las diferencias entre las personas.\n- **b.** Procurar comprender las creencias, temores, prejuicios y anhelos de los demás, sin importar su condición o cultura.\n- **c.** Ser atento con quienes tienen dificultades de idioma o de comunicación.\n\nLa diversidad en una comunidad es real: edades, culturas, países de origen, niveles de estudio, sensibilidades espirituales, situaciones familiares, capacidades. El ISE no pide borrar las diferencias ni estar de acuerdo en todo, sino **comprender antes de juzgar**. El estándar 8.c toca situaciones muy concretas: el migrante que aún no domina el idioma, la persona sorda, el adulto mayor que no usa teléfono inteligente, quien no sabe leer bien."
+    }
+   ],
+   "caso": {
+    "titulo": "«Solo confía en mí»",
+    "texto": "Carolina, de 17 años, encuentra en su asesora de grupo a alguien que la escucha como nadie. La asesora le escribe todos los días, le dice que es su «preferida» y que sus amigas del colegio «no la entienden como ella». Poco a poco, Carolina deja de salir con sus amigas y consulta a la asesora cada decisión. Cuando su mamá se inquieta, la asesora responde que solo la está acompañando.",
+    "preguntas": [
+     "¿Qué alertas del estándar 7.d aparecen?",
+     "¿En qué se diferencia acompañar de generar dependencia?",
+     "¿Qué debería hacer otro dirigente que observe esta situación?"
+    ]
+   },
+   "claves": [
+    [
+     "Buen trato",
+     "Forma de relación que reconoce al otro como persona digna, con respeto, empatía, comunicación clara y uso cuidadoso del poder."
+    ],
+    [
+     "Manipulación",
+     "Influir en otro para que haga lo que uno quiere, usando la culpa, el miedo, el halago o argumentos religiosos."
+    ],
+    [
+     "Conflicto de interés",
+     "Situación en que el beneficio propio puede torcer una decisión que debería buscar el bien de otros."
+    ]
+   ],
+   "bible": {
+    "ref": "Romanos 12,9-10 · Ámense de verdad",
+    "comment": "Pablo pide un amor sin fingimiento: amarse cordialmente unos a otros y estimar a los demás como más dignos. El buen trato cristiano no es cortesía de superficie: es estima real por el otro."
+   },
+   "lectio": {
+    "meditar": "¿Hay alguien que dependa demasiado de ti, o de quien tú dependas?",
+    "orar": "Pide libertad interior para servir sin necesitar que te necesiten.",
+    "vivir": "Esta semana, comunica a tiempo y directamente algo que has estado evitando decir."
+   },
+   "church": [
+    {
+     "source": "Integridad en el Servicio Eclesial, orientaciones 7 y 8",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "text": "Piden vínculos horizontales y fraternos, comunicación clara, alerta ante la manipulación y la dependencia, gestión justa de los reclamos y comprensión de las diferencias."
+    },
+    {
+     "source": "Fratelli tutti 218",
+     "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+     "text": "La capacidad de reconocer al otro el derecho de ser él mismo y de ser diferente hace posible un pacto social y cultural."
+    },
+    {
+     "source": "Francisco, Carta al Pueblo de Dios (20 de agosto de 2018)",
+     "url": "https://www.vatican.va/content/francesco/es/letters/2018/documents/papa-francesco_20180820_lettera-popolo-didio.html",
+     "text": "Parte de la frase de san Pablo «si un miembro sufre, todos sufren con él». Reconoce los abusos sexuales, de poder y de conciencia, pide decir no a toda forma de clericalismo y llama a todo el Pueblo de Dios a construir una cultura del cuidado."
+    }
+   ],
+   "questions": [
+    "¿Qué entiende tu comunidad por «buen trato»?",
+    "¿Has visto manipulación con argumentos religiosos? ¿Cómo era?",
+    "¿A quién puede acudir alguien de tu grupo que se sienta mal tratado?",
+    "¿Qué diferencias le cuesta más aceptar a tu comunidad?"
+   ],
+   "activity": "Redacten juntos el **acuerdo de buen trato** del grupo: diez frases breves en positivo («aquí escuchamos sin interrumpir», «aquí las correcciones se hacen en privado»), más el camino para presentar un reclamo. Fírmenlo todos y pónganlo a la vista.",
+   "practica": [
+    "Lee en el ISE las orientaciones 7 y 8.",
+    "Revisa las cuatro alertas del 7.d en tu propio servicio.",
+    "Redacta con tu grupo el acuerdo de buen trato.",
+    "Define a quién se presentan los reclamos."
+   ],
+   "prayer": "Señor Jesús, manso y humilde de corazón: líbranos de usar a los demás, de atarlos a nosotros y de imponernos. Enséñanos a tratar a cada persona con la delicadeza con que tú nos tratas. Amén.",
+   "idea": "Buen trato no es solo no maltratar: es construir relaciones que hacen libres.",
+   "profundizar": {
+    "titulo": "Tres preguntas de autoexamen",
+    "texto": "1. ¿Esta relación hace al otro **más libre** o más dependiente de mí?\n2. ¿Podría contar con tranquilidad a mi comunidad **todo** lo que hago y digo en ella?\n3. ¿Qué gano **yo** con esto?\n\nSi alguna respuesta incomoda, conviene conversarla con un acompañante o con otro miembro del equipo. La parte 2 del curso profundiza en el uso del poder."
+   },
+   "resources": [
+    {
+     "title": "Integridad en el Servicio Eclesial (texto completo)",
+     "url": "https://www.iglesia.cl/prevenirabusos/documentos/ise.pdf",
+     "note": "El documento de la Conferencia Episcopal de Chile que estudia este curso."
+    },
+    {
+     "title": "Carta del papa Francisco al Pueblo de Dios",
+     "url": "https://www.vatican.va/content/francesco/es/letters/2018/documents/papa-francesco_20180820_lettera-popolo-didio.html",
+     "note": "Sobre los abusos sexuales, de poder y de conciencia."
+    },
+    {
+     "title": "Cuidado y Esperanza. Líneas Guía de la CECh",
+     "url": "https://www.iglesia.cl/documentos_sac/27052015_938am_5565bacb65812.pdf",
+     "note": "Marco de principios en que se apoya el ISE."
+    }
+   ]
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Cómo define el ISE su propia naturaleza?",
+   "options": [
+    "Es una ley penal de la Iglesia.",
+    "Son orientaciones; no es una ley ni un código de conducta.",
+    "Es un reglamento solo para sacerdotes."
+   ],
+   "correct": 1,
+   "feedback": "El texto lo afirma expresamente y pide que cada comunidad lo haga propio."
+  },
+  {
+   "q": "¿A quiénes se dirige el ISE?",
+   "options": [
+    "Solo a obispos y sacerdotes.",
+    "A ministros, consagrados y laicos con un servicio pastoral encomendado, remunerado o voluntario.",
+    "Solo a quienes trabajan con menores de edad."
+   ],
+   "correct": 1,
+   "feedback": "Incluye a todo bautizado que sirve por encargo de una autoridad responsable."
+  },
+  {
+   "q": "¿Cuántas orientaciones tiene el ISE y en cuántos grupos?",
+   "options": [
+    "10 orientaciones en 3 grupos.",
+    "20 orientaciones en 6 grupos.",
+    "50 normas en 12 capítulos."
+   ],
+   "correct": 1,
+   "feedback": "Testimonio, justicia, buen trato, ambientes sanos, calidad del servicio y cuidado de sí."
+  },
+  {
+   "q": "¿Qué pide el estándar 1.h ante un conflicto?",
+   "options": [
+    "Evitar hablar del tema para no dividir.",
+    "Resolverlo mediante el diálogo y la escucha, con mediadores capacitados si hace falta.",
+    "Que decida siempre quien tiene más antigüedad."
+   ],
+   "correct": 1,
+   "feedback": "Los conflictos son normales; lo que importa es cómo se resuelven."
+  },
+  {
+   "q": "¿Qué pide el estándar 2.d cuando un hecho inesperado golpea a la comunidad?",
+   "options": [
+    "Guardar silencio hasta que se olvide.",
+    "Crear instancias comunitarias para expresar su impacto.",
+    "Que solo el consejo se entere."
+   ],
+   "correct": 1,
+   "feedback": "El silencio y los rumores hacen más daño que la noticia."
+  },
+  {
+   "q": "Según el estándar 3.c, ¿qué corresponde ante una necesidad socioeconómica?",
+   "options": [
+    "Resolverla siempre con dinero propio.",
+    "Escuchar con empatía y derivar a los organismos competentes.",
+    "Decir que no es tema de la Iglesia."
+   ],
+   "correct": 1,
+   "feedback": "Por eso conviene tener un directorio de redes."
+  },
+  {
+   "q": "¿Qué menciona expresamente la orientación 4 sobre el lenguaje?",
+   "options": [
+    "Que debe ser formal y solemne.",
+    "Que debe ser respetuoso, sin sarcasmo ni menosprecio.",
+    "Que se evite hablar de temas difíciles."
+   ],
+   "correct": 1,
+   "feedback": "El lenguaje hiriente crea ambientes donde unos humillan y otros aguantan."
+  },
+  {
+   "q": "¿Qué pide la orientación 5 para seleccionar personal?",
+   "options": [
+    "Preferir a familiares de confianza.",
+    "Convocatorias abiertas, con roles claros y condiciones sanas.",
+    "Que decida solo el párroco sin informar."
+   ],
+   "correct": 1,
+   "feedback": "Y además cumplir la legislación laboral y pagar remuneraciones justas."
+  },
+  {
+   "q": "¿Cada cuánto pide el ISE rendir cuentas de la administración de los bienes?",
+   "options": [
+    "Solo cuando alguien reclama.",
+    "Al menos una vez al año.",
+    "Cada cinco años."
+   ],
+   "correct": 1,
+   "feedback": "Estándar 6.d, de forma responsable y transparente."
+  },
+  {
+   "q": "¿Cuál de estas frases es una señal de manipulación según lo visto en la orientación 7?",
+   "options": [
+    "«¿Qué piensas tú?»",
+    "«No le cuentes a nadie lo que conversamos; solo yo te entiendo.»",
+    "«Puedes decir que no.»"
+   ],
+   "correct": 1,
+   "feedback": "El secreto y la exclusividad son señales de alarma."
+  }
+ ],
+ "taller": "Trabajo final de la parte 1: el diagnóstico de buen trato y justicia de tu comunidad. Entrega: el mapa de la acogida con tres cambios propuestos; el directorio de redes de tu sector; la planilla y el formato de rendición de cuentas del grupo, aplicados a una actividad real; y el acuerdo de buen trato firmado por el grupo, con el camino para presentar reclamos. Preséntalo a tu coordinador o asesor."
+}

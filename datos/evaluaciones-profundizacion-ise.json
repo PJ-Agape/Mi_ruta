@@ -1,0 +1,323 @@
+{
+ "ise-1-cierre": {
+  "titulo": "Cierre del módulo: Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+  "aprobacion": 70,
+  "taller": "Trabajo final de la parte 1: el diagnóstico de buen trato y justicia de tu comunidad. Entrega: el mapa de la acogida con tres cambios propuestos; el directorio de redes de tu sector; la planilla y el formato de rendición de cuentas del grupo, aplicados a una actividad real; y el acuerdo de buen trato firmado por el grupo, con el camino para presentar reclamos. Preséntalo a tu coordinador o asesor.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo define el ISE su propia naturaleza?",
+    "opciones": [
+     "Es una ley penal de la Iglesia.",
+     "Son orientaciones; no es una ley ni un código de conducta.",
+     "Es un reglamento solo para sacerdotes."
+    ],
+    "correcta": 1,
+    "explicacion": "El texto lo afirma expresamente y pide que cada comunidad lo haga propio."
+   },
+   {
+    "pregunta": "¿A quiénes se dirige el ISE?",
+    "opciones": [
+     "Solo a obispos y sacerdotes.",
+     "A ministros, consagrados y laicos con un servicio pastoral encomendado, remunerado o voluntario.",
+     "Solo a quienes trabajan con menores de edad."
+    ],
+    "correcta": 1,
+    "explicacion": "Incluye a todo bautizado que sirve por encargo de una autoridad responsable."
+   },
+   {
+    "pregunta": "¿Cuántas orientaciones tiene el ISE y en cuántos grupos?",
+    "opciones": [
+     "10 orientaciones en 3 grupos.",
+     "20 orientaciones en 6 grupos.",
+     "50 normas en 12 capítulos."
+    ],
+    "correcta": 1,
+    "explicacion": "Testimonio, justicia, buen trato, ambientes sanos, calidad del servicio y cuidado de sí."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 1.h ante un conflicto?",
+    "opciones": [
+     "Evitar hablar del tema para no dividir.",
+     "Resolverlo mediante el diálogo y la escucha, con mediadores capacitados si hace falta.",
+     "Que decida siempre quien tiene más antigüedad."
+    ],
+    "correcta": 1,
+    "explicacion": "Los conflictos son normales; lo que importa es cómo se resuelven."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 2.d cuando un hecho inesperado golpea a la comunidad?",
+    "opciones": [
+     "Guardar silencio hasta que se olvide.",
+     "Crear instancias comunitarias para expresar su impacto.",
+     "Que solo el consejo se entere."
+    ],
+    "correcta": 1,
+    "explicacion": "El silencio y los rumores hacen más daño que la noticia."
+   },
+   {
+    "pregunta": "Según el estándar 3.c, ¿qué corresponde ante una necesidad socioeconómica?",
+    "opciones": [
+     "Resolverla siempre con dinero propio.",
+     "Escuchar con empatía y derivar a los organismos competentes.",
+     "Decir que no es tema de la Iglesia."
+    ],
+    "correcta": 1,
+    "explicacion": "Por eso conviene tener un directorio de redes."
+   },
+   {
+    "pregunta": "¿Qué menciona expresamente la orientación 4 sobre el lenguaje?",
+    "opciones": [
+     "Que debe ser formal y solemne.",
+     "Que debe ser respetuoso, sin sarcasmo ni menosprecio.",
+     "Que se evite hablar de temas difíciles."
+    ],
+    "correcta": 1,
+    "explicacion": "El lenguaje hiriente crea ambientes donde unos humillan y otros aguantan."
+   },
+   {
+    "pregunta": "¿Qué pide la orientación 5 para seleccionar personal?",
+    "opciones": [
+     "Preferir a familiares de confianza.",
+     "Convocatorias abiertas, con roles claros y condiciones sanas.",
+     "Que decida solo el párroco sin informar."
+    ],
+    "correcta": 1,
+    "explicacion": "Y además cumplir la legislación laboral y pagar remuneraciones justas."
+   },
+   {
+    "pregunta": "¿Cada cuánto pide el ISE rendir cuentas de la administración de los bienes?",
+    "opciones": [
+     "Solo cuando alguien reclama.",
+     "Al menos una vez al año.",
+     "Cada cinco años."
+    ],
+    "correcta": 1,
+    "explicacion": "Estándar 6.d, de forma responsable y transparente."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases es una señal de manipulación según lo visto en la orientación 7?",
+    "opciones": [
+     "«¿Qué piensas tú?»",
+     "«No le cuentes a nadie lo que conversamos; solo yo te entiendo.»",
+     "«Puedes decir que no.»"
+    ],
+    "correcta": 1,
+    "explicacion": "El secreto y la exclusividad son señales de alarma."
+   }
+  ]
+ },
+ "ise-2-cierre": {
+  "titulo": "Cierre del módulo: Profundización ISE · Parte 2: autoridad, poder y ambientes sanos",
+  "aprobacion": 70,
+  "taller": "Trabajo final de la parte 2: el plan de ambientes sanos de tu comunidad. Entrega: el resultado de la evaluación anónima de la autoridad con dos cambios acordados; el mapa de poder del grupo con sus resguardos; el recorrido de los espacios pastorales con las mejoras propuestas; el registro de derivación; y la ficha de prevención con contactos y estado de formación del equipo. Preséntalo al párroco o al encargado de prevención de tu comunidad.",
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo pide el estándar 9.c que se ejerza la autoridad?",
+    "opciones": [
+     "Con firmeza y sin dar explicaciones.",
+     "Con prudencia, como servicio y sin beneficio propio.",
+     "Solo por quienes tienen más años en la comunidad."
+    ],
+    "correcta": 1,
+    "explicacion": "Es la medida del Evangelio: el que quiera ser grande, que sirva."
+   },
+   {
+    "pregunta": "¿Qué promueve expresamente el estándar 9.d?",
+    "opciones": [
+     "La participación de la mujer y de la vocación laical en las instancias eclesiales y de decisión.",
+     "Que los laicos se limiten a tareas prácticas.",
+     "Que las decisiones se tomen siempre en secreto."
+    ],
+    "correcta": 0,
+    "explicacion": "No solo colaborar: estar donde se decide."
+   },
+   {
+    "pregunta": "¿Qué pide el ISE frente al culto a la persona?",
+    "opciones": [
+     "Fomentarlo si el líder es bueno.",
+     "Evitarlo, hacia uno mismo o hacia otros, y corregirlo cuando aparece.",
+     "Ignorarlo, porque es inevitable."
+    ],
+    "correcta": 1,
+    "explicacion": "Estándar 9.f; su antídoto es la corrección fraterna (9.g)."
+   },
+   {
+    "pregunta": "Según la orientación 10, ¿quién es responsable de cuidar el límite en una relación asimétrica?",
+    "opciones": [
+     "La persona con menos poder.",
+     "Quien tiene más poder.",
+     "Nadie; depende de las circunstancias."
+    ],
+    "correcta": 1,
+    "explicacion": "A mayor diferencia de poder, menor capacidad del otro para decir que no."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 10.d cuando una relación de servicio se vuelve insegura o ineficaz?",
+    "opciones": [
+     "Manejarla a solas con discreción.",
+     "Resolverla dialogando con un tercero.",
+     "Esperar a que pase."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie se cuida solo ni es buen juez de sí mismo."
+   },
+   {
+    "pregunta": "¿Dónde pide el estándar 11.d que se realice el servicio?",
+    "opciones": [
+     "En lugares seguros, abiertos y visibles.",
+     "En espacios privados, para dar confianza.",
+     "En la casa del agente pastoral."
+    ],
+    "correcta": 0,
+    "explicacion": "No en espacios restringidos o solitarios."
+   },
+   {
+    "pregunta": "¿Qué criterio da el ISE para el uso de redes sociales (11.h)?",
+    "opciones": [
+     "Están prohibidas para los agentes pastorales.",
+     "Usarlas con los mismos criterios que la relación presencial.",
+     "Son un espacio privado sin reglas."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo que no haría en persona, tampoco por mensajes."
+   },
+   {
+    "pregunta": "¿Qué establece el estándar 11.i sobre el alcohol?",
+    "opciones": [
+     "Se puede consumir con moderación ante menores.",
+     "No ofrecerlo a menores o personas vulnerables ni consumirlo en su presencia.",
+     "Solo se prohíbe en la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "Incluye campamentos, misiones y celebraciones del grupo."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 12.e a quien acompaña a otros?",
+    "opciones": [
+     "Que no necesite ayuda de nadie.",
+     "Que reciba acompañamiento espiritual frecuente y supervisión.",
+     "Que acompañe al mayor número posible de personas."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie acompaña bien si no es acompañado."
+   },
+   {
+    "pregunta": "¿Qué debe tener cada diócesis, según las consideraciones finales del ISE?",
+    "opciones": [
+     "Un consejo de prevención y una persona responsable de recibir denuncias, disponible de modo permanente.",
+     "Solo un buzón de sugerencias.",
+     "Nada; depende de cada parroquia."
+    ],
+    "correcta": 0,
+    "explicacion": "Además de las instancias nacionales: el Consejo Nacional y el Departamento de Prevención de Abusos."
+   }
+  ]
+ },
+ "ise-3-cierre": {
+  "titulo": "Cierre del módulo: Profundización ISE · Parte 3: responder, servir con calidad y cuidarse",
+  "aprobacion": 70,
+  "taller": "Trabajo final del curso: el compromiso de integridad. Entrega: la ficha de bolsillo ante una revelación, con los contactos eclesiales y civiles de tu diócesis; tu descripción de servicio y tu plan de formación en cuatro dimensiones; la carpeta de registros del grupo organizada; tu plan de cuidado personal; y el compromiso de integridad, personal y comunitario, firmado y presentado al párroco o asesor, con fecha de revisión a seis meses.",
+  "preguntas": [
+   {
+    "pregunta": "¿Qué denuncias pide acoger el estándar 14.a?",
+    "opciones": [
+     "Solo las de abuso sexual de menores.",
+     "Las de manipulación de conciencia, abuso de poder o abuso sexual, y las consultas sobre estos temas.",
+     "Solo las que vienen con pruebas."
+    ],
+    "correcta": 1,
+    "explicacion": "Con prontitud, seriedad y sensibilidad pastoral."
+   },
+   {
+    "pregunta": "Si un joven te revela un abuso, ¿qué corresponde?",
+    "opciones": [
+     "Prometerle que no le contarás a nadie.",
+     "Escuchar, creerle, no prometer secreto e informar el mismo día a quien corresponde.",
+     "Preguntarle todos los detalles para estar seguro."
+    ],
+    "correcta": 1,
+    "explicacion": "Investigar no te corresponde; proteger e informar, sí."
+   },
+   {
+    "pregunta": "¿Qué debe hacerse con quien presentó una denuncia, según el estándar 14.b?",
+    "opciones": [
+     "Nada más; ya cumplió.",
+     "Comunicarle que su denuncia fue transmitida, con la fecha y la persona que sigue el caso.",
+     "Pedirle que guarde silencio."
+    ],
+    "correcta": 1,
+    "explicacion": "Dejar a alguien sin noticias es volver a herirlo."
+   },
+   {
+    "pregunta": "¿A quién obliga el sigilo sacramental?",
+    "opciones": [
+     "A todo agente pastoral que escucha una confidencia.",
+     "Al sacerdote, respecto de lo oído en la confesión.",
+     "A los catequistas en la catequesis."
+    ],
+    "correcta": 1,
+    "explicacion": "Un laico no puede ampararse en «me lo contaron en confianza» para callar un abuso."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases revictimiza?",
+    "opciones": [
+     "«Te creo.»",
+     "«¿Por qué hablas recién ahora?»",
+     "«¿Qué necesitas?»"
+    ],
+    "correcta": 1,
+    "explicacion": "Dudar, minimizar, culpar y marginar vuelven a dañar a la víctima."
+   },
+   {
+    "pregunta": "Según el apartado final del ISE, ¿qué va primero al restablecer la comunión?",
+    "opciones": [
+     "Cuidar la imagen de la comunidad.",
+     "Escuchar y acoger a las personas afectadas.",
+     "Olvidar lo ocurrido lo antes posible."
+    ],
+    "correcta": 1,
+    "explicacion": "Luego, actuar con prontitud y justicia, y sanar a la comunidad."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 16.e?",
+    "opciones": [
+     "Compartir las situaciones personales como petición de oración.",
+     "Resguardar la confidencialidad y la privacidad de la información a la que se accede.",
+     "Guardar silencio ante cualquier hecho, incluso un abuso."
+    ],
+    "correcta": 1,
+    "explicacion": "Confidencialidad no es encubrimiento."
+   },
+   {
+    "pregunta": "¿Cómo pide el estándar 18.c que se entregue la ayuda económica?",
+    "opciones": [
+     "Personalmente, del bolsillo del agente pastoral.",
+     "Por los cauces establecidos de la comunidad, no de manera personal.",
+     "Como préstamo con intereses."
+    ],
+    "correcta": 1,
+    "explicacion": "Evita el favoritismo y la dependencia."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 19.b?",
+    "opciones": [
+     "No dejar nada por escrito.",
+     "Llevar notas fechadas cuando se brinda orientación, consejo o apoyo emocional.",
+     "Publicar las conversaciones de acompañamiento."
+    ],
+    "correcta": 1,
+    "explicacion": "Notas breves y sobrias, guardadas bajo resguardo."
+   },
+   {
+    "pregunta": "¿Qué incluye la orientación 20 entre sus estándares comunes?",
+    "opciones": [
+     "Trabajar sin descanso por el Reino.",
+     "Usar con regularidad los días libres y las vacaciones, y mantener el equilibrio con la familia, la salud, la oración y las amistades.",
+     "Evitar las amistades fuera de la parroquia."
+    ],
+    "correcta": 1,
+    "explicacion": "Cuidarse es parte de la integridad."
+   }
+  ]
+ }
+}

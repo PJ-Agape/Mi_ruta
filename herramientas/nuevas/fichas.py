@@ -126,6 +126,10 @@ FICHAS = {
         "ejes": ["Comunicar con sentido", "Mapa de plataformas", "Tipos de contenido y formatos", "Identidad visual y tono de voz", "Cuidado de las personas en lo digital"],
         "competencias": ["Explicar para qué comunica una comunidad cristiana y elegir sus plataformas.", "Planificar contenidos por pilares y formatos con las medidas correctas.", "Definir la identidad del grupo y cuidar la imagen y los datos de las personas."],
     },
+    "profundizacion-ise": {
+        "ejes": ["Origen, naturaleza y estructura del ISE", "Testimonio, justicia y buen trato", "Autoridad, poder y ambientes sanos", "Respuesta a denuncias y atención a las víctimas", "Calidad del servicio y cuidado de sí"],
+        "competencias": ["Explicar y citar las veinte orientaciones del ISE.", "Aplicar sus estándares de buen trato, uso del poder y cuidado de los límites en la pastoral.", "Actuar correctamente ante una revelación o denuncia y conocer los canales de la diócesis."],
+    },
     "comunicacion-digital": {
         "ejes": ["Comunicar con sentido, plataformas e identidad", "Textos, diseño, fotografía y video", "Community manager y calendario editorial", "Programación, moderación, crisis y métricas"],
         "competencias": ["Crear contenidos de calidad para redes con herramientas gratuitas.", "Gestionar la comunicación del grupo en equipo, con calendario, programación y métricas.", "Cuidar a las personas: imagen de menores, datos personales, moderación y protocolos de crisis."],

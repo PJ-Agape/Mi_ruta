@@ -31,6 +31,7 @@ from fichas import FICHAS, enlaces_agappe  # noqa: E402
 from debates import debate_md  # noqa: E402
 import hd_taller as HDT  # noqa: E402
 import comunicacion_digital as CD  # noqa: E402
+import ise as ISE  # noqa: E402
 sys.path.insert(0, str(R / "herramientas"))
 from formaciones import md  # noqa: E402
 
@@ -199,7 +200,7 @@ def propedeutico():
 
 
 def modulos():
-    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA + HERRAMIENTAS + COMUNICACION}
+    M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA + HERRAMIENTAS + COMUNICACION + ISE.IDS}
     M[PROPEDEUTICO] = propedeutico()
     M["dj-identidad"] = dj("Identidad y espiritualidad del agente pastoral", [U(A, "m1-u01"), U(A, "m1-u02"), U(A, "m1-u05"), U(A, "m1-u06"), U(A, "m5-u01")], "dj-identidad")
     M["dj-acogida"] = dj("Acogida y vida de grupo", [U(A, "m2-u01"), U(A, "m2-u02"), U(A, "m2-u03"), U(A, "m2-u04"), U(A, "m1-u04")], "dj-acogida")
@@ -267,6 +268,11 @@ CURSOS = [
   "publico": "Desde 14 años", "elige": 0, "modalidad": "En línea, a tu ritmo, con práctica en tus propias cuentas",
   "obligatorios": ["comunicacion-y-redes"] + COMUNICACION, "optativos": [],
   "requiere": {"redes-2": ["comunicacion-y-redes"], "redes-3": ["comunicacion-y-redes", "redes-2"]}},
+ {"id": "profundizacion-ise", "titulo": "Profundización ISE", "subtitulo": "Integridad en el Servicio Eclesial, orientación por orientación",
+  "descripcion": "Estudio completo del documento Integridad en el Servicio Eclesial de la Conferencia Episcopal de Chile: sus veinte orientaciones sobre testimonio, justicia, buen trato, ambientes sanos y prevención de abusos, calidad del servicio pastoral y cuidado de sí mismo, con casos de la vida pastoral y trabajos prácticos para aplicarlo en tu comunidad. Tres partes progresivas, cada una con su constancia.",
+  "publico": ISE.PUBLICO, "elige": 0, "modalidad": "En línea, a tu ritmo, con el documento a mano",
+  "obligatorios": ISE.IDS, "optativos": [],
+  "requiere": {"ise-2": ["ise-1"], "ise-3": ["ise-1", "ise-2"]}},
  {"id": "catequista", "titulo": "Catequista y agente de pastoral", "subtitulo": "Transmitir la fe y servir en la comunidad",
   "descripcion": "Forma catequistas con mirada de agente de pastoral: conocen la fe y los sacramentos, preparan y animan la catequesis, acompañan personas, animan grupos y coordinan con la comunidad.",
   "publico": "Desde 16 años", "elige": 2,

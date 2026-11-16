@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo define el ISE su propia naturaleza?",
+    "opciones": [
+     "Es una ley penal de la Iglesia.",
+     "Son orientaciones; no es una ley ni un código de conducta.",
+     "Es un reglamento solo para sacerdotes."
+    ],
+    "correcta": 1,
+    "explicacion": "El texto lo afirma expresamente y pide que cada comunidad lo haga propio."
+   },
+   {
+    "pregunta": "¿A quiénes se dirige el ISE?",
+    "opciones": [
+     "Solo a obispos y sacerdotes.",
+     "A ministros, consagrados y laicos con un servicio pastoral encomendado, remunerado o voluntario.",
+     "Solo a quienes trabajan con menores de edad."
+    ],
+    "correcta": 1,
+    "explicacion": "Incluye a todo bautizado que sirve por encargo de una autoridad responsable."
+   },
+   {
+    "pregunta": "¿Cuántas orientaciones tiene el ISE y en cuántos grupos?",
+    "opciones": [
+     "10 orientaciones en 3 grupos.",
+     "20 orientaciones en 6 grupos.",
+     "50 normas en 12 capítulos."
+    ],
+    "correcta": 1,
+    "explicacion": "Testimonio, justicia, buen trato, ambientes sanos, calidad del servicio y cuidado de sí."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 1.h ante un conflicto?",
+    "opciones": [
+     "Evitar hablar del tema para no dividir.",
+     "Resolverlo mediante el diálogo y la escucha, con mediadores capacitados si hace falta.",
+     "Que decida siempre quien tiene más antigüedad."
+    ],
+    "correcta": 1,
+    "explicacion": "Los conflictos son normales; lo que importa es cómo se resuelven."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 2.d cuando un hecho inesperado golpea a la comunidad?",
+    "opciones": [
+     "Guardar silencio hasta que se olvide.",
+     "Crear instancias comunitarias para expresar su impacto.",
+     "Que solo el consejo se entere."
+    ],
+    "correcta": 1,
+    "explicacion": "El silencio y los rumores hacen más daño que la noticia."
+   },
+   {
+    "pregunta": "Según el estándar 3.c, ¿qué corresponde ante una necesidad socioeconómica?",
+    "opciones": [
+     "Resolverla siempre con dinero propio.",
+     "Escuchar con empatía y derivar a los organismos competentes.",
+     "Decir que no es tema de la Iglesia."
+    ],
+    "correcta": 1,
+    "explicacion": "Por eso conviene tener un directorio de redes."
+   },
+   {
+    "pregunta": "¿Qué menciona expresamente la orientación 4 sobre el lenguaje?",
+    "opciones": [
+     "Que debe ser formal y solemne.",
+     "Que debe ser respetuoso, sin sarcasmo ni menosprecio.",
+     "Que se evite hablar de temas difíciles."
+    ],
+    "correcta": 1,
+    "explicacion": "El lenguaje hiriente crea ambientes donde unos humillan y otros aguantan."
+   },
+   {
+    "pregunta": "¿Qué pide la orientación 5 para seleccionar personal?",
+    "opciones": [
+     "Preferir a familiares de confianza.",
+     "Convocatorias abiertas, con roles claros y condiciones sanas.",
+     "Que decida solo el párroco sin informar."
+    ],
+    "correcta": 1,
+    "explicacion": "Y además cumplir la legislación laboral y pagar remuneraciones justas."
+   },
+   {
+    "pregunta": "¿Cada cuánto pide el ISE rendir cuentas de la administración de los bienes?",
+    "opciones": [
+     "Solo cuando alguien reclama.",
+     "Al menos una vez al año.",
+     "Cada cinco años."
+    ],
+    "correcta": 1,
+    "explicacion": "Estándar 6.d, de forma responsable y transparente."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases es una señal de manipulación según lo visto en la orientación 7?",
+    "opciones": [
+     "«¿Qué piensas tú?»",
+     "«No le cuentes a nadie lo que conversamos; solo yo te entiendo.»",
+     "«Puedes decir que no.»"
+    ],
+    "correcta": 1,
+    "explicacion": "El secreto y la exclusividad son señales de alarma."
+   }
+  ]
+ }
+}

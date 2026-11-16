@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Profundización ISE · Parte 3: responder, servir con calidad y cuidarse",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Qué denuncias pide acoger el estándar 14.a?",
+    "opciones": [
+     "Solo las de abuso sexual de menores.",
+     "Las de manipulación de conciencia, abuso de poder o abuso sexual, y las consultas sobre estos temas.",
+     "Solo las que vienen con pruebas."
+    ],
+    "correcta": 1,
+    "explicacion": "Con prontitud, seriedad y sensibilidad pastoral."
+   },
+   {
+    "pregunta": "Si un joven te revela un abuso, ¿qué corresponde?",
+    "opciones": [
+     "Prometerle que no le contarás a nadie.",
+     "Escuchar, creerle, no prometer secreto e informar el mismo día a quien corresponde.",
+     "Preguntarle todos los detalles para estar seguro."
+    ],
+    "correcta": 1,
+    "explicacion": "Investigar no te corresponde; proteger e informar, sí."
+   },
+   {
+    "pregunta": "¿Qué debe hacerse con quien presentó una denuncia, según el estándar 14.b?",
+    "opciones": [
+     "Nada más; ya cumplió.",
+     "Comunicarle que su denuncia fue transmitida, con la fecha y la persona que sigue el caso.",
+     "Pedirle que guarde silencio."
+    ],
+    "correcta": 1,
+    "explicacion": "Dejar a alguien sin noticias es volver a herirlo."
+   },
+   {
+    "pregunta": "¿A quién obliga el sigilo sacramental?",
+    "opciones": [
+     "A todo agente pastoral que escucha una confidencia.",
+     "Al sacerdote, respecto de lo oído en la confesión.",
+     "A los catequistas en la catequesis."
+    ],
+    "correcta": 1,
+    "explicacion": "Un laico no puede ampararse en «me lo contaron en confianza» para callar un abuso."
+   },
+   {
+    "pregunta": "¿Cuál de estas frases revictimiza?",
+    "opciones": [
+     "«Te creo.»",
+     "«¿Por qué hablas recién ahora?»",
+     "«¿Qué necesitas?»"
+    ],
+    "correcta": 1,
+    "explicacion": "Dudar, minimizar, culpar y marginar vuelven a dañar a la víctima."
+   },
+   {
+    "pregunta": "Según el apartado final del ISE, ¿qué va primero al restablecer la comunión?",
+    "opciones": [
+     "Cuidar la imagen de la comunidad.",
+     "Escuchar y acoger a las personas afectadas.",
+     "Olvidar lo ocurrido lo antes posible."
+    ],
+    "correcta": 1,
+    "explicacion": "Luego, actuar con prontitud y justicia, y sanar a la comunidad."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 16.e?",
+    "opciones": [
+     "Compartir las situaciones personales como petición de oración.",
+     "Resguardar la confidencialidad y la privacidad de la información a la que se accede.",
+     "Guardar silencio ante cualquier hecho, incluso un abuso."
+    ],
+    "correcta": 1,
+    "explicacion": "Confidencialidad no es encubrimiento."
+   },
+   {
+    "pregunta": "¿Cómo pide el estándar 18.c que se entregue la ayuda económica?",
+    "opciones": [
+     "Personalmente, del bolsillo del agente pastoral.",
+     "Por los cauces establecidos de la comunidad, no de manera personal.",
+     "Como préstamo con intereses."
+    ],
+    "correcta": 1,
+    "explicacion": "Evita el favoritismo y la dependencia."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 19.b?",
+    "opciones": [
+     "No dejar nada por escrito.",
+     "Llevar notas fechadas cuando se brinda orientación, consejo o apoyo emocional.",
+     "Publicar las conversaciones de acompañamiento."
+    ],
+    "correcta": 1,
+    "explicacion": "Notas breves y sobrias, guardadas bajo resguardo."
+   },
+   {
+    "pregunta": "¿Qué incluye la orientación 20 entre sus estándares comunes?",
+    "opciones": [
+     "Trabajar sin descanso por el Reino.",
+     "Usar con regularidad los días libres y las vacaciones, y mantener el equilibrio con la familia, la salud, la oración y las amistades.",
+     "Evitar las amistades fuera de la parroquia."
+    ],
+    "correcta": 1,
+    "explicacion": "Cuidarse es parte de la integridad."
+   }
+  ]
+ }
+}

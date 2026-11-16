@@ -1,0 +1,44 @@
+{
+  "id": "profundizacion-ise",
+  "titulo": "Profundización ISE",
+  "subtitulo": "Integridad en el Servicio Eclesial, orientación por orientación",
+  "descripcion": "Estudio completo del documento Integridad en el Servicio Eclesial de la Conferencia Episcopal de Chile: sus veinte orientaciones sobre testimonio, justicia, buen trato, ambientes sanos y prevención de abusos, calidad del servicio pastoral y cuidado de sí mismo, con casos de la vida pastoral y trabajos prácticos para aplicarlo en tu comunidad. Tres partes progresivas, cada una con su constancia.",
+  "nivel": "curso",
+  "nuevo": false,
+  "modulos_n": 3,
+  "duracion": "27 horas · 3 módulos",
+  "modalidad": "En línea, a tu ritmo, con el documento a mano",
+  "publico": "Desde 14 años; para todos los que tienen un servicio en la Iglesia",
+  "tipo": "curso",
+  "orden": 9,
+  "elige": 0,
+  "horas": 27,
+  "recursos": {},
+  "ejes": [
+    "Origen, naturaleza y estructura del ISE",
+    "Testimonio, justicia y buen trato",
+    "Autoridad, poder y ambientes sanos",
+    "Respuesta a denuncias y atención a las víctimas",
+    "Calidad del servicio y cuidado de sí"
+  ],
+  "competencias": [
+    "Explicar y citar las veinte orientaciones del ISE.",
+    "Aplicar sus estándares de buen trato, uso del poder y cuidado de los límites en la pastoral.",
+    "Actuar correctamente ante una revelación o denuncia y conocer los canales de la diócesis."
+  ],
+  "agappe": [],
+  "contenidos": [
+    {
+      "titulo": "Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Profundización ISE · Parte 2: autoridad, poder y ambientes sanos",
+      "tipo": "obligatorio"
+    },
+    {
+      "titulo": "Profundización ISE · Parte 3: responder, servir con calidad y cuidarse",
+      "tipo": "obligatorio"
+    }
+  ]
+}

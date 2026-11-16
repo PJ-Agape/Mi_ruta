@@ -24,7 +24,7 @@ C_LEON = ("León XIV, Mensaje para la LX Jornada Mundial de las Comunicaciones S
 C_INTER = ("Inter mirifica (Concilio Vaticano II, 1963)", INTER_MIRIFICA,
            "El Concilio reconoce los medios de comunicación como dones de Dios que deben usarse según la verdad y para el bien de las personas.")
 C_ISE = ("Integridad en el Servicio Eclesial (Conferencia Episcopal de Chile)", ISE,
-         "Normas de conducta para quienes sirven en la Iglesia, incluidas las comunicaciones con niños, niñas y adolescentes, que deben ser transparentes y por canales institucionales.")
+         "Orientaciones para quienes sirven en la Iglesia. Pide usar los medios y las redes sociales con los mismos criterios que la relación presencial (11.h) y servir en lugares seguros, abiertos y visibles (11.d).")
 
 AVISO_PLATAFORMAS = ("*Las plataformas cambian sus funciones, nombres de menú y límites con frecuencia. Los datos de esta sesión están revisados "
                      "a noviembre de 2026: si algo no aparece donde se indica, busca la opción con un nombre parecido o revisa la ayuda oficial.*")

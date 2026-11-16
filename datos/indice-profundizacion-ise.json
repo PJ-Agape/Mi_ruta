@@ -1,0 +1,223 @@
+{
+ "curso": "profundizacion-ise",
+ "modulos": [
+  {
+   "id": "ise-1",
+   "numero": 1,
+   "titulo": "Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 1",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [],
+   "intro": "Primera parte del curso. Ten el documento a mano: cada sesión estudia una o dos orientaciones, estándar por estándar, con casos de la vida pastoral.",
+   "clases": [
+    {
+     "id": "ise-1-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "El ISE: qué es, de dónde viene y a quién se dirige",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-1/s1.md",
+     "debate": "**Caso: «Eso es de sentido común».** En una reunión de coordinación, el párroco propone estudiar el ISE con todos los agentes pastorales. Un catequista con veinte años de servicio responde: «Yo no necesito que me digan cómo tratar a la gente; eso es de sentido común. Estos documentos son para los que hicieron cosas malas». Varios asienten.\n\n- ¿Qué responde la presentación del ISE a la idea del «sentido común»?\n- ¿Qué pierde una comunidad cuando sus criterios de trato no están escritos ni conversados?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-1-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Testimonio: servir como Jesús (orientaciones 1 y 2)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-1/s2.md",
+     "debate": "**Caso: El chiste de siempre.** En un grupo juvenil, el animador recibe cada sábado a Matías, que tartamudea, con una imitación «en buena onda». Todos ríen, también Matías. Con las semanas, Matías deja de opinar en las reuniones y un día no vuelve. Cuando alguien lo comenta, el animador dice: «Pero si él se reía, nunca dijo que le molestara».\n\n- ¿Qué estándares de la orientación 1 están en juego?\n- ¿Por qué la risa de Matías no demuestra que estuviera cómodo?\n- ¿Qué tendría que hacer el grupo ahora?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-1-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Justicia: un mundo más justo y un trato justo (orientaciones 3 y 4)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-1/s3.md",
+     "debate": "**Caso: Los preferidos.** En una parroquia, las lecturas de la misa, los viajes a encuentros diocesanos y los cargos del consejo recaen siempre en las mismas tres familias, amigas del coordinador. Cuando una señora nueva pregunta cómo puede participar, le responden: «Aquí siempre lo hemos hecho así; primero hay que hacer méritos». Ella no vuelve a preguntar.\n\n- ¿Qué estándares de la orientación 4 se incumplen?\n- ¿Qué criterios transparentes podrían usarse para repartir servicios y oportunidades?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-1-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Trabajo y bienes: justicia laboral y transparencia (orientaciones 5 y 6)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-1/s4.md",
+     "debate": "**Caso: La rifa del retiro.** Un grupo juvenil organiza una rifa para financiar su retiro. La tesorera, una dirigente muy querida, guarda el dinero en su cuenta personal «para que esté seguro». Después del retiro, varios preguntan cuánto se juntó y cuánto sobró. Ella se ofende: «¿Desconfían de mí después de todo lo que hago?». Nunca se presenta un informe.\n\n- ¿Qué estándares de la orientación 6 no se cumplieron?\n- ¿Cómo habría protegido a la propia tesorera una rendición de cuentas?\n- ¿Qué acuerdos debería tomar el grupo para la próxima actividad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-1-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Buen trato: relaciones respetuosas y valoración de la diversidad (orientaciones 7 y 8)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-1/s5.md",
+     "debate": "**Caso: «Solo confía en mí».** Carolina, de 17 años, encuentra en su asesora de grupo a alguien que la escucha como nadie. La asesora le escribe todos los días, le dice que es su «preferida» y que sus amigas del colegio «no la entienden como ella». Poco a poco, Carolina deja de salir con sus amigas y consulta a la asesora cada decisión. Cuando su mamá se inquieta, la asesora responde que solo la está acompañando.\n\n- ¿Qué alertas del estándar 7.d aparecen?\n- ¿En qué se diferencia acompañar de generar dependencia?\n- ¿Qué debería hacer otro dirigente que observe esta situación?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-1-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "ise-2",
+   "numero": 2,
+   "titulo": "Profundización ISE · Parte 2: autoridad, poder y ambientes sanos",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 2",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "ise-1"
+   ],
+   "intro": "Con la parte 1 aprobada. Es el corazón del documento: léela con calma y convérsala con tu equipo.",
+   "clases": [
+    {
+     "id": "ise-2-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Comunidad fraterna: la autoridad como servicio (orientación 9)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-2/s1.md",
+     "debate": "**Caso: El fundador.** Un movimiento juvenil fue creado hace quince años por Rodrigo, un laico carismático. Él elige a los coordinadores, define los temas y es el único que predica en los retiros. Los jóvenes repiten sus frases y llevan poleras con ellas. Cuando una coordinadora propone elegir al equipo por votación y evaluar los retiros, Rodrigo le dice que «le falta espíritu» y deja de invitarla a las reuniones.\n\n- ¿Qué estándares de la orientación 9 se incumplen?\n- ¿Qué señales de culto a la persona reconoces?\n- ¿Qué podrían hacer los demás coordinadores y a quién podrían acudir?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-2-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "El poder en la relación de servicio (orientación 10)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-2/s2.md",
+     "debate": "**Caso: «Ella quería».** Un dirigente de 23 años inicia una relación sentimental con una joven de 16 de su grupo de confirmación. Se escriben en secreto. Cuando otro dirigente se lo hace notar, responde: «No hay nada malo; ella fue la que empezó y está feliz. Además no soy cura». El grupo se divide entre quienes lo defienden y quienes se incomodan.\n\n- ¿Qué fuentes de poder tiene el dirigente sobre la joven?\n- ¿Por qué el «ella quería» no resuelve el problema, según la orientación 10?\n- ¿Qué debería hacer el dirigente que lo notó?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-2-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Fronteras físicas y emocionales (orientación 11)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-2/s3.md",
+     "debate": "**Caso: El tío buena onda.** Felipe, catequista de 28 años, es el favorito de los niños de primera comunión. A uno de ellos, Benjamín, de 10 años, le regala un celular usado «porque su familia no puede», lo lleva en auto a su casa después de la catequesis y le escribe por las noches para saber cómo está. La mamá está agradecida. Otra catequista siente que algo no está bien, pero piensa: «Es tan bueno con los niños; ¿y si lo estoy juzgando mal?».\n\n- ¿Qué estándares de la orientación 11 se están incumpliendo, aunque no haya ocurrido ningún delito?\n- ¿Qué debe hacer la catequista con su inquietud, según la orientación 10.d?\n- ¿Por qué actuar ahora protege también a Felipe?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-2-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Acompañar con resguardos (orientación 12)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-2/s4.md",
+     "debate": "**Caso: El consejero del grupo.** Tomás, de 21 años, es el dirigente «al que todos le cuentan sus cosas». Una noche, Javiera, de 16, le escribe que ya no quiere vivir y le pide que no le cuente a nadie. Tomás conversa con ella hasta las tres de la mañana, le promete guardar el secreto y decide acompañarla él mismo, escribiéndole todos los días. A las dos semanas está agotado y asustado.\n\n- ¿Qué estándares de la orientación 12 ayudan a ver lo que Tomás debió hacer distinto?\n- ¿Por qué no podía prometer secreto?\n- ¿Qué debe hacer ahora, y con quién?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-2-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "La política de prevención y las estructuras de apoyo (orientación 13 y consideraciones finales)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-2/s5.md",
+     "debate": "**Caso: «Aquí nunca ha pasado nada».** Una capilla rural organiza su primera misión de verano con adolescentes. Cuando una mamá pregunta qué medidas de cuidado habrá, el coordinador responde: «Señora, aquí nos conocemos todos y nunca ha pasado nada. Esos cursos son para las ciudades grandes». Ningún monitor ha hecho la formación en prevención y nadie conoce al responsable diocesano.\n\n- ¿Qué estándares de la orientación 13 se incumplen?\n- ¿Por qué «nos conocemos todos» no es una medida de prevención?\n- ¿Qué debería tener resuelto la comunidad antes de la misión?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-2-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  },
+  {
+   "id": "ise-3",
+   "numero": 3,
+   "titulo": "Profundización ISE · Parte 3: responder, servir con calidad y cuidarse",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo 3",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": true,
+   "requiere": [
+    "ise-1",
+    "ise-2"
+   ],
+   "intro": "Con las partes 1 y 2 aprobadas. Termina con un compromiso personal y comunitario de integridad.",
+   "clases": [
+    {
+     "id": "ise-3-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Responder con claridad a las denuncias (orientación 14)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-3/s1.md",
+     "debate": "**Caso: «Mejor no hacer olas».** Durante un retiro, Valentina, de 15 años, le cuenta a su monitora Daniela que un adulto colaborador de la parroquia le envía mensajes con comentarios sobre su cuerpo y le ha pedido fotos. Daniela se lo comenta al coordinador, quien le dice: «Él es un pilar de la comunidad. Seguro es un malentendido. Yo hablo con él y lo arreglamos; mejor no hacer olas ni preocupar a la familia».\n\n- ¿Qué hizo bien Daniela y qué le falta por hacer?\n- ¿Qué errores propone el coordinador, a la luz de la orientación 14?\n- ¿A quiénes hay que informar, y cuándo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-3-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Primero las víctimas: acoger, reparar y restablecer la comunión (orientación 15)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-3/s2.md",
+     "debate": "**Caso: La que «dividió a la parroquia».** Hace dos años, Marcela denunció a un asesor laico muy querido por conductas abusivas con ella cuando era adolescente. La investigación confirmó los hechos y él fue apartado. Desde entonces, parte de la comunidad no la saluda; en una reunión alguien dice: «Antes éramos una familia, hasta que ella habló». El consejo pastoral nunca ha tratado el tema «para no reabrir heridas». Marcela dejó de ir a misa.\n\n- ¿Qué formas de revictimización y marginación reconoces?\n- ¿Quién rompió la comunión en esta parroquia?\n- ¿Qué pasos concretos podría dar el consejo, según el apartado final del ISE?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-3-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Servir bien: responsabilidad, equipo y formación permanente (orientaciones 16 y 17)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-3/s3.md",
+     "debate": "**Caso: La petición de oración.** En el grupo de WhatsApp de catequistas, una de ellas escribe: «Recemos por la familia González; me contó la señora en confianza que el marido la golpea y que el hijo mayor está en drogas». Varias responden con manos en oración. Al día siguiente, medio barrio lo sabe y la señora González deja de llevar a su hija a la catequesis.\n\n- ¿Qué estándares de la orientación 16 se incumplieron?\n- ¿Qué debió hacer la catequista con lo que escuchó?\n- ¿Cómo se repara, en lo posible, este daño?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-3-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Prudencia, donaciones, celebraciones y registros (orientaciones 18 y 19)",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-3/s4.md",
+     "debate": "**Caso: La ayuda del catequista.** Don Luis, catequista de adultos, se conmueve con la situación de una familia de su grupo y comienza a pagarles la luz cada mes de su bolsillo. Nadie más lo sabe. A los pocos meses, la señora le pide además un préstamo; él se incomoda, pero accede. Luego ella le ofrece limpiar su casa «para devolverle». Otras familias necesitadas de la capilla comentan que «don Luis solo ayuda a sus regalones».\n\n- ¿Qué estándares de la orientación 18 habrían evitado este enredo?\n- ¿Qué efectos tuvo la ayuda personal en la familia, en don Luis y en la comunidad?\n- ¿Cómo puede reencauzarse la ayuda ahora?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-3-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Cuidar de sí para cuidar a otros (orientación 20) y compromiso final",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/ise-3/s5.md",
+     "debate": "**Caso: La que nunca decía que no.** Francisca, de 24 años, coordina la pastoral juvenil, canta en el coro, lleva las redes de la parroquia y prepara la confirmación. Hace un año que no toma vacaciones y dejó de ver a sus amigas. Últimamente responde con sarcasmo, llega tarde y ha dicho que «los jóvenes de ahora no valen la pena». El párroco comenta: «Francisca es una santa, no sé qué haríamos sin ella».\n\n- ¿Qué señales de desgaste reconoces?\n- ¿Qué responsabilidad tienen Francisca, el párroco y la comunidad, según la orientación 20?\n- ¿Qué pasos concretos propondrías?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "ise-3-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

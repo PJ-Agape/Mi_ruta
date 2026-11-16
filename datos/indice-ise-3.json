@@ -1,0 +1,61 @@
+{
+ "curso": "ise-3",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Profundización ISE · Parte 3: responder, servir con calidad y cuidarse",
+   "semanas": "",
+   "intro": "Con las partes 1 y 2 aprobadas. Termina con un compromiso personal y comunitario de integridad.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "Responder con claridad a las denuncias (orientación 14)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Primero las víctimas: acoger, reparar y restablecer la comunión (orientación 15)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Servir bien: responsabilidad, equipo y formación permanente (orientaciones 16 y 17)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Prudencia, donaciones, celebraciones y registros (orientaciones 18 y 19)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Cuidar de sí para cuidar a otros (orientación 20) y compromiso final",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Profundización ISE · Parte 3: responder, servir con calidad y cuidarse",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}

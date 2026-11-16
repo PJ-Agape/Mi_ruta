@@ -1,0 +1,108 @@
+{
+ "m1-eval": {
+  "titulo": "Evaluación: Profundización ISE · Parte 2: autoridad, poder y ambientes sanos",
+  "aprobacion": 70,
+  "preguntas": [
+   {
+    "pregunta": "¿Cómo pide el estándar 9.c que se ejerza la autoridad?",
+    "opciones": [
+     "Con firmeza y sin dar explicaciones.",
+     "Con prudencia, como servicio y sin beneficio propio.",
+     "Solo por quienes tienen más años en la comunidad."
+    ],
+    "correcta": 1,
+    "explicacion": "Es la medida del Evangelio: el que quiera ser grande, que sirva."
+   },
+   {
+    "pregunta": "¿Qué promueve expresamente el estándar 9.d?",
+    "opciones": [
+     "La participación de la mujer y de la vocación laical en las instancias eclesiales y de decisión.",
+     "Que los laicos se limiten a tareas prácticas.",
+     "Que las decisiones se tomen siempre en secreto."
+    ],
+    "correcta": 0,
+    "explicacion": "No solo colaborar: estar donde se decide."
+   },
+   {
+    "pregunta": "¿Qué pide el ISE frente al culto a la persona?",
+    "opciones": [
+     "Fomentarlo si el líder es bueno.",
+     "Evitarlo, hacia uno mismo o hacia otros, y corregirlo cuando aparece.",
+     "Ignorarlo, porque es inevitable."
+    ],
+    "correcta": 1,
+    "explicacion": "Estándar 9.f; su antídoto es la corrección fraterna (9.g)."
+   },
+   {
+    "pregunta": "Según la orientación 10, ¿quién es responsable de cuidar el límite en una relación asimétrica?",
+    "opciones": [
+     "La persona con menos poder.",
+     "Quien tiene más poder.",
+     "Nadie; depende de las circunstancias."
+    ],
+    "correcta": 1,
+    "explicacion": "A mayor diferencia de poder, menor capacidad del otro para decir que no."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 10.d cuando una relación de servicio se vuelve insegura o ineficaz?",
+    "opciones": [
+     "Manejarla a solas con discreción.",
+     "Resolverla dialogando con un tercero.",
+     "Esperar a que pase."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie se cuida solo ni es buen juez de sí mismo."
+   },
+   {
+    "pregunta": "¿Dónde pide el estándar 11.d que se realice el servicio?",
+    "opciones": [
+     "En lugares seguros, abiertos y visibles.",
+     "En espacios privados, para dar confianza.",
+     "En la casa del agente pastoral."
+    ],
+    "correcta": 0,
+    "explicacion": "No en espacios restringidos o solitarios."
+   },
+   {
+    "pregunta": "¿Qué criterio da el ISE para el uso de redes sociales (11.h)?",
+    "opciones": [
+     "Están prohibidas para los agentes pastorales.",
+     "Usarlas con los mismos criterios que la relación presencial.",
+     "Son un espacio privado sin reglas."
+    ],
+    "correcta": 1,
+    "explicacion": "Lo que no haría en persona, tampoco por mensajes."
+   },
+   {
+    "pregunta": "¿Qué establece el estándar 11.i sobre el alcohol?",
+    "opciones": [
+     "Se puede consumir con moderación ante menores.",
+     "No ofrecerlo a menores o personas vulnerables ni consumirlo en su presencia.",
+     "Solo se prohíbe en la misa."
+    ],
+    "correcta": 1,
+    "explicacion": "Incluye campamentos, misiones y celebraciones del grupo."
+   },
+   {
+    "pregunta": "¿Qué pide el estándar 12.e a quien acompaña a otros?",
+    "opciones": [
+     "Que no necesite ayuda de nadie.",
+     "Que reciba acompañamiento espiritual frecuente y supervisión.",
+     "Que acompañe al mayor número posible de personas."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie acompaña bien si no es acompañado."
+   },
+   {
+    "pregunta": "¿Qué debe tener cada diócesis, según las consideraciones finales del ISE?",
+    "opciones": [
+     "Un consejo de prevención y una persona responsable de recibir denuncias, disponible de modo permanente.",
+     "Solo un buzón de sugerencias.",
+     "Nada; depende de cada parroquia."
+    ],
+    "correcta": 0,
+    "explicacion": "Además de las instancias nacionales: el Consejo Nacional y el Departamento de Prevención de Abusos."
+   }
+  ]
+ }
+}

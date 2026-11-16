@@ -1,0 +1,61 @@
+{
+ "curso": "ise-1",
+ "modulos": [
+  {
+   "id": "m1",
+   "numero": 1,
+   "titulo": "Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+   "semanas": "",
+   "intro": "Primera parte del curso. Ten el documento a mano: cada sesión estudia una o dos orientaciones, estándar por estándar, con casos de la vida pastoral.",
+   "clases": [
+    {
+     "id": "m1-u01",
+     "tipo": "unidad",
+     "numero": "1.1",
+     "etiqueta": "Unidad 1",
+     "titulo": "El ISE: qué es, de dónde viene y a quién se dirige",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u02",
+     "tipo": "unidad",
+     "numero": "1.2",
+     "etiqueta": "Unidad 2",
+     "titulo": "Testimonio: servir como Jesús (orientaciones 1 y 2)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u03",
+     "tipo": "unidad",
+     "numero": "1.3",
+     "etiqueta": "Unidad 3",
+     "titulo": "Justicia: un mundo más justo y un trato justo (orientaciones 3 y 4)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u04",
+     "tipo": "unidad",
+     "numero": "1.4",
+     "etiqueta": "Unidad 4",
+     "titulo": "Trabajo y bienes: justicia laboral y transparencia (orientaciones 5 y 6)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-u05",
+     "tipo": "unidad",
+     "numero": "1.5",
+     "etiqueta": "Unidad 5",
+     "titulo": "Buen trato: relaciones respetuosas y valoración de la diversidad (orientaciones 7 y 8)",
+     "tiempo": "90 min"
+    },
+    {
+     "id": "m1-eval",
+     "tipo": "evaluacion",
+     "etiqueta": "Evaluación",
+     "titulo": "Evaluación: Profundización ISE · Parte 1: testimonio, justicia y buen trato",
+     "tiempo": "10 preguntas"
+    }
+   ]
+  }
+ ]
+}
