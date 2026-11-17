@@ -176,7 +176,7 @@ COMUNICACION = ["redes-2", "redes-3"]  # niveles 2 y 3; el nivel 1 es «comunica
 COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-liturgica", "conocer-la-biblia", "llamados-en-la-biblia", "santos-jovenes",
                    "el-credo", "sacramentos", "misiones-juveniles", "ayudante-de-catequesis", "voluntariado-y-doctrina-social",
                    "ecologia-integral", "buen-trato-y-prevencion", "primeros-auxilios", "primeros-auxilios-psicologicos",
-                   "comunicacion-y-redes", "dinamicas-y-juegos", "logistica", "gestion-del-tiempo"]
+                   "comunicacion-y-redes", "dinamicas-y-juegos", "logistica", "gestion-del-tiempo", "juventudes-actuales"]
 
 
 ESCRITURA = [f"se-{i}" for i in range(1, 10)]
@@ -236,7 +236,7 @@ CURSOS = [
   "descripcion": "Para dirigentes con experiencia que asumen la conducción de equipos. Ocho módulos con constancia propia: liderazgo personal, autoridad y decisiones, formación de equipos, gestión del tiempo y legado, comunicación y conflictos, planificación de proyectos, acompañamiento de personas y un proyecto integrador. Modalidad mixta: sesiones presenciales o en línea con el relator y trabajo personal.",
   "publico": "Desde 17 años, con el curso Dirigente juvenil aprobado", "elige": 1, "modalidad": "Mixta: encuentros con relator y trabajo personal",
   "obligatorios": [f"dip-{i}" for i in range(1, 9)],
-  "optativos": ["primeros-auxilios-psicologicos", "comunicacion-y-redes", "voluntariado-y-doctrina-social", "logistica"],
+  "optativos": ["juventudes-actuales", "primeros-auxilios-psicologicos", "comunicacion-y-redes", "voluntariado-y-doctrina-social", "logistica"],
   "requiere": {"dip-2": ["dip-1"], **{f"dip-{i}": ["dip-1", "dip-2"] for i in range(3, 8)}, "dip-8": [f"dip-{i}" for i in range(1, 8)]}},
  {"id": "servicio-liturgico", "titulo": "Servicio litúrgico", "subtitulo": "El altar, la Palabra y el canto",
   "descripcion": "Para jóvenes que sirven en la celebración: servidores del altar, lectores y salmistas, y música litúrgica, con el buen trato como base del servicio.",

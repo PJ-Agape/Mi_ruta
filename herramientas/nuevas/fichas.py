@@ -122,6 +122,10 @@ FICHAS = {
         "ejes": ["Qué es una crisis", "Protocolo ABCD", "Situaciones difíciles", "Cuidado del que cuida"],
         "competencias": ["Brindar primera ayuda psicológica con el protocolo ABCD.", "Reconocer cuándo derivar a un profesional.", "Cuidarse y cuidar al equipo después de una crisis."],
     },
+    "juventudes-actuales": {
+        "ejes": ["Juventudes en plural y lectura de datos", "Etapas del desarrollo", "Culturas juveniles y mundo digital", "Soledad, salud mental y vínculos", "Religiosidad juvenil"],
+        "competencias": ["Describir a los jóvenes de su comunidad con datos y escucha, sin prejuicios.", "Adaptar los encuentros a la edad y a la cultura de los participantes.", "Reconocer señales de alerta y saber a quién derivar.", "Proponer el primer anuncio a jóvenes que no se sienten parte de la Iglesia."],
+    },
     "comunicacion-y-redes": {
         "ejes": ["Comunicar con sentido", "Mapa de plataformas", "Tipos de contenido y formatos", "Identidad visual y tono de voz", "Cuidado de las personas en lo digital"],
         "competencias": ["Explicar para qué comunica una comunidad cristiana y elegir sus plataformas.", "Planificar contenidos por pilares y formatos con las medidas correctas.", "Definir la identidad del grupo y cuidar la imagen y los datos de las personas."],

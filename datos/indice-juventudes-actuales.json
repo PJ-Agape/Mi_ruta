@@ -1,0 +1,76 @@
+{
+ "curso": "juventudes-actuales",
+ "modulos": [
+  {
+   "id": "juventudes-actuales",
+   "numero": 1,
+   "titulo": "Juventudes actuales",
+   "tipo": "obligatorio",
+   "etiqueta": "Módulo",
+   "duracion": "6 sesiones · 9 horas",
+   "constancia": false,
+   "requiere": [],
+   "intro": "Las herramientas de liderazgo sirven poco si no se conoce a quienes se quiere servir. Esta formación reúne lo básico de la sociología, la psicología y el estudio de la religión sobre los jóvenes de hoy, con datos recientes de Chile y con la mirada de la Iglesia en Christus vivit. No busca formar especialistas, sino dirigentes que miren antes de opinar y escuchen antes de proponer.",
+   "clases": [
+    {
+     "id": "juventudes-actuales-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Sesión 1",
+     "titulo": "Juventudes, en plural",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/juventudes-actuales/s1.md",
+     "debate": "**Caso: «A los jóvenes ya no les interesa nada».** En una reunión de consejo, un adulto afirma que a los jóvenes del sector ya no les interesa nada y que por eso el grupo es pequeño. Nadie lo contradice. La coordinadora juvenil sabe que en el liceo cercano hay un centro de estudiantes muy activo y un grupo de voluntariado que se llena cada invierno.\n\n- ¿Qué podría responder la coordinadora, con respeto y con datos?\n- ¿Qué pregunta sería más útil que «por qué no les interesa»?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "juventudes-actuales-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Sesión 2",
+     "titulo": "Etapas del desarrollo: de la adolescencia a la juventud",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/juventudes-actuales/s2.md",
+     "debate": "**Caso: El grupo de todas las edades.** Una comunidad reúne en un mismo encuentro a 18 jóvenes de 12 a 24 años. Los mayores conducen y conversan entre ellos. Los menores participan en el juego inicial, pero en el momento de la reflexión se distraen o se quedan callados. En tres meses, cinco de los más chicos dejaron de ir.\n\n- ¿Qué necesidad de los menores no se está atendiendo?\n- ¿Qué cambiarías en la reflexión sin dividir la comunidad?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "juventudes-actuales-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Sesión 3",
+     "titulo": "Culturas juveniles y mundo digital",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/juventudes-actuales/s3.md",
+     "debate": "**Caso: El coordinador que quiso sonar joven.** Para atraer más jóvenes, un coordinador de 30 años empieza a publicar en la cuenta del grupo con las expresiones y los memes de moda. Los jóvenes se ríen entre ellos de las publicaciones y casi nadie las comparte. Una de las jóvenes, que dibuja muy bien y maneja varias redes, nunca ha sido invitada a ayudar.\n\n- ¿Por qué no funcionó el intento del coordinador?\n- ¿Qué habría cambiado si los propios jóvenes hubieran estado a cargo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "juventudes-actuales-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Sesión 4",
+     "titulo": "Soledad, salud mental y vínculos",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/juventudes-actuales/s4.md",
+     "debate": "**Caso: El que siempre decía que estaba bien.** Matías, de 19 años, es de los más activos del grupo: llega primero, ordena las sillas y hace reír a todos. Desde hace un mes llega tarde, casi no habla y se va apenas termina el encuentro. Cuando le preguntan, responde que está bien y que solo anda cansado. Nadie insiste, porque «él siempre ha sido fuerte».\n\n- ¿Qué señales hay en el cambio de Matías?\n- ¿Quién podría acercarse a él y de qué manera?\n- ¿Qué harías si te cuenta algo grave y te pide no decirlo?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "juventudes-actuales-s5",
+     "tipo": "unidad",
+     "numero": 5,
+     "etiqueta": "Sesión 5",
+     "titulo": "Religiosidad juvenil: creer sin pertenecer",
+     "tiempo": "90 min",
+     "archivo": "contenido/modulos/juventudes-actuales/s5.md",
+     "debate": "**Caso: La joven que solo iba al Mes de María.** Antonia, de 17 años, dice que no es «de iglesia». No va a misa ni participa en ningún grupo. Pero todos los años acompaña a su abuela al Mes de María y, cuando su hermano estuvo hospitalizado, rezó el rosario cada noche. Una amiga la invita a la comunidad juvenil. En el primer encuentro, un coordinador le pregunta delante de todos por qué no está confirmada.\n\n- ¿Qué fe hay ya en la vida de Antonia?\n- ¿Qué efecto pudo tener la pregunta del coordinador?\n- ¿Cómo la habrías recibido tú?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "juventudes-actuales-cierre",
+     "tipo": "evaluacion",
+     "numero": 6,
+     "etiqueta": "Sesión 6 · Cierre",
+     "titulo": "Cierre: taller práctico y evaluación",
+     "tiempo": "Taller y 10 preguntas"
+    }
+   ]
+  }
+ ]
+}

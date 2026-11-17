@@ -1,0 +1,54 @@
+{
+  "id": "juventudes-actuales",
+  "titulo": "Juventudes actuales",
+  "subtitulo": "Conocer a los jóvenes de hoy para servirlos mejor",
+  "descripcion": "Una mirada con datos y sin prejuicios a los jóvenes de hoy: quiénes son, cómo crecen entre los 12 y los 29 años, qué culturas y espacios digitales habitan, cómo viven la soledad y la salud mental, y cuál es su relación con Dios y con la Iglesia. Cada unidad termina con consecuencias prácticas para la comunidad. Seis sesiones: cinco de contenido y una de cierre con taller práctico y evaluación.",
+  "publico": "Desde 17 años; pensada para dirigentes y coordinadores",
+  "categoria": "Herramientas",
+  "nuevo": false,
+  "duracion": "6 sesiones · 9 horas",
+  "modalidad": "En línea, a tu ritmo",
+  "tipo": "complementaria",
+  "horas": 9,
+  "recursos": {},
+  "ejes": [
+    "Juventudes en plural y lectura de datos",
+    "Etapas del desarrollo",
+    "Culturas juveniles y mundo digital",
+    "Soledad, salud mental y vínculos",
+    "Religiosidad juvenil"
+  ],
+  "competencias": [
+    "Describir a los jóvenes de su comunidad con datos y escucha, sin prejuicios.",
+    "Adaptar los encuentros a la edad y a la cultura de los participantes.",
+    "Reconocer señales de alerta y saber a quién derivar.",
+    "Proponer el primer anuncio a jóvenes que no se sienten parte de la Iglesia."
+  ],
+  "agappe": [],
+  "contenidos": [
+    {
+      "titulo": "Juventudes, en plural",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Etapas del desarrollo: de la adolescencia a la juventud",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Culturas juveniles y mundo digital",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Soledad, salud mental y vínculos",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Religiosidad juvenil: creer sin pertenecer",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Cierre: taller práctico y evaluación",
+      "tipo": "sesion"
+    }
+  ]
+}

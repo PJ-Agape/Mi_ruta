@@ -74,6 +74,10 @@
       "tipo": "obligatorio"
     },
     {
+      "titulo": "Juventudes actuales",
+      "tipo": "optativo"
+    },
+    {
       "titulo": "Primeros auxilios psicológicos",
       "tipo": "optativo"
     },

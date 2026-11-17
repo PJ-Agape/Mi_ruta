@@ -1,0 +1,119 @@
+{
+ "juventudes-actuales-cierre": {
+  "titulo": "Cierre del módulo: Juventudes actuales",
+  "aprobacion": 70,
+  "taller": "Cada participante, o cada equipo de una misma comunidad, elabora el **retrato de los jóvenes de mi comunidad** en una página: quiénes son (edades, ocupaciones, sectores), qué culturas juveniles están presentes y cuáles faltan, qué se sabe de su soledad y de sus vínculos, y cómo viven su relación con Dios. Para cada punto se indica en qué se basa: un dato, una conversación o una suposición por comprobar. El retrato termina con tres decisiones para la comunidad. Se presenta en cinco minutos y los demás señalan qué afirmación necesita más escucha. Quien cursa el diplomado puede usar este retrato como base del diagnóstico de su proyecto integrador.",
+  "preguntas": [
+   {
+    "pregunta": "¿Por qué se habla de «juventudes» en plural?",
+    "opciones": [
+     "Porque hay muchos jóvenes en el país.",
+     "Porque es una palabra de moda.",
+     "Porque hay distintas maneras de ser joven según la edad, el lugar y las condiciones de vida.",
+     "Porque cada parroquia tiene su grupo."
+    ],
+    "correcta": 2,
+    "explicacion": "No existe «la juventud» en abstracto: existen jóvenes concretos."
+   },
+   {
+    "pregunta": "Antes de usar una cifra sobre los jóvenes conviene revisar:",
+    "opciones": [
+     "Quién hizo el estudio, a quiénes preguntó, qué preguntó y cuándo.",
+     "Solo si la cifra es alta o baja.",
+     "Si coincide con lo que uno ya pensaba.",
+     "Si apareció en redes sociales."
+    ],
+    "correcta": 0,
+    "explicacion": "Dos estudios pueden dar resultados distintos porque preguntan cosas distintas."
+   },
+   {
+    "pregunta": "¿Cuál es la tarea de fondo de la adolescencia según Erikson?",
+    "opciones": [
+     "Obedecer a los adultos.",
+     "Elegir una profesión.",
+     "Dejar de tener dudas.",
+     "Construir la propia identidad."
+    ],
+    "correcta": 3,
+    "explicacion": "Probar y cuestionar es parte de responder a la pregunta «¿quién soy?»."
+   },
+   {
+    "pregunta": "En un encuentro con jóvenes de 12 a 14 años ayuda sobre todo:",
+    "opciones": [
+     "Una exposición larga y preguntas muy íntimas.",
+     "Juegos, trabajo con las manos, momentos breves y grupos pequeños.",
+     "Dejarlos sin reglas.",
+     "Tratarlos igual que a los de 25."
+    ],
+    "correcta": 1,
+    "explicacion": "Cada etapa pide algo distinto."
+   },
+   {
+    "pregunta": "Cuando un joven dice que ya no sabe si cree, lo más útil es:",
+    "opciones": [
+     "Preguntar qué lo hizo dudar y mantener el vínculo.",
+     "Recordarle sus obligaciones.",
+     "Pedirle que deje el grupo hasta aclararse.",
+     "Cambiar de tema."
+    ],
+    "correcta": 0,
+    "explicacion": "Quien puede dudar sin ser expulsado sabe que tiene un lugar al cual volver."
+   },
+   {
+    "pregunta": "El ambiente digital, para la mayoría de los jóvenes, es:",
+    "opciones": [
+     "Solo una distracción.",
+     "Algo que usan muy poco.",
+     "Un espacio real de relaciones, información y expresión.",
+     "Un tema que no toca a la pastoral."
+    ],
+    "correcta": 2,
+    "explicacion": "Lo que ocurre ahí es parte de su vida real."
+   },
+   {
+    "pregunta": "Para acercarse a una cultura juvenil conviene:",
+    "opciones": [
+     "Imitar su forma de hablar.",
+     "Preguntar con curiosidad, sin burlarse y sin imitar.",
+     "Corregir sus gustos.",
+     "Ignorarla."
+    ],
+    "correcta": 1,
+    "explicacion": "La autenticidad da más credibilidad que la imitación."
+   },
+   {
+    "pregunta": "Si un joven habla de hacerse daño o de quitarse la vida, quien acompaña debe:",
+    "opciones": [
+     "Guardar el secreto para no perder su confianza.",
+     "Esperar a ver si se le pasa.",
+     "Contarlo en el grupo para que recen.",
+     "Decirle que se buscará ayuda y avisar de inmediato al adulto responsable."
+    ],
+    "correcta": 3,
+    "explicacion": "Ese secreto nunca se guarda. Quien acompaña no carga solo con la situación."
+   },
+   {
+    "pregunta": "«Creer sin pertenecer» significa:",
+    "opciones": [
+     "Tener fe o prácticas religiosas sin sentirse parte de una Iglesia.",
+     "No creer en nada.",
+     "Pertenecer a varias religiones.",
+     "Ir a misa sin creer."
+    ],
+    "correcta": 0,
+    "explicacion": "Lo que más crece no es el ateísmo, sino la fe sin comunidad."
+   },
+   {
+    "pregunta": "¿Cuál es el contenido del primer anuncio según Christus vivit?",
+    "opciones": [
+     "Las normas del grupo.",
+     "La historia de la parroquia.",
+     "Dios te ama, Cristo te salva y él vive.",
+     "El calendario litúrgico."
+    ],
+    "correcta": 2,
+    "explicacion": "Son las tres verdades del capítulo cuarto de Christus vivit."
+   }
+  ]
+ }
+}

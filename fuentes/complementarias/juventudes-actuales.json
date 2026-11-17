@@ -1,0 +1,634 @@
+{
+ "id": "juventudes-actuales",
+ "titulo": "Juventudes actuales",
+ "subtitulo": "Conocer a los jóvenes de hoy para servirlos mejor",
+ "categoria": "Herramientas",
+ "publico": "Desde 17 años; pensada para dirigentes y coordinadores",
+ "descripcion": "Una mirada con datos y sin prejuicios a los jóvenes de hoy: quiénes son, cómo crecen entre los 12 y los 29 años, qué culturas y espacios digitales habitan, cómo viven la soledad y la salud mental, y cuál es su relación con Dios y con la Iglesia. Cada unidad termina con consecuencias prácticas para la comunidad. 5 unidades de 90 minutos y una evaluación final.",
+ "modulo": "Conocer para servir",
+ "intro": "Las herramientas de liderazgo sirven poco si no se conoce a quienes se quiere servir. Esta formación reúne lo básico de la sociología, la psicología y el estudio de la religión sobre los jóvenes de hoy, con datos recientes de Chile y con la mirada de la Iglesia en Christus vivit. No busca formar especialistas, sino dirigentes que miren antes de opinar y escuchen antes de proponer.",
+ "taller": "Cada participante, o cada equipo de una misma comunidad, elabora el **retrato de los jóvenes de mi comunidad** en una página: quiénes son (edades, ocupaciones, sectores), qué culturas juveniles están presentes y cuáles faltan, qué se sabe de su soledad y de sus vínculos, y cómo viven su relación con Dios. Para cada punto se indica en qué se basa: un dato, una conversación o una suposición por comprobar. El retrato termina con tres decisiones para la comunidad. Se presenta en cinco minutos y los demás señalan qué afirmación necesita más escucha. Quien cursa el diplomado puede usar este retrato como base del diagnóstico de su proyecto integrador.",
+ "unidades": [
+  {
+   "title": "Juventudes, en plural",
+   "objective": "Mirar a los jóvenes de hoy con datos y sin prejuicios, y distinguir entre lo que dicen los estudios nacionales y lo que vive la propia comunidad.",
+   "intro": "Antes de conducir un grupo conviene preguntarse a quién se quiere servir. Muchas veces hablamos de «los jóvenes» como si fueran todos iguales, o repetimos lo que escuchamos de ellos sin haberlo comprobado. En esta unidad vas a mirar a los jóvenes con información seria y con una actitud de respeto.",
+   "sections": [
+    {
+     "title": "No existe «la juventud»",
+     "body": "Un joven de 15 años que va al colegio, una joven de 22 que estudia y trabaja, y un joven de 27 que ya es padre viven mundos muy distintos. También cambia mucho la vida según el lugar: no es lo mismo crecer en una ciudad grande que en un pueblo o en el campo.\n\nPor eso hoy se habla de **juventudes**, en plural. Quien conduce un grupo no trabaja con «la juventud», sino con personas concretas, con nombre, historia y preguntas propias."
+    },
+    {
+     "title": "Lo que muestran los datos en Chile",
+     "body": "Dos estudios ayudan a tener un panorama general:\n\n- La **11ª Encuesta Nacional de Juventudes** del INJUV (presentada en diciembre de 2025) informó que el 70% de los jóvenes participó en alguna organización durante el último año, que el 36% tiene estudios superiores completos o en curso y que el 53% de quienes tienen entre 25 y 29 años vive con su madre o su padre.\n- La **Encuesta Bicentenario UC 2025** informó que el 62% de quienes tienen entre 18 y 24 años se sintió solo en la última semana, al menos algunas veces.\n\nLos datos cambian con cada medición. Lo importante es acostumbrarse a buscarlos en la fuente antes de afirmar algo sobre los jóvenes."
+    },
+    {
+     "title": "Dos errores al mirar",
+     "body": "- **La lista de defectos:** «no se comprometen», «viven pegados al teléfono», «antes era distinto». Quien mira así deja de escuchar, y los jóvenes lo notan de inmediato.\n- **La idealización:** creer que por ser jóvenes siempre tienen la razón, o que basta con darles un espacio para que todo funcione.\n\nLa mirada que sirve es otra: reconocer lo bueno que ya hay en cada joven, nombrar con honestidad lo que le hace daño y acompañarlo desde ahí."
+    },
+    {
+     "title": "El dato nacional y tu comunidad",
+     "body": "Una encuesta nacional describe un promedio. Tu grupo puede parecerse a ese promedio o ser muy distinto. Por eso los datos no reemplazan la escucha: sirven para hacer mejores preguntas.\n\nUn buen ejercicio es tomar un dato y preguntarse: ¿esto pasa también aquí?, ¿cómo lo sé?, ¿a quién tendría que preguntarle? Esa es la base de la **escucha de campo** que se pide en el proyecto integrador del diplomado."
+    }
+   ],
+   "bible": {
+    "ref": "Marcos 10,17-22 · Jesús lo miró con amor",
+    "comment": "Un hombre joven y rico corre hacia Jesús con una pregunta seria sobre su vida. Antes de responderle lo que le falta, el evangelio dice que Jesús fijó en él su mirada y lo amó. El joven se va triste, y Jesús no lo persigue ni lo condena. Primero mira y ama; después propone."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 71",
+     "text": "El papa Francisco recuerda que la juventud no se puede analizar en abstracto: lo que existe son los jóvenes, cada uno con su vida concreta.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Christus vivit 66-67",
+     "text": "Advierte a los adultos del riesgo de quedarse en un listado de problemas y defectos de los jóvenes, y pide una mirada capaz de encontrar caminos donde otros solo ven muros.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué frases sobre «los jóvenes de ahora» se repiten en tu comunidad? ¿En qué se basan?",
+    "¿En qué se parecen y en qué se diferencian los jóvenes de tu grupo entre sí?",
+    "¿Qué dato de esta unidad te sorprendió? ¿Crees que se cumple en tu comunidad?",
+    "¿A qué jóvenes de tu sector no conoces todavía?"
+   ],
+   "activity": "En grupos de tres, escriban cinco frases que se suelen decir sobre los jóvenes. Para cada una respondan: ¿es un dato, una experiencia personal o un prejuicio? Elijan una y anoten cómo podrían comprobarla en su comunidad.",
+   "prayer": "Señor Jesús, que miraste con amor al joven que corrió hacia ti: enséñanos a mirar como tú miras. Líbranos de juzgar sin conocer y de hablar sin escuchar. Que cada joven que llegue a nuestra comunidad se sienta mirado con respeto y esperado con alegría. Amén.",
+   "resources": [
+    {
+     "title": "Encuesta Nacional de Juventudes (INJUV)",
+     "url": "https://www.injuv.gob.cl/encuestanacionaldejuventud",
+     "note": "La medición oficial sobre jóvenes de 15 a 29 años en Chile. Revisa siempre la edición más reciente."
+    },
+    {
+     "title": "Encuesta Nacional Bicentenario UC",
+     "url": "https://encuestabicentenario.uc.cl/resultados/",
+     "note": "Resultados por año y por tema, entre ellos religión, familia y soledad."
+    }
+   ],
+   "comenzar": "Piensa en tres jóvenes que conoces bien, de edades distintas. Anota una preocupación y una ilusión de cada uno. ¿Se parecen entre sí?",
+   "logros": [
+    "Explicar por qué se habla de juventudes en plural.",
+    "Citar datos recientes sobre los jóvenes en Chile indicando su fuente.",
+    "Distinguir entre un dato, una experiencia personal y un prejuicio."
+   ],
+   "profundizar": {
+    "titulo": "Cómo leer una encuesta",
+    "texto": "Antes de usar una cifra, revisa cuatro cosas:\n\n- **Quién la hizo** y con qué propósito.\n- **A quiénes preguntó:** edades, lugares y cantidad de personas.\n- **Qué preguntó exactamente.** Dos estudios pueden dar resultados distintos porque preguntan cosas distintas. «Participar en alguna organización en el último año» no es lo mismo que «pertenecer hoy a un grupo».\n- **Cuándo se hizo.** Una cifra de hace diez años describe a otra generación."
+   },
+   "caso": {
+    "titulo": "«A los jóvenes ya no les interesa nada»",
+    "texto": "En una reunión de consejo, un adulto afirma que a los jóvenes del sector ya no les interesa nada y que por eso el grupo es pequeño. Nadie lo contradice. La coordinadora juvenil sabe que en el liceo cercano hay un centro de estudiantes muy activo y un grupo de voluntariado que se llena cada invierno.",
+    "preguntas": [
+     "¿Qué podría responder la coordinadora, con respeto y con datos?",
+     "¿Qué pregunta sería más útil que «por qué no les interesa»?"
+    ]
+   },
+   "claves": [
+    [
+     "Juventudes",
+     "Forma de nombrar la diversidad de modos de ser joven según edad, lugar y condiciones de vida."
+    ],
+    [
+     "Prejuicio",
+     "Juicio que se emite antes de conocer."
+    ],
+    [
+     "Fuente",
+     "El estudio o la persona de donde proviene un dato."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús mira y ama antes de proponer. ¿A quién miras tú con cansancio o con desconfianza?",
+    "orar": "Presenta al Señor, por su nombre, a tres jóvenes de tu comunidad.",
+    "vivir": "Esta semana pregúntale a un joven qué le preocupa de verdad, y escúchalo sin corregirlo."
+   },
+   "practica": [
+    "Escriban cinco frases frecuentes sobre los jóvenes.",
+    "Clasifiquen cada una: dato, experiencia o prejuicio.",
+    "Elijan una y definan cómo comprobarla."
+   ],
+   "idea": "No se sirve bien a quien no se conoce: primero mirar y escuchar."
+  },
+  {
+   "title": "Etapas del desarrollo: de la adolescencia a la juventud",
+   "objective": "Reconocer los cambios propios de cada etapa entre los 12 y los 29 años y adaptar a ellos la forma de acompañar y de preparar los encuentros.",
+   "intro": "Un encuentro que funciona muy bien con jóvenes de 20 años puede aburrir o incomodar a quienes tienen 13. No es mala voluntad: están en momentos distintos de su crecimiento. En esta unidad vas a conocer lo básico de cada etapa para preparar mejor tu servicio.",
+   "sections": [
+    {
+     "title": "Tres momentos",
+     "body": "- **Adolescencia inicial (12 a 14 años):** el cuerpo cambia rápido, importa mucho la opinión de los pares y el pensamiento todavía es muy concreto. Necesitan movimiento, reglas claras y adultos confiables.\n- **Adolescencia media (15 a 17 años):** aparecen las grandes preguntas, se cuestiona lo recibido y se busca un lugar propio. Necesitan que se les tome en serio y espacios para opinar.\n- **Juventud (18 a 29 años):** se toman decisiones de estudio, trabajo, pareja y fe. Muchos viven años de exploración antes de asentarse. Necesitan responsabilidad real y acompañamiento, no tutela."
+    },
+    {
+     "title": "La tarea de fondo: construir la identidad",
+     "body": "El psicólogo Erik Erikson describió la adolescencia como el tiempo de responder a la pregunta **«¿quién soy?»**. Para responderla, el joven prueba: cambia de gustos, de amigos, de opiniones, y a veces también de postura frente a la fe.\n\nEsas pruebas no son traición ni capricho. Son parte del camino para llegar a una identidad propia y no solo heredada. Un grupo ayuda cuando ofrece un lugar seguro para preguntar, dudar y volver."
+    },
+    {
+     "title": "Emociones intensas, freno en construcción",
+     "body": "En estos años las emociones se viven con mucha fuerza, y la capacidad de planificar, medir consecuencias y controlar los impulsos sigue madurando hasta bien entrados los veinte.\n\nEsto explica conductas que a los adultos les cuesta entender: decisiones apuradas, cambios de ánimo, dificultad para organizarse. No las justifica todas, pero invita a corregir con calma, a dar instrucciones claras y a no humillar nunca frente al grupo."
+    },
+    {
+     "title": "Qué cambia en un encuentro",
+     "body": "| Etapa | Lo que más ayuda | Lo que conviene evitar |\n| --- | --- | --- |\n| 12 a 14 | Juegos, trabajo con las manos, momentos breves, grupos pequeños | Exposiciones largas, preguntas muy íntimas |\n| 15 a 17 | Debate, preguntas abiertas, servicio concreto, música | Respuestas hechas, tratarlos como niños |\n| 18 a 29 | Responsabilidades reales, formación seria, acompañamiento personal | Decidir por ellos, pedirles solo que «ayuden» |\n\nSi tu grupo reúne edades muy distintas, conviene separar por momentos el trabajo en grupos pequeños según la edad."
+    }
+   ],
+   "bible": {
+    "ref": "Lucas 2,41-52 · Jesús a los doce años",
+    "comment": "Jesús adolescente se queda en el Templo escuchando y preguntando a los maestros. María y José lo buscan angustiados y no entienden su respuesta. El relato termina diciendo que Jesús crecía en sabiduría, en estatura y en gracia. También él vivió un proceso, y también sus padres tuvieron que aprender a acompañarlo."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 26-29",
+     "text": "El papa contempla la adolescencia y la juventud de Jesús como un tiempo de crecimiento y preparación, vivido en una familia y en un pueblo.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Christus vivit 137-143",
+     "text": "Describe la juventud como un tiempo de sueños y de elecciones, y anima a no dejar pasar esos años con miedo a equivocarse.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Qué edades hay en tu grupo? ¿El encuentro está pensado para todas?",
+    "¿Recuerdas cómo eras a los 13, a los 16 y a los 20 años? ¿Qué necesitabas de los adultos en cada momento?",
+    "¿Cómo reaccionas cuando un joven cuestiona la fe o las normas del grupo?",
+    "¿Qué responsabilidad real podrías confiar a los mayores de tu comunidad?"
+   ],
+   "activity": "Tomen el esquema de un encuentro reciente de su comunidad. Marquen cada momento con una letra: A si funciona para los de 12 a 14, B para los de 15 a 17 y C para los de 18 o más. Propongan dos cambios para la edad que quedó menos atendida.",
+   "prayer": "Padre bueno, tu Hijo creció en sabiduría, en estatura y en gracia. Danos paciencia con los procesos de cada joven y con los nuestros. Que no apuremos lo que necesita tiempo ni frenemos lo que está listo para crecer. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, capítulo 5: «Caminos de juventud»",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "Los números 134 a 178 hablan de crecer, soñar y elegir."
+    }
+   ],
+   "comenzar": "Busca una foto tuya de cuando tenías 14 o 15 años, o recuérdala. ¿Qué te importaba más en ese momento? ¿Qué te daba vergüenza? ¿Qué adulto te trató bien?",
+   "logros": [
+    "Describir las necesidades principales de tres etapas entre los 12 y los 29 años.",
+    "Explicar por qué probar y cuestionar es parte de construir la identidad.",
+    "Adaptar un encuentro a la edad de los participantes."
+   ],
+   "profundizar": {
+    "titulo": "Cuando la duda llega a la fe",
+    "texto": "Es frecuente que entre los 15 y los 20 años un joven diga que ya no cree, o que no sabe si cree. Tres actitudes ayudan:\n\n- **No asustarse ni tomarlo como algo personal.** Muchas veces lo que se cae es una imagen infantil de Dios, y eso deja espacio para una fe más madura.\n- **Preguntar antes de responder:** «¿qué fue lo que te hizo dudar?».\n- **Mantener el vínculo.** El joven que puede dudar sin ser expulsado sabe que tiene un lugar al cual volver."
+   },
+   "caso": {
+    "titulo": "El grupo de todas las edades",
+    "texto": "Una comunidad reúne en un mismo encuentro a 18 jóvenes de 12 a 24 años. Los mayores conducen y conversan entre ellos. Los menores participan en el juego inicial, pero en el momento de la reflexión se distraen o se quedan callados. En tres meses, cinco de los más chicos dejaron de ir.",
+    "preguntas": [
+     "¿Qué necesidad de los menores no se está atendiendo?",
+     "¿Qué cambiarías en la reflexión sin dividir la comunidad?"
+    ]
+   },
+   "claves": [
+    [
+     "Identidad",
+     "Respuesta personal a la pregunta «¿quién soy?», que se construye sobre todo en la adolescencia y la juventud."
+    ],
+    [
+     "Pares",
+     "Personas de la misma edad o condición, cuya opinión pesa mucho en la adolescencia."
+    ],
+    [
+     "Proceso",
+     "Camino gradual de crecimiento, con avances y retrocesos."
+    ]
+   ],
+   "lectio": {
+    "meditar": "María y José no entendieron a Jesús, y aun así siguieron a su lado. ¿A qué joven te cuesta entender hoy?",
+    "orar": "Da gracias por los adultos que te acompañaron cuando eras adolescente.",
+    "vivir": "En el próximo encuentro, observa a los más jóvenes del grupo: ¿en qué momento se conectan y en cuál se desconectan?"
+   },
+   "practica": [
+    "Tomen el esquema de un encuentro reciente.",
+    "Marquen para qué edad funciona cada momento.",
+    "Propongan dos cambios concretos."
+   ],
+   "idea": "Cada etapa pide algo distinto: acompañar es respetar el momento de cada uno."
+  },
+  {
+   "title": "Culturas juveniles y mundo digital",
+   "objective": "Comprender cómo los jóvenes expresan su identidad a través de sus culturas y del ambiente digital, y aprender a acercarse a ese mundo con curiosidad y respeto.",
+   "intro": "La música que escuchan, la ropa que eligen, las palabras que usan y las cuentas que siguen dicen mucho de quiénes son y a qué grupo sienten que pertenecen. En esta unidad vas a aprender a leer esas señales sin burlarte de ellas y sin imitarlas.",
+   "sections": [
+    {
+     "title": "Qué es una cultura juvenil",
+     "body": "Una **cultura juvenil** es una manera compartida de vivir y de mostrarse: gustos musicales, estilos de vestir, formas de hablar, lugares de encuentro, causas que importan. A través de ella los jóvenes dicen «esto soy» y «con estos estoy».\n\nEn una misma comunidad pueden convivir varias: quienes viven para el deporte, quienes siguen la música urbana, quienes pasan horas en videojuegos, quienes militan en una causa social o ambiental. Ninguna es mejor que otra para llegar a Dios."
+    },
+    {
+     "title": "El ambiente digital es un lugar, no solo una herramienta",
+     "body": "Para la mayoría de los jóvenes, lo digital no es un aparato que se usa un rato: es un espacio donde se informan, hacen amigos, se enamoran, discuten y descansan. Lo que ocurre ahí es parte de su vida real.\n\nPor eso no sirve tratarlo solo como una distracción. Tampoco basta con «tener redes» como comunidad. La pregunta de fondo es cómo estar presentes ahí de un modo que acompañe y no solo que anuncie actividades."
+    },
+    {
+     "title": "Luces y sombras",
+     "body": "**Lo valioso:** acceso a información, posibilidad de crear y de expresarse, contacto con personas lejanas, organización rápida para ayudar.\n\n**Lo que daña:** compararse todo el tiempo con vidas editadas, el acoso que sigue al joven hasta su casa, contenidos que no son para su edad, pérdida de sueño y de atención, y la sensación de estar acompañado cuando en realidad se está solo.\n\nQuien conduce un grupo no necesita ser experto en tecnología. Necesita preguntar, conocer las señales de alerta y saber a quién acudir."
+    },
+    {
+     "title": "Cómo acercarse",
+     "body": "- **Con curiosidad:** pedir que te muestren qué escuchan o qué siguen, y por qué les gusta.\n- **Sin imitar:** un adulto o un coordinador que fuerza el lenguaje juvenil pierde credibilidad. Basta con ser auténtico.\n- **Sin burlarse:** reírse de un gusto es reírse de la persona.\n- **Buscando lo valioso:** en casi toda expresión juvenil hay un deseo de pertenecer, de justicia, de belleza o de libertad. Desde ahí se puede conversar del Evangelio."
+    }
+   ],
+   "bible": {
+    "ref": "Hechos 17,22-28 · Pablo en el Areópago",
+    "comment": "En Atenas, Pablo recorre la ciudad y observa sus altares antes de hablar. Cuando toma la palabra no empieza condenando: reconoce la búsqueda religiosa de los atenienses y cita a sus propios poetas. Parte de lo que ellos ya valoran para anunciarles al Dios que no conocen."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 86-90",
+     "text": "El papa describe el ambiente digital como parte de la vida cotidiana de los jóvenes, con grandes oportunidades de encuentro y también con riesgos de soledad, manipulación y violencia.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Evangelii gaudium 105",
+     "text": "Reconoce que los jóvenes muchas veces no encuentran respuesta a sus inquietudes en las estructuras habituales, y que a los adultos les cuesta escucharlos y hablar un lenguaje que comprendan.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Qué culturas juveniles reconoces en tu sector? ¿Cuáles están presentes en tu grupo y cuáles no?",
+    "¿Qué música, juegos o cuentas siguen los jóvenes de tu comunidad? ¿Les has preguntado?",
+    "¿Cómo está presente tu comunidad en lo digital: solo avisa actividades o también acompaña?",
+    "¿Qué expresión juvenil te incomoda? ¿Qué deseo bueno podría haber detrás?"
+   ],
+   "activity": "En parejas, uno le muestra al otro una canción, un video o una cuenta que le guste y explica por qué. El que escucha solo pregunta, sin opinar. Después cambian. Al final comparten con el grupo qué descubrieron del otro.",
+   "prayer": "Espíritu Santo, que hiciste que cada pueblo escuchara el Evangelio en su propia lengua: danos oídos para entender los lenguajes de los jóvenes de hoy. Que sepamos descubrir tu presencia en sus búsquedas y anunciar a Jesús con palabras que lleguen al corazón. Amén.",
+   "resources": [
+    {
+     "title": "Christus vivit, números 86 a 90",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "El ambiente digital en la vida de los jóvenes."
+    }
+   ],
+   "comenzar": "Revisa cuánto tiempo pasaste ayer frente a una pantalla y en qué. Sin juzgarte, anota qué de eso te hizo bien y qué te dejó peor.",
+   "logros": [
+    "Explicar qué es una cultura juvenil y nombrar las que hay en su sector.",
+    "Describir oportunidades y riesgos del ambiente digital.",
+    "Acercarse a los gustos de un joven preguntando y sin juzgar."
+   ],
+   "profundizar": {
+    "titulo": "Señales de alerta en lo digital",
+    "texto": "Conviene conversar con el joven, y avisar al adulto responsable de la comunidad, si observas:\n\n- Cambios bruscos de ánimo después de usar el teléfono.\n- Que oculta la pantalla o borra conversaciones con mucha ansiedad.\n- Que recibe burlas, amenazas o presiones para enviar imágenes.\n- Que deja de dormir, de comer o de ver a sus amigos por estar conectado.\n- Que un adulto desconocido le escribe en privado y le pide guardar el secreto.\n\nAnte presiones, amenazas o contacto de adultos desconocidos, se aplica el protocolo de buen trato y prevención de la comunidad."
+   },
+   "caso": {
+    "titulo": "El coordinador que quiso sonar joven",
+    "texto": "Para atraer más jóvenes, un coordinador de 30 años empieza a publicar en la cuenta del grupo con las expresiones y los memes de moda. Los jóvenes se ríen entre ellos de las publicaciones y casi nadie las comparte. Una de las jóvenes, que dibuja muy bien y maneja varias redes, nunca ha sido invitada a ayudar.",
+    "preguntas": [
+     "¿Por qué no funcionó el intento del coordinador?",
+     "¿Qué habría cambiado si los propios jóvenes hubieran estado a cargo?"
+    ]
+   },
+   "claves": [
+    [
+     "Cultura juvenil",
+     "Manera compartida de vivir y expresarse con la que un grupo de jóvenes muestra su identidad."
+    ],
+    [
+     "Ambiente digital",
+     "Espacio de relaciones, información y expresión que forma parte de la vida diaria."
+    ],
+    [
+     "Autenticidad",
+     "Mostrarse como uno es, sin imitar para agradar."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Pablo observó antes de hablar. ¿Qué «altares» ves en la vida de los jóvenes de tu comunidad?",
+    "orar": "Pide al Espíritu que te muestre algo bueno en una expresión juvenil que no entiendes.",
+    "vivir": "Pídele a un joven de tu grupo que te muestre su canción favorita y escúchala completa."
+   },
+   "practica": [
+    "Formen parejas.",
+    "Cada uno muestra algo que le gusta y explica por qué.",
+    "El otro solo pregunta.",
+    "Compartan qué descubrieron."
+   ],
+   "idea": "Para anunciar el Evangelio en un lenguaje, primero hay que escucharlo."
+  },
+  {
+   "title": "Soledad, salud mental y vínculos",
+   "objective": "Conocer la situación de soledad y de salud mental de los jóvenes, reconocer el valor protector de una comunidad y tener claros los límites de quien acompaña.",
+   "intro": "Muchos jóvenes llegan a un grupo buscando, antes que nada, un lugar donde estar con otros. En esta unidad vas a ver por qué la pertenencia cuida, qué señales merecen atención y hasta dónde llega tu responsabilidad.",
+   "sections": [
+    {
+     "title": "Una generación que se siente sola",
+     "body": "Según la Encuesta Bicentenario UC 2025, el **62%** de quienes tienen entre 18 y 24 años dijo haberse sentido solo durante la última semana, al menos algunas veces.\n\nLa soledad no depende de cuánta gente hay alrededor ni de cuántos contactos se tienen en el teléfono. Depende de si hay alguien con quien se puede ser uno mismo y que notaría nuestra ausencia."
+    },
+    {
+     "title": "Lo que dicen los datos de salud mental",
+     "body": "La 11ª Encuesta Nacional de Juventudes del INJUV informó que el **10%** de los jóvenes presenta síntomas graves de depresión o de ansiedad, y que el **18%** ha recibido alguna vez un diagnóstico de salud mental, sobre todo ansiedad y depresión.\n\nEn un grupo de veinte jóvenes, entonces, es probable que varios estén pasando por un momento difícil, aunque no lo digan. Esto pide tratar el tema con delicadeza y sin dramatizar: ni hacer bromas ni convertir cada encuentro en una terapia."
+    },
+    {
+     "title": "La comunidad cuida",
+     "body": "Un grupo sano protege porque ofrece lo que más falta:\n\n- **Pertenencia:** alguien me espera y sabe mi nombre.\n- **Ritmo:** un encuentro fijo ordena la semana.\n- **Sentido:** lo que hago sirve a otros.\n- **Adultos y pares confiables** a quienes acudir.\n\nNada de esto requiere actividades especiales. Requiere acoger bien, notar al que falta y escribirle, y cuidar que nadie quede fuera de las conversaciones."
+    },
+    {
+     "title": "Hasta dónde llega mi tarea",
+     "body": "Quien conduce un grupo **acompaña, no trata**. Tu tarea es escuchar, estar presente y conectar al joven con quienes pueden ayudarlo: su familia, el asesor, un profesional de la salud.\n\nHay una regla que no admite excepciones: si un joven habla de hacerse daño o de quitarse la vida, **no se guarda el secreto**. Se le dice con cariño que se va a buscar ayuda, y se avisa de inmediato al adulto responsable de la comunidad. En Chile, la línea de prevención del suicidio del Ministerio de Salud es el *4141."
+    }
+   ],
+   "bible": {
+    "ref": "Mateo 11,28-30 · Vengan a mí los que están cansados",
+    "comment": "Jesús invita a quienes están cansados y agobiados a ir hacia él para encontrar descanso. No les pide que primero se ordenen ni que lleguen sin carga. Se presenta como manso y humilde de corazón: alguien junto a quien se puede descansar."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 216-217",
+     "text": "El papa pide comunidades con mayor capacidad de acogida cordial, donde los jóvenes encuentren un hogar: un lugar en el que se sientan unidos a otros más allá de lo útil.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Evangelii gaudium 169-171",
+     "text": "Propone el arte del acompañamiento, que comienza por saber escuchar y por acercarse a la vida del otro con respeto.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html"
+    }
+   ],
+   "questions": [
+    "¿Quién notaría tu ausencia si faltaras un mes a tu comunidad? ¿Y la de cada joven del grupo?",
+    "¿Qué hace tu comunidad cuando alguien deja de venir?",
+    "¿Cómo se habla de salud mental en tu grupo: con respeto, con bromas o no se habla?",
+    "¿Sabes a quién avisar y a dónde derivar si un joven está en riesgo?"
+   ],
+   "activity": "Dibujen un mapa de su grupo: un círculo por cada joven, más cerca del centro si está muy integrado y más lejos si participa poco. Identifiquen a tres personas que están en el borde y acuerden un gesto concreto de cercanía para cada una durante esta semana.",
+   "prayer": "Señor Jesús, manso y humilde de corazón: tú conoces el cansancio y la soledad de tantos jóvenes. Haz de nuestra comunidad un hogar donde nadie sobre y a nadie se le pida fingir que está bien. Danos ojos para ver al que se aleja y humildad para pedir ayuda cuando no sabemos qué hacer. Amén.",
+   "resources": [
+    {
+     "title": "Salud Responde",
+     "url": "https://saludresponde.minsal.cl/",
+     "note": "Orientación del Ministerio de Salud, también en salud mental: 600 360 7777, las 24 horas."
+    },
+    {
+     "title": "Encuesta Nacional Bicentenario UC",
+     "url": "https://encuestabicentenario.uc.cl/resultados/",
+     "note": "Resultados por año y por tema, entre ellos religión, familia y soledad."
+    }
+   ],
+   "comenzar": "Piensa en un momento en que te sentiste solo aunque había gente a tu alrededor. ¿Qué gesto de otra persona te habría ayudado?",
+   "logros": [
+    "Citar datos recientes sobre soledad y salud mental de los jóvenes en Chile.",
+    "Nombrar cuatro formas en que una comunidad protege.",
+    "Explicar qué hacer y a quién avisar ante una situación de riesgo."
+   ],
+   "profundizar": {
+    "titulo": "Para seguir formándote",
+    "texto": "Esta unidad es solo una entrada al tema. En Mi Ruta hay dos formaciones que lo desarrollan:\n\n- **Primeros auxilios psicológicos:** cómo acompañar a alguien en un momento de crisis y cómo derivar.\n- **Buen trato y prevención:** cómo construir ambientes sanos y seguros, y qué hacer ante una revelación.\n\nSe recomienda que todo equipo coordinador tenga al menos a una persona con cada formación aprobada."
+   },
+   "caso": {
+    "titulo": "El que siempre decía que estaba bien",
+    "texto": "Matías, de 19 años, es de los más activos del grupo: llega primero, ordena las sillas y hace reír a todos. Desde hace un mes llega tarde, casi no habla y se va apenas termina el encuentro. Cuando le preguntan, responde que está bien y que solo anda cansado. Nadie insiste, porque «él siempre ha sido fuerte».",
+    "preguntas": [
+     "¿Qué señales hay en el cambio de Matías?",
+     "¿Quién podría acercarse a él y de qué manera?",
+     "¿Qué harías si te cuenta algo grave y te pide no decirlo?"
+    ]
+   },
+   "claves": [
+    [
+     "Soledad",
+     "Sentir que no hay nadie con quien ser uno mismo, aunque haya gente cerca."
+    ],
+    [
+     "Factor protector",
+     "Condición que disminuye el riesgo de daño, como pertenecer a un grupo que cuida."
+    ],
+    [
+     "Derivar",
+     "Conectar a la persona con quien puede darle la ayuda que necesita."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús no pide llegar sin carga. ¿Se puede llegar cansado o triste a tu comunidad?",
+    "orar": "Reza por el joven de tu grupo que te parece más solo.",
+    "vivir": "Escríbele hoy a alguien que hace tiempo no va al grupo, solo para saber cómo está."
+   },
+   "practica": [
+    "Dibujen el mapa del grupo.",
+    "Identifiquen a tres personas que están en el borde.",
+    "Acuerden un gesto de cercanía para cada una."
+   ],
+   "idea": "Antes que actividades, los jóvenes necesitan un lugar donde alguien los espere."
+  },
+  {
+   "title": "Religiosidad juvenil: creer sin pertenecer",
+   "objective": "Comprender cómo viven hoy los jóvenes su relación con Dios y con la Iglesia, y sacar consecuencias para la forma de anunciar el Evangelio.",
+   "intro": "Durante mucho tiempo una comunidad juvenil podía suponer que quien llegaba ya conocía lo básico de la fe. Hoy no es así. En esta unidad vas a mirar los datos sobre la religión de los jóvenes y a pensar qué piden de quienes servimos en la pastoral.",
+   "sections": [
+    {
+     "title": "Lo que muestran los datos",
+     "body": "Según la Encuesta Bicentenario UC 2025, entre quienes tienen de 18 a 24 años:\n\n- el **18%** se identifica como católico;\n- el **54%** dice no tener ninguna religión.\n\nEn la población adulta en general, el 44% se declara católico y el 36% sin religión. Cuanto más joven es la persona, menor es la identificación con la Iglesia.\n\nPara una comunidad esto significa que la mayoría de los jóvenes de su sector no se siente parte de la Iglesia, y que muchos de los que llegan lo hacen sin formación previa."
+    },
+    {
+     "title": "Una crisis de pertenencia más que de fe",
+     "body": "Quienes estudian estos datos advierten que lo que más crece no es el ateísmo, sino el número de personas que **creen sin pertenecer**: dicen no tener religión, pero rezan, creen en Dios o mantienen devociones de su familia.\n\nMucha vida religiosa ocurre hoy fuera del templo: una oración antes de una prueba, una vela por un familiar enfermo, una animita, una peregrinación. En ese terreno hay una fe real, aunque todavía sin comunidad."
+    },
+    {
+     "title": "Lo que aleja y lo que atrae",
+     "body": "**Aleja:** la incoherencia entre lo que se predica y lo que se vive, los abusos y su encubrimiento, sentirse juzgado, los discursos que no tocan la vida, las comunidades cerradas donde no hay lugar para el que llega.\n\n**Atrae:** personas auténticas, un grupo donde se es bien recibido, el servicio concreto a quien sufre, espacios de silencio y de oración bien cuidados, que se pueda preguntar de todo y que se confíe en los jóvenes para tareas reales."
+    },
+    {
+     "title": "Consecuencias para la pastoral",
+     "body": "1. **No dar la fe por supuesta.** Volver una y otra vez al primer anuncio: Dios te ama, Cristo te salva, él está vivo.\n2. **Salir a buscar.** La mayoría no va a llegar por un aviso en la parroquia.\n3. **Acoger antes de exigir.** Primero pertenecer; la formación y el compromiso vienen después.\n4. **Valorar la fe sencilla.** Partir de lo que el joven ya cree y reza, sin despreciarlo.\n5. **Cuidar la coherencia del equipo.** El testimonio convence más que cualquier charla."
+    }
+   ],
+   "bible": {
+    "ref": "Juan 1,35-39 · Vengan y lo verán",
+    "comment": "Dos discípulos de Juan siguen a Jesús sin saber bien qué buscan. Él se da vuelta y les pregunta: «¿Qué buscan?». Ellos responden con otra pregunta: «¿Dónde vives?». Jesús no les da una explicación: los invita a ir, a ver y a quedarse con él ese día. La fe comienza con una pregunta y una experiencia compartida."
+   },
+   "church": [
+    {
+     "source": "Christus vivit 39-41",
+     "text": "El papa recoge lo que muchos jóvenes dicen de la Iglesia: algunos no la sienten significativa para su vida y otros piden una Iglesia que escuche más y condene menos.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Christus vivit 111-133",
+     "text": "Presenta el gran anuncio para todos los jóvenes en tres verdades: Dios te ama, Cristo te salva y él vive.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    },
+    {
+     "source": "Christus vivit 209-215",
+     "text": "Propone dos grandes líneas para la pastoral juvenil: la búsqueda, que convoca a nuevos jóvenes, y el crecimiento de quienes ya vivieron un encuentro con el Señor.",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html"
+    }
+   ],
+   "questions": [
+    "¿Cómo llegaste tú a la fe? ¿Qué fue primero: una persona, un grupo o una enseñanza?",
+    "¿Qué saben de la fe los jóvenes que llegan por primera vez a tu comunidad?",
+    "¿Qué expresiones de fe sencilla ves en los jóvenes de tu sector que no van a la parroquia?",
+    "De lo que aleja a los jóvenes, ¿qué ocurre también en tu comunidad?"
+   ],
+   "activity": "En grupos, preparen cómo contarían el primer anuncio (Dios te ama, Cristo te salva, él vive) en dos minutos a un joven que nunca ha ido a una iglesia, sin usar palabras que solo se entienden dentro de ella. Preséntenlo a otro grupo y reciban sus comentarios.",
+   "prayer": "Señor Jesús, que preguntaste a los primeros discípulos qué buscaban y los invitaste a tu casa: enséñanos a escuchar las búsquedas de los jóvenes antes de darles respuestas. Que nuestra comunidad pueda decir con verdad «vengan y lo verán», y que quien venga te encuentre a ti. Amén.",
+   "resources": [
+    {
+     "title": "Encuesta Nacional Bicentenario UC",
+     "url": "https://encuestabicentenario.uc.cl/resultados/",
+     "note": "Resultados por año y por tema, entre ellos religión, familia y soledad."
+    },
+    {
+     "title": "Christus vivit, capítulo 4: «El gran anuncio para todos los jóvenes»",
+     "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+     "note": "Los números 111 a 133."
+    }
+   ],
+   "comenzar": "Escribe los nombres de cinco jóvenes que conoces y que no participan en ninguna comunidad. Junto a cada nombre anota lo que sabes de su relación con Dios. ¿Cuánto sabes en realidad?",
+   "logros": [
+    "Citar datos recientes sobre la religión de los jóvenes en Chile.",
+    "Explicar qué significa creer sin pertenecer.",
+    "Formular el primer anuncio con palabras sencillas.",
+    "Nombrar tres cambios que estos datos piden a su comunidad."
+   ],
+   "profundizar": {
+    "titulo": "Cuidado con dos lecturas apuradas",
+    "texto": "- **«Los jóvenes ya no creen en nada».** Los datos no dicen eso. Dicen que se identifican menos con una Iglesia, lo que es distinto de no tener fe ni preguntas.\n- **«Está volviendo la fe entre los jóvenes».** Hay comunidades y movimientos que crecen, y es una buena noticia. Pero las encuestas nacionales no muestran por ahora un aumento general.\n\nLa actitud que sirve es mirar la realidad sin desánimo y sin triunfalismo, y trabajar con los jóvenes concretos que se tienen cerca."
+   },
+   "caso": {
+    "titulo": "La joven que solo iba al Mes de María",
+    "texto": "Antonia, de 17 años, dice que no es «de iglesia». No va a misa ni participa en ningún grupo. Pero todos los años acompaña a su abuela al Mes de María y, cuando su hermano estuvo hospitalizado, rezó el rosario cada noche. Una amiga la invita a la comunidad juvenil. En el primer encuentro, un coordinador le pregunta delante de todos por qué no está confirmada.",
+    "preguntas": [
+     "¿Qué fe hay ya en la vida de Antonia?",
+     "¿Qué efecto pudo tener la pregunta del coordinador?",
+     "¿Cómo la habrías recibido tú?"
+    ]
+   },
+   "claves": [
+    [
+     "Creer sin pertenecer",
+     "Tener fe o prácticas religiosas sin sentirse parte de una Iglesia."
+    ],
+    [
+     "Primer anuncio",
+     "Proclamación central del Evangelio: Dios te ama, Cristo te salva y él vive."
+    ],
+    [
+     "Religiosidad popular",
+     "Expresiones sencillas de fe del pueblo, como peregrinaciones, devociones y oraciones familiares."
+    ]
+   ],
+   "lectio": {
+    "meditar": "Jesús pregunta: «¿Qué buscan?». ¿Qué buscan los jóvenes que se acercan a tu comunidad?",
+    "orar": "Pide por los cinco jóvenes que anotaste al comenzar.",
+    "vivir": "Invita personalmente a uno de ellos a algo sencillo de tu comunidad, sin presionar."
+   },
+   "practica": [
+    "Preparen el primer anuncio en dos minutos.",
+    "Eviten palabras que solo se entienden dentro de la Iglesia.",
+    "Preséntenlo a otro grupo y recojan sus comentarios."
+   ],
+   "idea": "Hoy la fe no se hereda: se propone, se acompaña y se muestra con la vida."
+  }
+ ],
+ "evaluacion": [
+  {
+   "q": "¿Por qué se habla de «juventudes» en plural?",
+   "options": [
+    "Porque hay muchos jóvenes en el país.",
+    "Porque es una palabra de moda.",
+    "Porque hay distintas maneras de ser joven según la edad, el lugar y las condiciones de vida.",
+    "Porque cada parroquia tiene su grupo."
+   ],
+   "correct": 2,
+   "feedback": "No existe «la juventud» en abstracto: existen jóvenes concretos."
+  },
+  {
+   "q": "Antes de usar una cifra sobre los jóvenes conviene revisar:",
+   "options": [
+    "Quién hizo el estudio, a quiénes preguntó, qué preguntó y cuándo.",
+    "Solo si la cifra es alta o baja.",
+    "Si coincide con lo que uno ya pensaba.",
+    "Si apareció en redes sociales."
+   ],
+   "correct": 0,
+   "feedback": "Dos estudios pueden dar resultados distintos porque preguntan cosas distintas."
+  },
+  {
+   "q": "¿Cuál es la tarea de fondo de la adolescencia según Erikson?",
+   "options": [
+    "Obedecer a los adultos.",
+    "Elegir una profesión.",
+    "Dejar de tener dudas.",
+    "Construir la propia identidad."
+   ],
+   "correct": 3,
+   "feedback": "Probar y cuestionar es parte de responder a la pregunta «¿quién soy?»."
+  },
+  {
+   "q": "En un encuentro con jóvenes de 12 a 14 años ayuda sobre todo:",
+   "options": [
+    "Una exposición larga y preguntas muy íntimas.",
+    "Juegos, trabajo con las manos, momentos breves y grupos pequeños.",
+    "Dejarlos sin reglas.",
+    "Tratarlos igual que a los de 25."
+   ],
+   "correct": 1,
+   "feedback": "Cada etapa pide algo distinto."
+  },
+  {
+   "q": "Cuando un joven dice que ya no sabe si cree, lo más útil es:",
+   "options": [
+    "Preguntar qué lo hizo dudar y mantener el vínculo.",
+    "Recordarle sus obligaciones.",
+    "Pedirle que deje el grupo hasta aclararse.",
+    "Cambiar de tema."
+   ],
+   "correct": 0,
+   "feedback": "Quien puede dudar sin ser expulsado sabe que tiene un lugar al cual volver."
+  },
+  {
+   "q": "El ambiente digital, para la mayoría de los jóvenes, es:",
+   "options": [
+    "Solo una distracción.",
+    "Algo que usan muy poco.",
+    "Un espacio real de relaciones, información y expresión.",
+    "Un tema que no toca a la pastoral."
+   ],
+   "correct": 2,
+   "feedback": "Lo que ocurre ahí es parte de su vida real."
+  },
+  {
+   "q": "Para acercarse a una cultura juvenil conviene:",
+   "options": [
+    "Imitar su forma de hablar.",
+    "Preguntar con curiosidad, sin burlarse y sin imitar.",
+    "Corregir sus gustos.",
+    "Ignorarla."
+   ],
+   "correct": 1,
+   "feedback": "La autenticidad da más credibilidad que la imitación."
+  },
+  {
+   "q": "Si un joven habla de hacerse daño o de quitarse la vida, quien acompaña debe:",
+   "options": [
+    "Guardar el secreto para no perder su confianza.",
+    "Esperar a ver si se le pasa.",
+    "Contarlo en el grupo para que recen.",
+    "Decirle que se buscará ayuda y avisar de inmediato al adulto responsable."
+   ],
+   "correct": 3,
+   "feedback": "Ese secreto nunca se guarda. Quien acompaña no carga solo con la situación."
+  },
+  {
+   "q": "«Creer sin pertenecer» significa:",
+   "options": [
+    "Tener fe o prácticas religiosas sin sentirse parte de una Iglesia.",
+    "No creer en nada.",
+    "Pertenecer a varias religiones.",
+    "Ir a misa sin creer."
+   ],
+   "correct": 0,
+   "feedback": "Lo que más crece no es el ateísmo, sino la fe sin comunidad."
+  },
+  {
+   "q": "¿Cuál es el contenido del primer anuncio según Christus vivit?",
+   "options": [
+    "Las normas del grupo.",
+    "La historia de la parroquia.",
+    "Dios te ama, Cristo te salva y él vive.",
+    "El calendario litúrgico."
+   ],
+   "correct": 2,
+   "feedback": "Son las tres verdades del capítulo cuarto de Christus vivit."
+  }
+ ]
+}
