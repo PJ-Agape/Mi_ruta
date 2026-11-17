@@ -19,6 +19,7 @@ Segunda asesoría del proyecto integrador. Con el diagnóstico y el objetivo ya 
 | ¿La carga está repartida o depende de una persona? | |
 | ¿El calendario considera las fechas de la parroquia y del año escolar? | |
 | Principales riesgos identificados y plan B | |
+| Acción piloto elegida, fecha y responsable | |
 | ¿La comunicación está pensada desde el joven al que se quiere llegar? | |
 | Ajustes acordados | |
 | Fecha de la próxima asesoría | |

@@ -1,11 +1,11 @@
-Tercera y última asesoría antes de las presentaciones. Se revisan las primeras **acciones realizadas**, las **evidencias** del avance, el plan de **relevo** y la **presentación** final.
+Tercera y última asesoría antes de las presentaciones. Se revisan la **acción piloto** y las demás acciones realizadas, las **evidencias** del avance, el plan de **relevo** y la **presentación** final.
 
 ### Programa de la asesoría
 
 | Momento | Duración | Contenido |
 |---------|----------|-----------|
 | Oración breve | 5 min | Acción de gracias por lo avanzado |
-| Primeras acciones | 20 min | Qué se hizo, qué resultó y qué se aprendió |
+| Acción piloto | 20 min | Qué se hizo, cuántos participaron, qué resultó, qué no y qué cambia en el plan |
 | Evidencias | 15 min | Fotos (con autorización), registros, asistencia, comentarios |
 | Relevo y evaluación | 20 min | Partes 6 y 7 del proyecto |
 | Ensayo de la presentación | 25 min | Pitch de 10 minutos con retroalimentación |
@@ -15,7 +15,8 @@ Tercera y última asesoría antes de las presentaciones. Se revisan las primeras
 
 | Elemento | Comentarios |
 |----------|-------------|
-| Acciones realizadas hasta hoy | |
+| Acción piloto: qué se hizo y con cuántos | |
+| Qué resultó y qué no | |
 | Evidencias reunidas | |
 | Aprendizajes y ajustes al plan | |
 | Futuros líderes y plan de mentoría | |
@@ -25,7 +26,7 @@ Tercera y última asesoría antes de las presentaciones. Se revisan las primeras
 
 ### Guía de la asesoría para el relator (90 minutos)
 
-**Objetivo:** que el participante llegue a las presentaciones con un proyecto completo, con primeras evidencias y una presentación ensayada.
+**Objetivo:** que el participante llegue a las presentaciones con un proyecto completo, una acción piloto realizada con sus evidencias y una presentación ensayada.
 
 **Preguntas que ayudan:**
 
@@ -35,7 +36,7 @@ Tercera y última asesoría antes de las presentaciones. Se revisan las primeras
 4. En la presentación, ¿qué le pedirás concretamente a quienes te escuchan?
 5. ¿Cuál es la frase que quieres que recuerden?
 
-**Cuidados:** las evidencias con imágenes de menores solo con autorización escrita de sus padres. Si el proyecto aún no tiene acciones realizadas, ayudar a definir una acción pequeña que pueda hacerse antes de la presentación.
+**Cuidados:** las evidencias con imágenes de menores solo con autorización escrita de sus padres. La acción piloto es requisito para presentar: si aún no se ha realizado, ayudar a definir una acción pequeña que pueda hacerse antes de la presentación y acordar la fecha.
 
 ### Aplicación y bitácora
 
