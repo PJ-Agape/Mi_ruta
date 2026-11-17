@@ -180,6 +180,8 @@ COMPLEMENTARIAS = ["servidores-del-altar", "lectores-y-salmistas", "musica-litur
 
 
 ESCRITURA = [f"se-{i}" for i in range(1, 10)]
+# Módulos sueltos que muestran un aviso de revisión en su portada.
+AVISOS = {"juventudes-actuales": "Material en revisión. Los contenidos de esta formación están siendo revisados por profesionales de la psicología, la educación y la teología. Si encuentras un error o algo que deba precisarse, avísanos."}
 # Lo que la portada muestra en «Nuevos».
 NUEVOS_IDS = set()  # formaciones destacadas como «Nuevo» en la portada (vacío: ninguna)
 
@@ -361,7 +363,7 @@ def main():
     for mid in COMPLEMENTARIAS:
         m = M[mid]
         ficha = {"id": mid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": mid in NUEVOS_IDS,
-                 "duracion": "6 sesiones · 9 horas", "modalidad": "En línea, a tu ritmo", "tipo": "complementaria", "horas": 9, "recursos": {}}
+                 "duracion": "6 sesiones · 9 horas", "modalidad": "En línea, a tu ritmo", "tipo": "complementaria", "horas": 9, "recursos": {}, **({"aviso": AVISOS[mid]} if mid in AVISOS else {})}
         mods = [{"id": mid, "numero": 1, "titulo": m["titulo"], "tipo": "obligatorio", "etiqueta": "Módulo",
                  "duracion": "6 sesiones · 9 horas", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]
         escribir(mid, ficha, mods, m["evals"])
