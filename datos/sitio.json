@@ -3,6 +3,7 @@
   "lema": "Tu camino de formación, paso a paso",
   "cursos": [
     "llamados",
+    "adviento",
     "dirigente-juvenil",
     "diplomado",
     "servicio-liturgico",
@@ -41,6 +42,7 @@
       "institucion": "agAPPe",
       "descripcion": "Cursos, diplomados y módulos para quienes sirven en la pastoral juvenil y parroquial: fe, liturgia, Sagrada Escritura, liderazgo, misión, cuidado y herramientas para el servicio.",
       "cursos": [
+        "adviento",
         "dirigente-juvenil",
         "diplomado",
         "servicio-liturgico",

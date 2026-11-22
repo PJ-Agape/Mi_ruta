@@ -183,7 +183,7 @@ ESCRITURA = [f"se-{i}" for i in range(1, 10)]
 # Módulos sueltos que muestran un aviso de revisión en su portada.
 AVISOS = {"juventudes-actuales": "Material en revisión. Los contenidos de esta formación están siendo revisados por profesionales de la psicología, la educación y la teología. Si encuentras un error o algo que deba precisarse, avísanos."}
 # Lo que la portada muestra en «Nuevos».
-NUEVOS_IDS = set()  # formaciones destacadas como «Nuevo» en la portada (vacío: ninguna)
+NUEVOS_IDS = {"adviento"}  # formaciones destacadas como «Nuevo» en la portada
 
 
 # Puerta de entrada: propedéutico vocacional precargado para todos (no bloquea otras formaciones).
@@ -201,9 +201,31 @@ def propedeutico():
                       "publico": "Para todos, al comenzar en Mi Ruta"}}
 
 
+# Formaciones de tiempo litúrgico: cuatro encuentros semanales con oración diaria, sin evaluación.
+TEMPORADA = {
+    "adviento": {
+        "titulo": "Adviento: despiertos para recibirlo",
+        "titulos": ["Estén atentos: despertar", "Preparen el camino: convertirse", "Testigos de la luz: la alegría", "Que se cumpla en mí: el sí de María"],
+        "intro": "Cuatro encuentros, uno por cada domingo de Adviento, con los evangelios del ciclo B. Cada semana trae una guía de oración de diez minutos al día, para que la Navidad no pase como una fecha más del calendario. Se puede hacer a solas o con la comunidad. Comienza el domingo 29 de noviembre de 2026.",
+        "ficha": {"subtitulo": "Cuatro semanas para preparar la Navidad con la Palabra del domingo y diez minutos de oración al día",
+                  "descripcion": "Un camino breve para vivir el Adviento 2026: un encuentro por semana con el Evangelio del domingo (ciclo B), los signos de este tiempo, un caso para pensar y una guía de oración diaria. Comienza el domingo 29 de noviembre y termina en Nochebuena. Sin evaluación: es una formación para rezarla.",
+                  "publico": "Para todos: jóvenes, dirigentes y familias"},
+    },
+}
+
+
+def temporada(tid):
+    d = TEMPORADA[tid]
+    ses = [{"tipo": "unidad", "titulo": t, "tiempo": "60 min + 10 min diarios",
+            "texto": (R / "fuentes" / tid / f"s{i}.md").read_text(encoding="utf-8")} for i, t in enumerate(d["titulos"], 1)]
+    return {"titulo": d["titulo"], "categoria": "Fe", "sesiones": ses, "sin_cierre": True, "horas": 4, "intro": d["intro"], "ficha": d["ficha"]}
+
+
 def modulos():
     M = {cid: complementaria(cid) for cid in COMPLEMENTARIAS + ESCRITURA + HERRAMIENTAS + COMUNICACION + ISE.IDS}
     M[PROPEDEUTICO] = propedeutico()
+    for tid in TEMPORADA:
+        M[tid] = temporada(tid)
     M["dj-identidad"] = dj("Identidad y espiritualidad del agente pastoral", [U(A, "m1-u01"), U(A, "m1-u02"), U(A, "m1-u05"), U(A, "m1-u06"), U(A, "m5-u01")], "dj-identidad")
     M["dj-acogida"] = dj("Acogida y vida de grupo", [U(A, "m2-u01"), U(A, "m2-u02"), U(A, "m2-u03"), U(A, "m2-u04"), U(A, "m1-u04")], "dj-acogida")
     M["dj-escucha"] = dj("Escucha y acompañamiento", [U(A, "m1-u03"), U(A, "m3-u01"), U(A, "m3-u02"), U(A, "m3-u04"), U(A, "m5-u04")], "dj-escucha")
@@ -360,6 +382,14 @@ def main():
     mods = [{"id": PROPEDEUTICO, "numero": 1, "titulo": m["titulo"], "tipo": "obligatorio", "etiqueta": "Propedéutico",
              "duracion": "4 encuentros · 4 horas", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]
     escribir(PROPEDEUTICO, ficha, mods, {})
+    for tid in TEMPORADA:
+        m = M[tid]
+        ficha = {"id": tid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": tid in NUEVOS_IDS,
+                 "duracion": "4 semanas · 4 encuentros", "modalidad": "En línea, a tu ritmo, o en grupo", "tipo": "complementaria", "horas": 4, "recursos": {}}
+        mods = [{"id": tid, "numero": 1, "titulo": m["titulo"], "tipo": "obligatorio", "etiqueta": "Tiempo litúrgico",
+                 "duracion": "4 semanas · 4 encuentros", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]
+        escribir(tid, ficha, mods, {})
+        lista.insert(0, tid)
     for mid in COMPLEMENTARIAS:
         m = M[mid]
         ficha = {"id": mid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": mid in NUEVOS_IDS,

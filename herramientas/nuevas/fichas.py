@@ -6,6 +6,10 @@ FICHAS = {
         "ejes": ["Dios llama por el nombre", "Los caminos de la vocación: laicos, matrimonio, sacerdocio y vida consagrada", "Discernir sin miedo y con acompañamiento", "Una Iglesia sinodal y en salida"],
         "competencias": ["Reconocer la propia vida como respuesta a un llamado de Dios.", "Valorar todas las vocaciones, incluidas el sacerdocio y la vida consagrada, como caminos posibles.", "Dar un primer paso concreto de formación y servicio, acompañado."],
     },
+    "adviento": {
+        "ejes": ["Las dos venidas de Cristo y los signos del Adviento", "Velar: despertar del piloto automático", "Conversión y Reconciliación", "La alegría del domingo Gaudete y las antífonas de la «O»", "El sí de María y la Encarnación"],
+        "competencias": ["Explicar el sentido del Adviento y de sus signos.", "Sostener diez minutos diarios de oración con el Evangelio del día.", "Dar un paso concreto de reconciliación antes de Navidad.", "Animar con su comunidad la corona de Adviento y el Ángelus."],
+    },
     "herramientas-digitales": {
         "ejes": ["Cuenta segura y nube ordenada", "Documentos, planillas y presentaciones", "Trabajo colaborativo, formularios y reuniones en línea", "Análisis de datos, automatización y cuidado de la información"],
         "competencias": ["Usar Microsoft 365 o Google Workspace con autonomía en tareas de la pastoral.", "Organizar la información del grupo de forma segura, ordenada y continua.", "Proteger los datos personales, especialmente los de menores de edad."],
@@ -172,6 +176,7 @@ SECCIONES = {
 }
 ENLACES = {
     "llamados": ["capilla", "oremus", "salmos"],
+    "adviento": ["evangelio", "capilla", "oremus"],
     "herramientas-digitales": ["agenda", "coordinacion"],
     "dirigente-juvenil": ["agenda", "coordinacion", "capilla", "dinamicas", "cancionero"],
     "diplomado": ["dinamicas", "capilla"],

@@ -1,0 +1,58 @@
+{
+ "curso": "adviento",
+ "modulos": [
+  {
+   "id": "adviento",
+   "numero": 1,
+   "titulo": "Adviento: despiertos para recibirlo",
+   "tipo": "obligatorio",
+   "etiqueta": "Tiempo litúrgico",
+   "duracion": "4 semanas · 4 encuentros",
+   "constancia": false,
+   "requiere": [],
+   "intro": "Cuatro encuentros, uno por cada domingo de Adviento, con los evangelios del ciclo B. Cada semana trae una guía de oración de diez minutos al día, para que la Navidad no pase como una fecha más del calendario. Se puede hacer a solas o con la comunidad. Comienza el domingo 29 de noviembre de 2026.",
+   "clases": [
+    {
+     "id": "adviento-s1",
+     "tipo": "unidad",
+     "numero": 1,
+     "etiqueta": "Encuentro 1",
+     "titulo": "Estén atentos: despertar",
+     "tiempo": "60 min + 10 min diarios",
+     "archivo": "contenido/modulos/adviento/s1.md",
+     "debate": "**Caso: «Diciembre me pasa por encima».** Valentina tiene 20 años, estudia y trabaja los fines de semana en una tienda. En diciembre hace turnos extra. Llega a Navidad agotada, va a la Misa de Gallo con su familia y se queda dormida en la banca. Le da pena: siente que todos los años le pasa lo mismo.\n\n- ¿Qué podría hacer Valentina, con el tiempo que realmente tiene, para que este año sea distinto?\n- ¿Qué tienes en común con ella?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "adviento-s2",
+     "tipo": "unidad",
+     "numero": 2,
+     "etiqueta": "Encuentro 2",
+     "titulo": "Preparen el camino: convertirse",
+     "tiempo": "60 min + 10 min diarios",
+     "archivo": "contenido/modulos/adviento/s2.md",
+     "debate": "**Caso: «Ya es muy tarde para eso».** Sebastián, de 24 años, se peleó con su hermano hace dos años por una herencia familiar. No se hablan. Su mamá le pidió que este año pasen la Navidad juntos. Sebastián piensa que ya pasó mucho tiempo y que su hermano debería dar el primer paso.\n\n- ¿Qué piedra hay en el camino de Sebastián?\n- ¿Cuál sería un primer paso pequeño y posible?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "adviento-s3",
+     "tipo": "unidad",
+     "numero": 3,
+     "etiqueta": "Encuentro 3",
+     "titulo": "Testigos de la luz: la alegría",
+     "tiempo": "60 min + 10 min diarios",
+     "archivo": "contenido/modulos/adviento/s3.md",
+     "debate": "**Caso: «Tengo que estar bien para los demás».** Antonia, de 22 años, coordina el grupo juvenil. Este año perdió a su abuela en octubre. En los encuentros se esfuerza por estar sonriente porque siente que, como coordinadora, tiene que ser el ánimo del grupo. Cuando llega a la casa, se derrumba.\n\n- ¿Qué le diría Juan el Bautista a Antonia sobre quién no es?\n- ¿Qué tipo de alegría es posible para ella en esta Navidad?\n- ¿Quién podría acompañarla a ella?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    },
+    {
+     "id": "adviento-s4",
+     "tipo": "unidad",
+     "numero": 4,
+     "etiqueta": "Encuentro 4",
+     "titulo": "Que se cumpla en mí: el sí de María",
+     "tiempo": "60 min + 10 min diarios",
+     "archivo": "contenido/modulos/adviento/s4.md",
+     "debate": "**Caso: «Me pidieron que sea coordinador».** Diego, de 19 años, terminó su primer año de universidad. El asesor del grupo le pidió que el próximo año asuma la coordinación de la comunidad juvenil. Diego siente que no está preparado, que no sabe si va a tener tiempo y que hay otros mejores que él. Le pidió una semana para pensarlo.\n\n- ¿Qué preguntas podría hacerle Diego a Dios, como María?\n- ¿Qué necesitaría saber, y qué podría dejar en manos de Dios?\n- ¿Qué le dirías tú?\n\nComparte tu respuesta y luego comenta el aporte de algún compañero."
+    }
+   ]
+  }
+ ]
+}

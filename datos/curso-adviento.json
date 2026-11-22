@@ -1,0 +1,62 @@
+{
+  "id": "adviento",
+  "titulo": "Adviento: despiertos para recibirlo",
+  "subtitulo": "Cuatro semanas para preparar la Navidad con la Palabra del domingo y diez minutos de oración al día",
+  "descripcion": "Un camino breve para vivir el Adviento 2026: un encuentro por semana con el Evangelio del domingo (ciclo B), los signos de este tiempo, un caso para pensar y una guía de oración diaria. Comienza el domingo 29 de noviembre y termina en Nochebuena. Sin evaluación: es una formación para rezarla.",
+  "publico": "Para todos: jóvenes, dirigentes y familias",
+  "categoria": "Fe",
+  "nuevo": true,
+  "duracion": "4 semanas · 4 encuentros",
+  "modalidad": "En línea, a tu ritmo, o en grupo",
+  "tipo": "complementaria",
+  "horas": 4,
+  "recursos": {},
+  "ejes": [
+    "Las dos venidas de Cristo y los signos del Adviento",
+    "Velar: despertar del piloto automático",
+    "Conversión y Reconciliación",
+    "La alegría del domingo Gaudete y las antífonas de la «O»",
+    "El sí de María y la Encarnación"
+  ],
+  "competencias": [
+    "Explicar el sentido del Adviento y de sus signos.",
+    "Sostener diez minutos diarios de oración con el Evangelio del día.",
+    "Dar un paso concreto de reconciliación antes de Navidad.",
+    "Animar con su comunidad la corona de Adviento y el Ángelus."
+  ],
+  "agappe": [
+    {
+      "titulo": "Evangelio del día",
+      "texto": "Léelo y escúchalo cada día en la capilla.",
+      "url": "https://pj-agape.github.io/#/evangelio"
+    },
+    {
+      "titulo": "Capilla",
+      "texto": "Un rato de oración, intenciones y el Santo Rosario.",
+      "url": "https://pj-agape.github.io/#/oracion"
+    },
+    {
+      "titulo": "Recemos juntos",
+      "texto": "Nuestras oraciones y las de siempre, en un solo lugar.",
+      "url": "https://pj-agape.github.io/#/oremus"
+    }
+  ],
+  "contenidos": [
+    {
+      "titulo": "Estén atentos: despertar",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Preparen el camino: convertirse",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Testigos de la luz: la alegría",
+      "tipo": "sesion"
+    },
+    {
+      "titulo": "Que se cumpla en mí: el sí de María",
+      "tipo": "sesion"
+    }
+  ]
+}
