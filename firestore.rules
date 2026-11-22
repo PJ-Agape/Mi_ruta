@@ -20,6 +20,8 @@ rules_version = '2';
 //   - Cualquier cuenta puede enviar sugerencias o reportar problemas; solo la administración las lee y responde.
 //   - Los formadores (marcados por la administración) escriben formaciones como borradores privados; solo la
 //     administración las publica. Las formaciones publicadas las puede leer cualquiera.
+//   - En esas formaciones, cada participante responde las tareas (texto o enlace); solo él y el equipo las ven,
+//     y el equipo deja su revisión.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -332,6 +334,34 @@ service cloud.firestore {
         && request.resource.data.visible is bool
         && request.resource.data.keys().hasOnly(['autorUid', 'autorNombre', 'titulo', 'subtitulo', 'descripcion', 'categoria', 'publico',
           'abierta', 'sesiones', 'visible', 'publicado', 'publicadoPor']);
+      allow delete: if esAdmin();
+    }
+
+    // ---------- tareas de las formaciones escritas por formadores ----------
+    // Id: «curso~sesión~uid». El participante responde con texto, un enlace o ambos; el equipo deja su revisión.
+    function respuestaTareaValida() {
+      let d = request.resource.data;
+      return d.texto is string && d.texto.size() <= 8000
+        && d.enlace is string && d.enlace.size() <= 300 && (d.enlace == '' || d.enlace.matches('^https://[^ ]+$'))
+        && (d.texto.size() > 0 || d.enlace.size() > 0);
+    }
+
+    match /tareas/{id} {
+      allow get: if conSesion() && (esEquipo() || id.matches('.*~' + request.auth.uid));
+      allow list: if esEquipo();
+      allow create: if activo() && request.resource.data.uid == request.auth.uid
+        && request.resource.data.curso is string && request.resource.data.curso.matches('^f-[A-Za-z0-9]{8,40}$')
+        && request.resource.data.sesion is string && request.resource.data.sesion.size() > 0 && request.resource.data.sesion.size() <= 80
+        && id == request.resource.data.curso + '~' + request.resource.data.sesion + '~' + request.auth.uid
+        && request.resource.data.keys().hasOnly(['curso', 'sesion', 'uid', 'nombre', 'texto', 'enlace', 'enviado'])
+        && respuestaTareaValida();
+      allow update: if
+        // El participante corrige o envía una nueva versión (no toca la revisión).
+        (activo() && resource.data.uid == request.auth.uid
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['texto', 'enlace', 'enviado', 'nombre'])
+          && respuestaTareaValida())
+        // El equipo registra su revisión.
+        || (esEquipo() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['revision']));
       allow delete: if esAdmin();
     }
   }

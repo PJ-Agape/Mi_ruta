@@ -18,6 +18,7 @@
      foros/{curso}/agenda/{id}  fechas de la formación (entregas, encuentros y otras)
      borradores/{f-…}   formación escrita por un formador (versión de trabajo; la ven su autor y la administración)
      formaciones/{f-…}  versión publicada de esa formación (lectura pública mientras esté visible)
+     tareas/{curso~sesión~uid}  respuesta de un participante a la tarea de una sesión, con la revisión del equipo
 */
 
 const CONFIG = window.MIRUTA_CONFIG || {};
@@ -507,6 +508,31 @@ async function leerFormacion(id) {
   return s.exists() ? filaFormacion(s) : null;
 }
 
+/* ---------- tareas de las formaciones escritas por formadores ---------- */
+const idTarea = (curso, sesion, uid) => curso + "~" + sesion + "~" + uid;
+const filaTarea = (d) => { const x = d.data(); return { id: d.id, ...x, enviado: aFecha(x.enviado) }; };
+
+async function leerTarea(curso, sesion) {
+  const s = await conTiempo(fb.getDoc(fb.doc(db, "tareas", idTarea(curso, sesion, usuario.uid))));
+  return s.exists() ? filaTarea(s) : null;
+}
+async function enviarTarea(curso, sesion, texto, enlace) {
+  const ref = fb.doc(db, "tareas", idTarea(curso, sesion, usuario.uid));
+  const previa = await conTiempo(fb.getDoc(ref));
+  const datos = { texto: texto || "", enlace: enlace || "", nombre: (cuenta && cuenta.nombre) || "", enviado: fb.serverTimestamp() };
+  if (previa.exists()) await conTiempo(fb.updateDoc(ref, datos));
+  else await conTiempo(fb.setDoc(ref, { curso, sesion, uid: usuario.uid, ...datos }));
+}
+async function tareasTodas() {
+  const s = await conTiempo(fb.getDocs(fb.collection(db, "tareas")));
+  return s.docs.map(filaTarea);
+}
+async function revisarTarea(id, revision) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "tareas", id), {
+    revision: { estado: revision.estado, comentario: revision.comentario || "", por: usuario.uid, porNombre: (cuenta && cuenta.nombre) || "", fecha: new Date().toISOString() },
+  }));
+}
+
 /* ---------- plazos de inscripción ---------- */
 // La propia persona puede dejar formaciones vencidas (solo quitar, nunca agregar ni cambiar fechas).
 async function ajustarMisCursos(quitarCursos, quitarVencidos, extra) {
@@ -619,4 +645,8 @@ window.Nube = {
   devolverBorrador,
   formacionesPublicadas,
   leerFormacion,
+  leerTarea,
+  enviarTarea,
+  tareasTodas,
+  revisarTarea,
 };

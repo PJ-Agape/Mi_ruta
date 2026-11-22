@@ -206,7 +206,8 @@
     var recursos = {};
     (f.sesiones || []).forEach(function (s, k) {
       if (!s || !s.id) return;
-      var cl = { id: s.id, etiqueta: "Sesión " + (k + 1), titulo: s.titulo || "Sesión " + (k + 1), tiempo: s.tiempo || "", tipo: "unidad", texto: String(s.texto || ""), modulo: m };
+      var cl = { id: s.id, etiqueta: "Sesión " + (k + 1), titulo: s.titulo || "Sesión " + (k + 1), tiempo: s.tiempo || "", tipo: "unidad", texto: String(s.texto || ""), modulo: m,
+        tarea: s.tarea && String(s.tarea.consigna || "").trim() ? { consigna: String(s.tarea.consigna), respuesta: s.tarea.respuesta || "texto" } : null };
       m.clases.push(cl);
       var v = enlaceSeguro(s.video), pr = enlaceSeguro(s.presentacion);
       if (v || pr) recursos[s.id] = { video: v, presentacion: pr };
@@ -1208,7 +1209,8 @@
     if (cl.apunte) html += '<section class="tarjeta apunte-pdf"><div><h3>Apunte de clase</h3><p>Material de profundización de esta sesión, explicado desde cero: para leer con calma, descargar o imprimir.</p></div>' +
       '<a class="boton principal" href="' + esc(cl.apunte) + '" target="_blank" rel="noopener" download>Descargar apunte (PDF)</a></section>';
     if (/-cierre$/.test(cl.id)) html += '<section class="tarjeta video-final" id="video-final"></section>';
-    html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
+    if (c.dinamica && cl.tarea) html += '<section class="tarjeta tarea-sesion" id="tarea-sesion"></section>';
+    if (!(esAbierto(c) && !esPropedeutico(c))) html += '<section class="tarjeta debate-clase" id="debate-clase"></section>';
     html += '<p class="reportar"><a href="#/sugerencias?desde=' + encodeURIComponent(location.hash) + '">¿Encontraste un error o tienes una sugerencia sobre esta sesión? Avísanos</a></p>';
     html += '<div class="botones"><button class="boton ' + (hecha ? "hecho" : "principal") + '" id="marcar">' +
       (hecha ? "&#10003; Clase completada" : "Marcar como completada") + "</button></div>";
@@ -1218,6 +1220,7 @@
     pintar(html, cl.titulo);
     activarClase(c, cl);
     cargarDebateClase(c, cl);
+    if (c.dinamica && cl.tarea) montarTarea(c, cl);
     if (/-cierre$/.test(cl.id)) cargarVideoFinal(c, cl.modulo);
   }
 
@@ -1781,7 +1784,7 @@
   function fechaHTML(x, titCurso, cursoId, equipo) {
     var p = x.fecha.split("-"), meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
     return '<li class="fecha fecha-' + esc(x.tipo || "otro") + '"><span class="fecha-dia"><b>' + Number(p[2]) + "</b>" + meses[Number(p[1]) - 1] + "</span>" +
-      '<span class="fecha-datos"><span class="fecha-tipo">' + esc(TIPOS_FECHA[x.tipo] || "Fecha") + (x.hora ? " · " + esc(x.hora) + " h" : "") + (cursoId ? "" : "") + "</span><b>" + esc(x.titulo) + "</b>" +
+      '<span class="fecha-datos"><span class="fecha-tipo">' + esc(x.tipo === "plazo" ? "Tu plazo" : TIPOS_FECHA[x.tipo] || "Fecha") + (x.hora ? " · " + esc(x.hora) + " h" : "") + (cursoId ? "" : "") + "</span><b>" + esc(x.titulo) + "</b>" +
       (x.detalle ? "<small>" + esc(x.detalle) + "</small>" : "") +
       '<span class="fecha-acciones"><a href="' + esc(enlaceCalendario(x, titCurso)) + '" target="_blank" rel="noopener">Agregar a mi calendario</a>' +
       (equipo ? ' · <button class="enlace-boton" type="button" data-borrar-fecha="' + esc(x.id) + '">Quitar</button>' : "") + "</span></span></li>";
@@ -1833,7 +1836,7 @@
       if (!todas.length) { caja.remove(); return; }
       caja.innerHTML = '<h2 class="seccion-titulo">Próximas fechas</h2><ul class="agenda">' + todas.slice(0, 5).map(function (x) {
         return fechaHTML(x, x.cursoTitulo, x.cursoId, false).replace('<span class="fecha-tipo">', '<span class="fecha-tipo"><a href="#/curso/' + esc(x.cursoId) + '/agenda">' + esc(x.cursoTitulo) + "</a> · ");
-      }).join("") + "</ul>";
+      }).join("") + "</ul>" + '<p class="ver-calendario"><a href="#/calendario">Ver el calendario completo</a></p>';
     }).catch(function () { caja.remove(); });
   }
 
@@ -2060,7 +2063,7 @@
       '<label>Correo<input value="' + esc(c.correo) + '" disabled></label>' +
       '<div class="botones"><button class="boton principal" type="submit">Guardar cambios</button></div><div class="mensaje" aria-live="polite"></div></form>' +
       '<div class="botones">' +
-      (e.activo ? '<a class="boton" href="#/mis-constancias">Mis constancias</a>' : "") +
+      (e.activo ? '<a class="boton" href="#/calendario">Calendario</a><a class="boton" href="#/mis-constancias">Mis constancias</a>' : "") +
       (e.esRelator ? '<a class="boton" href="#/gestion">Gestión</a>' : "") +
       (e.esFormador ? '<a class="boton" href="#/formador">Mis formaciones</a>' : "") +
       '<a class="boton" href="#/sugerencias">Sugerencias y problemas</a>' +
@@ -2200,7 +2203,7 @@
 
   function subnavGestion(activa) {
     var e = cuentaActual();
-    var items = [["acompanar", "Acompañar"], ["cuentas", "Cuentas y solicitudes"]].concat(e.esAdmin ? [["formaciones", "Formaciones"], ["sugerencias", "Sugerencias y problemas"]] : []);
+    var items = [["acompanar", "Acompañar"], ["tareas", "Tareas"], ["cuentas", "Cuentas y solicitudes"]].concat(e.esAdmin ? [["formaciones", "Formaciones"], ["sugerencias", "Sugerencias y problemas"]] : []);
     return '<nav class="pestanas-curso" aria-label="Gestión">' + items.map(function (x) {
       return '<a href="#/gestion/' + x[0] + '"' + (x[0] === activa ? ' class="activa" aria-current="page"' : "") + ">" + x[1] + "</a>";
     }).join("") + "</nav>";
@@ -2212,6 +2215,7 @@
     if (sub === "cuentas") return vistaCuentas();
     if (sub === "sugerencias" && e.esAdmin) return vistaSoporteAdmin();
     if (sub === "formaciones" && e.esAdmin) return vistaFormacionesAdmin();
+    if (sub === "tareas") return vistaTareasEquipo();
     return vistaAcompanar();
   }
 
@@ -2630,7 +2634,7 @@
     return "fs-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
   }
   function sesionVacia() {
-    return { id: idSesionNueva(), titulo: "", tiempo: "", texto: "", video: "", presentacion: "" };
+    return { id: idSesionNueva(), titulo: "", tiempo: "", texto: "", video: "", presentacion: "", tarea: null };
   }
   function puedeEditarBorrador(b) {
     var e = cuentaActual();
@@ -2715,7 +2719,8 @@
         titulo: b.titulo || "", subtitulo: b.subtitulo || "", descripcion: b.descripcion || "", categoria: b.categoria || "", publico: b.publico || "",
         abierta: b.abierta !== false,
         sesiones: (b.sesiones && b.sesiones.length ? b.sesiones : [sesionVacia()]).map(function (s) {
-          return { id: s.id || idSesionNueva(), titulo: s.titulo || "", tiempo: s.tiempo || "", texto: s.texto || "", video: s.video || "", presentacion: s.presentacion || "" };
+          return { id: s.id || idSesionNueva(), titulo: s.titulo || "", tiempo: s.tiempo || "", texto: s.texto || "", video: s.video || "", presentacion: s.presentacion || "",
+            tarea: s.tarea && s.tarea.consigna !== undefined ? { consigna: s.tarea.consigna || "", respuesta: s.tarea.respuesta || "texto" } : null };
         }),
       };
       var estado = b.estado, abiertas = {}, temporizador = null, guardando = false, pendiente = false;
@@ -2767,6 +2772,14 @@
           '<p class="ed-ayuda" data-ayuda="video"></p>' +
           '<label>Presentación de Google o PDF, opcional<input data-campo="presentacion" inputmode="url" maxlength="300" value="' + esc(s.presentacion) + '" placeholder="https://"></label>' +
           '<p class="ed-ayuda" data-ayuda="presentacion"></p>' +
+          '<fieldset class="ed-tarea"><legend>Tarea (opcional)</legend>' +
+          '<label class="ed-casilla"><input type="checkbox" data-tarea="activa"' + (s.tarea ? " checked" : "") + "> Esta sesión tiene una tarea para entregar</label>" +
+          '<div class="ed-tarea-campos"' + (s.tarea ? "" : " hidden") + ">" +
+          '<label>Consigna<textarea data-tarea="consigna" rows="4" maxlength="3000" placeholder="Qué tiene que hacer el participante y qué esperas recibir.">' + esc(s.tarea ? s.tarea.consigna : "") + "</textarea></label>" +
+          '<label>¿Cómo responde?<select data-tarea="respuesta">' + Object.keys(RESPUESTAS_TAREA).map(function (r) {
+            return '<option value="' + r + '"' + (s.tarea && s.tarea.respuesta === r ? " selected" : "") + ">" + RESPUESTAS_TAREA[r] + "</option>";
+          }).join("") + "</select></label>" +
+          '<p class="ed-ayuda">Las respuestas las revisa el equipo de relatores en Gestión → Tareas. Las ven solo el participante y el equipo.</p></div></fieldset>' +
           '<div class="botones ed-mover">' +
           (k > 0 ? '<button type="button" class="boton mini" data-ed="subir">Subir</button>' : "") +
           (k < n - 1 ? '<button type="button" class="boton mini" data-ed="bajar">Bajar</button>' : "") +
@@ -2884,6 +2897,15 @@
           var k = +d.getAttribute("data-k"), s = datos.sesiones[k];
           d.addEventListener("toggle", function () { abiertas[s.id] = d.open; });
           d.addEventListener("input", function (ev) {
+            var ta = ev.target.getAttribute("data-tarea");
+            if (ta) {
+              if (ta === "activa") {
+                s.tarea = ev.target.checked ? (s.tarea || { consigna: "", respuesta: "texto" }) : null;
+                d.querySelector(".ed-tarea-campos").hidden = !ev.target.checked;
+              } else if (s.tarea) s.tarea[ta] = ev.target.value;
+              programar();
+              return;
+            }
             var c = ev.target.getAttribute("data-campo");
             if (!c) return;
             s[c] = ev.target.value;
@@ -3065,6 +3087,183 @@
       pintar(html, "Gestión");
     }).catch(function (er) {
       pintar(cab + '<section class="tarjeta"><p class="aviso error">' + esc(avisoReglas(er)) + "</p></section>", "Gestión");
+    });
+  }
+
+  /* ---------- tareas en las formaciones escritas por formadores ---------- */
+  var RESPUESTAS_TAREA = { texto: "Un texto", enlace: "Un enlace (documento, video o presentación)", ambos: "Un texto y un enlace" };
+  var ESTADOS_TAREA = { aprobada: "Aprobada", ajustar: "Por ajustar" };
+  function textoConSaltos(t) { return esc(t || "").replace(/\n/g, "<br>"); }
+  function revisadaDespues(x) { return !!(x && x.revision && x.revision.fecha && (!x.enviado || x.enviado <= x.revision.fecha)); }
+
+  // Recuadro de la tarea al final de la sesión.
+  function montarTarea(c, cl) {
+    var caja = document.getElementById("tarea-sesion");
+    if (!caja) return;
+    var t = cl.tarea, e = cuentaActual();
+    var cab = '<p class="subtitulo">Tarea de esta sesión</p><div class="texto">' + mdSeguro(t.consigna) + "</div>";
+    if (!Nube.habilitada || !e.cuenta) {
+      caja.innerHTML = cab + '<p class="seccion-bajada">Para enviar tu respuesta necesitas una cuenta de Mi Ruta.</p>' +
+        (Nube.habilitada ? '<div class="botones"><a class="boton" href="#/ingresar">Crear cuenta o ingresar</a></div>' : "");
+      return;
+    }
+    if (!e.activo) {
+      caja.innerHTML = cab + '<p class="seccion-bajada">Podrás enviar tu respuesta cuando tu cuenta esté activa.</p>';
+      return;
+    }
+    caja.innerHTML = cab + '<p class="cargando">Cargando tu respuesta…</p>';
+    Nube.leerTarea(c.id, cl.id).catch(function () { return null; }).then(function (x) {
+      var pide = t.respuesta || "texto", conTexto = pide !== "enlace", conEnlace = pide !== "texto";
+      var previa = "";
+      if (x) {
+        var rev = x.revision;
+        previa = '<div class="tarea-enviada"><p><b>Tu respuesta</b> <span class="acomp-meta">enviada el ' + esc(fechaLarga(x.enviado)) + "</span></p>" +
+          (x.texto ? '<p class="tarea-texto">' + textoConSaltos(x.texto) + "</p>" : "") +
+          (x.enlace ? '<p><a href="' + esc(enlaceSeguro(x.enlace)) + '" target="_blank" rel="noopener">Abrir el enlace que enviaste</a></p>' : "") + "</div>" +
+          (rev ? '<div class="soporte-respuesta tarea-revision ' + esc(rev.estado) + '"><b>' + esc(ESTADOS_TAREA[rev.estado] || "Revisada") + (rev.porNombre ? " · " + esc(rev.porNombre) : "") + "</b>" +
+            (rev.comentario ? "<p>" + textoConSaltos(rev.comentario) + "</p>" : "") +
+            (revisadaDespues(x) ? "" : '<p class="acomp-meta">Enviaste una versión nueva después de esta revisión.</p>') + "</div>"
+            : '<p class="acomp-meta">Tu relator la revisará y te dejará un comentario aquí.</p>');
+      }
+      // El formulario queda a la vista si aún no responde o si el relator pidió ajustes; si no, detrás de un botón.
+      var pidenAjuste = x && x.revision && x.revision.estado === "ajustar" && revisadaDespues(x);
+      var oculto = !!x && !pidenAjuste;
+      var form = '<form id="form-tarea" class="formulario"' + (oculto ? " hidden" : "") + ">" +
+        (conTexto ? '<label>Tu respuesta<textarea name="texto" rows="6" maxlength="8000">' + esc(x ? x.texto : "") + "</textarea></label>" : "") +
+        (conEnlace ? '<label>Enlace' + (pide === "ambos" ? " (opcional)" : "") + '<input name="enlace" inputmode="url" maxlength="300" placeholder="https://" value="' + esc(x ? x.enlace : "") + '"></label>' +
+          '<p class="ed-ayuda">Puede ser un documento de Google, una presentación o un video. Revisa que quien tenga el enlace pueda verlo.</p>' : "") +
+        '<div class="botones"><button class="boton principal" type="submit">' + (x ? "Enviar nueva versión" : "Enviar mi respuesta") + "</button></div>" +
+        '<p class="mensaje" role="status"></p></form>';
+      caja.innerHTML = cab + previa + (oculto ? '<div class="botones"><button type="button" class="boton mini" id="tarea-otra">Editar mi respuesta</button></div>' : "") + form;
+      var otra = document.getElementById("tarea-otra");
+      if (otra) otra.addEventListener("click", function () { otra.remove(); document.getElementById("form-tarea").hidden = false; });
+      var f = document.getElementById("form-tarea");
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var msj = f.querySelector(".mensaje"), b = f.querySelector("button");
+        var texto = conTexto ? f.texto.value.trim() : "", enlace = conEnlace ? f.enlace.value.trim() : "";
+        if (enlace && !enlaceSeguro(enlace)) { msj.className = "mensaje error"; msj.textContent = "El enlace debe empezar con https://"; return; }
+        if (pide === "texto" && !texto) { msj.className = "mensaje error"; msj.textContent = "Escribe tu respuesta antes de enviarla."; return; }
+        if (pide === "enlace" && !enlace) { msj.className = "mensaje error"; msj.textContent = "Pega el enlace de tu trabajo antes de enviarlo."; return; }
+        if (!texto && !enlace) { msj.className = "mensaje error"; msj.textContent = "Escribe tu respuesta o pega un enlace."; return; }
+        b.disabled = true; msj.className = "mensaje"; msj.textContent = "Enviando…";
+        Nube.enviarTarea(c.id, cl.id, texto, enlace).then(function () {
+          montarTarea(c, cl);
+          setTimeout(function () {
+            var m = document.querySelector("#tarea-sesion .tarea-enviada");
+            if (m) m.insertAdjacentHTML("beforebegin", '<p class="mensaje ok">¡Recibida! Gracias por tu trabajo.</p>');
+          }, 400);
+        }).catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = "No pudimos enviarla: " + avisoReglas(er); });
+      });
+    });
+  }
+
+  // Gestión → Tareas: el equipo revisa lo que envían los participantes.
+  function vistaTareasEquipo() {
+    var cab = migas('<a href="#/gestion">Gestión</a> / Tareas') + subnavGestion("tareas");
+    pintar(cab + '<p class="cargando">Cargando tareas…</p>', "Gestión");
+    return Nube.tareasTodas().then(function (ts) {
+      var ids = Array.from(new Set(ts.map(function (x) { return x.curso; })));
+      return Promise.all(ids.map(function (id) { return cargarCurso(id).catch(function () { return null; }); })).then(function (cs) {
+        var porId = {};
+        cs.forEach(function (c) { if (c) porId[c.id] = c; });
+        ts.sort(function (a, b) { return String(b.enviado).localeCompare(String(a.enviado)); });
+        var pendientes = ts.filter(function (x) { return !revisadaDespues(x); });
+        var revisadas = ts.filter(revisadaDespues);
+        function item(x) {
+          var c = porId[x.curso], cl = c && c.clases.filter(function (k) { return k.id === x.sesion; })[0];
+          var rev = x.revision || {};
+          return '<li class="tarea-item" data-id="' + esc(x.id) + '"><div class="soporte-cab"><b>' + esc(x.nombre || "Participante") + "</b>" +
+            (x.revision ? '<span class="estado-soporte ' + (rev.estado === "aprobada" ? "resuelto" : "revision") + '">' + esc(ESTADOS_TAREA[rev.estado] || "Revisada") + "</span>" : '<span class="estado-soporte nuevo">Por revisar</span>') + "</div>" +
+            '<span class="acomp-meta">' + esc(c ? c.titulo : x.curso) + (cl ? " · " + esc(cl.etiqueta + ". " + cl.titulo) : "") + " · " + esc(fechaLarga(x.enviado)) + "</span>" +
+            (cl && cl.tarea ? '<details class="tarea-consigna"><summary>Ver la consigna</summary><div class="texto">' + mdSeguro(cl.tarea.consigna) + "</div></details>" : "") +
+            (x.texto ? '<p class="tarea-texto">' + textoConSaltos(x.texto) + "</p>" : "") +
+            (x.enlace ? '<p><a href="' + esc(enlaceSeguro(x.enlace)) + '" target="_blank" rel="noopener">Abrir el enlace enviado</a></p>' : "") +
+            '<div class="formulario tarea-revisar"><fieldset class="roles-elegir"><legend>Tu revisión</legend>' +
+            '<label><input type="radio" name="estado-' + esc(x.id) + '" value="aprobada"' + (rev.estado !== "ajustar" ? " checked" : "") + "> Aprobada</label>" +
+            '<label><input type="radio" name="estado-' + esc(x.id) + '" value="ajustar"' + (rev.estado === "ajustar" ? " checked" : "") + "> Pedir ajustes</label></fieldset>" +
+            '<label>Comentario para el participante<textarea rows="3" maxlength="2000" placeholder="Qué valoras de su trabajo y, si hace falta, qué le pedirías mejorar.">' + esc(rev.comentario || "") + "</textarea></label>" +
+            '<div class="botones"><button type="button" class="boton mini principal" data-revisar="' + esc(x.id) + '">' + (x.revision ? "Actualizar revisión" : "Guardar revisión") + "</button></div>" +
+            '<p class="mensaje" role="status"></p></div></li>';
+        }
+        var html = cab + '<section class="portada"><h1>Tareas</h1><p>Respuestas de los participantes a las tareas de las formaciones escritas en la plataforma. Un comentario breve y cálido vale mucho: es lo que hace sentir acompañado a quien estudia solo.</p></section>' +
+          '<section class="tarjeta"><h2>Por revisar <span class="insignia' + (pendientes.length ? "" : " cero") + '">' + pendientes.length + "</span></h2>" +
+          (pendientes.length ? '<ul class="acomp-lista">' + pendientes.map(item).join("") + "</ul>" : '<p class="seccion-bajada">No hay tareas esperando revisión.</p>') + "</section>" +
+          (revisadas.length ? '<details class="tarjeta"><summary><b>Revisadas (' + revisadas.length + ')</b></summary><ul class="acomp-lista">' + revisadas.map(item).join("") + "</ul></details>" : "");
+        pintar(html, "Gestión");
+        app.querySelectorAll("[data-revisar]").forEach(function (b) {
+          b.addEventListener("click", function () {
+            var li = b.closest(".tarea-item"), id = b.getAttribute("data-revisar"), msj = li.querySelector(".tarea-revisar .mensaje");
+            var estado = (li.querySelector('input[type="radio"]:checked') || {}).value || "aprobada";
+            var comentario = li.querySelector(".tarea-revisar textarea").value.trim();
+            if (estado === "ajustar" && !comentario) { msj.className = "mensaje error"; msj.textContent = "Si pides ajustes, cuéntale qué mejorar."; return; }
+            b.disabled = true; msj.className = "mensaje"; msj.textContent = "Guardando…";
+            Nube.revisarTarea(id, { estado: estado, comentario: comentario }).then(function () {
+              b.disabled = false; b.textContent = "Actualizar revisión";
+              msj.className = "mensaje ok"; msj.textContent = "Guardada. El participante la verá en la sesión.";
+            }).catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = avisoReglas(er); });
+          });
+        });
+      });
+    }).catch(function (er) {
+      pintar(cab + '<section class="tarjeta"><p class="aviso error">' + esc(avisoReglas(er)) + "</p></section>", "Gestión");
+    });
+  }
+
+  /* ---------- calendario general: fechas de todas mis formaciones y mis plazos ---------- */
+  function fechaLocalDe(iso) {
+    var d = new Date(iso);
+    return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+  }
+  function misIdsDeCalendario(e) {
+    var ids = (e.cuenta.cursos || []).concat(sitio.propedeutico ? [sitio.propedeutico] : [], e.esRelator ? almacen.leer("cursados", []) : []);
+    sitio.cursos.forEach(function (id) { var c = cursos[id]; if (c && esAbierto(c) && hechas(id).length) ids.push(id); });
+    return Array.from(new Set(ids)).filter(function (id) { return sitio.cursos.indexOf(id) >= 0; });
+  }
+  function vistaCalendario() {
+    var e = cuentaActual();
+    if (!Nube.habilitada || !e.activo) {
+      pintar(migas("Calendario") + '<section class="tarjeta"><h1>Calendario</h1><p>Aquí verás juntas las fechas de todas tus formaciones y tus plazos. Ingresa con tu cuenta para verlo.</p>' +
+        (Nube.habilitada && !e.cuenta ? '<div class="botones"><a class="boton principal" href="#/ingresar">Ingresar</a></div>' : "") + "</section>", "Calendario");
+      return Promise.resolve();
+    }
+    pintar(migas("Calendario") + '<p class="cargando">Reuniendo tus fechas…</p>', "Calendario");
+    var ids = misIdsDeCalendario(e);
+    return Promise.all(ids.map(function (id) {
+      return Promise.all([cargarCurso(id).catch(function () { return null; }), Agenda.leer(id).catch(function () { return []; })]);
+    })).then(function (rs) {
+      var todas = [], hoy = hoyISO();
+      rs.forEach(function (r) {
+        var c = r[0];
+        if (!c) return;
+        (r[1] || []).forEach(function (x) { todas.push(Object.assign({ cursoTitulo: c.titulo, cursoId: c.id }, x)); });
+        var p = plazosDe(c);
+        if (p && p.estado === "empezar") todas.push({ id: "", tipo: "plazo", fecha: fechaLocalDe(p.limite), titulo: "Último día para empezar", detalle: "Si no completas la primera sesión antes de esta fecha, la inscripción se libera.", cursoTitulo: c.titulo, cursoId: c.id });
+        if (p && p.estado === "curso") (p.modulos || []).forEach(function (mm) {
+          todas.push({ id: "", tipo: "plazo", fecha: fechaLocalDe(mm.vence), titulo: c.modulos.length > 1 ? "Vence " + etiquetaModulo(mm.m) : "Vence el plazo para completarla", detalle: "", cursoTitulo: c.titulo, cursoId: c.id });
+        });
+      });
+      todas.sort(function (a, b) { return (a.fecha + (a.hora || "")).localeCompare(b.fecha + (b.hora || "")); });
+      var prox = todas.filter(function (x) { return x.fecha >= hoy; }), pas = todas.filter(function (x) { return x.fecha < hoy; }).reverse();
+      var MESES = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+      function conCurso(x) {
+        return fechaHTML(x, x.cursoTitulo, x.cursoId, false).replace('<span class="fecha-tipo">', '<span class="fecha-tipo"><a href="#/curso/' + esc(x.cursoId) + '">' + esc(x.cursoTitulo) + "</a> · ");
+      }
+      var html = migas("Calendario") + '<section class="portada"><h1>Calendario</h1><p>Las fechas de todas tus formaciones y tus plazos personales, en un solo lugar. Cada fecha se puede agregar a tu calendario del teléfono.</p></section>';
+      if (!prox.length) html += '<section class="tarjeta"><p class="seccion-bajada">No tienes fechas próximas. Cuando tus formaciones tengan encuentros, entregas o plazos, aparecerán aquí.</p></section>';
+      var mesActual = "";
+      prox.forEach(function (x) {
+        var mes = x.fecha.slice(0, 7);
+        if (mes !== mesActual) {
+          if (mesActual) html += "</ul></section>";
+          mesActual = mes;
+          html += '<section class="tarjeta"><h2>' + MESES[Number(mes.slice(5, 7)) - 1] + " " + mes.slice(0, 4) + '</h2><ul class="agenda">';
+        }
+        html += conCurso(x);
+      });
+      if (mesActual) html += "</ul></section>";
+      if (pas.length) html += '<section class="tarjeta"><details><summary>Fechas pasadas (' + pas.length + ')</summary><ul class="agenda pasadas">' + pas.slice(0, 60).map(conCurso).join("") + "</ul></details></section>";
+      pintar(html, "Calendario");
     });
   }
 
@@ -3392,6 +3591,7 @@
     else if (partes[0] && partes[0].split("?")[0] === "sugerencias") tarea = vistaSugerencias();
     else if (partes[0] === "sumate") tarea = vistaSumate();
     else if (partes[0] === "formador") tarea = vistaFormador(partes[1], partes[2]);
+    else if (partes[0] === "calendario") tarea = vistaCalendario();
     else if (partes[0] === "mis-constancias") tarea = vistaMisConstancias();
     else if (partes[0] === "constancia" && partes[1]) tarea = vistaConstancia(partes[1]);
     else tarea = vistaInicio();
