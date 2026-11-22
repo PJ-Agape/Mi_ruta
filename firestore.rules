@@ -18,6 +18,8 @@ rules_version = '2';
 //   - Plazos: 1 semana para empezar y 2 meses para completar (por módulo en los cursos). La propia
 //     cuenta y el equipo aplican la regla; la persona solo puede quitar cursos vencidos, nunca agregarlos.
 //   - Cualquier cuenta puede enviar sugerencias o reportar problemas; solo la administración las lee y responde.
+//   - Los formadores (marcados por la administración) escriben formaciones como borradores privados; solo la
+//     administración las publica. Las formaciones publicadas las puede leer cualquiera.
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -275,6 +277,61 @@ service cloud.firestore {
         && request.resource.data.uid is string
         && exists(/databases/$(database)/documents/usuarios/$(request.resource.data.uid));
       allow update: if false;
+      allow delete: if esAdmin();
+    }
+
+    // ---------- formaciones creadas por formadores ----------
+    // borradores/{id}: la versión de trabajo; la ven su autor y la administración.
+    // formaciones/{id}: la versión publicada; la lee cualquiera mientras esté visible; solo la administración la escribe.
+    function esFormador() {
+      return (activo() && (miCuenta().get('formador', false) == true || miCuenta().rol == 'admin')) || esAdminInicial();
+    }
+
+    function formacionValida() {
+      let d = request.resource.data;
+      return d.titulo is string && d.titulo.size() > 0 && d.titulo.size() <= 120
+        && d.get('subtitulo', '') is string && d.get('subtitulo', '').size() <= 200
+        && d.get('descripcion', '') is string && d.get('descripcion', '').size() <= 2000
+        && d.get('categoria', '') is string && d.get('categoria', '').size() <= 60
+        && d.get('publico', '') is string && d.get('publico', '').size() <= 160
+        && d.get('abierta', true) is bool
+        && d.sesiones is list && d.sesiones.size() <= 30;
+    }
+
+    function camposBorrador() {
+      return request.resource.data.keys().hasOnly(['autorUid', 'autorNombre', 'titulo', 'subtitulo', 'descripcion', 'categoria', 'publico',
+        'abierta', 'sesiones', 'estado', 'nota', 'creado', 'actualizado', 'publicadoEn']);
+    }
+
+    match /borradores/{id} {
+      allow get, list: if conSesion() && (resource.data.autorUid == request.auth.uid || esAdmin());
+
+      allow create: if esFormador() && id.matches('^f-[A-Za-z0-9]{8,40}$')
+        && camposBorrador() && formacionValida()
+        && request.resource.data.autorUid == request.auth.uid
+        && request.resource.data.estado == 'borrador'
+        && request.resource.data.get('nota', '') == ''
+        && !('publicadoEn' in request.resource.data);
+
+      allow update: if camposBorrador() && formacionValida() && (
+        // El autor edita, pide revisión o archiva; no puede publicar ni cambiar la nota de la administración.
+        (esFormador() && resource.data.autorUid == request.auth.uid
+          && request.resource.data.autorUid == resource.data.autorUid
+          && request.resource.data.estado in ['borrador', 'revision', 'archivado']
+          && request.resource.data.get('nota', '') == resource.data.get('nota', '')
+          && request.resource.data.get('publicadoEn', null) == resource.data.get('publicadoEn', null))
+        // La administración revisa, devuelve con comentarios y marca lo publicado.
+        || (esAdmin() && request.resource.data.estado in ['borrador', 'revision', 'publicada', 'archivado']));
+
+      allow delete: if esAdmin();
+    }
+
+    match /formaciones/{id} {
+      allow get, list: if resource.data.visible == true || esAdmin();
+      allow create, update: if esAdmin() && id.matches('^f-[A-Za-z0-9]{8,40}$') && formacionValida()
+        && request.resource.data.visible is bool
+        && request.resource.data.keys().hasOnly(['autorUid', 'autorNombre', 'titulo', 'subtitulo', 'descripcion', 'categoria', 'publico',
+          'abierta', 'sesiones', 'visible', 'publicado', 'publicadoPor']);
       allow delete: if esAdmin();
     }
   }

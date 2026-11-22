@@ -16,6 +16,8 @@
      presencia/{uid}    directorio: nombre, comunidad, rol y cursos (para la lista de participantes)
      conversaciones/{a__b}  mensajería entre dos personas; mensajes en la subcolección «mensajes»
      foros/{curso}/agenda/{id}  fechas de la formación (entregas, encuentros y otras)
+     borradores/{f-…}   formación escrita por un formador (versión de trabajo; la ven su autor y la administración)
+     formaciones/{f-…}  versión publicada de esa formación (lectura pública mientras esté visible)
 */
 
 const CONFIG = window.MIRUTA_CONFIG || {};
@@ -42,6 +44,7 @@ function estado() {
     activo: !!activo,
     esRelator: !!(activo && (cuenta.rol === "relator" || cuenta.rol === "admin")),
     esAdmin: !!(activo && cuenta.rol === "admin"),
+    esFormador: !!(activo && (cuenta.formador === true || cuenta.rol === "admin")),
   };
 }
 
@@ -450,6 +453,60 @@ async function responderSoporte(id, cambios) {
   await conTiempo(fb.updateDoc(fb.doc(db, "soporte", id), { ...cambios, ...extra }));
 }
 
+/* ---------- formaciones escritas por formadores ---------- */
+// Campos de contenido que viajan del borrador a la versión publicada.
+const CAMPOS_FORMACION = ["titulo", "subtitulo", "descripcion", "categoria", "publico", "abierta", "sesiones"];
+const soloContenido = (d) => { const x = {}; CAMPOS_FORMACION.forEach((k) => { if (d[k] !== undefined) x[k] = d[k]; }); return x; };
+const filaFormacion = (d) => { const x = d.data(); return { id: d.id, ...x, creado: aFecha(x.creado), actualizado: aFecha(x.actualizado), publicadoEn: aFecha(x.publicadoEn), publicado: aFecha(x.publicado) }; };
+
+async function crearBorrador(datos) {
+  const id = "f-" + fb.doc(fb.collection(db, "borradores")).id;
+  await conTiempo(fb.setDoc(fb.doc(db, "borradores", id), {
+    ...soloContenido(datos), sesiones: datos.sesiones || [], abierta: datos.abierta !== false,
+    autorUid: usuario.uid, autorNombre: (cuenta && cuenta.nombre) || "", estado: "borrador", nota: "",
+    creado: fb.serverTimestamp(), actualizado: fb.serverTimestamp(),
+  }));
+  return id;
+}
+async function leerBorrador(id) {
+  const s = await conTiempo(fb.getDoc(fb.doc(db, "borradores", id)));
+  return s.exists() ? filaFormacion(s) : null;
+}
+async function guardarBorrador(id, cambios) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "borradores", id), { ...cambios, actualizado: fb.serverTimestamp() }));
+}
+async function misBorradores() {
+  const s = await conTiempo(fb.getDocs(fb.query(fb.collection(db, "borradores"), fb.where("autorUid", "==", usuario.uid))));
+  return s.docs.map(filaFormacion);
+}
+async function todosBorradores() {
+  const s = await conTiempo(fb.getDocs(fb.collection(db, "borradores")));
+  return s.docs.map(filaFormacion);
+}
+// Solo la administración: copia el borrador a la versión publicada y lo marca como publicado.
+async function publicarFormacion(b) {
+  await conTiempo(fb.setDoc(fb.doc(db, "formaciones", b.id), {
+    ...soloContenido(b), autorUid: b.autorUid, autorNombre: b.autorNombre || "",
+    visible: true, publicado: fb.serverTimestamp(), publicadoPor: (cuenta && cuenta.nombre) || "",
+  }));
+  await conTiempo(fb.updateDoc(fb.doc(db, "borradores", b.id), { estado: "publicada", nota: "", publicadoEn: fb.serverTimestamp(), actualizado: fb.serverTimestamp() }));
+}
+async function retirarFormacion(id) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "formaciones", id), { visible: false }));
+  await conTiempo(fb.updateDoc(fb.doc(db, "borradores", id), { estado: "borrador", publicadoEn: null, actualizado: fb.serverTimestamp() }));
+}
+async function devolverBorrador(id, nota) {
+  await conTiempo(fb.updateDoc(fb.doc(db, "borradores", id), { estado: "borrador", nota: nota || "", actualizado: fb.serverTimestamp() }));
+}
+async function formacionesPublicadas() {
+  const s = await conTiempo(fb.getDocs(fb.query(fb.collection(db, "formaciones"), fb.where("visible", "==", true))), 8000);
+  return s.docs.map(filaFormacion);
+}
+async function leerFormacion(id) {
+  const s = await conTiempo(fb.getDoc(fb.doc(db, "formaciones", id)));
+  return s.exists() ? filaFormacion(s) : null;
+}
+
 /* ---------- plazos de inscripción ---------- */
 // La propia persona puede dejar formaciones vencidas (solo quitar, nunca agregar ni cambiar fechas).
 async function ajustarMisCursos(quitarCursos, quitarVencidos, extra) {
@@ -552,4 +609,14 @@ window.Nube = {
   responderSoporte,
   ajustarMisCursos,
   reiniciarAnulaciones,
+  crearBorrador,
+  leerBorrador,
+  guardarBorrador,
+  misBorradores,
+  todosBorradores,
+  publicarFormacion,
+  retirarFormacion,
+  devolverBorrador,
+  formacionesPublicadas,
+  leerFormacion,
 };

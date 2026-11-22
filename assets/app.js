@@ -56,6 +56,53 @@
     return window.marked ? window.marked.parse(texto, { gfm: true, breaks: false }) : "<pre>" + esc(texto) + "</pre>";
   }
 
+  // Los contenidos escritos por formadores en la plataforma se limpian antes de mostrarse:
+  // solo etiquetas de texto, sin scripts, estilos, marcos ni atributos de eventos, y enlaces seguros.
+  var ETIQUETAS_SEGURAS = ["P", "BR", "STRONG", "B", "EM", "I", "U", "S", "DEL", "H1", "H2", "H3", "H4", "H5", "H6", "UL", "OL", "LI",
+    "BLOCKQUOTE", "A", "CODE", "PRE", "HR", "TABLE", "THEAD", "TBODY", "TR", "TH", "TD", "IMG", "SPAN", "SUP", "SUB"];
+  var ETIQUETAS_FUERA = ["SCRIPT", "STYLE", "IFRAME", "FRAME", "OBJECT", "EMBED", "TEMPLATE", "SVG", "MATH", "FORM", "INPUT", "BUTTON",
+    "TEXTAREA", "SELECT", "LINK", "META", "BASE", "AUDIO", "VIDEO", "SOURCE", "NOSCRIPT"];
+  function limpiarHtml(html) {
+    var caja = document.createElement("template");
+    caja.innerHTML = html;
+    (function recorrer(nodo) {
+      Array.from(nodo.childNodes).forEach(function (n) {
+        if (n.nodeType === 8) { n.remove(); return; }
+        if (n.nodeType !== 1) return;
+        var tag = n.tagName.toUpperCase();
+        if (ETIQUETAS_FUERA.indexOf(tag) >= 0) { n.remove(); return; }
+        if (ETIQUETAS_SEGURAS.indexOf(tag) < 0) {
+          recorrer(n);
+          while (n.firstChild) n.parentNode.insertBefore(n.firstChild, n);
+          n.remove();
+          return;
+        }
+        Array.from(n.attributes).forEach(function (a) {
+          var nom = a.name.toLowerCase();
+          var ok = (tag === "A" && (nom === "href" || nom === "title")) || (tag === "IMG" && (nom === "src" || nom === "alt" || nom === "title")) ||
+            ((tag === "TH" || tag === "TD") && nom === "align");
+          if (!ok) n.removeAttribute(a.name);
+        });
+        if (tag === "A") {
+          var h = (n.getAttribute("href") || "").trim();
+          if (!/^(https?:\/\/|mailto:|#)/i.test(h)) n.removeAttribute("href");
+          else if (/^https?:/i.test(h)) { n.setAttribute("target", "_blank"); n.setAttribute("rel", "noopener noreferrer"); }
+        }
+        if (tag === "IMG") {
+          if (!/^https:\/\//i.test((n.getAttribute("src") || "").trim())) { n.remove(); return; }
+          n.setAttribute("loading", "lazy");
+        }
+        recorrer(n);
+      });
+    })(caja.content);
+    return caja.innerHTML;
+  }
+  function mdSeguro(texto) { return limpiarHtml(md(String(texto || ""))); }
+  function enlaceSeguro(url) {
+    url = String(url || "").trim();
+    return /^https:\/\/[^\s"'<>]+$/i.test(url) ? url : "";
+  }
+
   // «Mi Ruta» → «Mi <em>Ruta</em>»: la última palabra va en cursiva, como en el logo.
   function nombreConEstilo(nombre) {
     return esc(nombre).replace(/(\S+)$/, "<em>$1</em>");
@@ -152,8 +199,55 @@
     });
   }
 
+  // Formaciones escritas en la plataforma por formadores y publicadas por la administración.
+  function esDinamica(id) { return /^f-/.test(String(id || "")); }
+  function cursoDesdeFormacion(f) {
+    var m = { id: f.id + "-m", numero: 1, titulo: f.titulo, tipo: "obligatorio", etiqueta: "Formación", requiere: [], clases: [] };
+    var recursos = {};
+    (f.sesiones || []).forEach(function (s, k) {
+      if (!s || !s.id) return;
+      var cl = { id: s.id, etiqueta: "Sesión " + (k + 1), titulo: s.titulo || "Sesión " + (k + 1), tiempo: s.tiempo || "", tipo: "unidad", texto: String(s.texto || ""), modulo: m };
+      m.clases.push(cl);
+      var v = enlaceSeguro(s.video), pr = enlaceSeguro(s.presentacion);
+      if (v || pr) recursos[s.id] = { video: v, presentacion: pr };
+    });
+    var n = m.clases.length, abierta = f.abierta !== false;
+    var reciente = f.publicado && (Date.now() - new Date(f.publicado).getTime()) < 45 * 86400000;
+    return {
+      id: f.id, titulo: f.titulo, subtitulo: f.subtitulo || "", descripcion: f.descripcion || "", categoria: f.categoria || "", publico: f.publico || "",
+      tipo: "complementaria", abierto: abierta, dinamica: true, autor: f.autorNombre || "", nuevo: !!reciente,
+      duracion: n + (n === 1 ? " sesión" : " sesiones"), modalidad: abierta ? "En línea, a tu ritmo, sin inscripción" : "En línea, con inscripción y acompañamiento",
+      modulos: [m], clases: m.clases, recursos: recursos, contenidos: [], agappe: [],
+    };
+  }
+  // Suma al catálogo las formaciones publicadas. No bloquea el arranque: si falla (sin conexión o reglas
+  // aún sin actualizar), la plataforma sigue con su catálogo de siempre. Devuelve cuántas agregó.
+  function cargarPublicadas() {
+    if (!Nube.habilitada || !Nube.formacionesPublicadas) return Promise.resolve(0);
+    return Nube.formacionesPublicadas().then(function (fs) {
+      var nuevas = 0;
+      fs.sort(function (a, b) { return String(b.publicado).localeCompare(String(a.publicado)); });
+      fs.forEach(function (f) {
+        if (!esDinamica(f.id) || !f.titulo) return;
+        cursos[f.id] = cursoDesdeFormacion(f);
+        if (sitio.cursos.indexOf(f.id) < 0) { sitio.cursos.push(f.id); nuevas++; }
+        var ar = areas()[0];
+        if (ar && ar.cursos !== sitio.cursos && ar.cursos.indexOf(f.id) < 0) ar.cursos.push(f.id);
+      });
+      return nuevas;
+    }).catch(function (er) { console.warn("Formaciones publicadas:", er && er.message); return 0; });
+  }
+
   function cargarCurso(id) {
     if (cursos[id]) return Promise.resolve(cursos[id]);
+    if (esDinamica(id)) {
+      if (!Nube.habilitada || !Nube.leerFormacion) return Promise.reject(new Error("Esta formación no está disponible."));
+      return Nube.leerFormacion(id).then(function (f) {
+        if (!f || f.visible !== true) throw new Error("Esta formación no está disponible por ahora.");
+        cursos[id] = cursoDesdeFormacion(f);
+        return cursos[id];
+      });
+    }
     return Promise.all([pedir("datos/curso-" + id + ".json"), pedir("datos/indice-" + id + ".json")])
       .then(function (r) {
         var curso = r[0];
@@ -1054,6 +1148,7 @@
           armarEvaluacion(c, cl, i, ev[cl.id]);
         });
       }
+      if (typeof cl.texto === "string") { armarClase(c, cl, i, cl.texto); return; }
       return pedir(cl.archivo || "contenido/" + cursoId + "/" + claseId + ".md", "texto").then(function (texto) {
         armarClase(c, cl, i, texto);
       });
@@ -1079,12 +1174,13 @@
     var html = '<nav class="migas"><a href="#/">Inicio</a> / <a href="#/curso/' + esc(c.id) + '">' + esc(c.titulo) + "</a></nav>" + avisosPlazo(c, false);
     html += '<header class="clase-cabecera"><span class="etiqueta-clase">' + esc(etiquetaModulo(cl.modulo)) + " · " + esc(cl.etiqueta) + "</span>" +
       "<h1>" + esc(cl.titulo) + '</h1><p class="meta">' + esc(duracionClase(cl)) + "</p></header>";
-    if (intro) html += '<div class="texto">' + md(intro) + "</div>";
+    var mdC = c.dinamica ? mdSeguro : md;
+    if (intro) html += '<div class="texto">' + mdC(intro) + "</div>";
     if (video) html += '<div class="medio"><iframe src="' + esc(video) + '" title="Video de la clase" allowfullscreen loading="lazy"></iframe></div>';
     if (pres) html += '<div class="medio"><iframe src="' + esc(pres) + '" title="Presentación de la clase" allowfullscreen loading="lazy"></iframe></div>';
     else if (rec.presentacion) html += '<p><a class="boton" href="' + esc(rec.presentacion) + '" target="_blank" rel="noopener">Abrir la presentación</a></p>';
 
-    html += '<div class="pestanas" role="tablist">' + visibles.map(function (s, k) {
+    if (visibles.length) html += '<div class="pestanas" role="tablist">' + visibles.map(function (s, k) {
       return '<button class="pestana' + (s.tipo === "relator" ? " relator" : "") + '" role="tab" id="pes-' + k + '" aria-controls="pan-' + k +
         '" aria-selected="' + (k === 0) + '">' + esc(s.nombre) + "</button>";
     }).join("") + "</div>";
@@ -1104,7 +1200,7 @@
           '<div class="guardado" aria-live="polite"></div></div>';
       }
       return '<section class="panel texto" role="tabpanel" id="pan-' + k + '" aria-labelledby="pes-' + k + '" data-tipo="' + s.tipo + '"' + (k === 0 ? "" : " hidden") + ">" +
-        "<h2>" + esc(s.titulo) + "</h2>" + extra + md(s.cuerpo) + acciones + "</section>";
+        "<h2>" + esc(s.titulo) + "</h2>" + extra + mdC(s.cuerpo) + acciones + "</section>";
     }).join("");
 
     if (ocultas) html += '<p class="aviso">Esta clase incluye una guía para el relator. Si eres relator o administrador, actívala con el interruptor «Vista relator» de la parte superior.</p>';
@@ -1966,6 +2062,7 @@
       '<div class="botones">' +
       (e.activo ? '<a class="boton" href="#/mis-constancias">Mis constancias</a>' : "") +
       (e.esRelator ? '<a class="boton" href="#/gestion">Gestión</a>' : "") +
+      (e.esFormador ? '<a class="boton" href="#/formador">Mis formaciones</a>' : "") +
       '<a class="boton" href="#/sugerencias">Sugerencias y problemas</a>' +
       '<button class="boton" id="salir">Salir</button></div>' +
       (e.esRelator ? '<label class="interruptor claro"><input type="checkbox" id="relator-perfil"' + (modoRelator() ? " checked" : "") + '> <span>Vista relator: mostrar las guías y todos los módulos</span></label>' : "") +
@@ -2103,7 +2200,7 @@
 
   function subnavGestion(activa) {
     var e = cuentaActual();
-    var items = [["acompanar", "Acompañar"], ["cuentas", "Cuentas y solicitudes"]].concat(e.esAdmin ? [["sugerencias", "Sugerencias y problemas"]] : []);
+    var items = [["acompanar", "Acompañar"], ["cuentas", "Cuentas y solicitudes"]].concat(e.esAdmin ? [["formaciones", "Formaciones"], ["sugerencias", "Sugerencias y problemas"]] : []);
     return '<nav class="pestanas-curso" aria-label="Gestión">' + items.map(function (x) {
       return '<a href="#/gestion/' + x[0] + '"' + (x[0] === activa ? ' class="activa" aria-current="page"' : "") + ">" + x[1] + "</a>";
     }).join("") + "</nav>";
@@ -2114,6 +2211,7 @@
     if (!e.esRelator) { location.hash = "#/"; return Promise.resolve(); }
     if (sub === "cuentas") return vistaCuentas();
     if (sub === "sugerencias" && e.esAdmin) return vistaSoporteAdmin();
+    if (sub === "formaciones" && e.esAdmin) return vistaFormacionesAdmin();
     return vistaAcompanar();
   }
 
@@ -2178,6 +2276,7 @@
           '<div class="botones"><button class="boton principal" data-accion="guardar-cursos">Guardar cursos</button>' +
           (u.estado === "activo" ? '<button class="boton" data-accion="pausar">Poner en pausa</button>' : '<button class="boton" data-accion="activar">Activar</button>') +
           (e.esAdmin && u.uid !== e.cuenta.uid ? '<label class="ficha-rol">Rol <select data-accion="rol">' + Object.keys(ROLES).map(function (k) { return '<option value="' + k + '"' + (u.rol === k ? " selected" : "") + ">" + ROLES[k] + "</option>"; }).join("") + "</select></label>" : "") +
+          (e.esAdmin && u.rol !== "admin" ? '<label class="ficha-formador"><input type="checkbox" data-accion="formador"' + (u.formador === true ? " checked" : "") + "> Formador: puede escribir formaciones</label>" : "") +
           '</div><div class="mensaje" aria-live="polite"></div></div></details></li>';
       }
 
@@ -2246,6 +2345,8 @@
               hecho(Nube.actualizarUsuario(uid, Object.assign({ cursos: marcados, solicitudes: (u.solicitudes || []).filter(function (s) { return marcados.indexOf(s) < 0; }) }, fechasInscripcion(u, marcados))));
             } else if (accion === "rol") {
               hecho(Nube.actualizarUsuario(uid, { rol: b.value }));
+            } else if (accion === "formador") {
+              hecho(Nube.actualizarUsuario(uid, { formador: b.checked }));
             } else if (accion === "avance") {
               mostrarAvance(li.querySelector(".ficha-avance"), u, lista);
             }
@@ -2507,6 +2608,463 @@
           location.hash = "#/sugerencias"; vistaSugerencias();
         }).catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = er.message; });
       });
+    });
+  }
+
+  /* ---------- formadores: escribir formaciones en la plataforma ---------- */
+  // Cada formación es una serie de sesiones con texto libre (Markdown), y opcionalmente un video y una presentación.
+  // Se guarda como borrador privado; la administración la revisa y la publica en el catálogo.
+  var ESTADOS_BORRADOR = { borrador: "Borrador", revision: "En revisión", publicada: "Publicada", archivado: "Archivada" };
+  var LIMITE_SESIONES = 30, LIMITE_TEXTO = 40000;
+  var ESTRUCTURA_SUGERIDA = "### Para comenzar\n\n\n\n### Descubrir\n\n\n\n### Para conversar\n\n\n\n### Orar\n\n";
+
+  function estadoBorrador(b) {
+    if (b.estado === "borrador" && b.publicadoEn) return ["cambios", "Publicada, con cambios sin publicar"];
+    return [b.estado, ESTADOS_BORRADOR[b.estado] || b.estado];
+  }
+  function chipEstado(b) {
+    var x = estadoBorrador(b);
+    return '<span class="estado-formacion ' + esc(x[0]) + '">' + esc(x[1]) + "</span>";
+  }
+  function idSesionNueva() {
+    return "fs-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
+  }
+  function sesionVacia() {
+    return { id: idSesionNueva(), titulo: "", tiempo: "", texto: "", video: "", presentacion: "" };
+  }
+  function puedeEditarBorrador(b) {
+    var e = cuentaActual();
+    return !!(b && (e.esAdmin || (e.esFormador && b.autorUid === Nube.miUid())));
+  }
+  function avisoReglas(er) {
+    var m = String((er && er.message) || er || "");
+    if (/permission|permiso|insufficient/i.test(m)) return "No tienes permiso para esto. Si eres de la administración, revisa que las reglas de Firebase estén actualizadas.";
+    return m || "Algo falló. Vuelve a intentarlo.";
+  }
+
+  function vistaFormador(id, sub) {
+    var e = cuentaActual();
+    if (!Nube.habilitada || !e.esFormador) {
+      pintar(migas("Mis formaciones") + '<section class="tarjeta"><h1>Mis formaciones</h1>' +
+        "<p>Este espacio es para los formadores de Mi Ruta: personas que escriben formaciones para otros.</p>" +
+        "<p>Si quieres escribir una, cuéntanos en «Súmate al equipo» y conversamos.</p>" +
+        '<div class="botones"><a class="boton principal" href="#/sumate">Súmate al equipo</a></div></section>', "Mis formaciones");
+      return Promise.resolve();
+    }
+    if (id && sub === "revisar") return vistaRevisarFormacion(id);
+    if (id) return vistaEditorFormacion(id);
+    pintar(migas("Mis formaciones") + '<p class="cargando">Cargando tus formaciones…</p>', "Mis formaciones");
+    return Nube.misBorradores().then(function (bs) {
+      bs.sort(function (a, b) { return String(b.actualizado).localeCompare(String(a.actualizado)); });
+      var activas = bs.filter(function (b) { return b.estado !== "archivado"; });
+      var archivadas = bs.filter(function (b) { return b.estado === "archivado"; });
+      function fila(b) {
+        var n = (b.sesiones || []).length;
+        return '<li class="formacion-fila"><div class="formacion-cab"><b>' + esc(b.titulo) + "</b>" + chipEstado(b) + "</div>" +
+          '<span class="acomp-meta">' + n + (n === 1 ? " sesión" : " sesiones") + (b.actualizado ? " · editada el " + esc(fechaLarga(b.actualizado)) : "") + "</span>" +
+          (b.nota ? '<div class="soporte-respuesta"><b>Comentario de la administración:</b> ' + esc(b.nota) + "</div>" : "") +
+          '<div class="botones"><a class="boton mini principal" href="#/formador/' + esc(b.id) + '">Editar</a>' +
+          '<a class="boton mini" href="#/formador/' + esc(b.id) + '/revisar">Vista previa</a>' +
+          (b.publicadoEn && b.estado !== "archivado" ? '<a class="boton mini" href="#/curso/' + esc(b.id) + '">Ver publicada</a>' : "") + "</div></li>";
+      }
+      var html = migas("Mis formaciones") +
+        '<section class="portada"><h1>Mis formaciones</h1>' +
+        "<p>Escribe a tu manera. Cada formación es una serie de sesiones con texto libre y, si quieres, un video o una presentación. No hay una estructura obligatoria: hay una sugerida, por si te sirve.</p>" +
+        "<p>Todo se guarda solo mientras escribes. Cuando esté lista, envíala a revisión: la administración la lee, te comenta si hace falta y la publica.</p></section>" +
+        '<section class="tarjeta"><h2>Nueva formación</h2><form id="form-nueva" class="formulario">' +
+        '<label>¿Cómo se llamará?<input name="titulo" maxlength="120" required placeholder="Por ejemplo: Acompañar el duelo en la comunidad"></label>' +
+        '<div class="botones"><button class="boton principal" type="submit">Crear y empezar a escribir</button></div><p class="mensaje" role="status"></p></form></section>' +
+        (activas.length ? '<section class="tarjeta"><h2>Tus formaciones</h2><ul class="acomp-lista">' + activas.map(fila).join("") + "</ul></section>"
+          : '<section class="tarjeta"><p class="seccion-bajada">Todavía no has escrito ninguna. La primera siempre cuesta un poco más: empieza por el título y una sesión.</p></section>') +
+        (archivadas.length ? '<details class="tarjeta"><summary><b>Archivadas (' + archivadas.length + ")</b></summary><ul class=\"acomp-lista\">" + archivadas.map(fila).join("") + "</ul></details>" : "") +
+        '<details class="tarjeta"><summary><b>Cómo dar formato al texto</b></summary><div class="texto">' + md(
+          "- Una línea que empieza con `### ` se convierte en una **pestaña** dentro de la sesión. Úsalo para separar momentos: «Para comenzar», «Descubrir», «Orar».\n" +
+          "- `**palabras**` se ven en **negrita**, y `*palabras*` en *cursiva*.\n" +
+          "- Las líneas que empiezan con `- ` forman una lista; con `1. `, una lista numerada.\n" +
+          "- `> texto` muestra una cita destacada, ideal para la Palabra de Dios.\n" +
+          "- `[texto](https://…)` crea un enlace.\n\n" +
+          "No necesitas memorizarlo: los botones sobre cada sesión lo escriben por ti, y «Vista previa» te muestra cómo quedará.") + "</div></details>";
+      pintar(html, "Mis formaciones");
+      var f = document.getElementById("form-nueva");
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var titulo = f.titulo.value.trim(), b = f.querySelector("button"), msj = f.querySelector(".mensaje");
+        if (!titulo) return;
+        b.disabled = true; msj.className = "mensaje"; msj.textContent = "Creando…";
+        Nube.crearBorrador({ titulo: titulo, subtitulo: "", descripcion: "", categoria: "", publico: "", abierta: true, sesiones: [sesionVacia()] })
+          .then(function (nuevo) { location.hash = "#/formador/" + nuevo; })
+          .catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = avisoReglas(er); });
+      });
+    }).catch(function (er) {
+      pintar(migas("Mis formaciones") + '<section class="tarjeta"><h1>Mis formaciones</h1><p class="aviso error">' + esc(avisoReglas(er)) + "</p></section>", "Mis formaciones");
+    });
+  }
+
+  function vistaEditorFormacion(id) {
+    pintar(migas('<a href="#/formador">Mis formaciones</a> / Editar') + '<p class="cargando">Abriendo la formación…</p>', "Editar formación");
+    return Promise.all([Nube.leerBorrador(id), Promise.all(sitio.cursos.map(function (x) { return cargarCurso(x).catch(function () { return null; }); }))]).then(function (r) {
+      var b = r[0];
+      if (!b || !puedeEditarBorrador(b)) {
+        pintar(migas('<a href="#/formador">Mis formaciones</a>') + '<section class="tarjeta"><p>No encontramos esta formación, o no tienes permiso para editarla.</p></section>', "Editar formación");
+        return;
+      }
+      var areasTema = [];
+      r[1].forEach(function (c) { if (c && c.categoria && areasTema.indexOf(c.categoria) < 0) areasTema.push(c.categoria); });
+      areasTema.sort();
+      var datos = {
+        titulo: b.titulo || "", subtitulo: b.subtitulo || "", descripcion: b.descripcion || "", categoria: b.categoria || "", publico: b.publico || "",
+        abierta: b.abierta !== false,
+        sesiones: (b.sesiones && b.sesiones.length ? b.sesiones : [sesionVacia()]).map(function (s) {
+          return { id: s.id || idSesionNueva(), titulo: s.titulo || "", tiempo: s.tiempo || "", texto: s.texto || "", video: s.video || "", presentacion: s.presentacion || "" };
+        }),
+      };
+      var estado = b.estado, abiertas = {}, temporizador = null, guardando = false, pendiente = false;
+      abiertas[datos.sesiones[0].id] = true;
+
+      function cabecera() {
+        return '<section class="portada"><h1>' + esc(datos.titulo || "Formación sin título") + "</h1>" +
+          '<p class="estado-linea">' + chipEstado({ estado: estado, publicadoEn: b.publicadoEn }) + "</p>" +
+          (b.nota ? '<div class="soporte-respuesta"><b>Comentario de la administración:</b> ' + esc(b.nota) + "</div>" : "") +
+          (estado === "revision" ? "<p>Está en revisión. Puedes seguir mejorándola: la administración verá la última versión.</p>" : "") +
+          (estado === "publicada" ? "<p>Ya está publicada. Si cambias algo, quedará en borrador hasta que la vuelvas a enviar a revisión; mientras tanto, los participantes siguen viendo la versión publicada.</p>" : "") +
+          "</section>";
+      }
+      function campo(etq, nombre, valor, extra) {
+        return "<label>" + etq + '<input name="' + nombre + '" value="' + esc(valor) + '"' + (extra || "") + "></label>";
+      }
+      function htmlDatos() {
+        return '<section class="tarjeta"><h2>Datos de la formación</h2><div class="formulario" id="ed-datos">' +
+          campo("Título", "titulo", datos.titulo, ' maxlength="120" required') +
+          campo("Una línea que la presente", "subtitulo", datos.subtitulo, ' maxlength="200" placeholder="Por ejemplo: Herramientas para acompañar a quien perdió a un ser querido"') +
+          '<label>Descripción<textarea name="descripcion" maxlength="2000" rows="4" placeholder="De qué trata, qué aprenderá quien la curse y cómo está organizada.">' + esc(datos.descripcion) + "</textarea></label>" +
+          campo("Área temática", "categoria", datos.categoria, ' maxlength="60" list="ed-areas" placeholder="Elige una o escribe otra"') +
+          '<datalist id="ed-areas">' + areasTema.map(function (a) { return '<option value="' + esc(a) + '">'; }).join("") + "</datalist>" +
+          campo("Para quién es", "publico", datos.publico, ' maxlength="160" placeholder="Por ejemplo: dirigentes juveniles y catequistas"') +
+          '<fieldset class="roles-elegir"><legend>¿Cómo se cursa?</legend>' +
+          '<label><input type="radio" name="abierta" value="si"' + (datos.abierta ? " checked" : "") + "> Abierta para todos, sin inscripción</label>" +
+          '<label><input type="radio" name="abierta" value="no"' + (datos.abierta ? "" : " checked") + "> Con inscripción y acompañamiento de un relator</label></fieldset>" +
+          "</div></section>";
+      }
+      function htmlSesion(s, k) {
+        var n = datos.sesiones.length;
+        return '<details class="tarjeta ed-sesion" data-k="' + k + '"' + (abiertas[s.id] ? " open" : "") + ">" +
+          '<summary><b>Sesión ' + (k + 1) + "</b>" + (s.titulo ? " · " + esc(s.titulo) : "") + "</summary>" +
+          '<div class="formulario">' +
+          '<label>Título de la sesión<input data-campo="titulo" maxlength="140" value="' + esc(s.titulo) + '"></label>' +
+          '<label>Duración aproximada<input data-campo="tiempo" maxlength="60" value="' + esc(s.tiempo) + '" placeholder="Por ejemplo: 45 minutos"></label>' +
+          '<div class="ed-herramientas" role="toolbar" aria-label="Formato del texto">' +
+          '<button type="button" class="boton mini" data-md="h">Pestaña</button>' +
+          '<button type="button" class="boton mini" data-md="b">Negrita</button>' +
+          '<button type="button" class="boton mini" data-md="i">Cursiva</button>' +
+          '<button type="button" class="boton mini" data-md="ul">Lista</button>' +
+          '<button type="button" class="boton mini" data-md="q">Cita</button>' +
+          '<button type="button" class="boton mini" data-md="a">Enlace</button>' +
+          (s.texto.trim() ? "" : '<button type="button" class="boton mini" data-md="est">Usar estructura sugerida</button>') + "</div>" +
+          '<label>Contenido<textarea data-campo="texto" rows="14" maxlength="' + LIMITE_TEXTO + '" placeholder="Escribe aquí la sesión, como si le hablaras a quien la va a cursar.">' + esc(s.texto) + "</textarea></label>" +
+          '<div class="botones"><button type="button" class="boton mini" data-ed="vista">Vista previa</button></div>' +
+          '<div class="ed-vista texto" hidden></div>' +
+          '<label>Video (YouTube, Vimeo o Google Drive), opcional<input data-campo="video" inputmode="url" maxlength="300" value="' + esc(s.video) + '" placeholder="https://"></label>' +
+          '<p class="ed-ayuda" data-ayuda="video"></p>' +
+          '<label>Presentación de Google o PDF, opcional<input data-campo="presentacion" inputmode="url" maxlength="300" value="' + esc(s.presentacion) + '" placeholder="https://"></label>' +
+          '<p class="ed-ayuda" data-ayuda="presentacion"></p>' +
+          '<div class="botones ed-mover">' +
+          (k > 0 ? '<button type="button" class="boton mini" data-ed="subir">Subir</button>' : "") +
+          (k < n - 1 ? '<button type="button" class="boton mini" data-ed="bajar">Bajar</button>' : "") +
+          (n > 1 ? '<button type="button" class="boton mini" data-ed="borrar">Eliminar sesión</button>' : "") + "</div>" +
+          "</div></details>";
+      }
+      function htmlAcciones() {
+        var puedeEnviar = estado !== "revision";
+        return '<div class="ed-barra"><span class="ed-estado" role="status">Todo guardado</span><div class="botones">' +
+          '<a class="boton" href="#/formador/' + esc(id) + '/revisar">Vista previa completa</a>' +
+          (puedeEnviar ? '<button type="button" class="boton principal" data-ed="revision">Enviar a revisión</button>' : "") + "</div></div>";
+      }
+      function pintarEditor() {
+        var html = migas('<a href="#/formador">Mis formaciones</a> / ' + esc(datos.titulo || "Editar")) + cabecera() + htmlDatos() +
+          '<h2 class="seccion-titulo">Sesiones</h2><p class="seccion-bajada">Escribe cada sesión a tu manera. Cada línea que empieza con ### se muestra como una pestaña dentro de la sesión.</p>' +
+          '<div id="ed-sesiones">' + datos.sesiones.map(htmlSesion).join("") + "</div>" +
+          (datos.sesiones.length < LIMITE_SESIONES ? '<div class="botones"><button type="button" class="boton" data-ed="agregar">Agregar sesión</button></div>' : "") +
+          '<details class="tarjeta"><summary><b>Archivar esta formación</b></summary><p>La formación sale de tu lista principal y deja de estar en revisión. ' +
+          (b.publicadoEn ? "Si ya está publicada, seguirá visible hasta que la administración la retire." : "") +
+          '</p><div class="botones"><button type="button" class="boton" data-ed="archivar">Archivar</button></div></details>' +
+          htmlAcciones();
+        pintar(html, "Editar formación");
+        enlazar();
+        revisarEnlaces();
+      }
+
+      function estadoTexto(t, clase) {
+        var x = document.querySelector(".ed-estado");
+        if (x) { x.textContent = t; x.className = "ed-estado" + (clase ? " " + clase : ""); }
+      }
+      function tamano() {
+        return JSON.stringify(datos).length;
+      }
+      function guardar(extra) {
+        clearTimeout(temporizador);
+        if (!datos.titulo.trim()) { estadoTexto("Escribe un título para poder guardar.", "error"); return Promise.resolve(false); }
+        if (tamano() > 900000) { estadoTexto("La formación es demasiado extensa para guardarse. Divide el contenido en otra formación.", "error"); return Promise.resolve(false); }
+        if (guardando) { pendiente = true; return Promise.resolve(false); }
+        guardando = true; pendiente = false;
+        if (estado === "publicada") estado = "borrador";
+        var cambios = { titulo: datos.titulo.trim(), subtitulo: datos.subtitulo.trim(), descripcion: datos.descripcion.trim(), categoria: datos.categoria.trim(),
+          publico: datos.publico.trim(), abierta: datos.abierta, sesiones: datos.sesiones, estado: estado };
+        Object.assign(cambios, extra || {});
+        estadoTexto("Guardando…");
+        return Nube.guardarBorrador(id, cambios).then(function () {
+          guardando = false;
+          if (extra && extra.estado) estado = extra.estado;
+          estadoTexto("Todo guardado");
+          window.onbeforeunload = null;
+          if (pendiente) return guardar();
+          return true;
+        }).catch(function (er) {
+          guardando = false;
+          estadoTexto("No se pudo guardar: " + avisoReglas(er), "error");
+          return false;
+        });
+      }
+      function programar() {
+        clearTimeout(temporizador);
+        estadoTexto("Cambios sin guardar…");
+        window.onbeforeunload = function () { return "Hay cambios sin guardar."; };
+        temporizador = setTimeout(guardar, 1500);
+      }
+
+      function revisarEnlaces() {
+        document.querySelectorAll(".ed-sesion").forEach(function (d) {
+          var s = datos.sesiones[+d.getAttribute("data-k")];
+          var av = d.querySelector('[data-ayuda="video"]'), ap = d.querySelector('[data-ayuda="presentacion"]');
+          av.textContent = !s.video ? "" : !enlaceSeguro(s.video) ? "El enlace debe empezar con https://" : enlaceVideo(s.video) ? "Se mostrará el video dentro de la sesión." : "No reconocemos este video: se mostrará como enlace solo si es de YouTube, Vimeo o Google Drive.";
+          ap.textContent = !s.presentacion ? "" : !enlaceSeguro(s.presentacion) ? "El enlace debe empezar con https://" : enlacePresentacion(s.presentacion) ? "Se mostrará la presentación dentro de la sesión." : "Se mostrará un botón para abrirla.";
+          av.className = "ed-ayuda" + (s.video && !enlaceVideo(s.video) ? " alerta" : "");
+          ap.className = "ed-ayuda" + (s.presentacion && !enlaceSeguro(s.presentacion) ? " alerta" : "");
+        });
+      }
+
+      function aplicarFormato(area, tipo) {
+        var ini = area.selectionStart, fin = area.selectionEnd, v = area.value, sel = v.slice(ini, fin);
+        var antes = v.slice(0, ini), despues = v.slice(fin), ins, cursor;
+        var inicioLinea = antes.lastIndexOf("\n") + 1;
+        function prefijarLineas(pref) {
+          var bloque = v.slice(inicioLinea, fin) || "";
+          var nuevo = bloque.split("\n").map(function (l) { return l.indexOf(pref) === 0 ? l : pref + l; }).join("\n");
+          area.value = v.slice(0, inicioLinea) + nuevo + despues;
+          cursor = inicioLinea + nuevo.length;
+        }
+        if (tipo === "b" || tipo === "i") {
+          var marca = tipo === "b" ? "**" : "*", txt = sel || (tipo === "b" ? "texto en negrita" : "texto en cursiva");
+          ins = marca + txt + marca; area.value = antes + ins + despues; cursor = ini + ins.length;
+        } else if (tipo === "a") {
+          ins = "[" + (sel || "texto del enlace") + "](https://)"; area.value = antes + ins + despues; cursor = ini + ins.length - 1;
+        } else if (tipo === "h") {
+          ins = (antes && !/\n\n$/.test(antes) ? (/\n$/.test(antes) ? "\n" : "\n\n") : "") + "### " + (sel || "Nombre de la pestaña") + "\n\n";
+          area.value = antes + ins + despues; cursor = ini + ins.length;
+        } else if (tipo === "ul") prefijarLineas("- ");
+        else if (tipo === "q") prefijarLineas("> ");
+        else if (tipo === "est") { area.value = ESTRUCTURA_SUGERIDA + v; cursor = "### Para comenzar\n\n".length; }
+        area.focus();
+        area.setSelectionRange(cursor, cursor);
+        area.dispatchEvent(new Event("input", { bubbles: true }));
+      }
+
+      function enlazar() {
+        var cont = document.getElementById("ed-datos");
+        cont.addEventListener("input", function (ev) {
+          var x = ev.target;
+          if (x.name === "abierta") datos.abierta = x.value === "si";
+          else if (x.name && datos.hasOwnProperty(x.name)) datos[x.name] = x.value;
+          if (x.name === "titulo") { var h = document.querySelector(".portada h1"); if (h) h.textContent = x.value || "Formación sin título"; }
+          programar();
+        });
+        cont.addEventListener("change", function (ev) {
+          if (ev.target.name === "abierta") { datos.abierta = ev.target.value === "si"; programar(); }
+        });
+        document.querySelectorAll(".ed-sesion").forEach(function (d) {
+          var k = +d.getAttribute("data-k"), s = datos.sesiones[k];
+          d.addEventListener("toggle", function () { abiertas[s.id] = d.open; });
+          d.addEventListener("input", function (ev) {
+            var c = ev.target.getAttribute("data-campo");
+            if (!c) return;
+            s[c] = ev.target.value;
+            if (c === "titulo") d.querySelector("summary").innerHTML = "<b>Sesión " + (k + 1) + "</b>" + (s.titulo ? " · " + esc(s.titulo) : "");
+            if (c === "video" || c === "presentacion") revisarEnlaces();
+            var vista = d.querySelector(".ed-vista");
+            if (c === "texto" && !vista.hidden) vista.innerHTML = mdSeguro(s.texto) || "<p>Todavía no hay contenido.</p>";
+            programar();
+          });
+          d.querySelectorAll("[data-md]").forEach(function (bt) {
+            bt.addEventListener("click", function () {
+              aplicarFormato(d.querySelector('textarea[data-campo="texto"]'), bt.getAttribute("data-md"));
+              if (bt.getAttribute("data-md") === "est") bt.remove();
+            });
+          });
+          d.querySelectorAll("[data-ed]").forEach(function (bt) {
+            bt.addEventListener("click", function () {
+              var a = bt.getAttribute("data-ed");
+              if (a === "vista") {
+                var vista = d.querySelector(".ed-vista");
+                vista.hidden = !vista.hidden;
+                bt.textContent = vista.hidden ? "Vista previa" : "Ocultar vista previa";
+                if (!vista.hidden) vista.innerHTML = mdSeguro(s.texto) || "<p>Todavía no hay contenido.</p>";
+                return;
+              }
+              if (a === "subir" || a === "bajar") {
+                var j = a === "subir" ? k - 1 : k + 1;
+                datos.sesiones[k] = datos.sesiones[j]; datos.sesiones[j] = s;
+              } else if (a === "borrar") {
+                if (!window.confirm("¿Eliminar la sesión " + (k + 1) + (s.titulo ? ", «" + s.titulo + "»" : "") + "? Su contenido se perderá.")) return;
+                datos.sesiones.splice(k, 1);
+              }
+              pintarEditor(); programar();
+            });
+          });
+        });
+        document.querySelectorAll('[data-ed="agregar"]').forEach(function (bt) {
+          bt.addEventListener("click", function () {
+            var s = sesionVacia(); datos.sesiones.push(s); abiertas[s.id] = true;
+            pintarEditor(); programar();
+            var ult = document.querySelector('.ed-sesion[data-k="' + (datos.sesiones.length - 1) + '"]');
+            if (ult) { ult.scrollIntoView({ behavior: "smooth", block: "start" }); var inp = ult.querySelector('[data-campo="titulo"]'); if (inp) inp.focus({ preventScroll: true }); }
+          });
+        });
+        document.querySelectorAll('[data-ed="revision"]').forEach(function (bt) {
+          bt.addEventListener("click", function () {
+            var conTexto = datos.sesiones.filter(function (s) { return s.texto.trim(); }).length;
+            if (!conTexto) { estadoTexto("Escribe al menos una sesión antes de enviarla a revisión.", "error"); return; }
+            if (!window.confirm("¿Enviar «" + datos.titulo + "» a revisión? La administración la leerá y te responderá. Puedes seguir editándola mientras tanto.")) return;
+            bt.disabled = true;
+            guardar({ estado: "revision" }).then(function (ok) {
+              if (!ok) { bt.disabled = false; return; }
+              b.nota = ""; pintarEditor();
+              estadoTexto("Enviada a revisión. ¡Gracias por tu trabajo!", "ok");
+            });
+          });
+        });
+        document.querySelectorAll('[data-ed="archivar"]').forEach(function (bt) {
+          bt.addEventListener("click", function () {
+            if (!window.confirm("¿Archivar «" + datos.titulo + "»? Podrás encontrarla en «Archivadas».")) return;
+            guardar({ estado: "archivado" }).then(function (ok) { if (ok) location.hash = "#/formador"; });
+          });
+        });
+      }
+
+      pintarEditor();
+    }).catch(function (er) {
+      pintar(migas('<a href="#/formador">Mis formaciones</a>') + '<section class="tarjeta"><p class="aviso error">' + esc(avisoReglas(er)) + "</p></section>", "Editar formación");
+    });
+  }
+
+  // Vista previa completa: la leen el autor y la administración. La administración publica, devuelve o retira desde aquí.
+  function vistaRevisarFormacion(id) {
+    var e = cuentaActual();
+    pintar(migas("Vista previa") + '<p class="cargando">Preparando la vista previa…</p>', "Vista previa");
+    return Nube.leerBorrador(id).then(function (b) {
+      if (!b || !puedeEditarBorrador(b)) {
+        pintar(migas("Vista previa") + '<section class="tarjeta"><p>No encontramos esta formación, o no tienes permiso para verla.</p></section>', "Vista previa");
+        return;
+      }
+      var volver = e.esAdmin && b.autorUid !== Nube.miUid() ? '<a href="#/gestion/formaciones">Formaciones</a>' : '<a href="#/formador">Mis formaciones</a>';
+      var ses = b.sesiones || [];
+      var html = migas(volver + " / Vista previa") +
+        '<section class="portada"><p class="subtitulo">' + esc(b.categoria || "Formación") + "</p><h1>" + esc(b.titulo) + "</h1>" +
+        (b.subtitulo ? "<p>" + esc(b.subtitulo) + "</p>" : "") +
+        '<ul class="etiquetas"><li>' + ses.length + (ses.length === 1 ? " sesión" : " sesiones") + "</li><li>" + (b.abierta !== false ? "Abierta, sin inscripción" : "Con inscripción") + "</li>" +
+        (b.publico ? "<li>" + esc(b.publico) + "</li>" : "") + "</ul>" +
+        '<p class="estado-linea">' + chipEstado(b) + (b.autorNombre ? ' <span class="acomp-meta">Escrita por ' + esc(b.autorNombre) + "</span>" : "") + "</p></section>" +
+        (b.descripcion ? '<section class="tarjeta texto">' + mdSeguro(b.descripcion) + "</section>" : "") +
+        '<p class="aviso">Así se leerá cada sesión. En la formación publicada, los subtítulos de cada sesión se muestran como pestañas.</p>' +
+        ses.map(function (s, k) {
+          var v = enlaceVideo(enlaceSeguro(s.video)), pr = enlacePresentacion(enlaceSeguro(s.presentacion));
+          return '<article class="tarjeta texto revision-sesion"><p class="subtitulo">Sesión ' + (k + 1) + (s.tiempo ? " · " + esc(s.tiempo) : "") + "</p>" +
+            "<h2>" + esc(s.titulo || "Sesión " + (k + 1)) + "</h2>" +
+            (v ? '<div class="medio"><iframe src="' + esc(v) + '" title="Video de la sesión" allowfullscreen loading="lazy"></iframe></div>' : "") +
+            (pr ? '<div class="medio"><iframe src="' + esc(pr) + '" title="Presentación de la sesión" allowfullscreen loading="lazy"></iframe></div>'
+              : enlaceSeguro(s.presentacion) ? '<p><a class="boton" href="' + esc(enlaceSeguro(s.presentacion)) + '" target="_blank" rel="noopener">Abrir la presentación</a></p>' : "") +
+            (mdSeguro(s.texto) || '<p class="seccion-bajada">Esta sesión todavía no tiene contenido.</p>') + "</article>";
+        }).join("");
+      if (b.autorUid === Nube.miUid()) html += '<div class="botones"><a class="boton principal" href="#/formador/' + esc(b.id) + '">Seguir editando</a></div>';
+      if (e.esAdmin) {
+        html += '<section class="tarjeta revision-admin"><h2>Revisión de la administración</h2>' +
+          "<p>Lee con calma. Puedes publicarla tal como está o devolverla con un comentario cálido y concreto para su autor.</p>" +
+          '<div class="formulario"><label>Comentario para el autor (si la devuelves)<textarea id="nota-admin" rows="3" maxlength="1500" placeholder="Qué valoras de la formación y qué le pedirías ajustar.">' + esc(b.nota || "") + "</textarea></label></div>" +
+          '<div class="botones">' +
+          (b.estado !== "publicada" ? '<button type="button" class="boton principal" data-rev="publicar">' + (b.publicadoEn ? "Publicar los cambios" : "Publicar") + "</button>" : "") +
+          '<button type="button" class="boton" data-rev="devolver">Devolver con comentario</button>' +
+          (b.publicadoEn ? '<button type="button" class="boton" data-rev="retirar">Retirar del catálogo</button>' : "") +
+          "</div><p class=\"mensaje\" role=\"status\"></p></section>";
+      }
+      pintar(html, "Vista previa");
+      document.querySelectorAll("[data-rev]").forEach(function (bt) {
+        bt.addEventListener("click", function () {
+          var a = bt.getAttribute("data-rev"), msj = document.querySelector(".revision-admin .mensaje");
+          var nota = document.getElementById("nota-admin").value.trim();
+          var tarea;
+          if (a === "publicar") {
+            if (!(b.titulo || "").trim() || !ses.some(function (s) { return (s.texto || "").trim(); })) { msj.className = "mensaje error"; msj.textContent = "Para publicarla, necesita un título y al menos una sesión con contenido."; return; }
+            if (!window.confirm("¿Publicar «" + b.titulo + "» en el catálogo de Mi Ruta?")) return;
+            tarea = Nube.publicarFormacion(b).then(function () {
+              cursos[b.id] = cursoDesdeFormacion(Object.assign({}, b, { publicado: new Date().toISOString() }));
+              if (sitio.cursos.indexOf(b.id) < 0) { sitio.cursos.push(b.id); var ar = areas()[0]; if (ar && ar.cursos !== sitio.cursos && ar.cursos.indexOf(b.id) < 0) ar.cursos.push(b.id); }
+              return "Publicada. Ya aparece en el catálogo.";
+            });
+          } else if (a === "devolver") {
+            if (!nota) { msj.className = "mensaje error"; msj.textContent = "Escribe un comentario para que el autor sepa qué ajustar."; return; }
+            tarea = Nube.devolverBorrador(b.id, nota).then(function () { return "Devuelta con tu comentario. El autor lo verá en «Mis formaciones»."; });
+          } else if (a === "retirar") {
+            if (!window.confirm("¿Retirar «" + b.titulo + "» del catálogo? Quienes la estaban cursando dejarán de verla.")) return;
+            tarea = Nube.retirarFormacion(b.id).then(function () {
+              delete cursos[b.id];
+              sitio.cursos = sitio.cursos.filter(function (x) { return x !== b.id; });
+              areas().forEach(function (ar) { if (ar.cursos !== sitio.cursos) ar.cursos = ar.cursos.filter(function (x) { return x !== b.id; }); });
+              return "Retirada del catálogo. Sigue guardada como borrador.";
+            });
+          }
+          document.querySelectorAll("[data-rev]").forEach(function (x) { x.disabled = true; });
+          msj.className = "mensaje"; msj.textContent = "Un momento…";
+          tarea.then(function (t) {
+            return vistaRevisarFormacion(id).then(function () {
+              var m2 = document.querySelector(".revision-admin .mensaje");
+              if (m2) { m2.className = "mensaje ok"; m2.textContent = t; }
+            });
+          }).catch(function (er) {
+            document.querySelectorAll("[data-rev]").forEach(function (x) { x.disabled = false; });
+            msj.className = "mensaje error"; msj.textContent = avisoReglas(er);
+          });
+        });
+      });
+    }).catch(function (er) {
+      pintar(migas("Vista previa") + '<section class="tarjeta"><p class="aviso error">' + esc(avisoReglas(er)) + "</p></section>", "Vista previa");
+    });
+  }
+
+  // Gestión → Formaciones: lo que espera revisión primero.
+  function vistaFormacionesAdmin() {
+    var cab = migas('<a href="#/gestion">Gestión</a> / Formaciones') + subnavGestion("formaciones");
+    pintar(cab + '<p class="cargando">Cargando formaciones…</p>', "Gestión");
+    return Nube.todosBorradores().then(function (bs) {
+      bs.sort(function (a, b) { return String(b.actualizado).localeCompare(String(a.actualizado)); });
+      var grupos = [
+        ["En revisión", "Esperan tu lectura.", bs.filter(function (b) { return b.estado === "revision"; })],
+        ["Publicadas", "Ya están en el catálogo.", bs.filter(function (b) { return b.estado === "publicada"; })],
+        ["En borrador", "Sus autores aún las están escribiendo.", bs.filter(function (b) { return b.estado === "borrador"; })],
+        ["Archivadas", "", bs.filter(function (b) { return b.estado === "archivado"; })],
+      ];
+      var html = cab + '<section class="portada"><h1>Formaciones de los formadores</h1>' +
+        "<p>Aquí llegan las formaciones que escriben los formadores. Revísalas, publícalas o devuélvelas con un comentario. Para que alguien pueda escribir, márcalo como «Formador» en «Cuentas y solicitudes».</p></section>" +
+        grupos.map(function (g) {
+          if (!g[2].length && g[0] !== "En revisión") return "";
+          return '<section class="tarjeta"><h2>' + esc(g[0]) + ' <span class="insignia' + (g[2].length ? "" : " cero") + '">' + g[2].length + "</span></h2>" +
+            (g[2].length ? '<ul class="acomp-lista">' + g[2].map(function (b) {
+              var n = (b.sesiones || []).length;
+              return '<li class="acomp-fila"><div><b>' + esc(b.titulo) + "</b> " + chipEstado(b) +
+                '<span class="acomp-meta">' + esc(b.autorNombre || "Sin autor") + " · " + n + (n === 1 ? " sesión" : " sesiones") + (b.actualizado ? " · " + esc(fechaLarga(b.actualizado)) : "") + "</span></div>" +
+                '<a class="boton mini principal" href="#/formador/' + esc(b.id) + '/revisar">Revisar</a></li>';
+            }).join("") + "</ul>" : '<p class="seccion-bajada">' + (g[1] ? "Nada por ahora. " : "") + "</p>") + "</section>";
+        }).join("");
+      pintar(html, "Gestión");
+    }).catch(function (er) {
+      pintar(cab + '<section class="tarjeta"><p class="aviso error">' + esc(avisoReglas(er)) + "</p></section>", "Gestión");
     });
   }
 
@@ -2833,6 +3391,7 @@
     else if (partes[0] === "gestion") tarea = vistaGestion(partes[1]);
     else if (partes[0] && partes[0].split("?")[0] === "sugerencias") tarea = vistaSugerencias();
     else if (partes[0] === "sumate") tarea = vistaSumate();
+    else if (partes[0] === "formador") tarea = vistaFormador(partes[1], partes[2]);
     else if (partes[0] === "mis-constancias") tarea = vistaMisConstancias();
     else if (partes[0] === "constancia" && partes[1]) tarea = vistaConstancia(partes[1]);
     else tarea = vistaInicio();
@@ -2887,5 +3446,12 @@
     else ruta();
   });
 
-  Promise.resolve(Nube.listo).then(cargarSitio).then(ruta).catch(error);
+  Promise.resolve(Nube.listo).then(cargarSitio).then(function () {
+    var primera = ruta();
+    cargarPublicadas().then(function (n) {
+      var h = location.hash || "#/";
+      if (n && (h === "#/" || h === "#" || h.indexOf("#/area/") === 0)) Promise.resolve(primera).then(ruta);
+    });
+    return primera;
+  }).catch(error);
 })();
