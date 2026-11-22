@@ -762,3 +762,32 @@ h3 { font-size: 1.15rem; margin: 1.4em 0 .5em; }
 .apunte-pdf h3 { margin: 0 0 .2rem; font-family: var(--serif); color: var(--tinta); }
 .apunte-pdf p { margin: 0; color: var(--tinta-suave); font-size: .92rem; }
 .apunte-pdf > div { flex: 1 1 15rem; }
+
+/* ---------- portada: tiempo litúrgico y equipo ---------- */
+.temporada-inicio { margin-top: 1.2rem; border-left: 4px solid #6b3fa0; }
+.temporada-inicio .subtitulo { margin: 0; color: #6b3fa0; font-weight: 700; font-size: .85rem; text-transform: none; }
+.temporada-inicio h2 { margin: .2rem 0 .4rem; }
+.temporada-inicio p { color: var(--tinta-suave); }
+.temporada-datos { list-style: none; padding: 0; margin: .6rem 0 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.temporada-datos li { font-size: .8rem; background: var(--fondo); border: 1px solid var(--linea); border-radius: 99px; padding: 2px 10px; color: var(--tinta-suave); }
+.sumate-inicio { margin-top: 1.4rem; border-left: 4px solid var(--primario); }
+.sumate-inicio .subtitulo { margin: 0; color: var(--primario); font-weight: 700; font-size: .85rem; text-transform: none; }
+.sumate-inicio h2 { margin: .2rem 0 .4rem; }
+.sumate-inicio p { color: var(--tinta-suave); }
+
+/* ---------- súmate al equipo ---------- */
+.roles-equipo { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.rol-equipo h3 { margin: 0 0 .4rem; }
+.rol-equipo p { margin: 0 0 .6rem; color: var(--tinta-suave); }
+.rol-equipo dl { margin: 0; font-size: .9rem; }
+.rol-equipo dt { font-weight: 700; color: var(--tinta); margin-top: .4rem; }
+.rol-equipo dd { margin: .1rem 0 0; color: var(--tinta-suave); }
+.lista-sumate { padding-left: 1.2rem; display: grid; gap: .45rem; }
+.lista-sumate li { color: var(--tinta-suave); }
+.lista-sumate b { color: var(--tinta); }
+.sumate-form textarea, .sumate-form select { font: inherit; font-weight: 400; padding: .65rem .8rem; border: 1.5px solid var(--linea); border-radius: 10px; background: #fff; color: var(--tinta); width: 100%; box-sizing: border-box; }
+.roles-elegir { border: 1.5px solid var(--linea); border-radius: 10px; padding: .6rem .8rem; display: grid; gap: .35rem; margin: 0; }
+.roles-elegir legend { font-weight: 600; font-size: .92rem; padding: 0 .3rem; }
+.roles-elegir label { display: flex; align-items: center; gap: .5rem; font-weight: 400; }
+.aviso-ok { border-left: 4px solid var(--ok); background: var(--ok-claro); }
+.aviso-ok p { margin: 0; }

@@ -72,8 +72,10 @@
 
   // libre | ingresar | pendiente | pausado | solicitar | solicitado | error
   function esPropedeutico(c) { return !!(c && (c.propedeutico || (sitio && c.id === sitio.propedeutico))); }
+  // Abiertas para todos, sin inscripción ni plazos: el propedéutico y las formaciones de tiempo litúrgico.
+  function esAbierto(c) { return esPropedeutico(c) || !!(c && c.abierto); }
   function acceso(curso) {
-    if (!Nube.habilitada || esPropedeutico(curso)) return "libre";
+    if (!Nube.habilitada || esAbierto(curso)) return "libre";
     var e = cuentaActual();
     if (e.status === "invitado") return "ingresar";
     if (e.status === "pendiente") return "pendiente";
@@ -103,7 +105,7 @@
 
   // Lo que la persona acepta antes de pedir una formación, dicho como un acuerdo entre personas.
   function compromiso(curso) {
-    if (esPropedeutico(curso)) return "";
+    if (esAbierto(curso)) return "";
     var varios = curso.modulos && curso.modulos.length > 1;
     return '<div class="compromiso"><h3>Antes de inscribirte, un acuerdo entre nosotros</h3>' +
       "<p>Queremos que esta formación sea un camino que de verdad recorras. Para eso te pedimos algunas cosas:</p><ul>" +
@@ -229,7 +231,7 @@
   function maxIso(a, b) { return !a ? b : !b ? a : (a > b ? a : b); }
   function aplicaPlazos(c) {
     var e = cuentaActual();
-    return !!(Nube.habilitada && e.activo && !e.esRelator && c && !esPropedeutico(c) && (e.cuenta.cursos || []).indexOf(c.id) >= 0);
+    return !!(Nube.habilitada && e.activo && !e.esRelator && c && !esAbierto(c) && (e.cuenta.cursos || []).indexOf(c.id) >= 0);
   }
   function fechaInscripcion(c) {
     var ins = (cuentaActual().cuenta.inscripciones || {})[c.id];
@@ -261,7 +263,7 @@
   // Formaciones que ocupan cupo: ni el propedéutico, ni las completas, ni las que ya son parte de otra en la lista
   // (por ejemplo, Logística dentro del diplomado).
   function activasDe(ids, porId, h) {
-    var cs = ids.map(function (id) { return porId[id]; }).filter(function (c) { return c && !esPropedeutico(c); });
+    var cs = ids.map(function (id) { return porId[id]; }).filter(function (c) { return c && !esAbierto(c); });
     return cs.filter(function (c) {
       var p = progresoCon(c, h || []);
       if (p.total && p.hechas >= p.total) return false;
@@ -539,6 +541,7 @@
 
   function metaTile(c) {
     if (c.tipo === "curso") return (c.horas ? c.horas + " h · " : "") + (c.modulos_n || c.modulos.length) + " módulos";
+    if (c.abierto && c.duracion) return c.duracion;
     return esPropedeutico(c) ? "4 encuentros · 4 h" : "6 sesiones · 9 h";
   }
   function tileHTML(c) {
@@ -616,6 +619,26 @@
     });
   }
 
+  // Fecha local de hoy (AAAA-MM-DD), para no adelantar el día por la zona horaria.
+  function hoyLocal() {
+    var d = new Date();
+    return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+  }
+
+  // Formación del tiempo litúrgico en curso, destacada en la portada solo entre sus fechas.
+  function destacadoTemporada(lista) {
+    var hoy = hoyLocal();
+    var t = (sitio.temporada || []).filter(function (x) { return x.desde <= hoy && hoy <= x.hasta; })[0];
+    var c = t && lista.filter(function (x) { return x.id === t.id; })[0];
+    if (!c) return "";
+    var p = progreso(c);
+    return '<section class="tarjeta temporada-inicio"><p class="subtitulo">' + esc(t.etiqueta) + "</p><h2>" + esc(c.titulo) + "</h2>" +
+      "<p>" + esc(t.texto) + "</p>" +
+      '<ul class="temporada-datos">' + t.datos.map(function (d) { return "<li>" + esc(d) + "</li>"; }).join("") + "</ul>" +
+      (p.hechas ? barraProgreso(p) : "") +
+      '<div class="botones"><a class="boton principal" href="#/curso/' + esc(c.id) + '">' + (p.hechas ? "Continuar" : "Comenzar") + "</a></div></section>";
+  }
+
   function vistaInicio() {
     return Promise.all([Promise.all(sitio.cursos.map(cargarCurso)), cargarTarjetas()]).then(function (r) {
       var lista = r[0];
@@ -640,6 +663,7 @@
             '<div class="botones"><a class="boton principal" href="#/curso/' + esc(prope.id) + '">' + (pp.hechas ? "Continuar" : "Comenzar") + "</a></div></section>";
         }
       }
+      html += destacadoTemporada(lista);
       html += avisosPendientes();
       if (Nube.habilitada && e.status === "pendiente") {
         var solic = (e.cuenta.solicitudes || []).map(function (id) { var c = lista.filter(function (x) { return x.id === id; })[0]; return c ? c.titulo : id; });
@@ -650,7 +674,7 @@
       } else if (Nube.habilitada && e.activo) {
         // Relatores y administradores también son participantes: ven sus cursos inscritos y los que ya empezaron.
         var cursados = almacen.leer("cursados", []);
-        var mios = lista.filter(function (c) { return (esPropedeutico(c) && progreso(c).hechas >= progreso(c).total) || (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && (cursados.indexOf(c.id) >= 0 || c.tipo !== "curso") && progreso(c).hechas > 0); });
+        var mios = lista.filter(function (c) { return (esPropedeutico(c) && progreso(c).hechas >= progreso(c).total) || (esAbierto(c) && !esPropedeutico(c) && progreso(c).hechas > 0) || (e.cuenta.cursos || []).indexOf(c.id) >= 0 || (e.esRelator && (cursados.indexOf(c.id) >= 0 || c.tipo !== "curso") && progreso(c).hechas > 0); });
         var alertas = mios.map(function (c) { return avisosPlazo(c, true); }).join("");
         html += '<section class="seccion-inicio"><h2 class="seccion-titulo">Mis cursos</h2>' + alertas +
           (mios.length ? mios.map(function (c) {
@@ -678,6 +702,10 @@
         '<li><b>Elige tu formación</b><span>Entra a un área y elige un curso, un diplomado o un módulo suelto, y solicita la inscripción.</span></li>' +
         '<li><b>Tu relator te acompaña</b><span>Aprueba tu inscripción y te guía en los encuentros con tu comunidad.</span></li>' +
         '<li><b>Avanza y certifícate</b><span>Cada módulo aprobado entrega una constancia verificable con código.</span></li></ol></section>';
+
+      html += '<section class="tarjeta sumate-inicio"><p class="subtitulo">Equipo de Mi Ruta</p><h2>¿Quieres servir formando a otros?</h2>' +
+        "<p>Buscamos formadores, revisores, relatores y acompañantes que quieran poner lo que saben al servicio de quienes sirven en la Iglesia. Con poco tiempo y siempre en equipo.</p>" +
+        '<div class="botones"><a class="boton" href="#/sumate">Conoce los roles</a></div></section>';
 
       html += '<section class="seccion-inicio ayuda"><h2 class="seccion-titulo">Preguntas frecuentes</h2>' +
         '<details><summary>¿Cuánto cuesta?</summary><p>Nada. Mi Ruta es una iniciativa de agAPPe y la formación es gratuita.</p></details>' +
@@ -1584,6 +1612,7 @@
   function pestanasCurso(c, activa) {
     if (acceso(c) !== "libre") return "";
     if (esPropedeutico(c) && Nube.habilitada && !cuentaActual().activo) return "";
+    if (esAbierto(c) && !esPropedeutico(c)) return "";  // las de tiempo litúrgico no tienen muro ni participantes
     var t = [["contenido", "Contenido", ""], ["muro", "Muro y debates", "/muro"], ["participantes", "Participantes", "/participantes"], ["agenda", "Agenda", "/agenda"]];
     return '<nav class="pestanas-curso" aria-label="Secciones de la formación">' + t.map(function (x) {
       return '<a href="#/curso/' + esc(c.id) + x[2] + '"' + (x[0] === activa ? ' aria-current="page"' : "") + ">" + x[1] + "</a>";
@@ -2434,7 +2463,7 @@
         '<input type="hidden" name="pagina" value="' + esc(desde) + '">' +
         '<div class="botones"><button class="boton principal" type="submit">Enviar</button></div><p class="mensaje" role="status"></p></form></section>' +
         '<section class="tarjeta"><h2>Lo que has enviado</h2>' + (mios.length ? '<ul class="acomp-lista">' + mios.map(function (x) {
-          return '<li class="soporte-item"><div class="soporte-cab"><b>' + esc(TIPOS_SOPORTE[x.tipo] || x.tipo) + '</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
+          return '<li class="soporte-item"><div class="soporte-cab"><b>' + esc(etiquetaSoporte(x)) + '</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
             '<p class="soporte-texto">' + esc(x.texto) + '</p><span class="acomp-meta">' + esc(fechaLarga(x.creado)) + "</span>" +
             (x.respuesta ? '<div class="soporte-respuesta"><b>Respuesta' + (x.respondidoPor ? " de " + esc(x.respondidoPor) : "") + ":</b> " + esc(x.respuesta) + "</div>" : "") + "</li>";
         }).join("") + "</ul>" : '<p class="seccion-bajada">Todavía no has enviado sugerencias.</p>') + "</section>";
@@ -2453,18 +2482,119 @@
     });
   }
 
+  /* ---------- súmate al equipo (formadores, revisores, relatores, acompañantes, admisión) ---------- */
+  // Las postulaciones viajan por el canal de sugerencias (colección «soporte»), marcadas con la página #/sumate:
+  // así las ve y responde solo la administración, sin cambiar las reglas de seguridad.
+  var PAGINA_SUMATE = "#/sumate";
+  var ROLES_EQUIPO = [
+    { id: "formador", nombre: "Formador o autor", hace: "Escribe una formación nueva o profundiza una existente en su área.", perfil: "Personas con estudios o experiencia en un tema: teología, educación, psicología, comunicación, liturgia, gestión.", tiempo: "Por proyecto, con plazos acordados." },
+    { id: "revisor", nombre: "Revisor experto", hace: "Lee los apuntes de su disciplina y señala errores, vacíos o precisiones.", perfil: "Profesionales: psicólogos, teólogos, profesores, trabajadores sociales.", tiempo: "Unas horas por apunte, cuando haya material listo." },
+    { id: "relator", nombre: "Relator o tutor", hace: "Acompaña una edición de un curso: responde mensajes, anima el foro y revisa los talleres. No dicta clases: orienta y anima.", perfil: "Dirigentes con experiencia que ya hayan cursado esa formación.", tiempo: "1 a 2 horas por semana mientras dura la edición." },
+    { id: "acompanante", nombre: "Acompañante", hace: "Acompaña a personas en itinerarios de oración o de discernimiento vocacional. No hace terapia ni evalúa: escucha, y deriva cuando hace falta.", perfil: "Personas maduras en la fe, con formación en acompañamiento y un acompañante propio.", tiempo: "Un encuentro cada dos o tres semanas por persona acompañada." },
+    { id: "admision", nombre: "Admisión", hace: "Recibe inscripciones, asigna programas y cuida que se cumplan las reglas de la plataforma.", perfil: "Personas ordenadas y cercanas, con manejo básico de la plataforma.", tiempo: "1 hora por semana, con más trabajo al abrir convocatorias." },
+  ];
+  var DISPONIBILIDAD = ["Por proyecto, algo puntual", "1 hora por semana", "2 a 3 horas por semana", "Todavía no lo sé"];
+  function esPostulacion(x) { return x && x.pagina === PAGINA_SUMATE; }
+  function etiquetaSoporte(x) { return esPostulacion(x) ? "Quiere sumarse al equipo" : (TIPOS_SOPORTE[x.tipo] || x.tipo); }
+
+  function vistaSumate() {
+    var e = cuentaActual();
+    var cab = migas("Súmate al equipo") + '<section class="portada"><h1>Súmate al equipo</h1>' +
+      "<p>Mi Ruta necesita personas, no solo contenidos. Los materiales ya están escritos y se siguen profundizando; lo que falta es alguien que lea un trabajo y responda con cariño, que revise un apunte con ojos de especialista, que acompañe a quien está discerniendo. Esa es la invitación.</p>" +
+      "<p>No buscamos personas perfectas ni con mucho tiempo libre. Buscamos personas con fe, con algo que compartir y con ganas de hacerlo en equipo. Todos los roles son voluntarios: Mi Ruta es un apostolado.</p></section>";
+    var roles = '<section class="seccion-inicio"><h2 class="seccion-titulo">Cinco maneras de sumarse</h2><div class="roles-equipo">' +
+      ROLES_EQUIPO.map(function (r) {
+        return '<section class="tarjeta rol-equipo"><h3>' + esc(r.nombre) + "</h3><p>" + esc(r.hace) + "</p>" +
+          '<dl><dt>A quién buscamos</dt><dd>' + esc(r.perfil) + "</dd><dt>Tiempo estimado</dt><dd>" + esc(r.tiempo) + "</dd></dl></section>";
+      }).join("") + "</div></section>";
+    var requisitos = '<section class="tarjeta"><h2>Lo que pedimos a todos</h2><p>No son trámites: son la forma de cuidar a quienes se forman y de cuidarte a ti.</p><ol class="lista-sumate">' +
+      "<li><b>Vida de fe y de comunidad.</b> Participar en una comunidad cristiana y querer servir desde ella.</li>" +
+      '<li><b>Formación en buen trato.</b> Haber cursado <a href="#/curso/buen-trato-y-prevencion">Buen trato y prevención</a> antes de comenzar.</li>' +
+      "<li><b>Visto bueno de tu párroco o asesor.</b> Una conversación breve con quien te conoce.</li>" +
+      "<li><b>Certificado de inhabilidades.</b> Si tu rol implica contacto con menores de edad, el certificado de inhabilidades para trabajar con menores de edad del Registro Civil.</li>" +
+      "<li><b>Carta de compromiso.</b> Un texto breve con el rol que asumes, el tiempo que puedes dar y las normas de cuidado que sigues.</li></ol>" +
+      "<p>Y una promesa de nuestra parte: nadie queda solo con lo que le toca.</p></section>";
+    var camino = '<section class="tarjeta"><h2>Cómo es el camino</h2><ol class="lista-sumate">' +
+      "<li><b>Nos escribes</b> con el formulario de esta página.</li>" +
+      "<li><b>Conversamos</b> unos 30 minutos, para conocernos y escuchar qué te mueve.</li>" +
+      "<li><b>Completas los requisitos</b> de la lista anterior.</li>" +
+      "<li><b>Te preparas para el rol</b> junto a alguien con experiencia.</li>" +
+      "<li><b>Comienzas con un servicio acotado,</b> con una conversación a mitad de camino y otra al terminar.</li>" +
+      "<li><b>Una vez al año revisamos juntos</b> si quieres seguir, cambiar de rol o descansar. Las tres respuestas son buenas.</li></ol></section>";
+
+    if (!Nube.habilitada || !e.cuenta) {
+      pintar(cab + roles + requisitos + camino + '<section class="tarjeta sumate-form"><h2>¿Te animas?</h2>' +
+        "<p>Para escribirnos necesitas una cuenta de Mi Ruta. Se crea en un minuto, con Google o con tu correo, y te permite ver nuestra respuesta aquí mismo.</p>" +
+        (Nube.habilitada ? '<div class="botones"><a class="boton principal" href="#/ingresar">Crear cuenta o ingresar</a></div>' : "") +
+        "<p class=\"seccion-bajada\">Después de ingresar, vuelve a esta página desde la portada: «Conoce los roles».</p></section>", "Súmate al equipo");
+      return Promise.resolve();
+    }
+    pintar(cab + '<p class="cargando">Cargando…</p>', "Súmate al equipo");
+    return Nube.misSoportes().catch(function () { return []; }).then(function (todos) {
+      var mias = todos.filter(esPostulacion).sort(function (a, b) { return String(b.creado).localeCompare(String(a.creado)); });
+      var previas = mias.length ? '<section class="tarjeta"><h2>Lo que nos has escrito</h2><ul class="acomp-lista">' + mias.map(function (x) {
+        return '<li class="soporte-item"><div class="soporte-cab"><b>Quiere sumarse al equipo</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
+          '<p class="soporte-texto">' + esc(x.texto) + '</p><span class="acomp-meta">' + esc(fechaLarga(x.creado)) + "</span>" +
+          (x.respuesta ? '<div class="soporte-respuesta"><b>Respuesta' + (x.respondidoPor ? " de " + esc(x.respondidoPor) : "") + ":</b> " + esc(x.respuesta) + "</div>" : "") + "</li>";
+      }).join("") + "</ul></section>" : "";
+      var form = '<section class="tarjeta sumate-form"><h2>' + (mias.length ? "Escribirnos de nuevo" : "¿Te animas? Escríbenos") + "</h2>" +
+        "<p>Cuéntanos un poco de ti. No es una postulación formal: es el primer paso para conversar.</p>" +
+        '<form id="form-sumate" class="formulario">' +
+        '<fieldset class="roles-elegir"><legend>¿Qué rol te interesa? Puedes marcar más de uno.</legend>' +
+        ROLES_EQUIPO.map(function (r) { return '<label><input type="checkbox" name="rol" value="' + esc(r.id) + '"> ' + esc(r.nombre) + "</label>"; }).join("") +
+        '<label><input type="checkbox" name="rol" value="no-se"> Todavía no lo sé</label></fieldset>' +
+        '<label>Tu comunidad o parroquia<input name="comunidad" maxlength="160" value="' + esc(e.cuenta.comunidad || "") + '"></label>' +
+        '<label>Tu profesión, estudios o experiencia en la Iglesia<input name="experiencia" maxlength="300" placeholder="Por ejemplo: profesora de Religión, cinco años como catequista"></label>' +
+        '<label>Tiempo que podrías dar<select name="tiempo">' + DISPONIBILIDAD.map(function (d) { return "<option>" + esc(d) + "</option>"; }).join("") + "</select></label>" +
+        '<label>¿Por qué te gustaría sumarte?<textarea name="motivo" maxlength="900" rows="4" required placeholder="Lo que te mueve, lo que te gustaría aportar, alguna pregunta que tengas."></textarea></label>' +
+        '<label>Teléfono o WhatsApp para conversar (opcional)<input name="contacto" maxlength="60" inputmode="tel"></label>' +
+        '<p class="seccion-bajada">Lo que escribas lo lee solo la administración de Mi Ruta, y te responderemos en esta misma página.</p>' +
+        '<div class="botones"><button class="boton principal" type="submit">Enviar</button></div><p class="mensaje" role="status"></p></form></section>';
+      pintar(cab + previas + form + roles + requisitos + camino, "Súmate al equipo");
+      var f = document.getElementById("form-sumate");
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var b = f.querySelector("button"), msj = f.querySelector(".mensaje");
+        var elegidos = Array.from(f.querySelectorAll('input[name="rol"]:checked')).map(function (x) {
+          var r = ROLES_EQUIPO.filter(function (y) { return y.id === x.value; })[0];
+          return r ? r.nombre : "Todavía no lo sé";
+        });
+        var motivo = f.motivo.value.trim();
+        if (!elegidos.length) { msj.className = "mensaje error"; msj.textContent = "Marca al menos un rol, o «Todavía no lo sé»."; return; }
+        if (motivo.length < 5) { msj.className = "mensaje error"; msj.textContent = "Cuéntanos un poco más sobre por qué te gustaría sumarte."; return; }
+        var texto = ["Roles: " + elegidos.join(", "),
+          "Comunidad: " + (f.comunidad.value.trim() || "(sin indicar)"),
+          "Experiencia: " + (f.experiencia.value.trim() || "(sin indicar)"),
+          "Tiempo: " + f.tiempo.value,
+          "Contacto: " + (f.contacto.value.trim() || "(por esta página)"),
+          "", "Por qué: " + motivo].join("\n").slice(0, 2000);
+        b.disabled = true;
+        msj.className = "mensaje"; msj.textContent = "Enviando…";
+        Nube.enviarSoporte({ tipo: "otro", texto: texto, pagina: PAGINA_SUMATE }).then(function () {
+          vistaSumate().then(function () {
+            var ok = document.querySelector(".sumate-form .mensaje");
+            var caja = document.querySelector(".portada");
+            if (caja) caja.insertAdjacentHTML("afterend", '<section class="tarjeta aviso-ok"><p><b>¡Gracias por escribirnos!</b> Recibimos tu mensaje y te responderemos pronto en esta misma página. Ya es un regalo que quieras servir.</p></section>');
+            if (ok) ok.textContent = "";
+            window.scrollTo(0, 0);
+          });
+        }).catch(function (er) { b.disabled = false; msj.className = "mensaje error"; msj.textContent = "No pudimos enviar tu mensaje: " + er.message; });
+      });
+    });
+  }
+
   function vistaSoporteAdmin() {
     var cab = migas('<a href="#/gestion">Gestión</a> / Sugerencias') + subnavGestion("sugerencias");
     pintar(cab + '<p class="cargando">Cargando…</p>', "Gestión");
     var filtro = almacen.leer("soporte:filtro", "abiertos");
     return Nube.todosSoportes().then(function (xs) {
-      var F = { abiertos: function (x) { return x.estado === "nuevo" || x.estado === "revision"; }, resueltos: function (x) { return x.estado === "resuelto"; }, descartados: function (x) { return x.estado === "descartado"; }, todos: function () { return true; } };
+      var F = { abiertos: function (x) { return x.estado === "nuevo" || x.estado === "revision"; }, resueltos: function (x) { return x.estado === "resuelto"; }, descartados: function (x) { return x.estado === "descartado"; }, equipo: function (x) { return esPostulacion(x); }, todos: function () { return true; } };
       if (!F[filtro]) filtro = "abiertos";
       var lista = xs.filter(F[filtro]).sort(function (a, b) { return String(b.creado).localeCompare(String(a.creado)); });
       var html = cab + '<section class="portada"><h1>Sugerencias y problemas</h1><p>Lo que participantes y relatores reportan sobre la plataforma y las formaciones. Responde aquí: cada persona ve tu respuesta en su página de sugerencias.</p></section>' +
         '<div class="filtros-soporte">' + Object.keys(F).map(function (k) { return '<button class="boton mini' + (k === filtro ? " principal" : "") + '" data-filtro="' + k + '">' + k[0].toUpperCase() + k.slice(1) + " (" + xs.filter(F[k]).length + ")</button>"; }).join("") + "</div>" +
         (lista.length ? lista.map(function (x) {
-          return '<section class="tarjeta soporte-admin" data-id="' + esc(x.id) + '"><div class="soporte-cab"><b>' + esc(TIPOS_SOPORTE[x.tipo] || x.tipo) + '</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
+          return '<section class="tarjeta soporte-admin" data-id="' + esc(x.id) + '"><div class="soporte-cab"><b>' + esc(etiquetaSoporte(x)) + '</b><span class="estado-soporte ' + esc(x.estado) + '">' + esc(ESTADOS_SOPORTE[x.estado] || x.estado) + "</span></div>" +
             '<p class="acomp-meta">' + esc(x.nombre || "") + " · " + esc(ROLES[x.rol] || x.rol || "") + " · " + esc(x.correo || "") + " · " + esc(fechaLarga(x.creado)) + "</p>" +
             '<p class="soporte-texto">' + esc(x.texto) + "</p>" + (x.pagina ? '<p class="acomp-meta">Página: <a href="' + esc(x.pagina) + '">' + esc(x.pagina) + "</a></p>" : "") +
             '<form class="formulario soporte-form"><label>Estado<select name="estado">' + Object.keys(ESTADOS_SOPORTE).map(function (k) { return '<option value="' + k + '"' + (k === x.estado ? " selected" : "") + ">" + ESTADOS_SOPORTE[k] + "</option>"; }).join("") + "</select></label>" +
@@ -2674,6 +2804,7 @@
     else if (partes[0] === "perfil") tarea = vistaPerfil();
     else if (partes[0] === "gestion") tarea = vistaGestion(partes[1]);
     else if (partes[0] && partes[0].split("?")[0] === "sugerencias") tarea = vistaSugerencias();
+    else if (partes[0] === "sumate") tarea = vistaSumate();
     else if (partes[0] === "mis-constancias") tarea = vistaMisConstancias();
     else if (partes[0] === "constancia" && partes[1]) tarea = vistaConstancia(partes[1]);
     else tarea = vistaInicio();

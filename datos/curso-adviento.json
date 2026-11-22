@@ -2,7 +2,7 @@
   "id": "adviento",
   "titulo": "Adviento: despiertos para recibirlo",
   "subtitulo": "Cuatro semanas para preparar la Navidad con la Palabra del domingo y diez minutos de oración al día",
-  "descripcion": "Un camino breve para vivir el Adviento 2026: un encuentro por semana con el Evangelio del domingo (ciclo B), los signos de este tiempo, un caso para pensar y una guía de oración diaria. Comienza el domingo 29 de noviembre y termina en Nochebuena. Sin evaluación: es una formación para rezarla.",
+  "descripcion": "Un camino breve para vivir el Adviento 2026: un encuentro por semana con el Evangelio del domingo (ciclo B), los signos de este tiempo, un caso para pensar y una guía de oración diaria. Comienza el domingo 29 de noviembre y termina en Nochebuena. Abierta para todos, sin inscripción ni evaluación: es una formación para rezarla.",
   "publico": "Para todos: jóvenes, dirigentes y familias",
   "categoria": "Fe",
   "nuevo": true,
@@ -11,6 +11,7 @@
   "tipo": "complementaria",
   "horas": 4,
   "recursos": {},
+  "abierto": true,
   "ejes": [
     "Las dos venidas de Cristo y los signos del Adviento",
     "Velar: despertar del piloto automático",

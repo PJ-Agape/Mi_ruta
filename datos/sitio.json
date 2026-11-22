@@ -76,5 +76,19 @@
       ]
     }
   ],
-  "propedeutico": "llamados"
+  "propedeutico": "llamados",
+  "temporada": [
+    {
+      "id": "adviento",
+      "desde": "2026-11-21",
+      "hasta": "2026-12-24",
+      "etiqueta": "Tiempo de Adviento",
+      "texto": "Cuatro semanas para preparar la Navidad: un encuentro por domingo con el Evangelio y diez minutos de oración al día. Abierta para todos, sin inscripción.",
+      "datos": [
+        "Desde el domingo 29 de noviembre",
+        "4 encuentros",
+        "A solas o en comunidad"
+      ]
+    }
+  ]
 }

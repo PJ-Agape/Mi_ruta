@@ -208,8 +208,12 @@ TEMPORADA = {
         "titulos": ["Estén atentos: despertar", "Preparen el camino: convertirse", "Testigos de la luz: la alegría", "Que se cumpla en mí: el sí de María"],
         "intro": "Cuatro encuentros, uno por cada domingo de Adviento, con los evangelios del ciclo B. Cada semana trae una guía de oración de diez minutos al día, para que la Navidad no pase como una fecha más del calendario. Se puede hacer a solas o con la comunidad. Comienza el domingo 29 de noviembre de 2026.",
         "ficha": {"subtitulo": "Cuatro semanas para preparar la Navidad con la Palabra del domingo y diez minutos de oración al día",
-                  "descripcion": "Un camino breve para vivir el Adviento 2026: un encuentro por semana con el Evangelio del domingo (ciclo B), los signos de este tiempo, un caso para pensar y una guía de oración diaria. Comienza el domingo 29 de noviembre y termina en Nochebuena. Sin evaluación: es una formación para rezarla.",
+                  "descripcion": "Un camino breve para vivir el Adviento 2026: un encuentro por semana con el Evangelio del domingo (ciclo B), los signos de este tiempo, un caso para pensar y una guía de oración diaria. Comienza el domingo 29 de noviembre y termina en Nochebuena. Abierta para todos, sin inscripción ni evaluación: es una formación para rezarla.",
                   "publico": "Para todos: jóvenes, dirigentes y familias"},
+        # Destacado en la portada entre estas fechas (inclusive).
+        "portada": {"desde": "2026-11-21", "hasta": "2026-12-24", "etiqueta": "Tiempo de Adviento",
+                    "texto": "Cuatro semanas para preparar la Navidad: un encuentro por domingo con el Evangelio y diez minutos de oración al día. Abierta para todos, sin inscripción.",
+                    "datos": ["Desde el domingo 29 de noviembre", "4 encuentros", "A solas o en comunidad"]},
     },
 }
 
@@ -385,7 +389,7 @@ def main():
     for tid in TEMPORADA:
         m = M[tid]
         ficha = {"id": tid, "titulo": m["titulo"], **m["ficha"], "categoria": m["categoria"], "nuevo": tid in NUEVOS_IDS,
-                 "duracion": "4 semanas · 4 encuentros", "modalidad": "En línea, a tu ritmo, o en grupo", "tipo": "complementaria", "horas": 4, "recursos": {}}
+                 "duracion": "4 semanas · 4 encuentros", "modalidad": "En línea, a tu ritmo, o en grupo", "tipo": "complementaria", "horas": 4, "recursos": {}, "abierto": True}
         mods = [{"id": tid, "numero": 1, "titulo": m["titulo"], "tipo": "obligatorio", "etiqueta": "Tiempo litúrgico",
                  "duracion": "4 semanas · 4 encuentros", "constancia": False, "requiere": [], "intro": m["intro"], "clases": m["clases"]}]
         escribir(tid, ficha, mods, {})
@@ -399,6 +403,7 @@ def main():
         escribir(mid, ficha, mods, m["evals"])
         lista.append(mid)
     sitio["cursos"] = [PROPEDEUTICO] + lista
+    sitio["temporada"] = [{"id": tid, **TEMPORADA[tid]["portada"]} for tid in TEMPORADA if "portada" in TEMPORADA[tid]]
     sitio["propedeutico"] = PROPEDEUTICO
     # Áreas de formación: cada una agrupa formaciones (de un ámbito, una institución o una persona).
     sitio["areas"] = [{
