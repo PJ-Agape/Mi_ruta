@@ -2376,8 +2376,30 @@
           if (n >= ANULACIONES_LIMITE) { u.anulaciones = n; return u.estado === "activo" && u.rol === "participante"; }
           return false;
         });
-                function filaPersona(x, extra) {
-          return '<li class="acomp-fila"><div><b>' + esc(x.u.nombre || x.u.correo) + '</b><span class="acomp-meta">' + esc(x.c.titulo) + (extra ? " · " + extra : "") + "</span></div>" + escribir(x.u) + "</li>";
+                // Correo con un mensaje cálido ya redactado, para llegar a quien no abre Mi Ruta (se envía desde el correo del relator).
+        function correoListo(x, caso) {
+          if (!x.u.correo) return "";
+          var nombre = String(x.u.nombre || "").split(" ")[0] || "";
+          var firma = (e.cuenta && e.cuenta.nombre) || "El equipo de Mi Ruta";
+          var curso = "«" + x.c.titulo + "»", asunto, cuerpo;
+          if (caso === "sin") {
+            asunto = "Tu formación en Mi Ruta te espera";
+            cuerpo = "Hola" + (nombre ? ", " + nombre : "") + ":\n\nTe escribo desde Mi Ruta. Ya tienes habilitada " + curso + " y quería animarte a dar el primer paso. La primera sesión toma alrededor de una hora y la puedes hacer cuando te acomode, desde el teléfono.\n\n" +
+              "Tienes hasta el " + fechaLarga(x.limite) + " para empezar. Si no alcanzas, liberamos el cupo para otra persona, y siempre podrás volver a pedirla más adelante.\n\nSi algo te está complicando, respóndeme este correo y lo vemos juntos.\n\nUn abrazo,\n" + firma;
+          } else if (caso === "vencer") {
+            asunto = "Te queda poco para completar " + x.c.titulo;
+            cuerpo = "Hola" + (nombre ? ", " + nombre : "") + ":\n\nTe escribo desde Mi Ruta para contarte que el plazo de " + (x.m ? "«" + x.m.titulo + "», en " : "") + curso + " vence el " + fechaLarga(x.vence) + ". Has avanzado y sería una pena perder ese camino.\n\n" +
+              "Si necesitas ayuda para terminar, o si algo se te complicó estas semanas, cuéntame. Para eso estamos.\n\nUn abrazo,\n" + firma;
+          } else {
+            asunto = "¿Cómo vas con " + x.c.titulo + "?";
+            cuerpo = "Hola" + (nombre ? ", " + nombre : "") + ":\n\nHace un tiempo que no te vemos por " + curso + " y quería saber cómo estás. Llevas " + x.hechas + " de " + x.total + " sesiones: " + (x.hechas * 2 >= x.total ? "ya hiciste más de la mitad del camino." : "ya diste los primeros pasos.") + "\n\n" +
+              "Si te sirve, retoma con la siguiente sesión cuando tengas un rato. Y si algo te detuvo, respóndeme este correo y buscamos juntos cómo seguir.\n\nUn abrazo,\n" + firma;
+          }
+          return '<a class="boton mini" href="mailto:' + encodeURIComponent(x.u.correo) + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpo) + '" title="Abre tu correo con un mensaje ya redactado">Correo</a>';
+        }
+        function filaPersona(x, extra, caso) {
+          return '<li class="acomp-fila"><div><b>' + esc(x.u.nombre || x.u.correo) + '</b><span class="acomp-meta">' + esc(x.c.titulo) + (extra ? " · " + extra : "") + "</span></div>" +
+            '<div class="acomp-botones">' + escribir(x.u) + (caso ? correoListo(x, caso) : "") + "</div></li>";
         }
         function bloque(id, titulo, n, cuerpo, vacio) {
           return '<section class="tarjeta acomp" id="' + id + '"><h2>' + titulo + ' <span class="insignia' + (n ? "" : " cero") + '">' + n + "</span></h2>" + (n ? cuerpo : '<p class="seccion-bajada">' + vacio + "</p>") + "</section>";
@@ -2395,7 +2417,13 @@
             (e.esAdmin ? '<a href="#/gestion/sugerencias" class="acomp-cifra' + (sopNuevos.length ? " alerta" : "") + '"><b>' + sopNuevos.length + "</b><span>sugerencias o problemas nuevos</span></a>" : "") +
           "</div>" +
           '<details class="tarjeta guia-tutor"><summary><b>Cómo acompañar en Mi Ruta</b></summary>' +
-            "<p>Las sesiones están pensadas para que cada participante las curse a su ritmo. El relator no dicta clases: <b>acompaña</b>.</p><ul>" +
+            "<p>Las sesiones están pensadas para que cada participante las curse a su ritmo. El relator no dicta clases: <b>acompaña</b>.</p>" +
+            "<p><b>Si es tu primera semana:</b></p><ol>" +
+            "<li>Recorre tú mismo la primera sesión de cada formación que acompañas, con la vista relator activada en tu perfil: verás las guías del taller.</li>" +
+            "<li>Da la bienvenida en el foro con un mensaje breve: quién eres y cómo pueden escribirte.</li>" +
+            "<li>Revisa esta página dos veces por semana. Los números destacados son lo que espera tu respuesta.</li>" +
+            "<li>A quien no empieza o se detuvo, escríbele: «Escribir» deja el mensaje en Mi Ruta y «Correo» abre tu correo con un mensaje ya redactado, que puedes ajustar.</li>" +
+            "<li>Si algo te supera, sobre todo una situación personal delicada, no lo cargues solo: avisa a la administración.</li></ol><ul>" +
             "<li><b>Responde los mensajes</b> dentro de 48 horas, aunque sea para decir «lo reviso y te contesto».</li>" +
             "<li><b>Anima el foro:</b> da la bienvenida a cada presentación, responde las dudas del programa y en cada debate devuelve una pregunta que haga pensar más, nombrando a quien escribió.</li>" +
             "<li><b>Orienta:</b> si alguien se detuvo, escríbele con cercanía, pregúntale cómo está y sugiérele el siguiente paso concreto.</li>" +
@@ -2414,13 +2442,13 @@
             }).join("") + "</ul>", "No hay videos pendientes de evaluación.") +
           (anuladas || desactivadas ? '<p class="aviso">Se aplicaron las reglas de plazos: ' + [anuladas ? anuladas + (anuladas === 1 ? " inscripción anulada" : " inscripciones anuladas") + " por no empezar en 1 semana" : "", desactivadas ? desactivadas + (desactivadas === 1 ? " formación desactivada" : " formaciones desactivadas") + " por cumplirse los 2 meses" : ""].filter(Boolean).join(" y ") + ".</p>" : "") +
           bloque("acomp-vencer", "Plazos que vencen en los próximos 7 días", porVencer.length,
-            '<ul class="acomp-lista">' + porVencer.map(function (x) { return filaPersona(x, (x.m ? esc(etiquetaModulo(x.m)) + " · " : "") + "vence el " + esc(fechaLarga(x.vence))); }).join("") + "</ul>",
+            '<ul class="acomp-lista">' + porVencer.map(function (x) { return filaPersona(x, (x.m ? esc(etiquetaModulo(x.m)) + " · " : "") + "vence el " + esc(fechaLarga(x.vence)), "vencer"); }).join("") + "</ul>",
             "Nadie tiene un plazo por vencer esta semana.") +
           bloque("acomp-detenidos", "Participantes detenidos (más de " + DIAS_INACTIVO + " días sin avanzar)", detenidos.length,
-            '<ul class="acomp-lista">' + detenidos.slice(0, 40).map(function (x) { return filaPersona(x, x.hechas + " de " + x.total + " sesiones · última actividad " + haceTexto(x.a.actualizado)); }).join("") + "</ul>",
+            '<ul class="acomp-lista">' + detenidos.slice(0, 40).map(function (x) { return filaPersona(x, x.hechas + " de " + x.total + " sesiones · última actividad " + haceTexto(x.a.actualizado), "detenido"); }).join("") + "</ul>",
             "Todos los que empezaron siguen avanzando.") +
           bloque("acomp-sin", "Inscritos que aún no empiezan", sinEmpezar.length,
-            '<ul class="acomp-lista">' + sinEmpezar.slice(0, 40).map(function (x) { return filaPersona(x, "sin sesiones completadas · se anula el " + esc(fechaLarga(x.limite))); }).join("") + "</ul>" +
+            '<ul class="acomp-lista">' + sinEmpezar.slice(0, 40).map(function (x) { return filaPersona(x, "sin sesiones completadas · se anula el " + esc(fechaLarga(x.limite)), "sin"); }).join("") + "</ul>" +
             (sinEmpezar.length > 40 ? '<p class="seccion-bajada">Y ' + (sinEmpezar.length - 40) + " más.</p>" : ""),
             "Todos los inscritos ya empezaron.") +
           (conversar.length ? bloque("acomp-conversar", "Requieren conversación", conversar.length,
